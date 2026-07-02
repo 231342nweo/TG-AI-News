@@ -52,8 +52,8 @@
     },
     "zai-huggingface": {
       "models": {
-        "zai-org/GLM-5.2": "2026-06-23T03:56:16.000Z",
-        "zai-org/GLM-5.2-FP8": "2026-06-23T03:55:34.000Z",
+        "zai-org/GLM-5.2-FP8": "2026-07-02T08:09:27.000Z",
+        "zai-org/GLM-5.2": "2026-07-02T08:08:14.000Z",
         "zai-org/SCAIL-2": "2026-06-22T08:23:40.000Z",
         "zai-org/GLM-OCR": "2026-05-19T12:28:43.000Z",
         "zai-org/GLM-5.1": "2026-05-13T08:10:58.000Z",
@@ -74,7 +74,8 @@
         "zai-org/GLM-4.6V-Flash": "2025-12-09T18:06:43.000Z"
       },
       "last_checked_at": "2026-07-02T04:51:33.147542Z",
-      "baseline_initialized": true
+      "baseline_initialized": true,
+      "last_changed_at": "2026-07-02T08:15:36.380442Z"
     },
     "minimax-platform": {
       "fingerprint": "e554f9891deecabc1def2204141eb4d6ec542374cc5f28ba38fd0ba2f7fa2e21",
@@ -817,8 +818,8 @@
         "https://www.tc260.org.cn/portal/article/1/a6d21a769f07420f818f6bed6797c618",
         "https://www.tc260.org.cn/portal/article/1/4541a22bb6f542b5ae7c37ffe0d914aa",
         "https://www.tc260.org.cn/portal/article/1/7ddf0e21844548ccacf5f520a0b5b673",
-        "https://www.tc260.org.cn/portal/article/1/e159d8380a964bb69feb9834fd8126e2",
         "https://www.tc260.org.cn/portal/article/1/3a56c5e4868f4e17ac8d71cc2daf2ec6",
+        "https://www.tc260.org.cn/portal/article/1/e159d8380a964bb69feb9834fd8126e2",
         "https://www.tc260.org.cn/portal/article/2/a54aac5d7237421caea024fdeb55b252",
         "https://www.tc260.org.cn/portal/article/2/dfde7d57db9b4d5697c202fdec722ae4",
         "https://www.tc260.org.cn/portal/article/2/71c613fd3db34b6a9da62f25b8219733",
@@ -843,7 +844,7 @@
       ],
       "last_checked_at": "2026-07-02T04:52:25.829528Z",
       "baseline_initialized": true,
-      "last_changed_at": "2026-07-02T07:44:40.102995Z"
+      "last_changed_at": "2026-07-02T08:17:30.288772Z"
     },
     "founderpark-website": {
       "seen_keys": [],
