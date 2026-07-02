@@ -3,7 +3,9 @@ from __future__ import annotations
 import hashlib
 import gzip
 import json
+import os
 import re
+import subprocess
 import time
 import urllib.parse
 import urllib.request
@@ -125,6 +127,7 @@ class _HTMLLinkExtractor(HTMLParser):
         self.links: list[tuple[str, str]] = []
         self.title_parts: list[str] = []
         self._href: str | None = None
+        self._link_fallback_text = ""
         self._link_parts: list[str] = []
         self._in_title = False
         self._ignored_depth = 0
@@ -142,6 +145,9 @@ class _HTMLLinkExtractor(HTMLParser):
             href = attr_map.get("href", "").strip()
             if href:
                 self._href = href
+                self._link_fallback_text = (
+                    attr_map.get("aria-label", "").strip() or attr_map.get("title", "").strip()
+                )
                 self._link_parts = []
 
     def handle_endtag(self, tag: str) -> None:
@@ -154,8 +160,11 @@ class _HTMLLinkExtractor(HTMLParser):
             return
         if tag == "a" and self._href:
             text = " ".join(" ".join(self._link_parts).split())
+            if not text:
+                text = self._link_fallback_text
             self.links.append((self._href, unescape(text).strip()))
             self._href = None
+            self._link_fallback_text = ""
             self._link_parts = []
 
     def handle_data(self, data: str) -> None:
@@ -285,14 +294,7 @@ def fetch_text(url: str, timeout: int = 20, retries: int = 2) -> str:
     if parsed.scheme in {"http", "https"}:
         request = urllib.request.Request(
             url,
-            headers={
-                "User-Agent": USER_AGENT,
-                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,application/rss+xml,application/atom+xml,text/xml,*/*;q=0.8",
-                "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
-                "Accept-Encoding": "identity",
-                "Cache-Control": "no-cache",
-                "Connection": "close",
-            },
+            headers=request_headers(url),
         )
         last_error: Exception | None = None
         for attempt in range(retries + 1):
@@ -310,12 +312,69 @@ def fetch_text(url: str, timeout: int = 20, retries: int = 2) -> str:
                 last_error = exc
                 if attempt < retries:
                     time.sleep(1 + attempt)
+        curl_text = fetch_text_with_curl(url, timeout=timeout)
+        if curl_text is not None:
+            return curl_text
         raise last_error or RuntimeError(f"failed to fetch {url}")
 
     if parsed.scheme == "file":
         return Path(urllib.request.url2pathname(parsed.path)).read_text(encoding="utf-8")
 
     return Path(url).read_text(encoding="utf-8")
+
+
+def fetch_text_with_curl(url: str, timeout: int = 20) -> str | None:
+    args = [
+        "curl",
+        "-L",
+        "--max-time",
+        str(timeout),
+        "-A",
+        USER_AGENT,
+        "-H",
+        "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,application/rss+xml,application/atom+xml,text/xml,*/*;q=0.8",
+        "-H",
+        "Accept-Language: zh-CN,zh;q=0.9,en;q=0.8",
+    ]
+    token = github_api_token(url)
+    if token:
+        args.extend(["-H", f"Authorization: Bearer {token}", "-H", "X-GitHub-Api-Version: 2022-11-28"])
+    args.extend(["-sS", url])
+    try:
+        result = subprocess.run(
+            args,
+            check=False,
+            capture_output=True,
+            timeout=timeout + 5,
+        )
+    except Exception:  # noqa: BLE001 - curl is only a best-effort fallback.
+        return None
+    if result.returncode != 0 or not result.stdout:
+        return None
+    return result.stdout.decode("utf-8", errors="replace")
+
+
+def request_headers(url: str) -> dict[str, str]:
+    headers = {
+        "User-Agent": USER_AGENT,
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,application/rss+xml,application/atom+xml,text/xml,*/*;q=0.8",
+        "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+        "Accept-Encoding": "identity",
+        "Cache-Control": "no-cache",
+        "Connection": "close",
+    }
+    token = github_api_token(url)
+    if token:
+        headers["Authorization"] = f"Bearer {token}"
+        headers["X-GitHub-Api-Version"] = "2022-11-28"
+    return headers
+
+
+def github_api_token(url: str) -> str:
+    parsed = urllib.parse.urlparse(url)
+    if parsed.netloc.lower() != "api.github.com":
+        return ""
+    return os.environ.get("GITHUB_TOKEN", "").strip()
 
 
 def source_fetch_candidates(source: Source) -> list[str]:
@@ -474,6 +533,14 @@ def parse_html_links(html_text: str, source: Source) -> tuple[list[tuple[str, st
         "sign up",
         "docs",
         "pricing",
+        "blog",
+        "publication",
+        "about",
+        "next",
+        "next »",
+        "previous",
+        "qwen",
+        "try qwen chat",
     }
     for href, text in parser.links:
         if not href or href.startswith(("#", "javascript:", "mailto:", "tel:")):
@@ -484,44 +551,161 @@ def parse_html_links(html_text: str, source: Source) -> tuple[list[tuple[str, st
             continue
         if source_host and parsed.netloc and parsed.netloc != source_host:
             continue
-        clean_text = " ".join(text.split())
+        clean_text = clean_link_title(text, absolute_url)
         if len(clean_text) < 4 or len(clean_text) > 180:
             continue
         if clean_text.lower() in ignored_text:
             continue
+        if not should_keep_html_link(source, absolute_url, clean_text):
+            continue
         links.append((absolute_url, clean_text))
     return links, parser.get_title()
+
+
+def should_keep_html_link(source: Source, url: str, title: str) -> bool:
+    parsed = urllib.parse.urlparse(url)
+    path_parts = [part for part in parsed.path.strip("/").split("/") if part]
+    normalized_title = title.strip().lower()
+
+    if source.id == "kimi-forum":
+        if normalized_title == "announcement":
+            return False
+        return len(path_parts) >= 2 and path_parts[0] == "t" and path_parts[-1].isdigit()
+
+    if source.id == "qwen-blog":
+        return len(path_parts) == 2 and path_parts[0] == "blog"
+
+    return True
+
+
+def clean_link_title(text: str, url: str) -> str:
+    clean_text = " ".join(unescape(text).split())
+    lower = clean_text.lower()
+    for prefix in ("post link to ", "topic link to "):
+        if lower.startswith(prefix):
+            clean_text = clean_text[len(prefix) :].strip()
+            break
+    if clean_text:
+        return clean_text
+    return title_from_url(url)
+
+
+def title_from_url(url: str) -> str:
+    parsed = urllib.parse.urlparse(url)
+    parts = [part for part in parsed.path.strip("/").split("/") if part]
+    if not parts:
+        return ""
+    slug = urllib.parse.unquote(parts[-1])
+    if slug.isdigit() and len(parts) >= 2:
+        slug = urllib.parse.unquote(parts[-2])
+    slug = re.sub(r"[-_]+", " ", slug)
+    return " ".join(word.capitalize() for word in slug.split()).strip()
+
+
+def parse_embedded_html_items(html_text: str, source: Source) -> list[NewsItem]:
+    items: list[NewsItem] = []
+    seen: set[str] = set()
+
+    embedded_patterns = [
+        r'title:"(?P<title>(?:\\.|[^"\\])+)".{0,500}?create_time:"(?P<date>(?:\\.|[^"\\])+)".{0,500}?uuid:"(?P<id>(?:\\.|[^"\\])+)".{0,500}?content:"(?P<summary>(?:\\.|[^"\\])*)"',
+        r'content:"(?P<summary>(?:\\.|[^"\\])*)".{0,500}?title:"(?P<title>(?:\\.|[^"\\])+)".{0,500}?create_time:"(?P<date>(?:\\.|[^"\\])+)".{0,500}?uuid:"(?P<id>(?:\\.|[^"\\])*)"',
+    ]
+    for pattern in embedded_patterns:
+        for match in re.finditer(pattern, html_text, flags=re.DOTALL):
+            raw_title = decode_js_string(match.group("title"))
+            key = raw_title
+            if key in seen:
+                continue
+            seen.add(key)
+            item_id = decode_js_string(match.group("id"))
+            date_text = decode_js_string(match.group("date"))
+            summary = strip_html(decode_js_string(match.group("summary")))
+            items.append(
+                NewsItem(
+                    title=raw_title,
+                    url=f"{source.url.rstrip('/')}/?item={urllib.parse.quote(item_id or raw_title)}",
+                    summary=summary or f"{source.name} 页面内嵌数据发现：{raw_title}",
+                    published_at=iso_or_none(parse_datetime(date_text) or parse_date_from_text(date_text)),
+                    source_id=source.id,
+                    source_name=source.name,
+                    tags=[tag for tag in [source.entity, source.category, source.method, source.priority] if tag],
+                    score=0.0,
+                )
+            )
+
+    for match in re.finditer(
+        r'<article\b(?P<body>.*?)</article>',
+        html_text,
+        flags=re.DOTALL | re.IGNORECASE,
+    ):
+        body = match.group("body")
+        title_match = re.search(r"<h[1-3][^>]*>(.*?)</h[1-3]>", body, flags=re.DOTALL | re.IGNORECASE)
+        href_match = re.search(r'href=(["\']?)(?P<href>https?://[^"\'\s>]+|/[^"\'\s>]+)', body, flags=re.IGNORECASE)
+        if not title_match or not href_match:
+            continue
+        title = strip_html(title_match.group(1))
+        if not title or title in seen:
+            continue
+        seen.add(title)
+        href = href_match.group("href")
+        url = urllib.parse.urljoin(source.url, href)
+        summary_match = re.search(r'<div[^>]+class=["\'][^"\']*entry-content[^"\']*["\'][^>]*>(.*?)</div>', body, flags=re.DOTALL | re.IGNORECASE)
+        date_match = re.search(r"<span[^>]+title=['\"]([^'\"]+)['\"]", body, flags=re.IGNORECASE)
+        items.append(
+            NewsItem(
+                title=title,
+                url=url,
+                summary=strip_html(summary_match.group(1)) if summary_match else f"{source.name} 文章：{title}",
+                published_at=iso_or_none(parse_datetime(date_match.group(1)) if date_match else None),
+                source_id=source.id,
+                source_name=source.name,
+                tags=[tag for tag in [source.entity, source.category, source.method, source.priority] if tag],
+                score=0.0,
+            )
+        )
+
+    return items
+
+
+def decode_js_string(value: str) -> str:
+    try:
+        return json.loads(f'"{value}"')
+    except json.JSONDecodeError:
+        return value.replace(r"\/", "/").replace(r"\u002F", "/").replace(r"\"", '"')
 
 
 def parse_html_list(html_text: str, source: Source) -> list[NewsItem]:
     links, page_title = parse_html_links(html_text, source)
     items: list[NewsItem] = []
     seen: set[str] = set()
-    for url, title in links:
+    link_items = [
+        NewsItem(
+            title=title,
+            url=url,
+            summary=f"{source.name} 列表页发现：{title}",
+            published_at=iso_or_none(parse_date_from_text(f"{title} {url}")),
+            source_id=source.id,
+            source_name=source.name,
+            tags=[tag for tag in [source.entity, source.category, source.method, source.priority, page_title] if tag],
+            score=0.0,
+        )
+        for url, title in links
+    ]
+    for item in [*link_items, *parse_embedded_html_items(html_text, source)]:
+        url = item.url
+        title = item.title
         key = canonical_url(url)
         if key in seen:
             continue
         seen.add(key)
-        published = parse_date_from_text(f"{title} {url}")
-        items.append(
-            NewsItem(
-                title=title,
-                url=url,
-                summary=f"{source.name} 列表页发现：{title}",
-                published_at=iso_or_none(published),
-                source_id=source.id,
-                source_name=source.name,
-                tags=[tag for tag in [source.entity, source.category, source.method, source.priority, page_title] if tag],
-                score=0.0,
-            )
-        )
+        items.append(item)
         if len(items) >= 30:
             break
     return items
 
 
 def policy_keyword_match(item: NewsItem) -> bool:
-    haystack = f"{item.title}\n{item.url}\n{item.summary}".lower()
+    haystack = f"{item.title}\n{item.url}".lower()
     return any(keyword_present(haystack, keyword) for keyword in POLICY_LIST_KEYWORDS)
 
 

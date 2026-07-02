@@ -8,7 +8,7 @@ from unittest.mock import patch
 from tempfile import TemporaryDirectory
 
 from ai_news_radar.cli import run_digest
-from ai_news_radar.core import NewsItem, Source, collect_news, is_noise_item, parse_feed
+from ai_news_radar.core import NewsItem, Source, collect_news, is_noise_item, parse_feed, parse_html_list
 from ai_news_radar.telegram import chinese_focus, chunk_message, format_time, render_html
 from ai_news_radar.translator import apply_translation_payload, extract_response_text, parse_json_object
 
@@ -243,6 +243,93 @@ class CoreTest(unittest.TestCase):
             self.assertEqual(len(second_items), 1)
             self.assertEqual(second_items[0].title, "新智能体模型发布")
 
+    def test_html_list_uses_aria_label_for_empty_links(self) -> None:
+        source = Source(id="qwen-blog", name="Qwen Blog", url="https://qwenlm.github.io/blog/", method="html_list")
+        html = """
+        <article class=post-entry>
+          <header class=entry-header><h2>Qwen3Guard: Real-time Safety for Your Token Stream</h2></header>
+          <a class=entry-link aria-label="post link to Qwen3Guard: Real-time Safety for Your Token Stream" href=https://qwenlm.github.io/blog/qwen3guard/></a>
+        </article>
+        """
+
+        items = parse_html_list(html, source)
+
+        self.assertEqual(len(items), 1)
+        self.assertEqual(items[0].title, "Qwen3Guard: Real-time Safety for Your Token Stream")
+
+    def test_html_list_filters_qwen_navigation_links(self) -> None:
+        source = Source(id="qwen-blog", name="Qwen Blog", url="https://qwenlm.github.io/blog/", method="html_list")
+        html = """
+        <a href="https://qwenlm.github.io/">Qwen (Alt + H)</a>
+        <a href="https://qwenlm.github.io/zh/blog/">简体中文</a>
+        <a aria-label="post link to Qwen-Image-Edit: Image Editing with Higher Quality and Efficiency" href="https://qwenlm.github.io/blog/qwen-image-edit/"></a>
+        """
+
+        items = parse_html_list(html, source)
+
+        self.assertEqual([item.title for item in items], ["Qwen-Image-Edit: Image Editing with Higher Quality and Efficiency"])
+
+    def test_html_list_filters_kimi_forum_navigation_links(self) -> None:
+        source = Source(
+            id="kimi-forum",
+            name="Kimi 论坛公告",
+            url="https://forum.moonshot.ai/c/announcement/5",
+            method="html_list",
+        )
+        html = """
+        <a href="/c/announcement/5">Announcement</a>
+        <a href="/u/Cellen">Cellen</a>
+        <a href="/tag/kimi-k27/25">Kimi K27</a>
+        <a href="/t/here-comes-kimi-k2-7-code-better-coding-with-more-efficiency/441">Here Comes Kimi K2 7 Code Better Coding With More Efficiency</a>
+        """
+
+        items = parse_html_list(html, source)
+
+        self.assertEqual(
+            [item.url for item in items],
+            ["https://forum.moonshot.ai/t/here-comes-kimi-k2-7-code-better-coding-with-more-efficiency/441"],
+        )
+
+    def test_policy_keyword_match_ignores_synthetic_source_summary(self) -> None:
+        with TemporaryDirectory() as tmp:
+            page = Path(tmp) / "policy.html"
+            page.write_text(
+                '<a href="https://www.cac.gov.cn/gzzt/ztzl/yjzt/xjpsx/">学习习近平新时代中国特色社会主义思想</a>',
+                encoding="utf-8",
+            )
+
+            items = collect_news(
+                {
+                    "settings": {"window_hours": 48, "limit": 5, "min_score": 1},
+                    "keywords": ["人工智能", "AI", "政策"],
+                    "sources": [
+                        {
+                            "id": "policy",
+                            "name": "国家网信办生成式 AI 备案公告",
+                            "url": str(page),
+                            "method": "policy_keyword_html",
+                        }
+                    ],
+                },
+                now=datetime(2026, 7, 2, 12, tzinfo=timezone.utc),
+            )[0]
+
+            self.assertEqual(items, [])
+
+    def test_html_list_extracts_embedded_nuxt_blog_items(self) -> None:
+        source = Source(id="openbmb-website", name="OpenBMB 官网", url="https://openbmb.cn/", method="html_list")
+        html = (
+            '<script>window.__NUXT__={data:[{content:"今天，我们发布新版本",'
+            'title:"基座上新：MiniCPM 4.1 将「高效深思考」引入端侧",'
+            'create_time:"2025年10月29 16:00",'
+            'uuid:"40072c93d9e14054a871fb6e84aca8ad"}]}</script>'
+        )
+
+        items = parse_html_list(html, source)
+
+        self.assertEqual(len(items), 1)
+        self.assertIn("MiniCPM 4.1", items[0].title)
+
     def test_html_diff_uses_state_baseline_before_emitting(self) -> None:
         with TemporaryDirectory() as tmp:
             root = Path(tmp)
@@ -385,7 +472,7 @@ class CoreTest(unittest.TestCase):
             self.assertEqual(len(second_items), 1)
             self.assertIn("OpenXLab-APP/MindSearch", second_items[0].title)
 
-    def test_send_mode_sends_empty_digest_heartbeat(self) -> None:
+    def test_send_mode_skips_empty_digest(self) -> None:
         with TemporaryDirectory() as tmp:
             root = Path(tmp)
             config = root / "sources.json"
@@ -409,8 +496,7 @@ class CoreTest(unittest.TestCase):
                 result = run_digest(args)
 
             self.assertEqual(result, 0)
-            send.assert_called_once()
-            self.assertIn("本轮没有新消息。", send.call_args.args[0])
+            send.assert_not_called()
 
 
 if __name__ == "__main__":

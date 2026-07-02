@@ -35,7 +35,6 @@ class SourcesCatalogTest(unittest.TestCase):
             enabled_methods,
             {
                 "github_repos_api",
-                "github_atom",
                 "html_diff",
                 "html_list",
                 "huggingface_api",
@@ -50,7 +49,7 @@ class SourcesCatalogTest(unittest.TestCase):
 
         self.assertEqual({source["name"] for source in media}, {"机器之心", "量子位", "Founder Park"})
         founder_park = next(source for source in media if source["name"] == "Founder Park")
-        self.assertEqual(founder_park["method"], "html_list")
+        self.assertEqual(founder_park["method"], "html_diff")
         self.assertTrue(founder_park.get("enabled", True))
 
     def test_old_overseas_general_ai_sources_are_removed(self) -> None:

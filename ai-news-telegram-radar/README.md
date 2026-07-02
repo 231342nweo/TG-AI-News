@@ -159,7 +159,7 @@ python3 -m ai_news_radar run --config config/sources.json --send --show
 
 这个项目已经带了 `.github/workflows/telegram-news.yml`，默认每 5 分钟跑一次。
 
-工作流会把 `data/source-state.json` 提交回仓库，用来记住已经发过的链接和页面指纹；没有新内容时会向频道发送“本轮没有新消息”提醒。
+工作流会把 `data/source-state.json` 提交回仓库，用来记住已经发过的链接和页面指纹；没有新内容时保持静默，有新内容才向频道发送提醒。
 
 当前本地 Codex 自动任务已经停用，建议后续只保留 GitHub Actions 云端运行，避免本机和云端同时检查同一频道。
 
