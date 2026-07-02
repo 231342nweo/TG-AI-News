@@ -45,14 +45,7 @@ jobs:
         working-directory: .
         run: |
           if [ -f codex-sync.patch.b64 ]; then
-            python3 - <<'PY'
-          import base64
-          from pathlib import Path
-          encoded = Path('codex-sync.patch.b64').read_text(encoding='utf-8').strip()
-          raw = base64.b64decode(encoded)
-          Path('codex-sync.patch').write_bytes(raw)
-          print(f'Decoded Codex patch: {len(raw)} bytes')
-          PY
+            python3 -c "import base64, pathlib; encoded = pathlib.Path('codex-sync.patch.b64').read_text(encoding='utf-8').strip(); raw = base64.b64decode(encoded); pathlib.Path('codex-sync.patch').write_bytes(raw); print(f'Decoded Codex patch: {len(raw)} bytes')"
           fi
           if [ -f codex-sync.patch ]; then
             git config user.name "github-actions[bot]"
