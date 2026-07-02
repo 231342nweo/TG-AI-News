@@ -52,8 +52,9 @@ jobs:
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git apply --check --verbose codex-sync.patch
             git apply codex-sync.patch
-            rm -f codex-sync.patch codex-sync.patch.b64
-            git add ai-news-telegram-radar codex-sync.patch codex-sync.patch.b64
+            rm -f codex-sync.patch
+            git rm -f --ignore-unmatch codex-sync.patch.b64
+            git add ai-news-telegram-radar
             if git diff --cached --quiet; then
               echo "No pending Codex patch changes."
             else
@@ -75,7 +76,7 @@ jobs:
           if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.mode }}" = "daemon" ]; then
             mode="daemon"
             cycles="${{ inputs.cycles }}"
-          elif [ "${{ github.event_name }}" = "push" ]; then
+          elif [ "${{ github.event_name}" = "push" ]; then
             mode="daemon"
             cycles="60"
           fi
