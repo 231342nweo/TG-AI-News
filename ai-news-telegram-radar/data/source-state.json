@@ -378,11 +378,15 @@
       "last_checked_at": "2026-07-02T04:51:40.485322Z",
       "baseline_initialized": true,
       "repos": {
+        "zai-org/GLM-5": "2026-06-20T04:22:09Z",
+        "zai-org/GLM-4": "2025-07-04T04:16:36Z",
+        "zai-org/CodeGeeX": "2024-08-13T05:59:38Z",
+        "zai-org/GLM-OCR": "2026-04-21T08:52:11Z",
+        "zai-org/SCAIL-2": "2026-06-21T14:21:19Z",
+        "zai-org/GLM-4.5": "2026-02-01T08:28:10Z",
         "zai-org/CogVideo": "2025-11-04T11:19:04Z",
         "zai-org/ChatGLM-6B": "2024-06-27T04:05:25Z",
-        "zai-org/GLM-OCR": "2026-04-21T08:52:11Z",
         "zai-org/Open-AutoGLM": "2026-03-06T08:38:39Z",
-        "zai-org/GLM-5": "2026-06-20T04:22:09Z",
         "zai-org/SCAIL": "2026-05-06T14:59:54Z",
         "zai-org/ImageReward": "2025-10-29T13:40:51Z",
         "zai-org/ChatGLM3": "2025-01-13T06:55:26Z",
@@ -391,15 +395,11 @@
         "zai-org/SCAIL-Pose": "2026-06-11T02:23:37Z",
         "zai-org/zai-coding-plugins": "2026-02-22T15:51:20Z",
         "zai-org/GLM-skills": "2026-04-15T12:28:08Z",
-        "zai-org/SCAIL-2": "2026-06-21T14:21:19Z",
         "zai-org/VisionReward": "2025-03-26T10:07:04Z",
         "zai-org/GLM-130B": "2023-07-25T09:01:49Z",
-        "zai-org/GLM-4.5": "2026-02-01T08:28:10Z",
-        "zai-org/CodeGeeX2": "2024-07-10T12:34:55Z",
-        "zai-org/GLM-4-Voice": "2024-12-05T07:10:01Z",
-        "zai-org/ComplexFuncBench": "2025-01-20T03:04:21Z"
+        "zai-org/CodeGeeX2": "2024-07-10T12:34:55Z"
       },
-      "last_changed_at": "2026-07-02T17:25:51.348106Z"
+      "last_changed_at": "2026-07-02T21:32:33.316283Z"
     },
     "minimax-github": {
       "seen_keys": [],
@@ -616,28 +616,28 @@
       "last_checked_at": "2026-07-02T04:52:01.889603Z",
       "baseline_initialized": true,
       "repos": {
-        "Tencent-Hunyuan/Hunyuan3D-2.1": "2025-10-17T10:10:07Z",
+        "Tencent-Hunyuan/HY-SOAR": "2026-04-21T16:45:31Z",
+        "Tencent-Hunyuan/HY-Motion-1.0": "2026-05-25T03:42:57Z",
         "Tencent-Hunyuan/Hunyuan3D-2": "2025-10-28T09:58:12Z",
+        "Tencent-Hunyuan/HunyuanImage-3.0": "2026-06-23T13:12:44Z",
+        "Tencent-Hunyuan/HY-World-2.0": "2026-05-27T07:25:04Z",
+        "Tencent-Hunyuan/UniRL": "2026-07-02T13:00:54Z",
+        "Tencent-Hunyuan/Hunyuan3D-2.1": "2025-10-17T10:10:07Z",
         "Tencent-Hunyuan/Hy-MT": "2026-06-01T11:38:04Z",
         "Tencent-Hunyuan/Hy-Embodied-0.5-VLA": "2026-07-01T07:18:56Z",
         "Tencent-Hunyuan/HunyuanOCR": "2026-07-02T06:22:04Z",
         "Tencent-Hunyuan/HunyuanVideo": "2026-06-29T09:33:50Z",
         "Tencent-Hunyuan/HunyuanVideo-1.5": "2026-04-10T06:14:59Z",
-        "Tencent-Hunyuan/HY-SOAR": "2026-04-21T16:45:31Z",
         "Tencent-Hunyuan/GEAR": "2026-07-01T03:15:10Z",
         "Tencent-Hunyuan/SAGE-GRPO": "2026-04-02T06:08:46Z",
         "Tencent-Hunyuan/HY-WorldPlay": "2026-06-10T07:10:23Z",
-        "Tencent-Hunyuan/UniRL": "2026-07-02T13:00:54Z",
-        "Tencent-Hunyuan/HY-World-2.0": "2026-05-27T07:25:04Z",
         "Tencent-Hunyuan/HunyuanWorld-Mirror": "2026-05-27T03:22:57Z",
         "Tencent-Hunyuan/HunyuanWorld-1.0": "2026-04-15T17:27:25Z",
         "Tencent-Hunyuan/HunyuanCustom": "2025-10-15T06:54:23Z",
         "Tencent-Hunyuan/MixGRPO": "2026-07-01T10:49:26Z",
-        "Tencent-Hunyuan/HunyuanVideo-Avatar": "2025-12-16T12:32:46Z",
-        "Tencent-Hunyuan/HunyuanImage-3.0": "2026-06-23T13:12:44Z",
-        "Tencent-Hunyuan/Hunyuan3D-Omni": "2025-10-17T10:13:05Z"
+        "Tencent-Hunyuan/HunyuanVideo-Avatar": "2025-12-16T12:32:46Z"
       },
-      "last_changed_at": "2026-07-02T17:25:51.348106Z"
+      "last_changed_at": "2026-07-02T21:32:33.316283Z"
     },
     "qbitai-rss": {
       "seen_keys": [
@@ -1093,8 +1093,8 @@
         "https://www.tc260.org.cn/portal/article/1/3a56c5e4868f4e17ac8d71cc2daf2ec6",
         "https://www.tc260.org.cn/portal/article/2/a54aac5d7237421caea024fdeb55b252",
         "https://www.tc260.org.cn/portal/article/2/dfde7d57db9b4d5697c202fdec722ae4",
-        "https://www.tc260.org.cn/portal/article/2/1911acff3c7a47a7958759dac2804c92",
         "https://www.tc260.org.cn/portal/article/2/71c613fd3db34b6a9da62f25b8219733",
+        "https://www.tc260.org.cn/portal/article/2/1911acff3c7a47a7958759dac2804c92",
         "https://www.tc260.org.cn/portal/suggestion-detail/070bd0f2bab446be9e293e491a786a76",
         "https://www.tc260.org.cn/portal/suggestion-detail/1a45ecd9ace34f94a40de59fc25b1fd6",
         "https://www.tc260.org.cn/portal/suggestion-detail/35f737c28f85459ba1f379ad1d0992ff",
@@ -1104,7 +1104,7 @@
       ],
       "last_checked_at": "2026-07-02T04:52:25.829528Z",
       "baseline_initialized": true,
-      "last_changed_at": "2026-07-02T20:15:32.659486Z",
+      "last_changed_at": "2026-07-02T21:33:41.020373Z",
       "source_signature": "ac7adf7536607ad1dc8d9ca06c0f10f499a52b1893dcc2d8ec03dd7b6240b921",
       "baseline_reinitialized_at": "2026-07-02T10:23:25.737100Z"
     },
