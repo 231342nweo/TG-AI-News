@@ -81,10 +81,10 @@ def run_digest(args: argparse.Namespace) -> int:
             print(f"- {status.source_name}: {status.error}")
 
     if args.send:
-        send_telegram_message(html_message)
         if not items:
-            print("Telegram 无新消息提醒已发送。")
+            print("本轮没有新消息，已跳过 Telegram 发送。")
         else:
+            send_telegram_message(html_message)
             print("Telegram 摘要已发送。")
     else:
         print("预览完成。配置好 TELEGRAM_BOT_TOKEN 和 TELEGRAM_CHAT_ID 后，加 --send 即可发送。")
