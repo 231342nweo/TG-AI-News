@@ -45,12 +45,19 @@ jobs:
         working-directory: .
         run: |
           if [ -f codex-sync.patch.b64 ]; then
-            base64 -d codex-sync.patch.b64 > codex-sync.patch
+            python3 - <<'PY'
+          import base64
+          from pathlib import Path
+          encoded = Path('codex-sync.patch.b64').read_text(encoding='utf-8').strip()
+          raw = base64.b64decode(encoded)
+          Path('codex-sync.patch').write_bytes(raw)
+          print(f'Decoded Codex patch: {len(raw)} bytes')
+          PY
           fi
           if [ -f codex-sync.patch ]; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git apply --check codex-sync.patch
+            git apply --check --verbose codex-sync.patch
             git apply codex-sync.patch
             rm -f codex-sync.patch codex-sync.patch.b64
             git add ai-news-telegram-radar codex-sync.patch codex-sync.patch.b64
