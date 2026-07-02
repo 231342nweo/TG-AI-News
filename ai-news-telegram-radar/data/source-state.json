@@ -160,12 +160,12 @@
       "baseline_invalid": true
     },
     "volcengine-ark-models": {
-      "fingerprint": "043d3a44738c19f47d3629b6c4ffdb26edb2a7d6af76f345e8b55ad0a2f6c262",
+      "fingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "last_checked_at": "2026-07-02T04:51:33.147542Z",
-      "last_excerpt": "文档中心 简体 文档 控制台 登录 免费开始使用 火山方舟 文档指南 订阅 [Agent/Coding Plan] API参考 资源 火山方舟 火山方舟 文档指南 请输入 入门 产品简介 快速入门 模型列表 模型价格 最新模型：Seed 2.1 调用 文本生成 多模态理解 图片理解 视频理解 文档理解 音频理解 视频生成 Doubao Seedance 2.0 系列教程 Doubao Seedance 2.0 系列提示词指南 视频生成教程 私域真人人像库 私域真人人像素材资产",
+      "last_excerpt": "",
       "baseline_initialized": true,
       "baseline_invalid": true,
-      "last_changed_at": "2026-07-02T09:42:37.563455Z"
+      "last_changed_at": "2026-07-02T09:49:14.859004Z"
     },
     "volcengine-ark-updates": {
       "seen_keys": [
@@ -358,7 +358,7 @@
       "last_checked_at": "2026-07-02T04:51:37.867265Z",
       "baseline_initialized": true,
       "repos": {
-        "MoonshotAI/kimi-code": "2026-07-02T09:41:27Z",
+        "MoonshotAI/kimi-code": "2026-07-02T09:47:17Z",
         "MoonshotAI/Kimi-K2": "2026-01-21T05:33:12Z",
         "MoonshotAI/Attention-Residuals": "2026-03-17T06:23:11Z",
         "MoonshotAI/kimi-cli": "2026-06-22T12:35:05Z",
@@ -379,7 +379,7 @@
         "MoonshotAI/kimi-code-zed-extension": "2026-01-20T18:06:03Z",
         "MoonshotAI/pykaos": "2025-12-26T14:52:32Z"
       },
-      "last_changed_at": "2026-07-02T09:42:37.563455Z"
+      "last_changed_at": "2026-07-02T09:49:14.859004Z"
     },
     "zai-github": {
       "seen_keys": [],
@@ -596,7 +596,7 @@
       "last_checked_at": "2026-07-02T04:51:58.871155Z",
       "baseline_initialized": true,
       "repos": {
-        "QwenLM/qwen-code": "2026-07-02T09:42:57Z",
+        "QwenLM/qwen-code": "2026-07-02T09:48:31Z",
         "QwenLM/Qwen-Agent": "2026-03-04T08:15:07Z",
         "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
         "QwenLM/Qwen3-VL-Embedding": "2026-06-23T10:39:17Z",
@@ -617,7 +617,7 @@
         "QwenLM/FlashQLA": "2026-07-01T14:20:23Z",
         "QwenLM/qwen-code-docs": "2026-07-02T00:21:30Z"
       },
-      "last_changed_at": "2026-07-02T09:42:37.563455Z"
+      "last_changed_at": "2026-07-02T09:49:14.859004Z"
     },
     "tencent-hunyuan-github": {
       "seen_keys": [],
