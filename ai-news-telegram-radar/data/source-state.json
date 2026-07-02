@@ -322,36 +322,36 @@
       "last_checked_at": "2026-07-02T04:51:33.967446Z",
       "baseline_initialized": true,
       "repos": {
+        "deepseek-ai/open-infra-index": "2025-05-15T02:00:43Z",
+        "deepseek-ai/DeepSpec": "2026-06-30T06:42:21Z",
+        "deepseek-ai/DeepGEMM": "2026-06-29T08:18:56Z",
+        "deepseek-ai/awesome-deepseek-agent": "2026-06-17T01:24:37Z",
+        "deepseek-ai/DeepSeek-R1": "2025-06-27T08:35:54Z",
         "deepseek-ai/awesome-deepseek-integration": "2026-02-23T16:27:47Z",
         "deepseek-ai/DeepSeek-V2": "2024-09-25T10:23:55Z",
         "deepseek-ai/Engram": "2026-01-14T01:13:02Z",
         "deepseek-ai/DeepSeek-V3": "2025-08-28T03:24:37Z",
-        "deepseek-ai/DeepSeek-R1": "2025-06-27T08:35:54Z",
-        "deepseek-ai/DeepSpec": "2026-06-30T06:42:21Z",
         "deepseek-ai/DeepSeek-V3.2-Exp": "2025-11-18T02:57:11Z",
-        "deepseek-ai/awesome-deepseek-agent": "2026-06-17T01:24:37Z",
         "deepseek-ai/DeepSeek-LLM": "2024-02-04T12:22:16Z",
         "deepseek-ai/DeepSeek-Coder": "2025-11-11T06:44:56Z",
         "deepseek-ai/DeepEP": "2026-07-02T06:40:55Z",
-        "deepseek-ai/DeepGEMM": "2026-06-29T08:18:56Z",
         "deepseek-ai/ESFT": "2025-05-22T07:47:15Z",
         "deepseek-ai/DeepSeek-OCR": "2026-01-27T03:45:14Z",
         "deepseek-ai/DeepSeek-OCR-2": "2026-02-03T00:34:18Z",
         "deepseek-ai/Janus": "2025-02-01T07:58:29Z",
         "deepseek-ai/DeepSeek-Coder-V2": "2025-11-11T06:44:45Z",
         "deepseek-ai/DualPipe": "2026-01-14T06:34:59Z",
-        "deepseek-ai/FlashMLA": "2026-04-30T09:04:01Z",
-        "deepseek-ai/TileKernels": "2026-04-23T10:19:21Z"
+        "deepseek-ai/FlashMLA": "2026-04-30T09:04:01Z"
       },
-      "last_changed_at": "2026-07-02T10:48:13.833487Z"
+      "last_changed_at": "2026-07-02T11:52:15.088720Z"
     },
     "moonshot-github": {
       "seen_keys": [],
       "last_checked_at": "2026-07-02T04:51:37.867265Z",
       "baseline_initialized": true,
       "repos": {
+        "MoonshotAI/kimi-code": "2026-07-02T11:50:53Z",
         "MoonshotAI/kimi-cli": "2026-06-22T12:35:05Z",
-        "MoonshotAI/kimi-code": "2026-07-02T11:43:58Z",
         "MoonshotAI/Kimi-K2": "2026-01-21T05:33:12Z",
         "MoonshotAI/Attention-Residuals": "2026-03-17T06:23:11Z",
         "MoonshotAI/Kimi-Audio": "2025-06-21T15:30:28Z",
@@ -371,7 +371,7 @@
         "MoonshotAI/kimi-code-zed-extension": "2026-01-20T18:06:03Z",
         "MoonshotAI/pykaos": "2025-12-26T14:52:32Z"
       },
-      "last_changed_at": "2026-07-02T11:45:45.116881Z"
+      "last_changed_at": "2026-07-02T11:52:15.088720Z"
     },
     "zai-github": {
       "seen_keys": [],
@@ -529,12 +529,12 @@
       "last_checked_at": "2026-07-02T04:51:55.708102Z",
       "baseline_initialized": true,
       "repos": {
-        "OpenBMB/PilotDeck": "2026-07-02T11:41:57Z",
+        "OpenBMB/PilotDeck": "2026-07-02T11:49:20Z",
+        "OpenBMB/VoxCPM": "2026-07-01T03:04:07Z",
         "OpenBMB/MiniCPM": "2026-06-20T06:06:47Z",
         "OpenBMB/InfiniteBench": "2024-09-25T20:06:30Z",
         "OpenBMB/ToolBench": "2025-05-21T15:46:59Z",
         "OpenBMB/MiniCPM-Desk-Pet": "2026-06-27T12:56:42Z",
-        "OpenBMB/VoxCPM": "2026-07-01T03:04:07Z",
         "OpenBMB/UltraRAG": "2026-07-01T14:09:19Z",
         "OpenBMB/ForgeTrain": "2026-06-17T06:14:58Z",
         "OpenBMB/ChatDev": "2026-06-29T08:25:10Z",
@@ -550,7 +550,7 @@
         "OpenBMB/MoRE": "2026-07-01T10:20:18Z",
         "OpenBMB/WorkflowLLM": "2025-03-11T07:41:39Z"
       },
-      "last_changed_at": "2026-07-02T11:45:45.116881Z"
+      "last_changed_at": "2026-07-02T11:52:15.088720Z"
     },
     "internlm-github": {
       "seen_keys": [],
