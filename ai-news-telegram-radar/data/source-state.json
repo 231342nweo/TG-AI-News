@@ -102,9 +102,16 @@
       "baseline_initialized": true
     },
     "qwen-blog": {
-      "seen_keys": [],
+      "seen_keys": [
+        "https://qwenlm.github.io/blog/qwen3guard",
+        "https://qwenlm.github.io/blog/qwen-image-edit",
+        "https://qwenlm.github.io/blog/qwen-image",
+        "https://qwenlm.github.io/blog/gspo",
+        "https://qwenlm.github.io/blog/qwen-mt"
+      ],
       "last_checked_at": "2026-07-02T04:51:58.171005Z",
-      "baseline_initialized": true
+      "baseline_initialized": true,
+      "last_changed_at": "2026-07-02T09:43:05.523122Z"
     },
     "qwen-huggingface": {
       "models": {
@@ -153,12 +160,12 @@
       "baseline_invalid": true
     },
     "volcengine-ark-models": {
-      "fingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "fingerprint": "043d3a44738c19f47d3629b6c4ffdb26edb2a7d6af76f345e8b55ad0a2f6c262",
       "last_checked_at": "2026-07-02T04:51:33.147542Z",
-      "last_excerpt": "",
+      "last_excerpt": "文档中心 简体 文档 控制台 登录 免费开始使用 火山方舟 文档指南 订阅 [Agent/Coding Plan] API参考 资源 火山方舟 火山方舟 文档指南 请输入 入门 产品简介 快速入门 模型列表 模型价格 最新模型：Seed 2.1 调用 文本生成 多模态理解 图片理解 视频理解 文档理解 音频理解 视频生成 Doubao Seedance 2.0 系列教程 Doubao Seedance 2.0 系列提示词指南 视频生成教程 私域真人人像库 私域真人人像素材资产",
       "baseline_initialized": true,
       "baseline_invalid": true,
-      "last_changed_at": "2026-07-02T09:25:35.735454Z"
+      "last_changed_at": "2026-07-02T09:42:37.563455Z"
     },
     "volcengine-ark-updates": {
       "seen_keys": [
@@ -195,10 +202,15 @@
       ],
       "last_checked_at": "2026-07-02T04:52:05.788649Z",
       "baseline_initialized": true,
-      "last_changed_at": "2026-07-02T08:03:26.790429Z"
+      "last_changed_at": "2026-07-02T09:42:37.563455Z",
+      "fingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "last_excerpt": "",
+      "baseline_invalid": true
     },
     "cac-generative-ai-filing": {
       "seen_keys": [
+        "https://www.cac.gov.cn/2026-06/26/c_1784217637474922.htm",
+        "https://www.cac.gov.cn/2026-06/18/c_1783525609778371.htm",
         "https://www.cac.gov.cn/special/gjjs/A094204index_1.htm",
         "https://www.cac.gov.cn/yaowen/szyw/A093601index_1.htm",
         "https://www.cac.gov.cn/wxzw/A0937index_1.htm",
@@ -221,8 +233,6 @@
         "https://www.cac.gov.cn/2026-06/30/c_1784563469199158.htm",
         "https://www.cac.gov.cn/2026-07/01/c_1784649725615307.htm",
         "https://www.cac.gov.cn/2026-06/18/c_1783524819990143.htm",
-        "https://www.cac.gov.cn/2026-06/26/c_1784217637474922.htm",
-        "https://www.cac.gov.cn/2026-06/18/c_1783525609778371.htm",
         "https://www.cac.gov.cn/2026-06/18/c_1783525609815499.htm",
         "https://www.cac.gov.cn/2026-06/18/c_1783525609948038.htm",
         "https://www.cac.gov.cn/2026-06/18/c_1783525605384124.htm",
@@ -231,10 +241,14 @@
         "https://www.cac.gov.cn/2026-06/26/c_1784217636040210.htm"
       ],
       "last_checked_at": "2026-07-02T04:52:07.024615Z",
-      "baseline_initialized": true
+      "baseline_initialized": true,
+      "last_changed_at": "2026-07-02T09:43:32.450320Z"
     },
     "miit-ai-policy": {
       "seen_keys": [
+        "https://www.miit.gov.cn/xwfb/gxdt/art/2026/art_9b5792e2e8d14eb3beb5fbb8f5ff63fa.html",
+        "http://www.miit.gov.cn/zwgk/zcwj/wjfb/gg/art/2026/art_301fff2dc3c3434f94f781026672b4ae.html",
+        "http://www.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2026/art_de501c2c215f4a9fb64d17dafc56fb8b.html",
         "https://www.miit.gov.cn/xwfb/szyw/art/2026/art_19c16f3681954630ac381c699926bde7.html",
         "https://www.miit.gov.cn/xwfb/szyw/art/2026/art_f1d8f8ee7b6a44bdaa43f94687694afe.html",
         "https://www.miit.gov.cn/xwfb/szyw/art/2026/art_176bc47c95f34073ae622e2d47c651da.html",
@@ -253,15 +267,12 @@
         "https://www.miit.gov.cn/xwfb/szyw/art/2026/art_a9b3500cd7d34d23adfc8a47cece11cd.html",
         "https://www.miit.gov.cn/xwfb/szyw/art/2026/art_b52d967f6aa44298873c62d0838cb38c.html",
         "http://www.miit.gov.cn/xwfb/bldhd/art/2026/art_6c7e457f314d41f9a3b12290ac69b938.html",
-        "https://www.miit.gov.cn/xwfb/gxdt/art/2026/art_9b5792e2e8d14eb3beb5fbb8f5ff63fa.html",
         "https://www.miit.gov.cn/xwfb/gxdt/art/2026/art_c48a0f7d5aca41ce9719510e319c9c25.html",
         "http://www.miit.gov.cn/xwfb/bldhd/art/2026/art_c9b09d72b23b460aaa2747ff098f29ac.html",
         "http://www.miit.gov.cn/xwfb/gxdt/sjdt/art/2026/art_352714e8c8024dd99957867de040e81a.html",
         "http://www.miit.gov.cn/xwfb/bldhd/art/2026/art_a0388adcb03c4125a4f29a5fc004d1a3.html",
         "http://www.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2026/art_750f6bdfb49e49188136c7bcb3b65dc7.html",
-        "http://www.miit.gov.cn/zwgk/zcwj/wjfb/gg/art/2026/art_301fff2dc3c3434f94f781026672b4ae.html",
         "http://www.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2026/art_5f76aa6e3a4745d2bd96ee0010ec8459.html",
-        "http://www.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2026/art_de501c2c215f4a9fb64d17dafc56fb8b.html",
         "http://www.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2026/art_fefca99ac5934ebd905b2232e417e317.html",
         "http://www.miit.gov.cn/zwgk/zcwj/wjfb/mll/art/2026/art_3c5cebc1cadf436d994fb8c33ce0c595.html",
         "http://www.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2026/art_df1dcf584cf14175a91b802691f0c104.html",
@@ -269,7 +280,7 @@
       ],
       "last_checked_at": "2026-07-02T04:52:07.296657Z",
       "baseline_initialized": true,
-      "last_changed_at": "2026-07-02T07:03:05.498737Z"
+      "last_changed_at": "2026-07-02T09:43:36.084836Z"
     },
     "deepseek-news": {
       "seen_keys": [
@@ -317,42 +328,205 @@
     "deepseek-github": {
       "seen_keys": [],
       "last_checked_at": "2026-07-02T04:51:33.967446Z",
-      "baseline_initialized": true
+      "baseline_initialized": true,
+      "repos": {
+        "deepseek-ai/DeepSpec": "2026-06-30T06:42:21Z",
+        "deepseek-ai/DeepSeek-V3": "2025-08-28T03:24:37Z",
+        "deepseek-ai/DeepSeek-Coder": "2025-11-11T06:44:56Z",
+        "deepseek-ai/awesome-deepseek-integration": "2026-02-23T16:27:47Z",
+        "deepseek-ai/DeepEP": "2026-07-02T06:40:55Z",
+        "deepseek-ai/Engram": "2026-01-14T01:13:02Z",
+        "deepseek-ai/awesome-deepseek-agent": "2026-06-17T01:24:37Z",
+        "deepseek-ai/DeepGEMM": "2026-06-29T08:18:56Z",
+        "deepseek-ai/ESFT": "2025-05-22T07:47:15Z",
+        "deepseek-ai/DeepSeek-OCR": "2026-01-27T03:45:14Z",
+        "deepseek-ai/DeepSeek-LLM": "2024-02-04T12:22:16Z",
+        "deepseek-ai/DeepSeek-OCR-2": "2026-02-03T00:34:18Z",
+        "deepseek-ai/DeepSeek-R1": "2025-06-27T08:35:54Z",
+        "deepseek-ai/Janus": "2025-02-01T07:58:29Z",
+        "deepseek-ai/DeepSeek-Coder-V2": "2025-11-11T06:44:45Z",
+        "deepseek-ai/DualPipe": "2026-01-14T06:34:59Z",
+        "deepseek-ai/FlashMLA": "2026-04-30T09:04:01Z",
+        "deepseek-ai/TileKernels": "2026-04-23T10:19:21Z",
+        "deepseek-ai/open-infra-index": "2025-05-15T02:00:43Z",
+        "deepseek-ai/LPLB": "2025-11-19T07:20:35Z"
+      },
+      "last_changed_at": "2026-07-02T09:42:37.563455Z"
     },
     "moonshot-github": {
       "seen_keys": [],
       "last_checked_at": "2026-07-02T04:51:37.867265Z",
-      "baseline_initialized": true
+      "baseline_initialized": true,
+      "repos": {
+        "MoonshotAI/kimi-code": "2026-07-02T09:41:27Z",
+        "MoonshotAI/Kimi-K2": "2026-01-21T05:33:12Z",
+        "MoonshotAI/Attention-Residuals": "2026-03-17T06:23:11Z",
+        "MoonshotAI/kimi-cli": "2026-06-22T12:35:05Z",
+        "MoonshotAI/Kimi-Audio": "2025-06-21T15:30:28Z",
+        "MoonshotAI/kimi-agent-sdk": "2026-05-29T05:29:38Z",
+        "MoonshotAI/Kimi-k1.5": "2025-03-07T11:16:36Z",
+        "MoonshotAI/walle": "2026-06-29T14:05:32Z",
+        "MoonshotAI/kimi-agent-rs": "2026-02-06T15:15:57Z",
+        "MoonshotAI/Kimi-VL": "2025-07-15T15:48:21Z",
+        "MoonshotAI/checkpoint-engine": "2026-06-30T02:55:39Z",
+        "MoonshotAI/Kimi-Dev": "2025-09-30T02:15:54Z",
+        "MoonshotAI/FlashKDA": "2026-05-26T06:31:25Z",
+        "MoonshotAI/kimi-help-center": "2026-05-08T04:47:45Z",
+        "MoonshotAI/Kimi-K2.5": "2026-01-31T00:49:42Z",
+        "MoonshotAI/WorldVQA": "2026-02-04T07:27:04Z",
+        "MoonshotAI/Kimi-Vendor-Verifier": "2026-02-24T10:10:27Z",
+        "MoonshotAI/Branding-Guide": "2026-03-11T06:55:16Z",
+        "MoonshotAI/kimi-code-zed-extension": "2026-01-20T18:06:03Z",
+        "MoonshotAI/pykaos": "2025-12-26T14:52:32Z"
+      },
+      "last_changed_at": "2026-07-02T09:42:37.563455Z"
     },
     "zai-github": {
       "seen_keys": [],
       "last_checked_at": "2026-07-02T04:51:40.485322Z",
-      "baseline_initialized": true
+      "baseline_initialized": true,
+      "repos": {
+        "zai-org/GLM-5": "2026-06-20T04:22:09Z",
+        "zai-org/GLM-4.5": "2026-02-01T08:28:10Z",
+        "zai-org/CodeGeeX2": "2024-07-10T12:34:55Z",
+        "zai-org/ChatGLM3": "2025-01-13T06:55:26Z",
+        "zai-org/GLM-OCR": "2026-04-21T08:52:11Z",
+        "zai-org/GLM-4-Voice": "2024-12-05T07:10:01Z",
+        "zai-org/ComplexFuncBench": "2025-01-20T03:04:21Z",
+        "zai-org/SCAIL-2": "2026-06-21T14:21:19Z",
+        "zai-org/Open-AutoGLM": "2026-03-06T08:38:39Z",
+        "zai-org/SCAIL": "2026-05-06T14:59:54Z",
+        "zai-org/CogVideo": "2025-11-04T11:19:04Z",
+        "zai-org/VisualGLM-6B": "2024-08-23T07:45:06Z",
+        "zai-org/CodeGeeX4": "2024-08-25T14:26:16Z",
+        "zai-org/CodeGeeX": "2024-08-13T05:59:38Z",
+        "zai-org/ChatGLM2-6B": "2024-06-27T04:05:08Z",
+        "zai-org/GLM-Edge": "2025-06-12T02:10:02Z",
+        "zai-org/GLM-4": "2025-07-04T04:16:36Z",
+        "zai-org/zai-coding-plugins": "2026-02-22T15:51:20Z",
+        "zai-org/z-ai-sdk-python": "2026-06-16T03:07:59Z",
+        "zai-org/ChatGLM-6B": "2024-06-27T04:05:25Z"
+      },
+      "last_changed_at": "2026-07-02T09:42:37.563455Z"
     },
     "minimax-github": {
       "seen_keys": [],
       "last_checked_at": "2026-07-02T04:51:46.918095Z",
-      "baseline_initialized": true
+      "baseline_initialized": true,
+      "repos": {
+        "MiniMax-AI/MSA": "2026-06-15T04:40:59Z",
+        "MiniMax-AI/cli": "2026-06-09T12:41:42Z",
+        "MiniMax-AI/skills": "2026-04-18T09:48:47Z",
+        "MiniMax-AI/Mini-Agent": "2026-02-14T04:00:26Z",
+        "MiniMax-AI/MiniMax-Provider-Verifier": "2026-07-02T06:47:38Z",
+        "MiniMax-AI/MiniMax-01": "2025-07-07T12:24:30Z",
+        "MiniMax-AI/MiniMax-M3": "2026-07-01T04:36:55Z",
+        "MiniMax-AI/MiniMax-Coding-Plan-MCP": "2026-02-10T12:01:59Z",
+        "MiniMax-AI/MiniMax-M1": "2025-07-07T11:57:22Z",
+        "MiniMax-AI/minimax-code": "2026-06-14T16:40:13Z",
+        "MiniMax-AI/MiniMax-M2": "2025-11-13T08:12:36Z",
+        "MiniMax-AI/MiniMax-MCP": "2026-05-21T03:40:18Z",
+        "MiniMax-AI/MiniMax-M2.7": "2026-04-14T19:11:22Z",
+        "MiniMax-AI/OpenRoom": "2026-06-03T23:15:42Z",
+        "MiniMax-AI/MiniMax-M2.5": "2026-03-09T02:44:20Z",
+        "MiniMax-AI/mini-vela": "2026-04-02T13:09:54Z",
+        "MiniMax-AI/MiniMax-M2.1": "2026-01-28T08:39:36Z",
+        "MiniMax-AI/VTP": "2026-04-15T07:09:46Z",
+        "MiniMax-AI/vercel-minimax-ai-provider": "2026-06-06T07:41:49Z",
+        "MiniMax-AI/minimax_search": "2025-11-03T09:04:57Z"
+      },
+      "last_changed_at": "2026-07-02T09:42:37.563455Z"
     },
     "stepfun-github": {
       "seen_keys": [],
       "last_checked_at": "2026-07-02T04:51:48.615583Z",
-      "baseline_initialized": true
+      "baseline_initialized": true,
+      "repos": {
+        "stepfun-ai/gelab-zero": "2026-05-11T05:50:07Z",
+        "stepfun-ai/Step-Audio2": "2026-03-16T04:06:21Z",
+        "stepfun-ai/StepMesh": "2026-01-28T11:26:52Z",
+        "stepfun-ai/SteptronOss": "2026-05-18T07:15:55Z",
+        "stepfun-ai/Step-3.7-Flash": "2026-06-01T06:58:45Z",
+        "stepfun-ai/Step-Video-T2V": "2025-03-17T03:26:54Z",
+        "stepfun-ai/Step-3.5-Flash": "2026-04-03T12:50:32Z",
+        "stepfun-ai/Step-Audio-R1": "2026-04-29T04:15:21Z",
+        "stepfun-ai/Step-Audio": "2026-03-16T03:53:07Z",
+        "stepfun-ai/Step1X-Edit": "2026-04-29T14:31:44Z",
+        "stepfun-ai/llama.cpp": "2026-06-21T08:13:56Z",
+        "stepfun-ai/StepAudio-Skills": "2026-04-16T10:17:46Z",
+        "stepfun-ai/GEBench": "2026-02-25T08:33:22Z",
+        "stepfun-ai/Step3-VL-10B": "2026-01-21T13:42:15Z",
+        "stepfun-ai/PaCoRe": "2026-02-05T01:27:48Z",
+        "stepfun-ai/StepDeepResearch": "2026-03-24T07:08:07Z",
+        "stepfun-ai/Step-Audio-Edit-Benchmark": "2025-11-22T15:18:25Z",
+        "stepfun-ai/stepfunApi-audio-sdk": "2025-12-15T08:27:36Z",
+        "stepfun-ai/Step-Audio-EditX": "2026-04-09T02:27:46Z",
+        "stepfun-ai/StepFun-Formalizer": "2025-08-19T03:34:42Z"
+      },
+      "last_changed_at": "2026-07-02T09:42:37.563455Z"
     },
     "baichuan-github": {
       "seen_keys": [],
       "last_checked_at": "2026-07-02T04:51:50.574395Z",
-      "baseline_initialized": true
+      "baseline_initialized": true,
+      "repos": {
+        "baichuan-inc/Baichuan2": "2024-11-08T08:31:29Z",
+        "baichuan-inc/Baichuan-7B": "2024-07-18T14:23:01Z",
+        "baichuan-inc/Baichuan-13B": "2023-09-06T17:16:53Z",
+        "baichuan-inc/Baichuan-M3-235B": "2026-02-09T06:48:26Z",
+        "baichuan-inc/baichuan-mcp-servers": "2026-02-11T04:51:20Z",
+        "baichuan-inc/Baichuan-M2-32B": "2025-09-03T11:17:25Z",
+        "baichuan-inc/Baichuan-Omni-1.5": "2025-02-08T08:03:13Z",
+        "baichuan-inc/Baichuan-Audio": "2025-02-28T12:08:21Z",
+        "baichuan-inc/Baichuan-M1-14B": "2025-02-20T04:03:40Z",
+        "baichuan-inc/vllm": "2025-02-05T03:14:07Z"
+      },
+      "last_changed_at": "2026-07-02T09:42:37.563455Z"
     },
     "01ai-github": {
       "seen_keys": [],
       "last_checked_at": "2026-07-02T04:51:52.965880Z",
-      "baseline_initialized": true
+      "baseline_initialized": true,
+      "repos": {
+        "01-ai/Yi": "2024-11-27T09:25:57Z",
+        "01-ai/langcrew": "2026-05-06T08:57:33Z",
+        "01-ai/HumanEval.jl": "2024-08-17T12:45:41Z",
+        "01-ai/Yi-Coder": "2024-09-18T04:14:44Z",
+        "01-ai/Yi-1.5": "2024-11-11T03:33:18Z",
+        "01-ai/open-agentkit": "2025-10-31T14:54:00Z",
+        "01-ai/Descartes": "2024-04-02T11:00:15Z",
+        "01-ai/YiDong": "2025-01-21T06:20:52Z",
+        "01-ai/open-agentkit-builder": "2025-11-11T12:02:01Z",
+        "01-ai/LLaVA": "2024-01-03T06:57:15Z",
+        "01-ai/unstructured-api": "2024-09-14T06:57:57Z",
+        "01-ai/.github": "2023-10-27T14:24:11Z"
+      },
+      "last_changed_at": "2026-07-02T09:42:37.563455Z"
     },
     "opensensenova-github": {
       "seen_keys": [],
       "last_checked_at": "2026-07-02T04:51:54.681996Z",
-      "baseline_initialized": true
+      "baseline_initialized": true,
+      "repos": {
+        "OpenSenseNova/SenseNova-U1": "2026-06-30T10:07:11Z",
+        "OpenSenseNova/SenseNova-Skills": "2026-07-01T07:35:14Z",
+        "OpenSenseNova/SenseNova-SI": "2026-05-14T03:11:20Z",
+        "OpenSenseNova/ConsistCompose": "2026-06-19T04:40:08Z",
+        "OpenSenseNova/SenseNova-MARS": "2026-04-09T07:55:50Z",
+        "OpenSenseNova/SekoTalk": "2025-09-14T04:29:02Z",
+        "OpenSenseNova/piccolo-embedding": "2024-05-21T04:34:56Z",
+        "OpenSenseNova/agent_pack": "2026-05-13T13:12:00Z",
+        "OpenSenseNova/MemSense": "2026-06-18T09:35:58Z",
+        "OpenSenseNova/ComfyUI-SenseNova-U1": "2026-05-17T06:58:18Z",
+        "OpenSenseNova/SenseNova6.7": "2026-05-22T10:06:18Z",
+        "OpenSenseNova/Demystifying_Video_Reasoning": "2026-04-18T05:48:20Z",
+        "OpenSenseNova/ComfyUI-SenseNova-SI": "2026-04-30T17:29:30Z",
+        "OpenSenseNova/evalscope": "2026-04-25T04:24:13Z",
+        "OpenSenseNova/.github": "2024-08-28T02:32:36Z",
+        "OpenSenseNova/InteractiveOmni": "2025-12-03T10:43:09Z",
+        "OpenSenseNova/LlamaIndex_SenseNova": "2024-08-30T07:51:57Z"
+      },
+      "last_changed_at": "2026-07-02T09:42:37.563455Z"
     },
     "openbmb-github": {
       "seen_keys": [
@@ -361,12 +535,58 @@
         "https://github.com/OpenBMB/Scicore-Omics"
       ],
       "last_checked_at": "2026-07-02T04:51:55.708102Z",
-      "baseline_initialized": true
+      "baseline_initialized": true,
+      "repos": {
+        "OpenBMB/ChatDev": "2026-06-29T08:25:10Z",
+        "OpenBMB/VoxCPM": "2026-07-01T03:04:07Z",
+        "OpenBMB/UltraRAG": "2026-07-01T14:09:19Z",
+        "OpenBMB/MiniCPM": "2026-06-20T06:06:47Z",
+        "OpenBMB/PilotDeck": "2026-07-02T08:12:21Z",
+        "OpenBMB/AgentCPM-GUI": "2026-01-11T08:24:15Z",
+        "OpenBMB/MetaMem": "2026-07-02T08:31:10Z",
+        "OpenBMB/MiniCPM-V": "2026-06-25T12:12:59Z",
+        "OpenBMB/AceBench": "2026-06-10T13:56:38Z",
+        "OpenBMB/ToolBench": "2025-05-21T15:46:59Z",
+        "OpenBMB/ForgeTrain": "2026-06-17T06:14:58Z",
+        "OpenBMB/ParamMute": "2026-02-02T11:12:44Z",
+        "OpenBMB/AgentVerse": "2024-09-09T05:47:44Z",
+        "OpenBMB/MiniCPM-o-Demo": "2026-06-30T15:21:39Z",
+        "OpenBMB/MiniCPM-Desk-Pet": "2026-06-27T12:56:42Z",
+        "OpenBMB/XAgent": "2024-08-12T06:41:38Z",
+        "OpenBMB/MiniCPM-V-Apps": "2026-07-01T11:04:25Z",
+        "OpenBMB/MoRE": "2026-07-01T10:20:18Z",
+        "OpenBMB/WorkflowLLM": "2025-03-11T07:41:39Z",
+        "OpenBMB/UltraEval-Audio": "2026-06-10T07:12:04Z"
+      },
+      "last_changed_at": "2026-07-02T09:42:37.563455Z"
     },
     "internlm-github": {
       "seen_keys": [],
       "last_checked_at": "2026-07-02T04:51:56.844085Z",
-      "baseline_initialized": true
+      "baseline_initialized": true,
+      "repos": {
+        "InternLM/VSR": "2026-06-28T14:54:26Z",
+        "InternLM/lmdeploy": "2026-07-02T07:09:05Z",
+        "InternLM/WildClawBench": "2026-06-25T04:11:35Z",
+        "InternLM/Kernel-Smith": "2026-03-31T03:23:03Z",
+        "InternLM/MindSearch": "2025-07-04T10:06:45Z",
+        "InternLM/InternLM": "2025-10-30T00:35:43Z",
+        "InternLM/CapRL": "2026-06-23T02:40:21Z",
+        "InternLM/ETCHR": "2026-05-25T02:59:45Z",
+        "InternLM/ARC-VL": "2025-11-26T12:14:10Z",
+        "InternLM/Awesome-LLM-Training-System": "2024-08-06T04:41:03Z",
+        "InternLM/Intern-S1": "2026-05-19T08:08:51Z",
+        "InternLM/lagent": "2026-06-30T12:29:11Z",
+        "InternLM/Tutorial": "2026-04-22T08:39:08Z",
+        "InternLM/EMemBench": "2026-03-05T09:42:48Z",
+        "InternLM/ARM-Thinker": "2026-02-13T09:00:05Z",
+        "InternLM/Spatial-SSRL": "2026-04-07T01:56:49Z",
+        "InternLM/JanusCoder": "2026-05-09T04:22:10Z",
+        "InternLM/StarBench": "2026-04-19T12:32:54Z",
+        "InternLM/Spark": "2025-10-23T07:04:17Z",
+        "InternLM/SIM-CoT": "2026-04-13T14:19:59Z"
+      },
+      "last_changed_at": "2026-07-02T09:42:37.563455Z"
     },
     "qwen-github": {
       "seen_keys": [
@@ -374,15 +594,62 @@
         "https://github.com/QwenLM/Qwen-RobotManip"
       ],
       "last_checked_at": "2026-07-02T04:51:58.871155Z",
-      "baseline_initialized": true
+      "baseline_initialized": true,
+      "repos": {
+        "QwenLM/qwen-code": "2026-07-02T09:42:57Z",
+        "QwenLM/Qwen-Agent": "2026-03-04T08:15:07Z",
+        "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
+        "QwenLM/Qwen3-VL-Embedding": "2026-06-23T10:39:17Z",
+        "QwenLM/Qwen-RobotManip": "2026-06-29T22:29:54Z",
+        "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
+        "QwenLM/Qwen-RobotNav": "2026-06-30T03:01:19Z",
+        "QwenLM/Qwen3.6": "2026-06-03T12:14:19Z",
+        "QwenLM/Qwen-VLA": "2026-05-29T13:49:38Z",
+        "QwenLM/Qwen3-Omni": "2026-04-23T10:58:01Z",
+        "QwenLM/Qwen-AgentWorld": "2026-06-25T06:57:43Z",
+        "QwenLM/Qwen3-Coder": "2026-03-24T08:22:10Z",
+        "QwenLM/open-computer-use": "2026-06-10T16:38:07Z",
+        "QwenLM/Qwen": "2026-03-05T13:55:17Z",
+        "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
+        "QwenLM/Qwen3-ASR": "2026-06-26T08:20:17Z",
+        "QwenLM/Qwen-Image-Layered": "2025-12-31T11:40:35Z",
+        "QwenLM/Qwen-Image": "2026-02-10T07:37:37Z",
+        "QwenLM/FlashQLA": "2026-07-01T14:20:23Z",
+        "QwenLM/qwen-code-docs": "2026-07-02T00:21:30Z"
+      },
+      "last_changed_at": "2026-07-02T09:42:37.563455Z"
     },
     "tencent-hunyuan-github": {
       "seen_keys": [],
       "last_checked_at": "2026-07-02T04:52:01.889603Z",
-      "baseline_initialized": true
+      "baseline_initialized": true,
+      "repos": {
+        "Tencent-Hunyuan/Hunyuan3D-2.1": "2025-10-17T10:10:07Z",
+        "Tencent-Hunyuan/HY-SOAR": "2026-04-21T16:45:31Z",
+        "Tencent-Hunyuan/GEAR": "2026-07-01T03:15:10Z",
+        "Tencent-Hunyuan/UniRL": "2026-07-02T09:42:47Z",
+        "Tencent-Hunyuan/HY-World-2.0": "2026-05-27T07:25:04Z",
+        "Tencent-Hunyuan/HunyuanWorld-Mirror": "2026-05-27T03:22:57Z",
+        "Tencent-Hunyuan/HY-WorldPlay": "2026-06-10T07:10:23Z",
+        "Tencent-Hunyuan/HunyuanWorld-1.0": "2026-04-15T17:27:25Z",
+        "Tencent-Hunyuan/Hunyuan3D-2": "2025-10-28T09:58:12Z",
+        "Tencent-Hunyuan/HunyuanVideo-1.5": "2026-04-10T06:14:59Z",
+        "Tencent-Hunyuan/HunyuanCustom": "2025-10-15T06:54:23Z",
+        "Tencent-Hunyuan/MixGRPO": "2026-07-01T10:49:26Z",
+        "Tencent-Hunyuan/HunyuanVideo-Avatar": "2025-12-16T12:32:46Z",
+        "Tencent-Hunyuan/HunyuanImage-3.0": "2026-06-23T13:12:44Z",
+        "Tencent-Hunyuan/Hunyuan3D-Omni": "2025-10-17T10:13:05Z",
+        "Tencent-Hunyuan/Hy-MT2": "2026-06-30T07:17:36Z",
+        "Tencent-Hunyuan/Rosetta-inference": "2026-07-02T01:30:30Z",
+        "Tencent-Hunyuan/HunyuanVideo": "2026-06-29T09:33:50Z",
+        "Tencent-Hunyuan/SAGE-GRPO": "2026-04-02T06:08:46Z",
+        "Tencent-Hunyuan/Hy3-preview": "2026-04-23T15:09:16Z"
+      },
+      "last_changed_at": "2026-07-02T09:42:37.563455Z"
     },
     "qbitai-rss": {
       "seen_keys": [
+        "https://www.qbitai.com/2026/07/442024.html",
         "https://www.qbitai.com/2026/07/442016.html",
         "https://www.qbitai.com/2026/07/441790.html",
         "https://www.qbitai.com/2026/07/441786.html",
@@ -393,7 +660,6 @@
         "https://www.qbitai.com/2026/07/441479.html",
         "https://www.qbitai.com/2026/07/441447.html",
         "https://www.qbitai.com/2026/07/441396.html",
-        "https://www.qbitai.com/2026/07/442024.html",
         "https://www.qbitai.com/2026/07/441386.html",
         "https://www.qbitai.com/2026/07/441246.html",
         "https://www.qbitai.com/2026/07/441240.html",
@@ -405,7 +671,7 @@
       ],
       "last_checked_at": "2026-07-02T04:52:26.145879Z",
       "baseline_initialized": true,
-      "last_changed_at": "2026-07-02T09:23:48.222434Z"
+      "last_changed_at": "2026-07-02T09:43:55.055234Z"
     },
     "moonshot-website": {
       "fingerprint": "a34742eb222aa6fad38b190c7ca8488ccf3b16cea24d82e8605cc7324f4abafc",
@@ -415,6 +681,10 @@
     },
     "kimi-forum": {
       "seen_keys": [
+        "https://forum.moonshot.ai/t/here-comes-kimi-k2-7-code-better-coding-with-more-efficiency/441",
+        "https://forum.moonshot.ai/t/meet-kimi-k2-6-advancing-open-source-coding/369",
+        "https://forum.moonshot.ai/t/an-update-on-new-k2-models-and-new-pricing/104",
+        "https://forum.moonshot.ai/t/kimi-k2-high-speed-model-released/25",
         "https://forum.moonshot.ai",
         "https://forum.moonshot.ai/t/welcome-to-kimi-forum/5",
         "https://forum.moonshot.ai/c/welcome/4",
@@ -431,7 +701,6 @@
         "https://forum.moonshot.ai/t/this-is-no-longer-a-theory-reproducible-methodology-invented-and-patented/443",
         "https://forum.moonshot.ai/t/kimi-has-something-to-say-pay-close-attention/437",
         "https://forum.moonshot.ai/t/major-security-vulnerabilities-responsible-disclosure-and-safe-harbor/442",
-        "https://forum.moonshot.ai/t/here-comes-kimi-k2-7-code-better-coding-with-more-efficiency/441",
         "https://forum.moonshot.ai/c/announcement/5",
         "https://forum.moonshot.ai/tag/kimi-k27/25",
         "https://forum.moonshot.ai/t/appreciation-kimi/436",
@@ -447,7 +716,8 @@
         "https://forum.moonshot.ai/tag/rate-limiting/10"
       ],
       "last_checked_at": "2026-07-02T04:51:37.176777Z",
-      "baseline_initialized": true
+      "baseline_initialized": true,
+      "last_changed_at": "2026-07-02T09:42:42.010713Z"
     },
     "moonshot-huggingface": {
       "models": {
@@ -607,9 +877,14 @@
       "baseline_initialized": true
     },
     "openbmb-website": {
-      "seen_keys": [],
+      "seen_keys": [
+        "https://openbmb.cn/?item=40072c93d9e14054a871fb6e84aca8ad",
+        "https://openbmb.cn/?item=12f77ca9310c4973ad866b3043bfee7c",
+        "https://openbmb.cn/?item=18748959ad4e4fd2b67e1d8e70d181f6"
+      ],
       "last_checked_at": "2026-07-02T04:51:54.968346Z",
-      "baseline_initialized": true
+      "baseline_initialized": true,
+      "last_changed_at": "2026-07-02T09:43:04.007156Z"
     },
     "openbmb-huggingface": {
       "models": {
@@ -702,7 +977,10 @@
         "https://ai.baidu.com/tech/speech/tts_online"
       ],
       "last_checked_at": "2026-07-02T04:52:00.728806Z",
-      "baseline_initialized": true
+      "baseline_initialized": true,
+      "fingerprint": "85bb40e2988a2bc537f26d502d3e3c7b0f9de45892a3684c4eacae4355fa2c29",
+      "last_changed_at": "2026-07-02T09:42:37.563455Z",
+      "last_excerpt": "百度AI开放平台-全球领先的人工智能服务平台 最近搜索 热门产品 端到端语音语言大模型 声音复刻 大模型语音合成 人脸实名认证 文字识别 看图识万物 资讯 文档 控制台 登录 未实名 立即认证 用户中心 财务及订单 消息中心 我的工单 退出登录 端到端语音语言大模型 正式商用 开口即真人 最高享100万免费tokens 查看详情 PP-OCRv6跨越式精度跃升 首创三档模型，嵌入式到服务器全场景开箱即用 立即体验 文档解析（PaddleOCR-VL）1.6 重磅升级 文本/表"
     },
     "tencent-huggingface": {
       "models": {
@@ -748,13 +1026,14 @@
         "https://seed.bytedance.com/en/direction/ai_for_science",
         "https://seed.bytedance.com/en/direction/robotics",
         "https://seed.bytedance.com/en/direction/responsible_ai",
-        "https://seed.bytedance.com/en/blog",
         "https://seed.bytedance.com/en/seed-edge",
         "https://seed.bytedance.com/en/seedearlycareer",
-        "https://seed.bytedance.com/disclaimer"
+        "https://seed.bytedance.com/disclaimer",
+        "https://seed.bytedance.com/en/blog"
       ],
       "last_checked_at": "2026-07-02T04:52:06.044259Z",
-      "baseline_initialized": true
+      "baseline_initialized": true,
+      "last_changed_at": "2026-07-02T09:43:25.890629Z"
     },
     "huawei-pangu": {
       "fingerprint": "4fdcfaa2890a6b6c7013cca924051b9183a77fdf30149ca034032469c20f0dc5",
@@ -777,38 +1056,39 @@
     "samr-standards": {
       "seen_keys": [
         "https://std.samr.gov.cn",
-        "https://std.samr.gov.cn/org",
-        "https://std.samr.gov.cn/gb/search/gbAdvancedSearch",
         "https://std.samr.gov.cn/gb",
-        "https://std.samr.gov.cn/coordination",
         "https://std.samr.gov.cn/gb/gbOpinion",
         "https://std.samr.gov.cn/gb/withdrawnReview",
         "https://std.samr.gov.cn/gb/gbSuggestionPlan",
-        "https://std.samr.gov.cn/gfs/gfsSuggestionPlan",
         "https://std.samr.gov.cn/gsm/gsmPlanPublic",
-        "https://std.samr.gov.cn/gb/gbqSuggestion",
-        "https://std.samr.gov.cn/gb/gbPlanDraft",
         "https://std.samr.gov.cn/qbprop/introduce",
         "https://std.samr.gov.cn/noc/nocGB",
         "https://std.samr.gov.cn/noc/nocHB",
         "https://std.samr.gov.cn/noc/nocDB",
-        "https://std.samr.gov.cn/noc/nocCMR",
-        "https://std.samr.gov.cn/noc/nocPlan",
         "https://std.samr.gov.cn/gb/gbProcessInfo",
-        "https://std.samr.gov.cn/gb/gbzProcessInfo",
         "https://std.samr.gov.cn/gb/gbQuery",
-        "https://std.samr.gov.cn/org/orgTcQuery",
         "https://std.samr.gov.cn/gsm/query",
         "https://std.samr.gov.cn/gfs/query",
         "https://std.samr.gov.cn/tb",
         "https://std.samr.gov.cn/gj",
-        "https://std.samr.gov.cn/gj/news?op=ISO",
         "https://std.samr.gov.cn/gj/org?op=ISO",
+        "https://std.samr.gov.cn/org",
+        "https://std.samr.gov.cn/gb/search/gbAdvancedSearch",
+        "https://std.samr.gov.cn/coordination",
+        "https://std.samr.gov.cn/gfs/gfsSuggestionPlan",
+        "https://std.samr.gov.cn/gb/gbqSuggestion",
+        "https://std.samr.gov.cn/gb/gbPlanDraft",
+        "https://std.samr.gov.cn/noc/nocCMR",
+        "https://std.samr.gov.cn/noc/nocPlan",
+        "https://std.samr.gov.cn/gb/gbzProcessInfo",
+        "https://std.samr.gov.cn/org/orgTcQuery",
+        "https://std.samr.gov.cn/gj/news?op=ISO",
         "https://std.samr.gov.cn/gj/orgCn?type=ISO",
         "https://std.samr.gov.cn/gj/std?op=ISO"
       ],
       "last_checked_at": "2026-07-02T04:52:25.281396Z",
-      "baseline_initialized": true
+      "baseline_initialized": true,
+      "last_changed_at": "2026-07-02T09:43:49.975253Z"
     },
     "tc260-ai-standard": {
       "seen_keys": [
@@ -851,7 +1131,11 @@
     "founderpark-website": {
       "seen_keys": [],
       "last_checked_at": "2026-07-02T04:52:26.226975Z",
-      "baseline_initialized": true
+      "baseline_initialized": true,
+      "fingerprint": "2becc9c87cf53a08fd0240481d91cdc12c40ab88d0d4b43fa65fd5837cf981ee",
+      "last_changed_at": "2026-07-02T09:42:37.563455Z",
+      "last_excerpt": "Founder Park",
+      "baseline_invalid": true
     },
     "openxlab": {
       "repos": {
@@ -881,9 +1165,6 @@
     },
     "nda-ai-policy": {
       "seen_keys": [
-        "https://www.nda.gov.cn/sjj/zwgk/list/index_pc_1.html",
-        "https://www.nda.gov.cn/sjj/zwgk/zcfb/list/index_pc_1.html",
-        "https://www.nda.gov.cn/sjj/zwgk/zcfb/0618/20260618145942270461999_pc.html",
         "https://www.nda.gov.cn/sjj/zwgk/zcfb/0608/20260608172117399715004_pc.html",
         "https://www.nda.gov.cn/sjj/zwgk/ytdd/0608/20260608173411793400111_pc.html",
         "https://www.nda.gov.cn/sjj/zwgk/zjjd/0609/20260609212055771982317_pc.html",
@@ -895,24 +1176,30 @@
         "https://www.nda.gov.cn/sjj/zwgk/zjjd/0615/20260615170358664206520_pc.html",
         "https://www.nda.gov.cn/sjj/zwgk/zjjd/0616/20260616181642680611744_pc.html",
         "https://www.nda.gov.cn/sjj/zwgk/zjjd/0617/20260617221543836663452_pc.html",
-        "https://www.nda.gov.cn/sjj/zwgk/zcfb/0601/20260601211616018140035_pc.html",
         "https://www.nda.gov.cn/sjj/zwgk/zcfb/0508/20260508194112925527578_pc.html",
         "https://www.nda.gov.cn/sjj/zwgk/zcfb/0413/20260410162428109058250_pc.html",
         "https://www.nda.gov.cn/sjj/zwgk/zcfb/0205/20260205185635251370340_pc.html",
         "https://www.nda.gov.cn/sjj/zwgk/ytdd/0208/20260208174249294364857_pc.html",
-        "https://www.nda.gov.cn/sjj/zwgk/zjjd/0208/20260208191609546533675_pc.html",
         "https://www.nda.gov.cn/sjj/zwgk/zjjd/0208/20260208191715148698691_pc.html",
-        "https://www.nda.gov.cn/sjj/zwgk/zjjd/0210/20260210161137217573271_pc.html",
         "https://www.nda.gov.cn/sjj/zwgk/zjjd/0210/20260210161431089609400_pc.html",
         "https://www.nda.gov.cn/sjj/zwgk/zjjd/0211/20260211145931252575182_pc.html",
         "https://www.nda.gov.cn/sjj/zwgk/zjjd/0211/20260211150131588844425_pc.html",
+        "https://www.nda.gov.cn/sjj/zwgk/zjjd/0213/20260213153739015296988_pc.html",
+        "https://www.nda.gov.cn/sjj/zwgk/list/index_pc_1.html",
+        "https://www.nda.gov.cn/sjj/zwgk/zcfb/list/index_pc_1.html",
+        "https://www.nda.gov.cn/sjj/zwgk/zcfb/0618/20260618145942270461999_pc.html",
+        "https://www.nda.gov.cn/sjj/zwgk/zcfb/0601/20260601211616018140035_pc.html",
+        "https://www.nda.gov.cn/sjj/zwgk/zjjd/0208/20260208191609546533675_pc.html",
+        "https://www.nda.gov.cn/sjj/zwgk/zjjd/0210/20260210161137217573271_pc.html",
         "https://www.nda.gov.cn/sjj/zwgk/zjjd/0212/20260212132946250499791_pc.html",
         "https://www.nda.gov.cn/sjj/zwgk/zjjd/0212/20260212133359194820190_pc.html",
         "https://www.nda.gov.cn/sjj/zwgk/zjjd/0213/20260213152620666529559_pc.html",
-        "https://www.nda.gov.cn/sjj/zwgk/zjjd/0213/20260213153054655026687_pc.html",
-        "https://www.nda.gov.cn/sjj/zwgk/zjjd/0213/20260213153739015296988_pc.html"
+        "https://www.nda.gov.cn/sjj/zwgk/zjjd/0213/20260213153054655026687_pc.html"
       ],
-      "last_changed_at": "2026-07-02T07:03:34.935776Z",
+      "last_changed_at": "2026-07-02T09:43:52.217228Z",
+      "baseline_initialized": true
+    },
+    "caict-ai-report": {
       "baseline_initialized": true
     }
   }
