@@ -471,6 +471,28 @@ def state_key_for_item(item: NewsItem) -> str:
     return canonical_url(item.url) if item.url else normalize_title(item.title)
 
 
+def source_state_signature(source: Source) -> str:
+    payload = {
+        "url": source.url,
+        "method": source.method,
+        "fallback_urls": list(source.fallback_urls),
+        "push_rule": source.push_rule,
+    }
+    raw = json.dumps(payload, ensure_ascii=False, sort_keys=True)
+    return hashlib.sha256(raw.encode("utf-8")).hexdigest()
+
+
+def sync_source_signature(source: Source, source_state: dict[str, Any], now: datetime) -> bool:
+    signature = source_state_signature(source)
+    previous = str(source_state.get("source_signature") or "")
+    if previous == signature:
+        return False
+    source_state["source_signature"] = signature
+    source_state["baseline_initialized"] = True
+    source_state["baseline_reinitialized_at"] = iso_or_none(now)
+    return True
+
+
 def filter_new_items_by_state(
     source: Source,
     items: list[NewsItem],
@@ -482,13 +504,23 @@ def filter_new_items_by_state(
     if source_state is None:
         return items
 
-    current_keys = [state_key_for_item(item) for item in items if state_key_for_item(item)]
+    now = datetime.now(timezone.utc)
+    signature_changed = sync_source_signature(source, source_state, now)
+    current_keys = []
+    for item in items:
+        key = state_key_for_item(item)
+        if key:
+            current_keys.append(key)
     previous_keys = list(source_state.get(key_name, []))
     seen = set(previous_keys)
     merged_keys = list(dict.fromkeys(current_keys + previous_keys))[:300]
+    if signature_changed:
+        source_state[key_name] = list(dict.fromkeys(current_keys))[:300]
+        source_state["last_changed_at"] = iso_or_none(now)
+        return []
     if merged_keys != previous_keys:
         source_state[key_name] = merged_keys
-        source_state["last_changed_at"] = iso_or_none(datetime.now(timezone.utc))
+        source_state["last_changed_at"] = iso_or_none(now)
 
     if not seen:
         source_state["baseline_initialized"] = True
@@ -713,12 +745,90 @@ def parse_policy_keyword_html(html_text: str, source: Source) -> list[NewsItem]:
     return [item for item in parse_html_list(html_text, source) if policy_keyword_match(item)]
 
 
+HTML_DIFF_EXCERPT_LIMIT = 4000
+HTML_DIFF_INVALID_MARKERS = (
+    "_wafchallengeid",
+    "wafchallenge",
+    "cf-browser-verification",
+    "window._cf_chl_opt",
+    "please enable javascript",
+    "enable javascript",
+    "please wait",
+    "just a moment",
+    "access denied",
+    "安全验证",
+    "访问验证",
+    "验证码",
+    "人机验证",
+)
+
+
 def html_fingerprint(html_text: str) -> tuple[str, str]:
     text = strip_html(html_text)
     normalized = re.sub(r"\s+", " ", text).strip()
     digest = hashlib.sha256(normalized.encode("utf-8")).hexdigest()
-    excerpt = normalized[:240]
+    excerpt = normalized[:HTML_DIFF_EXCERPT_LIMIT]
     return digest, excerpt
+
+
+def html_diff_snapshot_invalid(html_text: str, excerpt: str) -> bool:
+    compact_excerpt = excerpt.strip()
+    if len(compact_excerpt) < 30:
+        return True
+    if "�" in compact_excerpt:
+        return True
+    lower_html = html_text[:12000].lower()
+    lower_excerpt = compact_excerpt.lower()
+    return any(marker in lower_html or marker in lower_excerpt for marker in HTML_DIFF_INVALID_MARKERS)
+
+
+def clip_change_fragment(value: str, limit: int = 260) -> str:
+    clean = re.sub(r"\s+", " ", value).strip()
+    if len(clean) <= limit:
+        return clean
+    return f"{clean[: limit - 1].rstrip()}..."
+
+
+def text_change_context(text: str, start: int, end: int) -> str:
+    if not text:
+        return ""
+    context_start = max(start - 60, 0)
+    context_end = min(max(end, start) + 180, len(text))
+    fragment = text[context_start:context_end]
+    if context_start > 0:
+        fragment = f"...{fragment}"
+    if context_end < len(text):
+        fragment = f"{fragment}..."
+    return clip_change_fragment(fragment)
+
+
+def html_change_summary(previous_excerpt: str, current_excerpt: str) -> str:
+    previous = re.sub(r"\s+", " ", previous_excerpt).strip()
+    current = re.sub(r"\s+", " ", current_excerpt).strip()
+    if not previous or not current or previous == current:
+        return ""
+
+    prefix_len = 0
+    max_prefix = min(len(previous), len(current))
+    while prefix_len < max_prefix and previous[prefix_len] == current[prefix_len]:
+        prefix_len += 1
+
+    suffix_len = 0
+    max_suffix = min(len(previous), len(current)) - prefix_len
+    while suffix_len < max_suffix and previous[-1 - suffix_len] == current[-1 - suffix_len]:
+        suffix_len += 1
+
+    previous_end = len(previous) - suffix_len if suffix_len else len(previous)
+    current_end = len(current) - suffix_len if suffix_len else len(current)
+    before = text_change_context(previous, prefix_len, previous_end)
+    after = text_change_context(current, prefix_len, current_end)
+
+    parts = []
+    if after:
+        parts.append(f"变化后片段：{after}")
+    if before:
+        parts.append(f"变化前片段：{before}")
+    return "；".join(parts)
 
 
 def collect_html_diff_items(
@@ -734,9 +844,10 @@ def collect_html_diff_items(
     fingerprint, excerpt = html_fingerprint(html_text)
     previous = source_state.get("fingerprint")
     previous_excerpt = str(source_state.get("last_excerpt") or "")
-    invalid_current = len(excerpt) < 40 or "�" in excerpt or excerpt.strip().lower() in {"please wait...", "please wait"}
-    invalid_previous = "�" in previous_excerpt or previous_excerpt.strip().lower() in {"please wait...", "please wait"}
-    if previous == fingerprint and previous_excerpt == excerpt:
+    signature_changed = sync_source_signature(source, source_state, now)
+    invalid_current = html_diff_snapshot_invalid(html_text, excerpt)
+    invalid_previous = bool(source_state.get("baseline_invalid")) or html_diff_snapshot_invalid("", previous_excerpt)
+    if not signature_changed and previous == fingerprint and previous_excerpt == excerpt:
         return []
     source_state["fingerprint"] = fingerprint
     source_state["last_changed_at"] = iso_or_none(now)
@@ -744,17 +855,26 @@ def collect_html_diff_items(
     if invalid_current:
         source_state["baseline_invalid"] = True
         return []
-    if not previous or invalid_previous:
+    source_state.pop("baseline_invalid", None)
+    if signature_changed or not previous or invalid_previous:
         source_state["baseline_initialized"] = True
         return []
     if previous == fingerprint:
         return []
+    change_summary = html_change_summary(previous_excerpt, excerpt)
+    if not change_summary:
+        source_state["last_suppressed_reason"] = "html_diff_without_readable_change"
+        return []
+    source_state.pop("last_suppressed_reason", None)
 
     return [
         NewsItem(
             title=f"{source.name} 页面发生更新",
             url=source.url,
-            summary=f"检测到 {source.entity or source.name} 的页面内容变化。推送规则：{source.push_rule or source.method}。",
+            summary=(
+                f"检测到 {source.entity or source.name} 的页面内容变化。"
+                f"{change_summary}。推送规则：{source.push_rule or source.method}。"
+            ),
             published_at=iso_or_none(now),
             source_id=source.id,
             source_name=source.name,
