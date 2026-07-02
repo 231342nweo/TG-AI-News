@@ -2,6 +2,11 @@ name: Send AI News To Telegram
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - "ai-news-telegram-radar/data/source-state.json"
   schedule:
     - cron: "*/5 * * * *"
 
