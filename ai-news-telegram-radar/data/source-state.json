@@ -350,7 +350,7 @@
       "last_checked_at": "2026-07-02T04:51:37.867265Z",
       "baseline_initialized": true,
       "repos": {
-        "MoonshotAI/kimi-code": "2026-07-02T10:52:20Z",
+        "MoonshotAI/kimi-code": "2026-07-02T10:55:43Z",
         "MoonshotAI/Kimi-K2": "2026-01-21T05:33:12Z",
         "MoonshotAI/Attention-Residuals": "2026-03-17T06:23:11Z",
         "MoonshotAI/kimi-cli": "2026-06-22T12:35:05Z",
@@ -371,7 +371,7 @@
         "MoonshotAI/kimi-code-zed-extension": "2026-01-20T18:06:03Z",
         "MoonshotAI/pykaos": "2025-12-26T14:52:32Z"
       },
-      "last_changed_at": "2026-07-02T10:54:31.333377Z"
+      "last_changed_at": "2026-07-02T11:00:54.269218Z"
     },
     "zai-github": {
       "seen_keys": [],
@@ -588,7 +588,7 @@
       "last_checked_at": "2026-07-02T04:51:58.871155Z",
       "baseline_initialized": true,
       "repos": {
-        "QwenLM/qwen-code": "2026-07-02T10:50:13Z",
+        "QwenLM/qwen-code": "2026-07-02T11:01:23Z",
         "QwenLM/Qwen-AgentWorld": "2026-06-25T06:57:43Z",
         "QwenLM/Qwen-RobotManip": "2026-06-29T22:29:54Z",
         "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
@@ -609,7 +609,7 @@
         "QwenLM/Qwen-Image": "2026-02-10T07:37:37Z",
         "QwenLM/FlashQLA": "2026-07-01T14:20:23Z"
       },
-      "last_changed_at": "2026-07-02T10:54:31.333377Z"
+      "last_changed_at": "2026-07-02T11:00:54.269218Z"
     },
     "tencent-hunyuan-github": {
       "seen_keys": [],
@@ -622,7 +622,7 @@
         "Tencent-Hunyuan/GEAR": "2026-07-01T03:15:10Z",
         "Tencent-Hunyuan/Hunyuan3D-2.1": "2025-10-17T10:10:07Z",
         "Tencent-Hunyuan/HY-SOAR": "2026-04-21T16:45:31Z",
-        "Tencent-Hunyuan/UniRL": "2026-07-02T10:12:22Z",
+        "Tencent-Hunyuan/UniRL": "2026-07-02T10:58:54Z",
         "Tencent-Hunyuan/HY-World-2.0": "2026-05-27T07:25:04Z",
         "Tencent-Hunyuan/HunyuanWorld-Mirror": "2026-05-27T03:22:57Z",
         "Tencent-Hunyuan/HunyuanWorld-1.0": "2026-04-15T17:27:25Z",
@@ -637,10 +637,12 @@
         "Tencent-Hunyuan/SAGE-GRPO": "2026-04-02T06:08:46Z",
         "Tencent-Hunyuan/Hy3-preview": "2026-04-23T15:09:16Z"
       },
-      "last_changed_at": "2026-07-02T10:16:42.317144Z"
+      "last_changed_at": "2026-07-02T11:00:54.269218Z"
     },
     "qbitai-rss": {
       "seen_keys": [
+        "https://www.qbitai.com/2026/07/442037.html",
+        "https://www.qbitai.com/2026/07/442030.html",
         "https://www.qbitai.com/2026/07/442024.html",
         "https://www.qbitai.com/2026/07/442016.html",
         "https://www.qbitai.com/2026/07/441790.html",
@@ -654,7 +656,7 @@
       ],
       "last_checked_at": "2026-07-02T04:52:26.145879Z",
       "baseline_initialized": true,
-      "last_changed_at": "2026-07-02T10:23:28.426031Z",
+      "last_changed_at": "2026-07-02T11:02:10.658960Z",
       "source_signature": "34418d38d4b87c134f9922d6999ac3c069821ed0be2134f9ba6ae5e00e4b63a9",
       "baseline_reinitialized_at": "2026-07-02T10:23:28.426031Z"
     },
