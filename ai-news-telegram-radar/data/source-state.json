@@ -3,8 +3,11 @@
     "deepseek-api-updates": {
       "fingerprint": "f80d5b7222934031760de998daaf87c18d92bdfc92a4bf359dddc96b8eab702f",
       "last_checked_at": "2026-07-02T04:51:33.147542Z",
-      "last_excerpt": "Change Log | DeepSeek API Docs Skip to main content DeepSeek API Docs English English 中文（中国） DeepSeek Platform Quick Start Your First API Call Models & Pricing Token & Token Usage Rate Limit & Isolation Error Codes Agent Integrations API Gu",
-      "baseline_initialized": true
+      "last_excerpt": "Change Log | DeepSeek API Docs Skip to main content DeepSeek API Docs English English 中文（中国） DeepSeek Platform Quick Start Your First API Call Models & Pricing Token & Token Usage Rate Limit & Isolation Error Codes Agent Integrations API Guides Thinking Mode Multi-round Conversation Chat Prefix Completion (Beta) FIM Completion (Beta) JSON Output Tool Calls Context Caching Anthropic API API Reference News Other Resources FAQ Change Log Change Log On this page Change Log Date: 2026-04-24 ​ DeepSeek-V4 ​ The DeepSeek API now supports V4-Pro and V4-Flash, available via both the OpenAI ChatCompletions interface and the Anthropic interface. To access the new models, the base_url remains unchanged, and the model parameter should be set to deepseek-v4-pro or deepseek-v4-flash . The two legacy API model names, deepseek-chat and deepseek-reasoner , will be discontinued in three months (2026-07-24). During the current period, these two model names point to the non-thinking mode and thinking mode of deepseek-v4-flash , respectively. For more details, please refer to this documentation . Date: 2025-12-01 ​ DeepSeek-V3.2 ​ Both deepseek-chat and deepseek-reasoner have been upgraded to DeepSeek-V3.2. deepseek-chat corresponds to DeepSeek-V3.2's non-thinking mode deepseek-reasoner corresponds to DeepSeek-V3.2's thinking mode DeepSeek-V3.2-Speciale ​ DeepSeek-V3.2-Speciale is served via a temporary endpoint: base_url=\" https://api.deepseek.com/v3.2_speciale_expires_on_20251215 \". Same pricing as V3.2, no tool calls, available until Dec 15th, 2025, 15:59 (UTC Time). For more details, please refer to this documentation . Date: 2025-09-29 ​ DeepSeek-V3.2-Exp ​ Both deepseek-chat and deepseek-reasoner have been upgraded to DeepSeek-V3.2-Exp. deepseek-chat corresponds to DeepSeek-V3.2-Exp's non-thinking mode deepseek-reasoner corresponds to DeepSeek-V3.2-Exp's thinking mode For more details, please refer to this documentation . Date: 2025-09-22 ​ DeepSeek-V3.1-Terminus ​ Both deepseek-chat and deepseek-reasoner have been upgraded to DeepSeek-V3.1-Terminus. deepseek-chat corresponds to DeepSeek-V3.1-Terminus's non-thinking mode , while deepseek-reasoner corresponds to its thinking mode . This update maintains the model's original capabilities while addressing issues reported by users, including: Language consistency: Reduced occurrences of Chinese-English mixing and occasional abnormal characters; Agent capabilities: Further optimized the performance of the Code Agent and Search Agent. Date: 2025-08-21 ​ DeepSeek-V3.1 ​ Both deepseek-chat and deepseek-reasoner have been upgraded to DeepSeek-V3.1. deepseek-chat corresponds to DeepSeek-V3.1's non-thinking mode , while deepseek-reasoner corresponds to its thinking mode . Key updates in DeepSeek-V3.1: Hybrid reasoning architecture : A single model supports both thinking mode and non-thinking mode Improved reasoning efficiency : Compared to DeepSeek-R1-0528, DeepSeek-V3.1-Think provides answers in significantly less time Enhanced agent capabilities : With post-training optimization, the new model achieves major improvements in tool usage and intelligent agent tasks SWE-bench Verified: 66.0 SWE-bench Multilingual: 54.5 Terminal-bench: 31.3 Date: 2025-05-28 ​ deepseek-reasoner ​ deepseek-reasoner Model Upgraded to DeepSeek-R1-0528: Enhanced Reasoning Capabilities Significant benchmark improvements (Pass@1) AIME 2025: 70.0 → 87.5 (+17.5) GPQA: 71.5 → 81.0 (+9.5) LCB_v6: 63.5 → 73.3 (+9.8) Aider: 57.0 → 71.6 (+14.6) Note: Complex reasoning tasks may consume more tokens compared to legacy R1 version. Optimized Front-end Development Generated web pages and games now feature improved aesthetics. Reduced Hallucinations Significantly suppressed hallucination issues present in legacy R1 version. JSON Output & Function Calling Support Function call performance: Tau-bench score: 53.5 (Airline) / 63.9 (Retail) Date: 2025-03-24 ​ deepseek-chat ​ deepseek-chat Model Upgraded to DeepSeek-V3-0324: Enhanced Reasoning Capa",
+      "baseline_initialized": true,
+      "source_signature": "da94888987a371666a5f08739c9802c186474211b8f74f055d7f6cfad14cf7a4",
+      "baseline_reinitialized_at": "2026-07-02T10:22:21.295328Z",
+      "last_changed_at": "2026-07-02T10:22:21.295328Z"
     },
     "deepseek-huggingface": {
       "models": {
@@ -35,20 +38,29 @@
     "kimi-platform-docs": {
       "fingerprint": "a7534e3592a1e34c9edb296b1f548f2876d4372ccbdcb24e81cc726804bd00a6",
       "last_checked_at": "2026-07-02T04:51:33.147542Z",
-      "last_excerpt": "Welcome to Kimi API Docs - Kimi API Platform Documentation Index Fetch the complete documentation index at: /docs/llms.txt Use this file to discover all available pages before exploring further. Skip to main content 🎉 Kimi K2.7 Code model h",
-      "baseline_initialized": true
+      "last_excerpt": "Welcome to Kimi API Docs - Kimi API Platform Documentation Index Fetch the complete documentation index at: /docs/llms.txt Use this file to discover all available pages before exploring further. Skip to main content 🎉 Kimi K2.7 Code model has been officially released, Kimi's strongest Coding model. Highspeed version launched simultaneously. Limited-time promotion in progress Kimi API Platform home page Search... ⌘ K Contact Sales Blog Playground User Center Search... Navigation Overview Welcome to Kimi API Docs Get Started Guides API Reference Pricing Resources Overview Welcome User Manual Model List Quickstart Quickstart with Kimi API Kimi K2.7 Code Model Kimi K2.6 Multi-modal Model Next steps Using Thinking Models Conduct Multi-turn Chat with Kimi API Use the Kimi Vision Model On this page Quick Start Models and Pricing More Resources Overview Welcome to Kimi API Docs Copy page Copy page Kimi K2.6 Model Kimi K2.6 is Kimi’s latest and most intelligent model, possessing stronger and more stable long-term code writing capabilities, supporting text, image, and video input, with 256K context length support. Apply API Key → ​ Quick Start ​ Models and Pricing View all ​ More Resources Was this page helpful? Yes No User Manual ⌘ I x github linkedin",
+      "baseline_initialized": true,
+      "source_signature": "8e73253a3945e387fc930361910053df326db3b44fb409f5f1e61268eab00640",
+      "baseline_reinitialized_at": "2026-07-02T10:22:21.295328Z",
+      "last_changed_at": "2026-07-02T10:22:21.295328Z"
     },
     "zhipu-bigmodel-releases": {
       "fingerprint": "20f058d14347d1c49a1ea27f736234f596c02993cf4035e5d41a0364b61a14c7",
       "last_checked_at": "2026-07-02T04:51:33.147542Z",
-      "last_excerpt": "新品发布 - 智谱AI开放文档 Documentation Index Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. Skip to main content 智谱AI开放文档 home page Search... ⌘ K 控制台 价格 财务 API Key 个人中心 Se",
-      "baseline_initialized": true
+      "last_excerpt": "新品发布 - 智谱AI开放文档 Documentation Index Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. Skip to main content 智谱AI开放文档 home page Search... ⌘ K 控制台 价格 财务 API Key 个人中心 Search... Navigation 新品发布 使用指南 API 文档 场景示例 编码套餐 更新日志 条款与协议 常见问题 新品发布 功能更新 On this page 公告通知 2026-06-16 2026-05-29 2026-04-07 2026-04-02 2026-03-15 2026-02-12 2026-02-03 2026-01-19 2026-01-14 2025-12-22 2025-12-11 2025-12-11 2025-12-11 2025-12-10 2025-12-08 2025-09-30 2025-08-11 2025-07-28 2025-07-15 2025-07-02 2025-06-18 2025-04-23 2025-04-14 2025-04-14 新品发布 Copy page 最新模型和产品发布公告 Copy page ​ 公告通知 ​ 2026-06-16 GLM-5.2 新一代旗舰模型上线 💬 GLM-5.2 支持 1M 无损上下文，长程任务能力显著提升，减少复杂任务中的上下文漂移与目标遗忘 Coding 与长程任务评测达到开源 SOTA，在复杂系统工程、深度调试中表现更稳 真实开发体感显著提升，项目级上下文承载、工程规范遵循与多端开发更可靠 ​ 2026-05-29 GLM Coding Plan 团队版上线 🤝 GLM Coding Plan 团队版 面向企业与开发团队的自助订阅方案上线，延续个人版高额模型用量，并兼容全球主流编码工具 支持席位、权限、用量与预算统一管理，帮助团队实现可追踪、可控制的 AI 编程协作 提供集中账单、统一开票与企业级数据安全保障，默认不将代码、提示词和对话内容用于模型训练 高级版支持首发接入最新旗舰模型及高峰期资源优先保障，带来更稳定高效的团队开发体验 ​ 2026-04-07 GLM-5.1 新一代旗舰模型上线 💬 GLM-5.1 Coding 能力大大增强，长程任务（Long Horizon Task）显著提升，支持一次任务中独立、持续工作长达 8 小时，实现从规划、执行到交付的完整闭环 在自主规划、持续执行、问题修复与策略迭代上展现更强的工程智能，能够完成更长链路的复杂任务闭环 综合能力全面对齐 Claude Opus 4.6，成为首个在综合能力上实现全面对齐的中国模型，并跻身全球开源模型前列 通过 multi-turn SFT、RL 与过程质量评估体系，进一步强化长任务中的稳定性、一致性与 tool use 能力 ​ 2026-04-02 GLM-5V-Turbo 多模态 Coding 基座模型上线 👀 GLM-5V-Turbo 兼顾视觉理解与 Coding 能力，在更小参数量下实现更优的性能表现，多模态任务处理更高效 细粒度理解、几何感知与空间理解能力进一步增强，复杂视觉推理更准确 强化 GUI Agent、Coding Agent 等复杂任务表现，更适合“看懂环境—规划动作—执行任务”的长流程场景 多模态工具链进一步扩展，在文本工具基础上新增支持画框、截图、读网页（含图片识别）等多模态 Tools ​ 2026-03-15 GLM-5-Turbo 龙虾增强基座模型上线 🦞 GLM-5-Turbo 面向 OpenClaw 龙虾场景深度优化的基座模型 强化了对外部工具与各类Skills的调用能力，在多步任务中更稳定、更可靠 复杂指令拆解更强，能够精准识别目标、规划步骤，并支持多智能体之间的协同分工 能够更好理解时间维度上的要求，在复杂长任务中保持执行连续性 针对数据吞吐量大、逻辑链条长的龙虾任务，进一步提升了执行效率与响应稳定性 ​ 2026-02-12 GLM-5 新一代旗舰模型上线 💬 GLM-5 专为复杂系统工程与长程 Agent 任务设计，实现从代码到工程的范式跃迁 后端架构设计、复杂算法实现及顽固 Bug 修复上展现出卓越的深度推理能力 在代码逻辑密度和系统工程能力上直接对标 Claude Opus 4.5 首次集成 DeepSeek Sparse Attention，在维持长文本效果无损的同时，提升 Token Efficiency ​ 2026-02-03 GLM-OCR 图文解析模型上线 👀 GLM-OCR 采用自研 CogViT 与 GLM-0.5B 的编码器-解码器设计，连接层实现高效跨模态对齐 基于数十亿图文对的 CLIP 预训练，具备强大的视觉语义与关键 Token 提取能力 模型小、速度快，在手写体、表格、印章、竖排等复杂场景中表现稳定 ​ 2026-01-19 GLM-4.7-Flash 免费模型上线 💬 GLM-4.7-Flash 轻量参数规模下实现了高效的 Coding 能力，任务理解与代码生成能力处于同类模型的较高水平 通用能力同级别最优，在写作、翻译、推理、角色扮演、长文本与审美等核心场景下兼顾质量与响应速度 为 GLM-4.7 的免费版本，针对高频调用场景进行优化，显著降低使用门槛与成本 ​ 2026-01-14 GLM-Image 图像生成模型上线 📷 GLM-Image 首个在国产芯片上完成全流程训练的 SOTA 多模态模型 采用「自回归理解 + 扩散解码」混合架构，模型能读懂指令、补全细节 知识密集型场景全面增强，文字渲染更稳更准（汉字尤其出色） ​ 2025-12-22 GLM-4.7 基座模型上线 💬 GLM-4.7 Coding 能力全面提升，代码生成更稳、更完整，长代码与工程级场景下的一次性交付能力显著增强 Agentic Coding 能力升级，支持以任务为中心的端到端开发 前端与视觉代码理解增强，生成页面在布局、交互与审美上更接近可展示、可直接使用的水平 通用对话与内容生成更可靠，复杂问题拆解更清晰，简单问题回应更直接，整体表达更自然、高效 ​ 2025-12-11 AutoGLM-Phone AI 手机智能助理框架上线 🤖 AutoGLM-Phone 支持用自然语言自动完成 App 操作任务 具备界面识别、意图规划与设备执行的端到端处理能力，无需人工点击或复杂配置 已适配 50+ 主流中文应用场景，覆盖购物、出行、外卖、影音、资讯等高频任务 支持完整操作指令集，包括启动 App、输入文字、滑动、点击、回退、长按等，实现细粒度交互控制 ​ 2025-12-11 GLM-TTS-Clone 音色克隆模型上线 🎵 GLM-TTS-Clone 只需录制约 3 秒清晰语音，即可生成专属音色 支持普通话及轻口音，更好复刻节奏、停顿、语气词等个性化表达 无论旁白、客服、剧情配音、教育讲解，均可保持音色统一与情感一致性 可与 GLM-TTS 联动，通过音色 ID 进行批量生产 ​ 2025-12-11 GLM-TTS 语音合成模型上线 🎵 GLM-TTS 在架构上采用两阶段生成，在自然度、情绪表达与语调连贯性上实现全面升级 支持流式与非流式接口，首帧响应低于 400ms，实现低延迟的交互式体验 强化学习（GRPO）优化显著降低字错误率，并在开源评测中取得 SOTA 情感表达表现 支持灵活控制语速、音量与风格，满足客服、阅读、文旅、智能硬件等多场景需求 ​ 2025-12-10 GLM-ASR-2512 语音识别模型上线 🎤 GLM-ASR-2512 行业出色语音识别性能，最新评测字符错误率（CER）仅 0.0717 支持多语言与方言识别，覆盖普通话、粤语、四川话、美式/英式英语及数十种全球常用语言 原生支持自定义词典，可快速导入专业术语、人名地名与项目代号，显著提升垂直行业识别精度 ​ 2025-12-08 GLM-4.6V 视觉推理模型上线 👀 GLM-4.6V 20+ 主流多模态评测基准全面验证，均取得 SOTA 成绩 原生支持工具调用，具备强大的图文混排创作能力，并能处理识图购物等复杂的视觉任务 视觉上下文窗口扩展至 128k，可单次处理约150页的复杂文档、200页PPT或一小时视频 针对前端开发场景深度调优，支持“截图即代码”，大幅提升 GLM Coding Plan 的开发与调试效率 ​ 2025-09-30 GLM-4.6 基座模型上线 💬 GLM-4.6 在公开基准与真实编程任务中展现出更强的代码能力 上下文窗口扩展至200K，提升处理长代码与复杂智能体任务的能力 推理过程进一步优化，支持在推理过程中调用工具，提升智能体任务执行的灵活性与效率 加强了模型在工具调用和智能体框架下的表现，使其在多场景应用中更加高效 ​ 2025-08-11 GLM-4.5V 视觉推理模型上线 👀 GLM-4.5V 100B 级别开源视觉推理模型 SOTA，比 GLM-4.1V-Thinking “更大更强” 覆盖从视频理解、前端复刻、视觉定位、图像识别与推理，到复杂文档解析与 GUI Agent 等多场景的视觉任务 新增“思考模式”开关，可灵活选择快速响应或深度推理 ​ 2025-07-28 GLM-4.5 系列基座模型上线 💬 GLM-4.5",
+      "baseline_initialized": true,
+      "source_signature": "10ecc1fa06af0b5ebdba84930554907f1be5b50926f64d96055671c12cbac811",
+      "baseline_reinitialized_at": "2026-07-02T10:22:21.295328Z",
+      "last_changed_at": "2026-07-02T10:22:21.295328Z"
     },
     "zai-release-notes": {
       "fingerprint": "d750029be87a8baeeba8534607d462f8df5674396ec491b02ef4e289608de3df",
       "last_checked_at": "2026-07-02T04:51:33.147542Z",
-      "last_excerpt": "New Released - Overview - Z.AI DEVELOPER DOCUMENT Documentation Index Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. Skip to main content Overview - Z.AI DEVELOPE",
-      "baseline_initialized": true
+      "last_excerpt": "New Released - Overview - Z.AI DEVELOPER DOCUMENT Documentation Index Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. Skip to main content Overview - Z.AI DEVELOPER DOCUMENT home page English Search... ⌘ K API Keys Payment Method Search... Navigation New Released Guides API Reference Coding Plan Released Notes Terms and Policy Help Center New Released On this page Models 2026-06-16 2026-04-07 2026-04-01 2026-03-15 2026-02-12 2026-02-03 2026-01-19 2026-01-14 2025-12-22 2025-12-11 2025-12-10 2025-12-08 2025-09-30 2025-08-11 2025-08-08 2025-07-28 2025-07-15 New Released Copy page Follow along with updates across Z.AI’s models Copy page ​ Models ​ 2026-06-16 GLM-5.2 Supports 1M lossless context, significantly improving long-horizon task capabilities and reducing context drift and goal forgetting in complex tasks Achieves open-source SOTA performance on coding and long-horizon task benchmarks, delivering more stable results in complex system engineering and deep debugging Significantly improves the real-world developer experience, with more reliable project-level context handling, adherence to engineering standards, and multi-platform development. Learn more in our documentation .* ​ 2026-04-07 GLM-5.1 Designed for long-horizon tasks, GLM-5.1 can work independently for up to 8 hours in a single run, enabling a full loop from planning and execution to iterative refinement and final delivery. It demonstrates stronger engineering intelligence across autonomous planning, sustained execution, bug fixing, and strategy iteration, while achieving comprehensive capability alignment with Claude Opus 4.6. Built with multi-turn SFT, RL, and a process-quality evaluation framework, GLM-5.1 further improves stability, consistency, and tool use over extended tasks. Learn more in our documentation .* ​ 2026-04-01 GLM-5V-Turbo Designed for vision-based coding and claw-style Agent workflows, GLM-5V-Turbo brings native multimodal understanding to images, video, and text, enabling stronger planning, coding, and action execution in visually grounded tasks. It strengthens multimodal tool use and GUI task execution, allowing the model to better interpret interfaces, design mocks, documents, and charts, plan the next action, and complete end-to-end Agent workflows while maintaining strong pure-text coding and reasoning performance. Learn more in our documentation .* ​ 2026-03-15 GLM-5-Turbo Designed for high-throughput OpenClaw lobster workloads, GLM-5-Turbo focuses on improving stability and efficiency in long-chain Agent tasks, enabling smoother execution for complex, multi-step workflows. It strengthens tool and Skills integration and enhances complex instruction decomposition, allowing the model to better identify task goals, plan execution steps, coordinate across multiple agents, and maintain temporal consistency in extended tasks.Learn more in our documentation .* ​ 2026-02-12 GLM-5 Designed for complex system engineering and long-range Agent tasks, GLM-5 shifts the paradigm from coding to engineering, demonstrating strong deep-reasoning performance in backend architecture, complex algorithms, and stubborn bug fixing. It directly benchmarks against Claude Opus 4.5 in code-logic density and systems-engineering capability, and integrates DeepSeek Sparse Attention for higher token efficiency while preserving long-context quality.Learn more in our documentation .* ​ 2026-02-03 GLM-OCR We’ve launched GLM-OCR, a compact and high-performance optical character recognition model powered by the self-developed CogViT and GLM-0.5B encoder-decoder architecture, enabling efficient cross-modal alignment through its dedicated connection layer. The update leverages CLIP pre-training on billions of image-text pairs to deliver robust visual semantic understanding and key token extraction capabilities, while maintaining a lightweight design for fast inference. Learn more in our documentation .",
+      "baseline_initialized": true,
+      "source_signature": "17e0c70fa26af5bceb63ab992818e61ea4fa7140e818e75f8d23d31f31fc777a",
+      "baseline_reinitialized_at": "2026-07-02T10:22:21.295328Z",
+      "last_changed_at": "2026-07-02T10:22:21.295328Z"
     },
     "zai-huggingface": {
       "models": {
@@ -80,26 +92,38 @@
     "minimax-platform": {
       "fingerprint": "e554f9891deecabc1def2204141eb4d6ec542374cc5f28ba38fd0ba2f7fa2e21",
       "last_checked_at": "2026-07-02T04:51:33.147542Z",
-      "last_excerpt": "Models - MiniMax API Docs Documentation Index Fetch the complete documentation index at: /docs/llms.txt Use this file to discover all available pages before exploring further. Skip to main content 🎉 MiniMax-M3 is now available! A Frontier M",
-      "baseline_initialized": true
+      "last_excerpt": "Models - MiniMax API Docs Documentation Index Fetch the complete documentation index at: /docs/llms.txt Use this file to discover all available pages before exploring further. Skip to main content 🎉 MiniMax-M3 is now available! A Frontier Model at your fingertips for Coding & Agent. ➔ Try Now . MiniMax API Docs home page Search... ⌘ K Documentation Pricing Console Search... Navigation Get started Models Developer Guides API Token Plan Pricing Release Notes Developer Program Get started Models Quick Start Use Guides Text Video Speech Image Music MCP Local Deployment FAQs About APIs About Account Contact Us Terms & Policy Terms of Service Privacy Policy On this page Language Video Audio Music Get started Models Copy page Overview of MiniMax AI models and their capabilities Copy page ​ Language Models Description Features MiniMax-M3 Frontier multimodal coding model with 1M context window • Multimodal • 1M context window • Frontier coding MiniMax-M2.7 Beginning the journey of recursive self-improvement • Top real-world engineering • Professional office delivery • Character-rich interaction MiniMax-M2.7-highspeed Same performance as M2.7 • Significantly faster inference • Polyglot code mastery • Precision code refactoring • Low latency Legacy Models Models Description Features MiniMax-M2.5 • Optimized for code generation and refactoring • Peak Performance. Ultimate Value. Master the Complex. MiniMax-M2.5-highspeed • Same performance as M2.5 • Significantly faster inference • Polyglot code mastery • Precision code refactoring • Low latency MiniMax-M2.1 • 230B total parameters with 10B activated per inference • Optimized for code generation and refactoring • Polyglot code mastery • Precision code refactoring • Enhanced reasoning MiniMax-M2.1-highspeed • Same performance as M2.1 • Significantly faster inference • Polyglot code mastery • Precision code refactoring • Low latency MiniMax-M2 • Context Length: 200k tokens • Maximum Output: 128k tokens (including CoT) • Agentic capabilities • Function calling • Advanced reasoning • Real-time streaming ​ Video Models Description Res.& Dur. FPS MiniMax Hailuo 2.3 • Text to Video & Image to Video • SOTA instruction following • Extreme physics mastery • 1080p 6s • 768p 6s, 10s 24 fps MiniMax Hailuo 2.3Fast • Image to Video • Extreme physics mastery • Value and Efficiency • 1080p 6s • 768p 6s, 10s 24 fps Legacy Models Models Description Res.& Dur. FPS MiniMax Hailuo 02 • Text to Video & Image to Video • SOTA instruction following • Extreme physics mastery • 1080p 6s • 768p 6s, 10s • 512p 6s, 10s 24 fps ​ Audio Models Description Features speech-2.8-hd • Ultra-realistic quality featuring sound tags • 40 languages supported • 7 emotions supported • specified languages and dialects supported speech-2.8-turbo • Seamless speed meets natural flow • 40 languages supported • 7 emotions supported • specified languages and dialects supported Legacy Models Models Description Features speech-2.6-hd • Ultimate Similarity • Ultra-High Quality • 40 languages supported • 7 emotions supported • specified languages and dialects supported speech-2.6-turbo • Ultimate Value • Low latency • 40 languages supported • 7 emotions supported • specified languages and dialects supported speech-02-hd • Stronger replication similarity • High quality voice generation • 24 languages supported • 7 emotions supported • specified languages and dialects supported speech-02-turbo • Superior rhythm and stability • Low latency • 24 languages supported • 7 emotions supported • specified languages and dialects supported ​ Music Models Description Features Music-2.6 • Cover Reborn. Bass Redefined. • Cover Reborn. Bass Redefined. Music-Cover • Generate cover versions from reference audio • One-step cover generation • Two-step cover with lyrics modification • Style transfer • Auto lyrics extraction Legacy Models Models Description Features Music-2.0 • Text to Music • Enhanced musicality • Natural vocals and smooth melodies • Human-like per",
+      "baseline_initialized": true,
+      "source_signature": "7efa5264e5e772d4c753eb467c1b0c232a428981fc38afd2b8494069a2091e61",
+      "baseline_reinitialized_at": "2026-07-02T10:22:21.295328Z",
+      "last_changed_at": "2026-07-02T10:22:21.295328Z"
     },
     "minimax-release-notes": {
       "fingerprint": "0a4c6263768040479f48490bc753977b89a8b55429745584bfd895144b9936ea",
       "last_checked_at": "2026-07-02T04:51:33.147542Z",
-      "last_excerpt": "Models - MiniMax API Docs Documentation Index Fetch the complete documentation index at: /docs/llms.txt Use this file to discover all available pages before exploring further. Skip to main content 🎉 MiniMax-M3 is now available! A Frontier M",
-      "baseline_initialized": true
+      "last_excerpt": "Models - MiniMax API Docs Documentation Index Fetch the complete documentation index at: /docs/llms.txt Use this file to discover all available pages before exploring further. Skip to main content 🎉 MiniMax-M3 is now available! A Frontier Model at your fingertips for Coding & Agent. ➔ Try Now . MiniMax API Docs home page Search... ⌘ K Documentation Pricing Console Search... Navigation Models Developer Guides API Token Plan Pricing Release Notes Developer Program Models APIs On this page Jun. 1, 2026 Apr. 2026 Mar. 18, 2026 Mar. 2026 Feb. 2026 Jan. 23, 2026 Jan. 16, 2026 Dec. 22, 2025 Oct. 29, 2025 Oct. 29, 2025 Oct. 28, 2025 Oct. 27, 2025 Sept. 11, 2025 Aug. 6, 2025 Jun. 20, 2025 Jun. 18, 2025 Apr. 2, 2025 Feb. 15, 2025 Feb. 11, 2025 Jan. 15, 2025 Models Copy page Stay updated on MiniMax’s latest model releases across language, audio, video, image, and music. Copy page ​ Jun. 1, 2026 MiniMax M3 Released MiniMax-M3, the latest M-series language model for agentic reasoning, tool use, coding, multimodal chat input, and long-context tasks. Learn More ​ Apr. 2026 Music-2.6 Cover Reborn. Bass Redefined. Learn More ​ Mar. 18, 2026 MiniMax M2.7 Released MiniMax-M2.7 series (MiniMax-M2.7 / M2.7-highspeed). Beginning the journey of recursive self-improvement. Learn More ​ Mar. 2026 Music2.5+ Released Music2.5+, Instrumental Unlocked, break through style boundaries Learn More ​ Feb. 2026 MiniMax M2.5 Released MiniMax-M2.5 series models (MiniMax-M2.5 / M2.5-highspeed). Achieving or setting new SOTA benchmarks in programming, tool calling and search, office productivity and other scenarios. Learn More ​ Jan. 23, 2026 Speech-2.8 Natural Sound Tags, lifelike voice, pristine audio quality Learn More ​ Jan. 16, 2026 Music-2.5 Released Music 2.5, Direct the Detail. Define the Real. Learn More ​ Dec. 22, 2025 MiniMax-M2.1 Released MiniMax-M2.1. Polyglot Programming Mastery, Precision Code Refactoring. Learn More ​ Oct. 29, 2025 Music-2.0 Released Music 2.0, enhanced musical expression that makes every melody deeply emotional. Learn More ​ Oct. 29, 2025 Speech-2.6 Released Speech 2.6 — More human and instantly responsive voice for your agent. Learn More ​ Oct. 28, 2025 MiniMax-Hailuo-2.3 & 2.3-Fast Released MiniMax-Hailuo-2.3 & 2.3-Fast, featuring breakthroughs in body movement, facial expressions, physical realism, and prompt adherence. Learn More ​ Oct. 27, 2025 MiniMax-M2 MiniMax-M2 Released. An Efficient Model for the Agentic Era. Get free MiniMax M2 model API calls now. Offer ends November 7, 2025, at 00:00 UTC. Learn More ​ Sept. 11, 2025 Music-1.5 New music model released. Now supports 4-minute songs, getting back to the core of great sound. Start Building ​ Aug. 6, 2025 Speech-2.5 Released a next-generation speech synthesis model featuring broader language coverage and exceptionally high voice similarity. Learn More ​ Jun. 20, 2025 Music-1.5 (Beta) Released Music-1.5 (Beta), a next-generation music generation model that supports creating music from musical prompts and lyrics. Start Building ​ Jun. 18, 2025 MiniMax-Hailuo-02 Released MiniMax Hailuo 02, a next-generation video generation model with support for 1080p resolution and video generation of up to 10 seconds. Learn More ​ Apr. 2, 2025 Speech-02-turbo / Speech-02-hd Released the Speech-02 model series, delivering hyper-realistic vocal performance. The models are distinguished by exceptional prosody and stability, along with outstanding voice similarity and audio quality. Learn More ​ Feb. 15, 2025 Image-01 Released the Image-01 model, which supports text-to-image generation in multiple sizes. Start Building ​ Feb. 11, 2025 T2V-01-Director / I2V-01-Director Released a video generation model with enhanced camera control, offering superior adherence to camera movement directives and enabling cinematic storytelling through its shot composition. Start Building ​ Jan. 15, 2025 MiniMax-Text-01 / MiniMax-VL-01 Released the next-generation LLM, MiniMax-Text-01, and the vision-language model,",
+      "baseline_initialized": true,
+      "source_signature": "a2532ebbb3dcd662b822ecda363ea5aa2b3a49b3f3b4ef58a3d0ac6ff25450f0",
+      "baseline_reinitialized_at": "2026-07-02T10:22:21.295328Z",
+      "last_changed_at": "2026-07-02T10:22:21.295328Z"
     },
     "stepfun-platform": {
       "fingerprint": "34c0229bac5dc70cef60111f52416a3d8c1c4b24d7bb5518ca7985c9f05a7a60",
       "last_checked_at": "2026-07-02T04:51:33.147542Z",
-      "last_excerpt": "阶跃星辰开放平台 首页 Step Plan 文档中心 体验中心 Studio 体验中心 场景示例 阶跃星辰官网 EN 未登录 创作新阶，此刻开启 Step Plan 限时免费体验， 海量 Token 放送中！ I build with models, I create my agent！ 更多福利 免费领取 Step 3.7 Flash 面向生产级 Agent 的高效率 Flash 模型 原生多模态理解与执行 / 联网与视觉搜索增强 / 高可靠工具调用与编排 / Agent ",
-      "baseline_initialized": true
+      "last_excerpt": "阶跃星辰开放平台 首页 Step Plan 文档中心 体验中心 Studio 体验中心 场景示例 阶跃星辰官网 EN 未登录 创作新阶，此刻开启 Step Plan 限时免费体验， 海量 Token 放送中！ I build with models, I create my agent！ 更多福利 免费领取 Step 3.7 Flash 面向生产级 Agent 的高效率 Flash 模型 原生多模态理解与执行 / 联网与视觉搜索增强 / 高可靠工具调用与编排 / Agent 生态兼容优化 模型介绍 立即使用 Step Plan Step Plan 从 Coding 到 Agent 皆可构建 多模型智能路由 / 多模态 / 适配主流 Agent 框架 模型介绍 立即使用 Step Image Edit 2 图像编辑与通用生图大模型 3.5B 轻量架构 / 极致智能密度 / 秒级响应 模型介绍 立即使用 StepAudio 2.5 TTS 具备语境感知力的语音合成模型 双档语境风格控制 / Zero-shot 精准音色复刻 / “人味儿”拉满 模型介绍 立即使用 携手合作伙伴加速 AI 应用落地 语言模型 语音模型 多模态/GUI 模型 语言大模型 Step 3.7 Flash 面向生产级 Agent 的高效率 Flash 模型 模型介绍 马上开始 原生多模态理解与执行 原生理解 UI、图表、文档、图片和应用界面，将复杂视觉信息转化为结构化结果、代码生成和可执行任务。 联网与视觉搜索增强 强化联网检索与图像搜索,使模型在开放信息环境中跨文本与图像主动获取并交叉比对多源证据。 高可靠工具调用与编排 在长程多轮 Agent 工作流中稳定调用 API、浏览器、终端、Office工具和外部系统，保持任务轨迹一致，降低跑偏和执行失败。 Agent 生态兼容优化 针对主流 Agent 框架（Claude Code / KiloCode / Hermes Agent / OpenClaw等）、MCP/Skills 等工具调用协议和开发链路进行兼容优化，降低模型接入和工作流编排成本。 语言大模型 Step 3.5 Flash 为 Agent 而生的语言大模型！快，很快，还能更快 语言大模型 Step 2 万亿参数自研底座；深度推理对标前沿；精准多层指令跟随 语言大模型 Step 1 单卡低比特长文本推理；千万级用户产品稳定验证；高效多轮指令跟随能力 文档中心 了解定价 让 AI 应用更容易构建 连接模型、工具与工作流,探索下一代 AI 应用 Studio 模型体验中心 无需编写任何代码即可在体验中心中探索我们的模型和 API 立即使用 行业解决方案 消费电子 内容创作 智能汽车 本地生活 金融财经 智能制造 游戏娱乐 智能政务 消费电子 助力智能终端设备个性化交互， 提升用户体验 提供 AI 多模态智搜、拍照问万物、AI 助手智答等功能，引领手机迈入智能新时代。 内容创作 助力内容创作应用生态升级， 开启智能创作新体验 提供长篇叙事能力与存储能力，覆盖 IP 互动游戏、智能音视频编辑、音视频内容生产、网文创作等场景。 智能汽车 深度融合智能汽车行业， 引领 AI 汽车革新 为智能汽车提供智能个性化互动体验和车外环境感知等功能，提升驾驶安全性和出行乐趣。 本地生活 助力本地生活智慧化运营， 创造增量业务价值 AIGC 助力营销落地，AI 巡检提升运营效率，智能数据分析赋能经营决策。 金融财经 驱动金融行业智能化升级， 重塑金融服务面貌 形成投研、投顾、资讯大模型生态圈，提供更准确、全面和及时的投资研究支持，全面助力数字化服务体系能力提升。 智能制造 为智能制造业注入新动力， 推动智能化生产普及应用 赋能产品生产过程，实现产品质量智能检查，为制造商提供了更全面的质量控制解决方案。 游戏娱乐 丰富游戏行业创作形式， 沉浸式体验游戏乐趣 支持虚拟角色创建、无限剧情拓展、游戏数值计算等功能，开启个性化虚拟世界新纪元。 智能政务 助力服务效率提升， 开启智能政务新篇章 围绕一体化办公助手、城市生命体征、法律咨询等场景，推进政务领域大模型的落地应用。 联系我们：platform@stepfun.com 联系我们 官方邮箱 开发者交流群 客服微信 文档中心 模型列表 开发指南 定价计费 体验模型 体验中心 阶跃 AI Scale-up possibilities for everyone 模型名称：阶跃大模型 沪公网安备31010402333581 备案号：Shanghai-JieYue-20231106 沪ICP备2023019222号-3 Copyright © 2023 上海阶跃星辰智能科技有限公司 地址：上海市徐汇区云锦路701号30层",
+      "baseline_initialized": true,
+      "source_signature": "1764b050776e48118386a9b8f957cabbc6103cedf92d24ea4a75aca9c840feca",
+      "baseline_reinitialized_at": "2026-07-02T10:22:21.295328Z",
+      "last_changed_at": "2026-07-02T10:22:21.295328Z"
     },
     "baichuan-api-docs": {
       "fingerprint": "e70e07d29b52339cabbc2d77c16275a8ff814eaac6c714b8dd66885f9db9a321",
       "last_checked_at": "2026-07-02T04:51:33.147542Z",
-      "last_excerpt": "百川大模型-汇聚世界知识 创作妙笔生花-百川智能 接入须知 接口文档 医疗大模型 通用大模型 知识库 向量化模型 文件管理 错误码 财务相关 发票 MCP 申请加入海纳百川计划 · 免费使用M3Plus API 本页内容 © 2026 北京百川智能科技有限公司 京ICP备2023015490号-1 | 京B2-20232254 京公网安备11010802042854号 用户协议 | 隐私政策 申请体验 请填写 合作咨询 申请体验测试，我们 会安排商务尽快跟进 联系我们 官方邮",
-      "baseline_initialized": true
+      "last_excerpt": "百川大模型-汇聚世界知识 创作妙笔生花-百川智能 接入须知 接口文档 医疗大模型 通用大模型 知识库 向量化模型 文件管理 错误码 财务相关 发票 MCP 申请加入海纳百川计划 · 免费使用M3Plus API 本页内容 © 2026 北京百川智能科技有限公司 京ICP备2023015490号-1 | 京B2-20232254 京公网安备11010802042854号 用户协议 | 隐私政策 申请体验 请填写 合作咨询 申请体验测试，我们 会安排商务尽快跟进 联系我们 官方邮箱 Openapi@baichuan-inc.com 扫码进入服务支持群 使用指南",
+      "baseline_initialized": true,
+      "source_signature": "c88f6b8e4ec40b225538fdb2b8edbc0929dfacc563adfcdf52704b491d094767",
+      "baseline_reinitialized_at": "2026-07-02T10:22:21.295328Z",
+      "last_changed_at": "2026-07-02T10:22:21.295328Z"
     },
     "qwen-blog": {
       "seen_keys": [
@@ -111,7 +135,9 @@
       ],
       "last_checked_at": "2026-07-02T04:51:58.171005Z",
       "baseline_initialized": true,
-      "last_changed_at": "2026-07-02T09:43:05.523122Z"
+      "last_changed_at": "2026-07-02T10:22:46.225928Z",
+      "source_signature": "adb3b4bc952d96f88a028b56127f83bbc159b10df8ec1dab61be96b340ca6beb",
+      "baseline_reinitialized_at": "2026-07-02T10:22:46.225928Z"
     },
     "qwen-huggingface": {
       "models": {
@@ -142,22 +168,30 @@
     "aliyun-bailian-models": {
       "fingerprint": "a5bdc39a73be75f1885f5a7eff2e40a8a763459bcac9225c9abc72a08a58fced",
       "last_checked_at": "2026-07-02T04:51:33.147542Z",
-      "last_excerpt": "模型大全功能规格与计费-大模型服务平台百炼-阿里云-大模型服务平台百炼(Model Studio)-阿里云帮助中心 大模型 产品 解决方案 权益 定价 云市场 伙伴 服务 了解阿里云 查看 \"\" 全部搜索结果 AI 助理 文档 备案 控制台 官方文档 用户指南（模型） 用户指南（应用） API参考（模型） API参考（应用） 首页 选择模型 更新时间： 复制 MD 格式 产品详情 我的收藏 阿里云百炼提供千问及第三方模型服务，覆盖文本、图像、音频、视频等多种模态。 文本生成 ",
-      "baseline_initialized": true
+      "last_excerpt": "模型大全功能规格与计费-大模型服务平台百炼-阿里云-大模型服务平台百炼(Model Studio)-阿里云帮助中心 大模型 产品 解决方案 权益 定价 云市场 伙伴 服务 了解阿里云 查看 \"\" 全部搜索结果 AI 助理 文档 备案 控制台 官方文档 用户指南（模型） 用户指南（应用） API参考（模型） API参考（应用） 首页 选择模型 更新时间： 复制 MD 格式 产品详情 我的收藏 阿里云百炼提供千问及第三方模型服务，覆盖文本、图像、音频、视频等多种模态。 文本生成 千问模型 从能力最强到成本最低，按需选择 查看更多 → qwen3.7-max qwen3.7-plus qwen3.6-flash 三方模型 API 格式与千问模型一致 查看更多 → deepseek-v4-pro deepseek-v4-flash kimi-k2.7-code glm-5.2 MiniMax-M2.7 mimo-v2.5-pro 图像与视频 理解 分析图片和视频内容，返回文本描述或结构化结果 查看更多 → qwen3.7-plus qwen3.5-omni-plus kimi-k2.7-code 生成 通过文本或图片生成图像与视频，支持编辑、参考与高分辨率输出 查看更多 → wan2.7-image-pro qwen-image-2.0-pro happyhorse-1.1-t2v happyhorse-1.1-i2v happyhorse-1.1-r2v happyhorse-1.0-video-edit 3D 模型生成 文生 3D 模型或图生 3D 模型，构建三维资产 查看更多 → Tripo/Tripo-H3.1 Tripo/Tripo-P1.0 音频与语音 语音合成 适用于有声阅读、语音播报、虚拟人等场景 查看更多 → cosyvoice-v3.5-plus MiniMax/speech-2.8-hd 音乐生成 根据提示词或歌词生成音乐 查看更多 → fun-music-v1 语音识别 专业 ASR 与大模型两种方案，按精度与灵活性选择 查看更多 → fun-asr-realtime fun-asr qwen3.5-omni-plus-realtime qwen3.5-omni-plus 语音转语音 端到端语音对话，无需分别调用 ASR 和 TTS 查看更多 → qwen3.5-omni-plus-realtime qwen3.5-omni-plus 全模态 融合文本、图像、音频、视频等多种模态的理解与生成能力 查看更多 → qwen3.5-omni-plus-realtime qwen3.5-omni-plus 向量与重排序 文本或图文向量化，配合重排序提升检索精度 查看更多 → text-embedding-v4 tongyi-embedding-vision-plus qwen3-rerank 查看所有模型 前往 模型广场 查看所有千问、三方、领域及历史版本模型。 上一篇：首次调用千问API 下一篇：限流 该文章对您有帮助吗？ 反馈 为什么选择阿里云 什么是云计算 全球基础设施 技术领先 稳定可靠 安全合规 分析师报告 大模型 千问大模型 大模型服务 AI应用构建 产品和定价 全部产品 免费试用 产品动态 产品定价 配置报价器 云上成本管理 技术内容 技术解决方案 帮助文档 开发者社区 天池大赛 阿里云认证 权益 免费试用 解决方案免费试用 高校计划 5亿算力补贴 推荐返现计划 服务 基础服务 企业增值服务 迁云服务 官网公告 健康看板 信任中心 关注阿里云 关注阿里云公众号或下载阿里云APP，关注云资讯，随时随地运维管控云服务 联系我们：4008013260 法律声明 Cookies 政策 廉正举报 安全举报 联系我们 加入我们 友情链接 阿里巴巴集团 淘宝网 天猫 全球速卖通 阿里巴巴国际交易市场 1688 阿里妈妈 飞猪 阿里云计算 万网 高德 UC 友盟 优酷 钉钉 支付宝 达摩院 淘宝海外 阿里云盘 淘宝闪购 © 2009-现在 Aliyun.com 版权所有 增值电信业务经营许可证： 浙B2-20080101 域名注册服务机构许可： 浙D3-20210002 浙公网安备 33010602009975号 浙B2-20080101-4",
+      "baseline_initialized": true,
+      "source_signature": "55deffc503423fb3ce68daece33fd797ae9f277c5d24e170f039031f65315073",
+      "baseline_reinitialized_at": "2026-07-02T10:22:21.295328Z",
+      "last_changed_at": "2026-07-02T10:22:21.295328Z"
     },
     "baidu-qianfan-docs": {
       "fingerprint": "373f51f4e67956f1bbb9cea35f3c63a658cc2c453c1a8270958711800bf8b257",
       "last_checked_at": "2026-07-02T04:51:33.147542Z",
-      "last_excerpt": "百度千帆·大模型服务及Agent开发平台 -百度智能云 最新活动 产品 解决方案 千帆社区 AI原生应用商店 企业服务 云市场 合作与生态 开发者 服务与支持 了解智能云 备案 文档 管理控制台 文档中心 推荐文档 云服务器 千帆大模型平台 文字识别 人脸识别 实名认证介绍 备案介绍 财务功能概述 搜索本产品文档关键词 所有文档 人工智能 百度千帆模型服务及Agent开发平台 百度胜算 DuClaw DuMate 秒哒 百度伐谋 百度一见 智能代码助手 文字识别 语音技术 人",
-      "baseline_initialized": true
+      "last_excerpt": "百度千帆·大模型服务及Agent开发平台 -百度智能云 最新活动 产品 解决方案 千帆社区 AI原生应用商店 企业服务 云市场 合作与生态 开发者 服务与支持 了解智能云 备案 文档 管理控制台 文档中心 推荐文档 云服务器 千帆大模型平台 文字识别 人脸识别 实名认证介绍 备案介绍 财务功能概述 搜索本产品文档关键词 所有文档 人工智能 百度千帆模型服务及Agent开发平台 百度胜算 DuClaw DuMate 秒哒 百度伐谋 百度一见 智能代码助手 文字识别 语音技术 人脸识别 人体分析 语言处理技术 图像识别 图像搜索 图像增强 BML全功能AI开发平台 零门槛AI开发平台 EasyDL 知识理解 机器人平台 ABC Robot 内容审核 机器翻译 居民服务Agent 曦灵数字人 计算 云服务器 BCC 专属服务器 DCC 弹性裸金属服务器 GPU云服务器 FPGA云服务器 云手机 弹性伸缩 AS 云编排服务 COS 应用引擎 BAE 轻量应用服务器 LS 本地计算集群 LCC 百度百舸·AI计算平台 云高性能计算平台 磐玉一体机 网络 弹性公网IP 私有网络 VPC 服务网卡 SNIC 负载均衡 BLB 智能云解析 DNS 专线接入 ET 云智能网 CSN 智能流量管理 云防火墙 CFW 智能网络接入服务 网络诊断服务 存储 对象存储 BOS 云磁盘 CDS 文件存储 CFS 并行文件存储 PFS 存储网关 BSG 数据流转平台 CloudFlow 极速文件缓存 RapidFS 云备份 BCB 表格存储 TableStorage CDN与边缘服务 内容分发网络 CDN 海外CDN 动态加速 DRCDN 边缘计算节点 BEC 边缘服务器 ECS 数据库 云数据库 RDS 云数据库 Redis 云数据库 DocDB for MongoDB 云原生数据库 GaiaDB 数据传输服务 DTS 数据库智能驾驶舱 DBSC 消息服务 for RabbitMQ 向量数据库 VectorDB 云原生 容器引擎服务 CCE 容器镜像服务CCR Prometheus监控服务 容器实例BCI 函数计算 CFC 服务网格 CSM 微服务引擎 MSE AI原生网关 AIGW 管理运维 云监控BCM 运维编排服务 效率云 API网关 标签管理 资源管理 配额中心 云迁移中心 服务与支持 智能视频 音视频处理 智能视频 SDK 媒体内容分析 媒体内容审核 音视频直播 智能直播应用平台 ILAP 实时音视频 RTC 智能点播平台 VOD 多模态资源检索 智能视联网平台 智能大数据 MapReduce 流式计算 BSC 数据可视化 Sugar BI Elasticsearch 数据仓库 PALO 日志服务 BLS 消息服务 for Kafka 消息服务 for RocketMQ 千帆数据智能平台 DataBuilder 城市时空大数据分析 DMI 安全 DDoS防护服务 应用防火墙WAF 云安全中心 安全检测服务 流量审计分析 云审计 业务安全风控 号码安全服务SPNS 密钥管理服务 SSL证书 云堡垒机 安全漏洞预警 操作系统安全加固 应用加固与安全检测 短网址服务 史宾格安全及隐私合规平台 大模型内容安全平台 云通信 短信服务 SMS 号码隐私保护服务 PNS 号码认证服务 语音通话 语言通知服务 5G消息服务 域名与网站 智能门户 域名服务 备案服务 移动域名解析 商标服务 云主机管家 数字营销云 智能对话营销服务 企业智能应用 智能对话平台UNIT私有化 智能对话平台UNIT云端版 智能外呼 智能推荐引擎 工商财税服务 CBS 问卷调研服务 移动APP测试服务 物联网服务 物联网核心套件 时序时空数据库 TSDB 物联网安全套件 天工智能物联网解决方案 度家-AIOT语音平台 区块链 超级链BaaS平台 超级链数字商品可信登记平台 超级链可信存证 混合云 广目混合云管理平台 BaiduLinuxOS 云市场 云市场 解决方案 金融云 工业视觉智能平台 云游戏 金融智能体 账户管理 账号管理 多用户访问控制 企业组织 证书管理 实名认证 通用参考 ICP备案帮助 区域选择说明 鉴权认证机制 获取AK/SK 术语表 法律条款 API入门指南 财务参考 计费说明 发票 充值 续费 代金券 账单与收支 订单管理 提现 退款 配置升/降级 赔付 企业组织财务管理 合同 常见问题 百度千帆·大模型服务及Agent开发平台 平台介绍 模型介绍 Coding Plan Token Plan 企业版 计费说明 最佳实践 平台操作 API参考 SDK参考 常见问题 相关协议 文档中心 百度千帆·大模型服务及Agent开发平台 百度千帆·大模型服务及Agent开发平台 产品详情 全新的“百度千帆”以Agent为核心，为企业提供模型、Agent开发及数据智能服务等一站式服务。百度千帆基于百度智能云的全栈AI云布局，围绕Agent引擎、工具及MCP、模型服务与企业级服务等四大关键要素，为Agent的应用落地构建了坚实的能力底座。 学习路径 循序渐进，带您全面了解百度千帆·大模型服务及Agent开发平台 了解 了解百度千帆·大模型服务及Agent开发平台的产品特性，优势和使用场景，让您对它有一个全局的认识。 平台简介 产品公告 费用说明 针对不同的应用场景，您可以灵活选择计费模式 模型服务计费 退款申请说明 模型token计算说明 平台操作 当前新用户注册百度千帆·大模型服务及Agent开发平台 ，实名认证后即送20元代金券！全平台无门槛使用，有效期一个月。 模型服务 应用开发 组件广场 系统管理 百度千帆·大模型服务及Agent开发平台 百度千帆·大模型服务及Agent开发平台 产品详情 全新的“百度千帆”以Agent为核心，为企业提供模型、Agent开发及数据智能服务等一站式服务。百度千帆基于百度智能云的全栈AI云布局，围绕Agent引擎、工具及MCP、模型服务与企业级服务等四大关键要素，为Agent的应用落地构建了坚实的能力底座。 学习路径 循序渐进，带您全面了解百度千帆·大模型服务及Agent开发平台 ① 了解 了解百度千帆·大模型服务及Agent开发平台的产品特性，优势和使用场景，让您对它有一个全局的认识。 · 平台简介 · 产品公告 ② 费用说明 针对不同的应用场景，您可以灵活选择计费模式 · 模型服务计费 · 退款申请说明 · 模型token计算说明 ③ 平台操作 当前新用户注册百度千帆·大模型服务及Agent开发平台 ，实名认证后即送20元代金券！全平台无门槛使用，有效期一个月。 · 模型服务 · 应用开发 · 组件广场 · 系统管理",
+      "baseline_initialized": true,
+      "source_signature": "70f27b13727d41b2aa701e06aaddd8cef63e3dfe9e04c82f149e4ddc0031ea05",
+      "baseline_reinitialized_at": "2026-07-02T10:22:21.295328Z",
+      "last_changed_at": "2026-07-02T10:22:21.295328Z"
     },
     "tencent-hunyuan-update-history": {
       "fingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "last_checked_at": "2026-07-02T04:51:33.147542Z",
       "last_excerpt": "",
       "baseline_initialized": true,
-      "last_changed_at": "2026-07-02T07:02:11.408401Z",
-      "baseline_invalid": true
+      "last_changed_at": "2026-07-02T10:22:21.295328Z",
+      "baseline_invalid": true,
+      "source_signature": "449737205d894c5bb38a68a99191387f18f4d226d488944298e018fab82c287f",
+      "baseline_reinitialized_at": "2026-07-02T10:22:21.295328Z"
     },
     "volcengine-ark-models": {
       "fingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
@@ -165,7 +199,9 @@
       "last_excerpt": "",
       "baseline_initialized": true,
       "baseline_invalid": true,
-      "last_changed_at": "2026-07-02T10:08:21.785305Z"
+      "last_changed_at": "2026-07-02T10:22:21.295328Z",
+      "source_signature": "ab5ee375ff670169281a4aefbc9772546566386e665c24a65ec209061d7dfada",
+      "baseline_reinitialized_at": "2026-07-02T10:22:21.295328Z"
     },
     "volcengine-ark-updates": {
       "seen_keys": [
@@ -202,85 +238,35 @@
       ],
       "last_checked_at": "2026-07-02T04:52:05.788649Z",
       "baseline_initialized": true,
-      "last_changed_at": "2026-07-02T10:08:21.785305Z",
+      "last_changed_at": "2026-07-02T10:22:21.295328Z",
       "fingerprint": "2dfd888fdd5e8018cee8e77df36401239b12076875ff2ab829b1728d2d371774",
       "last_excerpt": "Please wait...",
-      "baseline_invalid": true
+      "baseline_invalid": true,
+      "source_signature": "bf1f63ca68ab1a7f10b219aa7fbc07472dde5da63456aa15a90f6ecaf31f0156",
+      "baseline_reinitialized_at": "2026-07-02T10:22:21.295328Z"
     },
     "cac-generative-ai-filing": {
       "seen_keys": [
         "https://www.cac.gov.cn/2026-06/26/c_1784217637474922.htm",
-        "https://www.cac.gov.cn/2026-06/18/c_1783525609778371.htm",
-        "https://www.cac.gov.cn/special/gjjs/A094204index_1.htm",
-        "https://www.cac.gov.cn/yaowen/szyw/A093601index_1.htm",
-        "https://www.cac.gov.cn/wxzw/A0937index_1.htm",
-        "https://www.cac.gov.cn/hdfw/A0938index_1.htm",
-        "https://www.cac.gov.cn/gzzt/ztzl/A092001index_1.htm",
-        "https://www.cac.gov.cn/2026-07/01/c_1784649697122071.htm",
-        "https://www.cac.gov.cn/2026-07/01/c_1784649697182121.htm",
-        "https://www.cac.gov.cn/2026-07/01/c_1784650640262556.htm",
-        "https://www.cac.gov.cn/2026-07/01/c_1784650640258352.htm",
-        "https://www.cac.gov.cn/2026-07/01/c_1784650662948160.htm",
-        "https://www.cac.gov.cn/2026-06/30/c_1784563442783780.htm",
-        "https://www.cac.gov.cn/gzzt/ztzl/zt/qzylwzn/A0920011309index_1.htm",
-        "https://www.cac.gov.cn/gzzt/ztzl/zt/esjszqh/A0920011216index_1.htm",
-        "https://www.cac.gov.cn/gzzt/ztzl/zt/tenth/A0920011307index_1.htm",
-        "https://www.cac.gov.cn/gzzt/ztzl/zt/wlstzl/A0920011220index_1.htm",
-        "https://www.cac.gov.cn/yaowen/wxyw/A093602index_1.htm",
-        "https://www.cac.gov.cn/2026-07/01/c_1784649705686994.htm",
-        "https://www.cac.gov.cn/2026-06/30/c_1784564548962177.htm",
-        "https://www.cac.gov.cn/2026-06/30/c_1784564549580149.htm",
-        "https://www.cac.gov.cn/2026-06/30/c_1784563469199158.htm",
-        "https://www.cac.gov.cn/2026-07/01/c_1784649725615307.htm",
-        "https://www.cac.gov.cn/2026-06/18/c_1783524819990143.htm",
-        "https://www.cac.gov.cn/2026-06/18/c_1783525609815499.htm",
-        "https://www.cac.gov.cn/2026-06/18/c_1783525609948038.htm",
-        "https://www.cac.gov.cn/2026-06/18/c_1783525605384124.htm",
-        "https://www.cac.gov.cn/gzzt/positivity/A092002index_1.htm",
-        "https://www.cac.gov.cn/gzzt/positivity/news/A09200201index_1.htm",
-        "https://www.cac.gov.cn/2026-06/26/c_1784217636040210.htm"
+        "https://www.cac.gov.cn/2026-06/18/c_1783525609778371.htm"
       ],
       "last_checked_at": "2026-07-02T04:52:07.024615Z",
       "baseline_initialized": true,
-      "last_changed_at": "2026-07-02T09:43:32.450320Z"
+      "last_changed_at": "2026-07-02T10:23:10.698021Z",
+      "source_signature": "6d7ca3dad31590ab5964fb3895692372791295ca5fe71a6e608247c879bc58d4",
+      "baseline_reinitialized_at": "2026-07-02T10:23:10.698021Z"
     },
     "miit-ai-policy": {
       "seen_keys": [
         "https://www.miit.gov.cn/xwfb/gxdt/art/2026/art_9b5792e2e8d14eb3beb5fbb8f5ff63fa.html",
         "http://www.miit.gov.cn/zwgk/zcwj/wjfb/gg/art/2026/art_301fff2dc3c3434f94f781026672b4ae.html",
-        "http://www.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2026/art_de501c2c215f4a9fb64d17dafc56fb8b.html",
-        "https://www.miit.gov.cn/xwfb/szyw/art/2026/art_19c16f3681954630ac381c699926bde7.html",
-        "https://www.miit.gov.cn/xwfb/szyw/art/2026/art_f1d8f8ee7b6a44bdaa43f94687694afe.html",
-        "https://www.miit.gov.cn/xwfb/szyw/art/2026/art_176bc47c95f34073ae622e2d47c651da.html",
-        "http://www.miit.gov.cn/xwfb/szyw/art/2026/art_19c16f3681954630ac381c699926bde7.html",
-        "https://www.miit.gov.cn/ztzl/rdzt/xxgcddesjszqhjs0802/index.html",
-        "http://www.miit.gov.cn/xwfb/bldhd/art/2026/art_6b6de729cca04d4f81fdc701b90c0c9d.html",
-        "http://www.miit.gov.cn/xwfb/bldhd/art/2026/art_f5ee162a1d28416780ad2e79c2fcc972.html",
-        "http://www.miit.gov.cn/xwfb/bldhd/art/2026/art_c585def8b8fc48e98cc015d9015c845e.html",
-        "https://www.miit.gov.cn/zwgk/zcjd/art/2026/art_62fef41308a64db19a388de460f64a9d.html",
-        "https://www.miit.gov.cn/xwfb/szyw/index.html",
-        "https://www.miit.gov.cn/xwfb/gxdt/index.html",
-        "https://www.miit.gov.cn/xwfb/zxzc/index.html",
-        "https://www.miit.gov.cn/xwfb/xwfbh/index.html",
-        "https://www.miit.gov.cn/xwfb/szyw/art/2026/art_a0bef70b23584beb94448cc4b92d273f.html",
-        "https://www.miit.gov.cn/xwfb/szyw/art/2026/art_4a3a5bd892cf45f599de8acd611236a1.html",
-        "https://www.miit.gov.cn/xwfb/szyw/art/2026/art_a9b3500cd7d34d23adfc8a47cece11cd.html",
-        "https://www.miit.gov.cn/xwfb/szyw/art/2026/art_b52d967f6aa44298873c62d0838cb38c.html",
-        "http://www.miit.gov.cn/xwfb/bldhd/art/2026/art_6c7e457f314d41f9a3b12290ac69b938.html",
-        "https://www.miit.gov.cn/xwfb/gxdt/art/2026/art_c48a0f7d5aca41ce9719510e319c9c25.html",
-        "http://www.miit.gov.cn/xwfb/bldhd/art/2026/art_c9b09d72b23b460aaa2747ff098f29ac.html",
-        "http://www.miit.gov.cn/xwfb/gxdt/sjdt/art/2026/art_352714e8c8024dd99957867de040e81a.html",
-        "http://www.miit.gov.cn/xwfb/bldhd/art/2026/art_a0388adcb03c4125a4f29a5fc004d1a3.html",
-        "http://www.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2026/art_750f6bdfb49e49188136c7bcb3b65dc7.html",
-        "http://www.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2026/art_5f76aa6e3a4745d2bd96ee0010ec8459.html",
-        "http://www.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2026/art_fefca99ac5934ebd905b2232e417e317.html",
-        "http://www.miit.gov.cn/zwgk/zcwj/wjfb/mll/art/2026/art_3c5cebc1cadf436d994fb8c33ce0c595.html",
-        "http://www.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2026/art_df1dcf584cf14175a91b802691f0c104.html",
-        "http://www.miit.gov.cn/xwfb/gxdt/sjdt/art/2026/art_708b7727cc4544e8bc2f335cdc92b531.html"
+        "http://www.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2026/art_de501c2c215f4a9fb64d17dafc56fb8b.html"
       ],
       "last_checked_at": "2026-07-02T04:52:07.296657Z",
       "baseline_initialized": true,
-      "last_changed_at": "2026-07-02T09:43:36.084836Z"
+      "last_changed_at": "2026-07-02T10:23:13.339291Z",
+      "source_signature": "fff6f3c21156d4cbf20bbad042acc8fa3d760a86cd12542122fdc64c07822ce4",
+      "baseline_reinitialized_at": "2026-07-02T10:23:13.339291Z"
     },
     "deepseek-news": {
       "seen_keys": [
@@ -316,31 +302,38 @@
         "https://api-docs.deepseek.com/news/news0802"
       ],
       "last_checked_at": "2026-07-02T04:51:33.286729Z",
-      "baseline_initialized": true
+      "baseline_initialized": true,
+      "source_signature": "b97370b903e85e92567298e4c4b6ad643dde377046186875f36b3cdd7e30841a",
+      "baseline_reinitialized_at": "2026-07-02T10:22:22.350710Z",
+      "last_changed_at": "2026-07-02T10:22:22.350710Z"
     },
     "jiqizhixin-rss": {
       "seen_keys": [
         "https://www.jiqizhixin.com/rss"
       ],
       "last_checked_at": "2026-07-02T04:52:25.964037Z",
-      "baseline_initialized": true
+      "baseline_initialized": true,
+      "source_signature": "e23d37a01404c3e8c5860d741311e14ba98df60b007261c30388d468d59a3517",
+      "baseline_reinitialized_at": "2026-07-02T10:23:26.935654Z",
+      "last_changed_at": "2026-07-02T10:23:26.935654Z"
     },
     "deepseek-github": {
       "seen_keys": [],
       "last_checked_at": "2026-07-02T04:51:33.967446Z",
       "baseline_initialized": true,
       "repos": {
+        "deepseek-ai/DeepSeek-V3.2-Exp": "2025-11-18T02:57:11Z",
+        "deepseek-ai/awesome-deepseek-agent": "2026-06-17T01:24:37Z",
         "deepseek-ai/DeepSpec": "2026-06-30T06:42:21Z",
+        "deepseek-ai/DeepSeek-LLM": "2024-02-04T12:22:16Z",
+        "deepseek-ai/awesome-deepseek-integration": "2026-02-23T16:27:47Z",
         "deepseek-ai/DeepSeek-V3": "2025-08-28T03:24:37Z",
         "deepseek-ai/DeepSeek-Coder": "2025-11-11T06:44:56Z",
-        "deepseek-ai/awesome-deepseek-integration": "2026-02-23T16:27:47Z",
         "deepseek-ai/DeepEP": "2026-07-02T06:40:55Z",
         "deepseek-ai/Engram": "2026-01-14T01:13:02Z",
-        "deepseek-ai/awesome-deepseek-agent": "2026-06-17T01:24:37Z",
         "deepseek-ai/DeepGEMM": "2026-06-29T08:18:56Z",
         "deepseek-ai/ESFT": "2025-05-22T07:47:15Z",
         "deepseek-ai/DeepSeek-OCR": "2026-01-27T03:45:14Z",
-        "deepseek-ai/DeepSeek-LLM": "2024-02-04T12:22:16Z",
         "deepseek-ai/DeepSeek-OCR-2": "2026-02-03T00:34:18Z",
         "deepseek-ai/DeepSeek-R1": "2025-06-27T08:35:54Z",
         "deepseek-ai/Janus": "2025-02-01T07:58:29Z",
@@ -348,17 +341,16 @@
         "deepseek-ai/DualPipe": "2026-01-14T06:34:59Z",
         "deepseek-ai/FlashMLA": "2026-04-30T09:04:01Z",
         "deepseek-ai/TileKernels": "2026-04-23T10:19:21Z",
-        "deepseek-ai/open-infra-index": "2025-05-15T02:00:43Z",
-        "deepseek-ai/LPLB": "2025-11-19T07:20:35Z"
+        "deepseek-ai/open-infra-index": "2025-05-15T02:00:43Z"
       },
-      "last_changed_at": "2026-07-02T09:42:37.563455Z"
+      "last_changed_at": "2026-07-02T10:22:21.295328Z"
     },
     "moonshot-github": {
       "seen_keys": [],
       "last_checked_at": "2026-07-02T04:51:37.867265Z",
       "baseline_initialized": true,
       "repos": {
-        "MoonshotAI/kimi-code": "2026-07-02T10:16:04Z",
+        "MoonshotAI/kimi-code": "2026-07-02T10:20:05Z",
         "MoonshotAI/Kimi-K2": "2026-01-21T05:33:12Z",
         "MoonshotAI/Attention-Residuals": "2026-03-17T06:23:11Z",
         "MoonshotAI/kimi-cli": "2026-06-22T12:35:05Z",
@@ -379,7 +371,7 @@
         "MoonshotAI/kimi-code-zed-extension": "2026-01-20T18:06:03Z",
         "MoonshotAI/pykaos": "2025-12-26T14:52:32Z"
       },
-      "last_changed_at": "2026-07-02T10:16:42.317144Z"
+      "last_changed_at": "2026-07-02T10:22:21.295328Z"
     },
     "zai-github": {
       "seen_keys": [],
@@ -658,66 +650,35 @@
         "https://www.qbitai.com/2026/07/441490.html",
         "https://www.qbitai.com/2026/07/441491.html",
         "https://www.qbitai.com/2026/07/441479.html",
-        "https://www.qbitai.com/2026/07/441447.html",
-        "https://www.qbitai.com/2026/07/441396.html",
-        "https://www.qbitai.com/2026/07/441386.html",
-        "https://www.qbitai.com/2026/07/441246.html",
-        "https://www.qbitai.com/2026/07/441240.html",
-        "https://www.qbitai.com/2026/07/441237.html",
-        "https://www.qbitai.com/2026/07/441225.html",
-        "https://www.qbitai.com/2026/07/441140.html",
-        "https://www.qbitai.com/2026/07/441183.html",
-        "https://www.qbitai.com/2026/07/441127.html"
+        "https://www.qbitai.com/2026/07/441447.html"
       ],
       "last_checked_at": "2026-07-02T04:52:26.145879Z",
       "baseline_initialized": true,
-      "last_changed_at": "2026-07-02T09:43:55.055234Z"
+      "last_changed_at": "2026-07-02T10:23:28.426031Z",
+      "source_signature": "34418d38d4b87c134f9922d6999ac3c069821ed0be2134f9ba6ae5e00e4b63a9",
+      "baseline_reinitialized_at": "2026-07-02T10:23:28.426031Z"
     },
     "moonshot-website": {
       "fingerprint": "a34742eb222aa6fad38b190c7ca8488ccf3b16cea24d82e8605cc7324f4abafc",
       "last_checked_at": "2026-07-02T04:51:33.147542Z",
-      "last_excerpt": "Moonshot AI Kimi API Research Download Careers EN 中文 Kimi API Research Download Careers EN 中文 Seeking the optimal conversion from energy to intelligence Try Kimi Try API Latest Research Our research team works toward AGI while sharing the l",
-      "baseline_initialized": true
+      "last_excerpt": "Moonshot AI Kimi API Research Download Careers EN 中文 Kimi API Research Download Careers EN 中文 Seeking the optimal conversion from energy to intelligence Try Kimi Try API Latest Research Our research team works toward AGI while sharing the latest research with the global open-source community. Get More 2026-04-20 Kimi K2.6 2026-02-09 Agent Swarm 2026-02-03 WorldVQA Complex problems, solved with ease AI Models is capability. Code, analyze, sheets and slides — simplify complex work with the latest flagship model. Kimi K2.6 K2.6 is a natively multimodal model, powerful coding capabilities, and Agent performance — multiple modes, your choice. Explore Features Discover Kimi doodles Explore doodles for holidays, events, and trends — each one a small surprise. June · Turing's Birthday A tape defined computation. One question inspired AI. Chat with Kimi continues Turing's legacy. May · Bob Dylan 's Birthday Sunglasses, guitar, harmonica. For the old rock Nobel who couldn't be bothered. The question is the answer. April · Earth Day A Fauvist forest honoring Matisse’s cut-outs. Let this Doodle remind you: log off and step into spring. Built for the future. Available today. App Scan to download Kimi App Chrome Extension Desktop macOS Windows Try Kimi right now Copyright © 2023-2026 Moonshot AI. All Rights Reserved. Co-created with Kimi K2.6 Products Kimi Open Platform Kimi Code Pricing Features Agent Agent Swarm Website Document Slides Excel Deep Research Kimi Claw Resources Multi-Agent Parallel Agent Hermes Agent Overview Hermes API Company Terms of Service Privacy Policy © 2023-2026 北京月之暗面科技有限公司 | 京ICP备2023011302号-17",
+      "baseline_initialized": true,
+      "source_signature": "eaada35abc15302434b4815c7958463d46b626935b9bf4a0a6c2bd5bd74c5dd0",
+      "baseline_reinitialized_at": "2026-07-02T10:22:21.295328Z",
+      "last_changed_at": "2026-07-02T10:22:21.295328Z"
     },
     "kimi-forum": {
       "seen_keys": [
         "https://forum.moonshot.ai/t/here-comes-kimi-k2-7-code-better-coding-with-more-efficiency/441",
         "https://forum.moonshot.ai/t/meet-kimi-k2-6-advancing-open-source-coding/369",
         "https://forum.moonshot.ai/t/an-update-on-new-k2-models-and-new-pricing/104",
-        "https://forum.moonshot.ai/t/kimi-k2-high-speed-model-released/25",
-        "https://forum.moonshot.ai",
-        "https://forum.moonshot.ai/t/welcome-to-kimi-forum/5",
-        "https://forum.moonshot.ai/c/welcome/4",
-        "https://forum.moonshot.ai/t/cannot-access-existing-api-billing-account/454",
-        "https://forum.moonshot.ai/c/developer-support/7",
-        "https://forum.moonshot.ai/t/allegretto-work-mode-quota-bug-quota-exhausted-without-actual-usage-macos-desktop/452",
-        "https://forum.moonshot.ai/c/developer-support/kimi-k2/6",
-        "https://forum.moonshot.ai/t/refund-request-moderato-subscription-stripe-no-response-from-support/432",
-        "https://forum.moonshot.ai/c/product-feedback/8",
-        "https://forum.moonshot.ai/t/bug-kimi-work-v3-0-24-stuck-on-connection-lost-workspace-never-loads-regression/451",
-        "https://forum.moonshot.ai/tag/bug-report/15",
-        "https://forum.moonshot.ai/t/question-about-vision-model-image-token-calculation-resolution-above-4k-recommendation/450",
-        "https://forum.moonshot.ai/t/bug-findings-overview/434",
-        "https://forum.moonshot.ai/t/this-is-no-longer-a-theory-reproducible-methodology-invented-and-patented/443",
-        "https://forum.moonshot.ai/t/kimi-has-something-to-say-pay-close-attention/437",
-        "https://forum.moonshot.ai/t/major-security-vulnerabilities-responsible-disclosure-and-safe-harbor/442",
-        "https://forum.moonshot.ai/c/announcement/5",
-        "https://forum.moonshot.ai/tag/kimi-k27/25",
-        "https://forum.moonshot.ai/t/appreciation-kimi/436",
-        "https://forum.moonshot.ai/t/apple-app-store-sub-not-linking-kimi-subscription/426",
-        "https://forum.moonshot.ai/tag/kimi-k26/24",
-        "https://forum.moonshot.ai/t/kimi-coading-confustion/429",
-        "https://forum.moonshot.ai/t/tired-of-losing-context-across-kimi-sessions/430",
-        "https://forum.moonshot.ai/t/sms-messages-are-being-sent-too-frequently-please-try-again-later/204",
-        "https://forum.moonshot.ai/t/bug-persisting-request-rejected-by-high-risk-only-in-plan-mode/425",
-        "https://forum.moonshot.ai/t/critical-slowdown-quality-drop-after-v2-6-presentation-mode-kimi-claw/423",
-        "https://forum.moonshot.ai/t/critical-backend-error-service-unavailable-on-all-requests/427",
-        "https://forum.moonshot.ai/t/fake-limits-that-still-did-not-fix-kimi/424",
-        "https://forum.moonshot.ai/tag/rate-limiting/10"
+        "https://forum.moonshot.ai/t/kimi-k2-high-speed-model-released/25"
       ],
       "last_checked_at": "2026-07-02T04:51:37.176777Z",
       "baseline_initialized": true,
-      "last_changed_at": "2026-07-02T09:42:42.010713Z"
+      "last_changed_at": "2026-07-02T10:22:24.600906Z",
+      "source_signature": "dd37e83abef80cd474a8238988954013b5cde13ab57b5a1724c19908854281ce",
+      "baseline_reinitialized_at": "2026-07-02T10:22:24.600906Z"
     },
     "moonshot-huggingface": {
       "models": {
@@ -771,9 +732,11 @@
     "stepfun-research": {
       "fingerprint": "4f49fe683cc0d83cad8fd122f63f9c87942a8debff88d9b2c3eb5ddc888e1bf8",
       "last_checked_at": "2026-07-02T04:51:33.147542Z",
-      "last_excerpt": "| 阶跃AI 登录 July 31th, 2025 Step3: Cost-Effective Multimodal Intelligence Github Hugging Face Introduction Step3 is our cutting-edge multimodal reasoning model—built on a Mixture-of-Experts architecture with 321B total parameters and 38B acti",
+      "last_excerpt": "| 阶跃AI 登录 July 31th, 2025 Step3: Cost-Effective Multimodal Intelligence Github Hugging Face Introduction Step3 is our cutting-edge multimodal reasoning model—built on a Mixture-of-Experts architecture with 321B total parameters and 38B active. It is designed end-to-end to minimize decoding costs while delivering top-tier performance in vision–language reasoning. Through the co-design of Multi-Matrix Factorization Attention (MFA) and Attention-FFN Disaggregation (AFD), Step3 maintains exceptional efficiency across both flagship and low-end accelerators. And now, it’s within your reach. Today, we are releasing: Step3 —enabling grounded multimodal reasoning with accurate visual interpretation and reduced hallucination Let’s push the boundaries—your innovation starts here. Overall Performance Model Total Params. VLM Benchmark LLM Benchmark MMMU MATH-Vision SimpleVQA Hallusion Bench ZeroBench (sub) DYNMATH AIME25 GPQA-Diamond LiveCodeBench (202408-202505) HMMT25 CNMO24 Open-Source VLM Step 3 321B 74.2 64.8 62.2 64.2 23.0 50.1 82.9 73.0 67.1 70.0 83.7 Llama 4 Maverick 400B 73.4 47.2* 45.4* 57.1* 22.8* 47.1* 19.2* 69.8 33.9* 8.91* 41.6* ERNIE 4.5 - thinking 300B/424B 70.0 47.6* 59.8 60.0* 22.5 46.9* 35.1 76.8* 38.8 40.5* 75.5* QvQ-72B-Preview 72B 70.3 35.9 40.3* 50.8* 15.9* 30.7* 22.7* 49.5* 24.1* 47.3* 10.9* GLM-4.1V-thinking 9B 68.0 49.4* 48.1* 60.8* 22.8* 41.9* 13.3* 47.4* 24.2* 6.7* 25* MiMo-VL 7B 66.7 60.4 48.5* 59.6* 18.6* 45.9 60.0* 55.5* 50.1* 34.6* 69.9* Open-Source Reasoning LLM DeepSeek R1-0528 671B - - - - - - 87.5 81.0 73.3 79.4 86.9 MiniMax-M1-80k 456B - - - - - - 76.9 70.0 65.0 - - Qwen3-235B-A22B-Thinking 235B - - - - - - 81.5 71.1 65.9 62.5 - Qwen3-235B-A22B-Thinking-2507 235B - - - - - - 92.3 81.1 - 83.9 - Proprietary VLM o3 - 82.9 72.8* 59.8* 60.1* 25.2* 58.1* 88.9 83.3 75.8 70.1* 86.7* Claude Opus 4 (thinking) - 79.8* 66.1* 47.2* 59.9* 25.2* 49.3* 75.5 79.6 56.6 - - Claude Sonnet 4 (thinking) - 76.9* 64.6* 43.7* 57.0* 26.1* 48.1* 70.5 75.4 55.9 - - Gemini 2.5 Pro - 81.7 73.3 66.8* 66.8* 30.8* 56.3* 88.0 86.4 71.8 - - Gemini 2.5 Flash (thinking)† - 73.2* 57.3* 61.1* 65.2* 20.1* 57.1* 72.0 82.8 61.9 - - Grok 4 - 80.9* 70.3* 55.9* 64.8* 22.5* 40.7* 98.8 87.5 79.3 93.9 85.5* Note: * means reproduced performance using the same settings. † Evaluation results of Gemini 2.5 Flash (thinking) may be lower than real model performance, especially on MathVision, due to insufficient instruction following ability. Pretrain Data During pretraining, Step3 processes over 20T text tokens across more than ten languages, of which 3.7T high-quality tokens are reserved for the annealing phases, while incorporating 4T image-text mixed tokens fueled multimodal training. Delivering data at this scale requires sophisticated interplay between data engineering and data science. The raw data is sourced from a diverse array of web content and collaboratively licensed publisher material, then efficiently extracted and normalized using our in-house document parsers. To address noise and redundancy, each document passes through a multi-stage understanding framework. A suite of over 10 specialized NLP models evaluates content quality (e.g., defects, toxicity, informational value), identifies high-level subjects (e.g., STEM, literature, code, math), and classifies documents into more than 50 fine-grained domains. We then apply MinHash-based deduplication to eliminate near-duplicates, followed by domain-aware down-sampling to ensure the annealing dataset remains both balanced and diverse. In total, this pipeline has processed over 100B source documents using in-house distributed CPU/GPU clusters. Beyond that, we conduct large-scale case studies and extensive ablation experiments to refine filtering thresholds and sampling strategies, ultimately shaping the final training “data recipe”. This rigorous curation results in a high-quality, diverse dataset that not only supports robust model performance but also lays a strong foundation for our multimodal ",
       "baseline_initialized": true,
-      "last_changed_at": "2026-07-02T07:02:11.408401Z"
+      "last_changed_at": "2026-07-02T10:22:21.295328Z",
+      "source_signature": "04532ba51be1bfe4059cd39214ce73924ed53f52be86c8af436b92b5bf0d7a49",
+      "baseline_reinitialized_at": "2026-07-02T10:22:21.295328Z"
     },
     "stepfun-huggingface": {
       "models": {
@@ -805,7 +768,11 @@
       "fingerprint": "9c543bfb47e404d84a2645b7348be6688cfa33cc3420319276e532191fff85bf",
       "last_checked_at": "2026-07-02T04:51:33.147542Z",
       "last_excerpt": "百川大模型-百川智能",
-      "baseline_invalid": true
+      "baseline_invalid": true,
+      "source_signature": "0bb7ab69b9d2f5d3a9721a18c943330c129d3d46faf41b4e82576332fc78ae98",
+      "baseline_initialized": true,
+      "baseline_reinitialized_at": "2026-07-02T10:22:21.295328Z",
+      "last_changed_at": "2026-07-02T10:22:21.295328Z"
     },
     "baichuan-huggingface": {
       "models": {
@@ -836,13 +803,19 @@
     "baichuan-modelscope": {
       "seen_keys": [],
       "last_checked_at": "2026-07-02T04:51:51.237600Z",
-      "baseline_initialized": true
+      "baseline_initialized": true,
+      "source_signature": "bf11600a6a965725668dd46fc5496ae38c57ad6173350d82d0161ef8bdfeac3d",
+      "baseline_reinitialized_at": "2026-07-02T10:22:37.819026Z",
+      "last_changed_at": "2026-07-02T10:22:37.819026Z"
     },
     "01ai-website": {
       "fingerprint": "b81ea280b2f63750e7163e09164431bf2662a34b1afd2f919ae8ae642f858b72",
       "last_checked_at": "2026-07-02T04:51:33.147542Z",
-      "last_excerpt": "EN2.0 - 零一万物-AI2.0大模型技术和应用的全球公司（01.AI） Home Newsroom Yi Foundation Models About Us Join Us … Home Newsroom Yi Foundation Models About Us Join Us CN Home Newsroom Yi Foundation Models About Us Join Us … Home Newsroom Yi Foundation Models Abo",
-      "baseline_initialized": true
+      "last_excerpt": "EN2.0 - 零一万物-AI2.0大模型技术和应用的全球公司（01.AI） Home Newsroom Yi Foundation Models About Us Join Us … Home Newsroom Yi Foundation Models About Us Join Us CN Home Newsroom Yi Foundation Models About Us Join Us … Home Newsroom Yi Foundation Models About Us Join Us CN Wanzhi Personal AI Workspace to help you read, create, and space API Platform Multiple Yi model API. Easy access & flexible pricing Now on Hugging Face ｜ ModelScope ｜ GitHub ｜ Tech Report 🔥 Yi-VL-6B/34B Multimodal Version Multi-round text-image conversations Strong image comprehension supports resolution of 448×448 Bilingual text support including conversations and recognition of image texts Apply for commercial license for free Yi-6B / 34B-Chat Finetuned Models and Quantized Versions Fine-tuned for various chat use cases 4-bit/8-bit quantized models friendly for developers High-quality curated data for helpfulness & safety Apply for commercial license for free Yi-6B/34B Base Model 6/34 billion parameters, pretrained from scratch High-quality corpus of 3 trillion tokens Up to 200K super long context window Apply for commercial license for free About 01.AI Our vision: Make AGI Accessible and Beneficial to Everyone. 01.AI vision: AI will effectively enhance human productivity, hence creating significant economic and societal values, realizing 01.AI's aspiration of \"Human + AI\" that technology empowers and amplifies our humankind. We hope to be able to contribute to this new AI 2.0 ecosystem. Commercial License ｜ Join Us ｜ Contact Us The team behind 01.AI firmly believes that the new AI 2.0 driven by foundation model breakthrough is revolutionizing technology, platforms, and applications at all levels. We predict that AI 2.0 will create a platform opportunity ten times larger than the mobile internet, rewriting all software and user interfaces. This trend will give rise to the next wave of AI-first applications and AI-empowered business models, fostering AI 2.0 innovations over time. 01.AI © Copyright 2024 零一万物-AI2.0大模型技术和应用的全球公司（01.AI） 零一万物致力于成为一家由技术愿景驱动、拥有卓越中国工程底蕴的创新企业，推动以基座大模型为突破的AI 2.0掀起技术、平台到应用多个层面的革命。 https://user-assets.sxlcdn.com/images/987821/FrlX5hBJzYiI62PNP5FUKt8y5n4Y.png?imageMogr2/strip/auto-orient/thumbnail/1200x630>/format/png Cookie的使用 我们使用cookies来确保流畅的浏览体验。若继续，我们认为你接受使用cookies。 确认 了解更多",
+      "baseline_initialized": true,
+      "source_signature": "da9e04897fb46f48b2f8b9fd16e5a5b79a0e5357932fca327297404a2c70dbac",
+      "baseline_reinitialized_at": "2026-07-02T10:22:21.295328Z",
+      "last_changed_at": "2026-07-02T10:22:21.295328Z"
     },
     "01ai-huggingface": {
       "models": {
@@ -873,8 +846,11 @@
     "sensenova-website": {
       "fingerprint": "8e30d100d7728da3cd18f9de9d17a3610e5078ad1246e995cb187cd82bb290d3",
       "last_checked_at": "2026-07-02T04:51:33.147542Z",
-      "last_excerpt": "日日新 - 商汤科技大模型平台 | SenseNova 模型 Token Plan 文档 控制台 商汤官网 English 问题反馈 01 模型 02 产品 03 开源 01 模型 02 产品 03 开源 商汤「日日新」 原生多模态模型体系 商汤「日日新」 原生多模态模型体系 原生架构 理解生成统一 SenseNova U1 新一代原生多模态模型，基于 NEO-Unify 原生架构，理解生成高效统一 办公增强 更省 Token SenseNova 6.7 Flash-Lite",
-      "baseline_initialized": true
+      "last_excerpt": "日日新 - 商汤科技大模型平台 | SenseNova 模型 Token Plan 文档 控制台 商汤官网 English 问题反馈 01 模型 02 产品 03 开源 01 模型 02 产品 03 开源 商汤「日日新」 原生多模态模型体系 商汤「日日新」 原生多模态模型体系 原生架构 理解生成统一 SenseNova U1 新一代原生多模态模型，基于 NEO-Unify 原生架构，理解生成高效统一 办公增强 更省 Token SenseNova 6.7 Flash-Lite 轻量级多模态智能体模型，面向真实工作流，兼顾智能体应用与日常任务执行需求 用得便宜 用得安心 Token Plan 面向开发者和企业的服务计划，提供高价值、高频、可规模化交付的生产力能力包 「日日新」 原生应用 小浣熊 办公小浣熊 Seko Seko 多模态短片创作 Agent Skills SenseNova Skills 办公小浣熊 依托日日新大模型与 Cowork-Skill，可高效完成数据分析、PPT、信息图生成及任务规划；提供个性、安全的 AI 原生办公体验。 「日日新」 开源生态 大模型 框架 理解生成统一 SenseNova U1 理解生成一体模型，带有 Agent 和生图能力 空间智能 SenseNova-SI 空间智能大模型，同时保持强大的通用多模态理解能力 推理模型 SenseNova-MARS 多模态自主推理模型，支持动态视觉推理与图文搜索深度融合 嵌入模型 Piccolo Embedding 通用 embedding 模型，支持更灵活的向量维度 多模态 NEO v1 新一代多模态大模型，支持视觉问答和图像生成 时序预测 Kairos-SenseNova 时序预测与决策模型，具有物理级的深层认知和低延迟推理能力 技能组件 SenseNova-Skills 汇聚海量技能组件，探索模型更多玩法，助力创新无限可能 访问 GitHub 查看更多 坚持原创，让AI引领人类进步 沪 ICP 备 2021035992 号-11 | 沪公网安备 沪ICP备2021035992号 © 2014-2025 SenseTime. All Rights Reserved. 上海商汤科技开发有限公司 上海商汤科技开发有限公司是商汤集团旗下子公司",
+      "baseline_initialized": true,
+      "source_signature": "912f625820f14dc102deac41d8bb2d2eb9f9851ee2ad05d7f410f035980e5cd6",
+      "baseline_reinitialized_at": "2026-07-02T10:22:21.295328Z",
+      "last_changed_at": "2026-07-02T10:22:21.295328Z"
     },
     "openbmb-website": {
       "seen_keys": [
@@ -884,7 +860,9 @@
       ],
       "last_checked_at": "2026-07-02T04:51:54.968346Z",
       "baseline_initialized": true,
-      "last_changed_at": "2026-07-02T09:43:04.007156Z"
+      "last_changed_at": "2026-07-02T10:22:43.942009Z",
+      "source_signature": "66600384e61cf987fdc68a95b163d001751e1e85d155fd5d9d556633a56afa35",
+      "baseline_reinitialized_at": "2026-07-02T10:22:43.942009Z"
     },
     "openbmb-huggingface": {
       "models": {
@@ -941,7 +919,10 @@
     "modelscope": {
       "seen_keys": [],
       "last_checked_at": "2026-07-02T04:52:00.182312Z",
-      "baseline_initialized": true
+      "baseline_initialized": true,
+      "source_signature": "bb6e1d2f61ac121cbc0df7653d424c011d1137f74c35ed44ca6ace4853cda143",
+      "baseline_reinitialized_at": "2026-07-02T10:22:50.120131Z",
+      "last_changed_at": "2026-07-02T10:22:50.120131Z"
     },
     "baidu-ai-platform": {
       "seen_keys": [
@@ -979,8 +960,10 @@
       "last_checked_at": "2026-07-02T04:52:00.728806Z",
       "baseline_initialized": true,
       "fingerprint": "85bb40e2988a2bc537f26d502d3e3c7b0f9de45892a3684c4eacae4355fa2c29",
-      "last_changed_at": "2026-07-02T09:42:37.563455Z",
-      "last_excerpt": "百度AI开放平台-全球领先的人工智能服务平台 最近搜索 热门产品 端到端语音语言大模型 声音复刻 大模型语音合成 人脸实名认证 文字识别 看图识万物 资讯 文档 控制台 登录 未实名 立即认证 用户中心 财务及订单 消息中心 我的工单 退出登录 端到端语音语言大模型 正式商用 开口即真人 最高享100万免费tokens 查看详情 PP-OCRv6跨越式精度跃升 首创三档模型，嵌入式到服务器全场景开箱即用 立即体验 文档解析（PaddleOCR-VL）1.6 重磅升级 文本/表"
+      "last_changed_at": "2026-07-02T10:22:21.295328Z",
+      "last_excerpt": "百度AI开放平台-全球领先的人工智能服务平台 最近搜索 热门产品 端到端语音语言大模型 声音复刻 大模型语音合成 人脸实名认证 文字识别 看图识万物 资讯 文档 控制台 登录 未实名 立即认证 用户中心 财务及订单 消息中心 我的工单 退出登录 端到端语音语言大模型 正式商用 开口即真人 最高享100万免费tokens 查看详情 PP-OCRv6跨越式精度跃升 首创三档模型，嵌入式到服务器全场景开箱即用 立即体验 文档解析（PaddleOCR-VL）1.6 重磅升级 文本/表格/公式解析能力全面增强 查看详情 企业权益普惠 文字识别专场 千次仅需1元 多品类1折起！ 限量抢购 企业权益普惠 语音技术专场 新客专享优惠 好价限量抢购！ 限时抢购 企业权益普惠 人脸识别专场 企业首购专享 速抢1折特惠！ 立即购买 AI狂欢季 618年中钜惠 OCR新购1元起，更多量包限时75折起 速抢优惠 快速入门 AI体验中心 在线demo演示，免费体验70+AI能力 HOT AI新手入门 入门教程 0元试用 首购1元 AI最佳实践 精选案例 助力企业智能化升级 最新资讯 正式商用 端到端语音语言大模型Pro版火热开售 NEW 重磅升级 文档解析（PaddleOCR-VL）1.6 发布 NEW 欢迎体验 AI修图：一键成片，秒出商业级质感！ NEW 全栈的AI能力，提供端到端软硬一体的应用 更多能力 开放能力 开发平台 场景应用 端到端语音语言大模型 新品 业内首创Cross-Attention 体验超拟人对话 重磅发布 免费体验 人脸实名认证解决方案 热门 高安全性、高通过率、高易用性 赠送500次免费调用 文档解析（PaddleOCR-VL） 优惠 全新1.6 版本，文本/表格/公式解析全面增强 新人专享9元/千页 大模型语音合成 热门 全新音色超拟人，多情感，多方言 低至¥ 4 /千次 身份证识别 全字段识别，准确率超99% 低至¥ 7.6 /千次 增值税发票验真 支持14类增值税发票的信息核验 低至 ¥0.15 /次 大模型声音复刻 1句话复刻声音，超高还原度 复刻低至¥ 4 /次 行驶证识别 精准识别纸质及电子行驶证主页及副页 低至¥ 10 /千次 手写文字识别 多场景、高精度，支持 20+ 语言类型 低至¥ 0.0038 /次 产业级知识增强的文心大模型，让AI模型生来更强 文心大模型 AI开发的首选基座大模型，含全球首个知识增强千亿大模型，以AI大模型为底座，加速产业智能升级 查看详情 百度千帆大模型平台 以Agent为核心的一站式企业级大模型服务平台 查看详情 源于实践的解决方案，赋能产业AI升级 智能客服 数字员工 合同智能化 人脸实名认证 智能语音会议 有声阅读 安全生产 数字化访销 智能客服 面向语音、PC、移动端等丰富的终端渠道，提供各类垂直领域的专业化智能客服能力，打造场景丰富、功能完善的智能客服解决方案；帮助企业降本增效，让客服业务进入AI智能时代 查看方案 行业实践 完善的生态伙伴计划，帮助客户与伙伴成功 百度大脑合作伙伴 为伙伴提供技术、客户、营销、企业运作等全方位支持，帮助伙伴成功，共享AI未来 大模型产业人才认证 百度与深度学习技术及应用国家工程研究中心权威认证，证明自身实力，助力职业发展 百度智能云千帆AI加速器 整合政产学研资源，提供涵盖培训赋能、应用推广、市场发声、投资撮合等全方位服务 全线产品持续上新，期待与您合作 立即体验 1397 项 技术能力 24 小时 快速集成 800W + 开发者正在使用 百度大脑同时驱动 云智一体深入产业 全球智能驾驶产业领跑者 快速入口 AI能力体验中心 管理控制台 账户中心 财务中心 服务协议 开发资源 API在线调试 文档中心 SDK下载 教学视频 GitHub QQ支持群 生态与市场 生态合作伙伴 千帆AI加速器 千帆AI原生应用商店 常见问题 账号登录 接口调用 技术问答 错误码 联系我们 售前咨询 售后智能助手 技术工单 意见反馈 客服电话 400-920-8999 人才招聘 立即体验AI能力 打开百度APP“扫一扫” 获取最新AI资讯 关注“百度AI”微信公众号 友情链接： 百度智能云 | 百度营销 | 百度开发者中心 | 百度移动应用平台 | 百度数据众包 | 百度地图开放平台 © 2025 Baidu 使用百度前必读 京ICP证030173号 QQ支持群 百度语音： 588369236 文字识别： 1055623827 自定义模板OCR： 1055402721 人脸识别： 692450852 人体分析： 860337848 内容审核： 375765194 飞桨PaddlePaddle： 778260830 图像识别： 312156782 EasyDL： 614951239 图像搜索： 1067276154 视频分析： 632473158 百度AR： 472081119 自然语言： 1051436514 UNIT： 1074410189 百度翻译： 214857706 图像效果增强： 1092338829 数据智能： 650596829 知识图谱： 655854786 DuerOS： 604592023 百度AI开放平台： 224994340 智能写作： 743926523 EdgeBoard： 1060623352 语音自训练平台： 686267521 远场语音开发套件： 210093204 × 技术能力 语音技术 文字识别 人脸与人体 图像技术 语言与知识 视频技术 查看全部AI能力 大模型语音 端到端语音语言大模型 新品 大模型声音复刻 大模型语音合成 热门 语音识别 > 短语音识别标准版 热门 短语音识别极速版 实时语音识别 音频文件转写 AI翻译配音 > 新品 语音合成 > 短文本在线合成 长文本在线合成 流式文本在线合成 新品 定制音库 语音合成离线SDK > 呼叫中心语音 呼叫中心音频文件转写 呼叫中心实时语音通话 呼叫中心智能语音质检 新品 语音翻译 语音翻译API 实时语音翻译 AI同传 语音私有化部署方案 > 场景方案 有声阅读解决方案 热门 呼叫中心语音解决方案 大模型语音会议解决方案 新品 语音数字大屏 智能语音指令 客户案例 七猫小说-打造极致听书体验 罗湖区政府-语音大屏便捷交互 嘀嗒出行-订单播报安全护航 Kido-智能手表有问必答 得到-IP名师专属声音定制 通用场景文字识别 > 通用文字识别 热门 办公文档识别 表格文字识别 手写文字识别 热门 文档解析 新品 智能结构化 印章识别 二维码识别 网络图片文字识别 数字识别 交通场景文字识别 > 行驶证识别 热门 驾驶证识别 车牌识别 VIN码识别 快递面单识别 道路运输证识别 车辆合格证识别 机动车登记证书识别 机动车销售发票识别 二手车销售发票识别 文字识别私有化部署方案 > 热门 卡证文字识别 > 身份证识别 热门 银行卡识别 营业执照识别 热门 营业执照核验 户口本识别 护照识别 社保卡识别 出生医学证明识别 结婚证识别 港澳台证件识别 房产证识别 开户许可证识别 智能文档分析平台 > 文档解析 热门 文档抽取 合同审查 新品 文档比对 文档格式转换 iOCR自定义文字识别 > 财务票据文字识别 > 智能财务票据识别 增值税发票验真 热门 增值税发票识别 银行单据识别 新品 差旅报销票据识别 通用机打发票识别 定额发票识别 购物小票识别 医疗票据文字识别 > 医疗发票识别 医疗费用明细识别 医疗费用结算单识别 病历单据识别 检查报告单据识别 教育场景文字识别 > 试卷分析与识别 手写作文识别（多模态） 新品 试卷切题识别 新品 智能作业批改 新品 拍照解题 新品 通用卡证票据识别 > 新品 文档图像处理 > 图像篡改检测 新品 PaddleOCR企业版 > 新品 PP-OCRv6 新品 文字识别离线SDK > 其他场景文字识别 > 仪器仪表盘读数识别 场景方案 智能财务报销解决方案 保险智能理赔解决方案 档案数字化管理解决方案 合同智能处理解决方案 热门 客户案例 > 泰康保险—医疗理赔智能化 极兔速递—快递下单智能化 慧谷通用—重庆法院智能办案 人脸识别云服务 > 人脸关键点 人脸检测与属性分析 人脸对比 人脸搜索 活体检测 热门 合成图检测 人脸离线识别SDK > Android版 热门 Windows版 新品 Linux版 海思版 RV1109版 人脸实名认证解决方案 > 热门 人体与行为分析 > 人体关键点识别 人体检测与属性分析 人流量统计 手部分析与跟踪 驾驶行为分析 人脸私有化部署方案 > 人像特效 > 人脸融合 人像分割 人脸属性编辑 客户案例 中国科学技术馆 用友软件 中通快递 杭州市民卡 图像识别 > 通用物体和场景识别 热门 看图识万物 新品 图像内容理解 新品 植物识别 动物识别 车型识别 车辆检测 菜品识别 地标识别 果蔬识别 品牌logo识别 图像主体检测 翻拍识别 图像搜索 > 相同图片搜索 相似图片搜索 热门 商品图片搜索 绘本图片搜索 面料图片搜索 图像增强 > 图像清晰度增强 图像无损放大 图像修复 智能抠图 新品 图像私有化部署方案 > 图像特效 > AI修图 新品 黑白图像上色 图像风格转换 人像动漫化 图片生成 文心AI作画 热门 客户案例 > 甜新科技-理赔凭证查重 薄荷科技-AI助力膳食管理 B612-趣味处理引爆交际圈 开发平台 零门槛图像模型定制 智能文档分析平台 > 文档格式转换 合同审查 热门 文档对比 文档抽取 新品 文档解析 AIG",
+      "source_signature": "52114d29a52d66d2043dedc466ae6f835a68eebd89007bc31657335837df152e",
+      "baseline_reinitialized_at": "2026-07-02T10:22:21.295328Z"
     },
     "tencent-huggingface": {
       "models": {
@@ -1028,30 +1011,42 @@
         "https://seed.bytedance.com/en/direction/responsible_ai",
         "https://seed.bytedance.com/en/seed-edge",
         "https://seed.bytedance.com/en/seedearlycareer",
-        "https://seed.bytedance.com/disclaimer",
-        "https://seed.bytedance.com/en/blog"
+        "https://seed.bytedance.com/disclaimer"
       ],
       "last_checked_at": "2026-07-02T04:52:06.044259Z",
       "baseline_initialized": true,
-      "last_changed_at": "2026-07-02T09:43:25.890629Z"
+      "last_changed_at": "2026-07-02T10:23:04.150274Z",
+      "source_signature": "2be7b4e071c4181a591dae81c2b48e23d8d0be51ce85b7c3506603f1b358a6cb",
+      "baseline_reinitialized_at": "2026-07-02T10:23:04.150274Z"
     },
     "huawei-pangu": {
       "fingerprint": "4fdcfaa2890a6b6c7013cca924051b9183a77fdf30149ca034032469c20f0dc5",
       "last_checked_at": "2026-07-02T04:51:33.147542Z",
-      "last_excerpt": "盘古大模型_panguLM_大模型_华为云 检测到您已登录华为云国际站账号，为了您更好的体验，建议您访问国际站服务网站 https://www.huaweicloud.com/intl/zh-cn 不再显示此消息 中国站 中国站 简体中文 International English Bahasa Indonesia Español Português Türkçe عربي ไทย 简体中文 日本語 Europe English Deutsch Español Françai",
-      "baseline_initialized": true
+      "last_excerpt": "盘古大模型_panguLM_大模型_华为云 检测到您已登录华为云国际站账号，为了您更好的体验，建议您访问国际站服务网站 https://www.huaweicloud.com/intl/zh-cn 不再显示此消息 中国站 中国站 简体中文 International English Bahasa Indonesia Español Português Türkçe عربي ไทย 简体中文 日本語 Europe English Deutsch Español Français Nederlands 华为云App 智果园 活动 产品 解决方案 定价 云商店 伙伴 开发者 服务 了解华为云 清空 最近搜索 热门搜索 云耀云服务器L实例 免费试用 云服务器 域名 云速建站 “ ”的所有结果 售前咨询 950808 转 1 预约咨询 售后服务 工单提交 建议反馈 我有建议 文档 备案 控制台 账号中心 费用与成本 待支付订单 待续费产品 未读消息 工单管理 管理控制台 注册 登录 登录 注册 购物车 admin 账号中心 未实名认证 已实名认证 费用与成本 待支付订单 0 待续费产品 0 未读消息 0 伙伴中心 云商店买家中心 云商店卖家中心 实时客服 工单管理 开发者空间 个性化推荐管理 管理控制台 admin 退出登录 取消 清空 最近搜索 热门搜索 云耀云服务器L实例 免费试用 云服务器 域名 云速建站 行业大模型 行业大模型 行业大模型 行业大模型 面向B端提供5个基础大模型，包括LLM大模型、多模态大模型、视觉大模型、预测大模型、气象大模型等 面向B端提供5个基础大模型，包括LLM大模型、多模态大模型、视觉大模型、预测大模型、气象大模型等 专家咨询 文档 五大基础模型 夯实行业大模型能力 LLM大模型 超千亿参数的中文预训练大模型，它利用大量数据预训练、对多源丰富知识相结合，并通过持续学习吸收海量文本数据，不断提升模型的效果。 查看详情 视觉大模型 基于海量图像、视频构筑的视觉基础模型，利用少量数据微调即可实现特定任务。最新发布的视觉MOE大模型，支持多类型范图像生成。 查看详情 多模态大模型 融合语言和视觉等多模态信息，实现图像理解、图像生成、视频生成等应用。 查看详情 预测大模型 面向结构化任务基于triplet transformer 统一架构在预训练阶段完成跨模型通用知识学习，支持基于用户的结构化数据，针对跨领域下游任务进行微调，从而实现对事物发展趋势、状态类别等进行量化预测的大模型。 查看详情 气象大模型 致力于将人工智能与科学研究深度融合，为气象领域打造高精度模型，助力科研突破，赋能产业升级与创新发展。 查看详情 LLM大模型 超千亿参数的中文预训练大模型，它利用大量数据预训练、对多源丰富知识相结合，并通过持续学习吸收海量文本数据，不断提升模型的效果。 视觉大模型 基于海量图像、视频构筑的视觉基础模型，利用少量数据微调即可实现特定任务。最新发布的视觉MOE大模型，支持多类型范图像生成。 多模态大模型 融合语言和视觉等多模态信息，实现图像理解、图像生成、视频生成等应用。 预测大模型 面向结构化任务基于triplet transformer 统一架构在预训练阶段完成跨模型通用知识学习，支持基于用户的结构化数据，针对跨领域下游任务进行微调，从而实现对事物发展趋势、状态类别等进行量化预测的大模型。 气象大模型 致力于将人工智能与科学研究深度融合，为气象领域打造高精度模型，助力科研突破，赋能产业升级与创新发展。 大模型应用场景 大模型应用场景 数字员工 证件审核 智慧城市 智慧配煤 气象预报 银行员工日常工作中需要查找各种信息，如人员信息、制度、流程等，同时每天书写大量的报告、邮件、会议纪要等，急需大模型辅助提升日常办公效率。 银行员工日常工作中需要查找各种信息，如人员信息、制度、流程等，同时每天书写大量的报告、邮件、会议纪要等，急需大模型辅助提升日常办公效率。 了解场景 人社局不同事项接收到的电子材料，尤其是图片类电子材料，利用多模态大模型自动进行合规性审查和智能分类，实现事件处理全过程智能化管理，使业务人员从繁重的数据整理、汇总和审查的工作中解脱出来，提高人社局办事处理效率。 人社局不同事项接收到的电子材料，尤其是图片类电子材料，利用多模态大模型自动进行合规性审查和智能分类，实现事件处理全过程智能化管理，使业务人员从繁重的数据整理、汇总和审查的工作中解脱出来，提高人社局办事处理效率。 了解场景 重点城市一二三类摄像头数量普遍在数十万量级，区县城市在几万量级，大量视频的共享、汇聚、分析城市政府物联感知体系建设需要重点解决的问题，视觉大模型由点到面，全场景、立体化建设城市感知体系 重点城市一二三类摄像头数量普遍在数十万量级，区县城市在几万量级，大量视频的共享、汇聚、分析城市政府物联感知体系建设需要重点解决的问题，视觉大模型由点到面，全场景、立体化建设城市感知体系 了解场景 预测大模型辅助人工进行决策，提供最优配比，实现生产精细化，在保证焦炭质量要求的前提下，综合考虑焦炭价格综合收益，通过大模型找到最优配比使得利润最大化。 预测大模型辅助人工进行决策，提供最优配比，实现生产精细化，在保证焦炭质量要求的前提下，综合考虑焦炭价格综合收益，通过大模型找到最优配比使得利润最大化。 了解详情 气象大模型可以精准地预测细粒度气象特征，速度相比传统数值预报大幅提升。目前，气象大模型的气象预测结果包括重力位势、湿度、风速、温度、海平面气压、降水等，可以直接应用于多个气象研究细分场景，欧洲中期预报中心和中央气象台等都在实测中发现盘古预测的优越性。 气象大模型可以精准地预测细粒度气象特征，速度相比传统数值预报大幅提升。目前，气象大模型的气象预测结果包括重力位势、湿度、风速、温度、海平面气压、降水等，可以直接应用于多个气象研究细分场景，欧洲中期预报中心和中央气象台等都在实测中发现盘古预测的优越性。 了解场景 数字员工 银行员工日常工作中需要查找各种信息，如人员信息、制度、流程等，同时每天书写大量的报告、邮件、会议纪要等，急需大模型辅助提升日常办公效率 场景介绍 会议总结 基于大模型泛化能力，根据会议内容进行总结，抽取关键点生成会议要点，形成会议纪要 邮件总结 智能化邮件处理，基于大模型进行邮件整理、邮件撰写、邮件回复，提升邮件处理效率 材料撰写 根据大纲、项目内容、字段的要求，生成调研报告或项目规划文件，并进行中英文翻译 证件审核 人社局不同事项接收到的电子材料，尤其是图片类电子材料，利用多模态大模型自动进行合规性审查和智能分类，实现事件处理全过程智能化管理，使业务人员从繁重的数据整理、汇总和审查的工作中解脱出来，提高人社局办事处理效率 场景介绍 文档合规审核 判断用户上传的证件类型是否正确，上传的证件名称、信息是否有误，内容是否正确和本人一致 材料类型审核 识别系统的材料合规审核模块，判断不同报表填写内容是否合规，如是否有字段漏填、是否存在未签名的情况等 智慧城市 重点城市一二三类摄像头数量普遍在数十万量级，区县城市在几万量级，大量视频的共享、汇聚、分析城市政府物联感知体系建设需要重点解决的问题，视觉大模型由点到面，全场景、立体化建设城市感知体系 场景介绍 城市治理 人群检测（含横幅检测）、占道经营事件检测、违规广告牌检测、垃圾落地事件检测、共享单车乱摆放事件检测、垃圾桶满溢检测、垃圾桶未合盖检测等。 交通 机动车逆行检测、车牌识别、机动车违停检测、车辆数目统计、车流量监测、车型识别等 水务 积水内涝检测、水尺识别、排口排水检测、船只入侵检测、河面漂浮物检测、闸室人员入侵检测等 智慧配煤 预测大模型辅助人工进行决策，提供最优配比，实现生产精细化，在保证焦炭质量要求的前提下，综合考虑焦炭价格综合收益，通过大模型找到最优配比使得利润最大化 场景介绍 焦炭成分质量预测 通过评估和预测焦炭生产过程中焦炭成分及其质量来准确预测焦炭的成分和质量 配煤比例优化 高炉炼铁过程中，通过合理选择和搭配不同种类、性质和质量的煤炭，降低生产成本 气象预报 气象大模型可以精准地预测细粒度气象特征，速度相比传统数值预报大幅提升。目前，气象大模型的气象预测结果包括重力位势、湿度、风速、温度、海平面气压、降水等，可以直接应用于多个气象研究细分场景，欧洲中期预报中心和中央气象台等都在实测中发现气象预测的优越性 场景介绍 降水预报 未来1-7天全球中期降水预报，地表分辨率0.25°（25*25公里，目前提供南北纬60°之间），时间分辨率1小时，提供目标时刻前6小时的累计降水毫米数 台风路径预报 未来1-7天全球台风路径预报，地表分辨率0.25°（25*25公里），时间分辨率1小时 污染物浓度预报 包括PM10、PM2.5、NO₂、O₃、SO₂、CO等，预测未来7天的AQI指标 与客户一起构建合作共赢的AI生态体系，加速AI应用落地 与客户一起构建合作共赢的AI生态体系，加速AI应用落地 福田区政数局 美图 吉客印 山东能源 福田区政数局 福田区携手华为云基于盘古政务大模型，深化“三个一网”（一网通办、一网统管、一网协同）建设，系统提升了城市治理网格化、标准化、智能化水平。 查看详情 美图 华为云与美图围绕影像产品及解决方案设计、AIGC创新应用等领域深度推进合作，打造互联网行业多模态场景服务，提供便捷、高效、高质的影像创作解决方案。 查看详情 吉客印 吉客印借助华为云AI及大数据技术，结合吉客印对跨境电商领域的场景化理解，聚焦智能选品、智能设计、智能投放、智能客服，共同打造并不断优化全球跨境电商智能",
+      "baseline_initialized": true,
+      "source_signature": "358533e240f8d91d526ab287f94e5a5f3e5ba8fb0fe1fcc011145bba6cb3adea",
+      "baseline_reinitialized_at": "2026-07-02T10:22:21.295328Z",
+      "last_changed_at": "2026-07-02T10:22:21.295328Z"
     },
     "iflytek-spark": {
       "fingerprint": "346ff528abb063c0f888ef4e288c6dc11ca726a7dd5be59f99af9acee7c972ca",
       "last_checked_at": "2026-07-02T04:51:33.147542Z",
       "last_excerpt": "讯飞星火-懂我的AI助手",
-      "baseline_invalid": true
+      "baseline_invalid": true,
+      "source_signature": "ad735fe4db29267b01067216b50977a3b7032085397e497f92c058996f0af764",
+      "baseline_initialized": true,
+      "baseline_reinitialized_at": "2026-07-02T10:22:21.295328Z",
+      "last_changed_at": "2026-07-02T10:22:21.295328Z"
     },
     "tiangong": {
       "fingerprint": "d74b9bfcf1b5845c504c030cf12af0182dbe65e30b7ee6c71e8925ce38378081",
       "last_checked_at": "2026-07-02T04:51:33.147542Z",
       "last_excerpt": "AI办公智能体先行者",
-      "baseline_invalid": true
+      "baseline_invalid": true,
+      "source_signature": "05fcac8e3faed368166d0d6add3197133aacff7f2e6d97073be3c6b85fed798b",
+      "baseline_initialized": true,
+      "baseline_reinitialized_at": "2026-07-02T10:22:21.295328Z",
+      "last_changed_at": "2026-07-02T10:22:21.295328Z"
     },
     "samr-standards": {
       "seen_keys": [
@@ -1071,24 +1066,13 @@
         "https://std.samr.gov.cn/gfs/query",
         "https://std.samr.gov.cn/tb",
         "https://std.samr.gov.cn/gj",
-        "https://std.samr.gov.cn/gj/org?op=ISO",
-        "https://std.samr.gov.cn/org",
-        "https://std.samr.gov.cn/gb/search/gbAdvancedSearch",
-        "https://std.samr.gov.cn/coordination",
-        "https://std.samr.gov.cn/gfs/gfsSuggestionPlan",
-        "https://std.samr.gov.cn/gb/gbqSuggestion",
-        "https://std.samr.gov.cn/gb/gbPlanDraft",
-        "https://std.samr.gov.cn/noc/nocCMR",
-        "https://std.samr.gov.cn/noc/nocPlan",
-        "https://std.samr.gov.cn/gb/gbzProcessInfo",
-        "https://std.samr.gov.cn/org/orgTcQuery",
-        "https://std.samr.gov.cn/gj/news?op=ISO",
-        "https://std.samr.gov.cn/gj/orgCn?type=ISO",
-        "https://std.samr.gov.cn/gj/std?op=ISO"
+        "https://std.samr.gov.cn/gj/org?op=ISO"
       ],
       "last_checked_at": "2026-07-02T04:52:25.281396Z",
       "baseline_initialized": true,
-      "last_changed_at": "2026-07-02T09:43:49.975253Z"
+      "last_changed_at": "2026-07-02T10:23:24.016930Z",
+      "source_signature": "b374ff3336ecd7df3e3a486ec4e47f5f191918a79a1cfcd17847257fdf5acc47",
+      "baseline_reinitialized_at": "2026-07-02T10:23:24.016930Z"
     },
     "tc260-ai-standard": {
       "seen_keys": [
@@ -1110,32 +1094,24 @@
         "https://www.tc260.org.cn/portal/suggestion-detail/1a45ecd9ace34f94a40de59fc25b1fd6",
         "https://www.tc260.org.cn/portal/suggestion-detail/35f737c28f85459ba1f379ad1d0992ff",
         "https://www.tc260.org.cn/portal/suggestion-detail/822d0889746444259ed1def11aa0f1e1",
-        "https://www.tc260.org.cn/portal/suggestion-detail/ef5518f3213b4ec5bc5f3f2ce5ce1bee",
-        "https://www.tc260.org.cn/portal/article/1/6e8ada3dc7654f43b55675ad05c700d3",
-        "https://www.tc260.org.cn/portal/suggestion-detail/0965be07eef8468b8db986400d5732c0",
-        "https://www.tc260.org.cn/login",
-        "https://www.tc260.org.cn/portal/unit-reg",
-        "https://www.tc260.org.cn/portal/cms/work/10/0",
-        "https://www.tc260.org.cn/portal/cms/industry/100/0",
-        "https://www.tc260.org.cn/portal/about/mgr",
-        "https://www.tc260.org.cn/portal/cms/catalog/1",
-        "https://www.tc260.org.cn/portal/article/2/44acd46ffb6e4572999af354a958b71d",
-        "https://www.tc260.org.cn/portal/article/2/9f1ef0df453e4d648d08bd8835b9e8c7",
-        "https://www.tc260.org.cn/portal/article/2/e8a9c220668549159b4a5b4641881ffc",
-        "https://www.tc260.org.cn/portal/article/2/5f184cda80af4f37a05d8469d1d21ace"
+        "https://www.tc260.org.cn/portal/suggestion-detail/ef5518f3213b4ec5bc5f3f2ce5ce1bee"
       ],
       "last_checked_at": "2026-07-02T04:52:25.829528Z",
       "baseline_initialized": true,
-      "last_changed_at": "2026-07-02T10:17:45.307338Z"
+      "last_changed_at": "2026-07-02T10:23:25.737100Z",
+      "source_signature": "ac7adf7536607ad1dc8d9ca06c0f10f499a52b1893dcc2d8ec03dd7b6240b921",
+      "baseline_reinitialized_at": "2026-07-02T10:23:25.737100Z"
     },
     "founderpark-website": {
       "seen_keys": [],
       "last_checked_at": "2026-07-02T04:52:26.226975Z",
       "baseline_initialized": true,
       "fingerprint": "2becc9c87cf53a08fd0240481d91cdc12c40ab88d0d4b43fa65fd5837cf981ee",
-      "last_changed_at": "2026-07-02T09:42:37.563455Z",
+      "last_changed_at": "2026-07-02T10:22:21.295328Z",
       "last_excerpt": "Founder Park",
-      "baseline_invalid": true
+      "baseline_invalid": true,
+      "source_signature": "a95fff0151adf25cc2f376c9896f61c676d0270afe61dca6176c365c75f60572",
+      "baseline_reinitialized_at": "2026-07-02T10:22:21.295328Z"
     },
     "openxlab": {
       "repos": {
@@ -1184,23 +1160,19 @@
         "https://www.nda.gov.cn/sjj/zwgk/zjjd/0210/20260210161431089609400_pc.html",
         "https://www.nda.gov.cn/sjj/zwgk/zjjd/0211/20260211145931252575182_pc.html",
         "https://www.nda.gov.cn/sjj/zwgk/zjjd/0211/20260211150131588844425_pc.html",
-        "https://www.nda.gov.cn/sjj/zwgk/zjjd/0213/20260213153739015296988_pc.html",
-        "https://www.nda.gov.cn/sjj/zwgk/list/index_pc_1.html",
-        "https://www.nda.gov.cn/sjj/zwgk/zcfb/list/index_pc_1.html",
-        "https://www.nda.gov.cn/sjj/zwgk/zcfb/0618/20260618145942270461999_pc.html",
-        "https://www.nda.gov.cn/sjj/zwgk/zcfb/0601/20260601211616018140035_pc.html",
-        "https://www.nda.gov.cn/sjj/zwgk/zjjd/0208/20260208191609546533675_pc.html",
-        "https://www.nda.gov.cn/sjj/zwgk/zjjd/0210/20260210161137217573271_pc.html",
-        "https://www.nda.gov.cn/sjj/zwgk/zjjd/0212/20260212132946250499791_pc.html",
-        "https://www.nda.gov.cn/sjj/zwgk/zjjd/0212/20260212133359194820190_pc.html",
-        "https://www.nda.gov.cn/sjj/zwgk/zjjd/0213/20260213152620666529559_pc.html",
-        "https://www.nda.gov.cn/sjj/zwgk/zjjd/0213/20260213153054655026687_pc.html"
+        "https://www.nda.gov.cn/sjj/zwgk/zjjd/0213/20260213153739015296988_pc.html"
       ],
-      "last_changed_at": "2026-07-02T09:43:52.217228Z",
-      "baseline_initialized": true
+      "last_changed_at": "2026-07-02T10:23:26.250665Z",
+      "baseline_initialized": true,
+      "source_signature": "bd2d6f1f35cd51d927cdaa3afcbbbfa380aab0e1f0bc94bfd25dbea6651e0b83",
+      "baseline_reinitialized_at": "2026-07-02T10:23:26.250665Z"
     },
     "caict-ai-report": {
-      "baseline_initialized": true
+      "baseline_initialized": true,
+      "source_signature": "48816996dff767e49a4250b46fe4b9b0a3ef425c6fbb7451e3390da309d79c02",
+      "baseline_reinitialized_at": "2026-07-02T10:23:21.583673Z",
+      "seen_keys": [],
+      "last_changed_at": "2026-07-02T10:23:21.583673Z"
     }
   }
 }
