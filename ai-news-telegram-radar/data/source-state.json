@@ -380,6 +380,7 @@
     },
     "qbitai-rss": {
       "seen_keys": [
+        "https://www.qbitai.com/2026/07/441786.html",
         "https://www.qbitai.com/2026/07/441725.html",
         "https://www.qbitai.com/2026/07/441586.html",
         "https://www.qbitai.com/2026/07/441490.html",
@@ -390,7 +391,6 @@
         "https://www.qbitai.com/2026/07/441386.html",
         "https://www.qbitai.com/2026/07/441246.html",
         "https://www.qbitai.com/2026/07/441240.html",
-        "https://www.qbitai.com/2026/07/441786.html",
         "https://www.qbitai.com/2026/07/441237.html",
         "https://www.qbitai.com/2026/07/441225.html",
         "https://www.qbitai.com/2026/07/441140.html",
@@ -399,7 +399,7 @@
       ],
       "last_checked_at": "2026-07-02T04:52:26.145879Z",
       "baseline_initialized": true,
-      "last_changed_at": "2026-07-02T07:15:27.682883Z"
+      "last_changed_at": "2026-07-02T07:41:21.767524Z"
     },
     "moonshot-website": {
       "fingerprint": "a34742eb222aa6fad38b190c7ca8488ccf3b16cea24d82e8605cc7324f4abafc",
