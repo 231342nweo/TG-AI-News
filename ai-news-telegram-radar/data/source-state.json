@@ -238,9 +238,9 @@
       ],
       "last_checked_at": "2026-07-02T04:52:05.788649Z",
       "baseline_initialized": true,
-      "last_changed_at": "2026-07-02T10:22:21.295328Z",
-      "fingerprint": "2dfd888fdd5e8018cee8e77df36401239b12076875ff2ab829b1728d2d371774",
-      "last_excerpt": "Please wait...",
+      "last_changed_at": "2026-07-02T10:28:37.610578Z",
+      "fingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "last_excerpt": "",
       "baseline_invalid": true,
       "source_signature": "bf1f63ca68ab1a7f10b219aa7fbc07472dde5da63456aa15a90f6ecaf31f0156",
       "baseline_reinitialized_at": "2026-07-02T10:22:21.295328Z"
@@ -350,7 +350,7 @@
       "last_checked_at": "2026-07-02T04:51:37.867265Z",
       "baseline_initialized": true,
       "repos": {
-        "MoonshotAI/kimi-code": "2026-07-02T10:20:05Z",
+        "MoonshotAI/kimi-code": "2026-07-02T10:28:36Z",
         "MoonshotAI/Kimi-K2": "2026-01-21T05:33:12Z",
         "MoonshotAI/Attention-Residuals": "2026-03-17T06:23:11Z",
         "MoonshotAI/kimi-cli": "2026-06-22T12:35:05Z",
@@ -371,24 +371,25 @@
         "MoonshotAI/kimi-code-zed-extension": "2026-01-20T18:06:03Z",
         "MoonshotAI/pykaos": "2025-12-26T14:52:32Z"
       },
-      "last_changed_at": "2026-07-02T10:22:21.295328Z"
+      "last_changed_at": "2026-07-02T10:28:37.610578Z"
     },
     "zai-github": {
       "seen_keys": [],
       "last_checked_at": "2026-07-02T04:51:40.485322Z",
       "baseline_initialized": true,
       "repos": {
-        "zai-org/GLM-5": "2026-06-20T04:22:09Z",
+        "zai-org/GLM-130B": "2023-07-25T09:01:49Z",
         "zai-org/GLM-4.5": "2026-02-01T08:28:10Z",
+        "zai-org/SCAIL-2": "2026-06-21T14:21:19Z",
+        "zai-org/CogVideo": "2025-11-04T11:19:04Z",
+        "zai-org/Open-AutoGLM": "2026-03-06T08:38:39Z",
+        "zai-org/GLM-5": "2026-06-20T04:22:09Z",
         "zai-org/CodeGeeX2": "2024-07-10T12:34:55Z",
         "zai-org/ChatGLM3": "2025-01-13T06:55:26Z",
         "zai-org/GLM-OCR": "2026-04-21T08:52:11Z",
         "zai-org/GLM-4-Voice": "2024-12-05T07:10:01Z",
         "zai-org/ComplexFuncBench": "2025-01-20T03:04:21Z",
-        "zai-org/SCAIL-2": "2026-06-21T14:21:19Z",
-        "zai-org/Open-AutoGLM": "2026-03-06T08:38:39Z",
         "zai-org/SCAIL": "2026-05-06T14:59:54Z",
-        "zai-org/CogVideo": "2025-11-04T11:19:04Z",
         "zai-org/VisualGLM-6B": "2024-08-23T07:45:06Z",
         "zai-org/CodeGeeX4": "2024-08-25T14:26:16Z",
         "zai-org/CodeGeeX": "2024-08-13T05:59:38Z",
@@ -396,10 +397,9 @@
         "zai-org/GLM-Edge": "2025-06-12T02:10:02Z",
         "zai-org/GLM-4": "2025-07-04T04:16:36Z",
         "zai-org/zai-coding-plugins": "2026-02-22T15:51:20Z",
-        "zai-org/z-ai-sdk-python": "2026-06-16T03:07:59Z",
-        "zai-org/ChatGLM-6B": "2024-06-27T04:05:25Z"
+        "zai-org/z-ai-sdk-python": "2026-06-16T03:07:59Z"
       },
-      "last_changed_at": "2026-07-02T09:42:37.563455Z"
+      "last_changed_at": "2026-07-02T10:28:37.610578Z"
     },
     "minimax-github": {
       "seen_keys": [],
@@ -529,28 +529,28 @@
       "last_checked_at": "2026-07-02T04:51:55.708102Z",
       "baseline_initialized": true,
       "repos": {
-        "OpenBMB/ChatDev": "2026-06-29T08:25:10Z",
         "OpenBMB/VoxCPM": "2026-07-01T03:04:07Z",
         "OpenBMB/UltraRAG": "2026-07-01T14:09:19Z",
-        "OpenBMB/MiniCPM": "2026-06-20T06:06:47Z",
+        "OpenBMB/ForgeTrain": "2026-06-17T06:14:58Z",
+        "OpenBMB/MiniCPM-Desk-Pet": "2026-06-27T12:56:42Z",
         "OpenBMB/PilotDeck": "2026-07-02T08:12:21Z",
+        "OpenBMB/ChatDev": "2026-06-29T08:25:10Z",
+        "OpenBMB/MiniCPM": "2026-06-20T06:06:47Z",
         "OpenBMB/AgentCPM-GUI": "2026-01-11T08:24:15Z",
         "OpenBMB/MetaMem": "2026-07-02T08:31:10Z",
         "OpenBMB/MiniCPM-V": "2026-06-25T12:12:59Z",
         "OpenBMB/AceBench": "2026-06-10T13:56:38Z",
         "OpenBMB/ToolBench": "2025-05-21T15:46:59Z",
-        "OpenBMB/ForgeTrain": "2026-06-17T06:14:58Z",
         "OpenBMB/ParamMute": "2026-02-02T11:12:44Z",
         "OpenBMB/AgentVerse": "2024-09-09T05:47:44Z",
-        "OpenBMB/MiniCPM-o-Demo": "2026-06-30T15:21:39Z",
-        "OpenBMB/MiniCPM-Desk-Pet": "2026-06-27T12:56:42Z",
+        "OpenBMB/MiniCPM-o-Demo": "2026-07-02T10:23:38Z",
         "OpenBMB/XAgent": "2024-08-12T06:41:38Z",
         "OpenBMB/MiniCPM-V-Apps": "2026-07-01T11:04:25Z",
         "OpenBMB/MoRE": "2026-07-01T10:20:18Z",
         "OpenBMB/WorkflowLLM": "2025-03-11T07:41:39Z",
         "OpenBMB/UltraEval-Audio": "2026-06-10T07:12:04Z"
       },
-      "last_changed_at": "2026-07-02T09:42:37.563455Z"
+      "last_changed_at": "2026-07-02T10:28:37.610578Z"
     },
     "internlm-github": {
       "seen_keys": [],
@@ -588,28 +588,28 @@
       "last_checked_at": "2026-07-02T04:51:58.871155Z",
       "baseline_initialized": true,
       "repos": {
+        "QwenLM/Qwen-RobotManip": "2026-06-29T22:29:54Z",
+        "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
+        "QwenLM/Qwen": "2026-03-05T13:55:17Z",
         "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
         "QwenLM/Qwen3.6": "2026-06-03T12:14:19Z",
         "QwenLM/Qwen-VLA": "2026-05-29T13:49:38Z",
-        "QwenLM/qwen-code": "2026-07-02T10:16:18Z",
+        "QwenLM/qwen-code": "2026-07-02T10:27:53Z",
         "QwenLM/Qwen3-ASR-Toolkit": "2026-02-05T05:35:03Z",
-        "QwenLM/Qwen-RobotManip": "2026-06-29T22:29:54Z",
         "QwenLM/Qwen-Agent": "2026-03-04T08:15:07Z",
         "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
         "QwenLM/Qwen3-VL-Embedding": "2026-06-23T10:39:17Z",
-        "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
         "QwenLM/Qwen-RobotNav": "2026-06-30T03:01:19Z",
         "QwenLM/Qwen3-Omni": "2026-04-23T10:58:01Z",
         "QwenLM/Qwen-AgentWorld": "2026-06-25T06:57:43Z",
         "QwenLM/Qwen3-Coder": "2026-03-24T08:22:10Z",
         "QwenLM/open-computer-use": "2026-06-10T16:38:07Z",
-        "QwenLM/Qwen": "2026-03-05T13:55:17Z",
         "QwenLM/Qwen3-ASR": "2026-06-26T08:20:17Z",
         "QwenLM/Qwen-Image-Layered": "2025-12-31T11:40:35Z",
         "QwenLM/Qwen-Image": "2026-02-10T07:37:37Z",
         "QwenLM/FlashQLA": "2026-07-01T14:20:23Z"
       },
-      "last_changed_at": "2026-07-02T10:16:42.317144Z"
+      "last_changed_at": "2026-07-02T10:28:37.610578Z"
     },
     "tencent-hunyuan-github": {
       "seen_keys": [],
