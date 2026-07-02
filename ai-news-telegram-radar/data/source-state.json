@@ -380,7 +380,6 @@
     },
     "qbitai-rss": {
       "seen_keys": [
-        "https://www.qbitai.com/2026/07/441786.html",
         "https://www.qbitai.com/2026/07/441725.html",
         "https://www.qbitai.com/2026/07/441586.html",
         "https://www.qbitai.com/2026/07/441490.html",
@@ -391,6 +390,7 @@
         "https://www.qbitai.com/2026/07/441386.html",
         "https://www.qbitai.com/2026/07/441246.html",
         "https://www.qbitai.com/2026/07/441240.html",
+        "https://www.qbitai.com/2026/07/441786.html",
         "https://www.qbitai.com/2026/07/441237.html",
         "https://www.qbitai.com/2026/07/441225.html",
         "https://www.qbitai.com/2026/07/441140.html",
@@ -399,7 +399,7 @@
       ],
       "last_checked_at": "2026-07-02T04:52:26.145879Z",
       "baseline_initialized": true,
-      "last_changed_at": "2026-07-02T07:03:37.019191Z"
+      "last_changed_at": "2026-07-02T07:15:27.682883Z"
     },
     "moonshot-website": {
       "fingerprint": "a34742eb222aa6fad38b190c7ca8488ccf3b16cea24d82e8605cc7324f4abafc",
@@ -808,24 +808,25 @@
       "seen_keys": [
         "https://www.tc260.org.cn/portal/suggestion",
         "https://www.tc260.org.cn/portal/project/standard",
+        "https://www.tc260.org.cn/portal/article/1/c5bff06b0a544674b12b89271bf8df02",
         "https://www.tc260.org.cn/portal/article/1/9745608fa11e46639275aa834e58b5c4",
         "https://www.tc260.org.cn/portal/article/1/07d60a8d728445fbb3526ca97e3d02d9",
-        "https://www.tc260.org.cn/portal/article/1/c5bff06b0a544674b12b89271bf8df02",
-        "https://www.tc260.org.cn/portal/article/1/a6d21a769f07420f818f6bed6797c618",
         "https://www.tc260.org.cn/portal/article/1/4541a22bb6f542b5ae7c37ffe0d914aa",
+        "https://www.tc260.org.cn/portal/article/1/a6d21a769f07420f818f6bed6797c618",
         "https://www.tc260.org.cn/portal/article/1/7ddf0e21844548ccacf5f520a0b5b673",
-        "https://www.tc260.org.cn/portal/article/1/e159d8380a964bb69feb9834fd8126e2",
+        "https://www.tc260.org.cn/portal/article/1/6e8ada3dc7654f43b55675ad05c700d3",
         "https://www.tc260.org.cn/portal/article/1/3a56c5e4868f4e17ac8d71cc2daf2ec6",
         "https://www.tc260.org.cn/portal/article/2/a54aac5d7237421caea024fdeb55b252",
         "https://www.tc260.org.cn/portal/article/2/dfde7d57db9b4d5697c202fdec722ae4",
-        "https://www.tc260.org.cn/portal/article/2/71c613fd3db34b6a9da62f25b8219733",
         "https://www.tc260.org.cn/portal/article/2/1911acff3c7a47a7958759dac2804c92",
+        "https://www.tc260.org.cn/portal/article/2/71c613fd3db34b6a9da62f25b8219733",
         "https://www.tc260.org.cn/portal/suggestion-detail/070bd0f2bab446be9e293e491a786a76",
         "https://www.tc260.org.cn/portal/suggestion-detail/1a45ecd9ace34f94a40de59fc25b1fd6",
         "https://www.tc260.org.cn/portal/suggestion-detail/35f737c28f85459ba1f379ad1d0992ff",
         "https://www.tc260.org.cn/portal/suggestion-detail/822d0889746444259ed1def11aa0f1e1",
         "https://www.tc260.org.cn/portal/suggestion-detail/ef5518f3213b4ec5bc5f3f2ce5ce1bee",
         "https://www.tc260.org.cn/portal/suggestion-detail/0965be07eef8468b8db986400d5732c0",
+        "https://www.tc260.org.cn/portal/article/1/e159d8380a964bb69feb9834fd8126e2",
         "https://www.tc260.org.cn/login",
         "https://www.tc260.org.cn/portal/unit-reg",
         "https://www.tc260.org.cn/portal/cms/work/10/0",
@@ -835,12 +836,11 @@
         "https://www.tc260.org.cn/portal/article/2/44acd46ffb6e4572999af354a958b71d",
         "https://www.tc260.org.cn/portal/article/2/9f1ef0df453e4d648d08bd8835b9e8c7",
         "https://www.tc260.org.cn/portal/article/2/e8a9c220668549159b4a5b4641881ffc",
-        "https://www.tc260.org.cn/portal/article/2/5f184cda80af4f37a05d8469d1d21ace",
-        "https://www.tc260.org.cn/portal/article/1/6e8ada3dc7654f43b55675ad05c700d3"
+        "https://www.tc260.org.cn/portal/article/2/5f184cda80af4f37a05d8469d1d21ace"
       ],
       "last_checked_at": "2026-07-02T04:52:25.829528Z",
       "baseline_initialized": true,
-      "last_changed_at": "2026-07-02T07:03:33.499025Z"
+      "last_changed_at": "2026-07-02T07:15:24.591940Z"
     },
     "founderpark-website": {
       "seen_keys": [],
