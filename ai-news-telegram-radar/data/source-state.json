@@ -588,12 +588,12 @@
       "last_checked_at": "2026-07-02T04:51:58.871155Z",
       "baseline_initialized": true,
       "repos": {
+        "QwenLM/qwen-code": "2026-07-02T23:42:08Z",
+        "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
         "QwenLM/Qwen-AgentWorld": "2026-06-25T06:57:43Z",
-        "QwenLM/qwen-code": "2026-07-02T22:28:20Z",
         "QwenLM/Qwen3.6": "2026-06-03T12:14:19Z",
         "QwenLM/Qwen3-Coder": "2026-03-24T08:22:10Z",
         "QwenLM/qwen-code-docs": "2026-07-02T21:41:21Z",
-        "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
         "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
         "QwenLM/Qwen-Image-Layered": "2025-12-31T11:40:35Z",
         "QwenLM/Qwen-RobotNav": "2026-06-30T03:01:19Z",
@@ -609,7 +609,7 @@
         "QwenLM/Qwen3-Embedding": "2025-09-30T06:10:27Z",
         "QwenLM/Qwen3-VL-Embedding": "2026-06-23T10:39:17Z"
       },
-      "last_changed_at": "2026-07-02T22:40:22.228951Z"
+      "last_changed_at": "2026-07-02T23:43:32.368092Z"
     },
     "tencent-hunyuan-github": {
       "seen_keys": [],
