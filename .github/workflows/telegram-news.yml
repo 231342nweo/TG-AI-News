@@ -8,7 +8,8 @@ on:
     paths-ignore:
       - "ai-news-telegram-radar/data/source-state.json"
   schedule:
-    - cron: "*/5 * * * *"
+    # Run on fixed 5-minute boundaries: :00, :05, :10, ..., :55.
+    - cron: "0,5,10,15,20,25,30,35,40,45,50,55 * * * *"
 
 permissions:
   contents: write
