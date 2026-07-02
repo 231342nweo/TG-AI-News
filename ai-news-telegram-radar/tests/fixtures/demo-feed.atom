@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Demo Atom</title>
+  <link href="https://example.com/atom"/>
+  <updated>2026-07-02T03:00:00Z</updated>
+  <entry>
+    <title>Claude-style coding agents improve long-running tasks</title>
+    <link href="https://example.com/claude-coding-agents"/>
+    <summary>New benchmark results compare agent reliability on complex software tasks.</summary>
+    <published>2026-07-02T03:00:00Z</published>
+    <category term="LLM"/>
+  </entry>
+  <entry>
+    <title>Gemini multimodal model adds faster inference</title>
+    <link href="https://example.com/gemini-multimodal-inference"/>
+    <summary>The model update focuses on multimodal latency and deployment ergonomics.</summary>
+    <published>2026-07-01T16:00:00Z</published>
+    <category term="Model"/>
+  </entry>
+</feed>

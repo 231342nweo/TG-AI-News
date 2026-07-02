@@ -1,0 +1,32 @@
+{
+  "settings": {
+    "window_hours": 720,
+    "limit": 5,
+    "min_score": 1.0
+  },
+  "keywords": [
+    "ai",
+    "agent",
+    "llm",
+    "model",
+    "openai",
+    "claude",
+    "gemini",
+    "大模型",
+    "智能体"
+  ],
+  "sources": [
+    {
+      "id": "demo-rss",
+      "name": "Demo RSS",
+      "url": "tests/fixtures/demo-feed.xml",
+      "weight": 2
+    },
+    {
+      "id": "demo-atom",
+      "name": "Demo Atom",
+      "url": "tests/fixtures/demo-feed.atom",
+      "weight": 2
+    }
+  ]
+}

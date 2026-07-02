@@ -1,0 +1,17 @@
+中国 AI 新闻提醒 | 2026-07-02 14:25 北京时间
+本次筛出 3 条 AI 信号
+
+1. 端到端语音语言大模型 新品 业内首创Cross-Attention 体验超拟人对话 重磅发布 免费体验
+   来源：百度 AI 开放平台 | 评分：16.2 | 时间：时间未知
+   中文看点：产品/发布信号：重点关注大模型。
+   原文：https://ai.baidu.com/tech/speech/chatbot
+
+2. OpenBMB Hugging Face 模型更新：openbmb/MiniCPM-V-4.6
+   来源：OpenBMB Hugging Face | 评分：13.82 | 时间：2026-07-01 19:57 北京时间
+   中文看点：产品/发布信号：重点关注多模态、Hugging Face。
+   原文：https://huggingface.co/openbmb/MiniCPM-V-4.6
+
+3. 大模型语音合成 热门 全新音色超拟人，多情感，多方言 低至¥ 4 /千次
+   来源：百度 AI 开放平台 | 评分：13.2 | 时间：时间未知
+   中文看点：资讯信号：重点关注大模型。
+   原文：https://ai.baidu.com/tech/speech/tts

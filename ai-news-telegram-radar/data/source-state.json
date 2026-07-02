@@ -1,0 +1,841 @@
+{
+  "sources": {
+    "deepseek-api-updates": {
+      "fingerprint": "f80d5b7222934031760de998daaf87c18d92bdfc92a4bf359dddc96b8eab702f",
+      "last_checked_at": "2026-07-02T04:51:33.147542Z",
+      "last_excerpt": "Change Log | DeepSeek API Docs Skip to main content DeepSeek API Docs English English 中文（中国） DeepSeek Platform Quick Start Your First API Call Models & Pricing Token & Token Usage Rate Limit & Isolation Error Codes Agent Integrations API Gu",
+      "baseline_initialized": true
+    },
+    "deepseek-huggingface": {
+      "models": {
+        "deepseek-ai/eagle3_gemma4_12b_ttt7": "2026-06-28T12:38:12.000Z",
+        "deepseek-ai/eagle3_qwen3_14b_ttt7": "2026-06-28T12:37:15.000Z",
+        "deepseek-ai/eagle3_qwen3_8b_ttt7": "2026-06-28T12:36:18.000Z",
+        "deepseek-ai/eagle3_qwen3_4b_ttt7": "2026-06-28T12:35:27.000Z",
+        "deepseek-ai/dflash_gemma4_12b_block7": "2026-06-28T12:34:57.000Z",
+        "deepseek-ai/dflash_qwen3_14b_block7": "2026-06-28T12:33:22.000Z",
+        "deepseek-ai/dflash_qwen3_8b_block7": "2026-06-28T12:31:28.000Z",
+        "deepseek-ai/dflash_qwen3_4b_block7": "2026-06-28T12:30:04.000Z",
+        "deepseek-ai/dspark_gemma4_12b_block7": "2026-06-28T12:29:10.000Z",
+        "deepseek-ai/dspark_qwen3_14b_block7": "2026-06-28T12:27:34.000Z",
+        "deepseek-ai/dspark_qwen3_8b_block7": "2026-06-28T12:25:30.000Z",
+        "deepseek-ai/dspark_qwen3_4b_block7": "2026-06-28T12:24:05.000Z",
+        "deepseek-ai/DeepSeek-V4-Pro-DSpark": "2026-06-27T05:12:19.000Z",
+        "deepseek-ai/DeepSeek-V4-Flash-DSpark": "2026-06-27T04:59:18.000Z",
+        "deepseek-ai/DeepSeek-V4-Pro": "2026-06-22T12:12:50.000Z",
+        "deepseek-ai/DeepSeek-V4-Flash": "2026-06-22T12:12:13.000Z",
+        "deepseek-ai/DeepSeek-V4-Flash-Base": "2026-04-27T06:51:43.000Z",
+        "deepseek-ai/DeepSeek-V4-Pro-Base": "2026-04-27T06:51:19.000Z",
+        "deepseek-ai/DeepSeek-OCR-2": "2026-02-03T00:33:19.000Z",
+        "deepseek-ai/DeepSeek-V3.2-Speciale": "2025-12-01T11:06:03.000Z"
+      },
+      "last_checked_at": "2026-07-02T04:51:33.147542Z",
+      "baseline_initialized": true
+    },
+    "kimi-platform-docs": {
+      "fingerprint": "a7534e3592a1e34c9edb296b1f548f2876d4372ccbdcb24e81cc726804bd00a6",
+      "last_checked_at": "2026-07-02T04:51:33.147542Z",
+      "last_excerpt": "Welcome to Kimi API Docs - Kimi API Platform Documentation Index Fetch the complete documentation index at: /docs/llms.txt Use this file to discover all available pages before exploring further. Skip to main content 🎉 Kimi K2.7 Code model h",
+      "baseline_initialized": true
+    },
+    "zhipu-bigmodel-releases": {
+      "fingerprint": "20f058d14347d1c49a1ea27f736234f596c02993cf4035e5d41a0364b61a14c7",
+      "last_checked_at": "2026-07-02T04:51:33.147542Z",
+      "last_excerpt": "新品发布 - 智谱AI开放文档 Documentation Index Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. Skip to main content 智谱AI开放文档 home page Search... ⌘ K 控制台 价格 财务 API Key 个人中心 Se",
+      "baseline_initialized": true
+    },
+    "zai-release-notes": {
+      "fingerprint": "d750029be87a8baeeba8534607d462f8df5674396ec491b02ef4e289608de3df",
+      "last_checked_at": "2026-07-02T04:51:33.147542Z",
+      "last_excerpt": "New Released - Overview - Z.AI DEVELOPER DOCUMENT Documentation Index Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. Skip to main content Overview - Z.AI DEVELOPE",
+      "baseline_initialized": true
+    },
+    "zai-huggingface": {
+      "models": {
+        "zai-org/GLM-5.2": "2026-06-23T03:56:16.000Z",
+        "zai-org/GLM-5.2-FP8": "2026-06-23T03:55:34.000Z",
+        "zai-org/SCAIL-2": "2026-06-22T08:23:40.000Z",
+        "zai-org/GLM-OCR": "2026-05-19T12:28:43.000Z",
+        "zai-org/GLM-5.1": "2026-05-13T08:10:58.000Z",
+        "zai-org/GLM-5.1-FP8": "2026-04-16T06:12:42.000Z",
+        "zai-org/GLM-ASR-Nano-2512": "2026-04-07T12:55:32.000Z",
+        "zai-org/GLM-5-FP8": "2026-04-05T07:51:12.000Z",
+        "zai-org/GLM-5": "2026-04-05T07:48:51.000Z",
+        "zai-org/GLM-4.7-Flash": "2026-01-29T08:06:19.000Z",
+        "zai-org/GLM-4.7": "2026-01-29T08:05:58.000Z",
+        "zai-org/GLM-Image": "2026-01-15T09:55:29.000Z",
+        "zai-org/GLM-TTS": "2026-01-12T17:15:47.000Z",
+        "zai-org/AutoGLM-Phone-9B-Multilingual": "2026-01-07T10:14:13.000Z",
+        "zai-org/AutoGLM-Phone-9B": "2026-01-07T10:13:37.000Z",
+        "zai-org/GLM-4.7-FP8": "2025-12-23T09:37:27.000Z",
+        "zai-org/SCAIL-Preview": "2025-12-16T06:12:16.000Z",
+        "zai-org/RealVideo": "2025-12-11T12:14:01.000Z",
+        "zai-org/Kaleido-14B-S2V": "2025-12-11T07:33:27.000Z",
+        "zai-org/GLM-4.6V-Flash": "2025-12-09T18:06:43.000Z"
+      },
+      "last_checked_at": "2026-07-02T04:51:33.147542Z",
+      "baseline_initialized": true
+    },
+    "minimax-platform": {
+      "fingerprint": "e554f9891deecabc1def2204141eb4d6ec542374cc5f28ba38fd0ba2f7fa2e21",
+      "last_checked_at": "2026-07-02T04:51:33.147542Z",
+      "last_excerpt": "Models - MiniMax API Docs Documentation Index Fetch the complete documentation index at: /docs/llms.txt Use this file to discover all available pages before exploring further. Skip to main content 🎉 MiniMax-M3 is now available! A Frontier M",
+      "baseline_initialized": true
+    },
+    "minimax-release-notes": {
+      "fingerprint": "0a4c6263768040479f48490bc753977b89a8b55429745584bfd895144b9936ea",
+      "last_checked_at": "2026-07-02T04:51:33.147542Z",
+      "last_excerpt": "Models - MiniMax API Docs Documentation Index Fetch the complete documentation index at: /docs/llms.txt Use this file to discover all available pages before exploring further. Skip to main content 🎉 MiniMax-M3 is now available! A Frontier M",
+      "baseline_initialized": true
+    },
+    "stepfun-platform": {
+      "fingerprint": "34c0229bac5dc70cef60111f52416a3d8c1c4b24d7bb5518ca7985c9f05a7a60",
+      "last_checked_at": "2026-07-02T04:51:33.147542Z",
+      "last_excerpt": "阶跃星辰开放平台 首页 Step Plan 文档中心 体验中心 Studio 体验中心 场景示例 阶跃星辰官网 EN 未登录 创作新阶，此刻开启 Step Plan 限时免费体验， 海量 Token 放送中！ I build with models, I create my agent！ 更多福利 免费领取 Step 3.7 Flash 面向生产级 Agent 的高效率 Flash 模型 原生多模态理解与执行 / 联网与视觉搜索增强 / 高可靠工具调用与编排 / Agent ",
+      "baseline_initialized": true
+    },
+    "baichuan-api-docs": {
+      "fingerprint": "e70e07d29b52339cabbc2d77c16275a8ff814eaac6c714b8dd66885f9db9a321",
+      "last_checked_at": "2026-07-02T04:51:33.147542Z",
+      "last_excerpt": "百川大模型-汇聚世界知识 创作妙笔生花-百川智能 接入须知 接口文档 医疗大模型 通用大模型 知识库 向量化模型 文件管理 错误码 财务相关 发票 MCP 申请加入海纳百川计划 · 免费使用M3Plus API 本页内容 © 2026 北京百川智能科技有限公司 京ICP备2023015490号-1 | 京B2-20232254 京公网安备11010802042854号 用户协议 | 隐私政策 申请体验 请填写 合作咨询 申请体验测试，我们 会安排商务尽快跟进 联系我们 官方邮",
+      "baseline_initialized": true
+    },
+    "qwen-blog": {
+      "seen_keys": [],
+      "last_checked_at": "2026-07-02T04:51:58.171005Z",
+      "baseline_initialized": true
+    },
+    "qwen-huggingface": {
+      "models": {
+        "Qwen/Qwen3-ForcedAligner-0.6B-hf": "2026-06-26T08:42:38.000Z",
+        "Qwen/Qwen3-ASR-0.6B-hf": "2026-06-26T08:39:37.000Z",
+        "Qwen/Qwen3-ASR-1.7B-hf": "2026-06-26T08:36:05.000Z",
+        "Qwen/Qwen-AgentWorld-35B-A3B": "2026-06-25T07:24:16.000Z",
+        "Qwen/Qwen-Image-Bench": "2026-05-28T08:07:27.000Z",
+        "Qwen/SAE-Res-Qwen3-8B-Base-W64K-L0_50": "2026-05-13T12:19:26.000Z",
+        "Qwen/SAE-Res-Qwen3-8B-Base-W64K-L0_100": "2026-05-13T12:19:23.000Z",
+        "Qwen/SAE-Res-Qwen3.5-9B-Base-W64K-L0_50": "2026-05-13T12:19:20.000Z",
+        "Qwen/SAE-Res-Qwen3.5-9B-Base-W64K-L0_100": "2026-05-13T12:19:17.000Z",
+        "Qwen/SAE-Res-Qwen3.5-35B-A3B-Base-W32K-L0_50": "2026-05-13T12:19:14.000Z",
+        "Qwen/SAE-Res-Qwen3.5-2B-Base-W32K-L0_50": "2026-05-13T12:19:08.000Z",
+        "Qwen/SAE-Res-Qwen3.5-2B-Base-W32K-L0_100": "2026-05-13T12:19:05.000Z",
+        "Qwen/SAE-Res-Qwen3.5-27B-W80K-L0_50": "2026-05-13T12:19:02.000Z",
+        "Qwen/SAE-Res-Qwen3-30B-A3B-Base-W32K-L0_50": "2026-05-13T12:18:56.000Z",
+        "Qwen/SAE-Res-Qwen3-30B-A3B-Base-W128K-L0_100": "2026-05-13T12:18:52.000Z",
+        "Qwen/SAE-Res-Qwen3-1.7B-Base-W32K-L0_50": "2026-05-13T12:18:50.000Z",
+        "Qwen/SAE-Res-Qwen3-1.7B-Base-W32K-L0_100": "2026-05-13T12:18:47.000Z",
+        "Qwen/SAE-Res-Qwen3.5-27B-W80K-L0_100": "2026-05-13T09:44:26.000Z",
+        "Qwen/SAE-Res-Qwen3.5-35B-A3B-Base-W128K-L0_100": "2026-05-13T09:43:12.000Z",
+        "Qwen/WebWorld-14B": "2026-05-08T12:11:59.000Z"
+      },
+      "last_checked_at": "2026-07-02T04:51:33.147542Z",
+      "baseline_initialized": true
+    },
+    "aliyun-bailian-models": {
+      "fingerprint": "a5bdc39a73be75f1885f5a7eff2e40a8a763459bcac9225c9abc72a08a58fced",
+      "last_checked_at": "2026-07-02T04:51:33.147542Z",
+      "last_excerpt": "模型大全功能规格与计费-大模型服务平台百炼-阿里云-大模型服务平台百炼(Model Studio)-阿里云帮助中心 大模型 产品 解决方案 权益 定价 云市场 伙伴 服务 了解阿里云 查看 \"\" 全部搜索结果 AI 助理 文档 备案 控制台 官方文档 用户指南（模型） 用户指南（应用） API参考（模型） API参考（应用） 首页 选择模型 更新时间： 复制 MD 格式 产品详情 我的收藏 阿里云百炼提供千问及第三方模型服务，覆盖文本、图像、音频、视频等多种模态。 文本生成 ",
+      "baseline_initialized": true
+    },
+    "baidu-qianfan-docs": {
+      "fingerprint": "373f51f4e67956f1bbb9cea35f3c63a658cc2c453c1a8270958711800bf8b257",
+      "last_checked_at": "2026-07-02T04:51:33.147542Z",
+      "last_excerpt": "百度千帆·大模型服务及Agent开发平台 -百度智能云 最新活动 产品 解决方案 千帆社区 AI原生应用商店 企业服务 云市场 合作与生态 开发者 服务与支持 了解智能云 备案 文档 管理控制台 文档中心 推荐文档 云服务器 千帆大模型平台 文字识别 人脸识别 实名认证介绍 备案介绍 财务功能概述 搜索本产品文档关键词 所有文档 人工智能 百度千帆模型服务及Agent开发平台 百度胜算 DuClaw DuMate 秒哒 百度伐谋 百度一见 智能代码助手 文字识别 语音技术 人",
+      "baseline_initialized": true
+    },
+    "tencent-hunyuan-update-history": {
+      "fingerprint": "6ba1bb928b0c9ece99fe3294eb0970289d9e3eed2aef5c06bcaa664e9549118e",
+      "last_checked_at": "2026-07-02T04:51:33.147542Z",
+      "last_excerpt": "腾讯混元大模型 更新历史_腾讯云 腾讯云 最新活动 大模型 产品 解决方案 定价 企业中心 云市场 开发者 客户支持 合作与生态 了解腾讯云 搜索 腾讯混元大模型 文档中心 入门中心 API 中心 SDK 中心 文档活动 我的反馈 文档反馈官招募中，报名立赚积分兑换代金券！> HOT 文档中心 > 腾讯混元大模型 > API 文档 > 更新历史 更新历史 最近更新时间： 2026-02-12 01:26:02 微信扫一扫 QQ 新浪微博 复制链接 链接复制成功 我的收藏 本页",
+      "baseline_initialized": true
+    },
+    "volcengine-ark-models": {
+      "fingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "last_checked_at": "2026-07-02T04:51:33.147542Z",
+      "last_excerpt": "",
+      "baseline_initialized": true,
+      "baseline_invalid": true
+    },
+    "volcengine-ark-updates": {
+      "seen_keys": [
+        "https://www.volcengine.com/docs/82379/1866360?lang=zh",
+        "https://www.volcengine.com/docs/82379/1820161?lang=zh",
+        "https://www.volcengine.com/docs/82379/1515355?lang=zh",
+        "https://www.volcengine.com/docs/82379/2168087?lang=zh",
+        "https://www.volcengine.com/docs/82379/1256348?lang=zh",
+        "https://www.volcengine.com/docs/82379/2272060?lang=zh",
+        "https://www.volcengine.com/docs/82379/1866361?lang=zh",
+        "https://www.volcengine.com/docs/82379/1263276?lang=zh",
+        "https://www.volcengine.com/docs/82379/2172656?lang=zh",
+        "https://www.volcengine.com/docs/82379/1528785?lang=zh",
+        "https://www.volcengine.com/docs/82379/1355331?lang=zh",
+        "https://www.volcengine.com/docs/82379/1848593?lang=zh",
+        "https://www.volcengine.com/docs/82379/1371844?lang=zh",
+        "https://www.volcengine.com/docs/82379/2551760?lang=zh",
+        "https://www.volcengine.com/docs/82379/2172669?lang=zh",
+        "https://www.volcengine.com/docs/82379/1350667?lang=zh",
+        "https://www.volcengine.com/docs/82379/1393085?lang=zh",
+        "https://www.volcengine.com/docs/82379/1884418?lang=zh",
+        "https://www.volcengine.com/docs/82379/1951250?lang=zh",
+        "https://www.volcengine.com/docs/82379/2191775?lang=zh",
+        "https://www.volcengine.com/docs/82379/2172670?lang=zh",
+        "https://www.volcengine.com/docs/82379/1159177?lang=zh",
+        "https://www.volcengine.com/docs/82379/2191792?lang=zh",
+        "https://www.volcengine.com/docs/82379/1434278?lang=zh",
+        "https://www.volcengine.com/docs/82379/2289964?lang=zh",
+        "https://www.volcengine.com/docs/82379/1159178?lang=zh",
+        "https://www.volcengine.com/docs/82379/2172655?lang=zh",
+        "https://www.volcengine.com/docs/82379/1631633?lang=zh",
+        "https://www.volcengine.com/docs/82379/1829186?lang=zh",
+        "https://www.volcengine.com/docs/82379/2536875?lang=zh"
+      ],
+      "last_checked_at": "2026-07-02T04:52:05.788649Z",
+      "baseline_initialized": true
+    },
+    "cac-generative-ai-filing": {
+      "seen_keys": [
+        "https://www.cac.gov.cn/special/gjjs/A094204index_1.htm",
+        "https://www.cac.gov.cn/yaowen/szyw/A093601index_1.htm",
+        "https://www.cac.gov.cn/wxzw/A0937index_1.htm",
+        "https://www.cac.gov.cn/hdfw/A0938index_1.htm",
+        "https://www.cac.gov.cn/gzzt/ztzl/A092001index_1.htm",
+        "https://www.cac.gov.cn/2026-07/01/c_1784649697122071.htm",
+        "https://www.cac.gov.cn/2026-07/01/c_1784649697182121.htm",
+        "https://www.cac.gov.cn/2026-07/01/c_1784650640262556.htm",
+        "https://www.cac.gov.cn/2026-07/01/c_1784650640258352.htm",
+        "https://www.cac.gov.cn/2026-07/01/c_1784650662948160.htm",
+        "https://www.cac.gov.cn/2026-06/30/c_1784563442783780.htm",
+        "https://www.cac.gov.cn/gzzt/ztzl/zt/qzylwzn/A0920011309index_1.htm",
+        "https://www.cac.gov.cn/gzzt/ztzl/zt/esjszqh/A0920011216index_1.htm",
+        "https://www.cac.gov.cn/gzzt/ztzl/zt/tenth/A0920011307index_1.htm",
+        "https://www.cac.gov.cn/gzzt/ztzl/zt/wlstzl/A0920011220index_1.htm",
+        "https://www.cac.gov.cn/yaowen/wxyw/A093602index_1.htm",
+        "https://www.cac.gov.cn/2026-07/01/c_1784649705686994.htm",
+        "https://www.cac.gov.cn/2026-06/30/c_1784564548962177.htm",
+        "https://www.cac.gov.cn/2026-06/30/c_1784564549580149.htm",
+        "https://www.cac.gov.cn/2026-06/30/c_1784563469199158.htm",
+        "https://www.cac.gov.cn/2026-07/01/c_1784649725615307.htm",
+        "https://www.cac.gov.cn/2026-06/18/c_1783524819990143.htm",
+        "https://www.cac.gov.cn/2026-06/26/c_1784217637474922.htm",
+        "https://www.cac.gov.cn/2026-06/18/c_1783525609778371.htm",
+        "https://www.cac.gov.cn/2026-06/18/c_1783525609815499.htm",
+        "https://www.cac.gov.cn/2026-06/18/c_1783525609948038.htm",
+        "https://www.cac.gov.cn/2026-06/18/c_1783525605384124.htm",
+        "https://www.cac.gov.cn/gzzt/positivity/A092002index_1.htm",
+        "https://www.cac.gov.cn/gzzt/positivity/news/A09200201index_1.htm",
+        "https://www.cac.gov.cn/2026-06/26/c_1784217636040210.htm"
+      ],
+      "last_checked_at": "2026-07-02T04:52:07.024615Z",
+      "baseline_initialized": true
+    },
+    "miit-ai-policy": {
+      "seen_keys": [
+        "https://www.miit.gov.cn/xwfb/szyw/art/2026/art_19c16f3681954630ac381c699926bde7.html",
+        "https://www.miit.gov.cn/xwfb/szyw/art/2026/art_f1d8f8ee7b6a44bdaa43f94687694afe.html",
+        "https://www.miit.gov.cn/xwfb/szyw/art/2026/art_176bc47c95f34073ae622e2d47c651da.html",
+        "http://www.miit.gov.cn/xwfb/szyw/art/2026/art_19c16f3681954630ac381c699926bde7.html",
+        "https://www.miit.gov.cn/ztzl/rdzt/xxgcddesjszqhjs0802/index.html",
+        "http://www.miit.gov.cn/xwfb/bldhd/art/2026/art_6b6de729cca04d4f81fdc701b90c0c9d.html",
+        "http://www.miit.gov.cn/xwfb/bldhd/art/2026/art_f5ee162a1d28416780ad2e79c2fcc972.html",
+        "http://www.miit.gov.cn/xwfb/bldhd/art/2026/art_c585def8b8fc48e98cc015d9015c845e.html",
+        "https://www.miit.gov.cn/zwgk/zcjd/art/2026/art_62fef41308a64db19a388de460f64a9d.html",
+        "https://www.miit.gov.cn/xwfb/szyw/index.html",
+        "https://www.miit.gov.cn/xwfb/gxdt/index.html",
+        "https://www.miit.gov.cn/xwfb/zxzc/index.html",
+        "https://www.miit.gov.cn/xwfb/xwfbh/index.html",
+        "https://www.miit.gov.cn/xwfb/szyw/art/2026/art_a0bef70b23584beb94448cc4b92d273f.html",
+        "https://www.miit.gov.cn/xwfb/szyw/art/2026/art_4a3a5bd892cf45f599de8acd611236a1.html",
+        "https://www.miit.gov.cn/xwfb/szyw/art/2026/art_a9b3500cd7d34d23adfc8a47cece11cd.html",
+        "https://www.miit.gov.cn/xwfb/szyw/art/2026/art_b52d967f6aa44298873c62d0838cb38c.html",
+        "https://www.miit.gov.cn/xwfb/gxdt/art/2026/art_9b5792e2e8d14eb3beb5fbb8f5ff63fa.html",
+        "https://www.miit.gov.cn/xwfb/gxdt/art/2026/art_c48a0f7d5aca41ce9719510e319c9c25.html",
+        "http://www.miit.gov.cn/xwfb/bldhd/art/2026/art_c9b09d72b23b460aaa2747ff098f29ac.html",
+        "http://www.miit.gov.cn/xwfb/gxdt/sjdt/art/2026/art_352714e8c8024dd99957867de040e81a.html",
+        "http://www.miit.gov.cn/xwfb/bldhd/art/2026/art_a0388adcb03c4125a4f29a5fc004d1a3.html",
+        "http://www.miit.gov.cn/xwfb/gxdt/sjdt/art/2026/art_708b7727cc4544e8bc2f335cdc92b531.html",
+        "http://www.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2026/art_750f6bdfb49e49188136c7bcb3b65dc7.html",
+        "http://www.miit.gov.cn/zwgk/zcwj/wjfb/gg/art/2026/art_301fff2dc3c3434f94f781026672b4ae.html",
+        "http://www.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2026/art_5f76aa6e3a4745d2bd96ee0010ec8459.html",
+        "http://www.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2026/art_de501c2c215f4a9fb64d17dafc56fb8b.html",
+        "http://www.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2026/art_fefca99ac5934ebd905b2232e417e317.html",
+        "http://www.miit.gov.cn/zwgk/zcwj/wjfb/mll/art/2026/art_3c5cebc1cadf436d994fb8c33ce0c595.html",
+        "http://www.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2026/art_df1dcf584cf14175a91b802691f0c104.html"
+      ],
+      "last_checked_at": "2026-07-02T04:52:07.296657Z",
+      "baseline_initialized": true
+    },
+    "deepseek-news": {
+      "seen_keys": [
+        "https://api-docs.deepseek.com",
+        "https://api-docs.deepseek.com/news/news260424",
+        "https://api-docs.deepseek.com/zh-cn/news/news260424",
+        "https://api-docs.deepseek.com/quick_start/pricing",
+        "https://api-docs.deepseek.com/quick_start/token_usage",
+        "https://api-docs.deepseek.com/quick_start/rate_limit",
+        "https://api-docs.deepseek.com/quick_start/error_codes",
+        "https://api-docs.deepseek.com/quick_start/agent_integrations/claude_code",
+        "https://api-docs.deepseek.com/guides/thinking_mode",
+        "https://api-docs.deepseek.com/guides/multi_round_chat",
+        "https://api-docs.deepseek.com/guides/chat_prefix_completion",
+        "https://api-docs.deepseek.com/guides/fim_completion",
+        "https://api-docs.deepseek.com/guides/json_mode",
+        "https://api-docs.deepseek.com/guides/tool_calls",
+        "https://api-docs.deepseek.com/guides/kv_cache",
+        "https://api-docs.deepseek.com/guides/anthropic_api",
+        "https://api-docs.deepseek.com/api/deepseek-api",
+        "https://api-docs.deepseek.com/news/news251201",
+        "https://api-docs.deepseek.com/news/news250929",
+        "https://api-docs.deepseek.com/news/news250922",
+        "https://api-docs.deepseek.com/news/news250821",
+        "https://api-docs.deepseek.com/news/news250528",
+        "https://api-docs.deepseek.com/news/news250325",
+        "https://api-docs.deepseek.com/news/news250120",
+        "https://api-docs.deepseek.com/news/news250115",
+        "https://api-docs.deepseek.com/news/news1226",
+        "https://api-docs.deepseek.com/news/news1210",
+        "https://api-docs.deepseek.com/news/news1120",
+        "https://api-docs.deepseek.com/news/news0905",
+        "https://api-docs.deepseek.com/news/news0802"
+      ],
+      "last_checked_at": "2026-07-02T04:51:33.286729Z",
+      "baseline_initialized": true
+    },
+    "jiqizhixin-rss": {
+      "seen_keys": [
+        "https://www.jiqizhixin.com/rss"
+      ],
+      "last_checked_at": "2026-07-02T04:52:25.964037Z",
+      "baseline_initialized": true
+    },
+    "deepseek-github": {
+      "seen_keys": [],
+      "last_checked_at": "2026-07-02T04:51:33.967446Z",
+      "baseline_initialized": true
+    },
+    "moonshot-github": {
+      "seen_keys": [],
+      "last_checked_at": "2026-07-02T04:51:37.867265Z",
+      "baseline_initialized": true
+    },
+    "zai-github": {
+      "seen_keys": [],
+      "last_checked_at": "2026-07-02T04:51:40.485322Z",
+      "baseline_initialized": true
+    },
+    "minimax-github": {
+      "seen_keys": [],
+      "last_checked_at": "2026-07-02T04:51:46.918095Z",
+      "baseline_initialized": true
+    },
+    "stepfun-github": {
+      "seen_keys": [],
+      "last_checked_at": "2026-07-02T04:51:48.615583Z",
+      "baseline_initialized": true
+    },
+    "baichuan-github": {
+      "seen_keys": [],
+      "last_checked_at": "2026-07-02T04:51:50.574395Z",
+      "baseline_initialized": true
+    },
+    "01ai-github": {
+      "seen_keys": [],
+      "last_checked_at": "2026-07-02T04:51:52.965880Z",
+      "baseline_initialized": true
+    },
+    "opensensenova-github": {
+      "seen_keys": [],
+      "last_checked_at": "2026-07-02T04:51:54.681996Z",
+      "baseline_initialized": true
+    },
+    "openbmb-github": {
+      "seen_keys": [
+        "https://github.com/OpenBMB/MA-ProofBench",
+        "https://github.com/OpenBMB/AceBench",
+        "https://github.com/OpenBMB/Scicore-Omics"
+      ],
+      "last_checked_at": "2026-07-02T04:51:55.708102Z",
+      "baseline_initialized": true
+    },
+    "internlm-github": {
+      "seen_keys": [],
+      "last_checked_at": "2026-07-02T04:51:56.844085Z",
+      "baseline_initialized": true
+    },
+    "qwen-github": {
+      "seen_keys": [
+        "https://github.com/QwenLM/Qwen-RobotNav",
+        "https://github.com/QwenLM/Qwen-RobotManip"
+      ],
+      "last_checked_at": "2026-07-02T04:51:58.871155Z",
+      "baseline_initialized": true
+    },
+    "tencent-hunyuan-github": {
+      "seen_keys": [],
+      "last_checked_at": "2026-07-02T04:52:01.889603Z",
+      "baseline_initialized": true
+    },
+    "qbitai-rss": {
+      "seen_keys": [
+        "https://www.qbitai.com/2026/07/441490.html",
+        "https://www.qbitai.com/2026/07/441491.html",
+        "https://www.qbitai.com/2026/07/441479.html",
+        "https://www.qbitai.com/2026/07/441447.html",
+        "https://www.qbitai.com/2026/07/441396.html",
+        "https://www.qbitai.com/2026/07/441386.html",
+        "https://www.qbitai.com/2026/07/441246.html",
+        "https://www.qbitai.com/2026/07/441240.html",
+        "https://www.qbitai.com/2026/07/441237.html",
+        "https://www.qbitai.com/2026/07/441225.html",
+        "https://www.qbitai.com/2026/07/441140.html",
+        "https://www.qbitai.com/2026/07/441183.html",
+        "https://www.qbitai.com/2026/07/441127.html"
+      ],
+      "last_checked_at": "2026-07-02T04:52:26.145879Z",
+      "baseline_initialized": true
+    },
+    "moonshot-website": {
+      "fingerprint": "a34742eb222aa6fad38b190c7ca8488ccf3b16cea24d82e8605cc7324f4abafc",
+      "last_checked_at": "2026-07-02T04:51:33.147542Z",
+      "last_excerpt": "Moonshot AI Kimi API Research Download Careers EN 中文 Kimi API Research Download Careers EN 中文 Seeking the optimal conversion from energy to intelligence Try Kimi Try API Latest Research Our research team works toward AGI while sharing the l",
+      "baseline_initialized": true
+    },
+    "kimi-forum": {
+      "seen_keys": [
+        "https://forum.moonshot.ai",
+        "https://forum.moonshot.ai/t/welcome-to-kimi-forum/5",
+        "https://forum.moonshot.ai/c/welcome/4",
+        "https://forum.moonshot.ai/t/cannot-access-existing-api-billing-account/454",
+        "https://forum.moonshot.ai/c/developer-support/7",
+        "https://forum.moonshot.ai/t/allegretto-work-mode-quota-bug-quota-exhausted-without-actual-usage-macos-desktop/452",
+        "https://forum.moonshot.ai/c/developer-support/kimi-k2/6",
+        "https://forum.moonshot.ai/t/refund-request-moderato-subscription-stripe-no-response-from-support/432",
+        "https://forum.moonshot.ai/c/product-feedback/8",
+        "https://forum.moonshot.ai/t/bug-kimi-work-v3-0-24-stuck-on-connection-lost-workspace-never-loads-regression/451",
+        "https://forum.moonshot.ai/tag/bug-report/15",
+        "https://forum.moonshot.ai/t/question-about-vision-model-image-token-calculation-resolution-above-4k-recommendation/450",
+        "https://forum.moonshot.ai/t/bug-findings-overview/434",
+        "https://forum.moonshot.ai/t/this-is-no-longer-a-theory-reproducible-methodology-invented-and-patented/443",
+        "https://forum.moonshot.ai/t/kimi-has-something-to-say-pay-close-attention/437",
+        "https://forum.moonshot.ai/t/major-security-vulnerabilities-responsible-disclosure-and-safe-harbor/442",
+        "https://forum.moonshot.ai/t/here-comes-kimi-k2-7-code-better-coding-with-more-efficiency/441",
+        "https://forum.moonshot.ai/c/announcement/5",
+        "https://forum.moonshot.ai/tag/kimi-k27/25",
+        "https://forum.moonshot.ai/t/appreciation-kimi/436",
+        "https://forum.moonshot.ai/t/apple-app-store-sub-not-linking-kimi-subscription/426",
+        "https://forum.moonshot.ai/tag/kimi-k26/24",
+        "https://forum.moonshot.ai/t/kimi-coading-confustion/429",
+        "https://forum.moonshot.ai/t/tired-of-losing-context-across-kimi-sessions/430",
+        "https://forum.moonshot.ai/t/sms-messages-are-being-sent-too-frequently-please-try-again-later/204",
+        "https://forum.moonshot.ai/t/bug-persisting-request-rejected-by-high-risk-only-in-plan-mode/425",
+        "https://forum.moonshot.ai/t/critical-slowdown-quality-drop-after-v2-6-presentation-mode-kimi-claw/423",
+        "https://forum.moonshot.ai/t/critical-backend-error-service-unavailable-on-all-requests/427",
+        "https://forum.moonshot.ai/t/fake-limits-that-still-did-not-fix-kimi/424",
+        "https://forum.moonshot.ai/tag/rate-limiting/10"
+      ],
+      "last_checked_at": "2026-07-02T04:51:37.176777Z",
+      "baseline_initialized": true
+    },
+    "moonshot-huggingface": {
+      "models": {
+        "moonshotai/Kimi-K2.7-Code": "2026-06-15T07:49:29.000Z",
+        "moonshotai/Kimi-K2.6": "2026-05-19T09:01:54.000Z",
+        "moonshotai/Kimi-K2.5": "2026-04-30T03:56:40.000Z",
+        "moonshotai/Kimi-K2-Instruct": "2026-04-23T02:08:36.000Z",
+        "moonshotai/Kimi-VL-A3B-Thinking-2506": "2026-01-30T04:53:11.000Z",
+        "moonshotai/Kimi-VL-A3B-Thinking": "2026-01-30T04:52:57.000Z",
+        "moonshotai/Moonlight-16B-A3B-Instruct": "2026-01-30T04:52:43.000Z",
+        "moonshotai/Kimi-K2-Base": "2026-01-30T04:52:05.000Z",
+        "moonshotai/Moonlight-16B-A3B": "2026-01-30T04:51:48.000Z",
+        "moonshotai/Kimi-VL-A3B-Instruct": "2026-01-30T04:51:04.000Z",
+        "moonshotai/Kimi-Linear-48B-A3B-Base": "2026-01-30T04:50:42.000Z",
+        "moonshotai/Kimi-K2-Instruct-0905": "2026-01-30T04:50:25.000Z",
+        "moonshotai/Kimi-K2-Thinking": "2026-01-30T04:49:39.000Z",
+        "moonshotai/Kimi-Linear-48B-A3B-Instruct": "2025-12-16T14:50:08.000Z",
+        "moonshotai/Kimi-Dev-72B": "2025-06-17T06:27:40.000Z",
+        "moonshotai/Kimi-Audio-7B-Instruct": "2025-05-29T03:01:58.000Z",
+        "moonshotai/Kimi-Audio-7B": "2025-05-29T03:01:50.000Z",
+        "moonshotai/MoonViT-SO-400M": "2025-04-17T12:56:48.000Z"
+      },
+      "last_checked_at": "2026-07-02T04:51:33.147542Z",
+      "baseline_initialized": true
+    },
+    "minimax-huggingface": {
+      "models": {
+        "MiniMaxAI/MiniMax-M3-MXFP8": "2026-07-01T04:36:40.000Z",
+        "MiniMaxAI/MiniMax-M3": "2026-07-01T04:36:13.000Z",
+        "MiniMaxAI/MiniMax-M2.7": "2026-04-20T04:28:14.000Z",
+        "MiniMaxAI/MiniMax-M2.5": "2026-03-10T13:42:23.000Z",
+        "MiniMaxAI/MiniMax-M2.1": "2026-02-13T09:24:21.000Z",
+        "MiniMaxAI/MiniMax-M2": "2025-12-23T08:37:43.000Z",
+        "MiniMaxAI/VTP-Large-f16d64": "2025-12-16T09:23:36.000Z",
+        "MiniMaxAI/VTP-Base-f16d64": "2025-12-16T09:23:12.000Z",
+        "MiniMaxAI/VTP-Small-f16d64": "2025-12-16T09:22:49.000Z",
+        "MiniMaxAI/MiniMax-M1-40k-hf": "2025-07-11T02:07:58.000Z",
+        "MiniMaxAI/MiniMax-Text-01-hf": "2025-07-09T07:38:12.000Z",
+        "MiniMaxAI/MiniMax-M1-80k-hf": "2025-07-09T07:37:23.000Z",
+        "MiniMaxAI/MiniMax-M1-80k": "2025-07-07T07:51:42.000Z",
+        "MiniMaxAI/MiniMax-M1-40k": "2025-07-07T07:50:30.000Z",
+        "MiniMaxAI/MiniMax-Text-01": "2025-07-03T05:13:03.000Z",
+        "MiniMaxAI/MiniMax-VL-01": "2025-07-03T05:11:03.000Z",
+        "MiniMaxAI/SynLogic-32B": "2025-06-10T02:57:20.000Z",
+        "MiniMaxAI/SynLogic-7B": "2025-06-10T02:56:30.000Z",
+        "MiniMaxAI/SynLogic-Mix-3-32B": "2025-06-10T02:53:28.000Z"
+      },
+      "last_checked_at": "2026-07-02T04:51:33.147542Z",
+      "baseline_initialized": true
+    },
+    "stepfun-research": {
+      "fingerprint": "b40556d0640df8374240ba858ff4b87acd74a6ba05be574b8a799ccdabac494d",
+      "last_checked_at": "2026-07-02T04:51:33.147542Z",
+      "last_excerpt": "Step3: Cost-Effective Multimodal Intelligence | 阶跃AI Log in July 31th, 2025 Step3: Cost-Effective Multimodal Intelligence Github Hugging Face Introduction Step3 is our cutting-edge multimodal reasoning model—built on a Mixture-of-Experts ar",
+      "baseline_initialized": true
+    },
+    "stepfun-huggingface": {
+      "models": {
+        "stepfun-ai/Step-3.7-Flash-GGUF": "2026-06-03T07:35:13.000Z",
+        "stepfun-ai/Step-3.7-Flash": "2026-06-03T04:11:57.000Z",
+        "stepfun-ai/Step-3.7-Flash-NVFP4": "2026-06-01T06:18:13.000Z",
+        "stepfun-ai/Step-3.7-Flash-FP8": "2026-06-01T06:00:31.000Z",
+        "stepfun-ai/Step-3.5-Flash": "2026-03-17T05:54:33.000Z",
+        "stepfun-ai/Step-3.5-Flash-Base-Midtrain": "2026-03-09T03:57:41.000Z",
+        "stepfun-ai/Step-3.5-Flash-Base": "2026-03-09T03:56:37.000Z",
+        "stepfun-ai/Step-3.5-Flash-FP8": "2026-03-09T03:49:20.000Z",
+        "stepfun-ai/NextStep-1.1-Pretrain-256px": "2026-02-16T08:38:08.000Z",
+        "stepfun-ai/Step-Audio-R1.1": "2026-02-14T09:35:25.000Z",
+        "stepfun-ai/Step-Audio-EditX": "2026-02-14T09:34:10.000Z",
+        "stepfun-ai/Step-Audio-2-mini": "2026-02-14T09:32:03.000Z",
+        "stepfun-ai/Step-3.5-Flash-GGUF-Q8_0": "2026-02-13T06:54:07.000Z",
+        "stepfun-ai/Step-3.5-Flash-GGUF-Q4_K_S": "2026-02-13T06:53:50.000Z",
+        "stepfun-ai/Step3-VL-10B-FP8": "2026-02-04T05:41:16.000Z",
+        "stepfun-ai/Step3-VL-10B": "2026-02-04T05:40:55.000Z",
+        "stepfun-ai/Step3-VL-10B-Base": "2026-01-29T07:48:30.000Z",
+        "stepfun-ai/step3": "2026-01-29T07:41:03.000Z",
+        "stepfun-ai/Step-Audio-EditX-AWQ-4bit": "2026-01-24T03:32:06.000Z",
+        "stepfun-ai/PaCoRe-8B": "2026-01-14T07:22:44.000Z"
+      },
+      "last_checked_at": "2026-07-02T04:51:33.147542Z",
+      "baseline_initialized": true
+    },
+    "baichuan-website": {
+      "fingerprint": "9c543bfb47e404d84a2645b7348be6688cfa33cc3420319276e532191fff85bf",
+      "last_checked_at": "2026-07-02T04:51:33.147542Z",
+      "last_excerpt": "百川大模型-百川智能",
+      "baseline_invalid": true
+    },
+    "baichuan-huggingface": {
+      "models": {
+        "baichuan-inc/Baichuan-M3-235B-Q4_K_M-GGUF": "2026-02-09T12:20:29.000Z",
+        "baichuan-inc/Baichuan-M2-32B-Q4_K_M-GGUF": "2026-02-09T08:09:14.000Z",
+        "baichuan-inc/Baichuan-M3-235B-GPTQ-INT4": "2026-02-09T03:45:45.000Z",
+        "baichuan-inc/Baichuan-M3-235B-FP8": "2026-02-09T03:45:19.000Z",
+        "baichuan-inc/Baichuan-M3-235B": "2026-02-09T03:44:24.000Z",
+        "baichuan-inc/Baichuan-M2-32B": "2025-12-24T07:32:22.000Z",
+        "baichuan-inc/Baichuan-M2-32B-GPTQ-Int4": "2025-09-03T04:09:51.000Z",
+        "baichuan-inc/BaichuanMed-OCR-7B": "2025-04-07T09:10:41.000Z",
+        "baichuan-inc/BaichuanMed-OCR-72B": "2025-04-07T08:54:54.000Z",
+        "baichuan-inc/Baichuan-Audio-Base": "2025-02-25T03:04:28.000Z",
+        "baichuan-inc/Baichuan-Audio-Instruct": "2025-02-25T03:03:59.000Z",
+        "baichuan-inc/Baichuan-M1-14B-Instruct": "2025-02-20T04:06:27.000Z",
+        "baichuan-inc/Baichuan-M1-14B-Base": "2025-02-20T04:05:05.000Z",
+        "baichuan-inc/Baichuan-Omni-1d5-Base": "2025-02-08T08:14:11.000Z",
+        "baichuan-inc/Baichuan-Omni-1d5": "2025-02-08T08:13:01.000Z",
+        "baichuan-inc/Baichuan2-13B-Chat": "2024-02-26T08:58:32.000Z",
+        "baichuan-inc/Baichuan2-7B-Chat": "2024-02-26T08:58:12.000Z",
+        "baichuan-inc/Baichuan2-7B-Base": "2024-01-31T04:21:56.000Z",
+        "baichuan-inc/Baichuan-13B-Chat": "2024-01-09T07:56:42.000Z",
+        "baichuan-inc/Baichuan-7B": "2024-01-09T07:45:22.000Z"
+      },
+      "last_checked_at": "2026-07-02T04:51:33.147542Z",
+      "baseline_initialized": true
+    },
+    "baichuan-modelscope": {
+      "seen_keys": [],
+      "last_checked_at": "2026-07-02T04:51:51.237600Z",
+      "baseline_initialized": true
+    },
+    "01ai-website": {
+      "fingerprint": "b81ea280b2f63750e7163e09164431bf2662a34b1afd2f919ae8ae642f858b72",
+      "last_checked_at": "2026-07-02T04:51:33.147542Z",
+      "last_excerpt": "EN2.0 - 零一万物-AI2.0大模型技术和应用的全球公司（01.AI） Home Newsroom Yi Foundation Models About Us Join Us … Home Newsroom Yi Foundation Models About Us Join Us CN Home Newsroom Yi Foundation Models About Us Join Us … Home Newsroom Yi Foundation Models Abo",
+      "baseline_initialized": true
+    },
+    "01ai-huggingface": {
+      "models": {
+        "01-ai/Yi-34B-Chat": "2024-11-11T03:36:35.000Z",
+        "01-ai/Yi-9B": "2024-11-11T03:31:36.000Z",
+        "01-ai/Yi-6B-Chat": "2024-11-11T03:31:34.000Z",
+        "01-ai/Yi-34B-200K": "2024-11-11T03:31:33.000Z",
+        "01-ai/Yi-6B-200K": "2024-11-11T03:31:33.000Z",
+        "01-ai/Yi-6B-Chat-8bits": "2024-11-11T03:31:33.000Z",
+        "01-ai/Yi-6B-Chat-4bits": "2024-11-11T03:31:33.000Z",
+        "01-ai/Yi-9B-200K": "2024-11-11T03:31:33.000Z",
+        "01-ai/Yi-6B": "2024-11-11T03:31:32.000Z",
+        "01-ai/Yi-34B-Chat-8bits": "2024-11-11T03:31:32.000Z",
+        "01-ai/Yi-34B-Chat-4bits": "2024-11-11T03:31:32.000Z",
+        "01-ai/Yi-34B": "2024-11-11T03:31:31.000Z",
+        "01-ai/Yi-Coder-9B": "2024-09-23T04:22:39.000Z",
+        "01-ai/Yi-Coder-9B-Chat": "2024-09-12T06:51:12.000Z",
+        "01-ai/Yi-Coder-1.5B-Chat": "2024-09-06T14:38:49.000Z",
+        "01-ai/Yi-Coder-1.5B": "2024-09-04T12:06:03.000Z",
+        "01-ai/Yi-1.5-6B-Chat": "2024-08-27T08:09:36.000Z",
+        "01-ai/Yi-1.5-34B-Chat": "2024-08-27T07:11:05.000Z",
+        "01-ai/Yi-VL-6B": "2024-06-26T10:45:12.000Z",
+        "01-ai/Yi-VL-34B": "2024-06-26T10:44:00.000Z"
+      },
+      "last_checked_at": "2026-07-02T04:51:33.147542Z",
+      "baseline_initialized": true
+    },
+    "sensenova-website": {
+      "fingerprint": "8e30d100d7728da3cd18f9de9d17a3610e5078ad1246e995cb187cd82bb290d3",
+      "last_checked_at": "2026-07-02T04:51:33.147542Z",
+      "last_excerpt": "日日新 - 商汤科技大模型平台 | SenseNova 模型 Token Plan 文档 控制台 商汤官网 English 问题反馈 01 模型 02 产品 03 开源 01 模型 02 产品 03 开源 商汤「日日新」 原生多模态模型体系 商汤「日日新」 原生多模态模型体系 原生架构 理解生成统一 SenseNova U1 新一代原生多模态模型，基于 NEO-Unify 原生架构，理解生成高效统一 办公增强 更省 Token SenseNova 6.7 Flash-Lite",
+      "baseline_initialized": true
+    },
+    "openbmb-website": {
+      "seen_keys": [],
+      "last_checked_at": "2026-07-02T04:51:54.968346Z",
+      "baseline_initialized": true
+    },
+    "openbmb-huggingface": {
+      "models": {
+        "openbmb/MiniCPM-V-4.6": "2026-07-01T11:57:37.000Z",
+        "openbmb/MiniCPM-V-2_6-GPTQ": "2026-06-04T11:11:12.000Z",
+        "openbmb/MiniCPM-Llama3-V-2_5-GPTQ": "2026-06-04T11:01:17.000Z",
+        "openbmb/SciCore-Omics": "2026-06-04T03:22:40.000Z",
+        "openbmb/MiniCPM-o-2_6-GPTQ": "2026-06-03T10:40:41.000Z",
+        "openbmb/MiniCPM-V-4-GPTQ": "2026-06-02T09:17:01.000Z",
+        "openbmb/MiniCPM-V-4-gguf": "2026-06-02T08:20:11.000Z",
+        "openbmb/MiniCPM-V-4-AWQ": "2026-06-02T08:20:08.000Z",
+        "openbmb/MiniCPM-V-4_5-gguf": "2026-06-02T08:13:14.000Z",
+        "openbmb/MiniCPM-V-4_5-AWQ": "2026-06-02T08:13:11.000Z",
+        "openbmb/MiniCPM-V-4_5-GPTQ": "2026-06-02T08:12:15.000Z",
+        "openbmb/MiniCPM-o-4_5-gguf": "2026-06-02T08:08:51.000Z",
+        "openbmb/MiniCPM-o-4_5-awq": "2026-06-02T08:08:47.000Z",
+        "openbmb/MiniCPM-o-4_5-GPTQ": "2026-06-02T08:01:13.000Z",
+        "openbmb/MiniCPM5-1B": "2026-05-26T04:24:04.000Z",
+        "openbmb/MiniCPM5-1B-Base": "2026-05-25T11:19:35.000Z",
+        "openbmb/MiniCPM5-1B-SFT": "2026-05-25T11:18:10.000Z",
+        "openbmb/MiniCPM5-1B-MLX": "2026-05-25T10:55:51.000Z",
+        "openbmb/MiniCPM5-1B-GGUF": "2026-05-25T10:55:40.000Z",
+        "openbmb/BitCPM-CANN-8B": "2026-05-24T10:43:34.000Z"
+      },
+      "last_checked_at": "2026-07-02T04:51:33.147542Z",
+      "baseline_initialized": true
+    },
+    "internlm-huggingface": {
+      "models": {
+        "internlm/CapRL-Video-4B": "2026-06-23T02:42:35.000Z",
+        "internlm/Intern-S2-Preview": "2026-05-29T07:30:04.000Z",
+        "internlm/ETCHR-FLUX.2-klein-9B": "2026-05-25T03:00:51.000Z",
+        "internlm/Intern-S2-Preview-FP8": "2026-05-22T11:10:24.000Z",
+        "internlm/CapRL-Eval-3B": "2026-04-17T12:13:44.000Z",
+        "internlm/CapRL-3B": "2026-04-16T13:49:46.000Z",
+        "internlm/CapRL-InternVL3.5-8B": "2026-04-16T13:45:03.000Z",
+        "internlm/CapRL-Qwen3VL-4B": "2026-04-16T13:44:34.000Z",
+        "internlm/CapRL-Qwen3VL-2B": "2026-04-16T13:44:19.000Z",
+        "internlm/Spatial-SSRL-Qwen3VL-4B": "2026-04-06T12:03:22.000Z",
+        "internlm/Spatial-SSRL-3B": "2026-04-06T12:02:45.000Z",
+        "internlm/Spatial-SSRL-7B": "2026-04-06T12:02:03.000Z",
+        "internlm/Intern-S1-Pro": "2026-03-30T03:46:30.000Z",
+        "internlm/Intern-S1": "2026-03-29T04:50:08.000Z",
+        "internlm/Intern-S1-mini": "2026-03-29T04:49:52.000Z",
+        "internlm/Intern-S1-Pro-BF16": "2026-03-27T13:19:29.000Z",
+        "internlm/Visual-ERM": "2026-03-24T01:00:37.000Z",
+        "internlm/EndoCoT": "2026-03-17T12:40:56.000Z",
+        "internlm/CapRL-Qwen3VL-4B-GGUF": "2025-12-29T02:04:42.000Z",
+        "internlm/CapRL-Qwen3VL-2B-GGUF": "2025-12-29T01:54:30.000Z"
+      },
+      "last_checked_at": "2026-07-02T04:51:33.147542Z",
+      "baseline_initialized": true
+    },
+    "modelscope": {
+      "seen_keys": [],
+      "last_checked_at": "2026-07-02T04:52:00.182312Z",
+      "baseline_initialized": true
+    },
+    "baidu-ai-platform": {
+      "seen_keys": [
+        "https://ai.baidu.com/support/news?action=detail&id=3271",
+        "https://ai.baidu.com/support/news?action=detail&id=3270",
+        "https://ai.baidu.com/experience",
+        "https://ai.baidu.com/beginner",
+        "https://ai.baidu.com/customer",
+        "https://ai.baidu.com/support/news?action=detail&id=3268",
+        "https://ai.baidu.com/productlist",
+        "https://ai.baidu.com/tech/speech/chatbot",
+        "https://ai.baidu.com/mingjing",
+        "https://ai.baidu.com/tech/speech/tts",
+        "https://ai.baidu.com/tech/ocr_cards/idcard",
+        "https://ai.baidu.com/tech/ocr/vat_invoice_verification",
+        "https://ai.baidu.com/tech/speech/voicecloning",
+        "https://ai.baidu.com/tech/ocr_cars/vehicle_license",
+        "https://ai.baidu.com/tech/ocr_others/handwriting",
+        "https://ai.baidu.com/partner",
+        "https://ai.baidu.com/ai-doc/REFERENCE/kk3dwjg7d",
+        "https://ai.baidu.com/ai-doc/REFERENCE/Ck3dwjgn3",
+        "https://ai.baidu.com/sdk",
+        "https://ai.baidu.com/support/video",
+        "https://ai.baidu.com/accelerator",
+        "https://ai.baidu.com/ai-doc/REFERENCE/lkrue6ybx",
+        "https://ai.baidu.com/consultation/cooperation?referrerUrl=",
+        "https://ai.baidu.com/tech/speech",
+        "https://ai.baidu.com/tech/speech/asr",
+        "https://ai.baidu.com/tech/speech/asrpro",
+        "https://ai.baidu.com/tech/speech/realtime_asr",
+        "https://ai.baidu.com/tech/speech/aasr",
+        "https://ai.baidu.com/tech/speech/ai_trans_tts",
+        "https://ai.baidu.com/tech/speech/tts_online"
+      ],
+      "last_checked_at": "2026-07-02T04:52:00.728806Z",
+      "baseline_initialized": true
+    },
+    "tencent-huggingface": {
+      "models": {
+        "tencent/Hy-Embodied-0.5-VLA-UMI": "2026-07-01T07:24:02.000Z",
+        "tencent/Hy-Embodied-0.5-VLA-RoboTwin": "2026-07-01T07:23:29.000Z",
+        "tencent/Hy-MT2-1.8B-1.25Bit-GGUF": "2026-06-11T09:22:21.000Z",
+        "tencent/Hy-MT1.5-1.8B-1.25bit-GGUF": "2026-06-04T07:25:34.000Z",
+        "tencent/Universal_Audio_Tokenizer": "2026-06-01T13:53:31.000Z",
+        "tencent/HY-MT1.5-7B": "2026-06-01T11:36:19.000Z",
+        "tencent/Hy-MT1.5-1.8B-1.25bit": "2026-05-27T03:43:14.000Z",
+        "tencent/Hy-MT2-1.8B-2Bit-GGUF": "2026-05-26T09:06:26.000Z",
+        "tencent/Hy-MT2-7B-GGUF": "2026-05-26T09:06:21.000Z",
+        "tencent/Hy-MT2-1.8B-GGUF": "2026-05-26T09:06:16.000Z",
+        "tencent/Hy-MT2-30B-A3B-FP8": "2026-05-26T09:06:09.000Z",
+        "tencent/Hy-MT2-7B-FP8": "2026-05-26T09:06:05.000Z",
+        "tencent/Hy-MT2-1.8B-FP8": "2026-05-26T09:06:01.000Z",
+        "tencent/Hy-MT2-1.8B": "2026-05-26T09:05:58.000Z",
+        "tencent/Hy-MT2-7B": "2026-05-26T09:05:54.000Z",
+        "tencent/Hy-MT2-30B-A3B": "2026-05-26T09:05:48.000Z",
+        "tencent/HY-World-2.0": "2026-05-21T03:25:37.000Z",
+        "tencent/HY-OmniWeaving": "2026-05-06T10:16:28.000Z",
+        "tencent/Hy-MT1.5-1.8B-2bit": "2026-04-29T04:35:49.000Z",
+        "tencent/Hy-MT1.5-1.8B-2bit-GGUF": "2026-04-29T04:26:09.000Z"
+      },
+      "last_checked_at": "2026-07-02T04:51:33.147542Z",
+      "baseline_initialized": true
+    },
+    "bytedance-seed-blog": {
+      "seen_keys": [
+        "https://seed.bytedance.com/?view_from=homepage_tab",
+        "https://seed.bytedance.com/models?view_from=homepage_tab",
+        "https://seed.bytedance.com/research?view_from=homepage_tab",
+        "https://seed.bytedance.com/career?view_from=homepage_tab",
+        "https://seed.bytedance.com/en/seed2_1",
+        "https://seed.bytedance.com/en/seedance2_0",
+        "https://seed.bytedance.com/en/seedream5_0_lite",
+        "https://seed.bytedance.com/en/seeduplex",
+        "https://seed.bytedance.com/en/gr_rl",
+        "https://seed.bytedance.com/en/direction/infrastructures",
+        "https://seed.bytedance.com/en/direction/vision",
+        "https://seed.bytedance.com/en/direction/speech",
+        "https://seed.bytedance.com/en/direction/multimodal",
+        "https://seed.bytedance.com/en/direction/ai_for_science",
+        "https://seed.bytedance.com/en/direction/robotics",
+        "https://seed.bytedance.com/en/direction/responsible_ai",
+        "https://seed.bytedance.com/en/blog",
+        "https://seed.bytedance.com/en/seed-edge",
+        "https://seed.bytedance.com/en/seedearlycareer",
+        "https://seed.bytedance.com/disclaimer"
+      ],
+      "last_checked_at": "2026-07-02T04:52:06.044259Z",
+      "baseline_initialized": true
+    },
+    "huawei-pangu": {
+      "fingerprint": "4fdcfaa2890a6b6c7013cca924051b9183a77fdf30149ca034032469c20f0dc5",
+      "last_checked_at": "2026-07-02T04:51:33.147542Z",
+      "last_excerpt": "盘古大模型_panguLM_大模型_华为云 检测到您已登录华为云国际站账号，为了您更好的体验，建议您访问国际站服务网站 https://www.huaweicloud.com/intl/zh-cn 不再显示此消息 中国站 中国站 简体中文 International English Bahasa Indonesia Español Português Türkçe عربي ไทย 简体中文 日本語 Europe English Deutsch Español Françai",
+      "baseline_initialized": true
+    },
+    "iflytek-spark": {
+      "fingerprint": "346ff528abb063c0f888ef4e288c6dc11ca726a7dd5be59f99af9acee7c972ca",
+      "last_checked_at": "2026-07-02T04:51:33.147542Z",
+      "last_excerpt": "讯飞星火-懂我的AI助手",
+      "baseline_invalid": true
+    },
+    "tiangong": {
+      "fingerprint": "d74b9bfcf1b5845c504c030cf12af0182dbe65e30b7ee6c71e8925ce38378081",
+      "last_checked_at": "2026-07-02T04:51:33.147542Z",
+      "last_excerpt": "AI办公智能体先行者",
+      "baseline_invalid": true
+    },
+    "samr-standards": {
+      "seen_keys": [
+        "https://std.samr.gov.cn",
+        "https://std.samr.gov.cn/org",
+        "https://std.samr.gov.cn/gb/search/gbAdvancedSearch",
+        "https://std.samr.gov.cn/gb",
+        "https://std.samr.gov.cn/coordination",
+        "https://std.samr.gov.cn/gb/gbOpinion",
+        "https://std.samr.gov.cn/gb/withdrawnReview",
+        "https://std.samr.gov.cn/gb/gbSuggestionPlan",
+        "https://std.samr.gov.cn/gfs/gfsSuggestionPlan",
+        "https://std.samr.gov.cn/gsm/gsmPlanPublic",
+        "https://std.samr.gov.cn/gb/gbqSuggestion",
+        "https://std.samr.gov.cn/gb/gbPlanDraft",
+        "https://std.samr.gov.cn/qbprop/introduce",
+        "https://std.samr.gov.cn/noc/nocGB",
+        "https://std.samr.gov.cn/noc/nocHB",
+        "https://std.samr.gov.cn/noc/nocDB",
+        "https://std.samr.gov.cn/noc/nocCMR",
+        "https://std.samr.gov.cn/noc/nocPlan",
+        "https://std.samr.gov.cn/gb/gbProcessInfo",
+        "https://std.samr.gov.cn/gb/gbzProcessInfo",
+        "https://std.samr.gov.cn/gb/gbQuery",
+        "https://std.samr.gov.cn/org/orgTcQuery",
+        "https://std.samr.gov.cn/gsm/query",
+        "https://std.samr.gov.cn/gfs/query",
+        "https://std.samr.gov.cn/tb",
+        "https://std.samr.gov.cn/gj",
+        "https://std.samr.gov.cn/gj/news?op=ISO",
+        "https://std.samr.gov.cn/gj/org?op=ISO",
+        "https://std.samr.gov.cn/gj/orgCn?type=ISO",
+        "https://std.samr.gov.cn/gj/std?op=ISO"
+      ],
+      "last_checked_at": "2026-07-02T04:52:25.281396Z",
+      "baseline_initialized": true
+    },
+    "tc260-ai-standard": {
+      "seen_keys": [
+        "https://www.tc260.org.cn/login",
+        "https://www.tc260.org.cn/portal/unit-reg",
+        "https://www.tc260.org.cn/portal/cms/work/10/0",
+        "https://www.tc260.org.cn/portal/cms/industry/100/0",
+        "https://www.tc260.org.cn/portal/suggestion",
+        "https://www.tc260.org.cn/portal/project/standard",
+        "https://www.tc260.org.cn/portal/about/mgr",
+        "https://www.tc260.org.cn/portal/cms/catalog/1",
+        "https://www.tc260.org.cn/portal/article/1/07d60a8d728445fbb3526ca97e3d02d9",
+        "https://www.tc260.org.cn/portal/article/1/c5bff06b0a544674b12b89271bf8df02",
+        "https://www.tc260.org.cn/portal/article/1/9745608fa11e46639275aa834e58b5c4",
+        "https://www.tc260.org.cn/portal/article/1/a6d21a769f07420f818f6bed6797c618",
+        "https://www.tc260.org.cn/portal/article/1/4541a22bb6f542b5ae7c37ffe0d914aa",
+        "https://www.tc260.org.cn/portal/article/1/7ddf0e21844548ccacf5f520a0b5b673",
+        "https://www.tc260.org.cn/portal/article/1/e159d8380a964bb69feb9834fd8126e2",
+        "https://www.tc260.org.cn/portal/article/1/3a56c5e4868f4e17ac8d71cc2daf2ec6",
+        "https://www.tc260.org.cn/portal/article/2/44acd46ffb6e4572999af354a958b71d",
+        "https://www.tc260.org.cn/portal/article/2/a54aac5d7237421caea024fdeb55b252",
+        "https://www.tc260.org.cn/portal/article/2/dfde7d57db9b4d5697c202fdec722ae4",
+        "https://www.tc260.org.cn/portal/article/2/9f1ef0df453e4d648d08bd8835b9e8c7",
+        "https://www.tc260.org.cn/portal/article/2/1911acff3c7a47a7958759dac2804c92",
+        "https://www.tc260.org.cn/portal/article/2/e8a9c220668549159b4a5b4641881ffc",
+        "https://www.tc260.org.cn/portal/article/2/5f184cda80af4f37a05d8469d1d21ace",
+        "https://www.tc260.org.cn/portal/article/2/71c613fd3db34b6a9da62f25b8219733",
+        "https://www.tc260.org.cn/portal/suggestion-detail/070bd0f2bab446be9e293e491a786a76",
+        "https://www.tc260.org.cn/portal/suggestion-detail/1a45ecd9ace34f94a40de59fc25b1fd6",
+        "https://www.tc260.org.cn/portal/suggestion-detail/35f737c28f85459ba1f379ad1d0992ff",
+        "https://www.tc260.org.cn/portal/suggestion-detail/822d0889746444259ed1def11aa0f1e1",
+        "https://www.tc260.org.cn/portal/suggestion-detail/ef5518f3213b4ec5bc5f3f2ce5ce1bee",
+        "https://www.tc260.org.cn/portal/suggestion-detail/0965be07eef8468b8db986400d5732c0",
+        "https://www.tc260.org.cn/portal/article/1/6e8ada3dc7654f43b55675ad05c700d3"
+      ],
+      "last_checked_at": "2026-07-02T04:52:25.829528Z",
+      "baseline_initialized": true
+    },
+    "founderpark-website": {
+      "seen_keys": [],
+      "last_checked_at": "2026-07-02T04:52:26.226975Z",
+      "baseline_initialized": true
+    }
+  }
+}

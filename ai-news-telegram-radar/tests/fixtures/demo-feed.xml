@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Demo RSS</title>
+    <link>https://example.com</link>
+    <description>Local demo feed for AI news radar</description>
+    <item>
+      <title>OpenAI releases a new agent toolkit for developers</title>
+      <link>https://example.com/openai-agent-toolkit</link>
+      <description>Developers can use the new AI agent toolkit to build safer workflows.</description>
+      <pubDate>Thu, 02 Jul 2026 01:00:00 +0000</pubDate>
+      <category>AI</category>
+      <category>Agents</category>
+    </item>
+    <item>
+      <title>Local coffee shop changes opening hours</title>
+      <link>https://example.com/coffee-hours</link>
+      <description>This should be ignored by relevance scoring.</description>
+      <pubDate>Thu, 02 Jul 2026 02:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

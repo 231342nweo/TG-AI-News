@@ -1,0 +1,504 @@
+{
+  "generated_at": "2026-07-02T06:25:11.563886Z",
+  "count": 3,
+  "items": [
+    {
+      "title": "端到端语音语言大模型 新品 业内首创Cross-Attention 体验超拟人对话 重磅发布 免费体验",
+      "url": "https://ai.baidu.com/tech/speech/chatbot",
+      "summary": "百度 AI 开放平台 列表页发现：端到端语音语言大模型 新品 业内首创Cross-Attention 体验超拟人对话 重磅发布 免费体验",
+      "published_at": null,
+      "source_id": "baidu-ai-platform",
+      "source_name": "百度 AI 开放平台",
+      "tags": [
+        "百度文心 / 千帆",
+        "big_tech_platform",
+        "html_list",
+        "A",
+        "百度AI开放平台-全球领先的人工智能服务平台"
+      ],
+      "score": 16.2,
+      "translated_title": null,
+      "translated_summary": null
+    },
+    {
+      "title": "OpenBMB Hugging Face 模型更新：openbmb/MiniCPM-V-4.6",
+      "url": "https://huggingface.co/openbmb/MiniCPM-V-4.6",
+      "summary": "OpenBMB Hugging Face 检测到模型更新：openbmb/MiniCPM-V-4.6（downloads=854929, likes=1134）",
+      "published_at": "2026-07-01T11:57:37Z",
+      "source_id": "openbmb-huggingface",
+      "source_name": "OpenBMB Hugging Face",
+      "tags": [
+        "面壁智能 / OpenBMB",
+        "open_source",
+        "huggingface_api",
+        "Hugging Face",
+        "transformers",
+        "safetensors",
+        "minicpmv4_6",
+        "image-text-to-text",
+        "minicpm-v",
+        "multimodal",
+        "On-Device Model",
+        "lightweight",
+        "image-text-to-text"
+      ],
+      "score": 13.82,
+      "translated_title": null,
+      "translated_summary": null
+    },
+    {
+      "title": "大模型语音合成 热门 全新音色超拟人，多情感，多方言 低至¥ 4 /千次",
+      "url": "https://ai.baidu.com/tech/speech/tts",
+      "summary": "百度 AI 开放平台 列表页发现：大模型语音合成 热门 全新音色超拟人，多情感，多方言 低至¥ 4 /千次",
+      "published_at": null,
+      "source_id": "baidu-ai-platform",
+      "source_name": "百度 AI 开放平台",
+      "tags": [
+        "百度文心 / 千帆",
+        "big_tech_platform",
+        "html_list",
+        "A",
+        "百度AI开放平台-全球领先的人工智能服务平台"
+      ],
+      "score": 13.2,
+      "translated_title": null,
+      "translated_summary": null
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "deepseek-api-updates",
+      "source_name": "DeepSeek API 更新",
+      "ok": true,
+      "item_count": 1,
+      "error": null
+    },
+    {
+      "source_id": "deepseek-news",
+      "source_name": "DeepSeek 官方新闻",
+      "ok": true,
+      "item_count": 30,
+      "error": null
+    },
+    {
+      "source_id": "deepseek-github",
+      "source_name": "DeepSeek GitHub",
+      "ok": true,
+      "item_count": 0,
+      "error": null
+    },
+    {
+      "source_id": "deepseek-huggingface",
+      "source_name": "DeepSeek Hugging Face",
+      "ok": true,
+      "item_count": 20,
+      "error": null
+    },
+    {
+      "source_id": "moonshot-website",
+      "source_name": "Moonshot AI 官网",
+      "ok": true,
+      "item_count": 1,
+      "error": null
+    },
+    {
+      "source_id": "kimi-platform-docs",
+      "source_name": "Kimi API 文档",
+      "ok": true,
+      "item_count": 1,
+      "error": null
+    },
+    {
+      "source_id": "kimi-forum",
+      "source_name": "Kimi Forum",
+      "ok": true,
+      "item_count": 0,
+      "error": null
+    },
+    {
+      "source_id": "moonshot-github",
+      "source_name": "Moonshot AI GitHub",
+      "ok": true,
+      "item_count": 0,
+      "error": null
+    },
+    {
+      "source_id": "moonshot-huggingface",
+      "source_name": "Moonshot AI Hugging Face",
+      "ok": true,
+      "item_count": 18,
+      "error": null
+    },
+    {
+      "source_id": "zhipu-bigmodel-releases",
+      "source_name": "智谱 BigModel 新品发布",
+      "ok": true,
+      "item_count": 1,
+      "error": null
+    },
+    {
+      "source_id": "zai-release-notes",
+      "source_name": "Z.ai Release Notes",
+      "ok": true,
+      "item_count": 1,
+      "error": null
+    },
+    {
+      "source_id": "zai-github",
+      "source_name": "Z.ai GitHub",
+      "ok": true,
+      "item_count": 0,
+      "error": null
+    },
+    {
+      "source_id": "zai-huggingface",
+      "source_name": "Z.ai Hugging Face",
+      "ok": true,
+      "item_count": 20,
+      "error": null
+    },
+    {
+      "source_id": "minimax-platform",
+      "source_name": "MiniMax 开放平台",
+      "ok": true,
+      "item_count": 1,
+      "error": null
+    },
+    {
+      "source_id": "minimax-release-notes",
+      "source_name": "MiniMax Release Notes",
+      "ok": true,
+      "item_count": 1,
+      "error": null
+    },
+    {
+      "source_id": "minimax-github",
+      "source_name": "MiniMax GitHub",
+      "ok": true,
+      "item_count": 0,
+      "error": null
+    },
+    {
+      "source_id": "minimax-huggingface",
+      "source_name": "MiniMax Hugging Face",
+      "ok": true,
+      "item_count": 19,
+      "error": null
+    },
+    {
+      "source_id": "stepfun-platform",
+      "source_name": "阶跃星辰开放平台",
+      "ok": true,
+      "item_count": 1,
+      "error": null
+    },
+    {
+      "source_id": "stepfun-research",
+      "source_name": "阶跃星辰研究页",
+      "ok": true,
+      "item_count": 1,
+      "error": null
+    },
+    {
+      "source_id": "stepfun-github",
+      "source_name": "StepFun GitHub",
+      "ok": true,
+      "item_count": 0,
+      "error": null
+    },
+    {
+      "source_id": "stepfun-huggingface",
+      "source_name": "StepFun Hugging Face",
+      "ok": true,
+      "item_count": 20,
+      "error": null
+    },
+    {
+      "source_id": "baichuan-website",
+      "source_name": "百川智能官网",
+      "ok": true,
+      "item_count": 1,
+      "error": null
+    },
+    {
+      "source_id": "baichuan-api-docs",
+      "source_name": "百川智能 API 文档",
+      "ok": true,
+      "item_count": 1,
+      "error": null
+    },
+    {
+      "source_id": "baichuan-github",
+      "source_name": "百川智能 GitHub",
+      "ok": true,
+      "item_count": 0,
+      "error": null
+    },
+    {
+      "source_id": "baichuan-huggingface",
+      "source_name": "百川智能 Hugging Face",
+      "ok": true,
+      "item_count": 20,
+      "error": null
+    },
+    {
+      "source_id": "baichuan-modelscope",
+      "source_name": "百川智能 ModelScope",
+      "ok": true,
+      "item_count": 0,
+      "error": null
+    },
+    {
+      "source_id": "01ai-website",
+      "source_name": "01.AI 官网",
+      "ok": true,
+      "item_count": 1,
+      "error": null
+    },
+    {
+      "source_id": "01ai-github",
+      "source_name": "01.AI GitHub",
+      "ok": true,
+      "item_count": 0,
+      "error": null
+    },
+    {
+      "source_id": "01ai-huggingface",
+      "source_name": "01.AI Hugging Face",
+      "ok": true,
+      "item_count": 20,
+      "error": null
+    },
+    {
+      "source_id": "sensenova-website",
+      "source_name": "商汤日日新官网",
+      "ok": true,
+      "item_count": 1,
+      "error": null
+    },
+    {
+      "source_id": "opensensenova-github",
+      "source_name": "OpenSenseNova GitHub",
+      "ok": true,
+      "item_count": 0,
+      "error": null
+    },
+    {
+      "source_id": "openbmb-website",
+      "source_name": "OpenBMB 官网",
+      "ok": true,
+      "item_count": 0,
+      "error": null
+    },
+    {
+      "source_id": "openbmb-github",
+      "source_name": "OpenBMB GitHub",
+      "ok": true,
+      "item_count": 5,
+      "error": null
+    },
+    {
+      "source_id": "openbmb-huggingface",
+      "source_name": "OpenBMB Hugging Face",
+      "ok": true,
+      "item_count": 20,
+      "error": null
+    },
+    {
+      "source_id": "internlm-github",
+      "source_name": "InternLM GitHub",
+      "ok": true,
+      "item_count": 0,
+      "error": null
+    },
+    {
+      "source_id": "internlm-huggingface",
+      "source_name": "InternLM Hugging Face",
+      "ok": true,
+      "item_count": 20,
+      "error": null
+    },
+    {
+      "source_id": "openxlab",
+      "source_name": "OpenXLab",
+      "ok": true,
+      "item_count": 20,
+      "error": null
+    },
+    {
+      "source_id": "qwen-blog",
+      "source_name": "Qwen Blog",
+      "ok": true,
+      "item_count": 0,
+      "error": null
+    },
+    {
+      "source_id": "qwen-github",
+      "source_name": "Qwen GitHub",
+      "ok": true,
+      "item_count": 2,
+      "error": null
+    },
+    {
+      "source_id": "qwen-huggingface",
+      "source_name": "Qwen Hugging Face",
+      "ok": true,
+      "item_count": 20,
+      "error": null
+    },
+    {
+      "source_id": "aliyun-bailian-models",
+      "source_name": "阿里云百炼模型列表",
+      "ok": true,
+      "item_count": 1,
+      "error": null
+    },
+    {
+      "source_id": "modelscope",
+      "source_name": "魔搭社区 ModelScope",
+      "ok": true,
+      "item_count": 0,
+      "error": null
+    },
+    {
+      "source_id": "baidu-qianfan-docs",
+      "source_name": "百度千帆文档",
+      "ok": true,
+      "item_count": 1,
+      "error": null
+    },
+    {
+      "source_id": "baidu-ai-platform",
+      "source_name": "百度 AI 开放平台",
+      "ok": true,
+      "item_count": 30,
+      "error": null
+    },
+    {
+      "source_id": "tencent-hunyuan-update-history",
+      "source_name": "腾讯混元更新历史",
+      "ok": true,
+      "item_count": 1,
+      "error": null
+    },
+    {
+      "source_id": "tencent-hunyuan-github",
+      "source_name": "Tencent Hunyuan GitHub",
+      "ok": true,
+      "item_count": 0,
+      "error": null
+    },
+    {
+      "source_id": "tencent-huggingface",
+      "source_name": "Tencent Hugging Face",
+      "ok": true,
+      "item_count": 20,
+      "error": null
+    },
+    {
+      "source_id": "volcengine-ark-models",
+      "source_name": "火山方舟模型列表",
+      "ok": true,
+      "item_count": 1,
+      "error": null
+    },
+    {
+      "source_id": "volcengine-ark-updates",
+      "source_name": "火山方舟产品更新",
+      "ok": true,
+      "item_count": 0,
+      "error": null
+    },
+    {
+      "source_id": "bytedance-seed-blog",
+      "source_name": "ByteDance Seed Blog",
+      "ok": true,
+      "item_count": 20,
+      "error": null
+    },
+    {
+      "source_id": "huawei-pangu",
+      "source_name": "华为云盘古大模型",
+      "ok": true,
+      "item_count": 1,
+      "error": null
+    },
+    {
+      "source_id": "iflytek-spark",
+      "source_name": "讯飞星火官网",
+      "ok": true,
+      "item_count": 1,
+      "error": null
+    },
+    {
+      "source_id": "tiangong",
+      "source_name": "天工官网",
+      "ok": true,
+      "item_count": 1,
+      "error": null
+    },
+    {
+      "source_id": "cac-generative-ai-filing",
+      "source_name": "国家网信办生成式 AI 备案公告",
+      "ok": true,
+      "item_count": 30,
+      "error": null
+    },
+    {
+      "source_id": "miit-ai-policy",
+      "source_name": "工信部 AI 政策",
+      "ok": true,
+      "item_count": 30,
+      "error": null
+    },
+    {
+      "source_id": "caict-ai-report",
+      "source_name": "中国信通院 AI 报告",
+      "ok": false,
+      "item_count": 0,
+      "error": "https://www.caict.ac.cn/kxyj/qwfb/ztbg/: HTTP Error 412: Precondition Failed; https://www.caict.ac.cn/kxyj/qwfb/bps/: HTTP Error 412: Precondition Failed; https://www.caict.ac.cn/: HTTP Error 412: Precondition Failed"
+    },
+    {
+      "source_id": "samr-standards",
+      "source_name": "全国标准信息公共服务平台",
+      "ok": true,
+      "item_count": 30,
+      "error": null
+    },
+    {
+      "source_id": "tc260-ai-standard",
+      "source_name": "信安标委 TC260",
+      "ok": true,
+      "item_count": 20,
+      "error": null
+    },
+    {
+      "source_id": "nda-ai-policy",
+      "source_name": "国家数据局 AI 相关政策",
+      "ok": false,
+      "item_count": 0,
+      "error": "https://www.nda.gov.cn/sjj/zwgk/zcfb/list/index_pc_1.html: <urlopen error [SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1129)>; https://www.nda.gov.cn/sjj/zwgk/tzgg/list/index_pc_1.html: <urlopen error [SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1129)>; https://www.nda.gov.cn/: <urlopen error [SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1129)>"
+    },
+    {
+      "source_id": "jiqizhixin-rss",
+      "source_name": "机器之心",
+      "ok": true,
+      "item_count": 1,
+      "error": null
+    },
+    {
+      "source_id": "qbitai-rss",
+      "source_name": "量子位",
+      "ok": true,
+      "item_count": 10,
+      "error": null
+    },
+    {
+      "source_id": "founderpark-website",
+      "source_name": "Founder Park",
+      "ok": true,
+      "item_count": 0,
+      "error": null
+    }
+  ]
+}
