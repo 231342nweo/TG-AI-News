@@ -350,7 +350,7 @@
       "last_checked_at": "2026-07-02T04:51:37.867265Z",
       "baseline_initialized": true,
       "repos": {
-        "MoonshotAI/kimi-code": "2026-07-02T11:50:53Z",
+        "MoonshotAI/kimi-code": "2026-07-02T11:55:37Z",
         "MoonshotAI/kimi-cli": "2026-06-22T12:35:05Z",
         "MoonshotAI/Kimi-K2": "2026-01-21T05:33:12Z",
         "MoonshotAI/Attention-Residuals": "2026-03-17T06:23:11Z",
@@ -371,7 +371,7 @@
         "MoonshotAI/kimi-code-zed-extension": "2026-01-20T18:06:03Z",
         "MoonshotAI/pykaos": "2025-12-26T14:52:32Z"
       },
-      "last_changed_at": "2026-07-02T11:52:15.088720Z"
+      "last_changed_at": "2026-07-02T11:56:29.545948Z"
     },
     "zai-github": {
       "seen_keys": [],
@@ -588,7 +588,8 @@
       "last_checked_at": "2026-07-02T04:51:58.871155Z",
       "baseline_initialized": true,
       "repos": {
-        "QwenLM/qwen-code": "2026-07-02T11:43:03Z",
+        "QwenLM/Qwen-Image-Layered": "2025-12-31T11:40:35Z",
+        "QwenLM/qwen-code": "2026-07-02T11:53:11Z",
         "QwenLM/Qwen-AgentWorld": "2026-06-25T06:57:43Z",
         "QwenLM/Qwen-RobotManip": "2026-06-29T22:29:54Z",
         "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
@@ -605,11 +606,10 @@
         "QwenLM/Qwen3-Coder": "2026-03-24T08:22:10Z",
         "QwenLM/open-computer-use": "2026-06-10T16:38:07Z",
         "QwenLM/Qwen3-ASR": "2026-06-26T08:20:17Z",
-        "QwenLM/Qwen-Image-Layered": "2025-12-31T11:40:35Z",
         "QwenLM/Qwen-Image": "2026-02-10T07:37:37Z",
         "QwenLM/FlashQLA": "2026-07-01T14:20:23Z"
       },
-      "last_changed_at": "2026-07-02T11:45:45.116881Z"
+      "last_changed_at": "2026-07-02T11:56:29.545948Z"
     },
     "tencent-hunyuan-github": {
       "seen_keys": [],
