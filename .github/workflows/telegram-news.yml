@@ -54,6 +54,9 @@ jobs:
           if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.mode }}" = "daemon" ]; then
             mode="daemon"
             cycles="${{ inputs.cycles }}"
+          elif [ "${{ github.event_name }}" = "push" ]; then
+            mode="daemon"
+            cycles="60"
           fi
           case "$cycles" in
             ''|*[!0-9]*) cycles="1" ;;
