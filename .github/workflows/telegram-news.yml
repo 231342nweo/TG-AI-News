@@ -30,7 +30,7 @@ permissions:
 
 concurrency:
   group: ai-news-telegram-radar
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   digest:
