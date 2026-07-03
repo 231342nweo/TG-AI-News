@@ -322,16 +322,18 @@
       "last_checked_at": "2026-07-02T04:51:33.967446Z",
       "baseline_initialized": true,
       "repos": {
-        "deepseek-ai/awesome-deepseek-integration": "2026-02-23T16:27:47Z",
-        "deepseek-ai/3FS": "2026-05-07T09:31:54Z",
-        "deepseek-ai/DeepSeek-R1": "2025-06-27T08:35:54Z",
+        "deepseek-ai/awesome-deepseek-agent": "2026-06-17T01:24:37Z",
         "deepseek-ai/DeepSpec": "2026-06-30T06:42:21Z",
+        "deepseek-ai/FlashMLA": "2026-04-30T09:04:01Z",
+        "deepseek-ai/3FS": "2026-05-07T09:31:54Z",
+        "deepseek-ai/DeepEP": "2026-07-03T02:03:50Z",
+        "deepseek-ai/awesome-deepseek-integration": "2026-02-23T16:27:47Z",
+        "deepseek-ai/DeepSeek-R1": "2025-06-27T08:35:54Z",
         "deepseek-ai/DeepGEMM": "2026-06-29T08:18:56Z",
         "deepseek-ai/DeepSeek-V3": "2025-08-28T03:24:37Z",
         "deepseek-ai/DeepSeek-LLM": "2024-02-04T12:22:16Z",
         "deepseek-ai/DeepSeek-Coder": "2025-11-11T06:44:56Z",
         "deepseek-ai/DeepSeek-Math": "2024-04-15T07:55:37Z",
-        "deepseek-ai/awesome-deepseek-agent": "2026-06-17T01:24:37Z",
         "deepseek-ai/DeepSeek-V2": "2024-09-25T10:23:55Z",
         "deepseek-ai/DeepSeek-Coder-V2": "2025-11-11T06:44:45Z",
         "deepseek-ai/Engram": "2026-01-14T01:13:02Z",
@@ -339,11 +341,9 @@
         "deepseek-ai/DeepSeek-OCR": "2026-01-27T03:45:14Z",
         "deepseek-ai/LPLB": "2025-11-19T07:20:35Z",
         "deepseek-ai/Janus": "2025-02-01T07:58:29Z",
-        "deepseek-ai/DeepEP": "2026-07-02T06:40:55Z",
-        "deepseek-ai/open-infra-index": "2025-05-15T02:00:43Z",
-        "deepseek-ai/DeepSeek-V3.2-Exp": "2025-11-18T02:57:11Z"
+        "deepseek-ai/open-infra-index": "2025-05-15T02:00:43Z"
       },
-      "last_changed_at": "2026-07-03T01:16:53.701904Z"
+      "last_changed_at": "2026-07-03T02:13:29.789554Z"
     },
     "moonshot-github": {
       "seen_keys": [],
@@ -378,15 +378,16 @@
       "last_checked_at": "2026-07-02T04:51:40.485322Z",
       "baseline_initialized": true,
       "repos": {
+        "zai-org/GLM-V": "2026-05-16T05:42:14Z",
+        "zai-org/Open-AutoGLM": "2026-03-06T08:38:39Z",
         "zai-org/GLM-5": "2026-06-20T04:22:09Z",
-        "zai-org/GLM-4": "2025-07-04T04:16:36Z",
-        "zai-org/CodeGeeX": "2024-08-13T05:59:38Z",
         "zai-org/GLM-OCR": "2026-04-21T08:52:11Z",
         "zai-org/SCAIL-2": "2026-06-21T14:21:19Z",
+        "zai-org/GLM-4": "2025-07-04T04:16:36Z",
+        "zai-org/CodeGeeX": "2024-08-13T05:59:38Z",
         "zai-org/GLM-4.5": "2026-02-01T08:28:10Z",
         "zai-org/CogVideo": "2025-11-04T11:19:04Z",
         "zai-org/ChatGLM-6B": "2024-06-27T04:05:25Z",
-        "zai-org/Open-AutoGLM": "2026-03-06T08:38:39Z",
         "zai-org/SCAIL": "2026-05-06T14:59:54Z",
         "zai-org/ImageReward": "2025-10-29T13:40:51Z",
         "zai-org/ChatGLM3": "2025-01-13T06:55:26Z",
@@ -396,10 +397,9 @@
         "zai-org/zai-coding-plugins": "2026-02-22T15:51:20Z",
         "zai-org/GLM-skills": "2026-04-15T12:28:08Z",
         "zai-org/VisionReward": "2025-03-26T10:07:04Z",
-        "zai-org/GLM-130B": "2023-07-25T09:01:49Z",
-        "zai-org/CodeGeeX2": "2024-07-10T12:34:55Z"
+        "zai-org/GLM-130B": "2023-07-25T09:01:49Z"
       },
-      "last_changed_at": "2026-07-02T21:32:33.316283Z"
+      "last_changed_at": "2026-07-03T02:13:29.789554Z"
     },
     "minimax-github": {
       "seen_keys": [],
@@ -588,17 +588,18 @@
       "last_checked_at": "2026-07-02T04:51:58.871155Z",
       "baseline_initialized": true,
       "repos": {
-        "QwenLM/Qwen-RobotNav": "2026-06-30T03:01:19Z",
-        "QwenLM/qwen-code": "2026-07-03T01:06:56Z",
-        "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
-        "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
-        "QwenLM/Qwen-AgentWorld": "2026-06-25T06:57:43Z",
         "QwenLM/Qwen3.6": "2026-06-03T12:14:19Z",
+        "QwenLM/Qwen-Agent": "2026-03-04T08:15:07Z",
+        "QwenLM/qwen-code": "2026-07-03T02:04:29Z",
+        "QwenLM/open-computer-use": "2026-06-10T16:38:07Z",
+        "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
+        "QwenLM/Qwen3-ASR": "2026-06-26T08:20:17Z",
+        "QwenLM/Qwen-AgentWorld": "2026-06-25T06:57:43Z",
+        "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
+        "QwenLM/Qwen-RobotNav": "2026-06-30T03:01:19Z",
         "QwenLM/Qwen3-Coder": "2026-03-24T08:22:10Z",
         "QwenLM/qwen-code-docs": "2026-07-02T21:41:21Z",
         "QwenLM/Qwen-Image-Layered": "2025-12-31T11:40:35Z",
-        "QwenLM/Qwen3-ASR": "2026-06-26T08:20:17Z",
-        "QwenLM/Qwen-Agent": "2026-03-04T08:15:07Z",
         "QwenLM/Qwen-VL": "2024-08-07T02:37:06Z",
         "QwenLM/FlashQLA": "2026-07-02T13:00:49Z",
         "QwenLM/Qwen-Image": "2026-02-10T07:37:37Z",
@@ -606,10 +607,9 @@
         "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
         "QwenLM/Qwen2.5-Omni": "2025-06-12T11:03:07Z",
         "QwenLM/Qwen-RobotManip": "2026-06-29T22:29:54Z",
-        "QwenLM/Qwen3-Embedding": "2025-09-30T06:10:27Z",
-        "QwenLM/Qwen3-VL-Embedding": "2026-06-23T10:39:17Z"
+        "QwenLM/Qwen3-Embedding": "2025-09-30T06:10:27Z"
       },
-      "last_changed_at": "2026-07-03T01:16:53.701904Z"
+      "last_changed_at": "2026-07-03T02:13:29.789554Z"
     },
     "tencent-hunyuan-github": {
       "seen_keys": [],
@@ -641,6 +641,7 @@
     },
     "qbitai-rss": {
       "seen_keys": [
+        "https://www.qbitai.com/2026/07/442138.html",
         "https://www.qbitai.com/2026/07/442134.html",
         "https://www.qbitai.com/2026/07/442047.html",
         "https://www.qbitai.com/2026/07/442048.html",
@@ -659,7 +660,7 @@
       ],
       "last_checked_at": "2026-07-02T04:52:26.145879Z",
       "baseline_initialized": true,
-      "last_changed_at": "2026-07-02T13:43:28.394728Z",
+      "last_changed_at": "2026-07-03T02:14:39.470379Z",
       "source_signature": "34418d38d4b87c134f9922d6999ac3c069821ed0be2134f9ba6ae5e00e4b63a9",
       "baseline_reinitialized_at": "2026-07-02T10:23:28.426031Z"
     },
@@ -1083,18 +1084,18 @@
       "seen_keys": [
         "https://www.tc260.org.cn/portal/suggestion",
         "https://www.tc260.org.cn/portal/project/standard",
+        "https://www.tc260.org.cn/portal/article/1/c5bff06b0a544674b12b89271bf8df02",
         "https://www.tc260.org.cn/portal/article/1/9745608fa11e46639275aa834e58b5c4",
         "https://www.tc260.org.cn/portal/article/1/07d60a8d728445fbb3526ca97e3d02d9",
-        "https://www.tc260.org.cn/portal/article/1/c5bff06b0a544674b12b89271bf8df02",
         "https://www.tc260.org.cn/portal/article/1/a6d21a769f07420f818f6bed6797c618",
         "https://www.tc260.org.cn/portal/article/1/4541a22bb6f542b5ae7c37ffe0d914aa",
         "https://www.tc260.org.cn/portal/article/1/7ddf0e21844548ccacf5f520a0b5b673",
-        "https://www.tc260.org.cn/portal/article/1/e159d8380a964bb69feb9834fd8126e2",
         "https://www.tc260.org.cn/portal/article/1/3a56c5e4868f4e17ac8d71cc2daf2ec6",
+        "https://www.tc260.org.cn/portal/article/1/e159d8380a964bb69feb9834fd8126e2",
         "https://www.tc260.org.cn/portal/article/2/a54aac5d7237421caea024fdeb55b252",
         "https://www.tc260.org.cn/portal/article/2/dfde7d57db9b4d5697c202fdec722ae4",
-        "https://www.tc260.org.cn/portal/article/2/71c613fd3db34b6a9da62f25b8219733",
         "https://www.tc260.org.cn/portal/article/2/1911acff3c7a47a7958759dac2804c92",
+        "https://www.tc260.org.cn/portal/article/2/71c613fd3db34b6a9da62f25b8219733",
         "https://www.tc260.org.cn/portal/suggestion-detail/070bd0f2bab446be9e293e491a786a76",
         "https://www.tc260.org.cn/portal/suggestion-detail/1a45ecd9ace34f94a40de59fc25b1fd6",
         "https://www.tc260.org.cn/portal/suggestion-detail/35f737c28f85459ba1f379ad1d0992ff",
@@ -1104,7 +1105,7 @@
       ],
       "last_checked_at": "2026-07-02T04:52:25.829528Z",
       "baseline_initialized": true,
-      "last_changed_at": "2026-07-02T21:33:41.020373Z",
+      "last_changed_at": "2026-07-03T02:14:35.762174Z",
       "source_signature": "ac7adf7536607ad1dc8d9ca06c0f10f499a52b1893dcc2d8ec03dd7b6240b921",
       "baseline_reinitialized_at": "2026-07-02T10:23:25.737100Z"
     },
