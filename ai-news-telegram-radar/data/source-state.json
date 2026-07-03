@@ -589,7 +589,7 @@
       "baseline_initialized": true,
       "repos": {
         "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
-        "QwenLM/qwen-code": "2026-07-03T02:17:58Z",
+        "QwenLM/qwen-code": "2026-07-03T02:26:03Z",
         "QwenLM/Qwen3.6": "2026-06-03T12:14:19Z",
         "QwenLM/Qwen-Agent": "2026-03-04T08:15:07Z",
         "QwenLM/open-computer-use": "2026-06-10T16:38:07Z",
@@ -609,7 +609,7 @@
         "QwenLM/Qwen-RobotManip": "2026-06-29T22:29:54Z",
         "QwenLM/Qwen3-Embedding": "2025-09-30T06:10:27Z"
       },
-      "last_changed_at": "2026-07-03T02:23:25.529315Z"
+      "last_changed_at": "2026-07-03T02:29:33.446198Z"
     },
     "tencent-hunyuan-github": {
       "seen_keys": [],
@@ -641,7 +641,6 @@
     },
     "qbitai-rss": {
       "seen_keys": [
-        "https://www.qbitai.com/2026/07/442138.html",
         "https://www.qbitai.com/2026/07/442134.html",
         "https://www.qbitai.com/2026/07/442047.html",
         "https://www.qbitai.com/2026/07/442048.html",
@@ -652,6 +651,7 @@
         "https://www.qbitai.com/2026/07/441790.html",
         "https://www.qbitai.com/2026/07/441786.html",
         "https://www.qbitai.com/2026/07/441725.html",
+        "https://www.qbitai.com/2026/07/442138.html",
         "https://www.qbitai.com/2026/07/441586.html",
         "https://www.qbitai.com/2026/07/441490.html",
         "https://www.qbitai.com/2026/07/441491.html",
@@ -660,7 +660,7 @@
       ],
       "last_checked_at": "2026-07-02T04:52:26.145879Z",
       "baseline_initialized": true,
-      "last_changed_at": "2026-07-03T02:24:30.491264Z",
+      "last_changed_at": "2026-07-03T02:30:39.385499Z",
       "source_signature": "34418d38d4b87c134f9922d6999ac3c069821ed0be2134f9ba6ae5e00e4b63a9",
       "baseline_reinitialized_at": "2026-07-02T10:23:28.426031Z"
     },
