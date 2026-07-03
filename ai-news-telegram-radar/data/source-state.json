@@ -350,7 +350,7 @@
       "last_checked_at": "2026-07-02T04:51:37.867265Z",
       "baseline_initialized": true,
       "repos": {
-        "MoonshotAI/kimi-code": "2026-07-03T04:16:58Z",
+        "MoonshotAI/kimi-code": "2026-07-03T04:54:44Z",
         "MoonshotAI/Kimi-K2": "2026-01-21T05:33:12Z",
         "MoonshotAI/Kimi-Linear": "2025-11-17T09:36:48Z",
         "MoonshotAI/kimi-cli": "2026-06-22T12:35:05Z",
@@ -371,7 +371,7 @@
         "MoonshotAI/Kimi-Vendor-Verifier": "2026-02-24T10:10:27Z",
         "MoonshotAI/Branding-Guide": "2026-03-11T06:55:16Z"
       },
-      "last_changed_at": "2026-07-03T04:21:03.455234Z"
+      "last_changed_at": "2026-07-03T04:59:44.127230Z"
     },
     "zai-github": {
       "seen_keys": [],
