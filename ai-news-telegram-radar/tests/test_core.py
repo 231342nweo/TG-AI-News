@@ -406,7 +406,7 @@ class CoreTest(unittest.TestCase):
             self.assertEqual(first_items, [])
             self.assertEqual(second_items, [])
 
-    def test_github_repos_api_uses_state_baseline_before_emitting(self) -> None:
+    def test_github_repos_api_suppresses_existing_repo_timestamp_updates(self) -> None:
         with TemporaryDirectory() as tmp:
             root = Path(tmp)
             repos = root / "repos.json"
@@ -418,6 +418,7 @@ class CoreTest(unittest.TestCase):
                     "full_name": "OpenXLab-APP/MindSearch",
                     "html_url": "https://github.com/OpenXLab-APP/MindSearch",
                     "description": "AI search agent demo",
+                    "created_at": "2026-06-01T01:00:00Z",
                     "pushed_at": "2026-07-02T01:00:00Z",
                     "language": "Python",
                     "topics": ["ai", "agent"]
@@ -437,6 +438,7 @@ class CoreTest(unittest.TestCase):
                         "category": "open_source",
                         "url": str(repos),
                         "method": "github_repos_api",
+                        "push_rule": "immediate_if_release_tag_or_new_repository",
                         "weight": 2,
                     }
                 ],
@@ -454,6 +456,7 @@ class CoreTest(unittest.TestCase):
                     "full_name": "OpenXLab-APP/MindSearch",
                     "html_url": "https://github.com/OpenXLab-APP/MindSearch",
                     "description": "AI search agent demo",
+                    "created_at": "2026-06-01T01:00:00Z",
                     "pushed_at": "2026-07-02T05:00:00Z",
                     "language": "Python",
                     "topics": ["ai", "agent"]
@@ -469,8 +472,42 @@ class CoreTest(unittest.TestCase):
             )
 
             self.assertEqual(first_items, [])
-            self.assertEqual(len(second_items), 1)
-            self.assertIn("OpenXLab-APP/MindSearch", second_items[0].title)
+            self.assertEqual(second_items, [])
+
+            repos.write_text(
+                """
+                [
+                  {
+                    "full_name": "OpenXLab-APP/NewAgent",
+                    "html_url": "https://github.com/OpenXLab-APP/NewAgent",
+                    "description": "New AI agent framework",
+                    "created_at": "2026-07-02T13:10:00Z",
+                    "pushed_at": "2026-07-02T13:10:00Z",
+                    "language": "Python",
+                    "topics": ["ai", "agent"]
+                  },
+                  {
+                    "full_name": "OpenXLab-APP/MindSearch",
+                    "html_url": "https://github.com/OpenXLab-APP/MindSearch",
+                    "description": "AI search agent demo",
+                    "created_at": "2026-06-01T01:00:00Z",
+                    "pushed_at": "2026-07-02T05:00:00Z",
+                    "language": "Python",
+                    "topics": ["ai", "agent"]
+                  }
+                ]
+                """,
+                encoding="utf-8",
+            )
+            third_items, _ = collect_news(
+                config,
+                now=datetime(2026, 7, 2, 14, tzinfo=timezone.utc),
+                state_path=state,
+            )
+
+            self.assertEqual(len(third_items), 1)
+            self.assertIn("新增仓库", third_items[0].title)
+            self.assertIn("OpenXLab-APP/NewAgent", third_items[0].title)
 
     def test_send_mode_skips_empty_digest(self) -> None:
         with TemporaryDirectory() as tmp:
