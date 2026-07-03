@@ -322,6 +322,7 @@
       "last_checked_at": "2026-07-02T04:51:33.967446Z",
       "baseline_initialized": true,
       "repos": {
+        "deepseek-ai/DeepEP": "2026-07-03T02:53:50Z",
         "deepseek-ai/DeepSpec": "2026-06-30T06:42:21Z",
         "deepseek-ai/awesome-deepseek-agent": "2026-06-17T01:24:37Z",
         "deepseek-ai/TileKernels": "2026-04-23T10:19:21Z",
@@ -329,7 +330,6 @@
         "deepseek-ai/DeepSeek-V3": "2025-08-28T03:24:37Z",
         "deepseek-ai/FlashMLA": "2026-04-30T09:04:01Z",
         "deepseek-ai/3FS": "2026-05-07T09:31:54Z",
-        "deepseek-ai/DeepEP": "2026-07-03T02:36:52Z",
         "deepseek-ai/awesome-deepseek-integration": "2026-02-23T16:27:47Z",
         "deepseek-ai/DeepGEMM": "2026-06-29T08:18:56Z",
         "deepseek-ai/DeepSeek-LLM": "2024-02-04T12:22:16Z",
@@ -343,17 +343,17 @@
         "deepseek-ai/LPLB": "2025-11-19T07:20:35Z",
         "deepseek-ai/Janus": "2025-02-01T07:58:29Z"
       },
-      "last_changed_at": "2026-07-03T02:41:57.992530Z"
+      "last_changed_at": "2026-07-03T02:54:22.592118Z"
     },
     "moonshot-github": {
       "seen_keys": [],
       "last_checked_at": "2026-07-02T04:51:37.867265Z",
       "baseline_initialized": true,
       "repos": {
-        "MoonshotAI/kimi-code": "2026-07-03T02:37:45Z",
+        "MoonshotAI/kimi-cli": "2026-06-22T12:35:05Z",
+        "MoonshotAI/kimi-code": "2026-07-03T02:50:59Z",
         "MoonshotAI/Kimi-K2": "2026-01-21T05:33:12Z",
         "MoonshotAI/Kimi-Dev": "2025-09-30T02:15:54Z",
-        "MoonshotAI/kimi-cli": "2026-06-22T12:35:05Z",
         "MoonshotAI/Kimina-Prover-Preview": "2025-07-10T13:04:40Z",
         "MoonshotAI/Kimi-Audio": "2025-06-21T15:30:28Z",
         "MoonshotAI/Attention-Residuals": "2026-03-17T06:23:11Z",
@@ -371,7 +371,7 @@
         "MoonshotAI/Branding-Guide": "2026-03-11T06:55:16Z",
         "MoonshotAI/kimi-code-zed-extension": "2026-01-20T18:06:03Z"
       },
-      "last_changed_at": "2026-07-03T02:41:57.992530Z"
+      "last_changed_at": "2026-07-03T02:54:22.592118Z"
     },
     "zai-github": {
       "seen_keys": [],
@@ -588,28 +588,28 @@
       "last_checked_at": "2026-07-02T04:51:58.871155Z",
       "baseline_initialized": true,
       "repos": {
+        "QwenLM/Qwen-AgentWorld": "2026-06-25T06:57:43Z",
+        "QwenLM/qwen-code": "2026-07-03T02:54:40Z",
+        "QwenLM/Qwen": "2026-03-05T13:55:17Z",
+        "QwenLM/FlashQLA": "2026-07-02T13:00:49Z",
         "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
-        "QwenLM/qwen-code": "2026-07-03T02:35:47Z",
         "QwenLM/Qwen3.6": "2026-06-03T12:14:19Z",
         "QwenLM/Qwen-Agent": "2026-03-04T08:15:07Z",
         "QwenLM/open-computer-use": "2026-06-10T16:38:07Z",
         "QwenLM/Qwen3-ASR": "2026-06-26T08:20:17Z",
-        "QwenLM/Qwen-AgentWorld": "2026-06-25T06:57:43Z",
         "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
         "QwenLM/Qwen-RobotNav": "2026-06-30T03:01:19Z",
         "QwenLM/Qwen3-Coder": "2026-03-24T08:22:10Z",
         "QwenLM/qwen-code-docs": "2026-07-02T21:41:21Z",
         "QwenLM/Qwen-Image-Layered": "2025-12-31T11:40:35Z",
         "QwenLM/Qwen-VL": "2024-08-07T02:37:06Z",
-        "QwenLM/FlashQLA": "2026-07-02T13:00:49Z",
         "QwenLM/Qwen-Image": "2026-02-10T07:37:37Z",
-        "QwenLM/Qwen": "2026-03-05T13:55:17Z",
         "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
         "QwenLM/Qwen2.5-Omni": "2025-06-12T11:03:07Z",
         "QwenLM/Qwen-RobotManip": "2026-06-29T22:29:54Z",
         "QwenLM/Qwen3-Embedding": "2025-09-30T06:10:27Z"
       },
-      "last_changed_at": "2026-07-03T02:35:42.327782Z"
+      "last_changed_at": "2026-07-03T02:54:22.592118Z"
     },
     "tencent-hunyuan-github": {
       "seen_keys": [],
