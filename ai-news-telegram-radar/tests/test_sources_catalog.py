@@ -17,7 +17,7 @@ class SourcesCatalogTest(unittest.TestCase):
 
     def test_china_ai_catalog_shape(self) -> None:
         self.assertEqual(self.catalog.get("catalog_version"), "2026-07-02")
-        self.assertEqual(len(self.sources), 62)
+        self.assertEqual(len(self.sources), 63)
 
         required = {"entity", "category", "url", "method", "priority", "push_rule"}
         for source in self.sources:
@@ -29,7 +29,7 @@ class SourcesCatalogTest(unittest.TestCase):
         disabled = [source for source in self.sources if not source.get("enabled", True)]
         enabled_methods = {source["method"] for source in enabled}
 
-        self.assertEqual(len(enabled), 62)
+        self.assertEqual(len(enabled), 63)
         self.assertEqual(disabled, [])
         self.assertEqual(
             enabled_methods,
@@ -41,6 +41,7 @@ class SourcesCatalogTest(unittest.TestCase):
                 "modelscope_html",
                 "policy_keyword_html",
                 "rss",
+                "tikhub_wechat_search",
             },
         )
 

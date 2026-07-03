@@ -48,6 +48,7 @@ TELEGRAM_CHAT_ID
 OPENAI_API_KEY
 OPENAI_BASE_URL
 OPENAI_TRANSLATION_MODEL
+TIKHUB_API_KEY
 ```
 
 当前频道可这样填：
@@ -58,7 +59,9 @@ OPENAI_BASE_URL=https://aaii.xclaw.info
 OPENAI_TRANSLATION_MODEL=gpt-5.5
 ```
 
-`TELEGRAM_BOT_TOKEN` 和 `OPENAI_API_KEY` 填你自己的密钥。不要把 `.env` 文件上传到 GitHub。
+`TELEGRAM_BOT_TOKEN`、`OPENAI_API_KEY` 和 `TIKHUB_API_KEY` 填你自己的密钥。不要把 `.env` 文件上传到 GitHub。
+
+TikHub 当前只作为微信搜索补充源，默认每小时请求一次，用来控制 API 调用成本。
 
 ## 3. 确认 Actions 权限
 

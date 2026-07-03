@@ -29,6 +29,7 @@ SUPPORTED_STATEFUL_METHODS = {
     "modelscope_html",
     "policy_keyword_html",
     "github_repos_api",
+    "tikhub_wechat_search",
 }
 SUPPORTED_METHODS = SUPPORTED_FEED_METHODS | SUPPORTED_STATEFUL_METHODS
 
@@ -377,6 +378,10 @@ def github_api_token(url: str) -> str:
     return os.environ.get("GITHUB_TOKEN", "").strip()
 
 
+def tikhub_api_key() -> str:
+    return os.environ.get("TIKHUB_API_KEY", "").strip()
+
+
 def source_fetch_candidates(source: Source) -> list[str]:
     return list(dict.fromkeys([source.url, *source.fallback_urls]))
 
@@ -544,6 +549,229 @@ def parse_date_from_text(value: str) -> datetime | None:
         except ValueError:
             return None
     return None
+
+
+
+TIKHUB_INTERNAL_QUERY_KEYS = {"_poll_minutes", "_interval_minutes", "_limit"}
+TIKHUB_TITLE_KEYS = {"title", "displaytitle", "articletitle", "msgtitle"}
+TIKHUB_URL_KEYS = {"url", "link", "articleurl", "contenturl", "jumpurl", "sourceurl"}
+TIKHUB_SUMMARY_KEYS = {"digest", "summary", "description", "desc", "abstract", "snippet", "content"}
+TIKHUB_TIME_KEYS = {
+    "createtime",
+    "createat",
+    "createdat",
+    "publishtime",
+    "publishedat",
+    "pubtime",
+    "datetime",
+    "timestamp",
+    "time",
+    "updatetime",
+}
+TIKHUB_ID_KEYS = {"id", "docid", "doc", "articleid", "mid", "sn"}
+
+
+def normalize_json_key(key: str) -> str:
+    return re.sub(r"[^a-z0-9]", "", key.lower())
+
+
+def json_value_present(value: Any) -> bool:
+    if value is None:
+        return False
+    if isinstance(value, str):
+        return bool(value.strip())
+    return True
+
+
+def parse_tikhub_value(value: str) -> Any:
+    raw = value.strip()
+    lowered = raw.lower()
+    if lowered in {"true", "false"}:
+        return lowered == "true"
+    if re.fullmatch(r"-?\d+", raw):
+        try:
+            return int(raw)
+        except ValueError:
+            return raw
+    if re.fullmatch(r"-?\d+\.\d+", raw):
+        try:
+            return float(raw)
+        except ValueError:
+            return raw
+    if raw.startswith(("{", "[")):
+        try:
+            return json.loads(raw)
+        except json.JSONDecodeError:
+            return raw
+    return raw
+
+
+def tikhub_request_url_and_payload(source: Source) -> tuple[str, dict[str, Any], dict[str, str]]:
+    parsed = urllib.parse.urlparse(source.url)
+    payload: dict[str, Any] = {}
+    internal: dict[str, str] = {}
+    for key, value in urllib.parse.parse_qsl(parsed.query, keep_blank_values=True):
+        if key in TIKHUB_INTERNAL_QUERY_KEYS:
+            internal[key] = value
+            continue
+        payload[key] = parse_tikhub_value(value)
+    api_url = urllib.parse.urlunparse(parsed._replace(query=""))
+    return api_url, payload, internal
+
+
+def tikhub_source_poll_minutes(source: Source) -> int:
+    _, _, internal = tikhub_request_url_and_payload(source)
+    raw = internal.get("_poll_minutes") or internal.get("_interval_minutes") or os.environ.get("TIKHUB_POLL_MINUTES", "60")
+    try:
+        return max(int(raw), 5)
+    except ValueError:
+        return 60
+
+
+def tikhub_source_limit(source: Source) -> int:
+    _, _, internal = tikhub_request_url_and_payload(source)
+    raw = internal.get("_limit")
+    if raw:
+        try:
+            return max(int(raw), 1)
+        except ValueError:
+            pass
+    return source.max_items or 10
+
+
+def tikhub_poll_due(source: Source, source_state: dict[str, Any] | None, now: datetime) -> bool:
+    if source_state is None:
+        return True
+    last_polled = parse_datetime(str(source_state.get("last_polled_at") or ""))
+    if last_polled is None:
+        return True
+    return now.astimezone(timezone.utc) - last_polled >= timedelta(minutes=tikhub_source_poll_minutes(source))
+
+
+def fetch_tikhub_payload(source: Source) -> Any:
+    api_url, payload, _ = tikhub_request_url_and_payload(source)
+    parsed = urllib.parse.urlparse(api_url)
+    if parsed.scheme in {"http", "https"}:
+        key = tikhub_api_key()
+        if not key:
+            return None
+        request = urllib.request.Request(
+            api_url,
+            data=json.dumps(payload, ensure_ascii=False).encode("utf-8"),
+            headers={
+                "User-Agent": USER_AGENT,
+                "Accept": "application/json",
+                "Content-Type": "application/json",
+                "Authorization": f"Bearer {key}",
+            },
+            method="POST",
+        )
+        with urllib.request.urlopen(request, timeout=30) as response:
+            raw = response.read().decode(response.headers.get_content_charset() or "utf-8", errors="replace")
+    else:
+        path = urllib.request.url2pathname(parsed.path) if parsed.scheme == "file" else api_url
+        raw = Path(path).read_text(encoding="utf-8")
+    return json.loads(raw)
+
+
+def find_json_value(value: Any, key_names: set[str]) -> Any:
+    if isinstance(value, dict):
+        for key, candidate in value.items():
+            if normalize_json_key(str(key)) in key_names and json_value_present(candidate):
+                return candidate
+        for candidate in value.values():
+            found = find_json_value(candidate, key_names)
+            if json_value_present(found):
+                return found
+    elif isinstance(value, list):
+        for candidate in value:
+            found = find_json_value(candidate, key_names)
+            if json_value_present(found):
+                return found
+    return None
+
+
+def iter_json_dicts(value: Any) -> list[dict[str, Any]]:
+    records: list[dict[str, Any]] = []
+    if isinstance(value, dict):
+        records.append(value)
+        for candidate in value.values():
+            records.extend(iter_json_dicts(candidate))
+    elif isinstance(value, list):
+        for candidate in value:
+            records.extend(iter_json_dicts(candidate))
+    return records
+
+
+def parse_tikhub_datetime(value: Any) -> datetime | None:
+    if value is None or (isinstance(value, str) and not value.strip()):
+        return None
+    if isinstance(value, (int, float)) or (isinstance(value, str) and re.fullmatch(r"\d{10,13}", value.strip())):
+        number = float(value)
+        if number > 10_000_000_000:
+            number = number / 1000
+        return datetime.fromtimestamp(number, tz=timezone.utc)
+    text = str(value)
+    return parse_datetime(text) or parse_date_from_text(text)
+
+
+def collect_tikhub_wechat_items(
+    source: Source,
+    state: dict[str, Any] | None,
+    now: datetime,
+) -> list[NewsItem]:
+    source_state = get_source_state(state, source)
+    if not tikhub_poll_due(source, source_state, now):
+        return []
+
+    payload = fetch_tikhub_payload(source)
+    if payload is None:
+        if source_state is not None:
+            source_state["last_skipped_reason"] = "missing TIKHUB_API_KEY"
+        return []
+
+    if source_state is not None:
+        source_state["last_polled_at"] = iso_or_none(now)
+        source_state.pop("last_skipped_reason", None)
+
+    items: list[NewsItem] = []
+    seen: set[str] = set()
+    for record in iter_json_dicts(payload):
+        title = strip_html(str(find_json_value(record, TIKHUB_TITLE_KEYS) or "")).strip()
+        if not title or len(title) < 4:
+            continue
+        url = str(find_json_value(record, TIKHUB_URL_KEYS) or "").strip()
+        if not url:
+            record_id = str(find_json_value(record, TIKHUB_ID_KEYS) or "").strip()
+            url = f"{source.url}#{urllib.parse.quote(record_id or title)}"
+        summary_text = strip_html(str(find_json_value(record, TIKHUB_SUMMARY_KEYS) or "")).strip()
+        published = parse_tikhub_datetime(find_json_value(record, TIKHUB_TIME_KEYS)) or now
+        key = canonical_url(url) if url else normalize_title(title)
+        if key in seen:
+            continue
+        seen.add(key)
+        summary = f"{source.name} 发现微信文章：{title}"
+        if summary_text and summary_text != title:
+            summary += f"。{summary_text[:240]}"
+        items.append(
+            NewsItem(
+                title=title,
+                url=url,
+                summary=summary,
+                published_at=iso_or_none(published),
+                source_id=source.id,
+                source_name=source.name,
+                tags=[tag for tag in [source.entity, source.category, source.method, source.priority, "TikHub", "WeChat"] if tag],
+                score=0.0,
+            )
+        )
+        if len(items) >= tikhub_source_limit(source):
+            break
+
+    if source_state is not None:
+        source_state["last_raw_count"] = len(items)
+    return filter_new_items_by_state(source, items, state)
+
 
 
 def parse_html_links(html_text: str, source: Source) -> tuple[list[tuple[str, str]], str]:
@@ -1090,6 +1318,12 @@ def collect_source_items(
         items = collect_github_repo_items(source, state, now)
         source_state = get_source_state(state, source)
         raw_count = len(source_state.get("repos", {})) if source_state is not None else len(items)
+        return items, raw_count
+
+    if source.method == "tikhub_wechat_search":
+        items = collect_tikhub_wechat_items(source, state, now)
+        source_state = get_source_state(state, source)
+        raw_count = int(source_state.get("last_raw_count", len(items))) if source_state is not None else len(items)
         return items, raw_count
 
     raise ValueError(f"unsupported method: {source.method}")
