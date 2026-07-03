@@ -322,15 +322,16 @@
       "last_checked_at": "2026-07-02T04:51:33.967446Z",
       "baseline_initialized": true,
       "repos": {
-        "deepseek-ai/awesome-deepseek-agent": "2026-06-17T01:24:37Z",
         "deepseek-ai/DeepSpec": "2026-06-30T06:42:21Z",
+        "deepseek-ai/TileKernels": "2026-04-23T10:19:21Z",
+        "deepseek-ai/DeepSeek-R1": "2025-06-27T08:35:54Z",
+        "deepseek-ai/DeepSeek-V3": "2025-08-28T03:24:37Z",
+        "deepseek-ai/awesome-deepseek-agent": "2026-06-17T01:24:37Z",
         "deepseek-ai/FlashMLA": "2026-04-30T09:04:01Z",
         "deepseek-ai/3FS": "2026-05-07T09:31:54Z",
         "deepseek-ai/DeepEP": "2026-07-03T02:03:50Z",
         "deepseek-ai/awesome-deepseek-integration": "2026-02-23T16:27:47Z",
-        "deepseek-ai/DeepSeek-R1": "2025-06-27T08:35:54Z",
         "deepseek-ai/DeepGEMM": "2026-06-29T08:18:56Z",
-        "deepseek-ai/DeepSeek-V3": "2025-08-28T03:24:37Z",
         "deepseek-ai/DeepSeek-LLM": "2024-02-04T12:22:16Z",
         "deepseek-ai/DeepSeek-Coder": "2025-11-11T06:44:56Z",
         "deepseek-ai/DeepSeek-Math": "2024-04-15T07:55:37Z",
@@ -340,10 +341,9 @@
         "deepseek-ai/DeepSeek-OCR-2": "2026-02-03T00:34:18Z",
         "deepseek-ai/DeepSeek-OCR": "2026-01-27T03:45:14Z",
         "deepseek-ai/LPLB": "2025-11-19T07:20:35Z",
-        "deepseek-ai/Janus": "2025-02-01T07:58:29Z",
-        "deepseek-ai/open-infra-index": "2025-05-15T02:00:43Z"
+        "deepseek-ai/Janus": "2025-02-01T07:58:29Z"
       },
-      "last_changed_at": "2026-07-03T02:13:29.789554Z"
+      "last_changed_at": "2026-07-03T02:23:25.529315Z"
     },
     "moonshot-github": {
       "seen_keys": [],
@@ -588,11 +588,11 @@
       "last_checked_at": "2026-07-02T04:51:58.871155Z",
       "baseline_initialized": true,
       "repos": {
+        "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
+        "QwenLM/qwen-code": "2026-07-03T02:17:58Z",
         "QwenLM/Qwen3.6": "2026-06-03T12:14:19Z",
         "QwenLM/Qwen-Agent": "2026-03-04T08:15:07Z",
-        "QwenLM/qwen-code": "2026-07-03T02:16:51Z",
         "QwenLM/open-computer-use": "2026-06-10T16:38:07Z",
-        "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
         "QwenLM/Qwen3-ASR": "2026-06-26T08:20:17Z",
         "QwenLM/Qwen-AgentWorld": "2026-06-25T06:57:43Z",
         "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
@@ -609,7 +609,7 @@
         "QwenLM/Qwen-RobotManip": "2026-06-29T22:29:54Z",
         "QwenLM/Qwen3-Embedding": "2025-09-30T06:10:27Z"
       },
-      "last_changed_at": "2026-07-03T02:17:14.155254Z"
+      "last_changed_at": "2026-07-03T02:23:25.529315Z"
     },
     "tencent-hunyuan-github": {
       "seen_keys": [],
@@ -641,6 +641,7 @@
     },
     "qbitai-rss": {
       "seen_keys": [
+        "https://www.qbitai.com/2026/07/442138.html",
         "https://www.qbitai.com/2026/07/442134.html",
         "https://www.qbitai.com/2026/07/442047.html",
         "https://www.qbitai.com/2026/07/442048.html",
@@ -651,7 +652,6 @@
         "https://www.qbitai.com/2026/07/441790.html",
         "https://www.qbitai.com/2026/07/441786.html",
         "https://www.qbitai.com/2026/07/441725.html",
-        "https://www.qbitai.com/2026/07/442138.html",
         "https://www.qbitai.com/2026/07/441586.html",
         "https://www.qbitai.com/2026/07/441490.html",
         "https://www.qbitai.com/2026/07/441491.html",
@@ -660,7 +660,7 @@
       ],
       "last_checked_at": "2026-07-02T04:52:26.145879Z",
       "baseline_initialized": true,
-      "last_changed_at": "2026-07-03T02:18:22.433812Z",
+      "last_changed_at": "2026-07-03T02:24:30.491264Z",
       "source_signature": "34418d38d4b87c134f9922d6999ac3c069821ed0be2134f9ba6ae5e00e4b63a9",
       "baseline_reinitialized_at": "2026-07-02T10:23:28.426031Z"
     },
