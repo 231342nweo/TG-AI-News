@@ -616,6 +616,7 @@
       "last_checked_at": "2026-07-02T04:52:01.889603Z",
       "baseline_initialized": true,
       "repos": {
+        "Tencent-Hunyuan/Hunyuan3D-Part": "2025-12-05T03:43:28Z",
         "Tencent-Hunyuan/R-DMesh": "2026-05-14T07:36:46Z",
         "Tencent-Hunyuan/UniRL": "2026-07-02T13:00:54Z",
         "Tencent-Hunyuan/HY-Motion-1.0": "2026-05-25T03:42:57Z",
@@ -634,13 +635,13 @@
         "Tencent-Hunyuan/SAGE-GRPO": "2026-04-02T06:08:46Z",
         "Tencent-Hunyuan/HunyuanWorld-Mirror": "2026-05-27T03:22:57Z",
         "Tencent-Hunyuan/HunyuanWorld-1.0": "2026-04-15T17:27:25Z",
-        "Tencent-Hunyuan/HunyuanCustom": "2025-10-15T06:54:23Z",
-        "Tencent-Hunyuan/MixGRPO": "2026-07-01T10:49:26Z"
+        "Tencent-Hunyuan/HunyuanCustom": "2025-10-15T06:54:23Z"
       },
-      "last_changed_at": "2026-07-03T04:02:24.242469Z"
+      "last_changed_at": "2026-07-03T04:46:05.147623Z"
     },
     "qbitai-rss": {
       "seen_keys": [
+        "https://www.qbitai.com/2026/07/442167.html",
         "https://www.qbitai.com/2026/07/442138.html",
         "https://www.qbitai.com/2026/07/442134.html",
         "https://www.qbitai.com/2026/07/442047.html",
@@ -651,7 +652,6 @@
         "https://www.qbitai.com/2026/07/442016.html",
         "https://www.qbitai.com/2026/07/441790.html",
         "https://www.qbitai.com/2026/07/441786.html",
-        "https://www.qbitai.com/2026/07/442167.html",
         "https://www.qbitai.com/2026/07/441725.html",
         "https://www.qbitai.com/2026/07/441586.html",
         "https://www.qbitai.com/2026/07/441490.html",
@@ -661,7 +661,7 @@
       ],
       "last_checked_at": "2026-07-02T04:52:26.145879Z",
       "baseline_initialized": true,
-      "last_changed_at": "2026-07-03T04:16:00.666356Z",
+      "last_changed_at": "2026-07-03T04:47:21.607173Z",
       "source_signature": "34418d38d4b87c134f9922d6999ac3c069821ed0be2134f9ba6ae5e00e4b63a9",
       "baseline_reinitialized_at": "2026-07-02T10:23:28.426031Z"
     },
