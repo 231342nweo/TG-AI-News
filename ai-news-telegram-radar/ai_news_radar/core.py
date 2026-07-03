@@ -984,6 +984,17 @@ def github_repo_sort_time(repo: dict[str, Any]) -> str:
     return str(repo.get("pushed_at") or repo.get("updated_at") or repo.get("created_at") or "").strip()
 
 
+def github_new_repository_alert_enabled(source: Source) -> bool:
+    return "new_repository" in source.push_rule.lower()
+
+
+def github_repo_created_recently(repo: dict[str, Any], now: datetime, days: int = 30) -> bool:
+    created_at = parse_datetime(str(repo.get("created_at") or ""))
+    if created_at is None:
+        return False
+    return created_at >= now.astimezone(timezone.utc) - timedelta(days=days)
+
+
 def collect_github_repo_items(
     source: Source,
     state: dict[str, Any] | None,
@@ -1005,7 +1016,11 @@ def collect_github_repo_items(
         current[full_name] = updated_at
         if source_state is not None and not previous:
             continue
-        if source_state is not None and previous.get(full_name) == updated_at:
+        if source_state is not None and full_name in previous:
+            continue
+        if not github_new_repository_alert_enabled(source):
+            continue
+        if not github_repo_created_recently(repo, now):
             continue
 
         url = str(repo.get("html_url") or "").strip() or f"https://github.com/{full_name}"
@@ -1013,15 +1028,15 @@ def collect_github_repo_items(
         language = str(repo.get("language") or "").strip()
         topics = [str(topic) for topic in repo.get("topics", [])[:8] if topic]
         tags = [tag for tag in [source.entity, source.category, source.method, "GitHub", language, *topics] if tag]
-        summary = f"{source.name} 检测到 GitHub 项目更新：{full_name}"
+        summary = f"{source.name} 检测到新增官方 GitHub 仓库：{full_name}"
         if description:
             summary += f"。{description}"
         items.append(
             NewsItem(
-                title=f"{source.name} 项目更新：{full_name}",
+                title=f"{source.name} 新增仓库：{full_name}",
                 url=url,
                 summary=summary,
-                published_at=iso_or_none(parse_datetime(updated_at) or now),
+                published_at=iso_or_none(parse_datetime(str(repo.get("created_at") or "")) or parse_datetime(updated_at) or now),
                 source_id=source.id,
                 source_name=source.name,
                 tags=tags,
