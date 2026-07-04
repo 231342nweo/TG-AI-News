@@ -239,9 +239,9 @@
       ],
       "last_checked_at": "2026-07-02T04:52:05.788649Z",
       "baseline_initialized": true,
-      "last_changed_at": "2026-07-04T11:09:35.690472Z",
-      "fingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "last_excerpt": "",
+      "last_changed_at": "2026-07-04T14:00:05.588824Z",
+      "fingerprint": "8d61fef992b936c361ca409a8020332a66dbfde3bbb4b6bfa3555e80360f1609",
+      "last_excerpt": "文档中心 简体 文档 控制台 登录 注册 火山方舟 文档指南 订阅 [Agent/Coding Plan] API参考 资源 火山方舟 火山方舟 资源 请输入 实践教程 Ark CLI 使用指南 方舟文档 MCP 快速入门(新手版) Seedance-1.5-pro 提示词指南 Seedance-1.0-pro&pro-fast 提示词指南 Seedream 4.0-5.0 提示词指南 Seedream 4.0 助力 Seedance 生视频最佳实践 RAG（检索增强）解决方案 数据回流操作流程 如何设置控制台登录保持时间 角色扮演场景提示词指南 环境变量配置指南 突发流量处理最佳实践 火山方舟分账最佳实践 在应用中使用 RTC 实现 AI 实时对话 通过 TOS 内网预签名 URL 传入文件 产品公告 产品更新公告 模型发布公告 模型下线公告 历史公告 2026 公告 26年春节期间访问方式调整公告 2025 公告 模型发布公告 2025 产品更新公告 2025 模型下线公告 2025 高代码 SDK Arkitect 正式发布 2024 公告 模型发布公告 2024 产品更新公告 2024 模型下线公告 2024 火山方舟 SDK V1/V2下线公告及迁移指引 模型插件联网基础版、联网plus版、联网pro版下线公告 热门活动 Seedance 2.0 系列模型资源包使用规则 协作奖励计划 免费推理额度 购买指南 模型服务计费说明 TPM 保障包计费说明 联网内容插件产品计费 豆包助手计费 知识库计费 PromptPilot 计费 税率与发票 权限管理 使用 IAM 管理权限 管理 API Key HYOK 最佳实践 平台功能 平台能力速览 模型广场 应用广场 体验中心 体验中心概览 语言模型 虚拟人像库 录入真人形象素材 使用版权生视频模板生成 IP 视频 图片生成模型 语音模型 开发者模式 MCP 简介 Canvas 简介 在线推理 管理推理接入点 为 AI 生成产物添加隐式水印 安心体验模式细则说明 开通管理 安全管理 控制台-推理安全审计 控制台-精调安全审计 控制台-推理接入点安全监控总览 用量统计 项目配置 网络配置 Token 计算器 安全管理 安全管理总览 内容安全护栏 火山方舟大模型服务安全白皮书 火山方舟互信计算架构白皮书 推理会话数据应用层加密方案 精调安全防护能力介绍 常见问题 常见问题 相关协议 火山方舟大模型服务平台专用条款 火山方舟体验中心服务规则和免责声明 Agent Plan / Coding Plan 火山引擎数据授权使用协议 ArkClaw 服务规则 Harness 能力说明和产品专用条款 模型服务协议 豆包模型服务协议 火山引擎豆包大模型商标使用规范 月之暗面模型服务协议 智谱AI模型服务协议 PromptPilot 服务专用条款和数据授权使用协议 影眸模型服务协议 数美模型服务协议 开源模型许可证 模型备案 客户应用上架指南-算法备案资质申请流程 大模型备案说明(含算法备案及人工智能备案) 火山方舟模型备案信息公示 MCP 云产品一键授权开通相关协议 知识库产品服务和专用条款 豆包助手专区服务专用条款和数据授权使用协议 版权和人像素材使用规则 文档首页 火山方舟 产品公告 产品更新公告 复制全文 下载 pdf 我的收藏 产品公告 产品更新公告 复制全文 下载 pdf 我的收藏 产品更新公告 文档反馈 问问助手 最近更新时间： 2026.07.03 12:02:17 这个页面对您有帮助吗？ 有用 有用 无用 无用",
       "baseline_invalid": true,
       "source_signature": "bf1f63ca68ab1a7f10b219aa7fbc07472dde5da63456aa15a90f6ecaf31f0156",
       "baseline_reinitialized_at": "2026-07-02T10:22:21.295328Z"
@@ -324,36 +324,36 @@
       "baseline_initialized": true,
       "repos": {
         "deepseek-ai/DeepSeek-LLM": "2024-02-04T12:22:16Z",
-        "deepseek-ai/DeepSpec": "2026-06-30T06:42:21Z",
-        "deepseek-ai/awesome-deepseek-agent": "2026-06-17T01:24:37Z",
         "deepseek-ai/awesome-deepseek-integration": "2026-02-23T16:27:47Z",
+        "deepseek-ai/DeepSpec": "2026-06-30T06:42:21Z",
+        "deepseek-ai/Janus": "2025-02-01T07:58:29Z",
+        "deepseek-ai/awesome-deepseek-agent": "2026-06-17T01:24:37Z",
+        "deepseek-ai/3FS": "2026-05-07T09:31:54Z",
+        "deepseek-ai/DeepSeek-R1": "2025-06-27T08:35:54Z",
         "deepseek-ai/DeepSeek-Coder": "2025-11-11T06:44:56Z",
         "deepseek-ai/DeepSeek-V3": "2025-08-28T03:24:37Z",
+        "deepseek-ai/DeepEP": "2026-07-03T02:53:50Z",
+        "deepseek-ai/FlashMLA": "2026-04-30T09:04:01Z",
         "deepseek-ai/DeepSeek-OCR": "2026-01-27T03:45:14Z",
+        "deepseek-ai/TileKernels": "2026-04-23T10:19:21Z",
         "deepseek-ai/DeepSeek-OCR-2": "2026-02-03T00:34:18Z",
         "deepseek-ai/DeepGEMM": "2026-06-29T08:18:56Z",
-        "deepseek-ai/Janus": "2025-02-01T07:58:29Z",
-        "deepseek-ai/3FS": "2026-05-07T09:31:54Z",
         "deepseek-ai/smallpond": "2025-03-05T18:23:54Z",
-        "deepseek-ai/DeepSeek-R1": "2025-06-27T08:35:54Z",
         "deepseek-ai/DeepSeek-VL": "2024-04-24T05:01:06Z",
-        "deepseek-ai/DeepEP": "2026-07-03T02:53:50Z",
         "deepseek-ai/DeepSeek-Coder-V2": "2025-11-11T06:44:45Z",
         "deepseek-ai/Engram": "2026-01-14T01:13:02Z",
-        "deepseek-ai/TileKernels": "2026-04-23T10:19:21Z",
-        "deepseek-ai/DeepSeek-Math-V2": "2025-12-01T07:01:42Z",
-        "deepseek-ai/DeepSeek-MoE": "2024-01-16T12:18:10Z"
+        "deepseek-ai/DeepSeek-Math-V2": "2025-12-01T07:01:42Z"
       },
-      "last_changed_at": "2026-07-04T09:38:51.440627Z"
+      "last_changed_at": "2026-07-04T14:00:05.588824Z"
     },
     "moonshot-github": {
       "seen_keys": [],
       "last_checked_at": "2026-07-02T04:51:37.867265Z",
       "baseline_initialized": true,
       "repos": {
-        "MoonshotAI/kimi-code": "2026-07-04T11:57:04Z",
-        "MoonshotAI/Kimi-K2": "2026-01-21T05:33:12Z",
         "MoonshotAI/kimi-cli": "2026-06-22T12:35:05Z",
+        "MoonshotAI/kimi-code": "2026-07-04T13:20:24Z",
+        "MoonshotAI/Kimi-K2": "2026-01-21T05:33:12Z",
         "MoonshotAI/Attention-Residuals": "2026-03-17T06:23:11Z",
         "MoonshotAI/kimi-code-zed-extension": "2026-01-20T18:06:03Z",
         "MoonshotAI/Kimi-Vendor-Verifier": "2026-02-24T10:10:27Z",
@@ -372,18 +372,19 @@
         "MoonshotAI/kimi-help-center": "2026-05-08T04:47:45Z",
         "MoonshotAI/WorldVQA": "2026-02-04T07:27:04Z"
       },
-      "last_changed_at": "2026-07-04T12:15:55.556772Z"
+      "last_changed_at": "2026-07-04T14:00:05.588824Z"
     },
     "zai-github": {
       "seen_keys": [],
       "last_checked_at": "2026-07-02T04:51:40.485322Z",
       "baseline_initialized": true,
       "repos": {
+        "zai-org/GLM-130B": "2023-07-25T09:01:49Z",
+        "zai-org/SCAIL-2": "2026-06-21T14:21:19Z",
         "zai-org/GLM-5": "2026-06-20T04:22:09Z",
         "zai-org/Open-AutoGLM": "2026-03-06T08:38:39Z",
         "zai-org/CodeGeeX2": "2024-07-10T12:34:55Z",
         "zai-org/z-ai-sdk-python": "2026-06-16T03:07:59Z",
-        "zai-org/SCAIL-2": "2026-06-21T14:21:19Z",
         "zai-org/SCAIL": "2026-05-06T14:59:54Z",
         "zai-org/GLM-OCR": "2026-04-21T08:52:11Z",
         "zai-org/ChatGLM-6B": "2024-06-27T04:05:25Z",
@@ -397,10 +398,9 @@
         "zai-org/ChatGLM3": "2025-01-13T06:55:26Z",
         "zai-org/CogVLM": "2024-05-29T10:01:33Z",
         "zai-org/ChatGLM2-6B": "2024-06-27T04:05:08Z",
-        "zai-org/VisualGLM-6B": "2024-08-23T07:45:06Z",
-        "zai-org/CogView": "2023-09-25T04:07:19Z"
+        "zai-org/VisualGLM-6B": "2024-08-23T07:45:06Z"
       },
-      "last_changed_at": "2026-07-04T12:15:55.556772Z"
+      "last_changed_at": "2026-07-04T14:00:05.588824Z"
     },
     "minimax-github": {
       "seen_keys": [],
@@ -530,8 +530,9 @@
       "last_checked_at": "2026-07-02T04:51:55.708102Z",
       "baseline_initialized": true,
       "repos": {
-        "OpenBMB/VoxCPM": "2026-07-01T03:04:07Z",
         "OpenBMB/MiniCPM-V": "2026-06-25T12:12:59Z",
+        "OpenBMB/VoxCPM": "2026-07-01T03:04:07Z",
+        "OpenBMB/VisRAG": "2025-12-07T07:45:09Z",
         "OpenBMB/PilotDeck": "2026-07-03T13:27:38Z",
         "OpenBMB/AgentCPM": "2026-02-09T13:39:47Z",
         "OpenBMB/UltraRAG": "2026-07-04T05:57:24Z",
@@ -548,19 +549,20 @@
         "OpenBMB/BMTools": "2023-12-05T05:25:27Z",
         "OpenBMB/BMList": "2023-06-30T14:34:50Z",
         "OpenBMB/BMInf-demos": "2021-10-14T06:55:09Z",
-        "OpenBMB/BMInf": "2023-01-24T14:08:16Z",
-        "OpenBMB/EdgeClaw": "2026-04-15T09:25:35Z"
+        "OpenBMB/BMInf": "2023-01-24T14:08:16Z"
       },
-      "last_changed_at": "2026-07-04T11:09:35.690472Z"
+      "last_changed_at": "2026-07-04T14:00:05.588824Z"
     },
     "internlm-github": {
       "seen_keys": [],
       "last_checked_at": "2026-07-02T04:51:56.844085Z",
       "baseline_initialized": true,
       "repos": {
+        "InternLM/InternLM-XComposer": "2025-05-26T15:59:34Z",
+        "InternLM/InternLM": "2025-10-30T00:35:43Z",
+        "InternLM/SIM-CoT": "2026-04-13T14:19:59Z",
         "InternLM/Agent-FLAN": "2024-03-22T15:12:14Z",
         "InternLM/Challenge-Cup-2026": "2026-06-10T05:56:17Z",
-        "InternLM/InternLM": "2025-10-30T00:35:43Z",
         "InternLM/lmdeploy": "2026-07-03T15:27:44Z",
         "InternLM/Tutorial": "2026-04-22T08:39:08Z",
         "InternLM/xtuner": "2026-07-03T12:35:28Z",
@@ -569,17 +571,15 @@
         "InternLM/VSR": "2026-06-28T14:54:26Z",
         "InternLM/lagent": "2026-06-30T12:29:11Z",
         "InternLM/MindSearch": "2025-07-04T10:06:45Z",
-        "InternLM/SIM-CoT": "2026-04-13T14:19:59Z",
         "InternLM/Intern-S1": "2026-05-19T08:08:51Z",
         "InternLM/WildClawBench": "2026-06-25T04:11:35Z",
         "InternLM/Kernel-Smith": "2026-03-31T03:23:03Z",
         "InternLM/CapRL": "2026-06-23T02:40:21Z",
         "InternLM/ETCHR": "2026-05-25T02:59:45Z",
         "InternLM/ARC-VL": "2025-11-26T12:14:10Z",
-        "InternLM/Awesome-LLM-Training-System": "2024-08-06T04:41:03Z",
-        "InternLM/EMemBench": "2026-03-05T09:42:48Z"
+        "InternLM/Awesome-LLM-Training-System": "2024-08-06T04:41:03Z"
       },
-      "last_changed_at": "2026-07-04T09:38:51.440627Z"
+      "last_changed_at": "2026-07-04T14:00:05.588824Z"
     },
     "qwen-github": {
       "seen_keys": [
@@ -589,28 +589,28 @@
       "last_checked_at": "2026-07-02T04:51:58.871155Z",
       "baseline_initialized": true,
       "repos": {
-        "QwenLM/Qwen-Agent": "2026-03-04T08:15:07Z",
-        "QwenLM/qwen-code": "2026-07-04T11:55:39Z",
-        "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
-        "QwenLM/Qwen2-Audio": "2025-04-21T08:50:49Z",
+        "QwenLM/qwen-code": "2026-07-04T13:58:38Z",
+        "QwenLM/Qwen-AgentWorld": "2026-06-25T06:57:43Z",
         "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
+        "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
         "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
+        "QwenLM/Qwen3-VL-Embedding": "2026-06-23T10:39:17Z",
+        "QwenLM/Qwen-Image-Bench": "2026-06-18T10:00:04Z",
+        "QwenLM/Qwen3-Coder": "2026-03-24T08:22:10Z",
+        "QwenLM/Qwen": "2026-03-05T13:55:17Z",
+        "QwenLM/Qwen-Agent": "2026-03-04T08:15:07Z",
+        "QwenLM/Qwen2-Audio": "2025-04-21T08:50:49Z",
         "QwenLM/Qwen-Image-Layered": "2025-12-31T11:40:35Z",
         "QwenLM/Qwen3.6": "2026-06-03T12:14:19Z",
         "QwenLM/FlashQLA": "2026-07-03T11:14:43Z",
-        "QwenLM/Qwen": "2026-03-05T13:55:17Z",
         "QwenLM/Qwen3-Omni": "2026-04-23T10:58:01Z",
         "QwenLM/Qwen3-ASR": "2026-06-26T08:20:17Z",
         "QwenLM/WebWorld": "2026-02-25T06:29:03Z",
-        "QwenLM/Qwen3-VL-Embedding": "2026-06-23T10:39:17Z",
-        "QwenLM/Qwen-AgentWorld": "2026-06-25T06:57:43Z",
         "QwenLM/Qwen3-Embedding": "2025-09-30T06:10:27Z",
-        "QwenLM/Qwen3-Coder": "2026-03-24T08:22:10Z",
         "QwenLM/Qwen-Image": "2026-02-10T07:37:37Z",
-        "QwenLM/Qwen-RobotNav": "2026-06-30T03:01:19Z",
-        "QwenLM/Qwen3Guard": "2025-10-21T02:27:12Z"
+        "QwenLM/Qwen-RobotNav": "2026-06-30T03:01:19Z"
       },
-      "last_changed_at": "2026-07-04T12:15:55.556772Z"
+      "last_changed_at": "2026-07-04T14:00:05.588824Z"
     },
     "tencent-hunyuan-github": {
       "seen_keys": [],
@@ -985,6 +985,7 @@
     },
     "tencent-huggingface": {
       "models": {
+        "tencent/Ex-Omni": "2026-07-04T12:10:38.000Z",
         "tencent/Hy-Embodied-0.5-VLA-UMI": "2026-07-01T07:24:02.000Z",
         "tencent/Hy-Embodied-0.5-VLA-RoboTwin": "2026-07-01T07:23:29.000Z",
         "tencent/Hy-MT2-1.8B-1.25Bit-GGUF": "2026-06-11T09:22:21.000Z",
@@ -1003,11 +1004,11 @@
         "tencent/Hy-MT2-30B-A3B": "2026-05-26T09:05:48.000Z",
         "tencent/HY-World-2.0": "2026-05-21T03:25:37.000Z",
         "tencent/HY-OmniWeaving": "2026-05-06T10:16:28.000Z",
-        "tencent/Hy-MT1.5-1.8B-2bit": "2026-04-29T04:35:49.000Z",
-        "tencent/Hy-MT1.5-1.8B-2bit-GGUF": "2026-04-29T04:26:09.000Z"
+        "tencent/Hy-MT1.5-1.8B-2bit": "2026-04-29T04:35:49.000Z"
       },
       "last_checked_at": "2026-07-02T04:51:33.147542Z",
-      "baseline_initialized": true
+      "baseline_initialized": true,
+      "last_changed_at": "2026-07-04T14:00:05.588824Z"
     },
     "bytedance-seed-blog": {
       "seen_keys": [
