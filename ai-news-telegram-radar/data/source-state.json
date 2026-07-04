@@ -323,38 +323,38 @@
       "last_checked_at": "2026-07-02T04:51:33.967446Z",
       "baseline_initialized": true,
       "repos": {
-        "deepseek-ai/DeepSeek-LLM": "2024-02-04T12:22:16Z",
         "deepseek-ai/awesome-deepseek-integration": "2026-02-23T16:27:47Z",
         "deepseek-ai/DeepSpec": "2026-06-30T06:42:21Z",
-        "deepseek-ai/Janus": "2025-02-01T07:58:29Z",
-        "deepseek-ai/awesome-deepseek-agent": "2026-06-17T01:24:37Z",
-        "deepseek-ai/3FS": "2026-05-07T09:31:54Z",
+        "deepseek-ai/DeepSeek-Math-V2": "2025-12-01T07:01:42Z",
         "deepseek-ai/DeepSeek-R1": "2025-06-27T08:35:54Z",
-        "deepseek-ai/DeepSeek-Coder": "2025-11-11T06:44:56Z",
         "deepseek-ai/DeepSeek-V3": "2025-08-28T03:24:37Z",
-        "deepseek-ai/DeepEP": "2026-07-03T02:53:50Z",
+        "deepseek-ai/DeepSeek-VL2": "2025-02-26T05:03:42Z",
+        "deepseek-ai/Janus": "2025-02-01T07:58:29Z",
+        "deepseek-ai/ESFT": "2025-05-22T07:47:15Z",
+        "deepseek-ai/DeepSeek-Math": "2024-04-15T07:55:37Z",
+        "deepseek-ai/DeepSeek-Coder": "2025-11-11T06:44:56Z",
+        "deepseek-ai/awesome-deepseek-agent": "2026-06-17T01:24:37Z",
+        "deepseek-ai/DeepSeek-Coder-V2": "2025-11-11T06:44:45Z",
         "deepseek-ai/FlashMLA": "2026-04-30T09:04:01Z",
-        "deepseek-ai/DeepSeek-OCR": "2026-01-27T03:45:14Z",
-        "deepseek-ai/TileKernels": "2026-04-23T10:19:21Z",
+        "deepseek-ai/3FS": "2026-05-07T09:31:54Z",
         "deepseek-ai/DeepSeek-OCR-2": "2026-02-03T00:34:18Z",
         "deepseek-ai/DeepGEMM": "2026-06-29T08:18:56Z",
-        "deepseek-ai/smallpond": "2025-03-05T18:23:54Z",
-        "deepseek-ai/DeepSeek-VL": "2024-04-24T05:01:06Z",
-        "deepseek-ai/DeepSeek-Coder-V2": "2025-11-11T06:44:45Z",
-        "deepseek-ai/Engram": "2026-01-14T01:13:02Z",
-        "deepseek-ai/DeepSeek-Math-V2": "2025-12-01T07:01:42Z"
+        "deepseek-ai/DeepSeek-OCR": "2026-01-27T03:45:14Z",
+        "deepseek-ai/DeepSeek-LLM": "2024-02-04T12:22:16Z",
+        "deepseek-ai/DeepEP": "2026-07-03T02:53:50Z",
+        "deepseek-ai/TileKernels": "2026-04-23T10:19:21Z"
       },
-      "last_changed_at": "2026-07-04T14:00:05.588824Z"
+      "last_changed_at": "2026-07-04T18:15:18.945740Z"
     },
     "moonshot-github": {
       "seen_keys": [],
       "last_checked_at": "2026-07-02T04:51:37.867265Z",
       "baseline_initialized": true,
       "repos": {
-        "MoonshotAI/kimi-code": "2026-07-04T15:34:56Z",
+        "MoonshotAI/kimi-cli": "2026-06-22T12:35:05Z",
+        "MoonshotAI/kimi-code": "2026-07-04T17:28:43Z",
         "MoonshotAI/Kimi-K2": "2026-01-21T05:33:12Z",
         "MoonshotAI/Attention-Residuals": "2026-03-17T06:23:11Z",
-        "MoonshotAI/kimi-cli": "2026-06-22T12:35:05Z",
         "MoonshotAI/kimi-code-zed-extension": "2026-01-20T18:06:03Z",
         "MoonshotAI/Kimi-Vendor-Verifier": "2026-02-24T10:10:27Z",
         "MoonshotAI/Kimi-Linear": "2025-11-17T09:36:48Z",
@@ -372,15 +372,16 @@
         "MoonshotAI/kimi-help-center": "2026-05-08T04:47:45Z",
         "MoonshotAI/WorldVQA": "2026-02-04T07:27:04Z"
       },
-      "last_changed_at": "2026-07-04T16:13:54.481022Z"
+      "last_changed_at": "2026-07-04T18:15:18.945740Z"
     },
     "zai-github": {
       "seen_keys": [],
       "last_checked_at": "2026-07-02T04:51:40.485322Z",
       "baseline_initialized": true,
       "repos": {
-        "zai-org/ChatGLM3": "2025-01-13T06:55:26Z",
         "zai-org/GLM-5": "2026-06-20T04:22:09Z",
+        "zai-org/zai-coding-plugins": "2026-02-22T15:51:20Z",
+        "zai-org/ChatGLM3": "2025-01-13T06:55:26Z",
         "zai-org/ChatGLM2-6B": "2024-06-27T04:05:08Z",
         "zai-org/ChatGLM-6B": "2024-06-27T04:05:25Z",
         "zai-org/GLM-OCR": "2026-04-21T08:52:11Z",
@@ -397,10 +398,9 @@
         "zai-org/RPC-Bench": "2026-06-25T03:33:00Z",
         "zai-org/GLM-Image": "2026-03-20T03:10:16Z",
         "zai-org/CogVideo": "2025-11-04T11:19:04Z",
-        "zai-org/GLM-4": "2025-07-04T04:16:36Z",
-        "zai-org/CogCoM": "2024-07-05T09:56:19Z"
+        "zai-org/GLM-4": "2025-07-04T04:16:36Z"
       },
-      "last_changed_at": "2026-07-04T17:18:58.675331Z"
+      "last_changed_at": "2026-07-04T18:15:18.945740Z"
     },
     "minimax-github": {
       "seen_keys": [],
@@ -589,15 +589,15 @@
       "last_checked_at": "2026-07-02T04:51:58.871155Z",
       "baseline_initialized": true,
       "repos": {
-        "QwenLM/AutoIF": "2024-07-25T05:43:27Z",
-        "QwenLM/Qwen-AgentWorld": "2026-06-25T06:57:43Z",
         "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
-        "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
-        "QwenLM/qwen-code": "2026-07-04T17:04:53Z",
-        "QwenLM/Qwen3-Coder": "2026-03-24T08:22:10Z",
-        "QwenLM/Qwen3.6": "2026-06-03T12:14:19Z",
+        "QwenLM/qwen-code": "2026-07-04T17:40:00Z",
         "QwenLM/Qwen-Agent": "2026-03-04T08:15:07Z",
         "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
+        "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
+        "QwenLM/Qwen-AgentWorld": "2026-06-25T06:57:43Z",
+        "QwenLM/AutoIF": "2024-07-25T05:43:27Z",
+        "QwenLM/Qwen3-Coder": "2026-03-24T08:22:10Z",
+        "QwenLM/Qwen3.6": "2026-06-03T12:14:19Z",
         "QwenLM/Qwen-VLA": "2026-05-29T13:49:38Z",
         "QwenLM/Qwen3-VL-Embedding": "2026-06-23T10:39:17Z",
         "QwenLM/Qwen-Image-Bench": "2026-06-18T10:00:04Z",
@@ -610,35 +610,35 @@
         "QwenLM/WebWorld": "2026-02-25T06:29:03Z",
         "QwenLM/Qwen3-Embedding": "2025-09-30T06:10:27Z"
       },
-      "last_changed_at": "2026-07-04T17:18:58.675331Z"
+      "last_changed_at": "2026-07-04T18:15:18.945740Z"
     },
     "tencent-hunyuan-github": {
       "seen_keys": [],
       "last_checked_at": "2026-07-02T04:52:01.889603Z",
       "baseline_initialized": true,
       "repos": {
+        "Tencent-Hunyuan/Hunyuan-MT": "2025-12-30T09:12:46Z",
+        "Tencent-Hunyuan/Hunyuan3D-2.1": "2025-10-17T10:10:07Z",
+        "Tencent-Hunyuan/GEAR": "2026-07-01T03:15:10Z",
+        "Tencent-Hunyuan/HunyuanOCR": "2026-07-02T06:22:04Z",
+        "Tencent-Hunyuan/Hunyuan3D-2": "2025-10-28T09:58:12Z",
+        "Tencent-Hunyuan/HunyuanImage-3.0": "2026-06-23T13:12:44Z",
+        "Tencent-Hunyuan/HY-Motion-1.0": "2026-05-25T03:42:57Z",
+        "Tencent-Hunyuan/HY-SOAR": "2026-04-21T16:45:31Z",
         "Tencent-Hunyuan/HunyuanDiT": "2025-11-27T06:37:00Z",
         "Tencent-Hunyuan/HunyuanVideo": "2026-06-29T09:33:50Z",
         "Tencent-Hunyuan/Hy-Embodied-0.5-VLA": "2026-07-04T04:12:06Z",
         "Tencent-Hunyuan/Hy3-preview": "2026-04-23T15:09:16Z",
-        "Tencent-Hunyuan/Hunyuan3D-2": "2025-10-28T09:58:12Z",
         "Tencent-Hunyuan/HunyuanVideo-Foley": "2025-09-28T17:48:49Z",
-        "Tencent-Hunyuan/Hunyuan3D-2.1": "2025-10-17T10:10:07Z",
-        "Tencent-Hunyuan/HunyuanImage-3.0": "2026-06-23T13:12:44Z",
-        "Tencent-Hunyuan/HY-SOAR": "2026-04-21T16:45:31Z",
         "Tencent-Hunyuan/Hunyuan3D-1": "2025-11-19T07:07:41Z",
         "Tencent-Hunyuan/UniRL": "2026-07-03T11:16:01Z",
         "Tencent-Hunyuan/Hunyuan-GameCraft-1.0": "2025-11-28T07:05:10Z",
-        "Tencent-Hunyuan/HY-Motion-1.0": "2026-05-25T03:42:57Z",
         "Tencent-Hunyuan/HY-World-2.0": "2026-05-27T07:25:04Z",
         "Tencent-Hunyuan/HunyuanCustom": "2025-10-15T06:54:23Z",
-        "Tencent-Hunyuan/HunyuanOCR": "2026-07-02T06:22:04Z",
         "Tencent-Hunyuan/Hy-MT": "2026-06-01T11:38:04Z",
-        "Tencent-Hunyuan/Hy-MT2": "2026-06-30T07:17:36Z",
-        "Tencent-Hunyuan/GEAR": "2026-07-01T03:15:10Z",
-        "Tencent-Hunyuan/AutoCodeBenchmark": "2026-02-17T08:03:11Z"
+        "Tencent-Hunyuan/Hy-MT2": "2026-06-30T07:17:36Z"
       },
-      "last_changed_at": "2026-07-04T11:09:35.690472Z"
+      "last_changed_at": "2026-07-04T18:15:18.945740Z"
     },
     "qbitai-rss": {
       "seen_keys": [
