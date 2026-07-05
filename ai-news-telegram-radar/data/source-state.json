@@ -351,10 +351,11 @@
       "last_checked_at": "2026-07-02T04:51:37.867265Z",
       "baseline_initialized": true,
       "repos": {
-        "MoonshotAI/kimi-code": "2026-07-05T12:25:20Z",
+        "MoonshotAI/kimi-code": "2026-07-05T18:38:47Z",
+        "MoonshotAI/kimi-agent-sdk": "2026-05-29T05:29:38Z",
         "MoonshotAI/kimi-cli": "2026-06-22T12:35:05Z",
-        "MoonshotAI/Attention-Residuals": "2026-03-17T06:23:11Z",
         "MoonshotAI/Kimi-K2": "2026-01-21T05:33:12Z",
+        "MoonshotAI/Attention-Residuals": "2026-03-17T06:23:11Z",
         "MoonshotAI/Kimi-Audio": "2025-06-21T15:30:28Z",
         "MoonshotAI/kimi-code-zed-extension": "2026-01-20T18:06:03Z",
         "MoonshotAI/Kimi-Vendor-Verifier": "2026-02-24T10:10:27Z",
@@ -362,7 +363,6 @@
         "MoonshotAI/Kimi-K2.5": "2026-01-31T00:49:42Z",
         "MoonshotAI/Kimi-Dev": "2025-09-30T02:15:54Z",
         "MoonshotAI/Kimina-Prover-Preview": "2025-07-10T13:04:40Z",
-        "MoonshotAI/kimi-agent-sdk": "2026-05-29T05:29:38Z",
         "MoonshotAI/Kimi-k1.5": "2025-03-07T11:16:36Z",
         "MoonshotAI/walle": "2026-06-29T14:05:32Z",
         "MoonshotAI/kimi-agent-rs": "2026-02-06T15:15:57Z",
@@ -372,7 +372,7 @@
         "MoonshotAI/kimi-help-center": "2026-05-08T04:47:45Z",
         "MoonshotAI/WorldVQA": "2026-02-04T07:27:04Z"
       },
-      "last_changed_at": "2026-07-05T12:58:48.631015Z"
+      "last_changed_at": "2026-07-05T18:48:52.102919Z"
     },
     "zai-github": {
       "seen_keys": [],
@@ -589,11 +589,11 @@
       "last_checked_at": "2026-07-02T04:51:58.871155Z",
       "baseline_initialized": true,
       "repos": {
-        "QwenLM/qwen-code": "2026-07-05T17:46:55Z",
+        "QwenLM/qwen-code": "2026-07-05T17:54:53Z",
+        "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
         "QwenLM/Qwen-VL": "2024-08-07T02:37:06Z",
         "QwenLM/Qwen": "2026-03-05T13:55:17Z",
         "QwenLM/Qwen-VLA": "2026-05-29T13:49:38Z",
-        "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
         "QwenLM/Qwen-AgentWorld": "2026-06-25T06:57:43Z",
         "QwenLM/Qwen-RobotNav": "2026-06-30T03:01:19Z",
         "QwenLM/Qwen-RobotManip": "2026-06-29T22:29:54Z",
@@ -610,7 +610,7 @@
         "QwenLM/Qwen3-Coder": "2026-03-24T08:22:10Z",
         "QwenLM/Qwen-Image-Layered": "2025-12-31T11:40:35Z"
       },
-      "last_changed_at": "2026-07-05T17:48:18.198497Z"
+      "last_changed_at": "2026-07-05T18:48:52.102919Z"
     },
     "tencent-hunyuan-github": {
       "seen_keys": [],
