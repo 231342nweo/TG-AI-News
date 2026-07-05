@@ -239,9 +239,9 @@
       ],
       "last_checked_at": "2026-07-02T04:52:05.788649Z",
       "baseline_initialized": true,
-      "last_changed_at": "2026-07-05T20:02:23.330725Z",
-      "fingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "last_excerpt": "",
+      "last_changed_at": "2026-07-05T22:12:35.967167Z",
+      "fingerprint": "2dfd888fdd5e8018cee8e77df36401239b12076875ff2ab829b1728d2d371774",
+      "last_excerpt": "Please wait...",
       "baseline_invalid": true,
       "source_signature": "bf1f63ca68ab1a7f10b219aa7fbc07472dde5da63456aa15a90f6ecaf31f0156",
       "baseline_reinitialized_at": "2026-07-02T10:22:21.295328Z"
@@ -532,11 +532,13 @@
       "repos": {
         "OpenBMB/MiniCPM": "2026-06-20T06:06:47Z",
         "OpenBMB/VoxCPM": "2026-07-01T03:04:07Z",
+        "OpenBMB/SHIFT": "2026-07-03T17:44:49Z",
+        "OpenBMB/MiniCPM-V-Apps": "2026-07-01T11:04:25Z",
+        "OpenBMB/MiniCPM-Desk-Pet": "2026-07-03T03:22:55Z",
+        "OpenBMB/MiniCPM-V": "2026-06-25T12:12:59Z",
         "OpenBMB/UltraEval": "2024-10-30T09:16:01Z",
         "OpenBMB/RepoAgent": "2024-12-23T11:48:52Z",
         "OpenBMB/ChatDev": "2026-06-29T08:25:10Z",
-        "OpenBMB/MiniCPM-Desk-Pet": "2026-07-03T03:22:55Z",
-        "OpenBMB/MiniCPM-V": "2026-06-25T12:12:59Z",
         "OpenBMB/PilotDeck": "2026-07-03T13:27:38Z",
         "OpenBMB/ForgeTrain": "2026-06-17T06:14:58Z",
         "OpenBMB/ToolBench": "2025-05-21T15:46:59Z",
@@ -547,11 +549,9 @@
         "OpenBMB/AgentCPM": "2026-02-09T13:39:47Z",
         "OpenBMB/AgentVerse": "2024-09-09T05:47:44Z",
         "OpenBMB/XAgent": "2024-08-12T06:41:38Z",
-        "OpenBMB/VisCPM": "2024-06-13T14:02:54Z",
-        "OpenBMB/BMTools": "2023-12-05T05:25:27Z",
-        "OpenBMB/BMList": "2023-06-30T14:34:50Z"
+        "OpenBMB/VisCPM": "2024-06-13T14:02:54Z"
       },
-      "last_changed_at": "2026-07-05T16:48:36.085022Z"
+      "last_changed_at": "2026-07-05T22:12:35.967167Z"
     },
     "internlm-github": {
       "seen_keys": [],
@@ -589,15 +589,15 @@
       "last_checked_at": "2026-07-02T04:51:58.871155Z",
       "baseline_initialized": true,
       "repos": {
+        "QwenLM/Qwen": "2026-03-05T13:55:17Z",
+        "QwenLM/Qwen3-Coder": "2026-03-24T08:22:10Z",
         "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
         "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
         "QwenLM/Qwen-Agent": "2026-03-04T08:15:07Z",
         "QwenLM/qwen-code-docs": "2026-07-05T19:31:49Z",
         "QwenLM/Qwen-RobotNav": "2026-06-30T03:01:19Z",
-        "QwenLM/Qwen3-Coder": "2026-03-24T08:22:10Z",
-        "QwenLM/qwen-code": "2026-07-05T20:18:10Z",
+        "QwenLM/qwen-code": "2026-07-05T21:24:54Z",
         "QwenLM/Qwen-VL": "2024-08-07T02:37:06Z",
-        "QwenLM/Qwen": "2026-03-05T13:55:17Z",
         "QwenLM/Qwen-VLA": "2026-05-29T13:49:38Z",
         "QwenLM/Qwen-AgentWorld": "2026-06-25T06:57:43Z",
         "QwenLM/Qwen-RobotManip": "2026-06-29T22:29:54Z",
@@ -610,20 +610,21 @@
         "QwenLM/AutoIF": "2024-07-25T05:43:27Z",
         "QwenLM/Qwen-Image-Layered": "2025-12-31T11:40:35Z"
       },
-      "last_changed_at": "2026-07-05T21:12:48.448894Z"
+      "last_changed_at": "2026-07-05T22:12:35.967167Z"
     },
     "tencent-hunyuan-github": {
       "seen_keys": [],
       "last_checked_at": "2026-07-02T04:52:01.889603Z",
       "baseline_initialized": true,
       "repos": {
+        "Tencent-Hunyuan/HunyuanVideo-1.5": "2026-04-10T06:14:59Z",
+        "Tencent-Hunyuan/UniRL": "2026-07-05T21:57:55Z",
         "Tencent-Hunyuan/HunyuanWorld-1.0": "2026-04-15T17:27:25Z",
         "Tencent-Hunyuan/Hunyuan3D-2": "2025-10-28T09:58:12Z",
         "Tencent-Hunyuan/HunyuanVideo": "2026-06-29T09:33:50Z",
         "Tencent-Hunyuan/HunyuanImage-3.0": "2026-06-23T13:12:44Z",
         "Tencent-Hunyuan/HY-SOAR": "2026-04-21T16:45:31Z",
         "Tencent-Hunyuan/Hy-Embodied-0.5-VLA": "2026-07-04T04:12:06Z",
-        "Tencent-Hunyuan/UniRL": "2026-07-05T20:28:41Z",
         "Tencent-Hunyuan/ArtifactsBenchmark": "2025-12-30T06:38:40Z",
         "Tencent-Hunyuan/Hy-MT2": "2026-06-30T07:17:36Z",
         "Tencent-Hunyuan/PlanningBench": "2026-05-29T02:28:01Z",
@@ -635,10 +636,9 @@
         "Tencent-Hunyuan/HY-World-2.0": "2026-05-27T07:25:04Z",
         "Tencent-Hunyuan/HY-WU": "2026-03-18T09:24:59Z",
         "Tencent-Hunyuan/Hunyuan-MT": "2025-12-30T09:12:46Z",
-        "Tencent-Hunyuan/GEAR": "2026-07-01T03:15:10Z",
-        "Tencent-Hunyuan/HunyuanOCR": "2026-07-02T06:22:04Z"
+        "Tencent-Hunyuan/GEAR": "2026-07-01T03:15:10Z"
       },
-      "last_changed_at": "2026-07-05T21:12:48.448894Z"
+      "last_changed_at": "2026-07-05T22:12:35.967167Z"
     },
     "qbitai-rss": {
       "seen_keys": [
