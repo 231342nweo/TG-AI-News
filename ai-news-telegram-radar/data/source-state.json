@@ -195,12 +195,12 @@
       "baseline_reinitialized_at": "2026-07-02T10:22:21.295328Z"
     },
     "volcengine-ark-models": {
-      "fingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "fingerprint": "c25cb244df590122c1fc11eb42d823bc29cfbe9260cab73bdf8fe9bd9b3105c8",
       "last_checked_at": "2026-07-02T04:51:33.147542Z",
-      "last_excerpt": "",
+      "last_excerpt": "文档中心 简体 文档 控制台 登录 注册 火山方舟 文档指南 订阅 [Agent/Coding Plan] API参考 资源 火山方舟 火山方舟 文档指南 请输入 入门 产品简介 快速入门 模型列表 模型价格 最新模型：Seed 2.1 调用 文本生成 多模态理解 图片理解 视频理解 文档理解 音频理解 视频生成 Doubao Seedance 2.0 系列教程 Doubao Seedance 2.0 系列提示词指南 视频生成教程 图片生成 Seedream 4.0-5.0 教程 领域模型 3D 生成 向量化 工具调用 工具概述 豆包助手 Web Search（联网内容插件） Image Process（图像处理） 私域知识库搜索 Knowledge Search 云部署 MCP / Remote MCP Function Calling（函数调用） 进阶使用 深度思考 上下文管理 流式输出 续写模式 上下文缓存 原理及选型 上下文缓存(Context API) 文件输入(File API) 视觉定位 Grounding 提示词工程 结构化输出(beta) 接入三方工具 使用 Responses API 迁移至 Responses API 文本生成 深度思考 多模态理解 工具调用 上下文缓存 结构化输出(beta) 上下文编辑 推理 推理方式概述 在线推理（常规） 在线推理（低延迟） 在线推理（TPM 保障包） 在线推理（模型单元） 模型单元概述 创建模型单元 管理模型单元 批量推理 高级能力 智能模型路由 使用 MLP 推理服务 使用自定义模型进行推理 训练 模型精调 模型精调概述 有监督微调最佳实践 直接偏好优化最佳实践 强化学习最佳实践 精调 SDK 使用指南 模型精调数据集格式说明 管理自定义模型 模型评测 创建模型评测任务 查看并管理模型评测任务 评测数据集格式说明 数据集 数据集介绍 共享数据集 Managed Agent 快速上手 概述 快速入门（代码） 快速入门（控制台） 定义 Agent Agent Skills MCP Tools 工具权限策略 配置 Agent 环境 配置云环境 云沙箱参考 委派任务给 Agent 启动 Session 管理 Session Session 事件流 使用 Vaults 认证 管理 Agent 上下文 上传与挂载文件 持久化记忆 高级能力 Multi Agent 应用 应用实验室 零代码应用简介 零代码应用操作指南 低代码应用简介 高代码应用简介 高代码应用创建部署指南 服务组件库 网页解析插件功能说明 联网内容插件功能说明 联网系列插件升级为联网内容插件说明及操作指南 知识库插件功能说明 应用实验室 知识库 操作指南 文档知识问答核心流程 音视频知识问答核心流程 知识库管理 创建知识库 编辑知识库 查看知识库列表 查看知识库详情 删除知识库 知识检索 知识问答 续订知识库 退订知识库 配置实验版本 文档管理 导入文档 标签配置 删除文档 切片管理 新增切片 编辑切片 查阅切片 删除切片 知识服务管理 创建知识服务 知识服务管理 知识库配额说明 知识库分账管理 API参考 签名鉴权与调用示例 API 列表 最佳实践 MCP Server 知识型视频智能问答解决方案 视频高光提取及检索解决方案 更多最佳实践 知识库免费体验权益 SDK参考 SDK 升级与使用说明 PromptPilot PromptPilot 概述 PromptPilot 订阅管理 Prompt 生成 Prompt 调优 Prompt 批量 PromptPilot 管理 VideoPilot 功能介绍 视觉理解 Solution 评分DSL AgentPilot SDK 参考 AgentPilot OpenAPI 使用指南 VideoPilot API 文档首页 火山方舟 入门 模型列表 复制全文 下载 pdf 我的收藏 入门 模型列表 复制全文 下载 pdf 我的收藏 模型列表 文档反馈 问问助手 最近更新时间： 2026.07.03 12:02:17 这个页面对您有帮助吗？ 有用 有用 无用 无用",
       "baseline_initialized": true,
       "baseline_invalid": true,
-      "last_changed_at": "2026-07-06T02:40:53.839310Z",
+      "last_changed_at": "2026-07-06T03:00:52.918226Z",
       "source_signature": "ab5ee375ff670169281a4aefbc9772546566386e665c24a65ec209061d7dfada",
       "baseline_reinitialized_at": "2026-07-02T10:22:21.295328Z"
     },
@@ -589,15 +589,15 @@
       "last_checked_at": "2026-07-02T04:51:58.871155Z",
       "baseline_initialized": true,
       "repos": {
+        "QwenLM/Qwen-AgentWorld": "2026-06-25T06:57:43Z",
+        "QwenLM/Qwen-RobotNav": "2026-06-30T03:01:19Z",
         "QwenLM/FlashQLA": "2026-07-03T11:14:43Z",
         "QwenLM/Qwen3-Embedding": "2025-09-30T06:10:27Z",
-        "QwenLM/qwen-code": "2026-07-06T02:51:44Z",
+        "QwenLM/qwen-code": "2026-07-06T03:01:04Z",
         "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
         "QwenLM/Qwen": "2026-03-05T13:55:17Z",
-        "QwenLM/Qwen-AgentWorld": "2026-06-25T06:57:43Z",
         "QwenLM/Qwen-VLA": "2026-05-29T13:49:38Z",
         "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
-        "QwenLM/Qwen-RobotNav": "2026-06-30T03:01:19Z",
         "QwenLM/Qwen3-ASR": "2026-06-26T08:20:17Z",
         "QwenLM/Qwen-RobotManip": "2026-06-29T22:29:54Z",
         "QwenLM/Qwen-Image": "2026-02-10T07:37:37Z",
@@ -610,7 +610,7 @@
         "QwenLM/open-computer-use": "2026-06-10T16:38:07Z",
         "QwenLM/Qwen2-Audio": "2025-04-21T08:50:49Z"
       },
-      "last_changed_at": "2026-07-06T02:54:24.162411Z"
+      "last_changed_at": "2026-07-06T03:00:52.918226Z"
     },
     "tencent-hunyuan-github": {
       "seen_keys": [],
@@ -642,6 +642,8 @@
     },
     "qbitai-rss": {
       "seen_keys": [
+        "https://www.qbitai.com/2026/07/443522.html",
+        "https://www.qbitai.com/2026/07/443399.html",
         "https://www.qbitai.com/2026/07/443339.html",
         "https://www.qbitai.com/2026/07/443186.html",
         "https://www.qbitai.com/2026/07/443066.html",
@@ -652,8 +654,6 @@
         "https://www.qbitai.com/2026/07/442567.html",
         "https://www.qbitai.com/2026/07/442531.html",
         "https://www.qbitai.com/2026/07/442517.html",
-        "https://www.qbitai.com/2026/07/443522.html",
-        "https://www.qbitai.com/2026/07/443399.html",
         "https://www.qbitai.com/2026/07/442503.html",
         "https://www.qbitai.com/2026/07/442224.html",
         "https://www.qbitai.com/2026/07/442452.html",
@@ -679,7 +679,7 @@
       ],
       "last_checked_at": "2026-07-02T04:52:26.145879Z",
       "baseline_initialized": true,
-      "last_changed_at": "2026-07-06T02:55:49.988660Z",
+      "last_changed_at": "2026-07-06T03:02:00.069098Z",
       "source_signature": "34418d38d4b87c134f9922d6999ac3c069821ed0be2134f9ba6ae5e00e4b63a9",
       "baseline_reinitialized_at": "2026-07-02T10:23:28.426031Z"
     },
@@ -1107,11 +1107,11 @@
         "https://www.tc260.org.cn/portal/article/1/c5bff06b0a544674b12b89271bf8df02",
         "https://www.tc260.org.cn/portal/article/1/9745608fa11e46639275aa834e58b5c4",
         "https://www.tc260.org.cn/portal/article/1/07d60a8d728445fbb3526ca97e3d02d9",
-        "https://www.tc260.org.cn/portal/article/1/4541a22bb6f542b5ae7c37ffe0d914aa",
         "https://www.tc260.org.cn/portal/article/1/a6d21a769f07420f818f6bed6797c618",
+        "https://www.tc260.org.cn/portal/article/1/4541a22bb6f542b5ae7c37ffe0d914aa",
         "https://www.tc260.org.cn/portal/article/1/7ddf0e21844548ccacf5f520a0b5b673",
-        "https://www.tc260.org.cn/portal/article/1/6e8ada3dc7654f43b55675ad05c700d3",
         "https://www.tc260.org.cn/portal/article/1/3a56c5e4868f4e17ac8d71cc2daf2ec6",
+        "https://www.tc260.org.cn/portal/article/1/e159d8380a964bb69feb9834fd8126e2",
         "https://www.tc260.org.cn/portal/article/2/7bfa6ac909604997bfec986dca233699",
         "https://www.tc260.org.cn/portal/article/2/d9503798c7c744dfbb798feaedb6cfbc",
         "https://www.tc260.org.cn/portal/article/2/a54aac5d7237421caea024fdeb55b252",
@@ -1122,12 +1122,12 @@
         "https://www.tc260.org.cn/portal/suggestion-detail/35f737c28f85459ba1f379ad1d0992ff",
         "https://www.tc260.org.cn/portal/suggestion-detail/822d0889746444259ed1def11aa0f1e1",
         "https://www.tc260.org.cn/portal/suggestion-detail/ef5518f3213b4ec5bc5f3f2ce5ce1bee",
-        "https://www.tc260.org.cn/portal/article/1/e159d8380a964bb69feb9834fd8126e2",
+        "https://www.tc260.org.cn/portal/article/1/6e8ada3dc7654f43b55675ad05c700d3",
         "https://www.tc260.org.cn/portal/article/2/1911acff3c7a47a7958759dac2804c92"
       ],
       "last_checked_at": "2026-07-02T04:52:25.829528Z",
       "baseline_initialized": true,
-      "last_changed_at": "2026-07-06T02:42:12.082945Z",
+      "last_changed_at": "2026-07-06T03:01:55.159192Z",
       "source_signature": "ac7adf7536607ad1dc8d9ca06c0f10f499a52b1893dcc2d8ec03dd7b6240b921",
       "baseline_reinitialized_at": "2026-07-02T10:23:25.737100Z"
     },
@@ -1204,15 +1204,15 @@
       "last_changed_at": "2026-07-02T10:23:21.583673Z"
     },
     "tikhub-wechat-ai-search": {
-      "last_polled_at": "2026-07-06T02:54:24.162411Z",
+      "last_polled_at": "2026-07-06T03:00:52.918226Z",
       "last_raw_count": 8,
       "source_signature": "b68bee6c8bde9a8cda517e9189e5125dfeb2325604d2faa96e34801df26012e3",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-06T02:22:11.233997Z",
       "seen_keys": [
         "http://mp.weixin.qq.com/s?__biz=MzI2NDk5NzA0Mw%3D%3D&mid=2248894202&idx=1&sn=86e53caceac6571efca0f4bdfe8e9780&chksm=e850da9d7f030fea73c6fd4ab30e92e22a3ecbcc64058efc6314db58556b750622ed22cd59f9",
-        "http://mp.weixin.qq.com/s?__biz=MzcwMjMxMDk3OQ%3D%3D&mid=2247483813&idx=1&sn=3eb6133f74246194cac904be3fd33382&chksm=f5297681d9f94139c49f41b8533b3c59b1c417d1112260eef9c630b5d479ce57109fef5508bf",
         "http://mp.weixin.qq.com/s?__biz=MzU2MzAyNjE2Ng%3D%3D&mid=2247489111&idx=1&sn=1407bc6fc87275d3137079a5266c68b9&chksm=fdc1529367564b1d1f83ef79c2c53181f470270fc241ffbdbd0e00f08749fd62be701173d229",
+        "http://mp.weixin.qq.com/s?__biz=MzcwMjMxMDk3OQ%3D%3D&mid=2247483813&idx=1&sn=3eb6133f74246194cac904be3fd33382&chksm=f5297681d9f94139c49f41b8533b3c59b1c417d1112260eef9c630b5d479ce57109fef5508bf",
         "http://mp.weixin.qq.com/s?__biz=MzIyNzQ4NzM5MA%3D%3D&mid=2247485638&idx=1&sn=ce9ee5dcdbbd0958a50ed6696e81fee9&chksm=e9071ef32e9d9cc0b56a99e548e58eab13efaf4ed6f0b4834abbc169159dc673559347d1c1a6",
         "http://mp.weixin.qq.com/s?__biz=MzkzMDQwMjkxNA%3D%3D&mid=2247614679&idx=1&sn=317a8c8c3bbb050380844a2fc7ac2855&chksm=c31b803666606ec75f5e98e3d8e487498413e581c3c0fa7ab20b9ef166df68d9e3d694ff2bd6",
         "http://mp.weixin.qq.com/s?__biz=Mzg3MTY0Mzg5NA%3D%3D&mid=2247509320&idx=2&sn=e967ba04c7fd4617fea4f6affcc7d6da&chksm=cfddfdd1e3dd6ca4d09ad25db82e68fc793450717f88adeb02c7361f53964bfddb6d3d97745c",
@@ -1222,7 +1222,7 @@
         "http://mp.weixin.qq.com/s?__biz=MzkzNzYxNjU1NA%3D%3D&mid=2247488399&idx=2&sn=91ee9caae74f381353219114a884db1f&chksm=c3bdc56c08061262c5dc183ee893fe7df45f11757eeb4ad05d5476ea29abbe891549473273f9",
         "http://mp.weixin.qq.com/s?__biz=MjM5NjMzOTk2MA%3D%3D&mid=2653629548&idx=1&sn=e293a8e1b07a1fd0425cf5a41191e787&chksm=bcda5a4c79ddd760337d6158ce69aa76e0ab25c9be53ae30c4838ee2e19d92c00b051798f585"
       ],
-      "last_changed_at": "2026-07-06T02:49:08.741107Z"
+      "last_changed_at": "2026-07-06T03:01:58.129307Z"
     }
   }
 }
