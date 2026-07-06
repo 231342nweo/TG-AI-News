@@ -101,6 +101,8 @@ jobs:
           OPENAI_TRANSLATION_MODEL: ${{ secrets.OPENAI_TRANSLATION_MODEL }}
           OPENAI_TRANSLATION_API: chat
           OPENAI_TRANSLATION_ENABLED: "1"
+          TIKHUB_API_KEY: ${{ secrets.TIKHUB_API_KEY }}
+          TIKHUB_POLL_MINUTES: "60"
           GITHUB_TOKEN: ${{ github.token }}
         run: |
           git config user.name "github-actions[bot]"
