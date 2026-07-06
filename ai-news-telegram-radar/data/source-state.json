@@ -34,7 +34,9 @@
       },
       "last_checked_at": "2026-07-02T04:51:33.147542Z",
       "baseline_initialized": true,
-      "last_changed_at": "2026-07-04T04:49:17.267446Z"
+      "last_changed_at": "2026-07-06T03:50:27.306264Z",
+      "source_signature": "493770913e8ae652ad69deeb66eaf0582ce01f637f12ff2a200fcf5ffb6c8c79",
+      "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
     "kimi-platform-docs": {
       "fingerprint": "90755fe712a76a550da4624c929a0591739b01f06be13c59ce217fc9ec900d73",
@@ -88,7 +90,9 @@
       },
       "last_checked_at": "2026-07-02T04:51:33.147542Z",
       "baseline_initialized": true,
-      "last_changed_at": "2026-07-02T08:15:36.380442Z"
+      "last_changed_at": "2026-07-06T03:50:27.306264Z",
+      "source_signature": "5faff0b70c911b04ef63d9690a202b105ecf39b4b153127825318f73f08aab4c",
+      "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
     "minimax-platform": {
       "fingerprint": "e554f9891deecabc1def2204141eb4d6ec542374cc5f28ba38fd0ba2f7fa2e21",
@@ -164,7 +168,10 @@
         "Qwen/WebWorld-14B": "2026-05-08T12:11:59.000Z"
       },
       "last_checked_at": "2026-07-02T04:51:33.147542Z",
-      "baseline_initialized": true
+      "baseline_initialized": true,
+      "source_signature": "7fe916e0221a8af09fce24b96190cab3af4515a23ac49096747d486b164cef7f",
+      "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z",
+      "last_changed_at": "2026-07-06T03:50:27.306264Z"
     },
     "aliyun-bailian-models": {
       "fingerprint": "a5bdc39a73be75f1885f5a7eff2e40a8a763459bcac9225c9abc72a08a58fced",
@@ -195,12 +202,12 @@
       "baseline_reinitialized_at": "2026-07-02T10:22:21.295328Z"
     },
     "volcengine-ark-models": {
-      "fingerprint": "c25cb244df590122c1fc11eb42d823bc29cfbe9260cab73bdf8fe9bd9b3105c8",
+      "fingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "last_checked_at": "2026-07-02T04:51:33.147542Z",
-      "last_excerpt": "文档中心 简体 文档 控制台 登录 注册 火山方舟 文档指南 订阅 [Agent/Coding Plan] API参考 资源 火山方舟 火山方舟 文档指南 请输入 入门 产品简介 快速入门 模型列表 模型价格 最新模型：Seed 2.1 调用 文本生成 多模态理解 图片理解 视频理解 文档理解 音频理解 视频生成 Doubao Seedance 2.0 系列教程 Doubao Seedance 2.0 系列提示词指南 视频生成教程 图片生成 Seedream 4.0-5.0 教程 领域模型 3D 生成 向量化 工具调用 工具概述 豆包助手 Web Search（联网内容插件） Image Process（图像处理） 私域知识库搜索 Knowledge Search 云部署 MCP / Remote MCP Function Calling（函数调用） 进阶使用 深度思考 上下文管理 流式输出 续写模式 上下文缓存 原理及选型 上下文缓存(Context API) 文件输入(File API) 视觉定位 Grounding 提示词工程 结构化输出(beta) 接入三方工具 使用 Responses API 迁移至 Responses API 文本生成 深度思考 多模态理解 工具调用 上下文缓存 结构化输出(beta) 上下文编辑 推理 推理方式概述 在线推理（常规） 在线推理（低延迟） 在线推理（TPM 保障包） 在线推理（模型单元） 模型单元概述 创建模型单元 管理模型单元 批量推理 高级能力 智能模型路由 使用 MLP 推理服务 使用自定义模型进行推理 训练 模型精调 模型精调概述 有监督微调最佳实践 直接偏好优化最佳实践 强化学习最佳实践 精调 SDK 使用指南 模型精调数据集格式说明 管理自定义模型 模型评测 创建模型评测任务 查看并管理模型评测任务 评测数据集格式说明 数据集 数据集介绍 共享数据集 Managed Agent 快速上手 概述 快速入门（代码） 快速入门（控制台） 定义 Agent Agent Skills MCP Tools 工具权限策略 配置 Agent 环境 配置云环境 云沙箱参考 委派任务给 Agent 启动 Session 管理 Session Session 事件流 使用 Vaults 认证 管理 Agent 上下文 上传与挂载文件 持久化记忆 高级能力 Multi Agent 应用 应用实验室 零代码应用简介 零代码应用操作指南 低代码应用简介 高代码应用简介 高代码应用创建部署指南 服务组件库 网页解析插件功能说明 联网内容插件功能说明 联网系列插件升级为联网内容插件说明及操作指南 知识库插件功能说明 应用实验室 知识库 操作指南 文档知识问答核心流程 音视频知识问答核心流程 知识库管理 创建知识库 编辑知识库 查看知识库列表 查看知识库详情 删除知识库 知识检索 知识问答 续订知识库 退订知识库 配置实验版本 文档管理 导入文档 标签配置 删除文档 切片管理 新增切片 编辑切片 查阅切片 删除切片 知识服务管理 创建知识服务 知识服务管理 知识库配额说明 知识库分账管理 API参考 签名鉴权与调用示例 API 列表 最佳实践 MCP Server 知识型视频智能问答解决方案 视频高光提取及检索解决方案 更多最佳实践 知识库免费体验权益 SDK参考 SDK 升级与使用说明 PromptPilot PromptPilot 概述 PromptPilot 订阅管理 Prompt 生成 Prompt 调优 Prompt 批量 PromptPilot 管理 VideoPilot 功能介绍 视觉理解 Solution 评分DSL AgentPilot SDK 参考 AgentPilot OpenAPI 使用指南 VideoPilot API 文档首页 火山方舟 入门 模型列表 复制全文 下载 pdf 我的收藏 入门 模型列表 复制全文 下载 pdf 我的收藏 模型列表 文档反馈 问问助手 最近更新时间： 2026.07.03 12:02:17 这个页面对您有帮助吗？ 有用 有用 无用 无用",
+      "last_excerpt": "",
       "baseline_initialized": true,
       "baseline_invalid": true,
-      "last_changed_at": "2026-07-06T03:45:35.943042Z",
+      "last_changed_at": "2026-07-06T03:50:27.306264Z",
       "source_signature": "ab5ee375ff670169281a4aefbc9772546566386e665c24a65ec209061d7dfada",
       "baseline_reinitialized_at": "2026-07-02T10:22:21.295328Z"
     },
@@ -239,9 +246,9 @@
       ],
       "last_checked_at": "2026-07-02T04:52:05.788649Z",
       "baseline_initialized": true,
-      "last_changed_at": "2026-07-06T03:45:35.943042Z",
-      "fingerprint": "2dfd888fdd5e8018cee8e77df36401239b12076875ff2ab829b1728d2d371774",
-      "last_excerpt": "Please wait...",
+      "last_changed_at": "2026-07-06T03:50:27.306264Z",
+      "fingerprint": "7fa509c3ed4cd718bdb751f4502620d1ef272a9c9385282e08daefe9a1f0e554",
+      "last_excerpt": "文档中心 简体 文档 控制台 登录 注册 火山方舟 文档指南 订阅 [Agent/Coding Plan] API参考 资源 火山方舟 火山方舟 资源 请输入 产品公告 产品更新公告 模型发布公告 模型下线公告 历史公告 2026 公告 26年春节期间访问方式调整公告 2025 公告 模型发布公告 2025 产品更新公告 2025 模型下线公告 2025 高代码 SDK Arkitect 正式发布 2024 公告 模型发布公告 2024 产品更新公告 2024 模型下线公告 2024 火山方舟 SDK V1/V2下线公告及迁移指引 模型插件联网基础版、联网plus版、联网pro版下线公告 热门活动 Seedance 2.0 系列模型资源包使用规则 协作奖励计划 免费推理额度 实践教程 Ark CLI 使用指南 方舟文档 MCP 快速入门(新手版) Seedance-1.5-pro 提示词指南 Seedance-1.0-pro&pro-fast 提示词指南 Seedream 4.0-5.0 提示词指南 Seedream 4.0 助力 Seedance 生视频最佳实践 RAG（检索增强）解决方案 数据回流操作流程 如何设置控制台登录保持时间 角色扮演场景提示词指南 环境变量配置指南 突发流量处理最佳实践 火山方舟分账最佳实践 在应用中使用 RTC 实现 AI 实时对话 通过 TOS 内网预签名 URL 传入文件 购买指南 模型服务计费说明 TPM 保障包计费说明 联网内容插件产品计费 豆包助手计费 知识库计费 PromptPilot 计费 税率与发票 权限管理 使用 IAM 管理权限 管理 API Key HYOK 最佳实践 平台功能 平台能力速览 模型广场 应用广场 体验中心 体验中心概览 语言模型 虚拟人像库 录入真人形象素材 使用版权生视频模板生成 IP 视频 图片生成模型 语音模型 开发者模式 MCP 简介 Canvas 简介 在线推理 管理推理接入点 为 AI 生成产物添加隐式水印 安心体验模式细则说明 开通管理 安全管理 控制台-推理安全审计 控制台-精调安全审计 控制台-推理接入点安全监控总览 用量统计 项目配置 网络配置 Token 计算器 安全管理 安全管理总览 内容安全护栏 火山方舟大模型服务安全白皮书 火山方舟互信计算架构白皮书 推理会话数据应用层加密方案 精调安全防护能力介绍 常见问题 常见问题 相关协议 火山方舟大模型服务平台专用条款 火山方舟体验中心服务规则和免责声明 Agent Plan / Coding Plan 火山引擎数据授权使用协议 ArkClaw 服务规则 Harness 能力说明和产品专用条款 模型服务协议 豆包模型服务协议 火山引擎豆包大模型商标使用规范 月之暗面模型服务协议 智谱AI模型服务协议 PromptPilot 服务专用条款和数据授权使用协议 影眸模型服务协议 数美模型服务协议 开源模型许可证 模型备案 客户应用上架指南-算法备案资质申请流程 大模型备案说明(含算法备案及人工智能备案) 火山方舟模型备案信息公示 MCP 云产品一键授权开通相关协议 知识库产品服务和专用条款 豆包助手专区服务专用条款和数据授权使用协议 版权和人像素材使用规则 文档首页 火山方舟 产品公告 产品更新公告 复制全文 下载 pdf 我的收藏 产品公告 产品更新公告 复制全文 下载 pdf 我的收藏 产品更新公告 文档反馈 问问助手 最近更新时间： 2026.07.03 12:02:17 这个页面对您有帮助吗？ 有用 有用 无用 无用",
       "baseline_invalid": true,
       "source_signature": "bf1f63ca68ab1a7f10b219aa7fbc07472dde5da63456aa15a90f6ecaf31f0156",
       "baseline_reinitialized_at": "2026-07-02T10:22:21.295328Z"
@@ -323,16 +330,16 @@
       "last_checked_at": "2026-07-02T04:51:33.967446Z",
       "baseline_initialized": true,
       "repos": {
+        "deepseek-ai/awesome-deepseek-agent": "2026-06-17T01:24:37Z",
+        "deepseek-ai/DeepSeek-R1": "2025-06-27T08:35:54Z",
+        "deepseek-ai/DeepSpec": "2026-06-30T06:42:21Z",
         "deepseek-ai/FlashMLA": "2026-04-30T09:04:01Z",
-        "deepseek-ai/DeepSeek-Coder": "2025-11-11T06:44:56Z",
-        "deepseek-ai/DeepEP": "2026-07-03T02:53:50Z",
         "deepseek-ai/DeepGEMM": "2026-07-06T02:30:16Z",
+        "deepseek-ai/3FS": "2026-05-07T09:31:54Z",
+        "deepseek-ai/DeepEP": "2026-07-03T02:53:50Z",
+        "deepseek-ai/DeepSeek-Coder": "2025-11-11T06:44:56Z",
         "deepseek-ai/DeepSeek-Coder-V2": "2025-11-11T06:44:45Z",
         "deepseek-ai/DeepSeek-MoE": "2024-01-16T12:18:10Z",
-        "deepseek-ai/DeepSeek-R1": "2025-06-27T08:35:54Z",
-        "deepseek-ai/awesome-deepseek-agent": "2026-06-17T01:24:37Z",
-        "deepseek-ai/DeepSpec": "2026-06-30T06:42:21Z",
-        "deepseek-ai/3FS": "2026-05-07T09:31:54Z",
         "deepseek-ai/DeepSeek-V3": "2025-08-28T03:24:37Z",
         "deepseek-ai/DeepSeek-OCR-2": "2026-02-03T00:34:18Z",
         "deepseek-ai/awesome-deepseek-integration": "2026-02-23T16:27:47Z",
@@ -344,17 +351,19 @@
         "deepseek-ai/DreamCraft3D": "2025-04-22T11:09:39Z",
         "deepseek-ai/TileKernels": "2026-04-23T10:19:21Z"
       },
-      "last_changed_at": "2026-07-06T02:33:50.182331Z"
+      "last_changed_at": "2026-07-06T03:50:27.306264Z",
+      "source_signature": "e247a4022cc1b9d1fcca44981d9eb5c7892416a57bcff15ec2fe2fc72cfd972e",
+      "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
     "moonshot-github": {
       "seen_keys": [],
       "last_checked_at": "2026-07-02T04:51:37.867265Z",
       "baseline_initialized": true,
       "repos": {
+        "MoonshotAI/kimi-cli": "2026-06-22T12:35:05Z",
         "MoonshotAI/kimi-code": "2026-07-06T01:15:49Z",
         "MoonshotAI/Kimi-K2.5": "2026-01-31T00:49:42Z",
         "MoonshotAI/kimi-agent-sdk": "2026-05-29T05:29:38Z",
-        "MoonshotAI/kimi-cli": "2026-06-22T12:35:05Z",
         "MoonshotAI/Kimi-K2": "2026-01-21T05:33:12Z",
         "MoonshotAI/Attention-Residuals": "2026-03-17T06:23:11Z",
         "MoonshotAI/Kimi-Audio": "2025-06-21T15:30:28Z",
@@ -372,21 +381,23 @@
         "MoonshotAI/kimi-help-center": "2026-05-08T04:47:45Z",
         "MoonshotAI/WorldVQA": "2026-02-04T07:27:04Z"
       },
-      "last_changed_at": "2026-07-06T01:56:01.760104Z"
+      "last_changed_at": "2026-07-06T03:50:27.306264Z",
+      "source_signature": "c925f37596aaabb84376bf83142f08b0ce08447179a5d27a52c7956a40180daa",
+      "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
     "zai-github": {
       "seen_keys": [],
       "last_checked_at": "2026-07-02T04:51:40.485322Z",
       "baseline_initialized": true,
       "repos": {
+        "zai-org/GLM-4.5": "2026-02-01T08:28:10Z",
         "zai-org/GLM-5": "2026-06-20T04:22:09Z",
+        "zai-org/ChatGLM-6B": "2024-06-27T04:05:25Z",
         "zai-org/Open-AutoGLM": "2026-03-06T08:38:39Z",
         "zai-org/VisualGLM-6B": "2024-08-23T07:45:06Z",
-        "zai-org/ChatGLM-6B": "2024-06-27T04:05:25Z",
         "zai-org/CodeGeeX": "2024-08-13T05:59:38Z",
         "zai-org/GLM-OCR": "2026-04-21T08:52:11Z",
         "zai-org/SCAIL-2": "2026-06-21T14:21:19Z",
-        "zai-org/GLM-4.5": "2026-02-01T08:28:10Z",
         "zai-org/SSVAE": "2025-12-25T09:24:54Z",
         "zai-org/GLM-Image": "2026-03-20T03:10:16Z",
         "zai-org/GLM-130B": "2023-07-25T09:01:49Z",
@@ -400,72 +411,78 @@
         "zai-org/zai-coding-plugins": "2026-02-22T15:51:20Z",
         "zai-org/CodeGeeX4": "2024-08-25T14:26:16Z"
       },
-      "last_changed_at": "2026-07-06T01:56:01.760104Z"
+      "last_changed_at": "2026-07-06T03:50:27.306264Z",
+      "source_signature": "0f9d07d7983b4898dc433a8d045a96469f65dff73642f9fe1fbf73cf3299210c",
+      "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
     "minimax-github": {
       "seen_keys": [],
       "last_checked_at": "2026-07-02T04:51:46.918095Z",
       "baseline_initialized": true,
       "repos": {
-        "MiniMax-AI/MSA": "2026-06-15T04:40:59Z",
-        "MiniMax-AI/cli": "2026-06-09T12:41:42Z",
         "MiniMax-AI/skills": "2026-04-18T09:48:47Z",
+        "MiniMax-AI/MiniMax-M2": "2025-11-13T08:12:36Z",
         "MiniMax-AI/Mini-Agent": "2026-02-14T04:00:26Z",
-        "MiniMax-AI/MiniMax-Provider-Verifier": "2026-07-02T06:47:38Z",
-        "MiniMax-AI/MiniMax-01": "2025-07-07T12:24:30Z",
         "MiniMax-AI/MiniMax-M3": "2026-07-01T04:36:55Z",
-        "MiniMax-AI/MiniMax-Coding-Plan-MCP": "2026-02-10T12:01:59Z",
+        "MiniMax-AI/cli": "2026-06-09T12:41:42Z",
+        "MiniMax-AI/minimax_search": "2025-11-03T09:04:57Z",
+        "MiniMax-AI/OpenRoom": "2026-06-03T23:15:42Z",
+        "MiniMax-AI/MiniMax-01": "2025-07-07T12:24:30Z",
         "MiniMax-AI/MiniMax-M1": "2025-07-07T11:57:22Z",
         "MiniMax-AI/minimax-code": "2026-06-14T16:40:13Z",
-        "MiniMax-AI/MiniMax-M2": "2025-11-13T08:12:36Z",
+        "MiniMax-AI/MSA": "2026-06-15T04:40:59Z",
         "MiniMax-AI/MiniMax-MCP": "2026-05-21T03:40:18Z",
+        "MiniMax-AI/MiniMax-Provider-Verifier": "2026-07-02T06:47:38Z",
+        "MiniMax-AI/MiniMax-Coding-Plan-MCP": "2026-02-10T12:01:59Z",
         "MiniMax-AI/MiniMax-M2.7": "2026-04-14T19:11:22Z",
-        "MiniMax-AI/OpenRoom": "2026-06-03T23:15:42Z",
         "MiniMax-AI/MiniMax-M2.5": "2026-03-09T02:44:20Z",
         "MiniMax-AI/mini-vela": "2026-04-02T13:09:54Z",
         "MiniMax-AI/MiniMax-M2.1": "2026-01-28T08:39:36Z",
         "MiniMax-AI/VTP": "2026-04-15T07:09:46Z",
-        "MiniMax-AI/vercel-minimax-ai-provider": "2026-06-06T07:41:49Z",
-        "MiniMax-AI/minimax_search": "2025-11-03T09:04:57Z"
+        "MiniMax-AI/vercel-minimax-ai-provider": "2026-06-06T07:41:49Z"
       },
-      "last_changed_at": "2026-07-02T09:42:37.563455Z"
+      "last_changed_at": "2026-07-06T03:50:27.306264Z",
+      "source_signature": "7447070c255f24c8392151456130d2d0f151e24197208adc4a6860c7b238bc6e",
+      "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
     "stepfun-github": {
       "seen_keys": [],
       "last_checked_at": "2026-07-02T04:51:48.615583Z",
       "baseline_initialized": true,
       "repos": {
-        "stepfun-ai/Step-Realtime-CLI": "2026-06-18T04:45:15Z",
+        "stepfun-ai/Step1X-Edit": "2026-04-29T14:31:44Z",
+        "stepfun-ai/Step-3.7-Flash": "2026-06-01T06:58:45Z",
+        "stepfun-ai/gelab-zero": "2026-05-11T05:50:07Z",
+        "stepfun-ai/Step-Audio-EditX": "2026-04-09T02:27:46Z",
         "stepfun-ai/Step-Audio2": "2026-03-16T04:06:21Z",
+        "stepfun-ai/Step-3.5-Flash": "2026-04-03T12:50:32Z",
+        "stepfun-ai/Step-Realtime-CLI": "2026-06-18T04:45:15Z",
         "stepfun-ai/Step3-VL-10B": "2026-01-21T13:42:15Z",
         "stepfun-ai/Step-Audio-R1": "2026-04-29T04:15:21Z",
         "stepfun-ai/Step-Audio": "2026-03-16T03:53:07Z",
-        "stepfun-ai/Step-3.7-Flash": "2026-06-01T06:58:45Z",
-        "stepfun-ai/gelab-zero": "2026-05-11T05:50:07Z",
         "stepfun-ai/StepMesh": "2026-01-28T11:26:52Z",
         "stepfun-ai/SteptronOss": "2026-05-18T07:15:55Z",
         "stepfun-ai/Step-Video-T2V": "2025-03-17T03:26:54Z",
-        "stepfun-ai/Step-3.5-Flash": "2026-04-03T12:50:32Z",
-        "stepfun-ai/Step1X-Edit": "2026-04-29T14:31:44Z",
         "stepfun-ai/llama.cpp": "2026-06-21T08:13:56Z",
         "stepfun-ai/StepAudio-Skills": "2026-04-16T10:17:46Z",
         "stepfun-ai/GEBench": "2026-02-25T08:33:22Z",
         "stepfun-ai/PaCoRe": "2026-02-05T01:27:48Z",
         "stepfun-ai/StepDeepResearch": "2026-03-24T07:08:07Z",
         "stepfun-ai/Step-Audio-Edit-Benchmark": "2025-11-22T15:18:25Z",
-        "stepfun-ai/stepfunApi-audio-sdk": "2025-12-15T08:27:36Z",
-        "stepfun-ai/Step-Audio-EditX": "2026-04-09T02:27:46Z"
+        "stepfun-ai/stepfunApi-audio-sdk": "2025-12-15T08:27:36Z"
       },
-      "last_changed_at": "2026-07-03T16:16:45.411569Z"
+      "last_changed_at": "2026-07-06T03:50:27.306264Z",
+      "source_signature": "0c16d0bec86c2add01a625f4297429bfc4103a1c7c309525c559da8573280b38",
+      "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
     "baichuan-github": {
       "seen_keys": [],
       "last_checked_at": "2026-07-02T04:51:50.574395Z",
       "baseline_initialized": true,
       "repos": {
-        "baichuan-inc/Baichuan2": "2024-11-08T08:31:29Z",
-        "baichuan-inc/Baichuan-7B": "2024-07-18T14:23:01Z",
         "baichuan-inc/Baichuan-13B": "2023-09-06T17:16:53Z",
+        "baichuan-inc/Baichuan-7B": "2024-07-18T14:23:01Z",
+        "baichuan-inc/Baichuan2": "2024-11-08T08:31:29Z",
         "baichuan-inc/Baichuan-M3-235B": "2026-02-09T06:48:26Z",
         "baichuan-inc/baichuan-mcp-servers": "2026-02-11T04:51:20Z",
         "baichuan-inc/Baichuan-M2-32B": "2025-09-03T11:17:25Z",
@@ -474,7 +491,9 @@
         "baichuan-inc/Baichuan-M1-14B": "2025-02-20T04:03:40Z",
         "baichuan-inc/vllm": "2025-02-05T03:14:07Z"
       },
-      "last_changed_at": "2026-07-02T09:42:37.563455Z"
+      "last_changed_at": "2026-07-06T03:50:27.306264Z",
+      "source_signature": "a3a22ea231768ad1862ed878b5d5b7920512f45d3dae9704be52d47ec392d5ab",
+      "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
     "01ai-github": {
       "seen_keys": [],
@@ -494,15 +513,17 @@
         "01-ai/unstructured-api": "2024-09-14T06:57:57Z",
         "01-ai/.github": "2023-10-27T14:24:11Z"
       },
-      "last_changed_at": "2026-07-02T09:42:37.563455Z"
+      "last_changed_at": "2026-07-06T03:50:27.306264Z",
+      "source_signature": "efa93526cbd110d8f3c7d9702195de7b2ee71ae284d25861e5bcbff6d9b1c505",
+      "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
     "opensensenova-github": {
       "seen_keys": [],
       "last_checked_at": "2026-07-02T04:51:54.681996Z",
       "baseline_initialized": true,
       "repos": {
-        "OpenSenseNova/SenseNova-U1": "2026-06-30T10:07:11Z",
         "OpenSenseNova/SenseNova-Skills": "2026-07-01T07:35:14Z",
+        "OpenSenseNova/SenseNova-U1": "2026-06-30T10:07:11Z",
         "OpenSenseNova/SenseNova-SI": "2026-05-14T03:11:20Z",
         "OpenSenseNova/ConsistCompose": "2026-06-19T04:40:08Z",
         "OpenSenseNova/SenseNova-MARS": "2026-04-09T07:55:50Z",
@@ -519,7 +540,9 @@
         "OpenSenseNova/InteractiveOmni": "2025-12-03T10:43:09Z",
         "OpenSenseNova/LlamaIndex_SenseNova": "2024-08-30T07:51:57Z"
       },
-      "last_changed_at": "2026-07-02T09:42:37.563455Z"
+      "last_changed_at": "2026-07-06T03:50:27.306264Z",
+      "source_signature": "184a583402fb329afbafdb76f2a65866a141a46158abf1628f6e67daed5e148c",
+      "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
     "openbmb-github": {
       "seen_keys": [
@@ -551,35 +574,39 @@
         "OpenBMB/AgentVerse": "2024-09-09T05:47:44Z",
         "OpenBMB/XAgent": "2024-08-12T06:41:38Z"
       },
-      "last_changed_at": "2026-07-06T03:39:30.349756Z"
+      "last_changed_at": "2026-07-06T03:50:27.306264Z",
+      "source_signature": "3dd1c4ab8bc380dc66624329d310bc65fe6deafde7a370da1191ca03b32c0764",
+      "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
     "internlm-github": {
       "seen_keys": [],
       "last_checked_at": "2026-07-02T04:51:56.844085Z",
       "baseline_initialized": true,
       "repos": {
-        "InternLM/InternLM-XComposer": "2025-05-26T15:59:34Z",
+        "InternLM/xtuner": "2026-07-03T12:35:28Z",
+        "InternLM/CapRL": "2026-06-23T02:40:21Z",
+        "InternLM/lmdeploy": "2026-07-03T15:27:44Z",
+        "InternLM/WildClawBench": "2026-06-25T04:11:35Z",
+        "InternLM/MindSearch": "2025-07-04T10:06:45Z",
         "InternLM/InternLM": "2025-10-30T00:35:43Z",
+        "InternLM/Intern-S1": "2026-05-19T08:08:51Z",
+        "InternLM/InternLM-XComposer": "2025-05-26T15:59:34Z",
         "InternLM/SIM-CoT": "2026-04-13T14:19:59Z",
         "InternLM/Agent-FLAN": "2024-03-22T15:12:14Z",
         "InternLM/Challenge-Cup-2026": "2026-06-10T05:56:17Z",
-        "InternLM/lmdeploy": "2026-07-03T15:27:44Z",
         "InternLM/Tutorial": "2026-04-22T08:39:08Z",
-        "InternLM/xtuner": "2026-07-03T12:35:28Z",
         "InternLM/AcmeTrace": "2024-03-12T11:49:56Z",
         "InternLM/OVO-S-Bench": "2026-06-24T12:26:42Z",
         "InternLM/VSR": "2026-06-28T14:54:26Z",
         "InternLM/lagent": "2026-06-30T12:29:11Z",
-        "InternLM/MindSearch": "2025-07-04T10:06:45Z",
-        "InternLM/Intern-S1": "2026-05-19T08:08:51Z",
-        "InternLM/WildClawBench": "2026-06-25T04:11:35Z",
         "InternLM/Kernel-Smith": "2026-03-31T03:23:03Z",
-        "InternLM/CapRL": "2026-06-23T02:40:21Z",
         "InternLM/ETCHR": "2026-05-25T02:59:45Z",
         "InternLM/ARC-VL": "2025-11-26T12:14:10Z",
         "InternLM/Awesome-LLM-Training-System": "2024-08-06T04:41:03Z"
       },
-      "last_changed_at": "2026-07-04T14:00:05.588824Z"
+      "last_changed_at": "2026-07-06T03:50:27.306264Z",
+      "source_signature": "a7a2f73a91108336ba1fe2d4fb4d5921862eb329f648d490a4d7903663f49f70",
+      "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
     "qwen-github": {
       "seen_keys": [
@@ -589,7 +616,7 @@
       "last_checked_at": "2026-07-02T04:51:58.871155Z",
       "baseline_initialized": true,
       "repos": {
-        "QwenLM/qwen-code": "2026-07-06T03:44:15Z",
+        "QwenLM/qwen-code": "2026-07-06T03:50:12Z",
         "QwenLM/Qwen3-VL-Embedding": "2026-06-23T10:39:17Z",
         "QwenLM/Qwen-Agent": "2026-03-04T08:15:07Z",
         "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
@@ -610,7 +637,9 @@
         "QwenLM/Qwen3.6": "2026-06-03T12:14:19Z",
         "QwenLM/open-computer-use": "2026-06-10T16:38:07Z"
       },
-      "last_changed_at": "2026-07-06T03:45:35.943042Z"
+      "last_changed_at": "2026-07-06T03:50:27.306264Z",
+      "source_signature": "ddc0d8d3788b1fc4ba6779bc400a51934ce7ac0845fbfff67f906a6d77406e21",
+      "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
     "tencent-hunyuan-github": {
       "seen_keys": [],
@@ -638,7 +667,9 @@
         "Tencent-Hunyuan/Hunyuan3D-2.1": "2025-10-17T10:10:07Z",
         "Tencent-Hunyuan/HY-WU": "2026-03-18T09:24:59Z"
       },
-      "last_changed_at": "2026-07-06T03:20:01.709081Z"
+      "last_changed_at": "2026-07-06T03:50:27.306264Z",
+      "source_signature": "637ce9b3bc2d070666c42f5fd92e749870848ee35ed6d4c156f831c9bc8f2d04",
+      "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
     "qbitai-rss": {
       "seen_keys": [
@@ -727,7 +758,10 @@
         "moonshotai/MoonViT-SO-400M": "2025-04-17T12:56:48.000Z"
       },
       "last_checked_at": "2026-07-02T04:51:33.147542Z",
-      "baseline_initialized": true
+      "baseline_initialized": true,
+      "source_signature": "1708603d68dfe2313bc38f557345de32a8584edc3cb02bbdf291b66104cabff6",
+      "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z",
+      "last_changed_at": "2026-07-06T03:50:27.306264Z"
     },
     "minimax-huggingface": {
       "models": {
@@ -752,7 +786,10 @@
         "MiniMaxAI/SynLogic-Mix-3-32B": "2025-06-10T02:53:28.000Z"
       },
       "last_checked_at": "2026-07-02T04:51:33.147542Z",
-      "baseline_initialized": true
+      "baseline_initialized": true,
+      "source_signature": "c791f8f3410867867693db204e455df86ae7a3e9a02dd3d6e92a695edbddb685",
+      "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z",
+      "last_changed_at": "2026-07-06T03:50:27.306264Z"
     },
     "stepfun-research": {
       "fingerprint": "4f49fe683cc0d83cad8fd122f63f9c87942a8debff88d9b2c3eb5ddc888e1bf8",
@@ -787,7 +824,10 @@
         "stepfun-ai/PaCoRe-8B": "2026-01-14T07:22:44.000Z"
       },
       "last_checked_at": "2026-07-02T04:51:33.147542Z",
-      "baseline_initialized": true
+      "baseline_initialized": true,
+      "source_signature": "9f95eb36776507b2b82f71c5da55208b3b69d76e3b9fd87d585d89a0ee01691b",
+      "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z",
+      "last_changed_at": "2026-07-06T03:50:27.306264Z"
     },
     "baichuan-website": {
       "fingerprint": "9c543bfb47e404d84a2645b7348be6688cfa33cc3420319276e532191fff85bf",
@@ -823,7 +863,10 @@
         "baichuan-inc/Baichuan-7B": "2024-01-09T07:45:22.000Z"
       },
       "last_checked_at": "2026-07-02T04:51:33.147542Z",
-      "baseline_initialized": true
+      "baseline_initialized": true,
+      "source_signature": "acd473cc1c3b0318bc84a0a4cec46b0c44643176963c07e52e93d7f215dc3d62",
+      "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z",
+      "last_changed_at": "2026-07-06T03:50:27.306264Z"
     },
     "baichuan-modelscope": {
       "seen_keys": [],
@@ -866,7 +909,10 @@
         "01-ai/Yi-VL-34B": "2024-06-26T10:44:00.000Z"
       },
       "last_checked_at": "2026-07-02T04:51:33.147542Z",
-      "baseline_initialized": true
+      "baseline_initialized": true,
+      "source_signature": "51256a4aea80e82d2651129311d89400f3f99e011c12f721dd4cb6e44f9db9ae",
+      "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z",
+      "last_changed_at": "2026-07-06T03:50:27.306264Z"
     },
     "sensenova-website": {
       "fingerprint": "8e30d100d7728da3cd18f9de9d17a3610e5078ad1246e995cb187cd82bb290d3",
@@ -913,7 +959,10 @@
         "openbmb/BitCPM-CANN-8B": "2026-05-24T10:43:34.000Z"
       },
       "last_checked_at": "2026-07-02T04:51:33.147542Z",
-      "baseline_initialized": true
+      "baseline_initialized": true,
+      "source_signature": "215825cd22461b9c15e76a7c5633ff4c1d67c0e420c55ff47a0e5831ab5311aa",
+      "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z",
+      "last_changed_at": "2026-07-06T03:50:27.306264Z"
     },
     "internlm-huggingface": {
       "models": {
@@ -939,7 +988,10 @@
         "internlm/CapRL-Qwen3VL-2B-GGUF": "2025-12-29T01:54:30.000Z"
       },
       "last_checked_at": "2026-07-02T04:51:33.147542Z",
-      "baseline_initialized": true
+      "baseline_initialized": true,
+      "source_signature": "e67cfe98b67041106415f085a4fd6d130de23d6cc98457236a41d6861c4827c3",
+      "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z",
+      "last_changed_at": "2026-07-06T03:50:27.306264Z"
     },
     "modelscope": {
       "seen_keys": [],
@@ -1015,7 +1067,9 @@
       },
       "last_checked_at": "2026-07-02T04:51:33.147542Z",
       "baseline_initialized": true,
-      "last_changed_at": "2026-07-04T14:00:05.588824Z"
+      "last_changed_at": "2026-07-06T03:50:27.306264Z",
+      "source_signature": "02d7601c1d854eab72d26dff11922e611205f62b41994239baa86dea0e53b5a4",
+      "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
     "bytedance-seed-blog": {
       "seen_keys": [
@@ -1114,20 +1168,20 @@
         "https://www.tc260.org.cn/portal/article/1/e159d8380a964bb69feb9834fd8126e2",
         "https://www.tc260.org.cn/portal/article/2/7bfa6ac909604997bfec986dca233699",
         "https://www.tc260.org.cn/portal/article/2/d9503798c7c744dfbb798feaedb6cfbc",
-        "https://www.tc260.org.cn/portal/article/2/a54aac5d7237421caea024fdeb55b252",
         "https://www.tc260.org.cn/portal/article/2/dfde7d57db9b4d5697c202fdec722ae4",
-        "https://www.tc260.org.cn/portal/article/2/1911acff3c7a47a7958759dac2804c92",
+        "https://www.tc260.org.cn/portal/article/2/a54aac5d7237421caea024fdeb55b252",
         "https://www.tc260.org.cn/portal/suggestion-detail/070bd0f2bab446be9e293e491a786a76",
         "https://www.tc260.org.cn/portal/suggestion-detail/1a45ecd9ace34f94a40de59fc25b1fd6",
         "https://www.tc260.org.cn/portal/suggestion-detail/35f737c28f85459ba1f379ad1d0992ff",
         "https://www.tc260.org.cn/portal/suggestion-detail/822d0889746444259ed1def11aa0f1e1",
         "https://www.tc260.org.cn/portal/suggestion-detail/ef5518f3213b4ec5bc5f3f2ce5ce1bee",
+        "https://www.tc260.org.cn/portal/article/2/1911acff3c7a47a7958759dac2804c92",
         "https://www.tc260.org.cn/portal/article/1/6e8ada3dc7654f43b55675ad05c700d3",
         "https://www.tc260.org.cn/portal/article/2/71c613fd3db34b6a9da62f25b8219733"
       ],
       "last_checked_at": "2026-07-02T04:52:25.829528Z",
       "baseline_initialized": true,
-      "last_changed_at": "2026-07-06T03:46:35.339105Z",
+      "last_changed_at": "2026-07-06T03:51:39.556964Z",
       "source_signature": "ac7adf7536607ad1dc8d9ca06c0f10f499a52b1893dcc2d8ec03dd7b6240b921",
       "baseline_reinitialized_at": "2026-07-02T10:23:25.737100Z"
     },
@@ -1165,8 +1219,10 @@
         "OpenXLab-APP/PixArt-LCM": "2023-12-01T07:27:04Z",
         "OpenXLab-APP/Video-LLaVA": "2023-12-01T07:05:53Z"
       },
-      "last_changed_at": "2026-07-02T07:02:11.408401Z",
-      "baseline_initialized": true
+      "last_changed_at": "2026-07-06T03:50:27.306264Z",
+      "baseline_initialized": true,
+      "source_signature": "3f8f7bc39891fe81f8703f95ec89b00a5d00bbfe2ae5dcc0e0d536b4ea66b9f0",
+      "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
     "nda-ai-policy": {
       "seen_keys": [
@@ -1226,6 +1282,42 @@
         "http://mp.weixin.qq.com/s?__biz=MjM5NTQ5MjIyMA%3D%3D&mid=2654697894&idx=2&sn=748e062e68ec63a92843cf70a3ceea5f&chksm=bc3c7ced4745a7d23900c897d909facb16ce1938b1ab37081156872a7d410f6419f846fc0bc2"
       ],
       "last_changed_at": "2026-07-06T03:27:32.743048Z"
+    },
+    "tikhub-wechat-yicai": {
+      "last_polled_at": "2026-07-06T03:50:27.306264Z",
+      "last_raw_count": 8,
+      "source_signature": "d8f12c33a72df7482441fcd1a3ff851e93b7b9a79cb446d2d37a403664063670",
+      "baseline_initialized": true,
+      "baseline_reinitialized_at": "2026-07-06T03:51:43.565947Z",
+      "seen_keys": [
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661763410&idx=1&sn=b2edda868826b4dceb3d1a926c182012&chksm=bc2678f67acb85a42013e0bf6ebe31e0869ce4782205be7ca191e8c524c4c2fe3b5e37914052&scene=126&sessionid=0",
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661763403&idx=1&sn=d3598b89c71c500c144a08fa19f48e70&chksm=bcc6b865282f62525bd8b5157174fd8ddaddb654fc0dfbb2749f60bba392f54588861c33f995&scene=126&sessionid=0",
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661763390&idx=1&sn=95e5b98a9fe4efe621bd265da0e4b06a&chksm=bc11199bac130b09d0f1b16395e2555486b13ed19a984fcbfcb6b1f1525a8dc16295f8ba3f58&scene=126&sessionid=0",
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661763378&idx=1&sn=decd5b53eaf5f19e3cab0f338c468357&chksm=bca98eab3de08bd29d8f834ad640e3c56ead251984ca933ab68113e3de690c0b0e89cd80e799&scene=126&sessionid=0",
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661763370&idx=1&sn=74c11c4a76dca9f01a866a601dceeb15&chksm=bcfd10d39467b354592aab54937ea0c476acd95871d0dadc67a632baa7245c5e1ab9654c3510&scene=126&sessionid=0",
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661763365&idx=1&sn=9e84c5e65e973ca894c20ed849e7b6c2&chksm=bccedc61e39c05a1fb18a332dde24d56feb7b006dc77321289d2d8fc514ffb3b0dcc2cb7ae3b&scene=126&sessionid=0",
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661763359&idx=1&sn=71d2d886435479aacb857aa9d89b8a6b&chksm=bc3ab5518ea07d5a8e3bb3558cdc7051b4872078c8f45257bd0b4cfb21132ab2c85d1a84afef&scene=126&sessionid=0",
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661763351&idx=1&sn=0aedfa40421fa1aeb937abb4377a979a&chksm=bc15c2fe002f20314d0afe5bfc8fae090f8c6030d3308a38381acd04fb4da3e177a9e30873da&scene=126&sessionid=0"
+      ],
+      "last_changed_at": "2026-07-06T03:51:43.565947Z"
+    },
+    "tikhub-wechat-21jingji": {
+      "last_polled_at": "2026-07-06T03:50:27.306264Z",
+      "last_raw_count": 8,
+      "source_signature": "a585a9cb4142e0c5cee8958fb7db1b1520cf0b91be787ec3e76d32c337b22356",
+      "baseline_initialized": true,
+      "baseline_reinitialized_at": "2026-07-06T03:51:45.546531Z",
+      "seen_keys": [
+        "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650612158&idx=1&sn=af658a675b91ebc331413e3297b58452&chksm=b6617f5cb032e768ea709378db48be475795820460f1a20ea6b1d61c3e6a3e8cb76027bfaf3c",
+        "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650612046&idx=2&sn=296e362a46d49fd91e4962a48f9bdaae&chksm=b61c79a051e9ccedfd5649d216c75e366f9df81b7582c7ab8c186a8ad2c597bfc19f4cf35267",
+        "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650611784&idx=1&sn=e210173b3236e3c18369acae5b9a60bc&chksm=b64922e1a5ed4eabae38199bbfb823ddfe5b88f0e1f568d3019804644c5f4c0092f927c08991",
+        "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650611690&idx=1&sn=891e46a599ce347b93a0567b8a793584&chksm=b6b4d157f961d0682e4ec2cbdbd3f411e3733c82c9057933e049eae7f95e26060842a8f2d021",
+        "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650611633&idx=1&sn=ec5eae85caad652a470b0b0120add21c&chksm=b69f34ec8b70818762ba048b57e0e21c2a35126bafc0c54a9b93ad5c5dfa8b9e4fe3bf7dcb10",
+        "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650611585&idx=1&sn=6fa891770ca0b8a38ebcfbbedbb3a3cd&chksm=b6ba427848b766cf86b6e46104cc7590260ccd8d1609fbafb446d4e3eed11022944a2d15b693",
+        "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650611406&idx=1&sn=f8388f15d3799e65c93c924b8b85561e&chksm=b6a9fc78956ebc9e5c711840cd50134d862acb25b93bff6a7e56c1d7f1b011bfae42dee1e5d7",
+        "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650611316&idx=1&sn=329028bbaea8a8a7bcb565337089a4ef&chksm=b6181d9e7e22201170b63993da35994c0529cdefbbc0b8741895894659280c96c7df7f634ba2"
+      ],
+      "last_changed_at": "2026-07-06T03:51:45.546531Z"
     }
   }
 }
