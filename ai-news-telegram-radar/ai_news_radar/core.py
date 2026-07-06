@@ -554,7 +554,7 @@ def parse_date_from_text(value: str) -> datetime | None:
 
 TIKHUB_INTERNAL_QUERY_KEYS = {"_poll_minutes", "_interval_minutes", "_limit"}
 TIKHUB_TITLE_KEYS = {"title", "displaytitle", "articletitle", "msgtitle"}
-TIKHUB_URL_KEYS = {"url", "link", "articleurl", "contenturl", "jumpurl", "sourceurl"}
+TIKHUB_URL_KEYS = {"url", "link", "docurl", "articleurl", "contenturl", "jumpurl", "sourceurl"}
 TIKHUB_SUMMARY_KEYS = {"digest", "summary", "description", "desc", "abstract", "snippet", "content"}
 TIKHUB_TIME_KEYS = {
     "createtime",
@@ -691,6 +691,13 @@ def find_json_value(value: Any, key_names: set[str]) -> Any:
     return None
 
 
+def find_direct_json_value(value: dict[str, Any], key_names: set[str]) -> Any:
+    for key, candidate in value.items():
+        if normalize_json_key(str(key)) in key_names and json_value_present(candidate):
+            return candidate
+    return None
+
+
 def iter_json_dicts(value: Any) -> list[dict[str, Any]]:
     records: list[dict[str, Any]] = []
     if isinstance(value, dict):
@@ -700,6 +707,17 @@ def iter_json_dicts(value: Any) -> list[dict[str, Any]]:
     elif isinstance(value, list):
         for candidate in value:
             records.extend(iter_json_dicts(candidate))
+    return records
+
+
+def iter_tikhub_wechat_records(value: Any) -> list[dict[str, Any]]:
+    records: list[dict[str, Any]] = []
+    for record in iter_json_dicts(value):
+        title = find_direct_json_value(record, TIKHUB_TITLE_KEYS)
+        url = find_direct_json_value(record, TIKHUB_URL_KEYS)
+        doc_type = str(record.get("docType") or record.get("doctype") or "")
+        if json_value_present(title) and json_value_present(url) and doc_type in {"", "0"}:
+            records.append(record)
     return records
 
 
@@ -736,21 +754,27 @@ def collect_tikhub_wechat_items(
 
     items: list[NewsItem] = []
     seen: set[str] = set()
-    for record in iter_json_dicts(payload):
-        title = strip_html(str(find_json_value(record, TIKHUB_TITLE_KEYS) or "")).strip()
+    for record in iter_tikhub_wechat_records(payload):
+        title = strip_html(str(find_direct_json_value(record, TIKHUB_TITLE_KEYS) or "")).strip()
         if not title or len(title) < 4:
             continue
-        url = str(find_json_value(record, TIKHUB_URL_KEYS) or "").strip()
+        url = str(find_direct_json_value(record, TIKHUB_URL_KEYS) or "").strip()
         if not url:
-            record_id = str(find_json_value(record, TIKHUB_ID_KEYS) or "").strip()
+            record_id = str(find_direct_json_value(record, TIKHUB_ID_KEYS) or "").strip()
             url = f"{source.url}#{urllib.parse.quote(record_id or title)}"
-        summary_text = strip_html(str(find_json_value(record, TIKHUB_SUMMARY_KEYS) or "")).strip()
-        published = parse_tikhub_datetime(find_json_value(record, TIKHUB_TIME_KEYS)) or now
+        summary_text = strip_html(str(find_direct_json_value(record, TIKHUB_SUMMARY_KEYS) or "")).strip()
+        published = parse_tikhub_datetime(find_direct_json_value(record, TIKHUB_TIME_KEYS)) or now
         key = canonical_url(url) if url else normalize_title(title)
         if key in seen:
             continue
         seen.add(key)
+        account = ""
+        source_info = record.get("source")
+        if isinstance(source_info, dict):
+            account = strip_html(str(source_info.get("title") or "")).strip()
         summary = f"{source.name} 发现微信文章：{title}"
+        if account:
+            summary += f"（{account}）"
         if summary_text and summary_text != title:
             summary += f"。{summary_text[:240]}"
         items.append(
@@ -770,6 +794,13 @@ def collect_tikhub_wechat_items(
 
     if source_state is not None:
         source_state["last_raw_count"] = len(items)
+        placeholder_key = canonical_url(source.url)
+        seen_keys = set(source_state.get("seen_keys", []))
+        if placeholder_key in seen_keys:
+            source_state["seen_keys"] = [state_key_for_item(item) for item in items if state_key_for_item(item)][:300]
+            source_state["last_changed_at"] = iso_or_none(now)
+            source_state["tikhub_url_migration_at"] = iso_or_none(now)
+            return []
     return filter_new_items_by_state(source, items, state)
 
 
