@@ -809,18 +809,19 @@
     },
     {
       "id": "tikhub-wechat-ai-search",
-      "name": "TikHub 微信 AI 搜索",
+      "name": "TikHub 微信官方发布搜索",
       "entity": "微信搜一搜",
       "category": "social_search",
-      "url": "https://api.tikhub.io/api/v1/wechat_search/v2/fetch_search?keyword=大模型发布&raw=false&_poll_minutes=60&_limit=5",
+      "url": "https://api.tikhub.io/api/v1/wechat_search/v2/fetch_search?keyword=官方 大模型 发布&raw=false&_poll_minutes=5&_limit=8",
       "method": "tikhub_wechat_search",
       "priority": "B",
       "push_rule": "daily_digest_only_for_wechat_ai_search; immediate_only_if_confirms_major_official_china_ai_news",
       "weight": 1,
-      "max_items": 5,
+      "max_items": 8,
       "enabled": true,
-      "collector_note": "Requires TIKHUB_API_KEY. Polled hourly to control TikHub request cost."
-    },    {
+      "collector_note": "Requires TIKHUB_API_KEY. Polls every 5 minutes. Keyword is intentionally high-intent: 官方 大模型 发布."
+    },
+    {
       "id": "jiqizhixin-rss",
       "name": "机器之心",
       "entity": "机器之心",

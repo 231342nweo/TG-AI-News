@@ -59,9 +59,15 @@ OPENAI_BASE_URL=https://aaii.xclaw.info
 OPENAI_TRANSLATION_MODEL=gpt-5.5
 ```
 
-`TELEGRAM_BOT_TOKEN`、`OPENAI_API_KEY` 和 `TIKHUB_API_KEY` 填你自己的密钥。不要把 `.env` 文件上传到 GitHub。
+`TELEGRAM_BOT_TOKEN` 和 `OPENAI_API_KEY` 填你自己的密钥。不要把 `.env` 文件上传到 GitHub。
 
-TikHub 当前只作为微信搜索补充源，默认每小时请求一次，用来控制 API 调用成本。
+如果要启用 TikHub 微信补充采集，再添加：
+
+```text
+TIKHUB_API_KEY=你的 TikHub API Key
+```
+
+当前 TikHub 源按 5 分钟轮询高意图关键词，用来补充微信搜一搜里的中国 AI 公众号文章信号。
 
 ## 3. 确认 Actions 权限
 
