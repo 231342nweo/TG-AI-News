@@ -29,6 +29,7 @@ SUPPORTED_STATEFUL_METHODS = {
     "modelscope_html",
     "policy_keyword_html",
     "github_repos_api",
+    "tikhub_wechat_account_articles",
     "tikhub_wechat_search",
 }
 SUPPORTED_METHODS = SUPPORTED_FEED_METHODS | SUPPORTED_STATEFUL_METHODS
@@ -551,8 +552,7 @@ def parse_date_from_text(value: str) -> datetime | None:
     return None
 
 
-
-TIKHUB_INTERNAL_QUERY_KEYS = {"_poll_minutes", "_interval_minutes", "_limit"}
+TIKHUB_INTERNAL_QUERY_KEYS = {"_poll_minutes", "_interval_minutes", "_limit", "_source_title"}
 TIKHUB_TITLE_KEYS = {"title", "displaytitle", "articletitle", "msgtitle"}
 TIKHUB_URL_KEYS = {"url", "link", "docurl", "articleurl", "contenturl", "jumpurl", "sourceurl"}
 TIKHUB_SUMMARY_KEYS = {"digest", "summary", "description", "desc", "abstract", "snippet", "content"}
@@ -639,6 +639,11 @@ def tikhub_source_limit(source: Source) -> int:
     return source.max_items or 10
 
 
+def tikhub_source_title_filter(source: Source) -> str:
+    _, _, internal = tikhub_request_url_and_payload(source)
+    return strip_html(internal.get("_source_title", "")).strip()
+
+
 def tikhub_poll_due(source: Source, source_state: dict[str, Any] | None, now: datetime) -> bool:
     if source_state is None:
         return True
@@ -721,6 +726,26 @@ def iter_tikhub_wechat_records(value: Any) -> list[dict[str, Any]]:
     return records
 
 
+def tikhub_record_account_name(record: dict[str, Any]) -> str:
+    source_info = record.get("source")
+    if isinstance(source_info, dict):
+        for key in ("title", "nickName", "nickname", "name"):
+            value = source_info.get(key)
+            if json_value_present(value):
+                return strip_html(str(value)).strip()
+    for key in ("source_title", "sourceTitle", "account_name", "accountName", "nick_name", "nickname"):
+        value = record.get(key)
+        if json_value_present(value):
+            return strip_html(str(value)).strip()
+    return ""
+
+
+def tikhub_source_title_matches(actual: str, expected: str) -> bool:
+    if not expected:
+        return True
+    return re.sub(r"\s+", "", actual).lower() == re.sub(r"\s+", "", expected).lower()
+
+
 def parse_tikhub_datetime(value: Any) -> datetime | None:
     if value is None or (isinstance(value, str) and not value.strip()):
         return None
@@ -754,7 +779,11 @@ def collect_tikhub_wechat_items(
 
     items: list[NewsItem] = []
     seen: set[str] = set()
+    source_title_filter = tikhub_source_title_filter(source)
     for record in iter_tikhub_wechat_records(payload):
+        account = tikhub_record_account_name(record)
+        if not tikhub_source_title_matches(account, source_title_filter):
+            continue
         title = strip_html(str(find_direct_json_value(record, TIKHUB_TITLE_KEYS) or "")).strip()
         if not title or len(title) < 4:
             continue
@@ -768,10 +797,6 @@ def collect_tikhub_wechat_items(
         if key in seen:
             continue
         seen.add(key)
-        account = ""
-        source_info = record.get("source")
-        if isinstance(source_info, dict):
-            account = strip_html(str(source_info.get("title") or "")).strip()
         summary = f"{source.name} 发现微信文章：{title}"
         if account:
             summary += f"（{account}）"
@@ -802,7 +827,6 @@ def collect_tikhub_wechat_items(
             source_state["tikhub_url_migration_at"] = iso_or_none(now)
             return []
     return filter_new_items_by_state(source, items, state)
-
 
 
 def parse_html_links(html_text: str, source: Source) -> tuple[list[tuple[str, str]], str]:
@@ -1173,7 +1197,9 @@ def collect_huggingface_items(
     models = fetch_huggingface_models(source)
     source_state = get_source_state(state, source)
     previous: dict[str, str] = {}
+    signature_changed = False
     if source_state is not None:
+        signature_changed = sync_source_signature(source, source_state, now)
         previous = dict(source_state.get("models", {}))
 
     current: dict[str, str] = {}
@@ -1184,7 +1210,7 @@ def collect_huggingface_items(
             continue
         last_modified = str(model.get("lastModified") or "").strip()
         current[model_id] = last_modified
-        if source_state is not None and not previous:
+        if source_state is not None and (signature_changed or not previous):
             continue
         if source_state is not None and previous.get(model_id) == last_modified:
             continue
@@ -1217,10 +1243,10 @@ def collect_huggingface_items(
         )
 
     if source_state is not None:
-        if current != previous:
+        if signature_changed or current != previous:
             source_state["models"] = current
             source_state["last_changed_at"] = iso_or_none(now)
-        if not previous:
+        if signature_changed or not previous:
             source_state["baseline_initialized"] = True
             return []
     return items
@@ -1262,7 +1288,9 @@ def collect_github_repo_items(
     repos = fetch_github_repos(source)
     source_state = get_source_state(state, source)
     previous: dict[str, str] = {}
+    signature_changed = False
     if source_state is not None:
+        signature_changed = sync_source_signature(source, source_state, now)
         previous = dict(source_state.get("repos", {}))
 
     current: dict[str, str] = {}
@@ -1273,7 +1301,7 @@ def collect_github_repo_items(
             continue
         updated_at = github_repo_sort_time(repo)
         current[full_name] = updated_at
-        if source_state is not None and not previous:
+        if source_state is not None and (signature_changed or not previous):
             continue
         if source_state is not None and full_name in previous:
             continue
@@ -1304,10 +1332,10 @@ def collect_github_repo_items(
         )
 
     if source_state is not None:
-        if current != previous:
+        if signature_changed or current != previous:
             source_state["repos"] = current
             source_state["last_changed_at"] = iso_or_none(now)
-        if not previous:
+        if signature_changed or not previous:
             source_state["baseline_initialized"] = True
             return []
     return items
@@ -1351,7 +1379,7 @@ def collect_source_items(
         raw_count = len(source_state.get("repos", {})) if source_state is not None else len(items)
         return items, raw_count
 
-    if source.method == "tikhub_wechat_search":
+    if source.method in {"tikhub_wechat_account_articles", "tikhub_wechat_search"}:
         items = collect_tikhub_wechat_items(source, state, now)
         source_state = get_source_state(state, source)
         raw_count = int(source_state.get("last_raw_count", len(items))) if source_state is not None else len(items)

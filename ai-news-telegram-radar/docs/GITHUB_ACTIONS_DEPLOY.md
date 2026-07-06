@@ -67,7 +67,7 @@ OPENAI_TRANSLATION_MODEL=gpt-5.5
 TIKHUB_API_KEY=你的 TikHub API Key
 ```
 
-当前 TikHub 源按 5 分钟轮询高意图关键词，用来补充微信搜一搜里的中国 AI 公众号文章信号。
+当前 TikHub 微信源按 5 分钟轮询：第一财经使用固定公众号文章列表；21世纪经济报道因为 TikHub 历史文章接口不接受它的 legacy `wxid`，暂时使用“最新文章搜索 + 来源名精确过滤”的兼容采集。
 
 ## 3. 确认 Actions 权限
 

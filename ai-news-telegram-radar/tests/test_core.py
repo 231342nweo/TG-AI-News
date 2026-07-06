@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import json
 import unittest
 from datetime import datetime, timezone
 from pathlib import Path
@@ -290,6 +291,66 @@ class CoreTest(unittest.TestCase):
             ["https://forum.moonshot.ai/t/here-comes-kimi-k2-7-code-better-coding-with-more-efficiency/441"],
         )
 
+    def test_source_signature_change_rebuilds_list_baseline(self) -> None:
+        with TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            page = root / "kimi.html"
+            state = root / "state.json"
+            page.write_text(
+                '<a href="https://forum.moonshot.ai/t/current-announcement/441">Current Kimi Model Announcement</a>',
+                encoding="utf-8",
+            )
+            state.write_text(
+                json.dumps(
+                    {
+                        "sources": {
+                            "kimi-forum": {
+                                "seen_keys": ["https://forum.moonshot.ai/t/old-general-topic/101"],
+                                "baseline_initialized": True,
+                            }
+                        }
+                    }
+                ),
+                encoding="utf-8",
+            )
+            config = {
+                "settings": {"window_hours": 48, "limit": 5, "min_score": 1},
+                "keywords": ["Kimi", "Model"],
+                "sources": [
+                    {
+                        "id": "kimi-forum",
+                        "name": "Kimi 论坛公告",
+                        "url": str(page),
+                        "method": "html_list",
+                        "weight": 2,
+                    }
+                ],
+            }
+
+            first_items, _ = collect_news(
+                config,
+                now=datetime(2026, 7, 2, 12, tzinfo=timezone.utc),
+                state_path=state,
+            )
+            page.write_text(
+                """
+                <a href="https://forum.moonshot.ai/t/current-announcement/441">Current Kimi Model Announcement</a>
+                <a href="https://forum.moonshot.ai/t/new-kimi-model-release/442">New Kimi Model Release</a>
+                """,
+                encoding="utf-8",
+            )
+            second_items, _ = collect_news(
+                config,
+                now=datetime(2026, 7, 2, 13, tzinfo=timezone.utc),
+                state_path=state,
+            )
+            persisted = json.loads(state.read_text(encoding="utf-8"))
+
+            self.assertEqual(first_items, [])
+            self.assertIn("source_signature", persisted["sources"]["kimi-forum"])
+            self.assertEqual(len(second_items), 1)
+            self.assertEqual(second_items[0].title, "New Kimi Model Release")
+
     def test_policy_keyword_match_ignores_synthetic_source_summary(self) -> None:
         with TemporaryDirectory() as tmp:
             page = Path(tmp) / "policy.html"
@@ -336,7 +397,11 @@ class CoreTest(unittest.TestCase):
             page = root / "diff.html"
             state = root / "state.json"
             page.write_text(
-                "<html><body>测试模型平台 API 文档，包含模型列表、上下文窗口、价格和发布说明 v1。</body></html>",
+                (
+                    "<html><body>测试模型平台 API 文档，包含模型列表、上下文窗口、价格、"
+                    "计费规则、模型能力说明和发布说明 v1。本页面用于持续监测模型目录、"
+                    "上下文窗口、价格策略和 AI 产品更新。</body></html>"
+                ),
                 encoding="utf-8",
             )
             config = {
@@ -362,7 +427,11 @@ class CoreTest(unittest.TestCase):
                 state_path=state,
             )
             page.write_text(
-                "<html><body>测试模型平台 API 文档，包含模型列表、上下文窗口、价格和发布说明 v2，新增 AI 模型。</body></html>",
+                (
+                    "<html><body>测试模型平台 API 文档，包含模型列表、上下文窗口、价格、"
+                    "计费规则、模型能力说明和发布说明 v2，新增 AI 模型。本页面用于持续"
+                    "监测模型目录、上下文窗口、价格策略和 AI 产品更新。</body></html>"
+                ),
                 encoding="utf-8",
             )
             second_items, _ = collect_news(
@@ -374,6 +443,54 @@ class CoreTest(unittest.TestCase):
             self.assertEqual(first_items, [])
             self.assertEqual(len(second_items), 1)
             self.assertIn("页面发生更新", second_items[0].title)
+            self.assertIn("变化后片段", second_items[0].summary)
+            self.assertIn("新增 AI 模型", second_items[0].summary)
+
+    def test_html_diff_suppresses_waf_challenge_pages(self) -> None:
+        with TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            page = root / "diff.html"
+            state = root / "state.json"
+            page.write_text(
+                (
+                    "<html><body>模型平台文档包含大模型列表、价格、上下文窗口、API 调用方式、"
+                    "版本说明和发布记录，用于监测真实的 AI 产品更新。</body></html>"
+                ),
+                encoding="utf-8",
+            )
+            config = {
+                "settings": {"window_hours": 48, "limit": 5, "min_score": 1},
+                "keywords": ["AI", "模型"],
+                "sources": [
+                    {
+                        "id": "html-diff",
+                        "name": "HTML Diff",
+                        "entity": "模型平台",
+                        "url": str(page),
+                        "method": "html_diff",
+                        "weight": 2,
+                    }
+                ],
+            }
+
+            collect_news(
+                config,
+                now=datetime(2026, 7, 2, 12, tzinfo=timezone.utc),
+                state_path=state,
+            )
+            page.write_text(
+                '<html><script>var wci="_wafchallengeid"</script><body>Please enable JavaScript and please wait.</body></html>',
+                encoding="utf-8",
+            )
+            second_items, _ = collect_news(
+                config,
+                now=datetime(2026, 7, 2, 13, tzinfo=timezone.utc),
+                state_path=state,
+            )
+            persisted = json.loads(state.read_text(encoding="utf-8"))
+
+            self.assertEqual(second_items, [])
+            self.assertTrue(persisted["sources"]["html-diff"]["baseline_invalid"])
 
     def test_feed_sources_use_state_to_avoid_reposting(self) -> None:
         with TemporaryDirectory() as tmp:
@@ -508,6 +625,352 @@ class CoreTest(unittest.TestCase):
             self.assertEqual(len(third_items), 1)
             self.assertIn("新增仓库", third_items[0].title)
             self.assertIn("OpenXLab-APP/NewAgent", third_items[0].title)
+
+    def test_tikhub_wechat_search_uses_state_and_poll_interval(self) -> None:
+        with TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            payload = root / "wechat.json"
+            state = root / "state.json"
+            payload.write_text(
+                """
+                {
+                  "data": {
+                    "items": [
+                      {
+                        "title": "某模型公司发布新一代大模型",
+                        "doc_url": "https://mp.weixin.qq.com/s/old-model",
+                        "desc": "官方公众号宣布模型能力更新。",
+                        "timestamp": 1782992612,
+                        "docType": 0,
+                        "source": {"title": "模型公司"}
+                      }
+                    ]
+                  }
+                }
+                """,
+                encoding="utf-8",
+            )
+            config = {
+                "settings": {"window_hours": 48, "limit": 5, "min_score": 1},
+                "keywords": ["大模型", "模型"],
+                "sources": [
+                    {
+                        "id": "tikhub-wechat",
+                        "name": "TikHub 微信 AI 搜索",
+                        "entity": "微信搜一搜",
+                        "category": "social_search",
+                        "url": f"{payload}?_poll_minutes=60&_limit=5",
+                        "method": "tikhub_wechat_search",
+                        "priority": "B",
+                        "push_rule": "daily_digest_only_for_wechat_ai_search",
+                        "weight": 1,
+                    }
+                ],
+            }
+
+            first_items, _ = collect_news(
+                config,
+                now=datetime(2026, 7, 2, 12, tzinfo=timezone.utc),
+                state_path=state,
+            )
+            payload.write_text(
+                """
+                {
+                  "data": {
+                    "items": [
+                      {
+                        "title": "官方发布多模态大模型 API 更新",
+                        "doc_url": "https://mp.weixin.qq.com/s/new-model-api",
+                        "desc": "官方公众号宣布多模态模型 API 能力升级。",
+                        "timestamp": 1783296233,
+                        "docType": 0,
+                        "source": {"title": "官方公众号"}
+                      },
+                      {
+                        "title": "视频号里的大模型短视频",
+                        "pubTime": 1783291801,
+                        "docType": 5,
+                        "source": {"title": "视频号"}
+                      },
+                      {
+                        "title": "某模型公司发布新一代大模型",
+                        "doc_url": "https://mp.weixin.qq.com/s/old-model",
+                        "desc": "官方公众号宣布模型能力更新。",
+                        "timestamp": 1782992612,
+                        "docType": 0,
+                        "source": {"title": "模型公司"}
+                      }
+                    ]
+                  }
+                }
+                """,
+                encoding="utf-8",
+            )
+            second_items, _ = collect_news(
+                config,
+                now=datetime(2026, 7, 2, 12, 30, tzinfo=timezone.utc),
+                state_path=state,
+            )
+            third_items, _ = collect_news(
+                config,
+                now=datetime(2026, 7, 2, 13, 1, tzinfo=timezone.utc),
+                state_path=state,
+            )
+
+            self.assertEqual(first_items, [])
+            self.assertEqual(second_items, [])
+            self.assertEqual(len(third_items), 1)
+            self.assertEqual(third_items[0].title, "官方发布多模态大模型 API 更新")
+            self.assertEqual(third_items[0].url, "https://mp.weixin.qq.com/s/new-model-api")
+            self.assertIn("官方公众号", third_items[0].summary)
+
+    def test_tikhub_wechat_account_articles_uses_state_and_poll_interval(self) -> None:
+        with TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            payload = root / "account_articles.json"
+            state = root / "state.json"
+            payload.write_text(
+                """
+                {
+                  "data": {
+                    "biz_username": "gh_demo",
+                    "articles": [
+                      {
+                        "title": "AI 公司融资观察",
+                        "url": "https://mp.weixin.qq.com/s/old-ai-finance",
+                        "digest": "财经媒体报道 AI 公司动态。",
+                        "create_time": 1782992612,
+                        "item_show_type": 0
+                      }
+                    ]
+                  }
+                }
+                """,
+                encoding="utf-8",
+            )
+            config = {
+                "settings": {"window_hours": 48, "limit": 5, "min_score": 1},
+                "keywords": ["AI", "大模型"],
+                "sources": [
+                    {
+                        "id": "tikhub-wechat-account",
+                        "name": "第一财经",
+                        "entity": "第一财经",
+                        "category": "wechat_account",
+                        "url": f"{payload}?username=gh_demo&raw=false&page_size=10&_poll_minutes=5&_limit=5",
+                        "method": "tikhub_wechat_account_articles",
+                        "priority": "B",
+                        "push_rule": "daily_digest_only_for_wechat_account",
+                        "weight": 1,
+                    }
+                ],
+            }
+
+            first_items, _ = collect_news(
+                config,
+                now=datetime(2026, 7, 2, 12, tzinfo=timezone.utc),
+                state_path=state,
+            )
+            payload.write_text(
+                """
+                {
+                  "data": {
+                    "biz_username": "gh_demo",
+                    "articles": [
+                      {
+                        "title": "AI 金融产品发布",
+                        "url": "https://mp.weixin.qq.com/s/new-ai-finance-product",
+                        "digest": "财经媒体报道 AI 金融产品发布。",
+                        "create_time": 1783296233,
+                        "item_show_type": 0
+                      },
+                      {
+                        "title": "AI 公司融资观察",
+                        "url": "https://mp.weixin.qq.com/s/old-ai-finance",
+                        "digest": "财经媒体报道 AI 公司动态。",
+                        "create_time": 1782992612,
+                        "item_show_type": 0
+                      }
+                    ]
+                  }
+                }
+                """,
+                encoding="utf-8",
+            )
+            second_items, _ = collect_news(
+                config,
+                now=datetime(2026, 7, 2, 12, 4, tzinfo=timezone.utc),
+                state_path=state,
+            )
+            third_items, _ = collect_news(
+                config,
+                now=datetime(2026, 7, 2, 12, 6, tzinfo=timezone.utc),
+                state_path=state,
+            )
+
+            self.assertEqual(first_items, [])
+            self.assertEqual(second_items, [])
+            self.assertEqual(len(third_items), 1)
+            self.assertEqual(third_items[0].title, "AI 金融产品发布")
+            self.assertEqual(third_items[0].url, "https://mp.weixin.qq.com/s/new-ai-finance-product")
+
+    def test_tikhub_wechat_search_filters_source_title(self) -> None:
+        with TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            payload = root / "wechat_search.json"
+            payload.write_text(
+                """
+                {
+                  "data": {
+                    "items": [
+                      {
+                        "title": "AI 产业公司调研",
+                        "doc_url": "https://mp.weixin.qq.com/s/target-ai",
+                        "desc": "目标财经媒体报道 AI 产业。",
+                        "timestamp": 1783296233,
+                        "docType": 0,
+                        "source": {"title": "21世纪经济报道"}
+                      },
+                      {
+                        "title": "AI 行业评论",
+                        "doc_url": "https://mp.weixin.qq.com/s/other-ai",
+                        "desc": "其他账号报道 AI 行业。",
+                        "timestamp": 1783296233,
+                        "docType": 0,
+                        "source": {"title": "其他账号"}
+                      }
+                    ]
+                  }
+                }
+                """,
+                encoding="utf-8",
+            )
+            config = {
+                "settings": {"window_hours": 48, "limit": 5, "min_score": 1},
+                "keywords": ["AI"],
+                "sources": [
+                    {
+                        "id": "tikhub-wechat-filtered-search",
+                        "name": "21世纪经济报道",
+                        "entity": "21世纪经济报道",
+                        "category": "wechat_account",
+                        "url": f"{payload}?_source_title=21世纪经济报道&_poll_minutes=5&_limit=5",
+                        "method": "tikhub_wechat_search",
+                        "priority": "B",
+                        "push_rule": "daily_digest_only_for_wechat_account",
+                        "weight": 1,
+                    }
+                ],
+            }
+
+            items, _ = collect_news(
+                config,
+                now=datetime(2026, 7, 2, 12, tzinfo=timezone.utc),
+                state_path=None,
+            )
+
+            self.assertEqual(len(items), 1)
+            self.assertEqual(items[0].title, "AI 产业公司调研")
+            self.assertEqual(items[0].source_name, "21世纪经济报道")
+
+    def test_tikhub_wechat_search_migrates_placeholder_seen_key(self) -> None:
+        with TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            payload = root / "wechat.json"
+            source_url = f"{payload}?_poll_minutes=60&_limit=5"
+            state = root / "state.json"
+            payload.write_text(
+                """
+                {
+                  "data": {
+                    "items": [
+                      {
+                        "title": "官方发布新一代大模型",
+                        "doc_url": "https://mp.weixin.qq.com/s/official-model",
+                        "desc": "官方公众号宣布模型升级。",
+                        "timestamp": 1783296233,
+                        "docType": 0,
+                        "source": {"title": "官方公众号"}
+                      }
+                    ]
+                  }
+                }
+                """,
+                encoding="utf-8",
+            )
+            state.write_text(
+                json.dumps(
+                    {
+                        "sources": {
+                            "tikhub-wechat": {
+                                "seen_keys": [source_url],
+                                "baseline_initialized": True,
+                            }
+                        }
+                    }
+                ),
+                encoding="utf-8",
+            )
+            config = {
+                "settings": {"window_hours": 48, "limit": 5, "min_score": 1},
+                "keywords": ["大模型", "模型"],
+                "sources": [
+                    {
+                        "id": "tikhub-wechat",
+                        "name": "TikHub 微信 AI 搜索",
+                        "entity": "微信搜一搜",
+                        "category": "social_search",
+                        "url": source_url,
+                        "method": "tikhub_wechat_search",
+                        "priority": "B",
+                        "push_rule": "daily_digest_only_for_wechat_ai_search",
+                        "weight": 1,
+                    }
+                ],
+            }
+
+            items, _ = collect_news(
+                config,
+                now=datetime(2026, 7, 2, 13, 1, tzinfo=timezone.utc),
+                state_path=state,
+            )
+            persisted = json.loads(state.read_text(encoding="utf-8"))
+
+            self.assertEqual(items, [])
+            self.assertEqual(
+                persisted["sources"]["tikhub-wechat"]["seen_keys"],
+                ["https://mp.weixin.qq.com/s/official-model"],
+            )
+            self.assertIn("tikhub_url_migration_at", persisted["sources"]["tikhub-wechat"])
+
+    def test_tikhub_wechat_search_skips_without_api_key(self) -> None:
+        config = {
+            "settings": {"window_hours": 48, "limit": 5, "min_score": 1},
+            "keywords": ["大模型"],
+            "sources": [
+                {
+                    "id": "tikhub-wechat",
+                    "name": "TikHub 微信 AI 搜索",
+                    "entity": "微信搜一搜",
+                    "category": "social_search",
+                    "url": "https://api.tikhub.io/api/v1/wechat_search/v2/fetch_search?keyword=大模型&_poll_minutes=60",
+                    "method": "tikhub_wechat_search",
+                    "priority": "B",
+                    "push_rule": "daily_digest_only_for_wechat_ai_search",
+                    "weight": 1,
+                }
+            ],
+        }
+
+        with patch.dict("os.environ", {"TIKHUB_API_KEY": ""}):
+            items, statuses = collect_news(
+                config,
+                now=datetime(2026, 7, 2, 12, tzinfo=timezone.utc),
+                state_path=None,
+            )
+
+        self.assertEqual(items, [])
+        self.assertTrue(statuses[0].ok)
 
     def test_send_mode_skips_empty_digest(self) -> None:
         with TemporaryDirectory() as tmp:

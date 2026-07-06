@@ -808,18 +808,32 @@
       "collector_note": "Local macOS Python TLS can fail on this site; GitHub Actions uses newer Ubuntu TLS and tries policy columns before root."
     },
     {
-      "id": "tikhub-wechat-ai-search",
-      "name": "TikHub 微信官方发布搜索",
-      "entity": "微信搜一搜",
-      "category": "social_search",
-      "url": "https://api.tikhub.io/api/v1/wechat_search/v2/fetch_search?keyword=官方 大模型 发布&raw=false&_poll_minutes=5&_limit=8",
-      "method": "tikhub_wechat_search",
+      "id": "tikhub-wechat-yicai",
+      "name": "第一财经",
+      "entity": "第一财经",
+      "category": "wechat_account",
+      "url": "https://api.tikhub.io/api/v1/wechat_mp/v2/fetch_account_articles?username=gh_7fbf45a6a562&raw=false&page_size=10&_poll_minutes=5&_limit=8",
+      "method": "tikhub_wechat_account_articles",
       "priority": "B",
-      "push_rule": "daily_digest_only_for_wechat_ai_search; immediate_only_if_confirms_major_official_china_ai_news",
+      "push_rule": "daily_digest_only_for_wechat_account; immediate_only_if_confirms_major_official_china_ai_news",
       "weight": 1,
       "max_items": 8,
       "enabled": true,
-      "collector_note": "Requires TIKHUB_API_KEY. Polls every 5 minutes. Keyword is intentionally high-intent: 官方 大模型 发布."
+      "collector_note": "Requires TIKHUB_API_KEY. Fixed-account WeChat MP article polling every 5 minutes."
+    },
+    {
+      "id": "tikhub-wechat-21jingji",
+      "name": "21世纪经济报道",
+      "entity": "21世纪经济报道",
+      "category": "wechat_account",
+      "url": "https://api.tikhub.io/api/v1/wechat_search/v2/fetch_search?keyword=21世纪经济报道 AI&business_type=article&sort=latest&publish_time=week&raw=false&_source_title=21世纪经济报道&_poll_minutes=5&_limit=8",
+      "method": "tikhub_wechat_search",
+      "priority": "B",
+      "push_rule": "daily_digest_only_for_wechat_account; immediate_only_if_confirms_major_official_china_ai_news",
+      "weight": 1,
+      "max_items": 8,
+      "enabled": true,
+      "collector_note": "Requires TIKHUB_API_KEY. TikHub account-history endpoint rejects this legacy wxid account, so this source uses latest article search filtered to exact source title as a temporary compatibility collector."
     },
     {
       "id": "jiqizhixin-rss",

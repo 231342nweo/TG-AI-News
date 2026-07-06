@@ -39,7 +39,7 @@ python3 -m ai_news_radar run --config config/sources.demo.json --show
 python3 -m ai_news_radar run --config config/sources.json --show
 ```
 
-如果你这台机器当前网络能访问外部 RSS 和公开网页，就会抓取真实源。当前 `config/sources.json` 已替换为“中国 AI 信息源”目录：共 62 个信源，每条都包含 `entity`、`category`、`url`、`method`、`priority`、`push_rule`。当前 62 个源已启用，支持 RSS/GitHub Atom，以及 `html_diff`、`html_list`、`huggingface_api`、`github_repos_api`、`modelscope_html`、`policy_keyword_html` 采集器。新增源会先建立状态基线，后续发现新链接、页面变化或模型更新才推送。OpenXLab 已使用 GitHub 项目 API 作为备用采集；中国信通院和国家数据局已改为优先尝试更具体的栏目页，再回退到官网根域。
+如果你这台机器当前网络能访问外部 RSS 和公开网页，就会抓取真实源。当前 `config/sources.json` 已替换为“中国 AI 信息源”目录：共 64 个信源，每条都包含 `entity`、`category`、`url`、`method`、`priority`、`push_rule`。当前 64 个源已启用，支持 RSS/GitHub Atom，以及 `html_diff`、`html_list`、`huggingface_api`、`github_repos_api`、`modelscope_html`、`policy_keyword_html`、`tikhub_wechat_account_articles`、`tikhub_wechat_search` 采集器。新增源会先建立状态基线，后续发现新链接、页面变化、模型更新或微信文章更新才推送。OpenXLab 已使用 GitHub 项目 API 作为备用采集；中国信通院和国家数据局已改为优先尝试更具体的栏目页，再回退到官网根域。
 
 媒体源只保留三家：
 
@@ -47,7 +47,7 @@ python3 -m ai_news_radar run --config config/sources.json --show
 - 量子位
 - Founder Park
 
-Founder Park 使用 `html_list` 监测新链接。频道消息会用中文字段和中文看点呈现，时间统一显示为北京时间；原文标题会保留，方便追溯来源。
+Founder Park 使用 `html_diff` 监测页面变化。TikHub 微信补充源目前包含「第一财经」固定公众号文章列表，以及「21世纪经济报道」来源名过滤兼容采集。频道消息会用中文字段和中文看点呈现，时间统一显示为北京时间；原文标题会保留，方便追溯来源。
 
 后面你只需要改 `config/sources.json` 里的 `sources` 列表：
 
@@ -176,6 +176,7 @@ docs/GITHUB_ACTIONS_DEPLOY.md
 - `OPENAI_API_KEY`（可选，用于自动翻译）
 - `OPENAI_BASE_URL`（可选；使用 LiteLLM 时填写 Proxy 根地址或 `/v1` 地址，不要填后台 `/ui` 页面）
 - `OPENAI_TRANSLATION_MODEL`（可选；使用 LiteLLM 时填写允许调用的模型名或 alias）
+- `TIKHUB_API_KEY`（可选，用于微信补充采集）
 
 然后手动触发一次 `Send AI News To Telegram` 工作流，确认频道收到消息。
 
