@@ -21,8 +21,10 @@ from xml.etree import ElementTree
 
 
 USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126 Safari/537.36 ai-news-telegram-radar/0.1"
+AIHOT_USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
 SUPPORTED_FEED_METHODS = {"rss", "atom", "github_atom"}
 SUPPORTED_STATEFUL_METHODS = {
+    "aihot_api",
     "html_diff",
     "html_list",
     "huggingface_api",
@@ -59,6 +61,14 @@ POLICY_LIST_KEYWORDS = [
     "aigc",
     "llm",
 ]
+
+AIHOT_CATEGORY_LABELS = {
+    "ai-models": "模型发布/更新",
+    "ai-products": "产品发布/更新",
+    "industry": "行业动态",
+    "paper": "论文研究",
+    "tip": "技巧与观点",
+}
 
 
 @dataclass(frozen=True)
@@ -829,6 +839,149 @@ def collect_tikhub_wechat_items(
     return filter_new_items_by_state(source, items, state)
 
 
+def fetch_aihot_payload(source: Source) -> Any:
+    parsed = urllib.parse.urlparse(source.url)
+    if parsed.scheme in {"http", "https"}:
+        request = urllib.request.Request(
+            source.url,
+            headers={
+                "User-Agent": AIHOT_USER_AGENT,
+                "Accept": "application/json",
+                "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+                "Accept-Encoding": "identity",
+                "Cache-Control": "no-cache",
+            },
+        )
+        with urllib.request.urlopen(request, timeout=30) as response:
+            raw = response.read().decode(response.headers.get_content_charset() or "utf-8", errors="replace")
+    elif parsed.scheme == "file":
+        raw = Path(urllib.request.url2pathname(parsed.path)).read_text(encoding="utf-8")
+    else:
+        raw = Path(parsed.path or source.url.split("?", 1)[0]).read_text(encoding="utf-8")
+    return json.loads(raw)
+
+
+def iter_aihot_records(payload: Any) -> list[dict[str, Any]]:
+    if isinstance(payload, dict):
+        records = payload.get("items")
+        if isinstance(records, list):
+            return [record for record in records if isinstance(record, dict)]
+        return [payload]
+    if isinstance(payload, list):
+        return [record for record in payload if isinstance(record, dict)]
+    return []
+
+
+def aihot_field(record: dict[str, Any], *names: str) -> Any:
+    return find_direct_json_value(record, {normalize_json_key(name) for name in names})
+
+
+def aihot_generated_at(payload: Any) -> datetime | None:
+    if not isinstance(payload, dict):
+        return None
+    value = aihot_field(payload, "generatedAt", "generated_at")
+    return parse_datetime(str(value or ""))
+
+
+def aihot_record_tags(record: dict[str, Any]) -> list[str]:
+    tags: list[str] = []
+    raw_tags = record.get("tags")
+    if isinstance(raw_tags, list):
+        tags.extend(str(tag).strip() for tag in raw_tags if str(tag).strip())
+    elif isinstance(raw_tags, str) and raw_tags.strip():
+        tags.extend(part.strip() for part in re.split(r"[,，/ ]+", raw_tags) if part.strip())
+
+    category = str(aihot_field(record, "category") or "").strip()
+    if category:
+        tags.append(AIHOT_CATEGORY_LABELS.get(category, category))
+    severity = str(aihot_field(record, "severity") or "").strip()
+    if severity:
+        tags.append(severity)
+    return tags
+
+
+def collect_aihot_items(
+    source: Source,
+    state: dict[str, Any] | None,
+    now: datetime,
+) -> list[NewsItem]:
+    payload = fetch_aihot_payload(source)
+    records = iter_aihot_records(payload)
+    generated_at = aihot_generated_at(payload)
+    items: list[NewsItem] = []
+    seen: set[str] = set()
+
+    for record in records:
+        title = strip_html(str(aihot_field(record, "title", "title_cn", "title_zh") or "")).strip()
+        if not title:
+            continue
+
+        url = str(aihot_field(record, "url", "link", "sourceUrl", "source_url") or "").strip()
+        record_id = str(aihot_field(record, "id") or "").strip()
+        if not url:
+            url = f"{source.url}#{urllib.parse.quote(record_id or title)}"
+        key = canonical_url(url) if url else normalize_title(title)
+        if key in seen:
+            continue
+        seen.add(key)
+
+        summary_text = strip_html(str(aihot_field(record, "summary", "description", "desc") or "")).strip()
+        original_source = strip_html(str(aihot_field(record, "source", "sourceName", "source_name") or "")).strip()
+        category = str(aihot_field(record, "category") or "").strip()
+        category_label = AIHOT_CATEGORY_LABELS.get(category, category)
+        importance = aihot_field(record, "importance_score", "importanceScore")
+        published = (
+            parse_datetime(str(aihot_field(record, "publishedAt", "published_at", "createdAt", "created_at") or ""))
+            or generated_at
+            or now
+        )
+
+        details = []
+        if original_source:
+            details.append(f"原始来源：{original_source}")
+        if category_label:
+            details.append(f"分类：{category_label}")
+        if importance is not None and str(importance).strip():
+            details.append(f"重要性：{importance}")
+        if summary_text and summary_text != title:
+            details.append(summary_text[:260])
+
+        summary = f"{source.name} 精选热点：{title}"
+        if details:
+            summary += "。" + "；".join(details)
+
+        items.append(
+            NewsItem(
+                title=title,
+                url=url,
+                summary=summary,
+                published_at=iso_or_none(published),
+                source_id=source.id,
+                source_name=source.name,
+                tags=[
+                    tag
+                    for tag in [
+                        source.entity,
+                        source.category,
+                        source.method,
+                        source.priority,
+                        "AIHot",
+                        "人工智能",
+                        *aihot_record_tags(record),
+                    ]
+                    if tag
+                ],
+                score=0.0,
+            )
+        )
+
+    source_state = get_source_state(state, source)
+    if source_state is not None:
+        source_state["last_raw_count"] = len(items)
+        source_state["last_polled_at"] = iso_or_none(now)
+    return filter_new_items_by_state(source, items, state)
+
+
 def parse_html_links(html_text: str, source: Source) -> tuple[list[tuple[str, str]], str]:
     parser = _HTMLLinkExtractor()
     parser.feed(html_text)
@@ -1381,6 +1534,12 @@ def collect_source_items(
 
     if source.method in {"tikhub_wechat_account_articles", "tikhub_wechat_search"}:
         items = collect_tikhub_wechat_items(source, state, now)
+        source_state = get_source_state(state, source)
+        raw_count = int(source_state.get("last_raw_count", len(items))) if source_state is not None else len(items)
+        return items, raw_count
+
+    if source.method == "aihot_api":
+        items = collect_aihot_items(source, state, now)
         source_state = get_source_state(state, source)
         raw_count = int(source_state.get("last_raw_count", len(items))) if source_state is not None else len(items)
         return items, raw_count
