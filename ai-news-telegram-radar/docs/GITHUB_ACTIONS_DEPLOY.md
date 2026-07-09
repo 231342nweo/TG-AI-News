@@ -69,6 +69,8 @@ TIKHUB_API_KEY=你的 TikHub API Key
 
 当前 TikHub 微信源按 5 分钟轮询：第一财经使用固定公众号文章列表；21世纪经济报道因为 TikHub 历史文章接口不接受它的 legacy `wxid`，暂时使用“最新文章搜索 + 来源名精确过滤”的兼容采集。
 
+当前 AIHot 精选热点源不需要密钥，会随 GitHub Actions 每轮读取一次；第一次只建立基线，之后发现新精选热点才进入 Telegram 提醒。
+
 ## 3. 确认 Actions 权限
 
 进入：

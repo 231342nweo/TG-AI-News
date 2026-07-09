@@ -8,6 +8,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 CATALOG = ROOT / "config/sources.json"
 IMPLEMENTED_METHODS = {
+    "aihot_api",
     "rss",
     "atom",
     "github_atom",
@@ -17,6 +18,8 @@ IMPLEMENTED_METHODS = {
     "huggingface_api",
     "modelscope_html",
     "policy_keyword_html",
+    "tikhub_wechat_account_articles",
+    "tikhub_wechat_search",
 }
 
 

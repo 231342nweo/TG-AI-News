@@ -73,6 +73,20 @@
   ],
   "sources": [
     {
+      "id": "aihot-selected",
+      "name": "AIHot 精选热点",
+      "entity": "AIHot",
+      "category": "ai_hotspot",
+      "url": "https://aihot.virxact.com/api/public/items?mode=selected&take=50",
+      "method": "aihot_api",
+      "priority": "A",
+      "push_rule": "immediate_if_selected_ai_hotspot; otherwise_daily_digest",
+      "weight": 2.5,
+      "max_items": 5,
+      "enabled": true,
+      "collector_note": "No auth required. Reads AIHot selected Chinese AI hotspot items with a browser User-Agent; first run establishes baseline, later runs push only new links."
+    },
+    {
       "id": "deepseek-api-updates",
       "name": "DeepSeek API 更新",
       "entity": "DeepSeek",

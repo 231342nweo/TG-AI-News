@@ -17,7 +17,7 @@ class SourcesCatalogTest(unittest.TestCase):
 
     def test_china_ai_catalog_shape(self) -> None:
         self.assertEqual(self.catalog.get("catalog_version"), "2026-07-02")
-        self.assertEqual(len(self.sources), 64)
+        self.assertEqual(len(self.sources), 65)
 
         required = {"entity", "category", "url", "method", "priority", "push_rule"}
         for source in self.sources:
@@ -29,11 +29,12 @@ class SourcesCatalogTest(unittest.TestCase):
         disabled = [source for source in self.sources if not source.get("enabled", True)]
         enabled_methods = {source["method"] for source in enabled}
 
-        self.assertEqual(len(enabled), 64)
+        self.assertEqual(len(enabled), 65)
         self.assertEqual(disabled, [])
         self.assertEqual(
             enabled_methods,
             {
+                "aihot_api",
                 "github_repos_api",
                 "html_diff",
                 "html_list",

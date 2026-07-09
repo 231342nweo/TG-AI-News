@@ -39,7 +39,7 @@ python3 -m ai_news_radar run --config config/sources.demo.json --show
 python3 -m ai_news_radar run --config config/sources.json --show
 ```
 
-如果你这台机器当前网络能访问外部 RSS 和公开网页，就会抓取真实源。当前 `config/sources.json` 已替换为“中国 AI 信息源”目录：共 64 个信源，每条都包含 `entity`、`category`、`url`、`method`、`priority`、`push_rule`。当前 64 个源已启用，支持 RSS/GitHub Atom，以及 `html_diff`、`html_list`、`huggingface_api`、`github_repos_api`、`modelscope_html`、`policy_keyword_html`、`tikhub_wechat_account_articles`、`tikhub_wechat_search` 采集器。新增源会先建立状态基线，后续发现新链接、页面变化、模型更新或微信文章更新才推送。OpenXLab 已使用 GitHub 项目 API 作为备用采集；中国信通院和国家数据局已改为优先尝试更具体的栏目页，再回退到官网根域。
+如果你这台机器当前网络能访问外部 RSS 和公开网页，就会抓取真实源。当前 `config/sources.json` 已替换为“中国 AI 信息源”目录：共 65 个信源，每条都包含 `entity`、`category`、`url`、`method`、`priority`、`push_rule`。当前 65 个源已启用，支持 RSS/GitHub Atom，以及 `aihot_api`、`html_diff`、`html_list`、`huggingface_api`、`github_repos_api`、`modelscope_html`、`policy_keyword_html`、`tikhub_wechat_account_articles`、`tikhub_wechat_search` 采集器。新增源会先建立状态基线，后续发现新链接、页面变化、模型更新、微信文章更新或 AIHot 精选热点更新才推送。OpenXLab 已使用 GitHub 项目 API 作为备用采集；中国信通院和国家数据局已改为优先尝试更具体的栏目页，再回退到官网根域。
 
 媒体源只保留三家：
 
