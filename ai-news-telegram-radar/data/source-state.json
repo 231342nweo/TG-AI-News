@@ -183,13 +183,13 @@
       "last_changed_at": "2026-07-08T12:54:23.659479Z"
     },
     "baidu-qianfan-docs": {
-      "fingerprint": "93cdbed8fd67715a2a4921be79d855f2742e8bc4f54a216f37985db5469e5a4f",
+      "fingerprint": "b00f198b8c3cc87ed47bf74225f3cef1d5195611540c7d5b4d26465bcbd48ed7",
       "last_checked_at": "2026-07-02T04:51:33.147542Z",
-      "last_excerpt": "百度千帆·大模型服务及Agent开发平台 -百度智能云 最新活动 产品 解决方案 千帆社区 AI原生应用商店 企业服务 云市场 合作与生态 开发者 服务与支持 了解智能云 备案 文档 管理控制台 文档中心 推荐文档 云服务器 千帆大模型平台 文字识别 人脸识别 实名认证介绍 备案介绍 财务功能概述 搜索本产品文档关键词 所有文档 人工智能 百度千帆模型服务及Agent开发平台 百度胜算 DuClaw DuMate 秒哒 百度伐谋 百度一见 智能代码助手 文字识别 语音技术 人脸识别 人体分析 语言处理技术 图像识别 图像搜索 图像增强 BML全功能AI开发平台 零门槛AI开发平台 EasyDL 知识理解 机器人平台 ABC Robot 内容审核 机器翻译 居民服务Agent 曦灵数字人 计算 云服务器 BCC 专属服务器 DCC 弹性裸金属服务器 GPU云服务器 FPGA云服务器 云手机 弹性伸缩 AS 云编排服务 COS 应用引擎 BAE 轻量应用服务器 LS 本地计算集群 LCC 百度百舸·AI计算平台 云高性能计算平台 磐玉一体机 网络 弹性公网IP 私有网络 VPC 服务网卡 SNIC 负载均衡 BLB 智能云解析 DNS 专线接入 ET 云智能网 CSN 智能流量管理 云防火墙 CFW 智能网络接入服务 网络诊断服务 存储 对象存储 BOS 云磁盘 CDS 文件存储 CFS 并行文件存储 PFS 存储网关 BSG 数据流转平台 CloudFlow 极速文件缓存 RapidFS 云备份 BCB 表格存储 TableStorage CDN与边缘服务 内容分发网络 CDN 海外CDN 动态加速 DRCDN 边缘计算节点 BEC 边缘服务器 ECS 数据库 云数据库 RDS 云数据库 Redis 云数据库 DocDB for MongoDB 云原生数据库 GaiaDB 数据传输服务 DTS 数据库智能驾驶舱 DBSC 消息服务 for RabbitMQ 向量数据库 VectorDB 云原生 容器引擎服务 CCE 容器镜像服务CCR Prometheus监控服务 容器实例BCI 函数计算 CFC 服务网格 CSM 微服务引擎 MSE AI原生网关 AIGW 管理运维 云监控BCM 运维编排服务 效率云 API网关 标签管理 资源管理 配额中心 云迁移中心 服务与支持 智能视频 音视频处理 智能视频 SDK 媒体内容分析 媒体内容审核 音视频直播 智能直播应用平台 ILAP 实时音视频 RTC 智能点播平台 VOD 多模态资源检索 智能视联网平台 智能大数据 MapReduce 流式计算 BSC 数据可视化 Sugar BI Elasticsearch 数据仓库 PALO 日志服务 BLS 消息服务 for Kafka 消息服务 for RocketMQ 千帆数据智能平台 DataBuilder 城市时空大数据分析 DMI 安全 DDoS防护服务 应用防火墙WAF 云安全中心 安全检测服务 流量审计分析 云审计 业务安全风控 号码安全服务SPNS 密钥管理服务 SSL证书 云堡垒机 安全漏洞预警 操作系统安全加固 应用加固与安全检测 短网址服务 史宾格安全及隐私合规平台 大模型内容安全平台 云通信 短信服务 SMS 号码隐私保护服务 PNS 号码认证服务 语音通话 语言通知服务 5G消息服务 域名与网站 智能门户 域名服务 备案服务 移动域名解析 商标服务 云主机管家 数字营销云 智能对话营销服务 企业智能应用 智能对话平台UNIT私有化 智能对话平台UNIT云端版 智能外呼 智能推荐引擎 工商财税服务 CBS 问卷调研服务 移动APP测试服务 物联网服务 物联网核心套件 时序时空数据库 TSDB 物联网安全套件 天工智能物联网解决方案 度家-AIOT语音平台 区块链 超级链BaaS平台 超级链数字商品可信登记平台 超级链可信存证 混合云 广目混合云管理平台 BaiduLinuxOS 云市场 云市场 解决方案 金融云 工业视觉智能平台 云游戏 金融智能体 账户管理 账号管理 多用户访问控制 企业组织 证书管理 实名认证 通用参考 ICP备案帮助 区域选择说明 鉴权认证机制 获取AK/SK 术语表 法律条款 API入门指南 财务参考 计费说明 发票 充值 续费 代金券 账单与收支 订单管理 提现 退款 配置升/降级 赔付 企业组织财务管理 合同 常见问题 百度千帆·大模型服务及Agent开发平台 平台介绍 模型介绍 Token Plan 企业版 Coding Plan 计费说明 最佳实践 平台操作 API参考 SDK参考 常见问题 相关协议 文档中心 百度千帆·大模型服务及Agent开发平台 百度千帆·大模型服务及Agent开发平台 产品详情 全新的“百度千帆”以Agent为核心，为企业提供模型、Agent开发及数据智能服务等一站式服务。百度千帆基于百度智能云的全栈AI云布局，围绕Agent引擎、工具及MCP、模型服务与企业级服务等四大关键要素，为Agent的应用落地构建了坚实的能力底座。 学习路径 循序渐进，带您全面了解百度千帆·大模型服务及Agent开发平台 了解 了解百度千帆·大模型服务及Agent开发平台的产品特性，优势和使用场景，让您对它有一个全局的认识。 平台简介 产品公告 费用说明 针对不同的应用场景，您可以灵活选择计费模式 模型服务计费 退款申请说明 模型token计算说明 平台操作 当前新用户注册百度千帆·大模型服务及Agent开发平台 ，实名认证后即送20元代金券！全平台无门槛使用，有效期一个月。 模型服务 应用开发 组件广场 系统管理 百度千帆·大模型服务及Agent开发平台 百度千帆·大模型服务及Agent开发平台 产品详情 全新的“百度千帆”以Agent为核心，为企业提供模型、Agent开发及数据智能服务等一站式服务。百度千帆基于百度智能云的全栈AI云布局，围绕Agent引擎、工具及MCP、模型服务与企业级服务等四大关键要素，为Agent的应用落地构建了坚实的能力底座。 学习路径 循序渐进，带您全面了解百度千帆·大模型服务及Agent开发平台 ① 了解 了解百度千帆·大模型服务及Agent开发平台的产品特性，优势和使用场景，让您对它有一个全局的认识。 · 平台简介 · 产品公告 ② 费用说明 针对不同的应用场景，您可以灵活选择计费模式 · 模型服务计费 · 退款申请说明 · 模型token计算说明 ③ 平台操作 当前新用户注册百度千帆·大模型服务及Agent开发平台 ，实名认证后即送20元代金券！全平台无门槛使用，有效期一个月。 · 模型服务 · 应用开发 · 组件广场 · 系统管理",
+      "last_excerpt": "百度千帆·大模型服务及Agent开发平台 -百度智能云 最新活动 产品 解决方案 千帆社区 AI原生应用商店 企业服务 云市场 合作与生态 开发者 服务与支持 了解智能云 备案 文档 管理控制台 文档中心 推荐文档 云服务器 千帆大模型平台 文字识别 人脸识别 实名认证介绍 备案介绍 财务功能概述 搜索本产品文档关键词 所有文档 人工智能 百度千帆模型服务及Agent开发平台 百度胜算 DuClaw DuMate 秒哒 百度伐谋 百度一见 智能代码助手 文字识别 语音技术 人脸识别 人体分析 语言处理技术 图像识别 图像搜索 图像增强 BML全功能AI开发平台 零门槛AI开发平台 EasyDL 知识理解 机器人平台 ABC Robot 内容审核 机器翻译 居民服务Agent 曦灵数字人 计算 云服务器 BCC 专属服务器 DCC 弹性裸金属服务器 GPU云服务器 FPGA云服务器 云手机 弹性伸缩 AS 云编排服务 COS 应用引擎 BAE 轻量应用服务器 LS 本地计算集群 LCC 百度百舸·AI计算平台 云高性能计算平台 磐玉一体机 网络 弹性公网IP 私有网络 VPC 服务网卡 SNIC 负载均衡 BLB 智能云解析 DNS 专线接入 ET 云智能网 CSN 智能流量管理 云防火墙 CFW 智能网络接入服务 网络诊断服务 存储 对象存储 BOS 云磁盘 CDS 文件存储 CFS 并行文件存储 PFS 存储网关 BSG 数据流转平台 CloudFlow 极速文件缓存 RapidFS 云备份 BCB 表格存储 TableStorage CDN与边缘服务 内容分发网络 CDN 海外CDN 动态加速 DRCDN 边缘计算节点 BEC 边缘服务器 ECS 数据库 云数据库 RDS 云数据库 Redis 云数据库 DocDB for MongoDB 云原生数据库 GaiaDB 数据传输服务 DTS 数据库智能驾驶舱 DBSC 消息服务 for RabbitMQ 向量数据库 VectorDB 云原生 容器引擎服务 CCE 容器镜像服务CCR Prometheus监控服务 容器实例BCI 函数计算 CFC 服务网格 CSM 微服务引擎 MSE AI原生网关 AIGW 管理运维 云监控BCM 运维编排服务 效率云 API网关 标签管理 资源管理 配额中心 云迁移中心 服务与支持 智能视频 音视频处理 智能视频 SDK 媒体内容分析 媒体内容审核 音视频直播 智能直播应用平台 ILAP 实时音视频 RTC 智能点播平台 VOD 多模态资源检索 智能视联网平台 智能大数据 MapReduce 流式计算 BSC 数据可视化 Sugar BI Elasticsearch 数据仓库 PALO 日志服务 BLS 消息服务 for Kafka 消息服务 for RocketMQ 千帆数据智能平台 DataBuilder 城市时空大数据分析 DMI 安全 DDoS防护服务 应用防火墙WAF 云安全中心 安全检测服务 流量审计分析 云审计 业务安全风控 号码安全服务SPNS 密钥管理服务 SSL证书 云堡垒机 安全漏洞预警 操作系统安全加固 应用加固与安全检测 短网址服务 史宾格安全及隐私合规平台 大模型内容安全平台 云通信 短信服务 SMS 号码隐私保护服务 PNS 号码认证服务 语音通话 语言通知服务 5G消息服务 域名与网站 智能门户 域名服务 备案服务 移动域名解析 商标服务 云主机管家 数字营销云 智能对话营销服务 企业智能应用 智能对话平台UNIT私有化 智能对话平台UNIT云端版 智能外呼 智能推荐引擎 工商财税服务 CBS 问卷调研服务 移动APP测试服务 物联网服务 物联网核心套件 时序时空数据库 TSDB 物联网安全套件 天工智能物联网解决方案 度家-AIOT语音平台 区块链 超级链BaaS平台 超级链数字商品可信登记平台 超级链可信存证 混合云 广目混合云管理平台 BaiduLinuxOS 云市场 云市场 解决方案 金融云 工业视觉智能平台 云游戏 金融智能体 账户管理 账号管理 多用户访问控制 企业组织 证书管理 实名认证 通用参考 ICP备案帮助 区域选择说明 鉴权认证机制 获取AK/SK 术语表 法律条款 API入门指南 财务参考 计费说明 发票 充值 续费 代金券 账单与收支 订单管理 提现 退款 配置升/降级 赔付 企业组织财务管理 合同 常见问题 百度千帆·大模型服务及Agent开发平台 平台介绍 模型介绍 Token Plan 个人版 Token Plan 企业版 Coding Plan 计费说明 最佳实践 平台操作 API参考 SDK参考 常见问题 相关协议 文档中心 百度千帆·大模型服务及Agent开发平台 百度千帆·大模型服务及Agent开发平台 产品详情 全新的“百度千帆”以Agent为核心，为企业提供模型、Agent开发及数据智能服务等一站式服务。百度千帆基于百度智能云的全栈AI云布局，围绕Agent引擎、工具及MCP、模型服务与企业级服务等四大关键要素，为Agent的应用落地构建了坚实的能力底座。 学习路径 循序渐进，带您全面了解百度千帆·大模型服务及Agent开发平台 了解 了解百度千帆·大模型服务及Agent开发平台的产品特性，优势和使用场景，让您对它有一个全局的认识。 平台简介 产品公告 费用说明 针对不同的应用场景，您可以灵活选择计费模式 模型服务计费 退款申请说明 模型token计算说明 平台操作 当前新用户注册百度千帆·大模型服务及Agent开发平台 ，实名认证后即送20元代金券！全平台无门槛使用，有效期一个月。 模型服务 应用开发 组件广场 系统管理 百度千帆·大模型服务及Agent开发平台 百度千帆·大模型服务及Agent开发平台 产品详情 全新的“百度千帆”以Agent为核心，为企业提供模型、Agent开发及数据智能服务等一站式服务。百度千帆基于百度智能云的全栈AI云布局，围绕Agent引擎、工具及MCP、模型服务与企业级服务等四大关键要素，为Agent的应用落地构建了坚实的能力底座。 学习路径 循序渐进，带您全面了解百度千帆·大模型服务及Agent开发平台 ① 了解 了解百度千帆·大模型服务及Agent开发平台的产品特性，优势和使用场景，让您对它有一个全局的认识。 · 平台简介 · 产品公告 ② 费用说明 针对不同的应用场景，您可以灵活选择计费模式 · 模型服务计费 · 退款申请说明 · 模型token计算说明 ③ 平台操作 当前新用户注册百度千帆·大模型服务及Agent开发平台 ，实名认证后即送20元代金券！全平台无门槛使用，有效期一个月。 · 模型服务 · 应用开发 · 组件广场 · 系统管理",
       "baseline_initialized": true,
       "source_signature": "70f27b13727d41b2aa701e06aaddd8cef63e3dfe9e04c82f149e4ddc0031ea05",
       "baseline_reinitialized_at": "2026-07-02T10:22:21.295328Z",
-      "last_changed_at": "2026-07-07T08:52:09.490281Z"
+      "last_changed_at": "2026-07-12T15:13:22.004064Z"
     },
     "tencent-hunyuan-update-history": {
       "fingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
@@ -202,12 +202,12 @@
       "baseline_reinitialized_at": "2026-07-02T10:22:21.295328Z"
     },
     "volcengine-ark-models": {
-      "fingerprint": "1425d9ae18f47e37e253820adc7f9d3aa5e7ab72b50eb6ecc14342fa68e754bf",
+      "fingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "last_checked_at": "2026-07-02T04:51:33.147542Z",
-      "last_excerpt": "文档中心 简体 文档 控制台 登录 注册 火山方舟 文档指南 订阅 [Agent/Coding Plan] API参考 资源 火山方舟 火山方舟 文档指南 请输入 入门 产品简介 快速入门 模型列表 模型价格 最新模型：Seed 2.1 调用 文本生成 多模态理解 图片理解 视频理解 文档理解 音频理解 视频生成 Doubao Seedance 2.0 系列教程 Doubao Seedance 2.0 系列提示词指南 视频生成教程 图片生成 Seedream 4.0-5.0 教程 领域模型 3D 生成 向量化 工具调用 工具概述 豆包助手 Web Search（联网内容插件） Image Process（图像处理） 私域知识库搜索 Knowledge Search 云部署 MCP / Remote MCP Function Calling（函数调用） 进阶使用 深度思考 上下文管理 流式输出 续写模式 上下文缓存 原理及选型 上下文缓存(Context API) 文件输入(File API) 视觉定位 Grounding 提示词工程 结构化输出(beta) 接入三方工具 使用 Responses API 迁移至 Responses API 文本生成 深度思考 多模态理解 工具调用 上下文缓存 结构化输出(beta) 上下文编辑 推理 推理方式概述 在线推理（常规） 在线推理（低延迟） 在线推理（TPM 保障包） 在线推理（模型单元） 模型单元概述 创建模型单元 管理模型单元 批量推理 高级能力 智能模型路由 使用 MLP 推理服务 使用自定义模型进行推理 训练 模型精调 模型精调概述 有监督微调最佳实践 直接偏好优化最佳实践 强化学习最佳实践 精调 SDK 使用指南 模型精调数据集格式说明 管理自定义模型 模型评测 创建模型评测任务 查看并管理模型评测任务 评测数据集格式说明 数据集 数据集介绍 共享数据集 Managed Agents 快速上手 概述 快速入门（代码） 快速入门（控制台） 定义 Agent Agent Skills MCP Tools 工具权限策略 配置 Agent 环境 配置云环境 云沙箱参考 委派任务给 Agent 启动 Session 管理 Session Session 事件流 使用 Vaults 认证 管理 Agent 上下文 上传与挂载文件 持久化记忆 高级能力 Multi Agent 应用 应用实验室 零代码应用简介 零代码应用操作指南 低代码应用简介 高代码应用简介 高代码应用创建部署指南 服务组件库 网页解析插件功能说明 联网内容插件功能说明 联网系列插件升级为联网内容插件说明及操作指南 知识库插件功能说明 应用实验室 知识库 操作指南 文档知识问答核心流程 音视频知识问答核心流程 知识库管理 创建知识库 编辑知识库 查看知识库列表 查看知识库详情 删除知识库 知识检索 知识问答 续订知识库 退订知识库 配置实验版本 文档管理 导入文档 标签配置 删除文档 切片管理 新增切片 编辑切片 查阅切片 删除切片 知识服务管理 创建知识服务 知识服务管理 知识库配额说明 知识库分账管理 API参考 签名鉴权与调用示例 API 列表 最佳实践 MCP Server 知识型视频智能问答解决方案 视频高光提取及检索解决方案 更多最佳实践 知识库免费体验权益 SDK参考 SDK 升级与使用说明 PromptPilot PromptPilot 概述 PromptPilot 订阅管理 Prompt 生成 Prompt 调优 Prompt 批量 PromptPilot 管理 VideoPilot 功能介绍 视觉理解 Solution 评分DSL AgentPilot SDK 参考 AgentPilot OpenAPI 使用指南 VideoPilot API 文档首页 火山方舟 入门 模型列表 复制全文 下载 pdf 我的收藏 入门 模型列表 复制全文 下载 pdf 我的收藏 模型列表 文档反馈 问问助手 最近更新时间： 2026.07.08 20:56:53 这个页面对您有帮助吗？ 有用 有用 无用 无用",
+      "last_excerpt": "",
       "baseline_initialized": true,
       "baseline_invalid": true,
-      "last_changed_at": "2026-07-12T14:11:48.537332Z",
+      "last_changed_at": "2026-07-12T15:13:22.004064Z",
       "source_signature": "ab5ee375ff670169281a4aefbc9772546566386e665c24a65ec209061d7dfada",
       "baseline_reinitialized_at": "2026-07-02T10:22:21.295328Z"
     },
@@ -246,9 +246,9 @@
       ],
       "last_checked_at": "2026-07-02T04:52:05.788649Z",
       "baseline_initialized": true,
-      "last_changed_at": "2026-07-12T14:11:48.537332Z",
-      "fingerprint": "69eab29e8b95aa13f2a46c81336fafb71365eab920dab98ea298dbae0d69dfc1",
-      "last_excerpt": "文档中心 简体 文档 控制台 登录 注册 火山方舟 文档指南 订阅 [Agent/Coding Plan] API参考 资源 火山方舟 火山方舟 资源 请输入 产品公告 产品更新公告 模型发布公告 模型下线公告 历史公告 2026 公告 26年春节期间访问方式调整公告 2025 公告 模型发布公告 2025 产品更新公告 2025 模型下线公告 2025 高代码 SDK Arkitect 正式发布 2024 公告 模型发布公告 2024 产品更新公告 2024 模型下线公告 2024 火山方舟 SDK V1/V2下线公告及迁移指引 模型插件联网基础版、联网plus版、联网pro版下线公告 热门活动 Seedance 2.0 系列模型资源包使用规则 协作奖励计划 免费推理额度 实践教程 Ark CLI 使用指南 方舟文档 MCP 快速入门(新手版) Seedance-1.5-pro 提示词指南 Seedance-1.0-pro&pro-fast 提示词指南 Seedream 4.0-5.0 提示词指南 Seedream 4.0 助力 Seedance 生视频最佳实践 RAG（检索增强）解决方案 数据回流操作流程 如何设置控制台登录保持时间 角色扮演场景提示词指南 环境变量配置指南 突发流量处理最佳实践 火山方舟分账最佳实践 在应用中使用 RTC 实现 AI 实时对话 通过 TOS 内网预签名 URL 传入文件 购买指南 模型服务计费说明 TPM 保障包计费说明 联网内容插件产品计费 豆包助手计费 知识库计费 PromptPilot 计费 Seedance 2.0 高级创作权益包购买说明 税率与发票 权限管理 使用 IAM 管理权限 管理 API Key HYOK 最佳实践 平台功能 平台能力速览 模型广场 应用广场 体验中心 体验中心概览 语言模型 虚拟人像库 录入真人形象素材 使用版权生视频模板生成 IP 视频 图片生成模型 语音模型 开发者模式 MCP 简介 Canvas 简介 在线推理 管理推理接入点 为 AI 生成产物添加隐式水印 安心体验模式细则说明 开通管理 安全管理 控制台-推理安全审计 控制台-精调安全审计 控制台-推理接入点安全监控总览 用量统计 项目配置 网络配置 Token 计算器 安全管理 安全管理总览 内容安全护栏 火山方舟大模型服务安全白皮书 火山方舟互信计算架构白皮书 推理会话数据应用层加密方案 精调安全防护能力介绍 常见问题 常见问题 相关协议 火山方舟大模型服务平台专用条款 火山方舟体验中心服务规则和免责声明 Agent Plan / Coding Plan 火山引擎数据授权使用协议 ArkClaw 服务规则 Harness 能力说明和产品专用条款 模型服务协议 豆包模型服务协议 火山引擎豆包大模型商标使用规范 月之暗面模型服务协议 智谱AI模型服务协议 PromptPilot 服务专用条款和数据授权使用协议 影眸模型服务协议 数美模型服务协议 开源模型许可证 模型备案 客户应用上架指南-算法备案资质申请流程 大模型备案说明(含算法备案及人工智能备案) 火山方舟模型备案信息公示 MCP 云产品一键授权开通相关协议 知识库产品服务和专用条款 豆包助手专区服务专用条款和数据授权使用协议 版权和人像素材使用规则 文档首页 火山方舟 产品公告 产品更新公告 复制全文 下载 pdf 我的收藏 产品公告 产品更新公告 复制全文 下载 pdf 我的收藏 产品更新公告 文档反馈 问问助手 最近更新时间： 2026.07.07 18:03:10 这个页面对您有帮助吗？ 有用 有用 无用 无用",
+      "last_changed_at": "2026-07-12T15:13:22.004064Z",
+      "fingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "last_excerpt": "",
       "baseline_invalid": true,
       "source_signature": "bf1f63ca68ab1a7f10b219aa7fbc07472dde5da63456aa15a90f6ecaf31f0156",
       "baseline_reinitialized_at": "2026-07-02T10:22:21.295328Z"
@@ -557,27 +557,27 @@
       "baseline_initialized": true,
       "repos": {
         "OpenBMB/VoxCPM": "2026-07-08T09:46:11Z",
-        "OpenBMB/VisRAG": "2025-12-07T07:45:09Z",
-        "OpenBMB/MiniCPM-V-Apps": "2026-07-10T09:29:07Z",
         "OpenBMB/MiniCPM": "2026-06-20T06:06:47Z",
+        "OpenBMB/UltraX": "2026-07-12T14:18:40Z",
+        "OpenBMB/MiniCPM-Desk-Pet": "2026-07-07T14:15:36Z",
+        "OpenBMB/ForgeTrain": "2026-06-17T06:14:58Z",
+        "OpenBMB/ChatDev": "2026-06-29T08:25:10Z",
+        "OpenBMB/MiniCPM-V": "2026-06-25T12:12:59Z",
+        "OpenBMB/MiniCPM-V-Apps": "2026-07-10T09:29:07Z",
+        "OpenBMB/DeepThinkVLA": "2026-04-16T10:43:05Z",
+        "OpenBMB/VisRAG": "2025-12-07T07:45:09Z",
         "OpenBMB/RepoAgent": "2024-12-23T11:48:52Z",
         "OpenBMB/MiniCPM-o-Demo": "2026-07-11T17:29:51Z",
-        "OpenBMB/ChatDev": "2026-06-29T08:25:10Z",
-        "OpenBMB/ForgeTrain": "2026-06-17T06:14:58Z",
-        "OpenBMB/MiniCPM-V": "2026-06-25T12:12:59Z",
         "OpenBMB/PilotDeck": "2026-07-10T06:52:09Z",
         "OpenBMB/AppCopilot": "2025-11-18T06:18:21Z",
         "OpenBMB/UltraRAG": "2026-07-12T05:40:17Z",
-        "OpenBMB/MiniCPM-Desk-Pet": "2026-07-07T14:15:36Z",
         "OpenBMB/ToolBench": "2025-05-21T15:46:59Z",
         "OpenBMB/EdgeClaw": "2026-04-15T09:25:35Z",
         "OpenBMB/BMTrain": "2026-07-07T14:07:23Z",
         "OpenBMB/BMCook": "2026-07-07T14:09:03Z",
-        "OpenBMB/DeepThinkVLA": "2026-04-16T10:43:05Z",
-        "OpenBMB/AgentVerse": "2024-09-09T05:47:44Z",
-        "OpenBMB/XAgent": "2024-08-12T06:41:38Z"
+        "OpenBMB/AgentVerse": "2024-09-09T05:47:44Z"
       },
-      "last_changed_at": "2026-07-12T11:43:17.305966Z",
+      "last_changed_at": "2026-07-12T15:13:22.004064Z",
       "source_signature": "3dd1c4ab8bc380dc66624329d310bc65fe6deafde7a370da1191ca03b32c0764",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -619,16 +619,17 @@
       "last_checked_at": "2026-07-02T04:51:58.871155Z",
       "baseline_initialized": true,
       "repos": {
-        "QwenLM/qwen-code": "2026-07-12T14:05:14Z",
+        "QwenLM/Qwen3-ASR-Toolkit": "2026-02-05T05:35:03Z",
+        "QwenLM/Qwen3-ASR": "2026-06-26T08:20:17Z",
+        "QwenLM/Qwen-RobotManip": "2026-06-29T22:29:54Z",
+        "QwenLM/qwen-code": "2026-07-12T15:03:39Z",
+        "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
+        "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
         "QwenLM/Qwen3Guard": "2025-10-21T02:27:12Z",
         "QwenLM/Qwen-Agent": "2026-03-04T08:15:07Z",
-        "QwenLM/Qwen3-ASR-Toolkit": "2026-02-05T05:35:03Z",
         "QwenLM/Qwen-VL": "2024-08-07T02:37:06Z",
         "QwenLM/WebWorld": "2026-02-25T06:29:03Z",
-        "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
         "QwenLM/Qwen-RobotNav": "2026-06-30T03:01:19Z",
-        "QwenLM/Qwen-RobotManip": "2026-06-29T22:29:54Z",
-        "QwenLM/Qwen3-ASR": "2026-06-26T08:20:17Z",
         "QwenLM/Qwen2.5-Omni": "2025-06-12T11:03:07Z",
         "QwenLM/Qwen3-Coder": "2026-03-24T08:22:10Z",
         "QwenLM/Qwen": "2026-03-05T13:55:17Z",
@@ -637,10 +638,9 @@
         "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
         "QwenLM/ParScale": "2025-05-17T18:06:25Z",
         "QwenLM/Qwen-Image": "2026-02-10T07:37:37Z",
-        "QwenLM/Qwen3-Omni": "2026-04-23T10:58:01Z",
-        "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z"
+        "QwenLM/Qwen3-Omni": "2026-04-23T10:58:01Z"
       },
-      "last_changed_at": "2026-07-12T14:11:48.537332Z",
+      "last_changed_at": "2026-07-12T15:13:22.004064Z",
       "source_signature": "ddc0d8d3788b1fc4ba6779bc400a51934ce7ac0845fbfff67f906a6d77406e21",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -999,6 +999,7 @@
     },
     "openbmb-huggingface": {
       "models": {
+        "openbmb/UltraX-0.6B-Preview": "2026-07-12T14:50:19.000Z",
         "openbmb/MiniCPM-o-4_5": "2026-07-06T08:15:23.000Z",
         "openbmb/MiniCPM-V-4.6": "2026-07-01T11:57:37.000Z",
         "openbmb/MiniCPM-V-2_6-GPTQ": "2026-06-04T11:11:12.000Z",
@@ -1017,14 +1018,13 @@
         "openbmb/MiniCPM5-1B": "2026-05-26T04:24:04.000Z",
         "openbmb/MiniCPM5-1B-Base": "2026-05-25T11:19:35.000Z",
         "openbmb/MiniCPM5-1B-SFT": "2026-05-25T11:18:10.000Z",
-        "openbmb/MiniCPM5-1B-MLX": "2026-05-25T10:55:51.000Z",
-        "openbmb/MiniCPM5-1B-GGUF": "2026-05-25T10:55:40.000Z"
+        "openbmb/MiniCPM5-1B-MLX": "2026-05-25T10:55:51.000Z"
       },
       "last_checked_at": "2026-07-02T04:51:33.147542Z",
       "baseline_initialized": true,
       "source_signature": "215825cd22461b9c15e76a7c5633ff4c1d67c0e420c55ff47a0e5831ab5311aa",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z",
-      "last_changed_at": "2026-07-06T08:50:35.750110Z"
+      "last_changed_at": "2026-07-12T15:13:22.004064Z"
     },
     "internlm-huggingface": {
       "models": {
@@ -1230,10 +1230,10 @@
         "https://www.tc260.org.cn/portal/article/1/7ddf0e21844548ccacf5f520a0b5b673",
         "https://www.tc260.org.cn/portal/article/1/6e8ada3dc7654f43b55675ad05c700d3",
         "https://www.tc260.org.cn/portal/article/2/b8bf5ba21f2449e0997568ba020cf8b8",
-        "https://www.tc260.org.cn/portal/article/2/5fd674db7cf8498bbcfe35615cfb0469",
-        "https://www.tc260.org.cn/portal/article/2/c54104c323b44b949d00ab25f69f5156",
         "https://www.tc260.org.cn/portal/article/2/4f0ddba0fb794c56beefefb7c7c15d79",
         "https://www.tc260.org.cn/portal/article/2/70b2aca303cc41aa9fff05540b442c91",
+        "https://www.tc260.org.cn/portal/article/2/5fd674db7cf8498bbcfe35615cfb0469",
+        "https://www.tc260.org.cn/portal/article/2/c54104c323b44b949d00ab25f69f5156",
         "https://www.tc260.org.cn/portal/article/2/7bfa6ac909604997bfec986dca233699",
         "https://www.tc260.org.cn/portal/article/2/d9503798c7c744dfbb798feaedb6cfbc",
         "https://www.tc260.org.cn/portal/suggestion-detail/070bd0f2bab446be9e293e491a786a76",
@@ -1250,7 +1250,7 @@
       ],
       "last_checked_at": "2026-07-02T04:52:25.829528Z",
       "baseline_initialized": true,
-      "last_changed_at": "2026-07-12T14:13:36.860702Z",
+      "last_changed_at": "2026-07-12T15:14:43.683772Z",
       "source_signature": "ac7adf7536607ad1dc8d9ca06c0f10f499a52b1893dcc2d8ec03dd7b6240b921",
       "baseline_reinitialized_at": "2026-07-02T10:23:25.737100Z"
     },
@@ -1354,12 +1354,20 @@
       "last_changed_at": "2026-07-06T03:27:32.743048Z"
     },
     "tikhub-wechat-yicai": {
-      "last_polled_at": "2026-07-12T14:11:48.537332Z",
+      "last_polled_at": "2026-07-12T15:13:22.004064Z",
       "last_raw_count": 8,
       "source_signature": "d8f12c33a72df7482441fcd1a3ff851e93b7b9a79cb446d2d37a403664063670",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-06T03:51:43.565947Z",
       "seen_keys": [
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661767267&idx=1&sn=cf3b313ded04e18cfe7ff46e7dff83cd&chksm=bc9af59638c5a51c376ce916c59978bf862d3e4f7e92fd4afebf51bcd1405177c5acbf7c0e96&scene=126&sessionid=0",
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661767266&idx=1&sn=3469bed9a061329f2c2bf08b6141b616&chksm=bcee553ea7a9c5fd2ab9e3f2cf9e212feb308c0a68fa9b165a2450749456cc3d4eeb4387f444&scene=126&sessionid=0",
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661767257&idx=1&sn=a02dcff6c24ac906cbdedefca7af66bc&chksm=bcdb272191f35afe6d58f386802d7d9d8ed95b12d12089aae3dc9e7f5529f815bd90864b9930&scene=126&sessionid=0",
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661767257&idx=2&sn=3217c4f730a7a5d3f7760c0bd6434f97&chksm=bc4d40ffe5a668302fe677ba94c4c6a59074864476983783831c5825587353ba249a7bed4f90&scene=126&sessionid=0",
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661767250&idx=1&sn=45952630a1217e63109162a4c827a55d&chksm=bc20c2cb9564a85e61b2a8706a64f7e60f7a366525a57f8b696e6cb86ec8a31ecf06d5de6db8&scene=126&sessionid=0",
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661767250&idx=2&sn=b950b8dead01fcb20ea6b3f09e75e802&chksm=bce7a5b4b0dd4321c220c97e5804908581a7305c79e169886cfdebf05d6cabd530919f1b8895&scene=126&sessionid=0",
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661767239&idx=1&sn=598de92531796ab185dcffb59457c90d&chksm=bc49c226067ed11be187bdf18ddc18c3570e79333db289f4b8cc4b392d39519f44e17187b38d&scene=126&sessionid=0",
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661767209&idx=1&sn=fbd9e70f840fcdd6e9c8f9118ededa62&chksm=bcb080092fecf8bbc096780ab02160d3b3960726ca1c7bd188c2969d34bc85d305888034b257&scene=126&sessionid=0",
         "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661767239&idx=1&sn=598de92531796ab185dcffb59457c90d&chksm=bc48a471c3018b5f42b427deb1180a7915c98cf6de51538e10cff0ed612da8ebbf8b485cd32a&scene=126&sessionid=0",
         "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661767209&idx=1&sn=fbd9e70f840fcdd6e9c8f9118ededa62&chksm=bc9e11b5545abdc3a5c9c3a94486c258323819255e1a0f6b262c1a79666b2a69abfdf84f6c45&scene=126&sessionid=0",
         "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661767209&idx=2&sn=93c6d8d49d04caa3c9f3dde66861417b&chksm=bce3a4392954e5092c2b8b06bc813e4e18fba6e1affc9c7c800d53bbbe194184dd37237187be&scene=126&sessionid=0",
@@ -1651,39 +1659,31 @@
         "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661766373&idx=1&sn=1b8788301ad3e6c2be7db90e5067732e&chksm=bc7cdf778378c4de59755e592ee2cc58124ccfb434415b2bdc0b14c04148852f597b5e40df23&scene=126&sessionid=0",
         "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661766358&idx=1&sn=3149f71649d3f441ac00a59be5a07c82&chksm=bca5fef38c64806bd8af510086617993f6a0437e59d81d89151aed6fed119736068842dd61cc&scene=126&sessionid=0",
         "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661766342&idx=1&sn=63931e8aa2387b444b171f60b1e684a0&chksm=bc81e5c26cfbae3aa7237892ceab740180ea9322c246415cce6aed746ab16fbdce59c6be5d1c&scene=126&sessionid=0",
-        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661766342&idx=2&sn=88ab82d08dc9b415b672103d1cf25977&chksm=bccee736a562554cc71f4d9e743fdf49647b52ff7ebdb25cf894dc9b7c13a7eabbd08af430fd&scene=126&sessionid=0",
-        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661766335&idx=1&sn=0c2e0bebeb5a947fbaab9b116995fae2&chksm=bc0c0e21da4ac8b4f26523acb432a2b7a8dbcbbbbd42b6aa95243159a6ca80bbfc467c68c2ac&scene=126&sessionid=0",
-        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661766328&idx=1&sn=086d8b5785b0e811024d694535992ea9&chksm=bc80557cd59b3591270b6f7911a9e4479075513836d917441279cb242f81e8d6668538fbf39b&scene=126&sessionid=0",
-        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661766307&idx=1&sn=c4ace4b2324563c12ef98f99feb32343&chksm=bc75dac7143af403a0187872d7f30b616d6526d269d4ef27ffa83d99a869ce7819cffd1aadc2&scene=126&sessionid=0",
-        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661766303&idx=1&sn=41ba432386dda3ff9c584f434178d0fb&chksm=bc2be820618193bd2402edfb51b02788e90458834868b0a2ce7f8f89727a42bb8723acd54c22&scene=126&sessionid=0",
-        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661766193&idx=1&sn=bb30d48f2742703863a7a260e9c8d842&chksm=bc40d798d68d28b9a75356a1e9e4abbc9c07d372657b03cd538c6042d8c238d439c4698ce7cf&scene=126&sessionid=0",
-        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661766185&idx=1&sn=d5bc36d1cdc99516824c216992376926&chksm=bcb2b64e3206ea7d5b701707873ca40250d0b65617ab09819f196041a1ed47ac13cfddac4429&scene=126&sessionid=0",
-        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661766180&idx=1&sn=033efda4d1eb9270f947007dcf839197&chksm=bc4d5e919a5f50bda4c462bf4f5e3b2145bbd5a63804697b79a0eae5bb462ba7f721cef0c989&scene=126&sessionid=0",
-        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661766176&idx=1&sn=c9ad3a00167190815fb8fbddbee19a68&chksm=bcdfc59c371d3a78fb2be46cfef32d144beb47889f506239147bd8ddff2a2d3c79ace522306d&scene=126&sessionid=0"
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661766342&idx=2&sn=88ab82d08dc9b415b672103d1cf25977&chksm=bccee736a562554cc71f4d9e743fdf49647b52ff7ebdb25cf894dc9b7c13a7eabbd08af430fd&scene=126&sessionid=0"
       ],
-      "last_changed_at": "2026-07-12T14:13:41.266277Z"
+      "last_changed_at": "2026-07-12T15:14:48.320031Z"
     },
     "tikhub-wechat-21jingji": {
-      "last_polled_at": "2026-07-12T14:11:48.537332Z",
+      "last_polled_at": "2026-07-12T15:13:22.004064Z",
       "last_raw_count": 8,
       "source_signature": "a585a9cb4142e0c5cee8958fb7db1b1520cf0b91be787ec3e76d32c337b22356",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-06T03:51:45.546531Z",
       "seen_keys": [
-        "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650615435&idx=2&sn=ad88310ff2c553eac262162d1a212e44&chksm=b60f653b84a9b0123fd946e12a60b2a0a243f6708ca48d0da75c666a06d7fa7031266bbe1f54",
-        "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650615296&idx=1&sn=1316fe639a9593266e2c3ea4909914a9&chksm=b6ec300a6094c07d50eaf2c77a76393b6350d1d3bd62ccef1c2bfcf4ca2d0c961325f468a40c",
         "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650615240&idx=1&sn=59d161a6666e3b772eaeda8a4e21cf41&chksm=b6aed6ca6c31309db6fcd0cf9a702ed20c011fb616aa84096042bf28706a6b43e556b55cc24a",
-        "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650615124&idx=2&sn=b35acf5f5930460c1c3e45aaab6579f2&chksm=b659b799d3646ea2743d87e7364a9f586099669b1cf02f19b1cb764b9dff9a38839f10d78596",
-        "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650614919&idx=2&sn=3f08db63568f3396bbf23a2e66e46e93&chksm=b611c44e8d3b061c9444b07837cd832feca8d086b000b8db5b5a015e15c1055ca6710742b187",
-        "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650614639&idx=1&sn=16e448789ee260fe46ae8f321c646cfb&chksm=b6702491f25829e666d29e503f302515b518f7bb199c2908b7cb4f0d89d33789f1b93bcb9602",
         "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650614531&idx=2&sn=33f9d1d3a3874bfcfedf8bdf686d692a&chksm=b6baf41c8c2582b8c6a345dc27b3669a2385dbec1080378740489236e60a90e342ee27dc7787",
-        "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650614353&idx=2&sn=b2ad33e379fa8212c5c4a1c7f9076a16&chksm=b6750b7e4ce2d0c03d0476350f7c8234f46f3cb6cafe85f5fac665ad9c22c96b7a27929ada77",
         "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650614239&idx=3&sn=c79e70a39843c8e1cba0feb1df3ccb3a&chksm=b6ae5053ae2a02fa6c324b9a9da1f43bf816b90449b577ed7bb14535d6c53339e97278fa37b7",
         "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650614139&idx=1&sn=9353214dd82d82b2ebf03f2cbc1cfd55&chksm=b65290efaa926ba182a164b8f79d744995e33acf1b8ad9850cb08e6b784786010d58f74a8f7b",
         "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650613820&idx=2&sn=866e01a4616807233d04f4ad4f571f8c&chksm=b66af0bbe002f172b84178efa5d26042214794491033ea29f3a1b112dc718b56d938fab2b30b",
         "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650613548&idx=1&sn=71cfafa8160ff4161e7d86ad5aa1bd5e&chksm=b68821fd060286163401482c1d10d9a770fd305e63559c0e77f603813a044fe69579ae109b5c",
         "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650613441&idx=1&sn=1ae4df074a7f4d53a931147cb7f7adba&chksm=b6acb0e097f52ef326c83d47645078b6bb7a30844d836815e10da656e858e5d88f08fbe5f668",
         "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650613345&idx=3&sn=ff8385cc5feb50807170d848492dd5a6&chksm=b6c1a080f959eeef5d7b94e21b43e33b14beaf714bba3ac1443c13bf57bfd7396ff6a611ef0d",
+        "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650615435&idx=2&sn=ad88310ff2c553eac262162d1a212e44&chksm=b60f653b84a9b0123fd946e12a60b2a0a243f6708ca48d0da75c666a06d7fa7031266bbe1f54",
+        "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650615296&idx=1&sn=1316fe639a9593266e2c3ea4909914a9&chksm=b6ec300a6094c07d50eaf2c77a76393b6350d1d3bd62ccef1c2bfcf4ca2d0c961325f468a40c",
+        "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650615124&idx=2&sn=b35acf5f5930460c1c3e45aaab6579f2&chksm=b659b799d3646ea2743d87e7364a9f586099669b1cf02f19b1cb764b9dff9a38839f10d78596",
+        "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650614919&idx=2&sn=3f08db63568f3396bbf23a2e66e46e93&chksm=b611c44e8d3b061c9444b07837cd832feca8d086b000b8db5b5a015e15c1055ca6710742b187",
+        "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650614639&idx=1&sn=16e448789ee260fe46ae8f321c646cfb&chksm=b6702491f25829e666d29e503f302515b518f7bb199c2908b7cb4f0d89d33789f1b93bcb9602",
+        "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650614353&idx=2&sn=b2ad33e379fa8212c5c4a1c7f9076a16&chksm=b6750b7e4ce2d0c03d0476350f7c8234f46f3cb6cafe85f5fac665ad9c22c96b7a27929ada77",
         "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650614371&idx=3&sn=6667651e492cca6a7a7e9910572bb987&chksm=b6a79c2ca76a0816583c679e3006bf4e88ac0b62a14c3a4669d16bb82933697578035dca84dd",
         "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650613820&idx=3&sn=0ff18d45a33f8583f5b8562e26a68a37&chksm=b60cdf8502c837e9739999fc6810de46e05a7e523e9c9bb1160979d5bb1a97d711a60fa95e8b",
         "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650615204&idx=1&sn=929260866a3e13eb0f7b710e020a1436&chksm=b6370cee23b135a44efb64dac88705ce24481bc2d0ede30614232386fc8513a26623151f952d",
@@ -1711,15 +1711,16 @@
         "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650610905&idx=2&sn=421c7e6994f02709f6bb729c7a3622fd&chksm=b677bdaca6a515990dfe44bdb0cfc6d70c60265003a6a39d8dfa63191ad0b2da87235645fc72",
         "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650612046&idx=2&sn=296e362a46d49fd91e4962a48f9bdaae&chksm=b61c79a051e9ccedfd5649d216c75e366f9df81b7582c7ab8c186a8ad2c597bfc19f4cf35267"
       ],
-      "last_changed_at": "2026-07-12T14:13:43.588035Z"
+      "last_changed_at": "2026-07-12T15:14:50.401985Z"
     },
     "aihot-selected": {
       "last_raw_count": 50,
-      "last_polled_at": "2026-07-12T14:11:48.537332Z",
+      "last_polled_at": "2026-07-12T15:13:22.004064Z",
       "source_signature": "54b0a2ce37b31eed7de5728f2ad3467d3fff1ec95a53a03f9ee11a9fa197fda4",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-09T08:44:50.779962Z",
       "seen_keys": [
+        "https://github.com/cosmtrek/mindwalk",
         "https://the-decoder.com/openai-ceo-altman-is-now-pretty-sure-ai-is-net-job-creating-which-is-quite-the-pivot-from-predicting-mass-layoffs",
         "https://gist.github.com/cereblab/dc9a40bc26120f4540e4e09b75ffb547",
         "https://www.ithome.com/0/975/666.htm",
@@ -1830,7 +1831,7 @@
         "https://www.tomtunguz.com/the-10b-fde-boom",
         "https://openrouter.ai/blog/insights/image-detail-low-cost"
       ],
-      "last_changed_at": "2026-07-12T10:42:28.527820Z"
+      "last_changed_at": "2026-07-12T15:13:22.741413Z"
     }
   }
 }
