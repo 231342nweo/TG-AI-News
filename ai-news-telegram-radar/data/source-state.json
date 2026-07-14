@@ -1,13 +1,13 @@
 {
   "sources": {
     "deepseek-api-updates": {
-      "fingerprint": "105972a6b1a62cce2c31f60cc90a9f6808ee8ee92682fa360e265fd2f23b3cfd",
+      "fingerprint": "9f773d2509d8287edaf48cca61a64fa432fbbfa92229f74899cd375296a242f7",
       "last_checked_at": "2026-07-02T04:51:33.147542Z",
-      "last_excerpt": "Your First API Call | DeepSeek API Docs Skip to main content DeepSeek API Docs English English 中文（中国） DeepSeek Platform Quick Start Your First API Call Models & Pricing Token & Token Usage Rate Limit & Isolation Error Codes Agent Integrations API Guides Thinking Mode Multi-round Conversation Chat Prefix Completion (Beta) FIM Completion (Beta) JSON Output Tool Calls Context Caching Anthropic API API Reference News Other Resources FAQ Change Log Quick Start Your First API Call On this page Your First API Call The DeepSeek API uses an API format compatible with OpenAI/Anthropic. By modifying the configuration, you can use the OpenAI/Anthropic SDK or softwares compatible with the OpenAI/Anthropic API to access the DeepSeek API. PARAM VALUE base_url (OpenAI) https://api.deepseek.com base_url (Anthropic) https://api.deepseek.com/anthropic api_key apply for an API key model * deepseek-v4-flash deepseek-v4-pro deepseek-chat (to be deprecated on 2026/07/24) deepseek-reasoner (to be deprecated on 2026/07/24) * The model names deepseek-chat and deepseek-reasoner will be deprecated on 2026/07/24 15:59 UTC. For compatibility, they correspond to the non-thinking mode and thinking mode of deepseek-v4-flash , respectively. Integrate with Agent Tools ​ The DeepSeek API is supported by many popular AI agent and coding assistant tools. If you use tools like Claude Code, GitHub Copilot, or OpenCode, you can use DeepSeek as the backend model directly — no code required. See the Agent Integrations Guide for details. Invoke The Chat API ​ Once you have obtained an API key, you can access the DeepSeek model using the following example scripts in the OpenAI API format. This is a non-stream example, you can set the stream parameter to true to get stream response. For examples using the Anthropic API format, please refer to Anthropic API . curl python nodejs curl https://api.deepseek.com/chat/completions \\ -H \"Content-Type: application/json\" \\ -H \"Authorization: Bearer ${DEEPSEEK_API_KEY}\" \\ -d '{ \"model\": \"deepseek-v4-pro\", \"messages\": [ {\"role\": \"system\", \"content\": \"You are a helpful assistant.\"}, {\"role\": \"user\", \"content\": \"Hello!\"} ], \"thinking\": {\"type\": \"enabled\"}, \"reasoning_effort\": \"high\", \"stream\": false }' # Please install OpenAI SDK first: `pip3 install openai` import os from openai import OpenAI client = OpenAI ( api_key = os . environ . get ( 'DEEPSEEK_API_KEY' ) , base_url = \"https://api.deepseek.com\" ) response = client . chat . completions . create ( model = \"deepseek-v4-pro\" , messages = [ { \"role\" : \"system\" , \"content\" : \"You are a helpful assistant\" } , { \"role\" : \"user\" , \"content\" : \"Hello\" } , ] , stream = False , reasoning_effort = \"high\" , extra_body = { \"thinking\" : { \"type\" : \"enabled\" } } ) print ( response . choices [ 0 ] . message . content ) // Please install OpenAI SDK first: `npm install openai` import OpenAI from \"openai\" ; const openai = new OpenAI ( { baseURL : 'https://api.deepseek.com' , apiKey : process . env . DEEPSEEK_API_KEY , } ) ; async function main ( ) { const completion = await openai . chat . completions . create ( { messages : [ { role : \"system\" , content : \"You are a helpful assistant.\" } ] , model : \"deepseek-v4-pro\" , thinking : { \"type\" : \"enabled\" } , reasoning_effort : \"high\" , stream : false , } ) ; console . log ( completion . choices [ 0 ] . message . content ) ; } main ( ) ; Next Models & Pricing Integrate with Agent Tools Invoke The Chat API WeChat Official Account Community Email Discord Twitter More GitHub Copyright © 2026 DeepSeek, Inc.",
+      "last_excerpt": "Change Log | DeepSeek API Docs Skip to main content DeepSeek API Docs English English 中文（中国） DeepSeek Platform Quick Start Your First API Call Models & Pricing Token & Token Usage Rate Limit & Isolation Error Codes Agent Integrations API Guides Thinking Mode Multi-round Conversation Chat Prefix Completion (Beta) FIM Completion (Beta) JSON Output Tool Calls Context Caching Anthropic API API Reference News Other Resources FAQ Change Log Change Log On this page Change Log Date: 2026-04-24 ​ DeepSeek-V4 ​ The DeepSeek API now supports V4-Pro and V4-Flash, available via both the OpenAI ChatCompletions interface and the Anthropic interface. To access the new models, the base_url remains unchanged, and the model parameter should be set to deepseek-v4-pro or deepseek-v4-flash . The two legacy API model names, deepseek-chat and deepseek-reasoner , will be discontinued in three months (2026-07-24). During the current period, these two model names point to the non-thinking mode and thinking mode of deepseek-v4-flash , respectively. For more details, please refer to this documentation . Date: 2025-12-01 ​ DeepSeek-V3.2 ​ Both deepseek-chat and deepseek-reasoner have been upgraded to DeepSeek-V3.2. deepseek-chat corresponds to DeepSeek-V3.2's non-thinking mode deepseek-reasoner corresponds to DeepSeek-V3.2's thinking mode DeepSeek-V3.2-Speciale ​ DeepSeek-V3.2-Speciale is served via a temporary endpoint: base_url=\" https://api.deepseek.com/v3.2_speciale_expires_on_20251215 \". Same pricing as V3.2, no tool calls, available until Dec 15th, 2025, 15:59 (UTC Time). For more details, please refer to this documentation . Date: 2025-09-29 ​ DeepSeek-V3.2-Exp ​ Both deepseek-chat and deepseek-reasoner have been upgraded to DeepSeek-V3.2-Exp. deepseek-chat corresponds to DeepSeek-V3.2-Exp's non-thinking mode deepseek-reasoner corresponds to DeepSeek-V3.2-Exp's thinking mode For more details, please refer to this documentation . Date: 2025-09-22 ​ DeepSeek-V3.1-Terminus ​ Both deepseek-chat and deepseek-reasoner have been upgraded to DeepSeek-V3.1-Terminus. deepseek-chat corresponds to DeepSeek-V3.1-Terminus's non-thinking mode , while deepseek-reasoner corresponds to its thinking mode . This update maintains the model's original capabilities while addressing issues reported by users, including: Language consistency: Reduced occurrences of Chinese-English mixing and occasional abnormal characters; Agent capabilities: Further optimized the performance of the Code Agent and Search Agent. Date: 2025-08-21 ​ DeepSeek-V3.1 ​ Both deepseek-chat and deepseek-reasoner have been upgraded to DeepSeek-V3.1. deepseek-chat corresponds to DeepSeek-V3.1's non-thinking mode , while deepseek-reasoner corresponds to its thinking mode . Key updates in DeepSeek-V3.1: Hybrid reasoning architecture : A single model supports both thinking mode and non-thinking mode Improved reasoning efficiency : Compared to DeepSeek-R1-0528, DeepSeek-V3.1-Think provides answers in significantly less time Enhanced agent capabilities : With post-training optimization, the new model achieves major improvements in tool usage and intelligent agent tasks SWE-bench Verified: 66.0 SWE-bench Multilingual: 54.5 Terminal-bench: 31.3 Date: 2025-05-28 ​ deepseek-reasoner ​ deepseek-reasoner Model Upgraded to DeepSeek-R1-0528: Enhanced Reasoning Capabilities Significant benchmark improvements (Pass@1) AIME 2025: 70.0 → 87.5 (+17.5) GPQA: 71.5 → 81.0 (+9.5) LCB_v6: 63.5 → 73.3 (+9.8) Aider: 57.0 → 71.6 (+14.6) Note: Complex reasoning tasks may consume more tokens compared to legacy R1 version. Optimized Front-end Development Generated web pages and games now feature improved aesthetics. Reduced Hallucinations Significantly suppressed hallucination issues present in legacy R1 version. JSON Output & Function Calling Support Function call performance: Tau-bench score: 53.5 (Airline) / 63.9 (Retail) Date: 2025-03-24 ​ deepseek-chat ​ deepseek-chat Model Upgraded to DeepSeek-V3-0324: Enhanced Reasoning Capa",
       "baseline_initialized": true,
       "source_signature": "da94888987a371666a5f08739c9802c186474211b8f74f055d7f6cfad14cf7a4",
       "baseline_reinitialized_at": "2026-07-02T10:22:21.295328Z",
-      "last_changed_at": "2026-07-13T23:11:47.546939Z"
+      "last_changed_at": "2026-07-14T00:05:53.098261Z"
     },
     "deepseek-huggingface": {
       "models": {
@@ -364,7 +364,7 @@
       "baseline_initialized": true,
       "repos": {
         "MoonshotAI/kimi-cli": "2026-07-13T18:05:41Z",
-        "MoonshotAI/kimi-code": "2026-07-13T23:10:11Z",
+        "MoonshotAI/kimi-code": "2026-07-14T00:04:49Z",
         "MoonshotAI/Kimi-Dev": "2025-09-30T02:15:54Z",
         "MoonshotAI/Kimi-K2.5": "2026-01-31T00:49:42Z",
         "MoonshotAI/Kimi-K2": "2026-01-21T05:33:12Z",
@@ -384,7 +384,7 @@
         "MoonshotAI/moonpalace": "2024-12-30T21:17:27Z",
         "MoonshotAI/checkpoint-engine": "2026-07-04T09:26:11Z"
       },
-      "last_changed_at": "2026-07-13T23:11:47.546939Z",
+      "last_changed_at": "2026-07-14T00:05:53.098261Z",
       "source_signature": "c925f37596aaabb84376bf83142f08b0ce08447179a5d27a52c7956a40180daa",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -558,18 +558,18 @@
       "baseline_initialized": true,
       "repos": {
         "OpenBMB/VoxCPM": "2026-07-08T09:46:11Z",
-        "OpenBMB/MiniCPM-V": "2026-06-25T12:12:59Z",
         "OpenBMB/MiniCPM": "2026-06-20T06:06:47Z",
+        "OpenBMB/MiniCPM-V": "2026-06-25T12:12:59Z",
+        "OpenBMB/PilotDeck": "2026-07-13T13:04:28Z",
+        "OpenBMB/ChatDev": "2026-06-29T08:25:10Z",
         "OpenBMB/MiniCPM-Desk-Pet": "2026-07-07T14:15:36Z",
         "OpenBMB/CPM-Live": "2026-07-07T14:16:31Z",
-        "OpenBMB/ChatDev": "2026-06-29T08:25:10Z",
         "OpenBMB/MiniCPM-V-Apps": "2026-07-10T09:29:07Z",
-        "OpenBMB/PilotDeck": "2026-07-13T13:04:28Z",
         "OpenBMB/UltraEval-Audio": "2026-07-13T12:41:20Z",
         "OpenBMB/XAgent": "2024-08-12T06:41:38Z",
         "OpenBMB/EdgeClaw": "2026-04-15T09:25:35Z",
         "OpenBMB/AgentCPM": "2026-02-09T13:39:47Z",
-        "OpenBMB/UltraRAG": "2026-07-13T05:50:30Z",
+        "OpenBMB/UltraRAG": "2026-07-13T23:48:22Z",
         "OpenBMB/RepoAgent": "2024-12-23T11:48:52Z",
         "OpenBMB/VisRAG": "2025-12-07T07:45:09Z",
         "OpenBMB/ToolBench": "2025-05-21T15:46:59Z",
@@ -578,7 +578,7 @@
         "OpenBMB/UltraX": "2026-07-12T14:18:40Z",
         "OpenBMB/ForgeTrain": "2026-06-17T06:14:58Z"
       },
-      "last_changed_at": "2026-07-13T17:44:58.042672Z",
+      "last_changed_at": "2026-07-14T00:05:53.098261Z",
       "source_signature": "3dd1c4ab8bc380dc66624329d310bc65fe6deafde7a370da1191ca03b32c0764",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -620,17 +620,17 @@
       "last_checked_at": "2026-07-02T04:51:58.871155Z",
       "baseline_initialized": true,
       "repos": {
-        "QwenLM/qwen-code": "2026-07-13T23:12:08Z",
+        "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
+        "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
+        "QwenLM/Qwen3-ASR": "2026-06-26T08:20:17Z",
+        "QwenLM/qwen-code": "2026-07-13T23:31:40Z",
         "QwenLM/Qwen3-Omni": "2026-04-23T10:58:01Z",
         "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
-        "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
         "QwenLM/Qwen-AgentWorld": "2026-06-25T06:57:43Z",
         "QwenLM/Qwen-Agent": "2026-03-04T08:15:07Z",
-        "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
         "QwenLM/Qwen-RobotNav": "2026-06-30T03:01:19Z",
         "QwenLM/WebWorld": "2026-02-25T06:29:03Z",
         "QwenLM/Qwen3-Coder": "2026-03-24T08:22:10Z",
-        "QwenLM/Qwen3-ASR": "2026-06-26T08:20:17Z",
         "QwenLM/Qwen-Image-Layered": "2025-12-31T11:40:35Z",
         "QwenLM/Qwen": "2026-03-05T13:55:17Z",
         "QwenLM/Qwen3.6": "2026-06-03T12:14:19Z",
@@ -641,7 +641,7 @@
         "QwenLM/FlashQLA": "2026-07-13T07:19:12Z",
         "QwenLM/Qwen-Image-Bench": "2026-06-18T10:00:04Z"
       },
-      "last_changed_at": "2026-07-13T23:11:47.546939Z",
+      "last_changed_at": "2026-07-14T00:05:53.098261Z",
       "source_signature": "ddc0d8d3788b1fc4ba6779bc400a51934ce7ac0845fbfff67f906a6d77406e21",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -1367,12 +1367,20 @@
       "last_changed_at": "2026-07-06T03:27:32.743048Z"
     },
     "tikhub-wechat-yicai": {
-      "last_polled_at": "2026-07-13T23:11:47.546939Z",
+      "last_polled_at": "2026-07-14T00:05:53.098261Z",
       "last_raw_count": 8,
       "source_signature": "d8f12c33a72df7482441fcd1a3ff851e93b7b9a79cb446d2d37a403664063670",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-06T03:51:43.565947Z",
       "seen_keys": [
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661767969&idx=1&sn=fdbdb7cf0367fadb6c861600bd9eba7a&chksm=bcb396c31539929034abd7f53d61f0162be2f4c29034586fb422f7aeed39f20d501bdd621ada&scene=126&sessionid=0",
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661767959&idx=1&sn=d7ac17bbd43a392e435e3dee1aa86011&chksm=bcd023bced25cfd2b0e32c087c676a20199b16d301f7d2955e0e2569b5fb64962f836b371c4e&scene=126&sessionid=0",
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661767955&idx=1&sn=48fa3575da8f6f440ca315efce0b1126&chksm=bc62daabcfa51b5d804fef1115c8b9958d800cf8b17bda56b37ec9175903c7c7e9ef2a4e4b20&scene=126&sessionid=0",
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661767954&idx=1&sn=96b0f0434eef91bac5cdbc690b51c0a5&chksm=bc159c4252361aa99fa94de6e450e7d6eb52ec4c9bf43d5fd3f8ce8b7316f057c249251690dc&scene=126&sessionid=0",
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661767937&idx=1&sn=1640961540698ad1cedcdbdc9b7a154c&chksm=bcc471676fb15bccdd82a821ff84d0d56c8fb07642a3df92e543aabb61608b62c374b1546c9e&scene=126&sessionid=0",
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661767936&idx=1&sn=c5659364e2bf6a1c59cae46b4012a44a&chksm=bcf5592f24c3d2ca0d22a0bbec7c5e79a53cf6c33ce47511107ef2d4989fa57ce1930e83b927&scene=126&sessionid=0",
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661767936&idx=2&sn=57d7e87dc5561ec5df0a82ecc58dbaa0&chksm=bc5d91ba0d898b64ca7a29f9e78e47fa2a581148df2e6b56db3b99852f942b355f4033380e47&scene=126&sessionid=0",
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661767936&idx=3&sn=5589913ffcb9dce24aac3288676016e8&chksm=bcfdfe5e08aff16095446b8d28dac0700b7f2ac3f3a55a33aabb18381be3cb41a4c704bde8e8&scene=126&sessionid=0",
         "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661767937&idx=1&sn=1640961540698ad1cedcdbdc9b7a154c&chksm=bc210724ad0edf6e4c1704a9ea29de62d0264e0227c27dcbf23c17d1669d045f12c329b32738&scene=126&sessionid=0",
         "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661767936&idx=1&sn=c5659364e2bf6a1c59cae46b4012a44a&chksm=bc472427c53c1f2d5af92ff6943d15d93060d22df8a6384f84c587bf4599a55be142fe8e31da&scene=126&sessionid=0",
         "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661767936&idx=2&sn=57d7e87dc5561ec5df0a82ecc58dbaa0&chksm=bc8e53194afea79741f9f36d077dcdaf3a1d983b4b396f3298514e03ffaeba9a96f588ee0312&scene=126&sessionid=0",
@@ -1664,42 +1672,35 @@
         "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661766975&idx=1&sn=31bec6d2c6137a572f6b19831214fa7c&chksm=bc5feda72e675cb19ec2c02826d9b10f74b42719fee41132bf3af48a0a99496b5b896141ea07&scene=126&sessionid=0",
         "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661766975&idx=2&sn=0862bcc01921886d93e803267bca0162&chksm=bc4ce07c20aa50851b60ec2d554d6e6e0947d7b4eee8ef7f87ebc5e1d7a71f3c9b51273baf7b&scene=126&sessionid=0",
         "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661766968&idx=1&sn=79aa867db7d61559b9824d732a6476cb&chksm=bc4a4c2662178d3b33d2c71f4a3ceeef4c2f69cdd10e21266c2151d78d4c540859b33a6d2e36&scene=126&sessionid=0",
-        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661766967&idx=1&sn=53df34d7dade82f1d90177abe58711ac&chksm=bc4360903eccabc48223cf32dc7de74146be9b7e60d76800f79b9d9c78b361402602e0124606&scene=126&sessionid=0",
-        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661766962&idx=1&sn=492aafd978937bf5c73f34cfe3b942eb&chksm=bc4fe66ff4d5d892e62e0cc82ab7e5089cd6f3afd9b6f35a16ea5e093b4ad242238c498215a8&scene=126&sessionid=0",
-        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661766956&idx=1&sn=af37337eb4968614727d515f28a725d2&chksm=bcb794f0fb919f38a5bcebe8d287b28081db0ecb3d6c151c08fb79b25e921b3a69abab79c8a8&scene=126&sessionid=0",
-        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661766946&idx=1&sn=9c43770507879bccb09ff53270aa5b89&chksm=bce4860e84b16c4ead830fd6abb7a5551e760e3545d722960851e2c111f1c7d7bfa618268cf2&scene=126&sessionid=0",
-        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661766948&idx=1&sn=cb693a823e8802e20221979dcc479937&chksm=bc283337317ca719d53ac10ccd704c07094893dbec9b7b7fb24f84ea6968beac2cb856f0dcc8&scene=126&sessionid=0",
-        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661766975&idx=1&sn=31bec6d2c6137a572f6b19831214fa7c&chksm=bce16ab038628c7b6997b7f5ab84e88ec5c9d1e3d7ba949e17829c475e7438ad12dce337d182&scene=126&sessionid=0",
-        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661766975&idx=2&sn=0862bcc01921886d93e803267bca0162&chksm=bc7495c2fbae316e876b49fc676082a6b0d149515440996e2e9fa5310c1f84c06ef5cbb0d12e&scene=126&sessionid=0",
-        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661766968&idx=1&sn=79aa867db7d61559b9824d732a6476cb&chksm=bccaf00b257a7f2a34c6a5e5c2813ab0fb8a469415c398a18ad9781a1039ee9e74717f475dce&scene=126&sessionid=0",
-        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661766967&idx=1&sn=53df34d7dade82f1d90177abe58711ac&chksm=bc1d7c9ead979c5de99f391e70f6d6e0000b69b83c9f4d25e34c6a9d2300596a071dd8a53371&scene=126&sessionid=0"
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661766967&idx=1&sn=53df34d7dade82f1d90177abe58711ac&chksm=bc4360903eccabc48223cf32dc7de74146be9b7e60d76800f79b9d9c78b361402602e0124606&scene=126&sessionid=0"
       ],
-      "last_changed_at": "2026-07-13T23:12:56.399775Z"
+      "last_changed_at": "2026-07-14T00:07:16.899342Z"
     },
     "tikhub-wechat-21jingji": {
-      "last_polled_at": "2026-07-13T23:11:47.546939Z",
+      "last_polled_at": "2026-07-14T00:05:53.098261Z",
       "last_raw_count": 8,
       "source_signature": "a585a9cb4142e0c5cee8958fb7db1b1520cf0b91be787ec3e76d32c337b22356",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-06T03:51:45.546531Z",
       "seen_keys": [
-        "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650615942&idx=1&sn=56cf8d2daf846130fa7493d9bb2514b9&chksm=b6f4755dee117c94c2d1a828dc9d07847eec4e1d395c1fa8df7d9b5e3d78b869d9f0419a5c01",
         "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650615843&idx=1&sn=e84eb13636c6f360720e92c843d72984&chksm=b6afc3ac243f037b09552b3e0993c93a8109caf315e5e043613842ad9816b54ced83fe845f4e",
+        "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650615548&idx=1&sn=fbaead3ced42757b43ba21f912da8432&chksm=b6da4c0f9997c5b690b590ce06536497a554356f75487b58263f0d26f397f7c5c2cbc9a3fb8e",
         "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650615520&idx=2&sn=18daebf34a650275f4645aa5a1c8274f&chksm=b685d76c61b06b596b69dfd8477a9aa96bba69c6aa56d8ac7758d2afff87e64a5cf32f91692a",
         "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650615468&idx=1&sn=b915b26468527e7907b19e3fa1407bc2&chksm=b6503c5e2dfe524af2c51a0f76a05fb08d645c70579db2666c8ddb119768c0119bd3606863e2",
+        "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650615435&idx=2&sn=ad88310ff2c553eac262162d1a212e44&chksm=b60f653b84a9b0123fd946e12a60b2a0a243f6708ca48d0da75c666a06d7fa7031266bbe1f54",
+        "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650615296&idx=1&sn=1316fe639a9593266e2c3ea4909914a9&chksm=b6ec300a6094c07d50eaf2c77a76393b6350d1d3bd62ccef1c2bfcf4ca2d0c961325f468a40c",
+        "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650615240&idx=1&sn=59d161a6666e3b772eaeda8a4e21cf41&chksm=b6aed6ca6c31309db6fcd0cf9a702ed20c011fb616aa84096042bf28706a6b43e556b55cc24a",
+        "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650614639&idx=1&sn=16e448789ee260fe46ae8f321c646cfb&chksm=b6702491f25829e666d29e503f302515b518f7bb199c2908b7cb4f0d89d33789f1b93bcb9602",
+        "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650615942&idx=1&sn=56cf8d2daf846130fa7493d9bb2514b9&chksm=b6f4755dee117c94c2d1a828dc9d07847eec4e1d395c1fa8df7d9b5e3d78b869d9f0419a5c01",
         "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650614531&idx=2&sn=33f9d1d3a3874bfcfedf8bdf686d692a&chksm=b6baf41c8c2582b8c6a345dc27b3669a2385dbec1080378740489236e60a90e342ee27dc7787",
         "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650614371&idx=3&sn=6667651e492cca6a7a7e9910572bb987&chksm=b6a79c2ca76a0816583c679e3006bf4e88ac0b62a14c3a4669d16bb82933697578035dca84dd",
         "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650614239&idx=3&sn=c79e70a39843c8e1cba0feb1df3ccb3a&chksm=b6ae5053ae2a02fa6c324b9a9da1f43bf816b90449b577ed7bb14535d6c53339e97278fa37b7",
         "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650614239&idx=1&sn=f1fdc0603770bdff8e08a8260239d02e&chksm=b686204de4358e7053bee084debcad10b3089b8e536164068ffb3d8191187455f4bc3bee90b5",
-        "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650615548&idx=1&sn=fbaead3ced42757b43ba21f912da8432&chksm=b6da4c0f9997c5b690b590ce06536497a554356f75487b58263f0d26f397f7c5c2cbc9a3fb8e",
-        "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650614639&idx=1&sn=16e448789ee260fe46ae8f321c646cfb&chksm=b6702491f25829e666d29e503f302515b518f7bb199c2908b7cb4f0d89d33789f1b93bcb9602",
         "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650614139&idx=1&sn=9353214dd82d82b2ebf03f2cbc1cfd55&chksm=b65290efaa926ba182a164b8f79d744995e33acf1b8ad9850cb08e6b784786010d58f74a8f7b",
         "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650615932&idx=1&sn=7c5dd3725d464f515c9de375790ca8e5&chksm=b6cf7511779ac78d4f31a4e8a75f1323395196299768a9008c7f35f6d70856b42f0968f46961",
         "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650615917&idx=1&sn=5bbfbed23fd0f8ac60594b321af7c573&chksm=b6d9410987f1c35b383b8ca4392f6a190dcae6ca91827db5038b6929c7b77f72c1a5d4d9be51",
         "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650615893&idx=1&sn=bc757982e99745f78673304526c086c9&chksm=b69b04f09b1aef91e23a5d2d9e87f18c31a5d1c7d6b62bda3ba05e2e0907af335474c11ba636",
         "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650615467&idx=2&sn=6de937609b5007d64df536b78a83bd2d&chksm=b6a69a10c065401509d71a88d59b6967e06fc660d7fb27e3000228e6b2386e6b0098a6c75497",
-        "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650615435&idx=2&sn=ad88310ff2c553eac262162d1a212e44&chksm=b60f653b84a9b0123fd946e12a60b2a0a243f6708ca48d0da75c666a06d7fa7031266bbe1f54",
-        "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650615296&idx=1&sn=1316fe639a9593266e2c3ea4909914a9&chksm=b6ec300a6094c07d50eaf2c77a76393b6350d1d3bd62ccef1c2bfcf4ca2d0c961325f468a40c",
         "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650614775&idx=3&sn=a0443fa69d0b2f365ff8e3849f364add&chksm=b6bb375cc3e3419461a490d6ad80ddfdf36c9a7ef5d41965fa6dd39fb109fbb2ad49692a1374",
         "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650614919&idx=2&sn=3f08db63568f3396bbf23a2e66e46e93&chksm=b611c44e8d3b061c9444b07837cd832feca8d086b000b8db5b5a015e15c1055ca6710742b187",
         "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650614353&idx=2&sn=b2ad33e379fa8212c5c4a1c7f9076a16&chksm=b6750b7e4ce2d0c03d0476350f7c8234f46f3cb6cafe85f5fac665ad9c22c96b7a27929ada77",
@@ -1707,7 +1708,6 @@
         "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650613548&idx=1&sn=71cfafa8160ff4161e7d86ad5aa1bd5e&chksm=b68821fd060286163401482c1d10d9a770fd305e63559c0e77f603813a044fe69579ae109b5c",
         "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650613441&idx=1&sn=1ae4df074a7f4d53a931147cb7f7adba&chksm=b6acb0e097f52ef326c83d47645078b6bb7a30844d836815e10da656e858e5d88f08fbe5f668",
         "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650613345&idx=3&sn=ff8385cc5feb50807170d848492dd5a6&chksm=b6c1a080f959eeef5d7b94e21b43e33b14beaf714bba3ac1443c13bf57bfd7396ff6a611ef0d",
-        "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650615240&idx=1&sn=59d161a6666e3b772eaeda8a4e21cf41&chksm=b6aed6ca6c31309db6fcd0cf9a702ed20c011fb616aa84096042bf28706a6b43e556b55cc24a",
         "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650615124&idx=2&sn=b35acf5f5930460c1c3e45aaab6579f2&chksm=b659b799d3646ea2743d87e7364a9f586099669b1cf02f19b1cb764b9dff9a38839f10d78596",
         "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650613820&idx=3&sn=0ff18d45a33f8583f5b8562e26a68a37&chksm=b60cdf8502c837e9739999fc6810de46e05a7e523e9c9bb1160979d5bb1a97d711a60fa95e8b",
         "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650615204&idx=1&sn=929260866a3e13eb0f7b710e020a1436&chksm=b6370cee23b135a44efb64dac88705ce24481bc2d0ede30614232386fc8513a26623151f952d",
@@ -1733,11 +1733,11 @@
         "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650610905&idx=2&sn=421c7e6994f02709f6bb729c7a3622fd&chksm=b677bdaca6a515990dfe44bdb0cfc6d70c60265003a6a39d8dfa63191ad0b2da87235645fc72",
         "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650612046&idx=2&sn=296e362a46d49fd91e4962a48f9bdaae&chksm=b61c79a051e9ccedfd5649d216c75e366f9df81b7582c7ab8c186a8ad2c597bfc19f4cf35267"
       ],
-      "last_changed_at": "2026-07-13T23:12:58.358341Z"
+      "last_changed_at": "2026-07-14T00:07:18.940980Z"
     },
     "aihot-selected": {
       "last_raw_count": 50,
-      "last_polled_at": "2026-07-13T23:11:47.546939Z",
+      "last_polled_at": "2026-07-14T00:05:53.098261Z",
       "source_signature": "54b0a2ce37b31eed7de5728f2ad3467d3fff1ec95a53a03f9ee11a9fa197fda4",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-09T08:44:50.779962Z",
