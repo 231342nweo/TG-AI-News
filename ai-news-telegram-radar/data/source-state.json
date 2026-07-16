@@ -1,13 +1,13 @@
 {
   "sources": {
     "deepseek-api-updates": {
-      "fingerprint": "9f773d2509d8287edaf48cca61a64fa432fbbfa92229f74899cd375296a242f7",
+      "fingerprint": "105972a6b1a62cce2c31f60cc90a9f6808ee8ee92682fa360e265fd2f23b3cfd",
       "last_checked_at": "2026-07-02T04:51:33.147542Z",
-      "last_excerpt": "Change Log | DeepSeek API Docs Skip to main content DeepSeek API Docs English English 中文（中国） DeepSeek Platform Quick Start Your First API Call Models & Pricing Token & Token Usage Rate Limit & Isolation Error Codes Agent Integrations API Guides Thinking Mode Multi-round Conversation Chat Prefix Completion (Beta) FIM Completion (Beta) JSON Output Tool Calls Context Caching Anthropic API API Reference News Other Resources FAQ Change Log Change Log On this page Change Log Date: 2026-04-24 ​ DeepSeek-V4 ​ The DeepSeek API now supports V4-Pro and V4-Flash, available via both the OpenAI ChatCompletions interface and the Anthropic interface. To access the new models, the base_url remains unchanged, and the model parameter should be set to deepseek-v4-pro or deepseek-v4-flash . The two legacy API model names, deepseek-chat and deepseek-reasoner , will be discontinued in three months (2026-07-24). During the current period, these two model names point to the non-thinking mode and thinking mode of deepseek-v4-flash , respectively. For more details, please refer to this documentation . Date: 2025-12-01 ​ DeepSeek-V3.2 ​ Both deepseek-chat and deepseek-reasoner have been upgraded to DeepSeek-V3.2. deepseek-chat corresponds to DeepSeek-V3.2's non-thinking mode deepseek-reasoner corresponds to DeepSeek-V3.2's thinking mode DeepSeek-V3.2-Speciale ​ DeepSeek-V3.2-Speciale is served via a temporary endpoint: base_url=\" https://api.deepseek.com/v3.2_speciale_expires_on_20251215 \". Same pricing as V3.2, no tool calls, available until Dec 15th, 2025, 15:59 (UTC Time). For more details, please refer to this documentation . Date: 2025-09-29 ​ DeepSeek-V3.2-Exp ​ Both deepseek-chat and deepseek-reasoner have been upgraded to DeepSeek-V3.2-Exp. deepseek-chat corresponds to DeepSeek-V3.2-Exp's non-thinking mode deepseek-reasoner corresponds to DeepSeek-V3.2-Exp's thinking mode For more details, please refer to this documentation . Date: 2025-09-22 ​ DeepSeek-V3.1-Terminus ​ Both deepseek-chat and deepseek-reasoner have been upgraded to DeepSeek-V3.1-Terminus. deepseek-chat corresponds to DeepSeek-V3.1-Terminus's non-thinking mode , while deepseek-reasoner corresponds to its thinking mode . This update maintains the model's original capabilities while addressing issues reported by users, including: Language consistency: Reduced occurrences of Chinese-English mixing and occasional abnormal characters; Agent capabilities: Further optimized the performance of the Code Agent and Search Agent. Date: 2025-08-21 ​ DeepSeek-V3.1 ​ Both deepseek-chat and deepseek-reasoner have been upgraded to DeepSeek-V3.1. deepseek-chat corresponds to DeepSeek-V3.1's non-thinking mode , while deepseek-reasoner corresponds to its thinking mode . Key updates in DeepSeek-V3.1: Hybrid reasoning architecture : A single model supports both thinking mode and non-thinking mode Improved reasoning efficiency : Compared to DeepSeek-R1-0528, DeepSeek-V3.1-Think provides answers in significantly less time Enhanced agent capabilities : With post-training optimization, the new model achieves major improvements in tool usage and intelligent agent tasks SWE-bench Verified: 66.0 SWE-bench Multilingual: 54.5 Terminal-bench: 31.3 Date: 2025-05-28 ​ deepseek-reasoner ​ deepseek-reasoner Model Upgraded to DeepSeek-R1-0528: Enhanced Reasoning Capabilities Significant benchmark improvements (Pass@1) AIME 2025: 70.0 → 87.5 (+17.5) GPQA: 71.5 → 81.0 (+9.5) LCB_v6: 63.5 → 73.3 (+9.8) Aider: 57.0 → 71.6 (+14.6) Note: Complex reasoning tasks may consume more tokens compared to legacy R1 version. Optimized Front-end Development Generated web pages and games now feature improved aesthetics. Reduced Hallucinations Significantly suppressed hallucination issues present in legacy R1 version. JSON Output & Function Calling Support Function call performance: Tau-bench score: 53.5 (Airline) / 63.9 (Retail) Date: 2025-03-24 ​ deepseek-chat ​ deepseek-chat Model Upgraded to DeepSeek-V3-0324: Enhanced Reasoning Capa",
+      "last_excerpt": "Your First API Call | DeepSeek API Docs Skip to main content DeepSeek API Docs English English 中文（中国） DeepSeek Platform Quick Start Your First API Call Models & Pricing Token & Token Usage Rate Limit & Isolation Error Codes Agent Integrations API Guides Thinking Mode Multi-round Conversation Chat Prefix Completion (Beta) FIM Completion (Beta) JSON Output Tool Calls Context Caching Anthropic API API Reference News Other Resources FAQ Change Log Quick Start Your First API Call On this page Your First API Call The DeepSeek API uses an API format compatible with OpenAI/Anthropic. By modifying the configuration, you can use the OpenAI/Anthropic SDK or softwares compatible with the OpenAI/Anthropic API to access the DeepSeek API. PARAM VALUE base_url (OpenAI) https://api.deepseek.com base_url (Anthropic) https://api.deepseek.com/anthropic api_key apply for an API key model * deepseek-v4-flash deepseek-v4-pro deepseek-chat (to be deprecated on 2026/07/24) deepseek-reasoner (to be deprecated on 2026/07/24) * The model names deepseek-chat and deepseek-reasoner will be deprecated on 2026/07/24 15:59 UTC. For compatibility, they correspond to the non-thinking mode and thinking mode of deepseek-v4-flash , respectively. Integrate with Agent Tools ​ The DeepSeek API is supported by many popular AI agent and coding assistant tools. If you use tools like Claude Code, GitHub Copilot, or OpenCode, you can use DeepSeek as the backend model directly — no code required. See the Agent Integrations Guide for details. Invoke The Chat API ​ Once you have obtained an API key, you can access the DeepSeek model using the following example scripts in the OpenAI API format. This is a non-stream example, you can set the stream parameter to true to get stream response. For examples using the Anthropic API format, please refer to Anthropic API . curl python nodejs curl https://api.deepseek.com/chat/completions \\ -H \"Content-Type: application/json\" \\ -H \"Authorization: Bearer ${DEEPSEEK_API_KEY}\" \\ -d '{ \"model\": \"deepseek-v4-pro\", \"messages\": [ {\"role\": \"system\", \"content\": \"You are a helpful assistant.\"}, {\"role\": \"user\", \"content\": \"Hello!\"} ], \"thinking\": {\"type\": \"enabled\"}, \"reasoning_effort\": \"high\", \"stream\": false }' # Please install OpenAI SDK first: `pip3 install openai` import os from openai import OpenAI client = OpenAI ( api_key = os . environ . get ( 'DEEPSEEK_API_KEY' ) , base_url = \"https://api.deepseek.com\" ) response = client . chat . completions . create ( model = \"deepseek-v4-pro\" , messages = [ { \"role\" : \"system\" , \"content\" : \"You are a helpful assistant\" } , { \"role\" : \"user\" , \"content\" : \"Hello\" } , ] , stream = False , reasoning_effort = \"high\" , extra_body = { \"thinking\" : { \"type\" : \"enabled\" } } ) print ( response . choices [ 0 ] . message . content ) // Please install OpenAI SDK first: `npm install openai` import OpenAI from \"openai\" ; const openai = new OpenAI ( { baseURL : 'https://api.deepseek.com' , apiKey : process . env . DEEPSEEK_API_KEY , } ) ; async function main ( ) { const completion = await openai . chat . completions . create ( { messages : [ { role : \"system\" , content : \"You are a helpful assistant.\" } ] , model : \"deepseek-v4-pro\" , thinking : { \"type\" : \"enabled\" } , reasoning_effort : \"high\" , stream : false , } ) ; console . log ( completion . choices [ 0 ] . message . content ) ; } main ( ) ; Next Models & Pricing Integrate with Agent Tools Invoke The Chat API WeChat Official Account Community Email Discord Twitter More GitHub Copyright © 2026 DeepSeek, Inc.",
       "baseline_initialized": true,
       "source_signature": "da94888987a371666a5f08739c9802c186474211b8f74f055d7f6cfad14cf7a4",
       "baseline_reinitialized_at": "2026-07-02T10:22:21.295328Z",
-      "last_changed_at": "2026-07-16T10:34:22.950024Z"
+      "last_changed_at": "2026-07-16T12:05:21.749379Z"
     },
     "deepseek-huggingface": {
       "models": {
@@ -95,22 +95,22 @@
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
     "minimax-platform": {
-      "fingerprint": "e554f9891deecabc1def2204141eb4d6ec542374cc5f28ba38fd0ba2f7fa2e21",
+      "fingerprint": "a66ba2cc901bc3c2779d617181658e7489eff2ec737be96d686879ab47f1af2e",
       "last_checked_at": "2026-07-02T04:51:33.147542Z",
-      "last_excerpt": "Models - MiniMax API Docs Documentation Index Fetch the complete documentation index at: /docs/llms.txt Use this file to discover all available pages before exploring further. Skip to main content 🎉 MiniMax-M3 is now available! A Frontier Model at your fingertips for Coding & Agent. ➔ Try Now . MiniMax API Docs home page Search... ⌘ K Documentation Pricing Console Search... Navigation Get started Models Developer Guides API Token Plan Pricing Release Notes Developer Program Get started Models Quick Start Use Guides Text Video Speech Image Music MCP Local Deployment FAQs About APIs About Account Contact Us Terms & Policy Terms of Service Privacy Policy On this page Language Video Audio Music Get started Models Copy page Overview of MiniMax AI models and their capabilities Copy page ​ Language Models Description Features MiniMax-M3 Frontier multimodal coding model with 1M context window • Multimodal • 1M context window • Frontier coding MiniMax-M2.7 Beginning the journey of recursive self-improvement • Top real-world engineering • Professional office delivery • Character-rich interaction MiniMax-M2.7-highspeed Same performance as M2.7 • Significantly faster inference • Polyglot code mastery • Precision code refactoring • Low latency Legacy Models Models Description Features MiniMax-M2.5 • Optimized for code generation and refactoring • Peak Performance. Ultimate Value. Master the Complex. MiniMax-M2.5-highspeed • Same performance as M2.5 • Significantly faster inference • Polyglot code mastery • Precision code refactoring • Low latency MiniMax-M2.1 • 230B total parameters with 10B activated per inference • Optimized for code generation and refactoring • Polyglot code mastery • Precision code refactoring • Enhanced reasoning MiniMax-M2.1-highspeed • Same performance as M2.1 • Significantly faster inference • Polyglot code mastery • Precision code refactoring • Low latency MiniMax-M2 • Context Length: 200k tokens • Maximum Output: 128k tokens (including CoT) • Agentic capabilities • Function calling • Advanced reasoning • Real-time streaming ​ Video Models Description Res.& Dur. FPS MiniMax Hailuo 2.3 • Text to Video & Image to Video • SOTA instruction following • Extreme physics mastery • 1080p 6s • 768p 6s, 10s 24 fps MiniMax Hailuo 2.3Fast • Image to Video • Extreme physics mastery • Value and Efficiency • 1080p 6s • 768p 6s, 10s 24 fps Legacy Models Models Description Res.& Dur. FPS MiniMax Hailuo 02 • Text to Video & Image to Video • SOTA instruction following • Extreme physics mastery • 1080p 6s • 768p 6s, 10s • 512p 6s, 10s 24 fps ​ Audio Models Description Features speech-2.8-hd • Ultra-realistic quality featuring sound tags • 40 languages supported • 7 emotions supported • specified languages and dialects supported speech-2.8-turbo • Seamless speed meets natural flow • 40 languages supported • 7 emotions supported • specified languages and dialects supported Legacy Models Models Description Features speech-2.6-hd • Ultimate Similarity • Ultra-High Quality • 40 languages supported • 7 emotions supported • specified languages and dialects supported speech-2.6-turbo • Ultimate Value • Low latency • 40 languages supported • 7 emotions supported • specified languages and dialects supported speech-02-hd • Stronger replication similarity • High quality voice generation • 24 languages supported • 7 emotions supported • specified languages and dialects supported speech-02-turbo • Superior rhythm and stability • Low latency • 24 languages supported • 7 emotions supported • specified languages and dialects supported ​ Music Models Description Features Music-2.6 • Cover Reborn. Bass Redefined. • Cover Reborn. Bass Redefined. Music-Cover • Generate cover versions from reference audio • One-step cover generation • Two-step cover with lyrics modification • Style transfer • Auto lyrics extraction Legacy Models Models Description Features Music-2.0 • Text to Music • Enhanced musicality • Natural vocals and smooth melodies • Human-like per",
+      "last_excerpt": "Models - MiniMax API Docs Documentation Index Fetch the complete documentation index at: /docs/llms.txt Use this file to discover all available pages before exploring further. Skip to main content 🎉 MiniMax-M3 is now available! A Frontier Model at your fingertips for Coding & Agent. ➔ Try Now . MiniMax API Docs home page Search... ⌘ K Documentation Pricing Console Search... Navigation Get started Models Developer Guides API Token Plan Pricing Release Notes Developer Program Get started Models Quick Start Use Guides Text Video Speech Image Music MCP Local Deployment FAQs About APIs About Account Contact Us Terms & Policy Terms of Service Privacy Policy On this page Language Video Audio Music Get started Models Copy page Overview of MiniMax AI models and their capabilities Copy page ​ Language Models Description Features MiniMax-M3 Frontier multimodal coding model with 1M context window • Multimodal • 1M context window • Frontier coding MiniMax-M2.7 Beginning the journey of recursive self-improvement • Top real-world engineering • Professional office delivery • Character-rich interaction MiniMax-M2.7-highspeed Same performance as M2.7 • Significantly faster inference • Polyglot code mastery • Precision code refactoring • Low latency Legacy Models Models Description Features MiniMax-M2.5 • Optimized for code generation and refactoring • Peak Performance. Ultimate Value. Master the Complex. MiniMax-M2.5-highspeed • Same performance as M2.5 • Significantly faster inference • Polyglot code mastery • Precision code refactoring • Low latency MiniMax-M2.1 • 230B total parameters with 10B activated per inference • Optimized for code generation and refactoring • Polyglot code mastery • Precision code refactoring • Enhanced reasoning MiniMax-M2.1-highspeed • Same performance as M2.1 • Significantly faster inference • Polyglot code mastery • Precision code refactoring • Low latency MiniMax-M2 • Context Length: 200k tokens • Maximum Output: 128k tokens (including CoT) • Agentic capabilities • Function calling • Advanced reasoning • Real-time streaming ​ Video Models Description Res.& Dur. FPS MiniMax Hailuo 2.3 • Text to Video & Image to Video • SOTA instruction following • Extreme physics mastery • 1080p 6s • 768p 6s, 10s 24 fps MiniMax Hailuo 2.3Fast • Image to Video • Extreme physics mastery • Value and Efficiency • 1080p 6s • 768p 6s, 10s 24 fps Legacy Models Models Description Res.& Dur. FPS MiniMax Hailuo 02 • Text to Video & Image to Video • SOTA instruction following • Extreme physics mastery • 1080p 6s • 768p 6s, 10s • 512p 6s, 10s 24 fps ​ Audio Models Description Features speech-2.8-hd • Ultra-realistic quality featuring sound tags • 40 languages supported • 7 emotions supported • specified languages and dialects supported speech-2.8-turbo • Seamless speed meets natural flow • 40 languages supported • 7 emotions supported • specified languages and dialects supported Legacy Models Models Description Features speech-2.6-hd • Ultimate Similarity • Ultra-High Quality • 40 languages supported • 7 emotions supported • specified languages and dialects supported speech-2.6-turbo • Ultimate Value • Low latency • 40 languages supported • 7 emotions supported • specified languages and dialects supported speech-02-hd • Stronger replication similarity • High quality voice generation • 24 languages supported • 7 emotions supported • specified languages and dialects supported speech-02-turbo • Superior rhythm and stability • Low latency • 24 languages supported • 7 emotions supported • specified languages and dialects supported ​ Music Models Description Features Music-3.0 • Cover Reborn. Bass Redefined. • Cover Reborn. Bass Redefined. Music-2.6 • Cover Reborn. Bass Redefined. • Cover Reborn. Bass Redefined. Music-Cover • Generate cover versions from reference audio • One-step cover generation • Two-step cover with lyrics modification • Style transfer • Auto lyrics extraction Legacy Models Models Description Features Music-2.0 • Text to Music •",
       "baseline_initialized": true,
       "source_signature": "7efa5264e5e772d4c753eb467c1b0c232a428981fc38afd2b8494069a2091e61",
       "baseline_reinitialized_at": "2026-07-02T10:22:21.295328Z",
-      "last_changed_at": "2026-07-02T10:22:21.295328Z"
+      "last_changed_at": "2026-07-16T12:05:21.749379Z"
     },
     "minimax-release-notes": {
-      "fingerprint": "0a4c6263768040479f48490bc753977b89a8b55429745584bfd895144b9936ea",
+      "fingerprint": "15afa5aa7d6fcd6d4fda65a1603304aa84b55e4d1a94ee460a04549a6a64ef12",
       "last_checked_at": "2026-07-02T04:51:33.147542Z",
-      "last_excerpt": "Models - MiniMax API Docs Documentation Index Fetch the complete documentation index at: /docs/llms.txt Use this file to discover all available pages before exploring further. Skip to main content 🎉 MiniMax-M3 is now available! A Frontier Model at your fingertips for Coding & Agent. ➔ Try Now . MiniMax API Docs home page Search... ⌘ K Documentation Pricing Console Search... Navigation Models Developer Guides API Token Plan Pricing Release Notes Developer Program Models APIs On this page Jun. 1, 2026 Apr. 2026 Mar. 18, 2026 Mar. 2026 Feb. 2026 Jan. 23, 2026 Jan. 16, 2026 Dec. 22, 2025 Oct. 29, 2025 Oct. 29, 2025 Oct. 28, 2025 Oct. 27, 2025 Sept. 11, 2025 Aug. 6, 2025 Jun. 20, 2025 Jun. 18, 2025 Apr. 2, 2025 Feb. 15, 2025 Feb. 11, 2025 Jan. 15, 2025 Models Copy page Stay updated on MiniMax’s latest model releases across language, audio, video, image, and music. Copy page ​ Jun. 1, 2026 MiniMax M3 Released MiniMax-M3, the latest M-series language model for agentic reasoning, tool use, coding, multimodal chat input, and long-context tasks. Learn More ​ Apr. 2026 Music-2.6 Cover Reborn. Bass Redefined. Learn More ​ Mar. 18, 2026 MiniMax M2.7 Released MiniMax-M2.7 series (MiniMax-M2.7 / M2.7-highspeed). Beginning the journey of recursive self-improvement. Learn More ​ Mar. 2026 Music2.5+ Released Music2.5+, Instrumental Unlocked, break through style boundaries Learn More ​ Feb. 2026 MiniMax M2.5 Released MiniMax-M2.5 series models (MiniMax-M2.5 / M2.5-highspeed). Achieving or setting new SOTA benchmarks in programming, tool calling and search, office productivity and other scenarios. Learn More ​ Jan. 23, 2026 Speech-2.8 Natural Sound Tags, lifelike voice, pristine audio quality Learn More ​ Jan. 16, 2026 Music-2.5 Released Music 2.5, Direct the Detail. Define the Real. Learn More ​ Dec. 22, 2025 MiniMax-M2.1 Released MiniMax-M2.1. Polyglot Programming Mastery, Precision Code Refactoring. Learn More ​ Oct. 29, 2025 Music-2.0 Released Music 2.0, enhanced musical expression that makes every melody deeply emotional. Learn More ​ Oct. 29, 2025 Speech-2.6 Released Speech 2.6 — More human and instantly responsive voice for your agent. Learn More ​ Oct. 28, 2025 MiniMax-Hailuo-2.3 & 2.3-Fast Released MiniMax-Hailuo-2.3 & 2.3-Fast, featuring breakthroughs in body movement, facial expressions, physical realism, and prompt adherence. Learn More ​ Oct. 27, 2025 MiniMax-M2 MiniMax-M2 Released. An Efficient Model for the Agentic Era. Get free MiniMax M2 model API calls now. Offer ends November 7, 2025, at 00:00 UTC. Learn More ​ Sept. 11, 2025 Music-1.5 New music model released. Now supports 4-minute songs, getting back to the core of great sound. Start Building ​ Aug. 6, 2025 Speech-2.5 Released a next-generation speech synthesis model featuring broader language coverage and exceptionally high voice similarity. Learn More ​ Jun. 20, 2025 Music-1.5 (Beta) Released Music-1.5 (Beta), a next-generation music generation model that supports creating music from musical prompts and lyrics. Start Building ​ Jun. 18, 2025 MiniMax-Hailuo-02 Released MiniMax Hailuo 02, a next-generation video generation model with support for 1080p resolution and video generation of up to 10 seconds. Learn More ​ Apr. 2, 2025 Speech-02-turbo / Speech-02-hd Released the Speech-02 model series, delivering hyper-realistic vocal performance. The models are distinguished by exceptional prosody and stability, along with outstanding voice similarity and audio quality. Learn More ​ Feb. 15, 2025 Image-01 Released the Image-01 model, which supports text-to-image generation in multiple sizes. Start Building ​ Feb. 11, 2025 T2V-01-Director / I2V-01-Director Released a video generation model with enhanced camera control, offering superior adherence to camera movement directives and enabling cinematic storytelling through its shot composition. Start Building ​ Jan. 15, 2025 MiniMax-Text-01 / MiniMax-VL-01 Released the next-generation LLM, MiniMax-Text-01, and the vision-language model,",
+      "last_excerpt": "Models - MiniMax API Docs Documentation Index Fetch the complete documentation index at: /docs/llms.txt Use this file to discover all available pages before exploring further. Skip to main content 🎉 MiniMax-M3 is now available! A Frontier Model at your fingertips for Coding & Agent. ➔ Try Now . MiniMax API Docs home page Search... ⌘ K Documentation Pricing Console Search... Navigation Models Developer Guides API Token Plan Pricing Release Notes Developer Program Models APIs On this page Jul. 16, 2026 Jun. 1, 2026 Apr. 2026 Mar. 18, 2026 Mar. 2026 Feb. 2026 Jan. 23, 2026 Jan. 16, 2026 Dec. 22, 2025 Oct. 29, 2025 Oct. 29, 2025 Oct. 28, 2025 Oct. 27, 2025 Sept. 11, 2025 Aug. 6, 2025 Jun. 20, 2025 Jun. 18, 2025 Apr. 2, 2025 Feb. 15, 2025 Feb. 11, 2025 Jan. 15, 2025 Models Copy page Stay updated on MiniMax’s latest model releases across language, audio, video, image, and music. Copy page ​ Jul. 16, 2026 Music-3.0 Cover Reborn. Bass Redefined. Learn More ​ Jun. 1, 2026 MiniMax M3 Released MiniMax-M3, the latest M-series language model for agentic reasoning, tool use, coding, multimodal chat input, and long-context tasks. Learn More ​ Apr. 2026 Music-2.6 Cover Reborn. Bass Redefined. Learn More ​ Mar. 18, 2026 MiniMax M2.7 Released MiniMax-M2.7 series (MiniMax-M2.7 / M2.7-highspeed). Beginning the journey of recursive self-improvement. Learn More ​ Mar. 2026 Music2.5+ Released Music2.5+, Instrumental Unlocked, break through style boundaries Learn More ​ Feb. 2026 MiniMax M2.5 Released MiniMax-M2.5 series models (MiniMax-M2.5 / M2.5-highspeed). Achieving or setting new SOTA benchmarks in programming, tool calling and search, office productivity and other scenarios. Learn More ​ Jan. 23, 2026 Speech-2.8 Natural Sound Tags, lifelike voice, pristine audio quality Learn More ​ Jan. 16, 2026 Music-2.5 Released Music 2.5, Direct the Detail. Define the Real. Learn More ​ Dec. 22, 2025 MiniMax-M2.1 Released MiniMax-M2.1. Polyglot Programming Mastery, Precision Code Refactoring. Learn More ​ Oct. 29, 2025 Music-2.0 Released Music 2.0, enhanced musical expression that makes every melody deeply emotional. Learn More ​ Oct. 29, 2025 Speech-2.6 Released Speech 2.6 — More human and instantly responsive voice for your agent. Learn More ​ Oct. 28, 2025 MiniMax-Hailuo-2.3 & 2.3-Fast Released MiniMax-Hailuo-2.3 & 2.3-Fast, featuring breakthroughs in body movement, facial expressions, physical realism, and prompt adherence. Learn More ​ Oct. 27, 2025 MiniMax-M2 MiniMax-M2 Released. An Efficient Model for the Agentic Era. Get free MiniMax M2 model API calls now. Offer ends November 7, 2025, at 00:00 UTC. Learn More ​ Sept. 11, 2025 Music-1.5 New music model released. Now supports 4-minute songs, getting back to the core of great sound. Start Building ​ Aug. 6, 2025 Speech-2.5 Released a next-generation speech synthesis model featuring broader language coverage and exceptionally high voice similarity. Learn More ​ Jun. 20, 2025 Music-1.5 (Beta) Released Music-1.5 (Beta), a next-generation music generation model that supports creating music from musical prompts and lyrics. Start Building ​ Jun. 18, 2025 MiniMax-Hailuo-02 Released MiniMax Hailuo 02, a next-generation video generation model with support for 1080p resolution and video generation of up to 10 seconds. Learn More ​ Apr. 2, 2025 Speech-02-turbo / Speech-02-hd Released the Speech-02 model series, delivering hyper-realistic vocal performance. The models are distinguished by exceptional prosody and stability, along with outstanding voice similarity and audio quality. Learn More ​ Feb. 15, 2025 Image-01 Released the Image-01 model, which supports text-to-image generation in multiple sizes. Start Building ​ Feb. 11, 2025 T2V-01-Director / I2V-01-Director Released a video generation model with enhanced camera control, offering superior adherence to camera movement directives and enabling cinematic storytelling through its shot composition. Start Building ​ Jan. 15, 2025 MiniMax-Text-01 / MiniMax-VL-01 ",
       "baseline_initialized": true,
       "source_signature": "a2532ebbb3dcd662b822ecda363ea5aa2b3a49b3f3b4ef58a3d0ac6ff25450f0",
       "baseline_reinitialized_at": "2026-07-02T10:22:21.295328Z",
-      "last_changed_at": "2026-07-02T10:22:21.295328Z"
+      "last_changed_at": "2026-07-16T12:05:21.749379Z"
     },
     "stepfun-platform": {
       "fingerprint": "6593dafd004dfc0bddd66bffad32c9efafdd04dd04103a76085639c0ae17f4c8",
@@ -184,13 +184,13 @@
       "last_suppressed_reason": "html_diff_without_readable_change"
     },
     "baidu-qianfan-docs": {
-      "fingerprint": "b00f198b8c3cc87ed47bf74225f3cef1d5195611540c7d5b4d26465bcbd48ed7",
+      "fingerprint": "062dc193ba7a1f355b9041c4a2a2701cffd8ec3c999465c8261972d153e61c06",
       "last_checked_at": "2026-07-02T04:51:33.147542Z",
-      "last_excerpt": "百度千帆·大模型服务及Agent开发平台 -百度智能云 最新活动 产品 解决方案 千帆社区 AI原生应用商店 企业服务 云市场 合作与生态 开发者 服务与支持 了解智能云 备案 文档 管理控制台 文档中心 推荐文档 云服务器 千帆大模型平台 文字识别 人脸识别 实名认证介绍 备案介绍 财务功能概述 搜索本产品文档关键词 所有文档 人工智能 百度千帆模型服务及Agent开发平台 百度胜算 DuClaw DuMate 秒哒 百度伐谋 百度一见 智能代码助手 文字识别 语音技术 人脸识别 人体分析 语言处理技术 图像识别 图像搜索 图像增强 BML全功能AI开发平台 零门槛AI开发平台 EasyDL 知识理解 机器人平台 ABC Robot 内容审核 机器翻译 居民服务Agent 曦灵数字人 计算 云服务器 BCC 专属服务器 DCC 弹性裸金属服务器 GPU云服务器 FPGA云服务器 云手机 弹性伸缩 AS 云编排服务 COS 应用引擎 BAE 轻量应用服务器 LS 本地计算集群 LCC 百度百舸·AI计算平台 云高性能计算平台 磐玉一体机 网络 弹性公网IP 私有网络 VPC 服务网卡 SNIC 负载均衡 BLB 智能云解析 DNS 专线接入 ET 云智能网 CSN 智能流量管理 云防火墙 CFW 智能网络接入服务 网络诊断服务 存储 对象存储 BOS 云磁盘 CDS 文件存储 CFS 并行文件存储 PFS 存储网关 BSG 数据流转平台 CloudFlow 极速文件缓存 RapidFS 云备份 BCB 表格存储 TableStorage CDN与边缘服务 内容分发网络 CDN 海外CDN 动态加速 DRCDN 边缘计算节点 BEC 边缘服务器 ECS 数据库 云数据库 RDS 云数据库 Redis 云数据库 DocDB for MongoDB 云原生数据库 GaiaDB 数据传输服务 DTS 数据库智能驾驶舱 DBSC 消息服务 for RabbitMQ 向量数据库 VectorDB 云原生 容器引擎服务 CCE 容器镜像服务CCR Prometheus监控服务 容器实例BCI 函数计算 CFC 服务网格 CSM 微服务引擎 MSE AI原生网关 AIGW 管理运维 云监控BCM 运维编排服务 效率云 API网关 标签管理 资源管理 配额中心 云迁移中心 服务与支持 智能视频 音视频处理 智能视频 SDK 媒体内容分析 媒体内容审核 音视频直播 智能直播应用平台 ILAP 实时音视频 RTC 智能点播平台 VOD 多模态资源检索 智能视联网平台 智能大数据 MapReduce 流式计算 BSC 数据可视化 Sugar BI Elasticsearch 数据仓库 PALO 日志服务 BLS 消息服务 for Kafka 消息服务 for RocketMQ 千帆数据智能平台 DataBuilder 城市时空大数据分析 DMI 安全 DDoS防护服务 应用防火墙WAF 云安全中心 安全检测服务 流量审计分析 云审计 业务安全风控 号码安全服务SPNS 密钥管理服务 SSL证书 云堡垒机 安全漏洞预警 操作系统安全加固 应用加固与安全检测 短网址服务 史宾格安全及隐私合规平台 大模型内容安全平台 云通信 短信服务 SMS 号码隐私保护服务 PNS 号码认证服务 语音通话 语言通知服务 5G消息服务 域名与网站 智能门户 域名服务 备案服务 移动域名解析 商标服务 云主机管家 数字营销云 智能对话营销服务 企业智能应用 智能对话平台UNIT私有化 智能对话平台UNIT云端版 智能外呼 智能推荐引擎 工商财税服务 CBS 问卷调研服务 移动APP测试服务 物联网服务 物联网核心套件 时序时空数据库 TSDB 物联网安全套件 天工智能物联网解决方案 度家-AIOT语音平台 区块链 超级链BaaS平台 超级链数字商品可信登记平台 超级链可信存证 混合云 广目混合云管理平台 BaiduLinuxOS 云市场 云市场 解决方案 金融云 工业视觉智能平台 云游戏 金融智能体 账户管理 账号管理 多用户访问控制 企业组织 证书管理 实名认证 通用参考 ICP备案帮助 区域选择说明 鉴权认证机制 获取AK/SK 术语表 法律条款 API入门指南 财务参考 计费说明 发票 充值 续费 代金券 账单与收支 订单管理 提现 退款 配置升/降级 赔付 企业组织财务管理 合同 常见问题 百度千帆·大模型服务及Agent开发平台 平台介绍 模型介绍 Token Plan 个人版 Token Plan 企业版 Coding Plan 计费说明 最佳实践 平台操作 API参考 SDK参考 常见问题 相关协议 文档中心 百度千帆·大模型服务及Agent开发平台 百度千帆·大模型服务及Agent开发平台 产品详情 全新的“百度千帆”以Agent为核心，为企业提供模型、Agent开发及数据智能服务等一站式服务。百度千帆基于百度智能云的全栈AI云布局，围绕Agent引擎、工具及MCP、模型服务与企业级服务等四大关键要素，为Agent的应用落地构建了坚实的能力底座。 学习路径 循序渐进，带您全面了解百度千帆·大模型服务及Agent开发平台 了解 了解百度千帆·大模型服务及Agent开发平台的产品特性，优势和使用场景，让您对它有一个全局的认识。 平台简介 产品公告 费用说明 针对不同的应用场景，您可以灵活选择计费模式 模型服务计费 退款申请说明 模型token计算说明 平台操作 当前新用户注册百度千帆·大模型服务及Agent开发平台 ，实名认证后即送20元代金券！全平台无门槛使用，有效期一个月。 模型服务 应用开发 组件广场 系统管理 百度千帆·大模型服务及Agent开发平台 百度千帆·大模型服务及Agent开发平台 产品详情 全新的“百度千帆”以Agent为核心，为企业提供模型、Agent开发及数据智能服务等一站式服务。百度千帆基于百度智能云的全栈AI云布局，围绕Agent引擎、工具及MCP、模型服务与企业级服务等四大关键要素，为Agent的应用落地构建了坚实的能力底座。 学习路径 循序渐进，带您全面了解百度千帆·大模型服务及Agent开发平台 ① 了解 了解百度千帆·大模型服务及Agent开发平台的产品特性，优势和使用场景，让您对它有一个全局的认识。 · 平台简介 · 产品公告 ② 费用说明 针对不同的应用场景，您可以灵活选择计费模式 · 模型服务计费 · 退款申请说明 · 模型token计算说明 ③ 平台操作 当前新用户注册百度千帆·大模型服务及Agent开发平台 ，实名认证后即送20元代金券！全平台无门槛使用，有效期一个月。 · 模型服务 · 应用开发 · 组件广场 · 系统管理",
+      "last_excerpt": "百度千帆·大模型服务及Agent开发平台 -百度智能云 最新活动 产品 解决方案 千帆社区 AI原生应用商店 企业服务 云市场 合作与生态 开发者 服务与支持 了解智能云 备案 文档 管理控制台 文档中心 推荐文档 云服务器 千帆大模型平台 文字识别 人脸识别 实名认证介绍 备案介绍 财务功能概述 搜索本产品文档关键词 所有文档 人工智能 百度千帆模型服务及Agent开发平台 百度胜算 DuClaw DuMate 秒哒 百度伐谋 百度一见 智能代码助手 文字识别 语音技术 人脸识别 人体分析 语言处理技术 图像识别 图像搜索 图像增强 BML全功能AI开发平台 零门槛AI开发平台 EasyDL 知识理解 机器人平台 ABC Robot 内容审核 机器翻译 居民服务Agent 曦灵数字人 计算 云服务器 BCC 专属服务器 DCC 弹性裸金属服务器 GPU云服务器 FPGA云服务器 云手机 弹性伸缩 AS 云编排服务 COS 应用引擎 BAE 轻量应用服务器 LS 本地计算集群 LCC 百度百舸·AI计算平台 云高性能计算平台 磐玉一体机 网络 弹性公网IP 私有网络 VPC 服务网卡 SNIC 负载均衡 BLB 智能云解析 DNS 专线接入 ET 云智能网 CSN 智能流量管理 云防火墙 CFW 智能网络接入服务 网络诊断服务 存储 对象存储 BOS 云磁盘 CDS 文件存储 CFS 并行文件存储 PFS 存储网关 BSG 数据流转平台 CloudFlow 极速文件缓存 RapidFS 云备份 BCB 表格存储 TableStorage CDN与边缘服务 内容分发网络 CDN 海外CDN 动态加速 DRCDN 边缘计算节点 BEC 边缘服务器 ECS 数据库 云数据库 RDS 云数据库 Redis 云数据库 DocDB for MongoDB 云原生数据库 GaiaDB 数据传输服务 DTS 数据库智能驾驶舱 DBSC 消息服务 for RabbitMQ 向量数据库 VectorDB 云原生 容器引擎服务 CCE 容器镜像服务CCR Prometheus监控服务 容器实例BCI 函数计算 CFC 服务网格 CSM 微服务引擎 MSE AI原生网关 AIGW 智能体沙箱 AX 管理运维 云监控BCM 运维编排服务 效率云 API网关 标签管理 资源管理 配额中心 云迁移中心 服务与支持 智能视频 音视频处理 智能视频 SDK 媒体内容分析 媒体内容审核 音视频直播 智能直播应用平台 ILAP 实时音视频 RTC 智能点播平台 VOD 多模态资源检索 智能视联网平台 智能大数据 MapReduce 流式计算 BSC 数据可视化 Sugar BI Elasticsearch 数据仓库 PALO 日志服务 BLS 消息服务 for Kafka 消息服务 for RocketMQ 千帆数据智能平台 DataBuilder 城市时空大数据分析 DMI 安全 DDoS防护服务 应用防火墙WAF 云安全中心 安全检测服务 流量审计分析 云审计 业务安全风控 号码安全服务SPNS 密钥管理服务 SSL证书 云堡垒机 安全漏洞预警 操作系统安全加固 应用加固与安全检测 短网址服务 史宾格安全及隐私合规平台 大模型内容安全平台 云通信 短信服务 SMS 号码隐私保护服务 PNS 号码认证服务 语音通话 语言通知服务 5G消息服务 域名与网站 智能门户 域名服务 备案服务 移动域名解析 商标服务 云主机管家 数字营销云 智能对话营销服务 企业智能应用 智能对话平台UNIT私有化 智能对话平台UNIT云端版 智能外呼 智能推荐引擎 工商财税服务 CBS 问卷调研服务 移动APP测试服务 物联网服务 物联网核心套件 时序时空数据库 TSDB 物联网安全套件 天工智能物联网解决方案 度家-AIOT语音平台 区块链 超级链BaaS平台 超级链数字商品可信登记平台 超级链可信存证 混合云 广目混合云管理平台 BaiduLinuxOS 云市场 云市场 解决方案 金融云 工业视觉智能平台 云游戏 金融智能体 账户管理 账号管理 多用户访问控制 企业组织 证书管理 实名认证 通用参考 ICP备案帮助 区域选择说明 鉴权认证机制 获取AK/SK 术语表 法律条款 API入门指南 财务参考 计费说明 发票 充值 续费 代金券 账单与收支 订单管理 提现 退款 配置升/降级 赔付 企业组织财务管理 合同 常见问题 百度千帆·大模型服务及Agent开发平台 平台介绍 模型介绍 Token Plan 个人版 Token Plan 企业版 Coding Plan 计费说明 最佳实践 平台操作 API参考 SDK参考 常见问题 相关协议 文档中心 百度千帆·大模型服务及Agent开发平台 百度千帆·大模型服务及Agent开发平台 产品详情 全新的“百度千帆”以Agent为核心，为企业提供模型、Agent开发及数据智能服务等一站式服务。百度千帆基于百度智能云的全栈AI云布局，围绕Agent引擎、工具及MCP、模型服务与企业级服务等四大关键要素，为Agent的应用落地构建了坚实的能力底座。 学习路径 循序渐进，带您全面了解百度千帆·大模型服务及Agent开发平台 了解 了解百度千帆·大模型服务及Agent开发平台的产品特性，优势和使用场景，让您对它有一个全局的认识。 平台简介 产品公告 费用说明 针对不同的应用场景，您可以灵活选择计费模式 模型服务计费 退款申请说明 模型token计算说明 平台操作 当前新用户注册百度千帆·大模型服务及Agent开发平台 ，实名认证后即送20元代金券！全平台无门槛使用，有效期一个月。 模型服务 应用开发 组件广场 系统管理 百度千帆·大模型服务及Agent开发平台 百度千帆·大模型服务及Agent开发平台 产品详情 全新的“百度千帆”以Agent为核心，为企业提供模型、Agent开发及数据智能服务等一站式服务。百度千帆基于百度智能云的全栈AI云布局，围绕Agent引擎、工具及MCP、模型服务与企业级服务等四大关键要素，为Agent的应用落地构建了坚实的能力底座。 学习路径 循序渐进，带您全面了解百度千帆·大模型服务及Agent开发平台 ① 了解 了解百度千帆·大模型服务及Agent开发平台的产品特性，优势和使用场景，让您对它有一个全局的认识。 · 平台简介 · 产品公告 ② 费用说明 针对不同的应用场景，您可以灵活选择计费模式 · 模型服务计费 · 退款申请说明 · 模型token计算说明 ③ 平台操作 当前新用户注册百度千帆·大模型服务及Agent开发平台 ，实名认证后即送20元代金券！全平台无门槛使用，有效期一个月。 · 模型服务 · 应用开发 · 组件广场 · 系统管理",
       "baseline_initialized": true,
       "source_signature": "70f27b13727d41b2aa701e06aaddd8cef63e3dfe9e04c82f149e4ddc0031ea05",
       "baseline_reinitialized_at": "2026-07-02T10:22:21.295328Z",
-      "last_changed_at": "2026-07-12T15:13:22.004064Z"
+      "last_changed_at": "2026-07-16T12:05:21.749379Z"
     },
     "tencent-hunyuan-update-history": {
       "fingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
@@ -367,9 +367,9 @@
       "last_checked_at": "2026-07-02T04:51:37.867265Z",
       "baseline_initialized": true,
       "repos": {
-        "MoonshotAI/kimi-code": "2026-07-16T10:32:07Z",
-        "MoonshotAI/Kimi-K2": "2026-01-21T05:33:12Z",
+        "MoonshotAI/kimi-code": "2026-07-16T11:34:48Z",
         "MoonshotAI/kimi-cli": "2026-07-16T10:05:51Z",
+        "MoonshotAI/Kimi-K2": "2026-01-21T05:33:12Z",
         "MoonshotAI/Attention-Residuals": "2026-03-17T06:23:11Z",
         "MoonshotAI/Kimi-K2.5": "2026-01-31T00:49:42Z",
         "MoonshotAI/MoBA": "2025-04-03T07:28:06Z",
@@ -388,7 +388,7 @@
         "MoonshotAI/Kimina-Prover-Preview": "2025-07-10T13:04:40Z",
         "MoonshotAI/WorldVQA": "2026-02-04T07:27:04Z"
       },
-      "last_changed_at": "2026-07-16T10:34:22.950024Z",
+      "last_changed_at": "2026-07-16T12:05:21.749379Z",
       "source_signature": "c925f37596aaabb84376bf83142f08b0ce08447179a5d27a52c7956a40180daa",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -529,8 +529,8 @@
       "last_checked_at": "2026-07-02T04:51:54.681996Z",
       "baseline_initialized": true,
       "repos": {
+        "OpenSenseNova/SenseNova-U1": "2026-07-16T11:36:22Z",
         "OpenSenseNova/SenseNova-Vision": "2026-07-13T08:37:57Z",
-        "OpenSenseNova/SenseNova-U1": "2026-07-16T10:27:34Z",
         "OpenSenseNova/SenseNova-Skills": "2026-07-16T06:44:04Z",
         "OpenSenseNova/SenseNova-SI": "2026-05-14T03:11:20Z",
         "OpenSenseNova/MemSense": "2026-06-18T09:35:58Z",
@@ -548,7 +548,7 @@
         "OpenSenseNova/InteractiveOmni": "2025-12-03T10:43:09Z",
         "OpenSenseNova/LlamaIndex_SenseNova": "2024-08-30T07:51:57Z"
       },
-      "last_changed_at": "2026-07-16T10:34:22.950024Z",
+      "last_changed_at": "2026-07-16T12:05:21.749379Z",
       "source_signature": "184a583402fb329afbafdb76f2a65866a141a46158abf1628f6e67daed5e148c",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -591,6 +591,8 @@
       "last_checked_at": "2026-07-02T04:51:56.844085Z",
       "baseline_initialized": true,
       "repos": {
+        "InternLM/CapRL": "2026-06-23T02:40:21Z",
+        "InternLM/ARM-Thinker": "2026-02-13T09:00:05Z",
         "InternLM/InternEvo": "2025-08-21T02:35:36Z",
         "InternLM/Tutorial": "2026-04-22T08:39:08Z",
         "InternLM/xtuner": "2026-07-16T08:34:09Z",
@@ -602,17 +604,15 @@
         "InternLM/InternLM-XComposer": "2025-05-26T15:59:34Z",
         "InternLM/InternLM": "2025-10-30T00:35:43Z",
         "InternLM/OpenAOE": "2025-06-19T13:58:16Z",
-        "InternLM/CapRL": "2026-06-23T02:40:21Z",
         "InternLM/Challenge-Cup-2026": "2026-06-10T05:56:17Z",
         "InternLM/RNGBench": "2026-07-07T05:52:46Z",
         "InternLM/OVO-S-Bench": "2026-06-24T12:26:42Z",
         "InternLM/Kernel-Smith": "2026-03-31T03:23:03Z",
         "InternLM/agentlego": "2024-09-13T08:00:19Z",
         "InternLM/InternLM-Math": "2024-10-22T16:18:00Z",
-        "InternLM/lagent": "2026-07-06T07:53:47Z",
-        "InternLM/EMemBench": "2026-03-05T09:42:48Z"
+        "InternLM/lagent": "2026-07-06T07:53:47Z"
       },
-      "last_changed_at": "2026-07-16T10:34:22.950024Z",
+      "last_changed_at": "2026-07-16T12:05:21.749379Z",
       "source_signature": "a7a2f73a91108336ba1fe2d4fb4d5921862eb329f648d490a4d7903663f49f70",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -624,28 +624,28 @@
       "last_checked_at": "2026-07-02T04:51:58.871155Z",
       "baseline_initialized": true,
       "repos": {
-        "QwenLM/Qwen3.6": "2026-06-03T12:14:19Z",
-        "QwenLM/Qwen3-Coder": "2026-03-24T08:22:10Z",
-        "QwenLM/qwen-code": "2026-07-16T10:32:53Z",
-        "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
+        "QwenLM/qwen-code": "2026-07-16T11:53:50Z",
+        "QwenLM/Qwen3-Embedding": "2025-09-30T06:10:27Z",
         "QwenLM/Qwen3-ASR": "2026-06-26T08:20:17Z",
+        "QwenLM/Qwen-Agent": "2026-03-04T08:15:07Z",
+        "QwenLM/Qwen3-Coder": "2026-03-24T08:22:10Z",
+        "QwenLM/Qwen-VL": "2024-08-07T02:37:06Z",
+        "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
+        "QwenLM/Qwen3.6": "2026-06-03T12:14:19Z",
+        "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
         "QwenLM/Qwen-AgentWorld": "2026-06-25T06:57:43Z",
         "QwenLM/Qwen-Image": "2026-02-10T07:37:37Z",
-        "QwenLM/Qwen-Agent": "2026-03-04T08:15:07Z",
         "QwenLM/Qwen-Image-Layered": "2025-12-31T11:40:35Z",
         "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
         "QwenLM/FlashQLA": "2026-07-15T11:00:23Z",
-        "QwenLM/Qwen3-Embedding": "2025-09-30T06:10:27Z",
         "QwenLM/Qwen3-Omni": "2026-04-23T10:58:01Z",
-        "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
         "QwenLM/Qwen": "2026-03-05T13:55:17Z",
         "QwenLM/Qwen3-VL-Embedding": "2026-06-23T10:39:17Z",
-        "QwenLM/Qwen-VL": "2024-08-07T02:37:06Z",
         "QwenLM/Qwen2.5-Omni": "2025-06-12T11:03:07Z",
         "QwenLM/Qwen-VLA": "2026-05-29T13:49:38Z",
         "QwenLM/Qwen-RobotNav": "2026-06-30T03:01:19Z"
       },
-      "last_changed_at": "2026-07-16T10:34:22.950024Z",
+      "last_changed_at": "2026-07-16T12:05:21.749379Z",
       "source_signature": "ddc0d8d3788b1fc4ba6779bc400a51934ce7ac0845fbfff67f906a6d77406e21",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -654,15 +654,16 @@
       "last_checked_at": "2026-07-02T04:52:01.889603Z",
       "baseline_initialized": true,
       "repos": {
-        "Tencent-Hunyuan/HY-World-2.0": "2026-05-27T07:25:04Z",
+        "Tencent-Hunyuan/UniRL": "2026-07-16T12:03:56Z",
+        "Tencent-Hunyuan/HY-Motion-1.0": "2026-05-25T03:42:57Z",
         "Tencent-Hunyuan/Hy-Embodied-RxBrain-1.0": "2026-07-15T08:28:42Z",
+        "Tencent-Hunyuan/HunyuanImage-3.0": "2026-06-23T13:12:44Z",
+        "Tencent-Hunyuan/HY-World-2.0": "2026-05-27T07:25:04Z",
         "Tencent-Hunyuan/Hunyuan3D-2": "2025-10-28T09:58:12Z",
         "Tencent-Hunyuan/Hunyuan3D-2.1": "2025-10-17T10:10:07Z",
         "Tencent-Hunyuan/HunyuanWorld-Mirror": "2026-05-27T03:22:57Z",
-        "Tencent-Hunyuan/HunyuanImage-3.0": "2026-06-23T13:12:44Z",
         "Tencent-Hunyuan/HunyuanOCR": "2026-07-13T07:51:06Z",
         "Tencent-Hunyuan/Hy-Embodied-0.5-VLA": "2026-07-09T09:42:43Z",
-        "Tencent-Hunyuan/UniRL": "2026-07-16T10:29:43Z",
         "Tencent-Hunyuan/Hy3": "2026-07-15T14:30:33Z",
         "Tencent-Hunyuan/UniCom": "2026-04-13T10:38:53Z",
         "Tencent-Hunyuan/HY-Embodied": "2026-07-15T11:54:12Z",
@@ -672,10 +673,9 @@
         "Tencent-Hunyuan/HY-WorldPlay": "2026-06-10T07:10:23Z",
         "Tencent-Hunyuan/HunyuanVideo-I2V": "2026-04-07T06:13:09Z",
         "Tencent-Hunyuan/HY-SOAR": "2026-04-21T16:45:31Z",
-        "Tencent-Hunyuan/Hy-Embodied-RoboFusion": "2026-05-15T06:00:53Z",
-        "Tencent-Hunyuan/HunyuanVideo": "2026-06-29T09:33:50Z"
+        "Tencent-Hunyuan/Hy-Embodied-RoboFusion": "2026-05-15T06:00:53Z"
       },
-      "last_changed_at": "2026-07-16T10:34:22.950024Z",
+      "last_changed_at": "2026-07-16T12:05:21.749379Z",
       "source_signature": "637ce9b3bc2d070666c42f5fd92e749870848ee35ed6d4c156f831c9bc8f2d04",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -1406,12 +1406,20 @@
       "last_changed_at": "2026-07-06T03:27:32.743048Z"
     },
     "tikhub-wechat-yicai": {
-      "last_polled_at": "2026-07-16T10:34:22.950024Z",
+      "last_polled_at": "2026-07-16T12:05:21.749379Z",
       "last_raw_count": 8,
       "source_signature": "d8f12c33a72df7482441fcd1a3ff851e93b7b9a79cb446d2d37a403664063670",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-06T03:51:43.565947Z",
       "seen_keys": [
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661769836&idx=1&sn=349a5a00bc9205005f967e84665f7bcf&chksm=bcad14da9ce1a28ad1a78498296a3d7691691320f7efd12669d8d3259bac4b23e92fa5eb2ba9&scene=126&sessionid=0",
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661769836&idx=2&sn=ea023fad3b3db43af9470cb4c4095e3e&chksm=bc3b1f4aeff86106f28387421fc9db9a57fcfa243895a65971b9d3ab826e73619c249a84d7d9&scene=126&sessionid=0",
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661769819&idx=1&sn=ece262503d05cec355c9e2e4fa5372fc&chksm=bc7c5b962cccd13ad63b5c19e845b130926494dd90f43ddc5f2302f6d96d784877a6bd1d7562&scene=126&sessionid=0",
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661769819&idx=2&sn=4d3455d10c7cc4677af95ba2f07055a0&chksm=bc433a2f24ec544e408eb2df0ffff8abcfa83f15e0b75ed52c8fd2504dafa4fa2e2137bbf136&scene=126&sessionid=0",
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661769819&idx=3&sn=5742e2902aeafa94e99648027bb0e372&chksm=bc46600b5356bd12410a81416e371eaf8a39f933a21f9158b438d6d2aac7efa2ddd52415df53&scene=126&sessionid=0",
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661769790&idx=1&sn=9f682bf2561c418a33ddb31d80fd3844&chksm=bc7abe6cb5864cbe1e035a6788b53a6346eb93179e1ff51a009b5f35e99c7f02b17bcdd7efe3&scene=126&sessionid=0",
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661769790&idx=2&sn=ae04dfbadb10640253e79eb3e7566be3&chksm=bc8f53711b6fed94df148051c714fb2a070b56622d4364c8190c623842fd8d7b78e549c62902&scene=126&sessionid=0",
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661769779&idx=1&sn=6bdbcfe5307f132fa7170a9341e6d31b&chksm=bc6665c7c1220cb366526ccdaabed9f91655c4f6c8658e759b50d7da2209fc1a958155afce37&scene=126&sessionid=0",
         "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661769749&idx=1&sn=6ca22d65d118c2851689c11c059977fa&chksm=bc3c0a396e862cf314c1077a333b8b8f5037c59ed6c48323c74516e23d7e2547561cc53f89bf&scene=126&sessionid=0",
         "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661769730&idx=1&sn=04dedabafbd52944aef25bf73da2eb94&chksm=bce94cfb4b18089b65748734f4ae9c9f23a809db6504f945f85a7f64250c2b1a2595efb023eb&scene=126&sessionid=0",
         "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661769729&idx=1&sn=7e5f02d54678ee42a2586a6fda954021&chksm=bc9721267cae9d8c53e92c6b9f1b8984f9be11ff85963a048994b77bbc1fcdc4b7b9f0fc6543&scene=126&sessionid=0",
@@ -1703,20 +1711,12 @@
         "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661767937&idx=1&sn=1640961540698ad1cedcdbdc9b7a154c&chksm=bca299c13e106b82c1e47747663be884202d61b174e071be02d8c3c87fb880d0ee2272699320&scene=126&sessionid=0",
         "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661767936&idx=1&sn=c5659364e2bf6a1c59cae46b4012a44a&chksm=bcf010f26e965f9b5356632bdb5550457aedd0c7d720b7057c0a400fbed06c7ec1e0367de65d&scene=126&sessionid=0",
         "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661767936&idx=2&sn=57d7e87dc5561ec5df0a82ecc58dbaa0&chksm=bcfbdf3809d427ea71493adb452f3acf7ef9298388a2f7401a79fbafe2db8dc123c64c22e794&scene=126&sessionid=0",
-        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661767936&idx=3&sn=5589913ffcb9dce24aac3288676016e8&chksm=bc466b49cf0bb33254c0472f9def98518b15c34bca77fb5953be08f5d9c349d3e45ce1846220&scene=126&sessionid=0",
-        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661767927&idx=1&sn=f918b08a6e56d8bb05f429de592d3f46&chksm=bcbbfc2cb7210b0294f1af0eb56b940d0272cd0dc2b6450cd6854a618d5d18c320d497676fb4&scene=126&sessionid=0",
-        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661767925&idx=1&sn=ed1f350b59582ef37bea202d8f10fea3&chksm=bc47f8973e43178984183e37b78f31859bcf1a4ae458c968f1a8cad6aa1e46e77f98f5aaa4f7&scene=126&sessionid=0",
-        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661767925&idx=2&sn=54b921ac8419f7c7352de630412c1dc6&chksm=bc5f30d58a8d506ff28bb26bfaa75bf8f7246c8bae7d3521cf81a84b37305f03f43c2c960bff&scene=126&sessionid=0",
-        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661767925&idx=3&sn=2ad0c9b06b4bbc8a06993d3380446910&chksm=bccfea5f65413f83607ebac584cabbb37ba2777b2a73e8adfa398860079258703ecd9ec5d3b9&scene=126&sessionid=0",
-        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661767937&idx=1&sn=1640961540698ad1cedcdbdc9b7a154c&chksm=bc85614cf01bbf75d05b7dfc782a977b53e77956de430d71d28a1142903f2e4eea2b18983fcd&scene=126&sessionid=0",
-        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661767936&idx=1&sn=c5659364e2bf6a1c59cae46b4012a44a&chksm=bc83ba5b2b1f0912f135b87b59ceb5fbd14ff72512117cd352051773a3c0c2790fa786aa0c43&scene=126&sessionid=0",
-        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661767936&idx=2&sn=57d7e87dc5561ec5df0a82ecc58dbaa0&chksm=bcfa5361557ef06ef83bfe2e10724590aaa4b1bfe2390b9e1d07b999dbab9ad397c9849ed6e3&scene=126&sessionid=0",
-        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661767936&idx=3&sn=5589913ffcb9dce24aac3288676016e8&chksm=bc949fd83051c96e41022d83fc72be3b30a14d66c4d6df4a410b5e7dfb106c2fa8ef37c206c2&scene=126&sessionid=0"
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661767936&idx=3&sn=5589913ffcb9dce24aac3288676016e8&chksm=bc466b49cf0bb33254c0472f9def98518b15c34bca77fb5953be08f5d9c349d3e45ce1846220&scene=126&sessionid=0"
       ],
-      "last_changed_at": "2026-07-16T10:35:50.959936Z"
+      "last_changed_at": "2026-07-16T12:06:40.631183Z"
     },
     "tikhub-wechat-21jingji": {
-      "last_polled_at": "2026-07-16T10:34:22.950024Z",
+      "last_polled_at": "2026-07-16T12:05:21.749379Z",
       "last_raw_count": 0,
       "source_signature": "a585a9cb4142e0c5cee8958fb7db1b1520cf0b91be787ec3e76d32c337b22356",
       "baseline_initialized": true,
@@ -1791,7 +1791,7 @@
     },
     "aihot-selected": {
       "last_raw_count": 50,
-      "last_polled_at": "2026-07-16T10:34:22.950024Z",
+      "last_polled_at": "2026-07-16T12:05:21.749379Z",
       "source_signature": "54b0a2ce37b31eed7de5728f2ad3467d3fff1ec95a53a03f9ee11a9fa197fda4",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-09T08:44:50.779962Z",
