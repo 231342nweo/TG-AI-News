@@ -1,13 +1,13 @@
 {
   "sources": {
     "deepseek-api-updates": {
-      "fingerprint": "9f773d2509d8287edaf48cca61a64fa432fbbfa92229f74899cd375296a242f7",
+      "fingerprint": "105972a6b1a62cce2c31f60cc90a9f6808ee8ee92682fa360e265fd2f23b3cfd",
       "last_checked_at": "2026-07-02T04:51:33.147542Z",
-      "last_excerpt": "Change Log | DeepSeek API Docs Skip to main content DeepSeek API Docs English English 中文（中国） DeepSeek Platform Quick Start Your First API Call Models & Pricing Token & Token Usage Rate Limit & Isolation Error Codes Agent Integrations API Guides Thinking Mode Multi-round Conversation Chat Prefix Completion (Beta) FIM Completion (Beta) JSON Output Tool Calls Context Caching Anthropic API API Reference News Other Resources FAQ Change Log Change Log On this page Change Log Date: 2026-04-24 ​ DeepSeek-V4 ​ The DeepSeek API now supports V4-Pro and V4-Flash, available via both the OpenAI ChatCompletions interface and the Anthropic interface. To access the new models, the base_url remains unchanged, and the model parameter should be set to deepseek-v4-pro or deepseek-v4-flash . The two legacy API model names, deepseek-chat and deepseek-reasoner , will be discontinued in three months (2026-07-24). During the current period, these two model names point to the non-thinking mode and thinking mode of deepseek-v4-flash , respectively. For more details, please refer to this documentation . Date: 2025-12-01 ​ DeepSeek-V3.2 ​ Both deepseek-chat and deepseek-reasoner have been upgraded to DeepSeek-V3.2. deepseek-chat corresponds to DeepSeek-V3.2's non-thinking mode deepseek-reasoner corresponds to DeepSeek-V3.2's thinking mode DeepSeek-V3.2-Speciale ​ DeepSeek-V3.2-Speciale is served via a temporary endpoint: base_url=\" https://api.deepseek.com/v3.2_speciale_expires_on_20251215 \". Same pricing as V3.2, no tool calls, available until Dec 15th, 2025, 15:59 (UTC Time). For more details, please refer to this documentation . Date: 2025-09-29 ​ DeepSeek-V3.2-Exp ​ Both deepseek-chat and deepseek-reasoner have been upgraded to DeepSeek-V3.2-Exp. deepseek-chat corresponds to DeepSeek-V3.2-Exp's non-thinking mode deepseek-reasoner corresponds to DeepSeek-V3.2-Exp's thinking mode For more details, please refer to this documentation . Date: 2025-09-22 ​ DeepSeek-V3.1-Terminus ​ Both deepseek-chat and deepseek-reasoner have been upgraded to DeepSeek-V3.1-Terminus. deepseek-chat corresponds to DeepSeek-V3.1-Terminus's non-thinking mode , while deepseek-reasoner corresponds to its thinking mode . This update maintains the model's original capabilities while addressing issues reported by users, including: Language consistency: Reduced occurrences of Chinese-English mixing and occasional abnormal characters; Agent capabilities: Further optimized the performance of the Code Agent and Search Agent. Date: 2025-08-21 ​ DeepSeek-V3.1 ​ Both deepseek-chat and deepseek-reasoner have been upgraded to DeepSeek-V3.1. deepseek-chat corresponds to DeepSeek-V3.1's non-thinking mode , while deepseek-reasoner corresponds to its thinking mode . Key updates in DeepSeek-V3.1: Hybrid reasoning architecture : A single model supports both thinking mode and non-thinking mode Improved reasoning efficiency : Compared to DeepSeek-R1-0528, DeepSeek-V3.1-Think provides answers in significantly less time Enhanced agent capabilities : With post-training optimization, the new model achieves major improvements in tool usage and intelligent agent tasks SWE-bench Verified: 66.0 SWE-bench Multilingual: 54.5 Terminal-bench: 31.3 Date: 2025-05-28 ​ deepseek-reasoner ​ deepseek-reasoner Model Upgraded to DeepSeek-R1-0528: Enhanced Reasoning Capabilities Significant benchmark improvements (Pass@1) AIME 2025: 70.0 → 87.5 (+17.5) GPQA: 71.5 → 81.0 (+9.5) LCB_v6: 63.5 → 73.3 (+9.8) Aider: 57.0 → 71.6 (+14.6) Note: Complex reasoning tasks may consume more tokens compared to legacy R1 version. Optimized Front-end Development Generated web pages and games now feature improved aesthetics. Reduced Hallucinations Significantly suppressed hallucination issues present in legacy R1 version. JSON Output & Function Calling Support Function call performance: Tau-bench score: 53.5 (Airline) / 63.9 (Retail) Date: 2025-03-24 ​ deepseek-chat ​ deepseek-chat Model Upgraded to DeepSeek-V3-0324: Enhanced Reasoning Capa",
+      "last_excerpt": "Your First API Call | DeepSeek API Docs Skip to main content DeepSeek API Docs English English 中文（中国） DeepSeek Platform Quick Start Your First API Call Models & Pricing Token & Token Usage Rate Limit & Isolation Error Codes Agent Integrations API Guides Thinking Mode Multi-round Conversation Chat Prefix Completion (Beta) FIM Completion (Beta) JSON Output Tool Calls Context Caching Anthropic API API Reference News Other Resources FAQ Change Log Quick Start Your First API Call On this page Your First API Call The DeepSeek API uses an API format compatible with OpenAI/Anthropic. By modifying the configuration, you can use the OpenAI/Anthropic SDK or softwares compatible with the OpenAI/Anthropic API to access the DeepSeek API. PARAM VALUE base_url (OpenAI) https://api.deepseek.com base_url (Anthropic) https://api.deepseek.com/anthropic api_key apply for an API key model * deepseek-v4-flash deepseek-v4-pro deepseek-chat (to be deprecated on 2026/07/24) deepseek-reasoner (to be deprecated on 2026/07/24) * The model names deepseek-chat and deepseek-reasoner will be deprecated on 2026/07/24 15:59 UTC. For compatibility, they correspond to the non-thinking mode and thinking mode of deepseek-v4-flash , respectively. Integrate with Agent Tools ​ The DeepSeek API is supported by many popular AI agent and coding assistant tools. If you use tools like Claude Code, GitHub Copilot, or OpenCode, you can use DeepSeek as the backend model directly — no code required. See the Agent Integrations Guide for details. Invoke The Chat API ​ Once you have obtained an API key, you can access the DeepSeek model using the following example scripts in the OpenAI API format. This is a non-stream example, you can set the stream parameter to true to get stream response. For examples using the Anthropic API format, please refer to Anthropic API . curl python nodejs curl https://api.deepseek.com/chat/completions \\ -H \"Content-Type: application/json\" \\ -H \"Authorization: Bearer ${DEEPSEEK_API_KEY}\" \\ -d '{ \"model\": \"deepseek-v4-pro\", \"messages\": [ {\"role\": \"system\", \"content\": \"You are a helpful assistant.\"}, {\"role\": \"user\", \"content\": \"Hello!\"} ], \"thinking\": {\"type\": \"enabled\"}, \"reasoning_effort\": \"high\", \"stream\": false }' # Please install OpenAI SDK first: `pip3 install openai` import os from openai import OpenAI client = OpenAI ( api_key = os . environ . get ( 'DEEPSEEK_API_KEY' ) , base_url = \"https://api.deepseek.com\" ) response = client . chat . completions . create ( model = \"deepseek-v4-pro\" , messages = [ { \"role\" : \"system\" , \"content\" : \"You are a helpful assistant\" } , { \"role\" : \"user\" , \"content\" : \"Hello\" } , ] , stream = False , reasoning_effort = \"high\" , extra_body = { \"thinking\" : { \"type\" : \"enabled\" } } ) print ( response . choices [ 0 ] . message . content ) // Please install OpenAI SDK first: `npm install openai` import OpenAI from \"openai\" ; const openai = new OpenAI ( { baseURL : 'https://api.deepseek.com' , apiKey : process . env . DEEPSEEK_API_KEY , } ) ; async function main ( ) { const completion = await openai . chat . completions . create ( { messages : [ { role : \"system\" , content : \"You are a helpful assistant.\" } ] , model : \"deepseek-v4-pro\" , thinking : { \"type\" : \"enabled\" } , reasoning_effort : \"high\" , stream : false , } ) ; console . log ( completion . choices [ 0 ] . message . content ) ; } main ( ) ; Next Models & Pricing Integrate with Agent Tools Invoke The Chat API WeChat Official Account Community Email Discord Twitter More GitHub Copyright © 2026 DeepSeek, Inc.",
       "baseline_initialized": true,
       "source_signature": "da94888987a371666a5f08739c9802c186474211b8f74f055d7f6cfad14cf7a4",
       "baseline_reinitialized_at": "2026-07-02T10:22:21.295328Z",
-      "last_changed_at": "2026-07-16T14:15:26.556032Z"
+      "last_changed_at": "2026-07-16T15:47:57.657082Z"
     },
     "deepseek-huggingface": {
       "models": {
@@ -39,13 +39,13 @@
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
     "kimi-platform-docs": {
-      "fingerprint": "df0e21ea2a65dc2bb2d9d09f1fe2c530afb4c93780d9d5d2e537a5b16b2470f8",
+      "fingerprint": "c020243a6e606923c1edd8f331daa32a7565d7064522a10b5e518528bade556e",
       "last_checked_at": "2026-07-02T04:51:33.147542Z",
-      "last_excerpt": "Quickstart - Kimi API Platform Documentation Index Fetch the complete documentation index at: /docs/llms.txt Use this file to discover all available pages before exploring further. Skip to main content 🎉 Kimi K2.7 Code model has been officially released, Kimi's strongest Coding model. Highspeed version launched simultaneously. Kimi API Platform home page Search... ⌘ K Contact Sales Community Playground User Center Search... Navigation Get Started Quickstart Guides API Reference Pricing Help Center Resources Get Started Quickstart Model List Kimi K2.7 Code Model Kimi K2.6 Multi-modal Model Model Capabilities Thinking Mode Multi-turn Chat Streaming JSON Mode Partial Mode Vision Model Context Caching Tooling workflows Tool Calls Web Search Tool Official Tools ModelScope MCP Server Core workflows response_format Automatic Reconnection File-Based Q&A Batch API Guide Integrations Kimi Code Compatibility with OpenAI API Codex Claude Code OpenClaw Hermes Agent OpenCode Cline RooCode Debugging and operations Use the API Debugging Tool Playground Best Practices for Organization Management On this page Get started Explore more features Streaming output Multimodal input Related resources Get Started Quickstart Copy page Create an API Key and complete your first Kimi API call. Copy page Kimi API lets you interact with Kimi models and is compatible with the OpenAI API format. Prepare an API Key, choose a model, and configure base_url to make requests through the HTTP API, Python SDK, or Node.js SDK. Kimi K2.7 Code is now officially available. It is Kimi’s strongest coding model to date. The high-speed variant, kimi-k2.7-code-highspeed , is also available and is well suited for programming agent scenarios such as Codex , Claude Code , Cline , and RooCode . ​ Get started 1 Get an API Key Visit the Kimi API Platform , sign in, then go to API Keys to create and copy an API Key. Keep your API Key secure. Do not share it with others or hard-code it directly in your application. We recommend storing it in an environment variable: export MOONSHOT_API_KEY = \"YOUR_KIMI_API_KEY\" Kimi API Platform Sign in to the platform to access the console, development workspace, and user center. API Keys Create, copy, and manage the keys used for API calls. 2 Choose a model For a quickstart, we recommend starting with Kimi K2.7 Code or Kimi K2.6. Kimi K2.7 Code Kimi’s strongest coding model, with a 256K context window, text/image/video input, and thinking mode. For programming agents, long-running coding tasks, and software engineering workflows, start with kimi-k2.7-code-highspeed . Kimi K2.6 A powerful general-purpose model with a 256K context window, text/image/video input, and both thinking and non-thinking modes. Use it for general chat, agent tasks, visual understanding, and complex reasoning. If your task is mainly code generation, code editing, or programming agents, choose kimi-k2.7-code-highspeed first. If your task is more focused on general chat, multimodal understanding, or switching between thinking and non-thinking modes, choose kimi-k2.6 . 3 Choose an integration method Kimi API is compatible with the OpenAI API format, so you can choose the integration method that best fits your technology stack. HTTP API A standard REST API for any language or custom server-side integration. OpenAI Python SDK Use the OpenAI Python SDK to call Kimi from scripts, backend services, data workflows, and prototypes. OpenAI Node.js SDK Use the OpenAI Node.js SDK for web services, frontend engineering workflows, and Node.js applications. Playground Test prompts, model behavior, and business examples without writing code. 4 Make your first call The following examples use the Kimi K2.7 Code model. Replace MOONSHOT_API_KEY with the API Key you created on the platform, or set an environment variable with the same name before running the examples. To use the faster high-speed variant, replace kimi-k2.7-code in the examples with kimi-k2.7-code-highspeed . To call Kimi K2.6, rep",
+      "last_excerpt": "Quickstart - Kimi API Platform Documentation Index Fetch the complete documentation index at: /docs/llms.txt Use this file to discover all available pages before exploring further. Skip to main content 🎉 Kimi K3 has launched! Top up now for up to 30% back in vouchers! Learn more Kimi API Platform home page Search... ⌘ K Contact Sales Community Playground User Center Search... Navigation Get Started Quickstart Guides API Reference Pricing Help Center Resources Get Started Quickstart Model List Kimi K3 Kimi K2.7 Code Model Kimi K2.6 Model Model Capabilities Thinking Mode Thinking Effort Multi-turn Chat Streaming JSON Mode Partial Mode Vision Input Context Caching Dynamic Tool Loading Tooling workflows Tool Calls Web Search Tool Official Tools Tool Choice ModelScope MCP Server Tool Calling Best Practices Core workflows response_format Automatic Reconnection File-Based Q&A Batch API Guide Integrations Kimi Code Compatibility with OpenAI API Codex Claude Code OpenClaw Hermes Agent OpenCode Cline RooCode Debugging and operations Use the API Debugging Tool Playground Best Practices for Organization Management On this page Get started Explore more features Streaming output Multimodal input Related resources Get Started Quickstart Copy page Create an API Key and complete your first Kimi API call. Copy page Kimi API lets you interact with Kimi models and is compatible with the OpenAI API format. Prepare an API Key, choose a model, and configure base_url to make requests through the HTTP API, Python SDK, or Node.js SDK. Kimi K3 is now officially available — Kimi’s most capable model to date, with a 1M-token context window and native visual understanding. It is well suited for programming agent scenarios such as Codex , Claude Code , Cline , and RooCode , as well as knowledge work and deep reasoning. ​ Get started 1 Get an API Key Visit the Kimi API Platform , sign in, then go to API Keys to create and copy an API Key. Keep your API Key secure. Do not share it with others or hard-code it directly in your application. We recommend storing it in an environment variable: export MOONSHOT_API_KEY = \"YOUR_KIMI_API_KEY\" Kimi API Platform Sign in to the platform to access the console, development workspace, and user center. API Keys Create, copy, and manage the keys used for API calls. 2 Choose a model For a quickstart, we recommend starting with Kimi K3; you can also choose Kimi K2.7 Code or Kimi K2.6 for specific scenarios. Kimi K3 Kimi K3 is our flagship model for long-horizon coding and end-to-end knowledge work — 2.8 trillion parameters, a 1M-token context window, and industry-leading intelligence. Kimi K2.7 Code A coding-focused model with a 256K context window, text/image/video input, and thinking mode. Choose kimi-k2.7-code-highspeed when you need higher output speed. Kimi K2.6 A powerful general-purpose model with a 256K context window, text/image/video input, and both thinking and non-thinking modes. Use it for general chat, agent tasks, visual understanding, and complex reasoning. If you are not sure which model to choose, start with kimi-k3 . If your task is mainly code generation, code editing, or programming agents and you need higher output speed, choose kimi-k2.7-code-highspeed . 3 Choose an integration method Kimi API is compatible with the OpenAI API format, so you can choose the integration method that best fits your technology stack. HTTP API A standard REST API for any language or custom server-side integration. OpenAI Python SDK Use the OpenAI Python SDK to call Kimi from scripts, backend services, data workflows, and prototypes. OpenAI Node.js SDK Use the OpenAI Node.js SDK for web services, frontend engineering workflows, and Node.js applications. Playground Test prompts, model behavior, and business examples without writing code. 4 Make your first call The following examples use the Kimi K3 model. Replace MOONSHOT_API_KEY with the API Key you created on the platform, or set an environment variable with the same name befor",
       "baseline_initialized": true,
       "source_signature": "8e73253a3945e387fc930361910053df326db3b44fb409f5f1e61268eab00640",
       "baseline_reinitialized_at": "2026-07-02T10:22:21.295328Z",
-      "last_changed_at": "2026-07-15T05:43:29.896071Z"
+      "last_changed_at": "2026-07-16T15:47:57.657082Z"
     },
     "zhipu-bigmodel-releases": {
       "fingerprint": "ce3beafb70ad2af2b3e7533190955622275a85be1bb283c44f3ae510f5a58ae6",
@@ -203,12 +203,12 @@
       "baseline_reinitialized_at": "2026-07-02T10:22:21.295328Z"
     },
     "volcengine-ark-models": {
-      "fingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "fingerprint": "20d707635a497d96aad1a4ebdf1235ca1bdcbfe585b48c75029737b4c6e2312f",
       "last_checked_at": "2026-07-02T04:51:33.147542Z",
-      "last_excerpt": "",
+      "last_excerpt": "文档中心 简体 文档 控制台 登录 注册 火山方舟 文档指南 订阅 [Agent/Coding Plan] API参考 资源 火山方舟 火山方舟 文档指南 请输入 入门 产品简介 快速入门 模型列表 模型价格 最新模型：Seed-Evolving 调用 文本生成 多模态理解 图片理解 视频理解 文档理解 音频理解 视频生成 Doubao Seedance 2.0 系列教程 Doubao Seedance 2.0 系列提示词指南 视频生成教程 图片生成 Doubao Seedream 5.0 pro 教程 Doubao Seedream 5.0 pro 实现交互编辑指南 图片生成教程 领域模型 3D 生成 向量化 工具调用 工具概述 豆包助手 Web Search（联网内容插件） Image Process（图像处理） 私域知识库搜索 Knowledge Search 云部署 MCP / Remote MCP Function Calling（函数调用） 进阶使用 深度思考 上下文管理 流式输出 续写模式 上下文缓存 原理及选型 上下文缓存(Context API) 文件输入(File API) 视觉定位 Grounding 提示词工程 结构化输出(beta) 接入三方工具 使用 Responses API 迁移至 Responses API 文本生成 深度思考 多模态理解 工具调用 上下文缓存 结构化输出(beta) 上下文编辑 推理 推理方式概述 在线推理（常规） 在线推理（低延迟） 在线推理（TPM 保障包） 在线推理（模型单元） 模型单元概述 创建模型单元 管理模型单元 批量推理 高级能力 智能模型路由 使用 MLP 推理服务 使用自定义模型进行推理 训练 模型精调 模型精调概述 有监督微调最佳实践 直接偏好优化最佳实践 强化学习最佳实践 精调 SDK 使用指南 模型精调数据集格式说明 管理自定义模型 模型评测 创建模型评测任务 查看并管理模型评测任务 评测数据集格式说明 数据集 数据集介绍 共享数据集 Managed Agents 快速上手 概述 快速入门（代码） 快速入门（控制台） 定义 Agent Agent Skills MCP Tools 工具权限策略 配置 Agent 环境 配置云环境 云沙箱参考 委派任务给 Agent 启动 Session 管理 Session Session 事件流 使用 Vaults 认证 管理 Agent 上下文 上传与挂载文件 持久化记忆 高级能力 Multi Agent 应用 应用实验室 零代码应用简介 零代码应用操作指南 低代码应用简介 高代码应用简介 高代码应用创建部署指南 服务组件库 网页解析插件功能说明 联网内容插件功能说明 联网系列插件升级为联网内容插件说明及操作指南 知识库插件功能说明 应用实验室 知识库 操作指南 文档知识问答核心流程 音视频知识问答核心流程 知识库管理 创建知识库 编辑知识库 查看知识库列表 查看知识库详情 删除知识库 知识检索 知识问答 续订知识库 退订知识库 配置实验版本 文档管理 导入文档 标签配置 删除文档 切片管理 新增切片 编辑切片 查阅切片 删除切片 知识服务管理 创建知识服务 知识服务管理 知识库配额说明 知识库分账管理 API参考 签名鉴权与调用示例 API 列表 最佳实践 MCP Server 知识型视频智能问答解决方案 视频高光提取及检索解决方案 更多最佳实践 知识库免费体验权益 SDK参考 SDK 升级与使用说明 PromptPilot PromptPilot 概述 PromptPilot 订阅管理 Prompt 生成 Prompt 调优 Prompt 批量 PromptPilot 管理 VideoPilot 功能介绍 视觉理解 Solution 评分DSL AgentPilot SDK 参考 AgentPilot OpenAPI 使用指南 VideoPilot API 文档首页 火山方舟 入门 模型列表 复制全文 下载 pdf 我的收藏 入门 模型列表 复制全文 下载 pdf 我的收藏 模型列表 文档反馈 问问助手 最近更新时间： 2026.07.14 23:12:52 这个页面对您有帮助吗？ 有用 有用 无用 无用",
       "baseline_initialized": true,
       "baseline_invalid": true,
-      "last_changed_at": "2026-07-16T10:34:22.950024Z",
+      "last_changed_at": "2026-07-16T15:47:57.657082Z",
       "source_signature": "ab5ee375ff670169281a4aefbc9772546566386e665c24a65ec209061d7dfada",
       "baseline_reinitialized_at": "2026-07-02T10:22:21.295328Z"
     },
@@ -367,12 +367,14 @@
       "last_checked_at": "2026-07-02T04:51:37.867265Z",
       "baseline_initialized": true,
       "repos": {
+        "MoonshotAI/Kimi-Linear": "2025-11-17T09:36:48Z",
         "MoonshotAI/kimi-code": "2026-07-16T13:14:41Z",
-        "MoonshotAI/Kimi-k1.5": "2025-03-07T11:16:36Z",
-        "MoonshotAI/kimi-cli": "2026-07-16T10:05:51Z",
-        "MoonshotAI/Kimi-K2": "2026-01-21T05:33:12Z",
         "MoonshotAI/Attention-Residuals": "2026-03-17T06:23:11Z",
         "MoonshotAI/Kimi-K2.5": "2026-01-31T00:49:42Z",
+        "MoonshotAI/kimi-cli": "2026-07-16T10:05:51Z",
+        "MoonshotAI/moonpalace": "2024-12-30T21:17:27Z",
+        "MoonshotAI/Kimi-k1.5": "2025-03-07T11:16:36Z",
+        "MoonshotAI/Kimi-K2": "2026-01-21T05:33:12Z",
         "MoonshotAI/MoBA": "2025-04-03T07:28:06Z",
         "MoonshotAI/Kimi-Audio": "2025-06-21T15:30:28Z",
         "MoonshotAI/kimi-agent-sdk": "2026-05-29T05:29:38Z",
@@ -384,11 +386,9 @@
         "MoonshotAI/Kimi-Dev": "2025-09-30T02:15:54Z",
         "MoonshotAI/kosong": "2026-07-16T10:06:23Z",
         "MoonshotAI/kimi-help-center": "2026-05-08T04:47:45Z",
-        "MoonshotAI/Kimi-Linear": "2025-11-17T09:36:48Z",
-        "MoonshotAI/Kimina-Prover-Preview": "2025-07-10T13:04:40Z",
-        "MoonshotAI/WorldVQA": "2026-02-04T07:27:04Z"
+        "MoonshotAI/Kimina-Prover-Preview": "2025-07-10T13:04:40Z"
       },
-      "last_changed_at": "2026-07-16T14:15:26.556032Z",
+      "last_changed_at": "2026-07-16T15:47:57.657082Z",
       "source_signature": "c925f37596aaabb84376bf83142f08b0ce08447179a5d27a52c7956a40180daa",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -397,28 +397,28 @@
       "last_checked_at": "2026-07-02T04:51:40.485322Z",
       "baseline_initialized": true,
       "repos": {
+        "zai-org/SCAIL-2": "2026-07-16T03:20:39Z",
         "zai-org/GLM-5": "2026-07-15T12:54:24Z",
+        "zai-org/Synapse": "2026-05-20T04:44:45Z",
+        "zai-org/ChatGLM-6B": "2024-06-27T04:05:25Z",
+        "zai-org/GLM-Image": "2026-03-20T03:10:16Z",
+        "zai-org/Open-AutoGLM": "2026-03-06T08:38:39Z",
+        "zai-org/CogAgent": "2025-04-04T13:29:55Z",
+        "zai-org/GLM-4.5": "2026-02-01T08:28:10Z",
         "zai-org/ChatGLM2-6B": "2024-06-27T04:05:08Z",
         "zai-org/ChatGLM3": "2025-01-13T06:55:26Z",
         "zai-org/GLM-OCR": "2026-04-21T08:52:11Z",
-        "zai-org/Open-AutoGLM": "2026-03-06T08:38:39Z",
         "zai-org/GLM-V": "2026-07-16T12:48:10Z",
         "zai-org/CogVideo": "2025-11-04T11:19:04Z",
-        "zai-org/SCAIL-2": "2026-07-16T03:20:39Z",
         "zai-org/GLM-ASR": "2026-03-06T08:37:26Z",
-        "zai-org/GLM-Image": "2026-03-20T03:10:16Z",
-        "zai-org/GLM-4.5": "2026-02-01T08:28:10Z",
-        "zai-org/Synapse": "2026-05-20T04:44:45Z",
         "zai-org/CodeGeeX4": "2024-08-25T14:26:16Z",
         "zai-org/GLM-4": "2025-07-04T04:16:36Z",
         "zai-org/CodeGeeX2": "2024-07-10T12:34:55Z",
         "zai-org/ImageReward": "2025-10-29T13:40:51Z",
-        "zai-org/ChatGLM-6B": "2024-06-27T04:05:25Z",
         "zai-org/GLM-TTS": "2026-04-10T08:50:23Z",
-        "zai-org/feedback": "2026-06-23T11:23:22Z",
-        "zai-org/CodeGeeX": "2024-08-13T05:59:38Z"
+        "zai-org/feedback": "2026-06-23T11:23:22Z"
       },
-      "last_changed_at": "2026-07-16T14:15:26.556032Z",
+      "last_changed_at": "2026-07-16T15:47:57.657082Z",
       "source_signature": "0f9d07d7983b4898dc433a8d045a96469f65dff73642f9fe1fbf73cf3299210c",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -624,11 +624,11 @@
       "last_checked_at": "2026-07-02T04:51:58.871155Z",
       "baseline_initialized": true,
       "repos": {
+        "QwenLM/qwen-code": "2026-07-16T15:25:38Z",
+        "QwenLM/Qwen-Agent": "2026-03-04T08:15:07Z",
         "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
         "QwenLM/Qwen-VL": "2024-08-07T02:37:06Z",
         "QwenLM/Qwen3-ASR": "2026-06-26T08:20:17Z",
-        "QwenLM/Qwen-Agent": "2026-03-04T08:15:07Z",
-        "QwenLM/qwen-code": "2026-07-16T14:11:24Z",
         "QwenLM/Qwen-Audio": "2024-07-05T09:17:49Z",
         "QwenLM/Qwen3-Embedding": "2025-09-30T06:10:27Z",
         "QwenLM/Qwen3-Coder": "2026-03-24T08:22:10Z",
@@ -645,7 +645,7 @@
         "QwenLM/Qwen2.5-Omni": "2025-06-12T11:03:07Z",
         "QwenLM/Qwen-VLA": "2026-05-29T13:49:38Z"
       },
-      "last_changed_at": "2026-07-16T14:15:26.556032Z",
+      "last_changed_at": "2026-07-16T15:47:57.657082Z",
       "source_signature": "ddc0d8d3788b1fc4ba6779bc400a51934ce7ac0845fbfff67f906a6d77406e21",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -654,33 +654,34 @@
       "last_checked_at": "2026-07-02T04:52:01.889603Z",
       "baseline_initialized": true,
       "repos": {
-        "Tencent-Hunyuan/HunyuanWorld-1.0": "2026-04-15T17:27:25Z",
+        "Tencent-Hunyuan/HunyuanVideo": "2026-06-29T09:33:50Z",
+        "Tencent-Hunyuan/HunyuanOCR": "2026-07-13T07:51:06Z",
         "Tencent-Hunyuan/Hy3": "2026-07-15T14:30:33Z",
-        "Tencent-Hunyuan/HY-World-2.0": "2026-05-27T07:25:04Z",
-        "Tencent-Hunyuan/HY-Embodied": "2026-07-15T11:54:12Z",
+        "Tencent-Hunyuan/HY-Motion-1.0": "2026-05-25T03:42:57Z",
         "Tencent-Hunyuan/Hy-Embodied-RxBrain-1.0": "2026-07-15T08:28:42Z",
+        "Tencent-Hunyuan/HY-World-2.0": "2026-05-27T07:25:04Z",
+        "Tencent-Hunyuan/HY-WorldPlay": "2026-06-10T07:10:23Z",
+        "Tencent-Hunyuan/Hunyuan3D-2": "2025-10-28T09:58:12Z",
+        "Tencent-Hunyuan/HunyuanWorld-1.0": "2026-04-15T17:27:25Z",
+        "Tencent-Hunyuan/HY-Embodied": "2026-07-15T11:54:12Z",
         "Tencent-Hunyuan/HunyuanWorld-Mirror": "2026-05-27T03:22:57Z",
         "Tencent-Hunyuan/HY-SOAR": "2026-04-21T16:45:31Z",
         "Tencent-Hunyuan/UniRL": "2026-07-16T12:03:56Z",
-        "Tencent-Hunyuan/HY-Motion-1.0": "2026-05-25T03:42:57Z",
         "Tencent-Hunyuan/HunyuanImage-3.0": "2026-06-23T13:12:44Z",
-        "Tencent-Hunyuan/Hunyuan3D-2": "2025-10-28T09:58:12Z",
         "Tencent-Hunyuan/Hunyuan3D-2.1": "2025-10-17T10:10:07Z",
-        "Tencent-Hunyuan/HunyuanOCR": "2026-07-13T07:51:06Z",
         "Tencent-Hunyuan/Hy-Embodied-0.5-VLA": "2026-07-09T09:42:43Z",
         "Tencent-Hunyuan/UniCom": "2026-04-13T10:38:53Z",
         "Tencent-Hunyuan/Hy-MT2": "2026-06-30T07:17:36Z",
         "Tencent-Hunyuan/HiLS-Attention": "2026-07-14T13:10:25Z",
-        "Tencent-Hunyuan/Hunyuan-MT": "2025-12-30T09:12:46Z",
-        "Tencent-Hunyuan/HY-WorldPlay": "2026-06-10T07:10:23Z",
-        "Tencent-Hunyuan/HunyuanVideo-I2V": "2026-04-07T06:13:09Z"
+        "Tencent-Hunyuan/Hunyuan-MT": "2025-12-30T09:12:46Z"
       },
-      "last_changed_at": "2026-07-16T14:15:26.556032Z",
+      "last_changed_at": "2026-07-16T15:47:57.657082Z",
       "source_signature": "637ce9b3bc2d070666c42f5fd92e749870848ee35ed6d4c156f831c9bc8f2d04",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
     "qbitai-rss": {
       "seen_keys": [
+        "https://www.qbitai.com/2026/07/451576.html",
         "https://www.qbitai.com/2026/07/451403.html",
         "https://www.qbitai.com/2026/07/451371.html",
         "https://www.qbitai.com/2026/07/451379.html",
@@ -818,7 +819,7 @@
       ],
       "last_checked_at": "2026-07-02T04:52:26.145879Z",
       "baseline_initialized": true,
-      "last_changed_at": "2026-07-16T14:17:06.511804Z",
+      "last_changed_at": "2026-07-16T15:49:40.488936Z",
       "source_signature": "34418d38d4b87c134f9922d6999ac3c069821ed0be2134f9ba6ae5e00e4b63a9",
       "baseline_reinitialized_at": "2026-07-02T10:23:28.426031Z"
     },
@@ -1269,27 +1270,27 @@
         "https://www.tc260.org.cn/portal/project/standard",
         "https://www.tc260.org.cn/portal/article/1/c38f19280f2b4b5284c642a174f27d38",
         "https://www.tc260.org.cn/portal/article/1/9745608fa11e46639275aa834e58b5c4",
-        "https://www.tc260.org.cn/portal/article/1/c5bff06b0a544674b12b89271bf8df02",
         "https://www.tc260.org.cn/portal/article/1/07d60a8d728445fbb3526ca97e3d02d9",
-        "https://www.tc260.org.cn/portal/article/1/a6d21a769f07420f818f6bed6797c618",
+        "https://www.tc260.org.cn/portal/article/1/c5bff06b0a544674b12b89271bf8df02",
         "https://www.tc260.org.cn/portal/article/1/4541a22bb6f542b5ae7c37ffe0d914aa",
+        "https://www.tc260.org.cn/portal/article/1/a6d21a769f07420f818f6bed6797c618",
         "https://www.tc260.org.cn/portal/article/1/7ddf0e21844548ccacf5f520a0b5b673",
-        "https://www.tc260.org.cn/portal/article/1/6e8ada3dc7654f43b55675ad05c700d3",
+        "https://www.tc260.org.cn/portal/article/1/e159d8380a964bb69feb9834fd8126e2",
         "https://www.tc260.org.cn/portal/article/2/e08ef0fcb9b54ed2beaf274a4df7c464",
-        "https://www.tc260.org.cn/portal/article/2/4d0df1b7026f468d9a1d4e540b1966d7",
         "https://www.tc260.org.cn/portal/article/2/9ef41b73134143aa957b5264535b7830",
+        "https://www.tc260.org.cn/portal/article/2/4d0df1b7026f468d9a1d4e540b1966d7",
         "https://www.tc260.org.cn/portal/article/2/b8bf5ba21f2449e0997568ba020cf8b8",
-        "https://www.tc260.org.cn/portal/article/2/70b2aca303cc41aa9fff05540b442c91",
-        "https://www.tc260.org.cn/portal/article/2/c54104c323b44b949d00ab25f69f5156",
+        "https://www.tc260.org.cn/portal/article/2/5fd674db7cf8498bbcfe35615cfb0469",
         "https://www.tc260.org.cn/portal/article/2/4f0ddba0fb794c56beefefb7c7c15d79",
+        "https://www.tc260.org.cn/portal/article/2/70b2aca303cc41aa9fff05540b442c91",
         "https://www.tc260.org.cn/portal/suggestion-detail/c8801e1c45954e098355a334d703a003",
         "https://www.tc260.org.cn/portal/suggestion-detail/383541def7cd40e098f635d2638b2e15",
         "https://www.tc260.org.cn/portal/suggestion-detail/ebcbdb1c877a45be8de13947b95edae3",
         "https://www.tc260.org.cn/portal/suggestion-detail/fc2b2c81ab0a4b37b59635b8349b05e8",
         "https://www.tc260.org.cn/portal/suggestion-detail/070bd0f2bab446be9e293e491a786a76",
-        "https://www.tc260.org.cn/portal/article/2/5fd674db7cf8498bbcfe35615cfb0469",
+        "https://www.tc260.org.cn/portal/article/1/6e8ada3dc7654f43b55675ad05c700d3",
+        "https://www.tc260.org.cn/portal/article/2/c54104c323b44b949d00ab25f69f5156",
         "https://www.tc260.org.cn/portal/article/1/3a56c5e4868f4e17ac8d71cc2daf2ec6",
-        "https://www.tc260.org.cn/portal/article/1/e159d8380a964bb69feb9834fd8126e2",
         "https://www.tc260.org.cn/portal/article/2/7bfa6ac909604997bfec986dca233699",
         "https://www.tc260.org.cn/portal/suggestion-detail/1a45ecd9ace34f94a40de59fc25b1fd6",
         "https://www.tc260.org.cn/portal/suggestion-detail/35f737c28f85459ba1f379ad1d0992ff",
@@ -1303,7 +1304,7 @@
       ],
       "last_checked_at": "2026-07-02T04:52:25.829528Z",
       "baseline_initialized": true,
-      "last_changed_at": "2026-07-16T10:35:48.162292Z",
+      "last_changed_at": "2026-07-16T15:49:32.383538Z",
       "source_signature": "ac7adf7536607ad1dc8d9ca06c0f10f499a52b1893dcc2d8ec03dd7b6240b921",
       "baseline_reinitialized_at": "2026-07-02T10:23:25.737100Z"
     },
@@ -1407,12 +1408,20 @@
       "last_changed_at": "2026-07-06T03:27:32.743048Z"
     },
     "tikhub-wechat-yicai": {
-      "last_polled_at": "2026-07-16T14:15:26.556032Z",
+      "last_polled_at": "2026-07-16T15:47:57.657082Z",
       "last_raw_count": 8,
       "source_signature": "d8f12c33a72df7482441fcd1a3ff851e93b7b9a79cb446d2d37a403664063670",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-06T03:51:43.565947Z",
       "seen_keys": [
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661770008&idx=1&sn=c9db44dcf0610a3625363785747e9000&chksm=bc0e5551e223c6940faee8bfd5d532552443e9c005ad9e2a24352952d133ba550ea448fdd108&scene=126&sessionid=0",
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661770008&idx=2&sn=8708bc10662a66b855a7567e4fe25988&chksm=bccb54addfbc20dbf537aeef6dc82ae136371c830d0cf4c83a2d3dd2ce4de11dc579b648f45a&scene=126&sessionid=0",
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661770008&idx=3&sn=fc1e6f4e732d63f74e66bcaf6db9082f&chksm=bcdcd9219c9b3b43f81914b08a592f3475c4cf5a9a1170182bda42c5d4b8a8abfd57edcaa6ce&scene=126&sessionid=0",
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661769998&idx=1&sn=77966e0e96beb4a8f55e7993a1a8a97c&chksm=bcdf56a4d3cba88783f35941b83108481a8f1e1168a67b66fe70e4a8632c1352945d3a5b47bb&scene=126&sessionid=0",
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661769997&idx=1&sn=8c3f246427d0e53bec8f2d0efc74160c&chksm=bcf2c27ca3068cdc75221cb884f852b56e4e79403723e60b0b6dbff290bc0b0be7de5ab6e705&scene=126&sessionid=0",
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661769997&idx=2&sn=329c8caef2d30f826e305015b2ce5eb8&chksm=bca962365563fde55e488f7d3601cf484bf131f47bb6a5400292ec02ddbf1ad35acf2ee7346a&scene=126&sessionid=0",
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661769997&idx=3&sn=8f435282eec74e0a0b70bab6f257f742&chksm=bc99b8bbcd4eeb668b44703b329026d7df09260e67855aef437f0cd7f06926132796fdd4920c&scene=126&sessionid=0",
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661769983&idx=1&sn=35faabe06fad2f5680d09c805a27f3de&chksm=bc23fa3c7b81df199119fbec8f85d059da7eefd9b8fab485eed826b60cc39731ef40ca66348a&scene=126&sessionid=0",
         "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661769959&idx=1&sn=4472c328be0fe8e3c0f0dfa0c10f796c&chksm=bc9e0b73824a289d0394b338395fa71a7f78f69e122526923b07c3ad134641834e69e1d84f82&scene=126&sessionid=0",
         "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661769952&idx=1&sn=84003252ea870d0d23c720b07f6e8b80&chksm=bce61b2f7c6cf61d13e2ee2a6ed12b9c6b227b94163bdf8f0527d4faf7a3ce7ce9b5ed4d07df&scene=126&sessionid=0",
         "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661769940&idx=1&sn=3294e0d73a91d042ec90deec9fac61cc&chksm=bc9a3979fd5fceb8f1c1bb032339ec138fcaf271a60eb2c7d760d25a4a01f633557319404abd&scene=126&sessionid=0",
@@ -1704,20 +1713,12 @@
         "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661767969&idx=1&sn=fdbdb7cf0367fadb6c861600bd9eba7a&chksm=bcb396c31539929034abd7f53d61f0162be2f4c29034586fb422f7aeed39f20d501bdd621ada&scene=126&sessionid=0",
         "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661767959&idx=1&sn=d7ac17bbd43a392e435e3dee1aa86011&chksm=bcd023bced25cfd2b0e32c087c676a20199b16d301f7d2955e0e2569b5fb64962f836b371c4e&scene=126&sessionid=0",
         "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661767955&idx=1&sn=48fa3575da8f6f440ca315efce0b1126&chksm=bc62daabcfa51b5d804fef1115c8b9958d800cf8b17bda56b37ec9175903c7c7e9ef2a4e4b20&scene=126&sessionid=0",
-        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661767954&idx=1&sn=96b0f0434eef91bac5cdbc690b51c0a5&chksm=bc159c4252361aa99fa94de6e450e7d6eb52ec4c9bf43d5fd3f8ce8b7316f057c249251690dc&scene=126&sessionid=0",
-        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661767937&idx=1&sn=1640961540698ad1cedcdbdc9b7a154c&chksm=bcc471676fb15bccdd82a821ff84d0d56c8fb07642a3df92e543aabb61608b62c374b1546c9e&scene=126&sessionid=0",
-        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661767936&idx=1&sn=c5659364e2bf6a1c59cae46b4012a44a&chksm=bcf5592f24c3d2ca0d22a0bbec7c5e79a53cf6c33ce47511107ef2d4989fa57ce1930e83b927&scene=126&sessionid=0",
-        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661767936&idx=2&sn=57d7e87dc5561ec5df0a82ecc58dbaa0&chksm=bc5d91ba0d898b64ca7a29f9e78e47fa2a581148df2e6b56db3b99852f942b355f4033380e47&scene=126&sessionid=0",
-        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661767936&idx=3&sn=5589913ffcb9dce24aac3288676016e8&chksm=bcfdfe5e08aff16095446b8d28dac0700b7f2ac3f3a55a33aabb18381be3cb41a4c704bde8e8&scene=126&sessionid=0",
-        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661767937&idx=1&sn=1640961540698ad1cedcdbdc9b7a154c&chksm=bc210724ad0edf6e4c1704a9ea29de62d0264e0227c27dcbf23c17d1669d045f12c329b32738&scene=126&sessionid=0",
-        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661767936&idx=1&sn=c5659364e2bf6a1c59cae46b4012a44a&chksm=bc472427c53c1f2d5af92ff6943d15d93060d22df8a6384f84c587bf4599a55be142fe8e31da&scene=126&sessionid=0",
-        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661767936&idx=2&sn=57d7e87dc5561ec5df0a82ecc58dbaa0&chksm=bc8e53194afea79741f9f36d077dcdaf3a1d983b4b396f3298514e03ffaeba9a96f588ee0312&scene=126&sessionid=0",
-        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661767936&idx=3&sn=5589913ffcb9dce24aac3288676016e8&chksm=bc471ada9d8cbd779ebafeb8acf05027287821f09ac68e75396ac62ec1ab8e6d9bf89bfd0f3f&scene=126&sessionid=0"
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661767954&idx=1&sn=96b0f0434eef91bac5cdbc690b51c0a5&chksm=bc159c4252361aa99fa94de6e450e7d6eb52ec4c9bf43d5fd3f8ce8b7316f057c249251690dc&scene=126&sessionid=0"
       ],
-      "last_changed_at": "2026-07-16T14:17:01.181602Z"
+      "last_changed_at": "2026-07-16T15:49:35.713277Z"
     },
     "tikhub-wechat-21jingji": {
-      "last_polled_at": "2026-07-16T14:15:26.556032Z",
+      "last_polled_at": "2026-07-16T15:47:57.657082Z",
       "last_raw_count": 0,
       "source_signature": "a585a9cb4142e0c5cee8958fb7db1b1520cf0b91be787ec3e76d32c337b22356",
       "baseline_initialized": true,
@@ -1792,11 +1793,13 @@
     },
     "aihot-selected": {
       "last_raw_count": 50,
-      "last_polled_at": "2026-07-16T14:15:26.556032Z",
+      "last_polled_at": "2026-07-16T15:47:57.657082Z",
       "source_signature": "54b0a2ce37b31eed7de5728f2ad3467d3fff1ec95a53a03f9ee11a9fa197fda4",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-09T08:44:50.779962Z",
       "seen_keys": [
+        "https://www.ithome.com/0/977/793.htm",
+        "https://claude.com/blog/working-with-claude-fable-5-in-claude-cowork",
         "https://x.com/OpenBMB/status/2077741814799548451",
         "https://mp.weixin.qq.com/s/W3QACoSYgwK0TW4zG-KFsg",
         "https://www.theverge.com/policy/966438/eu-google-android-ai-interoperability-search-data-dma",
@@ -1976,7 +1979,7 @@
         "https://www.tomtunguz.com/the-10b-fde-boom",
         "https://openrouter.ai/blog/insights/image-detail-low-cost"
       ],
-      "last_changed_at": "2026-07-16T14:15:27.866665Z"
+      "last_changed_at": "2026-07-16T15:47:58.310659Z"
     }
   }
 }
