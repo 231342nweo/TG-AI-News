@@ -257,11 +257,11 @@
     "cac-generative-ai-filing": {
       "seen_keys": [
         "https://www.cac.gov.cn/2026-07/17/c_1786032880247252.htm",
-        "https://www.cac.gov.cn/2026-07/17/c_1786032883596731.htm",
         "https://www.cac.gov.cn/2026-07/17/c_1786032877362241.htm",
         "https://www.cac.gov.cn/2026-07/15/c_1785861480767004.htm",
         "https://www.cac.gov.cn/2026-07/17/c_1786032856662750.htm",
         "https://www.cac.gov.cn/gzzt/ztzl/zt/AI/A0920011304index_1.htm",
+        "https://www.cac.gov.cn/2026-07/17/c_1786032883596731.htm",
         "https://www.cac.gov.cn/2026-07/13/c_1785686605153677.htm",
         "https://www.cac.gov.cn/2026-07/10/c_1785427810632554.htm",
         "https://www.cac.gov.cn/2026-07/14/c_1785774079513136.htm",
@@ -271,7 +271,7 @@
       ],
       "last_checked_at": "2026-07-02T04:52:07.024615Z",
       "baseline_initialized": true,
-      "last_changed_at": "2026-07-17T10:14:29.886608Z",
+      "last_changed_at": "2026-07-17T14:18:39.498576Z",
       "source_signature": "6d7ca3dad31590ab5964fb3895692372791295ca5fe71a6e608247c879bc58d4",
       "baseline_reinitialized_at": "2026-07-02T10:23:10.698021Z"
     },
@@ -375,28 +375,28 @@
       "last_checked_at": "2026-07-02T04:51:37.867265Z",
       "baseline_initialized": true,
       "repos": {
-        "MoonshotAI/kimi-code": "2026-07-17T12:45:42Z",
+        "MoonshotAI/kimi-agent-rs": "2026-02-06T15:15:57Z",
+        "MoonshotAI/Kimi-Linear": "2025-11-17T09:36:48Z",
+        "MoonshotAI/kimi-code": "2026-07-17T14:05:26Z",
         "MoonshotAI/kimi-cli": "2026-07-16T10:05:51Z",
         "MoonshotAI/Kimi-K2.5": "2026-01-31T00:49:42Z",
-        "MoonshotAI/Kimi-K2": "2026-01-21T05:33:12Z",
-        "MoonshotAI/Kimi-Dev": "2025-09-30T02:15:54Z",
-        "MoonshotAI/Attention-Residuals": "2026-03-17T06:23:11Z",
-        "MoonshotAI/Kimi-Linear": "2025-11-17T09:36:48Z",
-        "MoonshotAI/Kimi-Audio": "2025-06-21T15:30:28Z",
-        "MoonshotAI/Kimi-k1.5": "2025-03-07T11:16:36Z",
-        "MoonshotAI/MoBA": "2025-04-03T07:28:06Z",
-        "MoonshotAI/FlashKDA": "2026-05-26T06:31:25Z",
-        "MoonshotAI/kimi-agent-sdk": "2026-05-29T05:29:38Z",
-        "MoonshotAI/moonpalace": "2024-12-30T21:17:27Z",
-        "MoonshotAI/K2-Vendor-Verifier": "2026-02-14T05:28:46Z",
         "MoonshotAI/Moonlight": "2025-08-03T06:31:18Z",
-        "MoonshotAI/CombiBench": "2026-06-15T07:35:37Z",
+        "MoonshotAI/MoBA": "2025-04-03T07:28:06Z",
         "MoonshotAI/Kimi-VL": "2025-07-15T15:48:21Z",
-        "MoonshotAI/checkpoint-engine": "2026-07-04T09:26:11Z",
+        "MoonshotAI/Kimina-Prover-Preview": "2025-07-10T13:04:40Z",
+        "MoonshotAI/Kimi-Audio": "2025-06-21T15:30:28Z",
+        "MoonshotAI/Kimi-Dev": "2025-09-30T02:15:54Z",
+        "MoonshotAI/walle": "2026-06-29T14:05:32Z",
+        "MoonshotAI/FlashKDA": "2026-05-26T06:31:25Z",
         "MoonshotAI/kosong": "2026-07-16T10:06:23Z",
-        "MoonshotAI/kimi-help-center": "2026-05-08T04:47:45Z"
+        "MoonshotAI/checkpoint-engine": "2026-07-04T09:26:11Z",
+        "MoonshotAI/CombiBench": "2026-06-15T07:35:37Z",
+        "MoonshotAI/kimi-agent-sdk": "2026-05-29T05:29:38Z",
+        "MoonshotAI/Attention-Residuals": "2026-03-17T06:23:11Z",
+        "MoonshotAI/Kimi-K2": "2026-01-21T05:33:12Z",
+        "MoonshotAI/Kimi-k1.5": "2025-03-07T11:16:36Z"
       },
-      "last_changed_at": "2026-07-17T12:46:10.620194Z",
+      "last_changed_at": "2026-07-17T14:17:26.594898Z",
       "source_signature": "c925f37596aaabb84376bf83142f08b0ce08447179a5d27a52c7956a40180daa",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -570,12 +570,13 @@
       "baseline_initialized": true,
       "repos": {
         "OpenBMB/VoxCPM": "2026-07-08T09:46:11Z",
-        "OpenBMB/StaffDeck": "2026-07-17T09:46:38Z",
+        "OpenBMB/StaffDeck": "2026-07-17T13:29:08Z",
+        "OpenBMB/MiniCPM-V": "2026-06-25T12:12:59Z",
+        "OpenBMB/MiniCPM": "2026-06-20T06:06:47Z",
+        "OpenBMB/VisRAG": "2026-07-17T12:51:32Z",
         "OpenBMB/ChatDev": "2026-06-29T08:25:10Z",
         "OpenBMB/MetaMem": "2026-07-02T08:31:10Z",
-        "OpenBMB/MiniCPM-V": "2026-06-25T12:12:59Z",
         "OpenBMB/MiniCPM-Desk-Pet": "2026-07-07T14:15:36Z",
-        "OpenBMB/MiniCPM": "2026-06-20T06:06:47Z",
         "OpenBMB/ArcLight": "2026-05-30T02:59:35Z",
         "OpenBMB/UltraRAG": "2026-07-17T01:45:17Z",
         "OpenBMB/AgentCPM": "2026-02-09T13:39:47Z",
@@ -587,10 +588,9 @@
         "OpenBMB/RepoAgent": "2024-12-23T11:48:52Z",
         "OpenBMB/EdgeClaw": "2026-04-15T09:25:35Z",
         "OpenBMB/MiniCPM-o-Demo": "2026-07-15T11:37:31Z",
-        "OpenBMB/XAgent": "2024-08-12T06:41:38Z",
-        "OpenBMB/WorkflowLLM": "2025-03-11T07:41:39Z"
+        "OpenBMB/XAgent": "2024-08-12T06:41:38Z"
       },
-      "last_changed_at": "2026-07-17T12:46:10.620194Z",
+      "last_changed_at": "2026-07-17T14:17:26.594898Z",
       "source_signature": "3dd1c4ab8bc380dc66624329d310bc65fe6deafde7a370da1191ca03b32c0764",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -599,8 +599,8 @@
       "last_checked_at": "2026-07-02T04:51:56.844085Z",
       "baseline_initialized": true,
       "repos": {
-        "InternLM/lmdeploy": "2026-07-17T11:27:52Z",
         "InternLM/Intern-S1": "2026-07-17T10:25:15Z",
+        "InternLM/lmdeploy": "2026-07-17T13:03:46Z",
         "InternLM/MindSearch": "2025-07-04T10:06:45Z",
         "InternLM/InternLM": "2025-10-30T00:35:43Z",
         "InternLM/InternLM-XComposer": "2025-05-26T15:59:34Z",
@@ -620,7 +620,7 @@
         "InternLM/Kernel-Smith": "2026-03-31T03:23:03Z",
         "InternLM/agentlego": "2024-09-13T08:00:19Z"
       },
-      "last_changed_at": "2026-07-17T11:40:08.648727Z",
+      "last_changed_at": "2026-07-17T14:17:26.594898Z",
       "source_signature": "a7a2f73a91108336ba1fe2d4fb4d5921862eb329f648d490a4d7903663f49f70",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -632,28 +632,28 @@
       "last_checked_at": "2026-07-02T04:51:58.871155Z",
       "baseline_initialized": true,
       "repos": {
-        "QwenLM/qwen-code": "2026-07-17T12:39:53Z",
-        "QwenLM/Qwen-Agent": "2026-03-04T08:15:07Z",
+        "QwenLM/Qwen": "2026-03-05T13:55:17Z",
+        "QwenLM/Qwen3.6": "2026-06-03T12:14:19Z",
         "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
+        "QwenLM/Qwen3-Coder": "2026-03-24T08:22:10Z",
+        "QwenLM/qwen-code": "2026-07-17T13:33:08Z",
+        "QwenLM/FlashQLA": "2026-07-15T11:00:23Z",
         "QwenLM/Qwen3-ASR": "2026-06-26T08:20:17Z",
+        "QwenLM/Qwen-Audio": "2024-07-05T09:17:49Z",
+        "QwenLM/Qwen-RobotNav": "2026-06-30T03:01:19Z",
         "QwenLM/Qwen-AgentWorld": "2026-06-25T06:57:43Z",
+        "QwenLM/Qwen-Agent": "2026-03-04T08:15:07Z",
         "QwenLM/Qwen-Image-Layered": "2025-12-31T11:40:35Z",
         "QwenLM/Qwen3-VL-Embedding": "2026-06-23T10:39:17Z",
-        "QwenLM/Qwen3.6": "2026-06-03T12:14:19Z",
         "QwenLM/Qwen3-Omni": "2026-04-23T10:58:01Z",
         "QwenLM/Qwen3-Embedding": "2025-09-30T06:10:27Z",
         "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
         "QwenLM/Qwen3Guard": "2025-10-21T02:27:12Z",
         "QwenLM/Qwen3-ASR-Toolkit": "2026-02-05T05:35:03Z",
         "QwenLM/Qwen-Image": "2026-02-10T07:37:37Z",
-        "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
-        "QwenLM/Qwen-RobotManip": "2026-06-29T22:29:54Z",
-        "QwenLM/Qwen2-Audio": "2025-04-21T08:50:49Z",
-        "QwenLM/Qwen-RobotNav": "2026-06-30T03:01:19Z",
-        "QwenLM/Qwen": "2026-03-05T13:55:17Z",
-        "QwenLM/Qwen-Audio": "2024-07-05T09:17:49Z"
+        "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z"
       },
-      "last_changed_at": "2026-07-17T12:46:10.620194Z",
+      "last_changed_at": "2026-07-17T14:17:26.594898Z",
       "source_signature": "ddc0d8d3788b1fc4ba6779bc400a51934ce7ac0845fbfff67f906a6d77406e21",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -662,12 +662,15 @@
       "last_checked_at": "2026-07-02T04:52:01.889603Z",
       "baseline_initialized": true,
       "repos": {
-        "Tencent-Hunyuan/HY-Embodied": "2026-07-15T11:54:12Z",
-        "Tencent-Hunyuan/HunyuanOCR": "2026-07-17T10:25:03Z",
-        "Tencent-Hunyuan/HunyuanDiT": "2025-11-27T06:37:00Z",
-        "Tencent-Hunyuan/Hunyuan3D-1": "2025-11-19T07:07:41Z",
         "Tencent-Hunyuan/Hy-Embodied-RxBrain-1.0": "2026-07-17T09:58:25Z",
         "Tencent-Hunyuan/Hy3": "2026-07-17T10:11:52Z",
+        "Tencent-Hunyuan/HunyuanOCR": "2026-07-17T13:48:39Z",
+        "Tencent-Hunyuan/HY3D-Bench": "2026-02-27T10:03:22Z",
+        "Tencent-Hunyuan/Hy-Embodied-0.5-VLA": "2026-07-09T09:42:43Z",
+        "Tencent-Hunyuan/HY-World-2.0": "2026-05-27T07:25:04Z",
+        "Tencent-Hunyuan/HY-Embodied": "2026-07-15T11:54:12Z",
+        "Tencent-Hunyuan/HunyuanDiT": "2025-11-27T06:37:00Z",
+        "Tencent-Hunyuan/Hunyuan3D-1": "2025-11-19T07:07:41Z",
         "Tencent-Hunyuan/HunyuanVideo-I2V": "2026-04-07T06:13:09Z",
         "Tencent-Hunyuan/Hy3-preview": "2026-04-23T15:09:16Z",
         "Tencent-Hunyuan/HunyuanVideo": "2026-06-29T09:33:50Z",
@@ -678,12 +681,9 @@
         "Tencent-Hunyuan/UniRL": "2026-07-17T07:31:36Z",
         "Tencent-Hunyuan/Hunyuan-MT": "2025-12-30T09:12:46Z",
         "Tencent-Hunyuan/HunyuanImage-3.0": "2026-06-23T13:12:44Z",
-        "Tencent-Hunyuan/HY-WorldPlay": "2026-06-10T07:10:23Z",
-        "Tencent-Hunyuan/ArtifactsBenchmark": "2025-12-30T06:38:40Z",
-        "Tencent-Hunyuan/HY-Motion-1.0": "2026-05-25T03:42:57Z",
-        "Tencent-Hunyuan/HY-World-2.0": "2026-05-27T07:25:04Z"
+        "Tencent-Hunyuan/HY-WorldPlay": "2026-06-10T07:10:23Z"
       },
-      "last_changed_at": "2026-07-17T11:40:08.648727Z",
+      "last_changed_at": "2026-07-17T14:17:26.594898Z",
       "source_signature": "637ce9b3bc2d070666c42f5fd92e749870848ee35ed6d4c156f831c9bc8f2d04",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -1430,12 +1430,20 @@
       "last_changed_at": "2026-07-06T03:27:32.743048Z"
     },
     "tikhub-wechat-yicai": {
-      "last_polled_at": "2026-07-17T12:46:10.620194Z",
+      "last_polled_at": "2026-07-17T14:17:26.594898Z",
       "last_raw_count": 8,
       "source_signature": "d8f12c33a72df7482441fcd1a3ff851e93b7b9a79cb446d2d37a403664063670",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-06T03:51:43.565947Z",
       "seen_keys": [
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661770710&idx=1&sn=076fdfb51662869680ac86a3b9e30d93&chksm=bc42b18d5f9735bfb187d3acceda8c43f542841f48a58cbd1769d43e5937d0fd422698d8520c&scene=126&sessionid=0",
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661770703&idx=1&sn=d76f300c79d5506053f9b19c8b92f4dc&chksm=bc22fd7e91c8c29392fe8c16f1d3553693a2690d9cad2c8a036f4822555141010c66d021355b&scene=126&sessionid=0",
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661770703&idx=2&sn=36065fe3c39045c305a7fd2f190e5e9e&chksm=bc8b763c75e0313be92e3d66508c89fad77c761b3114cf25a0b30ac088889cd5b9555e88a02c&scene=126&sessionid=0",
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661770703&idx=3&sn=0eb34c982a2560262eb72fca2b14c4a7&chksm=bcade343bd725dc544063d1104301b5004da6992a07727fd792548383502638c03bb59991b53&scene=126&sessionid=0",
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661770685&idx=1&sn=fa1837ce5cdaf9df6f36952e977b6086&chksm=bc71e6930621e7e338c94385c4efbb031e8a05a372a77c478219c6d646d8e406c42be4cf3805&scene=126&sessionid=0",
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661770664&idx=1&sn=b0554649d97518fcac54d5deb53929f0&chksm=bc88391dc624fd79ae454633e3ca14913c4425ead017294a79d373b61d75ae490512433108d7&scene=126&sessionid=0",
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661770637&idx=1&sn=5a11d9eab7670333257d355b0307a4ce&chksm=bc10117c8c31add4f9e10bba694b10f3987ca814ce14d25cca6c1bb0460f9b0b970310d96322&scene=126&sessionid=0",
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661770626&idx=1&sn=7c3a37bba2ceeddb40db7b0afbc62e20&chksm=bc4dd0ebb14ba15da26baeec319fe53f4a66ba5f4cb7e0a956519c4f3a8949455b31c0ef23b6&scene=126&sessionid=0",
         "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661770589&idx=1&sn=8663dfcb7ad89061622b086d222ff22a&chksm=bc40ffce4c0e3eb6510b0eac11eadb9163561facb94dcf54f34c9f34d17fa3acefc919ff4b02&scene=126&sessionid=0",
         "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661770589&idx=2&sn=9f72d4b4fc71a1419f73a0dc45a22577&chksm=bc92b8b76554fb871bb6827c51ba9735b0d5004e89eca8c9b224bb994675f333562f97c5d149&scene=126&sessionid=0",
         "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661770553&idx=1&sn=9cd3f016b96451da5897006e37f70007&chksm=bcf6f3463146463377c27050aae52191a7d3162e34eb84076dbfa3ad3cdb11486767daaca721&scene=126&sessionid=0",
@@ -1727,20 +1735,12 @@
         "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661768634&idx=1&sn=09fdf02eb8f502fff09b8485a19c0b92&chksm=bcad2822dbf3ee172ab1e8e84ba20cb3e29f050b935ff24083b6ce61cbacf8f218e727270c2a&scene=126&sessionid=0",
         "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661768615&idx=1&sn=3af49f73f83854f26e215fbc1c6a8bd8&chksm=bc9e396c9406cdc6c38c180cd89426168bcf76fd6cbc58fc2dd0b9ef24ea500c9c1e3a6a578d&scene=126&sessionid=0",
         "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661768614&idx=1&sn=97847893dac35c9daf93738c88066e85&chksm=bc09b4029e289bb044ce2a1cdbc92f6c52c2fb95d5087a90b196e872fe4fd8ff553edff27ccb&scene=126&sessionid=0",
-        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661768614&idx=2&sn=4ee363edcbbf8092dafb6c5a15ad7b6e&chksm=bc4145ec45f3bc4e0771bf68ea2fd191d716303a86c67f63116d3f5779ce35c294f4bba5aa74&scene=126&sessionid=0",
-        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661768613&idx=1&sn=7ee24ebc3ce5dc0eae99a5dbb81c6765&chksm=bcd9355a46c811395a1da40451a3d6d5c8a1ce7773293eb7ffea226cdee3b4a659090decf141&scene=126&sessionid=0",
-        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661768613&idx=2&sn=690a72f599c9fb3081bbdc8894f77c88&chksm=bc3f12379f0ffa7e5682fe01b5002f0c547fe76c17b17dfbfc9fcb3d3a852569a98f1e0c8b61&scene=126&sessionid=0",
-        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661768612&idx=1&sn=010b2714c7b1fba7eba09a9c8d9e5621&chksm=bc5076ed04ac5a53b913ec95d0e810e8de0e44ae74fdd301933611e35f45207114c83aa3e67a&scene=126&sessionid=0",
-        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661768612&idx=2&sn=26e4e8330082c44a9213c5c8f24816ac&chksm=bc543cad77947c0fe8dfc513725efccbb1a6f77b635a4da5b8fe2cc9558eb6e7b56e402a132c&scene=126&sessionid=0",
-        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661768615&idx=1&sn=3af49f73f83854f26e215fbc1c6a8bd8&chksm=bc62e8435afd3388677823bec6a3109442f6b3d0656552780136fb9df9fbb1c90fff926ccc1a&scene=126&sessionid=0",
-        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661768614&idx=1&sn=97847893dac35c9daf93738c88066e85&chksm=bcfe0e02bba4da10a8ef948add94f30f29e2bac2e6925f748dc888d6609a51a59fddd69d06f0&scene=126&sessionid=0",
-        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661768614&idx=2&sn=4ee363edcbbf8092dafb6c5a15ad7b6e&chksm=bc3740d4726e25186d144b2e0ea17b49d06e959e527f1b6c71ccafaaf1490851063eaedf12ba&scene=126&sessionid=0",
-        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661768613&idx=1&sn=7ee24ebc3ce5dc0eae99a5dbb81c6765&chksm=bcde2828be43d19a6017fbdf6985759039eb44adb843af91bcc2645317ded69b346f6f487b4c&scene=126&sessionid=0"
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661768614&idx=2&sn=4ee363edcbbf8092dafb6c5a15ad7b6e&chksm=bc4145ec45f3bc4e0771bf68ea2fd191d716303a86c67f63116d3f5779ce35c294f4bba5aa74&scene=126&sessionid=0"
       ],
-      "last_changed_at": "2026-07-17T12:47:40.356738Z"
+      "last_changed_at": "2026-07-17T14:19:07.378661Z"
     },
     "tikhub-wechat-21jingji": {
-      "last_polled_at": "2026-07-17T12:46:10.620194Z",
+      "last_polled_at": "2026-07-17T14:17:26.594898Z",
       "last_raw_count": 0,
       "source_signature": "a585a9cb4142e0c5cee8958fb7db1b1520cf0b91be787ec3e76d32c337b22356",
       "baseline_initialized": true,
@@ -1822,12 +1822,14 @@
     },
     "aihot-selected": {
       "last_raw_count": 50,
-      "last_polled_at": "2026-07-17T12:46:10.620194Z",
+      "last_polled_at": "2026-07-17T14:17:26.594898Z",
       "source_signature": "54b0a2ce37b31eed7de5728f2ad3467d3fff1ec95a53a03f9ee11a9fa197fda4",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-09T08:44:50.779962Z",
       "seen_keys": [
+        "https://x.com/Meituan_LongCat/status/2078119654632124547",
         "https://www.ithome.com/0/978/277.htm",
+        "https://openai.com/index/a-scorecard-for-the-ai-age",
         "https://mp.weixin.qq.com/s/a2YKWmyMoyIc3GKLbXffpQ",
         "https://schema-harness.github.io",
         "https://www.marktechpost.com/2026/07/17/nvidia-ai-releases-nemotron-3-embed-an-open-embedding-collection-whose-8b-checkpoint-ranks-1-on-rteb",
@@ -2024,7 +2026,7 @@
         "https://www.tomtunguz.com/the-10b-fde-boom",
         "https://openrouter.ai/blog/insights/image-detail-low-cost"
       ],
-      "last_changed_at": "2026-07-17T12:46:11.214396Z"
+      "last_changed_at": "2026-07-17T14:17:32.152686Z"
     }
   }
 }
