@@ -1,13 +1,13 @@
 {
   "sources": {
     "deepseek-api-updates": {
-      "fingerprint": "105972a6b1a62cce2c31f60cc90a9f6808ee8ee92682fa360e265fd2f23b3cfd",
+      "fingerprint": "9f773d2509d8287edaf48cca61a64fa432fbbfa92229f74899cd375296a242f7",
       "last_checked_at": "2026-07-02T04:51:33.147542Z",
-      "last_excerpt": "Your First API Call | DeepSeek API Docs Skip to main content DeepSeek API Docs English English 中文（中国） DeepSeek Platform Quick Start Your First API Call Models & Pricing Token & Token Usage Rate Limit & Isolation Error Codes Agent Integrations API Guides Thinking Mode Multi-round Conversation Chat Prefix Completion (Beta) FIM Completion (Beta) JSON Output Tool Calls Context Caching Anthropic API API Reference News Other Resources FAQ Change Log Quick Start Your First API Call On this page Your First API Call The DeepSeek API uses an API format compatible with OpenAI/Anthropic. By modifying the configuration, you can use the OpenAI/Anthropic SDK or softwares compatible with the OpenAI/Anthropic API to access the DeepSeek API. PARAM VALUE base_url (OpenAI) https://api.deepseek.com base_url (Anthropic) https://api.deepseek.com/anthropic api_key apply for an API key model * deepseek-v4-flash deepseek-v4-pro deepseek-chat (to be deprecated on 2026/07/24) deepseek-reasoner (to be deprecated on 2026/07/24) * The model names deepseek-chat and deepseek-reasoner will be deprecated on 2026/07/24 15:59 UTC. For compatibility, they correspond to the non-thinking mode and thinking mode of deepseek-v4-flash , respectively. Integrate with Agent Tools ​ The DeepSeek API is supported by many popular AI agent and coding assistant tools. If you use tools like Claude Code, GitHub Copilot, or OpenCode, you can use DeepSeek as the backend model directly — no code required. See the Agent Integrations Guide for details. Invoke The Chat API ​ Once you have obtained an API key, you can access the DeepSeek model using the following example scripts in the OpenAI API format. This is a non-stream example, you can set the stream parameter to true to get stream response. For examples using the Anthropic API format, please refer to Anthropic API . curl python nodejs curl https://api.deepseek.com/chat/completions \\ -H \"Content-Type: application/json\" \\ -H \"Authorization: Bearer ${DEEPSEEK_API_KEY}\" \\ -d '{ \"model\": \"deepseek-v4-pro\", \"messages\": [ {\"role\": \"system\", \"content\": \"You are a helpful assistant.\"}, {\"role\": \"user\", \"content\": \"Hello!\"} ], \"thinking\": {\"type\": \"enabled\"}, \"reasoning_effort\": \"high\", \"stream\": false }' # Please install OpenAI SDK first: `pip3 install openai` import os from openai import OpenAI client = OpenAI ( api_key = os . environ . get ( 'DEEPSEEK_API_KEY' ) , base_url = \"https://api.deepseek.com\" ) response = client . chat . completions . create ( model = \"deepseek-v4-pro\" , messages = [ { \"role\" : \"system\" , \"content\" : \"You are a helpful assistant\" } , { \"role\" : \"user\" , \"content\" : \"Hello\" } , ] , stream = False , reasoning_effort = \"high\" , extra_body = { \"thinking\" : { \"type\" : \"enabled\" } } ) print ( response . choices [ 0 ] . message . content ) // Please install OpenAI SDK first: `npm install openai` import OpenAI from \"openai\" ; const openai = new OpenAI ( { baseURL : 'https://api.deepseek.com' , apiKey : process . env . DEEPSEEK_API_KEY , } ) ; async function main ( ) { const completion = await openai . chat . completions . create ( { messages : [ { role : \"system\" , content : \"You are a helpful assistant.\" } ] , model : \"deepseek-v4-pro\" , thinking : { \"type\" : \"enabled\" } , reasoning_effort : \"high\" , stream : false , } ) ; console . log ( completion . choices [ 0 ] . message . content ) ; } main ( ) ; Next Models & Pricing Integrate with Agent Tools Invoke The Chat API WeChat Official Account Community Email Discord Twitter More GitHub Copyright © 2026 DeepSeek, Inc.",
+      "last_excerpt": "Change Log | DeepSeek API Docs Skip to main content DeepSeek API Docs English English 中文（中国） DeepSeek Platform Quick Start Your First API Call Models & Pricing Token & Token Usage Rate Limit & Isolation Error Codes Agent Integrations API Guides Thinking Mode Multi-round Conversation Chat Prefix Completion (Beta) FIM Completion (Beta) JSON Output Tool Calls Context Caching Anthropic API API Reference News Other Resources FAQ Change Log Change Log On this page Change Log Date: 2026-04-24 ​ DeepSeek-V4 ​ The DeepSeek API now supports V4-Pro and V4-Flash, available via both the OpenAI ChatCompletions interface and the Anthropic interface. To access the new models, the base_url remains unchanged, and the model parameter should be set to deepseek-v4-pro or deepseek-v4-flash . The two legacy API model names, deepseek-chat and deepseek-reasoner , will be discontinued in three months (2026-07-24). During the current period, these two model names point to the non-thinking mode and thinking mode of deepseek-v4-flash , respectively. For more details, please refer to this documentation . Date: 2025-12-01 ​ DeepSeek-V3.2 ​ Both deepseek-chat and deepseek-reasoner have been upgraded to DeepSeek-V3.2. deepseek-chat corresponds to DeepSeek-V3.2's non-thinking mode deepseek-reasoner corresponds to DeepSeek-V3.2's thinking mode DeepSeek-V3.2-Speciale ​ DeepSeek-V3.2-Speciale is served via a temporary endpoint: base_url=\" https://api.deepseek.com/v3.2_speciale_expires_on_20251215 \". Same pricing as V3.2, no tool calls, available until Dec 15th, 2025, 15:59 (UTC Time). For more details, please refer to this documentation . Date: 2025-09-29 ​ DeepSeek-V3.2-Exp ​ Both deepseek-chat and deepseek-reasoner have been upgraded to DeepSeek-V3.2-Exp. deepseek-chat corresponds to DeepSeek-V3.2-Exp's non-thinking mode deepseek-reasoner corresponds to DeepSeek-V3.2-Exp's thinking mode For more details, please refer to this documentation . Date: 2025-09-22 ​ DeepSeek-V3.1-Terminus ​ Both deepseek-chat and deepseek-reasoner have been upgraded to DeepSeek-V3.1-Terminus. deepseek-chat corresponds to DeepSeek-V3.1-Terminus's non-thinking mode , while deepseek-reasoner corresponds to its thinking mode . This update maintains the model's original capabilities while addressing issues reported by users, including: Language consistency: Reduced occurrences of Chinese-English mixing and occasional abnormal characters; Agent capabilities: Further optimized the performance of the Code Agent and Search Agent. Date: 2025-08-21 ​ DeepSeek-V3.1 ​ Both deepseek-chat and deepseek-reasoner have been upgraded to DeepSeek-V3.1. deepseek-chat corresponds to DeepSeek-V3.1's non-thinking mode , while deepseek-reasoner corresponds to its thinking mode . Key updates in DeepSeek-V3.1: Hybrid reasoning architecture : A single model supports both thinking mode and non-thinking mode Improved reasoning efficiency : Compared to DeepSeek-R1-0528, DeepSeek-V3.1-Think provides answers in significantly less time Enhanced agent capabilities : With post-training optimization, the new model achieves major improvements in tool usage and intelligent agent tasks SWE-bench Verified: 66.0 SWE-bench Multilingual: 54.5 Terminal-bench: 31.3 Date: 2025-05-28 ​ deepseek-reasoner ​ deepseek-reasoner Model Upgraded to DeepSeek-R1-0528: Enhanced Reasoning Capabilities Significant benchmark improvements (Pass@1) AIME 2025: 70.0 → 87.5 (+17.5) GPQA: 71.5 → 81.0 (+9.5) LCB_v6: 63.5 → 73.3 (+9.8) Aider: 57.0 → 71.6 (+14.6) Note: Complex reasoning tasks may consume more tokens compared to legacy R1 version. Optimized Front-end Development Generated web pages and games now feature improved aesthetics. Reduced Hallucinations Significantly suppressed hallucination issues present in legacy R1 version. JSON Output & Function Calling Support Function call performance: Tau-bench score: 53.5 (Airline) / 63.9 (Retail) Date: 2025-03-24 ​ deepseek-chat ​ deepseek-chat Model Upgraded to DeepSeek-V3-0324: Enhanced Reasoning Capa",
       "baseline_initialized": true,
       "source_signature": "da94888987a371666a5f08739c9802c186474211b8f74f055d7f6cfad14cf7a4",
       "baseline_reinitialized_at": "2026-07-02T10:22:21.295328Z",
-      "last_changed_at": "2026-07-16T22:14:34.504821Z"
+      "last_changed_at": "2026-07-17T00:10:36.130094Z"
     },
     "deepseek-huggingface": {
       "models": {
@@ -203,12 +203,12 @@
       "baseline_reinitialized_at": "2026-07-02T10:22:21.295328Z"
     },
     "volcengine-ark-models": {
-      "fingerprint": "20d707635a497d96aad1a4ebdf1235ca1bdcbfe585b48c75029737b4c6e2312f",
+      "fingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "last_checked_at": "2026-07-02T04:51:33.147542Z",
-      "last_excerpt": "文档中心 简体 文档 控制台 登录 注册 火山方舟 文档指南 订阅 [Agent/Coding Plan] API参考 资源 火山方舟 火山方舟 文档指南 请输入 入门 产品简介 快速入门 模型列表 模型价格 最新模型：Seed-Evolving 调用 文本生成 多模态理解 图片理解 视频理解 文档理解 音频理解 视频生成 Doubao Seedance 2.0 系列教程 Doubao Seedance 2.0 系列提示词指南 视频生成教程 图片生成 Doubao Seedream 5.0 pro 教程 Doubao Seedream 5.0 pro 实现交互编辑指南 图片生成教程 领域模型 3D 生成 向量化 工具调用 工具概述 豆包助手 Web Search（联网内容插件） Image Process（图像处理） 私域知识库搜索 Knowledge Search 云部署 MCP / Remote MCP Function Calling（函数调用） 进阶使用 深度思考 上下文管理 流式输出 续写模式 上下文缓存 原理及选型 上下文缓存(Context API) 文件输入(File API) 视觉定位 Grounding 提示词工程 结构化输出(beta) 接入三方工具 使用 Responses API 迁移至 Responses API 文本生成 深度思考 多模态理解 工具调用 上下文缓存 结构化输出(beta) 上下文编辑 推理 推理方式概述 在线推理（常规） 在线推理（低延迟） 在线推理（TPM 保障包） 在线推理（模型单元） 模型单元概述 创建模型单元 管理模型单元 批量推理 高级能力 智能模型路由 使用 MLP 推理服务 使用自定义模型进行推理 训练 模型精调 模型精调概述 有监督微调最佳实践 直接偏好优化最佳实践 强化学习最佳实践 精调 SDK 使用指南 模型精调数据集格式说明 管理自定义模型 模型评测 创建模型评测任务 查看并管理模型评测任务 评测数据集格式说明 数据集 数据集介绍 共享数据集 Managed Agents 快速上手 概述 快速入门（代码） 快速入门（控制台） 定义 Agent Agent Skills MCP Tools 工具权限策略 配置 Agent 环境 配置云环境 云沙箱参考 委派任务给 Agent 启动 Session 管理 Session Session 事件流 使用 Vaults 认证 管理 Agent 上下文 上传与挂载文件 持久化记忆 高级能力 Multi Agent 应用 应用实验室 零代码应用简介 零代码应用操作指南 低代码应用简介 高代码应用简介 高代码应用创建部署指南 服务组件库 网页解析插件功能说明 联网内容插件功能说明 联网系列插件升级为联网内容插件说明及操作指南 知识库插件功能说明 应用实验室 知识库 操作指南 文档知识问答核心流程 音视频知识问答核心流程 知识库管理 创建知识库 编辑知识库 查看知识库列表 查看知识库详情 删除知识库 知识检索 知识问答 续订知识库 退订知识库 配置实验版本 文档管理 导入文档 标签配置 删除文档 切片管理 新增切片 编辑切片 查阅切片 删除切片 知识服务管理 创建知识服务 知识服务管理 知识库配额说明 知识库分账管理 API参考 签名鉴权与调用示例 API 列表 最佳实践 MCP Server 知识型视频智能问答解决方案 视频高光提取及检索解决方案 更多最佳实践 知识库免费体验权益 SDK参考 SDK 升级与使用说明 PromptPilot PromptPilot 概述 PromptPilot 订阅管理 Prompt 生成 Prompt 调优 Prompt 批量 PromptPilot 管理 VideoPilot 功能介绍 视觉理解 Solution 评分DSL AgentPilot SDK 参考 AgentPilot OpenAPI 使用指南 VideoPilot API 文档首页 火山方舟 入门 模型列表 复制全文 下载 pdf 我的收藏 入门 模型列表 复制全文 下载 pdf 我的收藏 模型列表 文档反馈 问问助手 最近更新时间： 2026.07.14 23:12:52 这个页面对您有帮助吗？ 有用 有用 无用 无用",
+      "last_excerpt": "",
       "baseline_initialized": true,
       "baseline_invalid": true,
-      "last_changed_at": "2026-07-16T15:47:57.657082Z",
+      "last_changed_at": "2026-07-17T00:10:36.130094Z",
       "source_signature": "ab5ee375ff670169281a4aefbc9772546566386e665c24a65ec209061d7dfada",
       "baseline_reinitialized_at": "2026-07-02T10:22:21.295328Z"
     },
@@ -397,14 +397,15 @@
       "last_checked_at": "2026-07-02T04:51:40.485322Z",
       "baseline_initialized": true,
       "repos": {
+        "zai-org/SCAIL-2": "2026-07-16T03:20:39Z",
+        "zai-org/SCAIL": "2026-05-06T14:59:54Z",
+        "zai-org/GLM-5": "2026-07-15T12:54:24Z",
         "zai-org/GLM-4.5": "2026-02-01T08:28:10Z",
         "zai-org/Kaleido": "2026-03-02T11:54:40Z",
-        "zai-org/GLM-5": "2026-07-15T12:54:24Z",
         "zai-org/Open-AutoGLM": "2026-03-06T08:38:39Z",
         "zai-org/zai-coding-plugins": "2026-02-22T15:51:20Z",
         "zai-org/GLM-V": "2026-07-16T12:48:10Z",
         "zai-org/GLM-Image": "2026-03-20T03:10:16Z",
-        "zai-org/SCAIL-2": "2026-07-16T03:20:39Z",
         "zai-org/Synapse": "2026-05-20T04:44:45Z",
         "zai-org/ChatGLM-6B": "2024-06-27T04:05:25Z",
         "zai-org/CogAgent": "2025-04-04T13:29:55Z",
@@ -415,10 +416,9 @@
         "zai-org/GLM-ASR": "2026-03-06T08:37:26Z",
         "zai-org/CodeGeeX4": "2024-08-25T14:26:16Z",
         "zai-org/GLM-4": "2025-07-04T04:16:36Z",
-        "zai-org/CodeGeeX2": "2024-07-10T12:34:55Z",
-        "zai-org/ImageReward": "2025-10-29T13:40:51Z"
+        "zai-org/CodeGeeX2": "2024-07-10T12:34:55Z"
       },
-      "last_changed_at": "2026-07-16T20:09:18.923436Z",
+      "last_changed_at": "2026-07-17T00:10:36.130094Z",
       "source_signature": "0f9d07d7983b4898dc433a8d045a96469f65dff73642f9fe1fbf73cf3299210c",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -624,14 +624,14 @@
       "last_checked_at": "2026-07-02T04:51:58.871155Z",
       "baseline_initialized": true,
       "repos": {
-        "QwenLM/Qwen-AgentWorld": "2026-06-25T06:57:43Z",
-        "QwenLM/qwen-code": "2026-07-16T20:41:56Z",
+        "QwenLM/Qwen-Agent": "2026-03-04T08:15:07Z",
+        "QwenLM/qwen-code": "2026-07-16T23:36:58Z",
         "QwenLM/Qwen3-Coder": "2026-03-24T08:22:10Z",
+        "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
+        "QwenLM/Qwen-AgentWorld": "2026-06-25T06:57:43Z",
         "QwenLM/Qwen3-Omni": "2026-04-23T10:58:01Z",
         "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
         "QwenLM/Qwen3.6": "2026-06-03T12:14:19Z",
-        "QwenLM/Qwen-Agent": "2026-03-04T08:15:07Z",
-        "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
         "QwenLM/Qwen-Image-Layered": "2025-12-31T11:40:35Z",
         "QwenLM/open-computer-use": "2026-06-10T16:38:07Z",
         "QwenLM/Qwen": "2026-03-05T13:55:17Z",
@@ -645,7 +645,7 @@
         "QwenLM/Qwen3-VL-Embedding": "2026-06-23T10:39:17Z",
         "QwenLM/Qwen2.5-Omni": "2025-06-12T11:03:07Z"
       },
-      "last_changed_at": "2026-07-16T21:13:34.102702Z",
+      "last_changed_at": "2026-07-17T00:10:36.130094Z",
       "source_signature": "ddc0d8d3788b1fc4ba6779bc400a51934ce7ac0845fbfff67f906a6d77406e21",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -654,28 +654,28 @@
       "last_checked_at": "2026-07-02T04:52:01.889603Z",
       "baseline_initialized": true,
       "repos": {
+        "Tencent-Hunyuan/HunyuanVideo-Avatar": "2025-12-16T12:32:46Z",
+        "Tencent-Hunyuan/Hunyuan3D-2": "2025-10-28T09:58:12Z",
         "Tencent-Hunyuan/HunyuanVideo": "2026-06-29T09:33:50Z",
-        "Tencent-Hunyuan/HunyuanOCR": "2026-07-13T07:51:06Z",
         "Tencent-Hunyuan/Hy3": "2026-07-15T14:30:33Z",
+        "Tencent-Hunyuan/HiLS-Attention": "2026-07-14T13:10:25Z",
+        "Tencent-Hunyuan/HunyuanOCR": "2026-07-13T07:51:06Z",
         "Tencent-Hunyuan/HY-Motion-1.0": "2026-05-25T03:42:57Z",
+        "Tencent-Hunyuan/Hunyuan-MT": "2025-12-30T09:12:46Z",
         "Tencent-Hunyuan/Hy-Embodied-RxBrain-1.0": "2026-07-15T08:28:42Z",
+        "Tencent-Hunyuan/HY-SOAR": "2026-04-21T16:45:31Z",
+        "Tencent-Hunyuan/HunyuanWorld-Mirror": "2026-05-27T03:22:57Z",
         "Tencent-Hunyuan/HY-World-2.0": "2026-05-27T07:25:04Z",
         "Tencent-Hunyuan/HY-WorldPlay": "2026-06-10T07:10:23Z",
-        "Tencent-Hunyuan/Hunyuan3D-2": "2025-10-28T09:58:12Z",
         "Tencent-Hunyuan/HunyuanWorld-1.0": "2026-04-15T17:27:25Z",
         "Tencent-Hunyuan/HY-Embodied": "2026-07-15T11:54:12Z",
-        "Tencent-Hunyuan/HunyuanWorld-Mirror": "2026-05-27T03:22:57Z",
-        "Tencent-Hunyuan/HY-SOAR": "2026-04-21T16:45:31Z",
         "Tencent-Hunyuan/UniRL": "2026-07-16T12:03:56Z",
         "Tencent-Hunyuan/HunyuanImage-3.0": "2026-06-23T13:12:44Z",
         "Tencent-Hunyuan/Hunyuan3D-2.1": "2025-10-17T10:10:07Z",
         "Tencent-Hunyuan/Hy-Embodied-0.5-VLA": "2026-07-09T09:42:43Z",
-        "Tencent-Hunyuan/UniCom": "2026-04-13T10:38:53Z",
-        "Tencent-Hunyuan/Hy-MT2": "2026-06-30T07:17:36Z",
-        "Tencent-Hunyuan/HiLS-Attention": "2026-07-14T13:10:25Z",
-        "Tencent-Hunyuan/Hunyuan-MT": "2025-12-30T09:12:46Z"
+        "Tencent-Hunyuan/UniCom": "2026-04-13T10:38:53Z"
       },
-      "last_changed_at": "2026-07-16T15:47:57.657082Z",
+      "last_changed_at": "2026-07-17T00:10:36.130094Z",
       "source_signature": "637ce9b3bc2d070666c42f5fd92e749870848ee35ed6d4c156f831c9bc8f2d04",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -1408,12 +1408,20 @@
       "last_changed_at": "2026-07-06T03:27:32.743048Z"
     },
     "tikhub-wechat-yicai": {
-      "last_polled_at": "2026-07-16T23:11:02.114221Z",
+      "last_polled_at": "2026-07-17T00:10:36.130094Z",
       "last_raw_count": 8,
       "source_signature": "d8f12c33a72df7482441fcd1a3ff851e93b7b9a79cb446d2d37a403664063670",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-06T03:51:43.565947Z",
       "seen_keys": [
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661770053&idx=1&sn=1c3028ea90a9c046e184fc5593e382bf&chksm=bca3712b30fbfbdc28e9b9290676e712ec4f12f596f743098fbfa5509f9d263d46bdf9ea01de&scene=126&sessionid=0",
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661770046&idx=1&sn=2f4d4ff8da7bafefacfdd2d465270a65&chksm=bc4b8852991585869dc431f44eddb2e34cb58972bae920703ba77017769afa2a7262b4f1df08&scene=126&sessionid=0",
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661770045&idx=1&sn=8d7e98dc6c94f017b61a56683ff4cdb6&chksm=bc1bd786b38593c08e2e891b41f9e1b2fb1508c1b4968e6e841db05becac27f52f50d7941e31&scene=126&sessionid=0",
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661770041&idx=1&sn=86c7356485a39779dab299779e8b3209&chksm=bc03407b4cc494690d85b2850f3cdd3ad52fe58be2304724873f3d935552dd881e58b321d753&scene=126&sessionid=0",
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661770040&idx=1&sn=43ecdba2a5c71a7efaa6276b0c364a19&chksm=bc730ccf059a5eb754db81d1eb7e4daa2d7923b285f2848b26554e8a4ccad49d95d0fd67ab5e&scene=126&sessionid=0",
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661770026&idx=1&sn=1d975268b55564ddec896cb45fe4c578&chksm=bc98755181479dda183c449d3ed288f55e68c22ffa3b287ee2b04996c67d73573f53d062257c&scene=126&sessionid=0",
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661770025&idx=1&sn=138a40abd2b745c33dc6c8c9a4e71f85&chksm=bc1b6fdf2fd32179dcca0e5ca223b84c7e29881e2bfbfc398e6e2efafaac7c4c7a674c1c5682&scene=126&sessionid=0",
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661770025&idx=2&sn=eb9edee2aa5a73005f0c46e919f00542&chksm=bc291202359c174ccc9c53f2f24093c332ff8eda919b9b2b275230d93383d4fb9b42c22744f8&scene=126&sessionid=0",
         "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661770026&idx=1&sn=1d975268b55564ddec896cb45fe4c578&chksm=bc885b1848c184bf0c6b1e352ff306e84f1cdda56ebca9f8de2de50f74ec61d902c6104fb77e&scene=126&sessionid=0",
         "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661770025&idx=1&sn=138a40abd2b745c33dc6c8c9a4e71f85&chksm=bc6504db5cfae3fc65fadda365863cf7c7ded5023e3b52e126140170bc5360b88d71b1f2ab4a&scene=126&sessionid=0",
         "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661770025&idx=2&sn=eb9edee2aa5a73005f0c46e919f00542&chksm=bcf59c29aba9dd8d1d109f007393af4351666242e6ca944e4f309b7dad0827c43562ba34c18d&scene=126&sessionid=0",
@@ -1705,25 +1713,18 @@
         "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661768612&idx=1&sn=010b2714c7b1fba7eba09a9c8d9e5621&chksm=bcc8317a01422e564885c223ac8fa39ccb30e7d61c0d31b22bb1f5fea085ef8f53ea8464bb66&scene=126&sessionid=0",
         "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661768612&idx=2&sn=26e4e8330082c44a9213c5c8f24816ac&chksm=bc39e84c49cbbed4bbf2ed690689058b4c8e70c3f71e55a965ab92868cb6096547d4c09650de&scene=126&sessionid=0",
         "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661768601&idx=1&sn=352b8a76bd5b927a80ab2c0df89643c8&chksm=bc9953cf8e1082a0632c12af6092456c7af158417850710f1839ad7aa4779e8978cd798623cf&scene=126&sessionid=0",
-        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661768601&idx=2&sn=91ac2c3a63914e90dbf768937109a446&chksm=bc2776dfdf723666446ba542b0458af2ccb10907531f03ef119632f1920539d8631017deea3f&scene=126&sessionid=0",
-        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661768597&idx=1&sn=44a9d9fd865a7001af3118863e1f08c0&chksm=bc0d61cd5cdb0deeaa2e0185cdee881aaacc408c77d288f31a1893bbd8fe65aab667495b18f0&scene=126&sessionid=0",
-        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661768574&idx=1&sn=785fdebb9937096b5c7e0aa78dccde73&chksm=bc39d538497f381aa6dc52057a493a0a8f63e42cf4abe193a08f42c2ebe7a5e3987b10fa5cc9&scene=126&sessionid=0",
-        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661768574&idx=2&sn=b077053a30c71f3d25ab116539895011&chksm=bc787ee5884e855598e12572faf4ff7a6bec24f79d80c0c65e2404c9fc72be81c04239428215&scene=126&sessionid=0",
-        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661768574&idx=3&sn=3f00212dd60f2212db048542b578392d&chksm=bcfee7f140a4aed00e4578abe742b99cbda2844c39fab003f3c68b2b38762fbfffbc8d19927f&scene=126&sessionid=0",
-        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661768559&idx=1&sn=e2ad1e2f1ddb656995b11d619edf9efe&chksm=bc176c2c5fbb80fcc08ffb3a08ad2aa48f9e9f67816da8d1f4abc81ccf54efc4ebe6736ca555&scene=126&sessionid=0",
-        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661768559&idx=2&sn=c3305ef375e420138593d175563e5e66&chksm=bc100e820c7639ee726236cbf944f21cebfe44cf2151353b0147b3c75a4bea6b87340e1094fa&scene=126&sessionid=0",
-        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661768559&idx=3&sn=38ef095592d8fcd939f9b055dba5c51e&chksm=bc39e48cd177c998d13921c189b1530558d84bcdacdbecfd3fde86693f3bc1e8832fa76c77e7&scene=126&sessionid=0",
-        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661768551&idx=1&sn=f5f6f7aab719a0dc6568271628a524f8&chksm=bcab4dbf180e488f6a04c110012f499bdd9a678d51aae8dfb5a2aa978eea7b56192f0263e28d&scene=126&sessionid=0"
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661768601&idx=2&sn=91ac2c3a63914e90dbf768937109a446&chksm=bc2776dfdf723666446ba542b0458af2ccb10907531f03ef119632f1920539d8631017deea3f&scene=126&sessionid=0"
       ],
-      "last_changed_at": "2026-07-16T23:12:56.153653Z"
+      "last_changed_at": "2026-07-17T00:11:55.013874Z"
     },
     "tikhub-wechat-21jingji": {
-      "last_polled_at": "2026-07-16T23:11:02.114221Z",
+      "last_polled_at": "2026-07-17T00:10:36.130094Z",
       "last_raw_count": 8,
       "source_signature": "a585a9cb4142e0c5cee8958fb7db1b1520cf0b91be787ec3e76d32c337b22356",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-06T03:51:45.546531Z",
       "seen_keys": [
+        "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650617518&idx=1&sn=1d0fb1b2b7aa8a88c6b0db4f491155ad&chksm=b65da1997aded38d0c171a3b1ddae0ae64ef4883ad94e3cf8f4f04d9221fc60c03185ee81d2c",
         "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650617379&idx=2&sn=ed7a0260ae77b46f9b7c052f8c2e05ac&chksm=b61cd61fa84924cb8b4f6f0ee79d7367072f47cc0a711ae81c178bda6308c56507cf4e4f9493",
         "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650617317&idx=1&sn=4a517607aac104dfe0920c417767feb7&chksm=b61e3d7732f2a09bf4686f2651a074aae67b554842cd29d2eda52e9999355d63c7f3f5f8626b",
         "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650617211&idx=2&sn=bd73f42a8b34a9ae8b8305f8c58ce5c4&chksm=b645ce69a547a4317d800b29f928364c630b5e6a151209b0385b26165dca1ca3b2887f9e6915",
@@ -1791,11 +1792,11 @@
         "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650610905&idx=2&sn=421c7e6994f02709f6bb729c7a3622fd&chksm=b677bdaca6a515990dfe44bdb0cfc6d70c60265003a6a39d8dfa63191ad0b2da87235645fc72",
         "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650612046&idx=2&sn=296e362a46d49fd91e4962a48f9bdaae&chksm=b61c79a051e9ccedfd5649d216c75e366f9df81b7582c7ab8c186a8ad2c597bfc19f4cf35267"
       ],
-      "last_changed_at": "2026-07-16T23:12:58.663457Z"
+      "last_changed_at": "2026-07-17T00:11:57.240410Z"
     },
     "aihot-selected": {
       "last_raw_count": 50,
-      "last_polled_at": "2026-07-16T23:11:02.114221Z",
+      "last_polled_at": "2026-07-17T00:10:36.130094Z",
       "source_signature": "54b0a2ce37b31eed7de5728f2ad3467d3fff1ec95a53a03f9ee11a9fa197fda4",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-09T08:44:50.779962Z",
