@@ -174,13 +174,13 @@
       "last_changed_at": "2026-07-06T03:50:27.306264Z"
     },
     "aliyun-bailian-models": {
-      "fingerprint": "41919166932e3d69b0bcc65716d960f387295a07563de9bb87182ae7850bf156",
+      "fingerprint": "97b0cfba1a3df8a50ddadd7f83581f4ed8001e906497adc1d83075bd050b4235",
       "last_checked_at": "2026-07-02T04:51:33.147542Z",
       "last_excerpt": "模型大全功能规格与计费-大模型服务平台百炼-阿里云-大模型服务平台百炼(Model Studio)-阿里云帮助中心 大模型 产品 解决方案 权益 定价 云市场 伙伴 服务 了解阿里云 查看 \"\" 全部搜索结果 AI 助理 文档 备案 控制台 官方文档 用户指南（模型） 用户指南（应用） API参考（模型） API参考（应用） 首页 选择模型 更新时间： 复制 MD 格式 产品详情 我的收藏 阿里云百炼提供千问及第三方模型服务，覆盖文本、图像、音频、视频等多种模态。 文本生成 千问模型 从能力最强到成本最低，按需选择 查看更多 → qwen3.7-max 华北2（北京） 新加坡 日本（东京） 德国（法兰克福） 美国（弗吉尼亚） OpenAI 兼容 Anthropic 兼容 DashScope 模型 ID qwen3.7-max Base URL https:// {WorkspaceId} .cn-beijing.maas.aliyuncs.com/compatible-mode/v1 API Key 获取↗ 模型 ID qwen3.7-max Base URL https:// {WorkspaceId} .cn-beijing.maas.aliyuncs.com/apps/anthropic API Key 获取↗ 模型 ID qwen3.7-max Base URL https:// {WorkspaceId} .cn-beijing.maas.aliyuncs.com/api/v1 API Key 获取↗ OpenAI 兼容 Anthropic 兼容 DashScope 模型 ID qwen3.7-max Base URL https:// {WorkspaceId} .ap-southeast-1.maas.aliyuncs.com/compatible-mode/v1 API Key 获取↗ 模型 ID qwen3.7-max Base URL https:// {WorkspaceId} .ap-southeast-1.maas.aliyuncs.com/apps/anthropic API Key 获取↗ 模型 ID qwen3.7-max Base URL https:// {WorkspaceId} .ap-southeast-1.maas.aliyuncs.com/api/v1 API Key 获取↗ OpenAI 兼容 Anthropic 兼容 DashScope 模型 ID qwen3.7-max Base URL https:// {WorkspaceId} .ap-northeast-1.maas.aliyuncs.com/compatible-mode/v1 API Key 获取↗ 模型 ID qwen3.7-max Base URL https:// {WorkspaceId} .ap-northeast-1.maas.aliyuncs.com/apps/anthropic API Key 获取↗ 模型 ID qwen3.7-max Base URL https:// {WorkspaceId} .ap-northeast-1.maas.aliyuncs.com/api/v1 API Key 获取↗ OpenAI 兼容 Anthropic 兼容 DashScope 模型 ID qwen3.7-max Base URL https:// {WorkspaceId} .eu-central-1.maas.aliyuncs.com/compatible-mode/v1 API Key 获取↗ 模型 ID qwen3.7-max Base URL https:// {WorkspaceId} .eu-central-1.maas.aliyuncs.com/apps/anthropic API Key 获取↗ 模型 ID qwen3.7-max Base URL https:// {WorkspaceId} .eu-central-1.maas.aliyuncs.com/api/v1 API Key 获取↗ OpenAI 兼容 Anthropic 兼容 DashScope 模型 ID qwen3.7-max Base URL https://dashscope-us.aliyuncs.com/compatible-mode/v1 API Key 获取↗ 模型 ID qwen3.7-max Base URL https://dashscope-us.aliyuncs.com/apps/anthropic API Key 获取↗ 模型 ID qwen3.7-max Base URL https://dashscope-us.aliyuncs.com/api/v1 API Key 获取↗ qwen3.7-plus 华北2（北京） 新加坡 日本（东京） 德国（法兰克福） 美国（弗吉尼亚） OpenAI 兼容 Anthropic 兼容 DashScope 模型 ID qwen3.7-plus Base URL https:// {WorkspaceId} .cn-beijing.maas.aliyuncs.com/compatible-mode/v1 API Key 获取↗ 模型 ID qwen3.7-plus Base URL https:// {WorkspaceId} .cn-beijing.maas.aliyuncs.com/apps/anthropic API Key 获取↗ 模型 ID qwen3.7-plus Base URL https:// {WorkspaceId} .cn-beijing.maas.aliyuncs.com/api/v1 API Key 获取↗ OpenAI 兼容 Anthropic 兼容 DashScope 模型 ID qwen3.7-plus Base URL https:// {WorkspaceId} .ap-southeast-1.maas.aliyuncs.com/compatible-mode/v1 API Key 获取↗ 模型 ID qwen3.7-plus Base URL https:// {WorkspaceId} .ap-southeast-1.maas.aliyuncs.com/apps/anthropic API Key 获取↗ 模型 ID qwen3.7-plus Base URL https:// {WorkspaceId} .ap-southeast-1.maas.aliyuncs.com/api/v1 API Key 获取↗ OpenAI 兼容 Anthropic 兼容 DashScope 模型 ID qwen3.7-plus Base URL https:// {WorkspaceId} .ap-northeast-1.maas.aliyuncs.com/compatible-mode/v1 API Key 获取↗ 模型 ID qwen3.7-plus Base URL https:// {WorkspaceId} .ap-northeast-1.maas.aliyuncs.com/apps/anthropic API Key 获取↗ 模型 ID qwen3.7-plus Base URL https:// {WorkspaceId} .ap-northeast-1.maas.aliyuncs.com/api/v1 API Key 获取↗ OpenAI 兼容 Anthropic 兼容 DashScope 模型 ID qwen3.7-plus Base URL https:// {WorkspaceId} .eu-central-1.maas.aliyuncs.com/compatible-mode/v1 API Key 获取↗ 模型 ID qwen3.7-plus Base URL https:// {WorkspaceId} .eu-central-1.maas.aliyuncs.com/apps/anthropic API Key 获取↗ 模型 ID qwen3.7-plus Base URL https:// {WorkspaceId} .eu-central-1.maas.aliyuncs.com/api/v1 API Key 获取↗ OpenAI 兼容 Anthropic 兼容 DashScope 模型 ID qwen3.7-plus Base URL https://dashscope-us.aliyuncs.com/compatible-mode/v1 API Key 获取↗ 模型 ID qwen3.7-plus Base URL https://dashscope-us.aliyuncs.com/apps/anthropic API Key 获取↗ 模型 ID qwen3.7-plus Base URL https://dashscope-us.aliyuncs.com/api/v1 API Key 获取↗ qwen3.6-flash 华北2（北京） 新加坡 日本（东京） 德国（法兰克福） 美国（弗吉尼亚） OpenAI 兼容 Anthropic 兼容 DashScope 模型 ID qwen3.6-flash Base URL https:// {WorkspaceId} .cn-beijing.maas.aliyuncs.com/compat",
       "baseline_initialized": true,
       "source_signature": "55deffc503423fb3ce68daece33fd797ae9f277c5d24e170f039031f65315073",
       "baseline_reinitialized_at": "2026-07-02T10:22:21.295328Z",
-      "last_changed_at": "2026-07-16T08:42:07.266483Z",
+      "last_changed_at": "2026-07-17T10:13:21.728447Z",
       "last_suppressed_reason": "html_diff_without_readable_change"
     },
     "baidu-qianfan-docs": {
@@ -258,7 +258,9 @@
       "seen_keys": [
         "https://www.cac.gov.cn/2026-07/17/c_1786032880247252.htm",
         "https://www.cac.gov.cn/2026-07/17/c_1786032883596731.htm",
+        "https://www.cac.gov.cn/2026-07/17/c_1786032877362241.htm",
         "https://www.cac.gov.cn/2026-07/15/c_1785861480767004.htm",
+        "https://www.cac.gov.cn/2026-07/17/c_1786032856662750.htm",
         "https://www.cac.gov.cn/gzzt/ztzl/zt/AI/A0920011304index_1.htm",
         "https://www.cac.gov.cn/2026-07/13/c_1785686605153677.htm",
         "https://www.cac.gov.cn/2026-07/10/c_1785427810632554.htm",
@@ -269,7 +271,7 @@
       ],
       "last_checked_at": "2026-07-02T04:52:07.024615Z",
       "baseline_initialized": true,
-      "last_changed_at": "2026-07-17T08:20:25.926871Z",
+      "last_changed_at": "2026-07-17T10:14:29.886608Z",
       "source_signature": "6d7ca3dad31590ab5964fb3895692372791295ca5fe71a6e608247c879bc58d4",
       "baseline_reinitialized_at": "2026-07-02T10:23:10.698021Z"
     },
@@ -278,13 +280,14 @@
         "https://www.miit.gov.cn/xwfb/szyw/art/2026/art_7bfe4f7a022845169593a56ba76c156e.html",
         "https://www.miit.gov.cn/xwfb/szyw/art/2026/art_127e069252e14ddb971fd6226c552e05.html",
         "https://www.miit.gov.cn/xwfb/szyw/art/2026/art_0fbd4b58cfba4012872a736cf4d10a6d.html",
+        "https://www.miit.gov.cn/xwfb/gxdt/art/2026/art_5e90a4bd1a3648989240a98407ca3720.html",
         "http://www.miit.gov.cn/zwgk/zcwj/wjfb/gg/art/2026/art_301fff2dc3c3434f94f781026672b4ae.html",
         "http://www.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2026/art_de501c2c215f4a9fb64d17dafc56fb8b.html",
         "https://www.miit.gov.cn/xwfb/gxdt/art/2026/art_9b5792e2e8d14eb3beb5fbb8f5ff63fa.html"
       ],
       "last_checked_at": "2026-07-02T04:52:07.296657Z",
       "baseline_initialized": true,
-      "last_changed_at": "2026-07-17T08:20:27.543427Z",
+      "last_changed_at": "2026-07-17T10:14:32.377917Z",
       "source_signature": "fff6f3c21156d4cbf20bbad042acc8fa3d760a86cd12542122fdc64c07822ce4",
       "baseline_reinitialized_at": "2026-07-02T10:23:13.339291Z"
     },
@@ -372,15 +375,15 @@
       "last_checked_at": "2026-07-02T04:51:37.867265Z",
       "baseline_initialized": true,
       "repos": {
-        "MoonshotAI/kimi-code": "2026-07-17T08:04:38Z",
+        "MoonshotAI/kimi-cli": "2026-07-16T10:05:51Z",
+        "MoonshotAI/kimi-code": "2026-07-17T10:13:10Z",
+        "MoonshotAI/Kimi-K2": "2026-01-21T05:33:12Z",
+        "MoonshotAI/Kimi-K2.5": "2026-01-31T00:49:42Z",
         "MoonshotAI/Kimi-Linear": "2025-11-17T09:36:48Z",
         "MoonshotAI/Attention-Residuals": "2026-03-17T06:23:11Z",
         "MoonshotAI/Kimi-Audio": "2025-06-21T15:30:28Z",
-        "MoonshotAI/kimi-cli": "2026-07-16T10:05:51Z",
-        "MoonshotAI/Kimi-K2.5": "2026-01-31T00:49:42Z",
         "MoonshotAI/Kimi-k1.5": "2025-03-07T11:16:36Z",
         "MoonshotAI/MoBA": "2025-04-03T07:28:06Z",
-        "MoonshotAI/Kimi-K2": "2026-01-21T05:33:12Z",
         "MoonshotAI/Kimi-Dev": "2025-09-30T02:15:54Z",
         "MoonshotAI/FlashKDA": "2026-05-26T06:31:25Z",
         "MoonshotAI/kimi-agent-sdk": "2026-05-29T05:29:38Z",
@@ -393,7 +396,7 @@
         "MoonshotAI/kosong": "2026-07-16T10:06:23Z",
         "MoonshotAI/kimi-help-center": "2026-05-08T04:47:45Z"
       },
-      "last_changed_at": "2026-07-17T08:19:23.461366Z",
+      "last_changed_at": "2026-07-17T10:13:21.728447Z",
       "source_signature": "c925f37596aaabb84376bf83142f08b0ce08447179a5d27a52c7956a40180daa",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -566,28 +569,28 @@
       "last_checked_at": "2026-07-02T04:51:55.708102Z",
       "baseline_initialized": true,
       "repos": {
-        "OpenBMB/StaffDeck": "2026-07-17T07:35:39Z",
-        "OpenBMB/MiniCPM": "2026-06-20T06:06:47Z",
+        "OpenBMB/MiniCPM-V": "2026-06-25T12:12:59Z",
+        "OpenBMB/ChatDev": "2026-06-29T08:25:10Z",
         "OpenBMB/VoxCPM": "2026-07-08T09:46:11Z",
+        "OpenBMB/StaffDeck": "2026-07-17T09:46:38Z",
+        "OpenBMB/MiniCPM": "2026-06-20T06:06:47Z",
+        "OpenBMB/UltraRAG": "2026-07-17T01:45:17Z",
+        "OpenBMB/AgentCPM": "2026-02-09T13:39:47Z",
         "OpenBMB/PilotDeck": "2026-07-17T07:32:12Z",
         "OpenBMB/MiniCPM-Desk-Pet": "2026-07-07T14:15:36Z",
-        "OpenBMB/MiniCPM-V": "2026-06-25T12:12:59Z",
         "OpenBMB/ToolBench": "2025-05-21T15:46:59Z",
         "OpenBMB/ClawXRouter": "2026-03-31T08:35:42Z",
         "OpenBMB/MiniCPM-V-Apps": "2026-07-10T09:29:07Z",
-        "OpenBMB/UltraRAG": "2026-07-17T01:45:17Z",
         "OpenBMB/UltraEval-Audio": "2026-07-14T03:38:14Z",
-        "OpenBMB/ChatDev": "2026-06-29T08:25:10Z",
         "OpenBMB/RepoAgent": "2024-12-23T11:48:52Z",
         "OpenBMB/EdgeClaw": "2026-04-15T09:25:35Z",
         "OpenBMB/MiniCPM-o-Demo": "2026-07-15T11:37:31Z",
         "OpenBMB/XAgent": "2024-08-12T06:41:38Z",
         "OpenBMB/WorkflowLLM": "2025-03-11T07:41:39Z",
         "OpenBMB/sglang": "2026-03-31T06:36:52Z",
-        "OpenBMB/ClawXMemory": "2026-04-15T07:51:01Z",
-        "OpenBMB/ForgeTrain": "2026-06-17T06:14:58Z"
+        "OpenBMB/ClawXMemory": "2026-04-15T07:51:01Z"
       },
-      "last_changed_at": "2026-07-17T08:19:23.461366Z",
+      "last_changed_at": "2026-07-17T10:13:21.728447Z",
       "source_signature": "3dd1c4ab8bc380dc66624329d310bc65fe6deafde7a370da1191ca03b32c0764",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -608,7 +611,7 @@
         "InternLM/InternEvo": "2025-08-21T02:35:36Z",
         "InternLM/Tutorial": "2026-04-22T08:39:08Z",
         "InternLM/xtuner": "2026-07-17T08:11:38Z",
-        "InternLM/Intern-S1": "2026-05-19T08:08:51Z",
+        "InternLM/Intern-S1": "2026-07-17T09:30:06Z",
         "InternLM/HuixiangDou": "2025-11-24T11:17:29Z",
         "InternLM/OpenAOE": "2025-06-19T13:58:16Z",
         "InternLM/Challenge-Cup-2026": "2026-06-10T05:56:17Z",
@@ -617,7 +620,7 @@
         "InternLM/Kernel-Smith": "2026-03-31T03:23:03Z",
         "InternLM/agentlego": "2024-09-13T08:00:19Z"
       },
-      "last_changed_at": "2026-07-17T08:19:23.461366Z",
+      "last_changed_at": "2026-07-17T10:13:21.728447Z",
       "source_signature": "a7a2f73a91108336ba1fe2d4fb4d5921862eb329f648d490a4d7903663f49f70",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -629,28 +632,28 @@
       "last_checked_at": "2026-07-02T04:51:58.871155Z",
       "baseline_initialized": true,
       "repos": {
-        "QwenLM/Qwen3-ASR": "2026-06-26T08:20:17Z",
         "QwenLM/Qwen-RobotManip": "2026-06-29T22:29:54Z",
-        "QwenLM/qwen-code": "2026-07-17T08:10:02Z",
+        "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
+        "QwenLM/qwen-code": "2026-07-17T10:01:37Z",
+        "QwenLM/Qwen3-ASR": "2026-06-26T08:20:17Z",
+        "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
         "QwenLM/Qwen-RobotNav": "2026-06-30T03:01:19Z",
         "QwenLM/Qwen-Agent": "2026-03-04T08:15:07Z",
+        "QwenLM/Qwen": "2026-03-05T13:55:17Z",
+        "QwenLM/Qwen-Audio": "2024-07-05T09:17:49Z",
+        "QwenLM/Qwen3-VL-Embedding": "2026-06-23T10:39:17Z",
         "QwenLM/Qwen-VLA": "2026-05-29T13:49:38Z",
         "QwenLM/Qwen3.6": "2026-06-03T12:14:19Z",
-        "QwenLM/Qwen": "2026-03-05T13:55:17Z",
-        "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
         "QwenLM/Qwen-Image": "2026-02-10T07:37:37Z",
         "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
         "QwenLM/Qwen3-Coder": "2026-03-24T08:22:10Z",
-        "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
         "QwenLM/Qwen-AgentWorld": "2026-06-25T06:57:43Z",
         "QwenLM/Qwen3-Omni": "2026-04-23T10:58:01Z",
         "QwenLM/FlashQLA": "2026-07-15T11:00:23Z",
-        "QwenLM/Qwen-Audio": "2024-07-05T09:17:49Z",
         "QwenLM/Qwen-Image-Layered": "2025-12-31T11:40:35Z",
-        "QwenLM/open-computer-use": "2026-06-10T16:38:07Z",
-        "QwenLM/Qwen-VL": "2024-08-07T02:37:06Z"
+        "QwenLM/open-computer-use": "2026-06-10T16:38:07Z"
       },
-      "last_changed_at": "2026-07-17T08:19:23.461366Z",
+      "last_changed_at": "2026-07-17T10:13:21.728447Z",
       "source_signature": "ddc0d8d3788b1fc4ba6779bc400a51934ce7ac0845fbfff67f906a6d77406e21",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -659,28 +662,28 @@
       "last_checked_at": "2026-07-02T04:52:01.889603Z",
       "baseline_initialized": true,
       "repos": {
-        "Tencent-Hunyuan/Hy3": "2026-07-15T14:30:33Z",
-        "Tencent-Hunyuan/Hy-Embodied-RxBrain-1.0": "2026-07-17T07:10:28Z",
+        "Tencent-Hunyuan/Hy3": "2026-07-17T10:11:52Z",
         "Tencent-Hunyuan/HY-Embodied": "2026-07-15T11:54:12Z",
+        "Tencent-Hunyuan/HunyuanVideo-I2V": "2026-04-07T06:13:09Z",
+        "Tencent-Hunyuan/Hunyuan3D-1": "2025-11-19T07:07:41Z",
+        "Tencent-Hunyuan/Hy-Embodied-RxBrain-1.0": "2026-07-17T09:58:25Z",
+        "Tencent-Hunyuan/Hy3-preview": "2026-04-23T15:09:16Z",
+        "Tencent-Hunyuan/HunyuanVideo": "2026-06-29T09:33:50Z",
+        "Tencent-Hunyuan/Hunyuan-GameCraft-1.0": "2025-11-28T07:05:10Z",
+        "Tencent-Hunyuan/HunyuanVideo-1.5": "2026-04-10T06:14:59Z",
+        "Tencent-Hunyuan/Hunyuan3D-2.1": "2025-10-17T10:10:07Z",
+        "Tencent-Hunyuan/Hunyuan3D-2": "2025-10-28T09:58:12Z",
+        "Tencent-Hunyuan/HunyuanOCR": "2026-07-13T07:51:06Z",
+        "Tencent-Hunyuan/UniRL": "2026-07-17T07:31:36Z",
         "Tencent-Hunyuan/Hunyuan-MT": "2025-12-30T09:12:46Z",
         "Tencent-Hunyuan/HunyuanImage-3.0": "2026-06-23T13:12:44Z",
-        "Tencent-Hunyuan/Hunyuan3D-2.1": "2025-10-17T10:10:07Z",
-        "Tencent-Hunyuan/HunyuanOCR": "2026-07-13T07:51:06Z",
         "Tencent-Hunyuan/HY-WorldPlay": "2026-06-10T07:10:23Z",
-        "Tencent-Hunyuan/Hy3-preview": "2026-04-23T15:09:16Z",
         "Tencent-Hunyuan/ArtifactsBenchmark": "2025-12-30T06:38:40Z",
         "Tencent-Hunyuan/HY-Motion-1.0": "2026-05-25T03:42:57Z",
         "Tencent-Hunyuan/HY-World-2.0": "2026-05-27T07:25:04Z",
-        "Tencent-Hunyuan/HunyuanVideo": "2026-06-29T09:33:50Z",
-        "Tencent-Hunyuan/UniRL": "2026-07-17T07:31:36Z",
-        "Tencent-Hunyuan/HY-SOAR": "2026-04-21T16:45:31Z",
-        "Tencent-Hunyuan/HiLS-Attention": "2026-07-14T13:10:25Z",
-        "Tencent-Hunyuan/Hunyuan3D-2": "2025-10-28T09:58:12Z",
-        "Tencent-Hunyuan/HunyuanVideo-Avatar": "2025-12-16T12:32:46Z",
-        "Tencent-Hunyuan/HunyuanWorld-Mirror": "2026-05-27T03:22:57Z",
-        "Tencent-Hunyuan/HunyuanWorld-1.0": "2026-04-15T17:27:25Z"
+        "Tencent-Hunyuan/HY-SOAR": "2026-04-21T16:45:31Z"
       },
-      "last_changed_at": "2026-07-17T08:19:23.461366Z",
+      "last_changed_at": "2026-07-17T10:13:21.728447Z",
       "source_signature": "637ce9b3bc2d070666c42f5fd92e749870848ee35ed6d4c156f831c9bc8f2d04",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -832,13 +835,13 @@
       "baseline_reinitialized_at": "2026-07-02T10:23:28.426031Z"
     },
     "moonshot-website": {
-      "fingerprint": "a34742eb222aa6fad38b190c7ca8488ccf3b16cea24d82e8605cc7324f4abafc",
+      "fingerprint": "a2e3848448d52e8a9b1b1ca66508db07a5a78233d24f40a85ece75e01c2550a7",
       "last_checked_at": "2026-07-02T04:51:33.147542Z",
-      "last_excerpt": "Moonshot AI Kimi API Research Download Careers EN 中文 Kimi API Research Download Careers EN 中文 Seeking the optimal conversion from energy to intelligence Try Kimi Try API Latest Research Our research team works toward AGI while sharing the latest research with the global open-source community. Get More 2026-04-20 Kimi K2.6 2026-02-09 Agent Swarm 2026-02-03 WorldVQA Complex problems, solved with ease AI Models is capability. Code, analyze, sheets and slides — simplify complex work with the latest flagship model. Kimi K2.6 K2.6 is a natively multimodal model, powerful coding capabilities, and Agent performance — multiple modes, your choice. Explore Features Discover Kimi doodles Explore doodles for holidays, events, and trends — each one a small surprise. June · Turing's Birthday A tape defined computation. One question inspired AI. Chat with Kimi continues Turing's legacy. May · Bob Dylan 's Birthday Sunglasses, guitar, harmonica. For the old rock Nobel who couldn't be bothered. The question is the answer. April · Earth Day A Fauvist forest honoring Matisse’s cut-outs. Let this Doodle remind you: log off and step into spring. Built for the future. Available today. App Scan to download Kimi App Chrome Extension Desktop macOS Windows Try Kimi right now Copyright © 2023-2026 Moonshot AI. All Rights Reserved. Co-created with Kimi K2.6 Products Kimi Open Platform Kimi Code Pricing Features Agent Agent Swarm Website Document Slides Excel Deep Research Kimi Claw Resources Multi-Agent Parallel Agent Hermes Agent Overview Hermes API Company Terms of Service Privacy Policy © 2023-2026 北京月之暗面科技有限公司 | 京ICP备2023011302号-17",
+      "last_excerpt": "Moonshot AI Kimi API Research Download Careers EN 中文 Kimi API Research Download Careers EN 中文 Seeking the optimal conversion from energy to intelligence Try Kimi Try API Latest Research Our research team works toward AGI while sharing the latest research with the global open-source community. Get More 2026-07-14 Kimi K3 2026-07-16 PerceptionBench 2026-04-20 Kimi K2.6 Complex problems, solved with ease AI Models is capability. Code, analyze, sheets and slides — simplify complex work with the latest flagship model. Kimi K3 The new frontier of intelligence. 2.8T parameters, natively multimodal, 1M-token context — built for long-horizon coding, knowledge work, and deep reasoning. Explore Features Discover Kimi doodles Explore doodles for holidays, events, and trends — each one a small surprise. June · Turing's Birthday A tape defined computation. One question inspired AI. Chat with Kimi continues Turing's legacy. May · Bob Dylan 's Birthday Sunglasses, guitar, harmonica. For the old rock Nobel who couldn't be bothered. The question is the answer. April · Earth Day A Fauvist forest honoring Matisse’s cut-outs. Let this Doodle remind you: log off and step into spring. Built for the future. Available today. App Scan to download Kimi App Chrome Extension Desktop macOS Windows Try Kimi right now Copyright © 2023-2026 Moonshot AI. All Rights Reserved. Co-created with Kimi K2.6 Products Kimi Open Platform Kimi Code Pricing Features Agent Agent Swarm Website Document Slides Excel Deep Research Kimi Claw Resources Multi-Agent Parallel Agent Hermes Agent Overview Hermes API Company Terms of Service Privacy Policy © 2023-2026 北京月之暗面科技有限公司 | 京ICP备2023011302号-17",
       "baseline_initialized": true,
       "source_signature": "eaada35abc15302434b4815c7958463d46b626935b9bf4a0a6c2bd5bd74c5dd0",
       "baseline_reinitialized_at": "2026-07-02T10:22:21.295328Z",
-      "last_changed_at": "2026-07-02T10:22:21.295328Z"
+      "last_changed_at": "2026-07-17T10:13:21.728447Z"
     },
     "kimi-forum": {
       "seen_keys": [
@@ -1083,6 +1086,8 @@
     },
     "internlm-huggingface": {
       "models": {
+        "internlm/Intern-S2-Preview-397B": "2026-07-17T09:12:48.000Z",
+        "internlm/Intern-S2-Preview-397B-FP8": "2026-07-17T09:10:29.000Z",
         "internlm/CapRL-Video-4B": "2026-06-23T02:42:35.000Z",
         "internlm/Intern-S2-Preview": "2026-05-29T07:30:04.000Z",
         "internlm/ETCHR-FLUX.2-klein-9B": "2026-05-25T03:00:51.000Z",
@@ -1100,15 +1105,13 @@
         "internlm/Intern-S1-mini": "2026-03-29T04:49:52.000Z",
         "internlm/Intern-S1-Pro-BF16": "2026-03-27T13:19:29.000Z",
         "internlm/Visual-ERM": "2026-03-24T01:00:37.000Z",
-        "internlm/EndoCoT": "2026-03-17T12:40:56.000Z",
-        "internlm/CapRL-Qwen3VL-4B-GGUF": "2025-12-29T02:04:42.000Z",
-        "internlm/CapRL-Qwen3VL-2B-GGUF": "2025-12-29T01:54:30.000Z"
+        "internlm/EndoCoT": "2026-03-17T12:40:56.000Z"
       },
       "last_checked_at": "2026-07-02T04:51:33.147542Z",
       "baseline_initialized": true,
       "source_signature": "e67cfe98b67041106415f085a4fd6d130de23d6cc98457236a41d6861c4827c3",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z",
-      "last_changed_at": "2026-07-06T03:50:27.306264Z"
+      "last_changed_at": "2026-07-17T10:13:21.728447Z"
     },
     "modelscope": {
       "seen_keys": [],
@@ -1162,14 +1165,14 @@
     },
     "tencent-huggingface": {
       "models": {
+        "tencent/Hy3-FP8": "2026-07-17T10:12:23.000Z",
+        "tencent/Hy3": "2026-07-17T10:12:14.000Z",
         "tencent/Hy-Embodied-RxBrain-1.0": "2026-07-17T07:39:30.000Z",
-        "tencent/Hy3": "2026-07-16T03:38:33.000Z",
         "tencent/HunyuanOCR": "2026-07-16T03:35:58.000Z",
         "tencent/Hy-Embodied-VLM-1.0": "2026-07-15T02:53:49.000Z",
         "tencent/HiLS-Attention-7B": "2026-07-10T13:44:52.000Z",
         "tencent/R3-rerank-0.6b": "2026-07-08T08:49:20.000Z",
         "tencent/R3-embedding-0.6b": "2026-07-08T08:40:09.000Z",
-        "tencent/Hy3-FP8": "2026-07-06T14:53:25.000Z",
         "tencent/Ex-Omni": "2026-07-04T12:10:38.000Z",
         "tencent/Rosetta-inference": "2026-07-02T01:33:13.000Z",
         "tencent/Hy-Embodied-0.5-VLA-UMI": "2026-07-01T07:24:02.000Z",
@@ -1185,7 +1188,7 @@
       },
       "last_checked_at": "2026-07-02T04:51:33.147542Z",
       "baseline_initialized": true,
-      "last_changed_at": "2026-07-17T08:19:23.461366Z",
+      "last_changed_at": "2026-07-17T10:13:21.728447Z",
       "source_signature": "02d7601c1d854eab72d26dff11922e611205f62b41994239baa86dea0e53b5a4",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -1418,12 +1421,20 @@
       "last_changed_at": "2026-07-06T03:27:32.743048Z"
     },
     "tikhub-wechat-yicai": {
-      "last_polled_at": "2026-07-17T08:19:23.461366Z",
+      "last_polled_at": "2026-07-17T10:13:21.728447Z",
       "last_raw_count": 8,
       "source_signature": "d8f12c33a72df7482441fcd1a3ff851e93b7b9a79cb446d2d37a403664063670",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-06T03:51:43.565947Z",
       "seen_keys": [
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661770429&idx=1&sn=35cca02c090922aa09e880c5d81c14d5&chksm=bc8e088b81b7cefbc11a939485a4e32b15cba3dd96116966dadc5d16695a0ad471bf370a4059&scene=126&sessionid=0",
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661770429&idx=2&sn=e00ab4d4b9633ccac976f55c5e4e639a&chksm=bc566c786a73bd9e84751e97e12934fc5c7eaf3109d5bdfa7f563b91fac7818fe85ba9f4fb5b&scene=126&sessionid=0",
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661770418&idx=1&sn=5e0723f461dd21384e14a5a1b06a55ba&chksm=bc89d7a050687afa6f7446d5dce723b04690b67ba10c09edb55f5d81abaeac5aa22cbc2e1edc&scene=126&sessionid=0",
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661770417&idx=1&sn=8120b4c79e76a940e773731691c2f1a3&chksm=bc3a6d462b43bff38e0f032945884f817a36030bbb6b502b1859b3de0afa5a1b38ccb2e24b04&scene=126&sessionid=0",
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661770406&idx=1&sn=e0c73212c804de9ff43c9bbbfd5c5f59&chksm=bce231b8ee32104235feba685723db24ca2a41f7360cd34ecd0be48219209f9c22f3026e6f02&scene=126&sessionid=0",
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661770402&idx=1&sn=03937bf667ab8f200c802511c3a0160a&chksm=bcb7527350c3ddbb4d98b60a11d47587868bea29d08824372217a1ba96f79642c4ba37643653&scene=126&sessionid=0",
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661770390&idx=1&sn=5801cdac3e1f8408f7253eb7cafc082e&chksm=bce81814fb54a0efbc557e6f3a8ba21d6a0daa792f4c31041997bc368800c2b553486d07eb60&scene=126&sessionid=0",
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661770390&idx=2&sn=208837692c29f148fc8f122253057ec5&chksm=bc56bf3c2875d901c0a774da2a8d2b59d1c4eabfe6798f10c615f9974829d4269f4c3955ccfa&scene=126&sessionid=0",
         "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661770304&idx=1&sn=da223f152c22d2bc4f5d744c4633cd3d&chksm=bc32c1bff598bd72a35cd35f22a76c68593fc1e7d9560318efbe31210641632b20d599469578&scene=126&sessionid=0",
         "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661770293&idx=1&sn=42f4e90685fb29c965efb7e7ad4b16b2&chksm=bcfe0b0cd3a247a8fc61838c32e9b1853faa8939e056c674992d31b79e84cd8114f67ed8d02a&scene=126&sessionid=0",
         "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661770292&idx=1&sn=82369d8ad839558d3c18f2bb6df12bc4&chksm=bc21ee4be79c38d3f9e07cfe7ea8fcccced45d0b913ff80244048bb860208c45e2bf5df96fe4&scene=126&sessionid=0",
@@ -1715,20 +1726,12 @@
         "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661768615&idx=1&sn=3af49f73f83854f26e215fbc1c6a8bd8&chksm=bce63227892ab06f8dea0dcd0d6e25668c687d251a4808ef040360e52769273752067571afdd&scene=126&sessionid=0",
         "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661768614&idx=1&sn=97847893dac35c9daf93738c88066e85&chksm=bcf1b29f1046da515fc89307b9d25474f00ff06b553db8347d135877cd82bdafea3452eb0a6e&scene=126&sessionid=0",
         "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661768614&idx=2&sn=4ee363edcbbf8092dafb6c5a15ad7b6e&chksm=bc48d3a58655a98b247558c63cb6304061b4dff9b3c9a74dbcc7bf2924613eb6c80ffe01fc19&scene=126&sessionid=0",
-        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661768613&idx=1&sn=7ee24ebc3ce5dc0eae99a5dbb81c6765&chksm=bca923092bdbffc319ab5bbc5cddae4c12fe74e405631152d44017bbbb4001fa7b577d4dc3be&scene=126&sessionid=0",
-        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661768613&idx=2&sn=690a72f599c9fb3081bbdc8894f77c88&chksm=bc2fa221618fe81e7f699b27494c5ec1694ee0f6b0b7d07aa73d5e582a35702e4d4492729c0f&scene=126&sessionid=0",
-        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661768612&idx=1&sn=010b2714c7b1fba7eba09a9c8d9e5621&chksm=bc1875f10eb49e378acb82175c71a85e66c293d2b29f6ccbf40cf1d316342c8e4e97f5594da0&scene=126&sessionid=0",
-        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661768612&idx=2&sn=26e4e8330082c44a9213c5c8f24816ac&chksm=bcf5d918a44118ad29fab8b4d33c9fe25cb927be09cbe2dbf37808ba0d3406ea0f1f85f9e0b6&scene=126&sessionid=0",
-        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661768601&idx=1&sn=352b8a76bd5b927a80ab2c0df89643c8&chksm=bcf8123be2233eec78183aff931ee85576c1964dc34e222e641884a033c764cf5f4c075d665f&scene=126&sessionid=0",
-        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661768615&idx=1&sn=3af49f73f83854f26e215fbc1c6a8bd8&chksm=bcc66b49bfb28072169cd3228a4a87802ff339637448ed9a0b3d7f735787f1caa41ed7f5d6d2&scene=126&sessionid=0",
-        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661768614&idx=1&sn=97847893dac35c9daf93738c88066e85&chksm=bcc531289a6a2f78ef3e6c04923a103c060ae9bb233f71f49e331be9f6d89c52084b6ad4691e&scene=126&sessionid=0",
-        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661768614&idx=2&sn=4ee363edcbbf8092dafb6c5a15ad7b6e&chksm=bc89430f743120e314dafd00cf297eed9cbaeac82265dba1f6a6bf97e8566f1f341fd36e4dde&scene=126&sessionid=0",
-        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661768613&idx=1&sn=7ee24ebc3ce5dc0eae99a5dbb81c6765&chksm=bc3ef64bffcdd12cd5cc76b7178d611caa0219f64fdfaa5f1841747e79c4623e6df547058852&scene=126&sessionid=0"
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661768613&idx=1&sn=7ee24ebc3ce5dc0eae99a5dbb81c6765&chksm=bca923092bdbffc319ab5bbc5cddae4c12fe74e405631152d44017bbbb4001fa7b577d4dc3be&scene=126&sessionid=0"
       ],
-      "last_changed_at": "2026-07-17T08:20:44.681400Z"
+      "last_changed_at": "2026-07-17T10:14:53.592857Z"
     },
     "tikhub-wechat-21jingji": {
-      "last_polled_at": "2026-07-17T08:19:23.461366Z",
+      "last_polled_at": "2026-07-17T10:13:21.728447Z",
       "last_raw_count": 0,
       "source_signature": "a585a9cb4142e0c5cee8958fb7db1b1520cf0b91be787ec3e76d32c337b22356",
       "baseline_initialized": true,
@@ -1810,11 +1813,13 @@
     },
     "aihot-selected": {
       "last_raw_count": 50,
-      "last_polled_at": "2026-07-17T08:19:23.461366Z",
+      "last_polled_at": "2026-07-17T10:13:21.728447Z",
       "source_signature": "54b0a2ce37b31eed7de5728f2ad3467d3fff1ec95a53a03f9ee11a9fa197fda4",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-09T08:44:50.779962Z",
       "seen_keys": [
+        "https://mp.weixin.qq.com/s/a2YKWmyMoyIc3GKLbXffpQ",
+        "https://schema-harness.github.io",
         "https://www.marktechpost.com/2026/07/17/nvidia-ai-releases-nemotron-3-embed-an-open-embedding-collection-whose-8b-checkpoint-ranks-1-on-rteb",
         "https://mp.weixin.qq.com/s/_eaO0wmsiQFGsrE2_zW_Dg",
         "https://x.com/AYi_AInotes/status/2077981025905316253",
@@ -2009,7 +2014,7 @@
         "https://www.tomtunguz.com/the-10b-fde-boom",
         "https://openrouter.ai/blog/insights/image-detail-low-cost"
       ],
-      "last_changed_at": "2026-07-17T08:19:27.813852Z"
+      "last_changed_at": "2026-07-17T10:13:25.971172Z"
     }
   }
 }
