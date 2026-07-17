@@ -39,13 +39,13 @@
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
     "kimi-platform-docs": {
-      "fingerprint": "1a5fc8080006f9bbfd3d654d5f9b51c92f954fd9d7466658396fe5be09d517e0",
+      "fingerprint": "0192e2c89a2e8bf120e307f467843f9da4d95672745539d54aca0f4b34453bc9",
       "last_checked_at": "2026-07-02T04:51:33.147542Z",
-      "last_excerpt": "Quickstart - Kimi API Platform Documentation Index Fetch the complete documentation index at: /docs/llms.txt Use this file to discover all available pages before exploring further. Skip to main content 🎉 Kimi K3 has launched! Top up now for up to 30% back in vouchers! Learn more Kimi API Platform home page Search... ⌘ K Contact Sales Community Playground User Center Search... Navigation Get Started Quickstart Guides API Reference Pricing Help Center Resources Get Started Quickstart Model List Kimi K3 Kimi K2.7 Code Model Kimi K2.6 Model Model Capabilities Thinking Mode Thinking Effort Multi-turn Chat Streaming JSON Mode Partial Mode Vision Input Context Caching Dynamic Tool Loading Tooling workflows Tool Calls Web Search Tool Official Tools Tool Choice ModelScope MCP Server Tool Calling Best Practices Core workflows response_format Automatic Reconnection File-Based Q&A Batch API Guide Integrations Kimi Code CLI Codex OpenClaw Claude Code OpenCode Hermes Agent Debugging and operations Use the API Debugging Tool Playground Best Practices for Organization Management On this page Get started Explore more features Streaming output Multimodal input Related resources Get Started Quickstart Copy page Copy page Create an API Key and complete your first Kimi API call. Copy page Copy page Kimi API lets you interact with Kimi models and is compatible with the OpenAI API format. Prepare an API Key, choose a model, and configure base_url to make requests through the HTTP API, Python SDK, or Node.js SDK. Kimi K3 is now officially available — Kimi’s most capable model to date, with a 1M-token context window and native visual understanding. It is well suited for programming agent scenarios such as Codex and Claude Code , as well as knowledge work and deep reasoning. ​ Get started 1 Get an API Key Visit the Kimi API Platform , sign in, then go to API Keys to create and copy an API Key. Keep your API Key secure. Do not share it with others or hard-code it directly in your application. We recommend storing it in an environment variable: export MOONSHOT_API_KEY = \"YOUR_KIMI_API_KEY\" Kimi API Platform Sign in to the platform to access the console, development workspace, and user center. API Keys Create, copy, and manage the keys used for API calls. 2 Choose a model For a quickstart, we recommend starting with Kimi K3; you can also choose Kimi K2.7 Code or Kimi K2.6 for specific scenarios. Kimi K3 Kimi K3 is our flagship model for long-horizon coding and end-to-end knowledge work — 2.8 trillion parameters, a 1M-token context window, and industry-leading intelligence. Kimi K2.7 Code A coding-focused model with a 256K context window, text/image/video input, and thinking mode. Choose kimi-k2.7-code-highspeed when you need higher output speed. Kimi K2.6 A powerful general-purpose model with a 256K context window, text/image/video input, and both thinking and non-thinking modes. Use it for general chat, agent tasks, visual understanding, and complex reasoning. If you are not sure which model to choose, start with kimi-k3 . If your task is mainly code generation, code editing, or programming agents and you need higher output speed, choose kimi-k2.7-code-highspeed . 3 Choose an integration method Kimi API is compatible with the OpenAI API format, so you can choose the integration method that best fits your technology stack. HTTP API A standard REST API for any language or custom server-side integration. OpenAI Python SDK Use the OpenAI Python SDK to call Kimi from scripts, backend services, data workflows, and prototypes. OpenAI Node.js SDK Use the OpenAI Node.js SDK for web services, frontend engineering workflows, and Node.js applications. Playground Test prompts, model behavior, and business examples without writing code. 4 Make your first call The following examples use the Kimi K3 model. Replace MOONSHOT_API_KEY with the API Key you created on the platform, or set an environment variable with the same name before running the examples. The examples on ",
+      "last_excerpt": "Quickstart - Kimi API Platform Documentation Index Fetch the complete documentation index at: /docs/llms.txt Use this file to discover all available pages before exploring further. Skip to main content 🎉 Kimi K3 has launched! Top up now for up to 30% back in vouchers! Learn more Kimi API Platform home page Search... ⌘ K Contact Sales Community Playground User Center Search... Navigation Get Started Quickstart Guides API Reference Pricing Help Center Resources Get Started Quickstart Model List Kimi K3 Kimi K2.7 Code Model Kimi K2.6 Model Model Capabilities Thinking Mode Thinking Effort Multi-turn Chat Streaming JSON Mode Partial Mode Vision Input Context Caching Dynamic Tool Loading Tooling workflows Tool Calls Web Search Tool Official Tools Tool Choice ModelScope MCP Server Tool Calling Best Practices Core workflows response_format Automatic Reconnection File-Based Q&A Batch API Guide Integrations Kimi Code CLI Codex OpenClaw Claude Code OpenCode Hermes Agent Debugging and operations Use the API Debugging Tool Playground Best Practices for Organization Management On this page Get started Explore more features Streaming output Multimodal input Related resources Get Started Quickstart Copy page Copy page Create an API Key and complete your first Kimi API call. Copy page Copy page Kimi API lets you interact with Kimi models and is compatible with the OpenAI API format. Prepare an API Key, choose a model, and configure base_url to make requests through the HTTP API, Python SDK, or Node.js SDK. Kimi K3 is now officially available — Kimi’s most capable model to date, with a 1M-token context window and native visual understanding. It is well suited for programming agent scenarios such as Codex and Claude Code , as well as knowledge work and deep reasoning. ​ Get started 1 Get an API Key Visit the Kimi API Platform , sign in, then go to API Keys to create and copy an API Key. Keep your API Key secure. Do not share it with others or hard-code it directly in your application. We recommend storing it in an environment variable: export MOONSHOT_API_KEY = \"YOUR_KIMI_API_KEY\" Kimi API Platform Sign in to the platform to access the console, development workspace, and user center. API Keys Create, copy, and manage the keys used for API calls. 2 Choose a model For a quickstart, we recommend starting with Kimi K3; you can also choose Kimi K2.7 Code or Kimi K2.6 for specific scenarios. Kimi K3 Kimi K3 is our flagship model for long-horizon coding and end-to-end knowledge work — 2.8 trillion parameters, a 1M-token context window, and industry-leading intelligence. Kimi K2.7 Code A coding-focused model with a 256K context window, text/image/video input, and thinking mode. Choose kimi-k2.7-code-highspeed when you need higher output speed. Kimi K2.6 A powerful general-purpose model with a 256K context window, text/image/video input, and both thinking and non-thinking modes. Use it for general chat, agent tasks, visual understanding, and complex reasoning. If you are not sure which model to choose, start with kimi-k3 . If your task is mainly code generation, code editing, or programming agents and you need higher output speed, choose kimi-k2.7-code-highspeed . 3 Choose an integration method Kimi API is compatible with the OpenAI API format, so you can choose the integration method that best fits your technology stack. HTTP API A standard REST API for any language or custom server-side integration. Playground Test prompts, model behavior, and business examples without writing code. 4 Make your first call The following examples use the Kimi K3 model. Replace MOONSHOT_API_KEY with the API Key you created on the platform, or set an environment variable with the same name before running the examples. The examples on this page use the latest model kimi-k3 by default. K3 uses the top-level reasoning_effort field (currently only \"max\" ). To use another model such as kimi-k2.6 or kimi-k2.5 , just replace the model field — parameter configurations differ acros",
       "baseline_initialized": true,
       "source_signature": "8e73253a3945e387fc930361910053df326db3b44fb409f5f1e61268eab00640",
       "baseline_reinitialized_at": "2026-07-02T10:22:21.295328Z",
-      "last_changed_at": "2026-07-17T08:19:23.461366Z"
+      "last_changed_at": "2026-07-17T12:46:10.620194Z"
     },
     "zhipu-bigmodel-releases": {
       "fingerprint": "634492b8cadcb1be2d7db5171c9a40e4f38c747395b30cfddf214a5c1bf55da0",
@@ -203,12 +203,12 @@
       "baseline_reinitialized_at": "2026-07-02T10:22:21.295328Z"
     },
     "volcengine-ark-models": {
-      "fingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "fingerprint": "20d707635a497d96aad1a4ebdf1235ca1bdcbfe585b48c75029737b4c6e2312f",
       "last_checked_at": "2026-07-02T04:51:33.147542Z",
-      "last_excerpt": "",
+      "last_excerpt": "文档中心 简体 文档 控制台 登录 注册 火山方舟 文档指南 订阅 [Agent/Coding Plan] API参考 资源 火山方舟 火山方舟 文档指南 请输入 入门 产品简介 快速入门 模型列表 模型价格 最新模型：Seed-Evolving 调用 文本生成 多模态理解 图片理解 视频理解 文档理解 音频理解 视频生成 Doubao Seedance 2.0 系列教程 Doubao Seedance 2.0 系列提示词指南 视频生成教程 图片生成 Doubao Seedream 5.0 pro 教程 Doubao Seedream 5.0 pro 实现交互编辑指南 图片生成教程 领域模型 3D 生成 向量化 工具调用 工具概述 豆包助手 Web Search（联网内容插件） Image Process（图像处理） 私域知识库搜索 Knowledge Search 云部署 MCP / Remote MCP Function Calling（函数调用） 进阶使用 深度思考 上下文管理 流式输出 续写模式 上下文缓存 原理及选型 上下文缓存(Context API) 文件输入(File API) 视觉定位 Grounding 提示词工程 结构化输出(beta) 接入三方工具 使用 Responses API 迁移至 Responses API 文本生成 深度思考 多模态理解 工具调用 上下文缓存 结构化输出(beta) 上下文编辑 推理 推理方式概述 在线推理（常规） 在线推理（低延迟） 在线推理（TPM 保障包） 在线推理（模型单元） 模型单元概述 创建模型单元 管理模型单元 批量推理 高级能力 智能模型路由 使用 MLP 推理服务 使用自定义模型进行推理 训练 模型精调 模型精调概述 有监督微调最佳实践 直接偏好优化最佳实践 强化学习最佳实践 精调 SDK 使用指南 模型精调数据集格式说明 管理自定义模型 模型评测 创建模型评测任务 查看并管理模型评测任务 评测数据集格式说明 数据集 数据集介绍 共享数据集 Managed Agents 快速上手 概述 快速入门（代码） 快速入门（控制台） 定义 Agent Agent Skills MCP Tools 工具权限策略 配置 Agent 环境 配置云环境 云沙箱参考 委派任务给 Agent 启动 Session 管理 Session Session 事件流 使用 Vaults 认证 管理 Agent 上下文 上传与挂载文件 持久化记忆 高级能力 Multi Agent 应用 应用实验室 零代码应用简介 零代码应用操作指南 低代码应用简介 高代码应用简介 高代码应用创建部署指南 服务组件库 网页解析插件功能说明 联网内容插件功能说明 联网系列插件升级为联网内容插件说明及操作指南 知识库插件功能说明 应用实验室 知识库 操作指南 文档知识问答核心流程 音视频知识问答核心流程 知识库管理 创建知识库 编辑知识库 查看知识库列表 查看知识库详情 删除知识库 知识检索 知识问答 续订知识库 退订知识库 配置实验版本 文档管理 导入文档 标签配置 删除文档 切片管理 新增切片 编辑切片 查阅切片 删除切片 知识服务管理 创建知识服务 知识服务管理 知识库配额说明 知识库分账管理 API参考 签名鉴权与调用示例 API 列表 最佳实践 MCP Server 知识型视频智能问答解决方案 视频高光提取及检索解决方案 更多最佳实践 知识库免费体验权益 SDK参考 SDK 升级与使用说明 PromptPilot PromptPilot 概述 PromptPilot 订阅管理 Prompt 生成 Prompt 调优 Prompt 批量 PromptPilot 管理 VideoPilot 功能介绍 视觉理解 Solution 评分DSL AgentPilot SDK 参考 AgentPilot OpenAPI 使用指南 VideoPilot API 文档首页 火山方舟 入门 模型列表 复制全文 下载 pdf 我的收藏 入门 模型列表 复制全文 下载 pdf 我的收藏 模型列表 文档反馈 问问助手 最近更新时间： 2026.07.14 23:12:52 这个页面对您有帮助吗？ 有用 有用 无用 无用",
       "baseline_initialized": true,
       "baseline_invalid": true,
-      "last_changed_at": "2026-07-17T11:40:08.648727Z",
+      "last_changed_at": "2026-07-17T12:46:10.620194Z",
       "source_signature": "ab5ee375ff670169281a4aefbc9772546566386e665c24a65ec209061d7dfada",
       "baseline_reinitialized_at": "2026-07-02T10:22:21.295328Z"
     },
@@ -375,16 +375,16 @@
       "last_checked_at": "2026-07-02T04:51:37.867265Z",
       "baseline_initialized": true,
       "repos": {
+        "MoonshotAI/kimi-code": "2026-07-17T12:45:42Z",
         "MoonshotAI/kimi-cli": "2026-07-16T10:05:51Z",
-        "MoonshotAI/kimi-code": "2026-07-17T11:40:06Z",
-        "MoonshotAI/Kimi-K2": "2026-01-21T05:33:12Z",
-        "MoonshotAI/Kimi-Linear": "2025-11-17T09:36:48Z",
         "MoonshotAI/Kimi-K2.5": "2026-01-31T00:49:42Z",
+        "MoonshotAI/Kimi-K2": "2026-01-21T05:33:12Z",
+        "MoonshotAI/Kimi-Dev": "2025-09-30T02:15:54Z",
         "MoonshotAI/Attention-Residuals": "2026-03-17T06:23:11Z",
+        "MoonshotAI/Kimi-Linear": "2025-11-17T09:36:48Z",
         "MoonshotAI/Kimi-Audio": "2025-06-21T15:30:28Z",
         "MoonshotAI/Kimi-k1.5": "2025-03-07T11:16:36Z",
         "MoonshotAI/MoBA": "2025-04-03T07:28:06Z",
-        "MoonshotAI/Kimi-Dev": "2025-09-30T02:15:54Z",
         "MoonshotAI/FlashKDA": "2026-05-26T06:31:25Z",
         "MoonshotAI/kimi-agent-sdk": "2026-05-29T05:29:38Z",
         "MoonshotAI/moonpalace": "2024-12-30T21:17:27Z",
@@ -396,7 +396,7 @@
         "MoonshotAI/kosong": "2026-07-16T10:06:23Z",
         "MoonshotAI/kimi-help-center": "2026-05-08T04:47:45Z"
       },
-      "last_changed_at": "2026-07-17T11:40:08.648727Z",
+      "last_changed_at": "2026-07-17T12:46:10.620194Z",
       "source_signature": "c925f37596aaabb84376bf83142f08b0ce08447179a5d27a52c7956a40180daa",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -405,28 +405,28 @@
       "last_checked_at": "2026-07-02T04:51:40.485322Z",
       "baseline_initialized": true,
       "repos": {
+        "zai-org/Synapse": "2026-05-20T04:44:45Z",
+        "zai-org/GLM-5": "2026-07-15T12:54:24Z",
+        "zai-org/z-ai-sdk-python": "2026-06-16T03:07:59Z",
+        "zai-org/ChatGLM3": "2025-01-13T06:55:26Z",
+        "zai-org/Open-AutoGLM": "2026-03-06T08:38:39Z",
+        "zai-org/GLM-ASR": "2026-03-06T08:37:26Z",
+        "zai-org/GLM-TTS": "2026-04-10T08:50:23Z",
+        "zai-org/GLM-skills": "2026-04-15T12:28:08Z",
+        "zai-org/GLM-Image": "2026-03-20T03:10:16Z",
+        "zai-org/GLM-OCR": "2026-04-21T08:52:11Z",
+        "zai-org/CogVideo": "2025-11-04T11:19:04Z",
+        "zai-org/GLM-V": "2026-07-16T12:48:10Z",
         "zai-org/ChatGLM-6B": "2024-06-27T04:05:25Z",
         "zai-org/GLM-4-Voice": "2024-12-05T07:10:01Z",
         "zai-org/SCAIL-2": "2026-07-16T03:20:39Z",
-        "zai-org/GLM-5": "2026-07-15T12:54:24Z",
         "zai-org/GLM-4": "2025-07-04T04:16:36Z",
         "zai-org/CogVLM": "2024-05-29T10:01:33Z",
-        "zai-org/Open-AutoGLM": "2026-03-06T08:38:39Z",
-        "zai-org/Synapse": "2026-05-20T04:44:45Z",
-        "zai-org/GLM-OCR": "2026-04-21T08:52:11Z",
-        "zai-org/CogVideo": "2025-11-04T11:19:04Z",
-        "zai-org/ChatGLM3": "2025-01-13T06:55:26Z",
         "zai-org/CodeGeeX2": "2024-07-10T12:34:55Z",
-        "zai-org/GLM-skills": "2026-04-15T12:28:08Z",
         "zai-org/GLM-4.5": "2026-02-01T08:28:10Z",
-        "zai-org/CodeGeeX4": "2024-08-25T14:26:16Z",
-        "zai-org/SCAIL": "2026-05-06T14:59:54Z",
-        "zai-org/Kaleido": "2026-03-02T11:54:40Z",
-        "zai-org/zai-coding-plugins": "2026-02-22T15:51:20Z",
-        "zai-org/GLM-V": "2026-07-16T12:48:10Z",
-        "zai-org/GLM-Image": "2026-03-20T03:10:16Z"
+        "zai-org/CodeGeeX4": "2024-08-25T14:26:16Z"
       },
-      "last_changed_at": "2026-07-17T08:19:23.461366Z",
+      "last_changed_at": "2026-07-17T12:46:10.620194Z",
       "source_signature": "0f9d07d7983b4898dc433a8d045a96469f65dff73642f9fe1fbf73cf3299210c",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -569,13 +569,14 @@
       "last_checked_at": "2026-07-02T04:51:55.708102Z",
       "baseline_initialized": true,
       "repos": {
-        "OpenBMB/MiniCPM-V": "2026-06-25T12:12:59Z",
         "OpenBMB/VoxCPM": "2026-07-08T09:46:11Z",
         "OpenBMB/StaffDeck": "2026-07-17T09:46:38Z",
+        "OpenBMB/ChatDev": "2026-06-29T08:25:10Z",
+        "OpenBMB/MetaMem": "2026-07-02T08:31:10Z",
+        "OpenBMB/MiniCPM-V": "2026-06-25T12:12:59Z",
         "OpenBMB/MiniCPM-Desk-Pet": "2026-07-07T14:15:36Z",
         "OpenBMB/MiniCPM": "2026-06-20T06:06:47Z",
         "OpenBMB/ArcLight": "2026-05-30T02:59:35Z",
-        "OpenBMB/ChatDev": "2026-06-29T08:25:10Z",
         "OpenBMB/UltraRAG": "2026-07-17T01:45:17Z",
         "OpenBMB/AgentCPM": "2026-02-09T13:39:47Z",
         "OpenBMB/PilotDeck": "2026-07-17T07:32:12Z",
@@ -587,10 +588,9 @@
         "OpenBMB/EdgeClaw": "2026-04-15T09:25:35Z",
         "OpenBMB/MiniCPM-o-Demo": "2026-07-15T11:37:31Z",
         "OpenBMB/XAgent": "2024-08-12T06:41:38Z",
-        "OpenBMB/WorkflowLLM": "2025-03-11T07:41:39Z",
-        "OpenBMB/sglang": "2026-03-31T06:36:52Z"
+        "OpenBMB/WorkflowLLM": "2025-03-11T07:41:39Z"
       },
-      "last_changed_at": "2026-07-17T11:40:08.648727Z",
+      "last_changed_at": "2026-07-17T12:46:10.620194Z",
       "source_signature": "3dd1c4ab8bc380dc66624329d310bc65fe6deafde7a370da1191ca03b32c0764",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -632,28 +632,28 @@
       "last_checked_at": "2026-07-02T04:51:58.871155Z",
       "baseline_initialized": true,
       "repos": {
-        "QwenLM/Qwen-AgentWorld": "2026-06-25T06:57:43Z",
-        "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
-        "QwenLM/qwen-code": "2026-07-17T11:26:38Z",
+        "QwenLM/qwen-code": "2026-07-17T12:39:53Z",
+        "QwenLM/Qwen-Agent": "2026-03-04T08:15:07Z",
         "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
-        "QwenLM/Qwen-RobotManip": "2026-06-29T22:29:54Z",
         "QwenLM/Qwen3-ASR": "2026-06-26T08:20:17Z",
+        "QwenLM/Qwen-AgentWorld": "2026-06-25T06:57:43Z",
+        "QwenLM/Qwen-Image-Layered": "2025-12-31T11:40:35Z",
+        "QwenLM/Qwen3-VL-Embedding": "2026-06-23T10:39:17Z",
+        "QwenLM/Qwen3.6": "2026-06-03T12:14:19Z",
+        "QwenLM/Qwen3-Omni": "2026-04-23T10:58:01Z",
+        "QwenLM/Qwen3-Embedding": "2025-09-30T06:10:27Z",
+        "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
+        "QwenLM/Qwen3Guard": "2025-10-21T02:27:12Z",
+        "QwenLM/Qwen3-ASR-Toolkit": "2026-02-05T05:35:03Z",
+        "QwenLM/Qwen-Image": "2026-02-10T07:37:37Z",
+        "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
+        "QwenLM/Qwen-RobotManip": "2026-06-29T22:29:54Z",
         "QwenLM/Qwen2-Audio": "2025-04-21T08:50:49Z",
         "QwenLM/Qwen-RobotNav": "2026-06-30T03:01:19Z",
-        "QwenLM/Qwen-Agent": "2026-03-04T08:15:07Z",
         "QwenLM/Qwen": "2026-03-05T13:55:17Z",
-        "QwenLM/Qwen-Audio": "2024-07-05T09:17:49Z",
-        "QwenLM/Qwen3-VL-Embedding": "2026-06-23T10:39:17Z",
-        "QwenLM/Qwen-VLA": "2026-05-29T13:49:38Z",
-        "QwenLM/Qwen3.6": "2026-06-03T12:14:19Z",
-        "QwenLM/Qwen-Image": "2026-02-10T07:37:37Z",
-        "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
-        "QwenLM/Qwen3-Coder": "2026-03-24T08:22:10Z",
-        "QwenLM/Qwen3-Omni": "2026-04-23T10:58:01Z",
-        "QwenLM/FlashQLA": "2026-07-15T11:00:23Z",
-        "QwenLM/Qwen-Image-Layered": "2025-12-31T11:40:35Z"
+        "QwenLM/Qwen-Audio": "2024-07-05T09:17:49Z"
       },
-      "last_changed_at": "2026-07-17T11:40:08.648727Z",
+      "last_changed_at": "2026-07-17T12:46:10.620194Z",
       "source_signature": "ddc0d8d3788b1fc4ba6779bc400a51934ce7ac0845fbfff67f906a6d77406e21",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -689,6 +689,8 @@
     },
     "qbitai-rss": {
       "seen_keys": [
+        "https://www.qbitai.com/2026/07/453237.html",
+        "https://www.qbitai.com/2026/07/453217.html",
         "https://www.qbitai.com/2026/07/453211.html",
         "https://www.qbitai.com/2026/07/453208.html",
         "https://www.qbitai.com/2026/07/453203.html",
@@ -837,7 +839,7 @@
       ],
       "last_checked_at": "2026-07-02T04:52:26.145879Z",
       "baseline_initialized": true,
-      "last_changed_at": "2026-07-17T11:41:40.667804Z",
+      "last_changed_at": "2026-07-17T12:47:43.605070Z",
       "source_signature": "34418d38d4b87c134f9922d6999ac3c069821ed0be2134f9ba6ae5e00e4b63a9",
       "baseline_reinitialized_at": "2026-07-02T10:23:28.426031Z"
     },
@@ -1428,12 +1430,20 @@
       "last_changed_at": "2026-07-06T03:27:32.743048Z"
     },
     "tikhub-wechat-yicai": {
-      "last_polled_at": "2026-07-17T11:40:08.648727Z",
+      "last_polled_at": "2026-07-17T12:46:10.620194Z",
       "last_raw_count": 8,
       "source_signature": "d8f12c33a72df7482441fcd1a3ff851e93b7b9a79cb446d2d37a403664063670",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-06T03:51:43.565947Z",
       "seen_keys": [
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661770589&idx=1&sn=8663dfcb7ad89061622b086d222ff22a&chksm=bc40ffce4c0e3eb6510b0eac11eadb9163561facb94dcf54f34c9f34d17fa3acefc919ff4b02&scene=126&sessionid=0",
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661770589&idx=2&sn=9f72d4b4fc71a1419f73a0dc45a22577&chksm=bc92b8b76554fb871bb6827c51ba9735b0d5004e89eca8c9b224bb994675f333562f97c5d149&scene=126&sessionid=0",
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661770553&idx=1&sn=9cd3f016b96451da5897006e37f70007&chksm=bcf6f3463146463377c27050aae52191a7d3162e34eb84076dbfa3ad3cdb11486767daaca721&scene=126&sessionid=0",
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661770553&idx=2&sn=d5a1dda5be871978b31d98b6f5ea545b&chksm=bcb50d160de68554597dc47eb07b1db38fdf381a054fa3624f8d9cd09a8f753222f12fb82339&scene=126&sessionid=0",
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661770546&idx=1&sn=5b156c3fd96d8305925b52610ee798aa&chksm=bcd0d0abf894e67bfb0cba5fbb171c6d9675c600b2931d2b9f51f53686e1f0c518f9af554818&scene=126&sessionid=0",
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661770545&idx=1&sn=98c94a9efce565f073ba4b91610e7ea0&chksm=bc8b88607318ed1d16f226a1c598b31380e41cd4a9ff55b0d866d8a9de5fdffb1385b6df2e62&scene=126&sessionid=0",
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661770545&idx=2&sn=88d3306ada9d5443894e6f7aecd3bd6c&chksm=bcbf358c6ce31121e78b5544c5ab8af9dd110cd971bff321ca30435c80776f0599c796110762&scene=126&sessionid=0",
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661770545&idx=3&sn=82c7086a2134324aedae809e1c882855&chksm=bcbd63dd4e9026e342811136023ffdea52b7b731dff7c4e1e7aeb3c60faf60619a21a948104f&scene=126&sessionid=0",
         "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661770543&idx=1&sn=c1d197c5e0f713f7f0139891b8684144&chksm=bcf353966978fa4b455bd5c4eadb91c51e97154e664b5bd814af2a57f847733c95251efe8338&scene=126&sessionid=0",
         "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661770525&idx=1&sn=b1f8af54999812253947bc1ef7af1dc0&chksm=bc356f75475e3ab1f05dc3b3acdc837a6715f40067ec93d1cd44b9f9534534be918590886e84&scene=126&sessionid=0",
         "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661770525&idx=2&sn=43b5e30a88e6e013ed5bdf79881a779d&chksm=bc45e8dee31f23b8e34cf882784a63b78b6c761938dc02c91f4b1512d7938a72b4d4f7cfe05e&scene=126&sessionid=0",
@@ -1725,20 +1735,12 @@
         "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661768615&idx=1&sn=3af49f73f83854f26e215fbc1c6a8bd8&chksm=bc62e8435afd3388677823bec6a3109442f6b3d0656552780136fb9df9fbb1c90fff926ccc1a&scene=126&sessionid=0",
         "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661768614&idx=1&sn=97847893dac35c9daf93738c88066e85&chksm=bcfe0e02bba4da10a8ef948add94f30f29e2bac2e6925f748dc888d6609a51a59fddd69d06f0&scene=126&sessionid=0",
         "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661768614&idx=2&sn=4ee363edcbbf8092dafb6c5a15ad7b6e&chksm=bc3740d4726e25186d144b2e0ea17b49d06e959e527f1b6c71ccafaaf1490851063eaedf12ba&scene=126&sessionid=0",
-        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661768613&idx=1&sn=7ee24ebc3ce5dc0eae99a5dbb81c6765&chksm=bcde2828be43d19a6017fbdf6985759039eb44adb843af91bcc2645317ded69b346f6f487b4c&scene=126&sessionid=0",
-        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661768613&idx=2&sn=690a72f599c9fb3081bbdc8894f77c88&chksm=bc46d93c89c3924eaa3e913d5b099b9b311e26da5ce5a638b6840c334bc993efc051bce9def9&scene=126&sessionid=0",
-        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661768612&idx=1&sn=010b2714c7b1fba7eba09a9c8d9e5621&chksm=bcdb6b8c2247ad17b43be604291768f80f9715216c0ee1c3afb629f05b1de73e358ced61e83b&scene=126&sessionid=0",
-        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661768612&idx=2&sn=26e4e8330082c44a9213c5c8f24816ac&chksm=bcd767daee9040bf6d40e1f3a63da06910e41d04fa282b22f3213536eb26b0c84546da46076f&scene=126&sessionid=0",
-        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661768601&idx=1&sn=352b8a76bd5b927a80ab2c0df89643c8&chksm=bcbb68c0bb1718e6bfbca652dbc7e03813a2ec2f0eb27a8f5805daccc074e5a4551175280f08&scene=126&sessionid=0",
-        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661768615&idx=1&sn=3af49f73f83854f26e215fbc1c6a8bd8&chksm=bcccd3833a940660959ed53be9de303d769b5624d823ca2f42230a1c7aded9fe1ed21cf1fd37&scene=126&sessionid=0",
-        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661768614&idx=1&sn=97847893dac35c9daf93738c88066e85&chksm=bc5d173ef73badd7ccb0e4311b452c5377016ff13bf6734a6bb2e2d980170c93f9f99c1397a1&scene=126&sessionid=0",
-        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661768614&idx=2&sn=4ee363edcbbf8092dafb6c5a15ad7b6e&chksm=bc4e8e4f6f22e8e13aaa2fcfe0a938fb315f32b63c1f68d8a2c8cd2ba7e317513fcb7aa7cb12&scene=126&sessionid=0",
-        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661768613&idx=1&sn=7ee24ebc3ce5dc0eae99a5dbb81c6765&chksm=bc7cb047a697bfbd7d2c9f5936989066fdb265f3b4d539e4f6018f515284e140bd590dcf254f&scene=126&sessionid=0"
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661768613&idx=1&sn=7ee24ebc3ce5dc0eae99a5dbb81c6765&chksm=bcde2828be43d19a6017fbdf6985759039eb44adb843af91bcc2645317ded69b346f6f487b4c&scene=126&sessionid=0"
       ],
-      "last_changed_at": "2026-07-17T11:41:36.076342Z"
+      "last_changed_at": "2026-07-17T12:47:40.356738Z"
     },
     "tikhub-wechat-21jingji": {
-      "last_polled_at": "2026-07-17T11:40:08.648727Z",
+      "last_polled_at": "2026-07-17T12:46:10.620194Z",
       "last_raw_count": 0,
       "source_signature": "a585a9cb4142e0c5cee8958fb7db1b1520cf0b91be787ec3e76d32c337b22356",
       "baseline_initialized": true,
@@ -1820,11 +1822,12 @@
     },
     "aihot-selected": {
       "last_raw_count": 50,
-      "last_polled_at": "2026-07-17T11:40:08.648727Z",
+      "last_polled_at": "2026-07-17T12:46:10.620194Z",
       "source_signature": "54b0a2ce37b31eed7de5728f2ad3467d3fff1ec95a53a03f9ee11a9fa197fda4",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-09T08:44:50.779962Z",
       "seen_keys": [
+        "https://www.ithome.com/0/978/277.htm",
         "https://mp.weixin.qq.com/s/a2YKWmyMoyIc3GKLbXffpQ",
         "https://schema-harness.github.io",
         "https://www.marktechpost.com/2026/07/17/nvidia-ai-releases-nemotron-3-embed-an-open-embedding-collection-whose-8b-checkpoint-ranks-1-on-rteb",
@@ -2021,7 +2024,7 @@
         "https://www.tomtunguz.com/the-10b-fde-boom",
         "https://openrouter.ai/blog/insights/image-detail-low-cost"
       ],
-      "last_changed_at": "2026-07-17T10:13:25.971172Z"
+      "last_changed_at": "2026-07-17T12:46:11.214396Z"
     }
   }
 }
