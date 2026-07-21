@@ -48,13 +48,13 @@
       "last_changed_at": "2026-07-21T14:21:45.375664Z"
     },
     "zhipu-bigmodel-releases": {
-      "fingerprint": "913284172bfddf2251a2f1c145234af0a8ad8e3c0adc5d9cfa84eaf429c29b4a",
+      "fingerprint": "634492b8cadcb1be2d7db5171c9a40e4f38c747395b30cfddf214a5c1bf55da0",
       "last_checked_at": "2026-07-02T04:51:33.147542Z",
-      "last_excerpt": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.bigmodel.cn/llms.txt > Use this file to discover all available pages before exploring further. # 新品发布 > 最新模型和产品发布公告 ## 公告通知 💬 [**GLM-5.2**](/cn/guide/models/text/glm-5.2) * 支持 1M 无损上下文，长程任务能力显著提升，减少复杂任务中的上下文漂移与目标遗忘 * Coding 与长程任务评测达到开源 SOTA，在复杂系统工程、深度调试中表现更稳 * 真实开发体感显著提升，项目级上下文承载、工程规范遵循与多端开发更可靠 🤝 [**GLM Coding Plan 团队版**](/cn/coding-plan/team) * 面向企业与开发团队的自助订阅方案上线，延续个人版高额模型用量，并兼容全球主流编码工具 * 支持席位、权限、用量与预算统一管理，帮助团队实现可追踪、可控制的 AI 编程协作 * 提供集中账单、统一开票与企业级数据安全保障，默认不将代码、提示词和对话内容用于模型训练 * 高级版支持首发接入最新旗舰模型及高峰期资源优先保障，带来更稳定高效的团队开发体验 💬 [**GLM-5.1**](/cn/guide/models/text/glm-5.1) * Coding 能力大大增强，长程任务（Long Horizon Task）显著提升，支持一次任务中独立、持续工作长达 8 小时，实现从规划、执行到交付的完整闭环 * 在自主规划、持续执行、问题修复与策略迭代上展现更强的工程智能，能够完成更长链路的复杂任务闭环 * 综合能力全面对齐 Claude Opus 4.6，成为首个在综合能力上实现全面对齐的中国模型，并跻身全球开源模型前列 * 通过 multi-turn SFT、RL 与过程质量评估体系，进一步强化长任务中的稳定性、一致性与 tool use 能力 👀 [**GLM-5V-Turbo**](/cn/guide/models/vlm/glm-5v-turbo) * 兼顾视觉理解与 Coding 能力，在更小参数量下实现更优的性能表现，多模态任务处理更高效 * 细粒度理解、几何感知与空间理解能力进一步增强，复杂视觉推理更准确 * 强化 GUI Agent、Coding Agent 等复杂任务表现，更适合“看懂环境—规划动作—执行任务”的长流程场景 * 多模态工具链进一步扩展，在文本工具基础上新增支持画框、截图、读网页（含图片识别）等多模态 Tools 🦞 [**GLM-5-Turbo**](/cn/guide/models/text/glm-5-turbo) * 面向 OpenClaw 龙虾场景深度优化的基座模型 * 强化了对外部工具与各类Skills的调用能力，在多步任务中更稳定、更可靠 * 复杂指令拆解更强，能够精准识别目标、规划步骤，并支持多智能体之间的协同分工 * 能够更好理解时间维度上的要求，在复杂长任务中保持执行连续性 * 针对数据吞吐量大、逻辑链条长的龙虾任务，进一步提升了执行效率与响应稳定性 💬 [**GLM-5**](/cn/guide/models/text/glm-5) * 专为复杂系统工程与长程 Agent 任务设计，实现从代码到工程的范式跃迁 * 后端架构设计、复杂算法实现及顽固 Bug 修复上展现出卓越的深度推理能力 * 在代码逻辑密度和系统工程能力上直接对标 Claude Opus 4.5 * 首次集成 DeepSeek Sparse Attention，在维持长文本效果无损的同时，提升 Token Efficiency 👀 [**GLM-OCR**](/cn/guide/models/vlm/glm-ocr) * 采用自研 CogViT 与 GLM-0.5B 的编码器-解码器设计，连接层实现高效跨模态对齐 * 基于数十亿图文对的 CLIP 预训练，具备强大的视觉语义与关键 Token 提取能力 * 模型小、速度快，在手写体、表格、印章、竖排等复杂场景中表现稳定 💬 [**GLM-4.7-Flash**](/cn/guide/models/free/glm-4.7-flash) * 轻量参数规模下实现了高效的 Coding 能力，任务理解与代码生成能力处于同类模型的较高水平 * 通用能力同级别最优，在写作、翻译、推理、角色扮演、长文本与审美等核心场景下兼顾质量与响应速度 * 为 GLM-4.7 的免费版本，针对高频调用场景进行优化，显著降低使用门槛与成本 📷 [**GLM-Image**](/cn/guide/models/text/glm-4.7) * 首个在国产芯片上完成全流程训练的 SOTA 多模态模型 * 采用「自回归理解 + 扩散解码」混合架构，模型能读懂指令、补全细节 * 知识密集型场景全面增强，文字渲染更稳更准（汉字尤其出色） 💬 [**GLM-4.7**](/cn/guide/models/text/glm-4.7) * Coding 能力全面提升，代码生成更稳、更完整，长代码与工程级场景下的一次性交付能力显著增强 * Agentic Coding 能力升级，支持以任务为中心的端到端开发 * 前端与视觉代码理解增强，生成页面在布局、交互与审美上更接近可展示、可直接使用的水平 * 通用对话与内容生成更可靠，复杂问题拆解更清晰，简单问题回应更直接，整体表达更自然、高效 🤖 [**AutoGLM-Phone**](/cn/guide/models/vlm/autoglm-phone) * 支持用自然语言自动完成 App 操作任务 * 具备界面识别、意图规划与设备执行的端到端处理能力，无需人工点击或复杂配置 * 已适配 50+ 主流中文应用场景，覆盖购物、出行、外卖、影音、资讯等高频任务 * 支持完整操作指令集，包括启动 App、输入文字、滑动、点击、回退、长按等，实现细粒度交互控制 🎵 [**GLM-TTS-Clone**](/cn/guide/models/sound-and-video/glm-tts-clone) * 只需录制约 3 秒清晰语音，即可生成专属音色 * 支持普通话及轻口音，更好复刻节奏、停顿、语气词等个性化表达 * 无论旁白、客服、剧情配音、教育讲解，均可保持音色统一与情感一致性 * 可与 GLM-TTS 联动，通过音色 ID 进行批量生产 🎵 [**GLM-TTS**](/cn/guide/models/sound-and-video/glm-tts) * 在架构上采用两阶段生成，在自然度、情绪表达与语调连贯性上实现全面升级 * 支持流式与非流式接口，首帧响应低于 400ms，实现低延迟的交互式体验 * 强化学习（GRPO）优化显著降低字错误率，并在开源评测中取得 SOTA 情感表达表现 * 支持灵活控制语速、音量与风格，满足客服、阅读、文旅、智能硬件等多场景需求 🎤 [**GLM-ASR-2512**](/cn/guide/models/sound-and-video/glm-asr-2512) * 行业出色语音识别性能，最新评测字符错误率（CER）仅 0.0717 * 支持多语言与方言识别，覆盖普通话、粤语、四川话、美式/英式英语及数十种全球常用语言 * 原生支持自定义词典，可快速导入专业术语、人名地名与项目代号，显著提升垂直行业识别精度 👀 [**GLM-4.6V**](/cn/guide/models/vlm/glm-4.6v) * 20+ 主流多模态评测基准全面验证，均取得 SOTA 成绩 * 原生支持工具调用，具备强大的图文混排创作能力，并能处理识图购物等复杂的视觉任务 * 视觉上下文窗口扩展至 128k，可单次处理约 150 页的复杂文档、200 页 PPT 或一小时视频 * 针对前端开发场景深度调优，支持“截图即代码”，大幅提升 GLM Coding Plan 的开发与调试效率 💬 [**GLM-4.6**](/cn/guide/models/text/glm-4.6) * 在公开基准与真实编程任务中展现出更强的代码能力 * 上下文窗口扩展至200K，提升处理长代码与复杂智能体任务的能力 * 推理过程进一步优化，支持在推理过程中调用工具，提升智能体任务执行的灵活性与效率 * 加强了模型在工具调用和智能体框架下的表现，使其在多场景应用中更加高效 👀 [**GLM-4.5V**](/cn/guide/models/vlm/glm-4.5v) * 100B 级别开源视觉推理模型 SOTA，比 GLM-4.1V-Thinking “更大更强” * 覆盖从视频理解、前端复刻、视觉定位、图像识别与推理，到复杂文档解析与 GUI Agent 等多场景的视觉任务 * 新增“思考模式”开关，可灵活选择快速响应或深度推理 💬 [**GLM-4.5**](/cn/guide/models/text/glm-4.5) * SOTA 级原生智能体大模型 * 参数效率翻倍，API 价格仅为 Claude 的1/10，极速版速度超 100tokens/秒 * 实测 Agentic Coding 表现优异，支持一键兼容 Claude Code 框架 📺 [**CogVideoX-3**](/cn/guide/models/video-generation/cogvid",
+      "last_excerpt": "新品发布 - 智谱AI开放文档 Documentation Index Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. Skip to main content 智谱AI开放文档 home page Search... ⌘ K 控制台 价格 财务 API Key 个人中心 Search... Navigation 新品发布 使用指南 API 文档 场景示例 编码套餐 更新日志 条款与协议 常见问题 新品发布 功能更新 On this page 公告通知 2026-06-16 2026-05-29 2026-04-07 2026-04-02 2026-03-15 2026-02-12 2026-02-03 2026-01-19 2026-01-14 2025-12-22 2025-12-11 2025-12-11 2025-12-11 2025-12-10 2025-12-08 2025-09-30 2025-08-11 2025-07-28 2025-07-15 2025-07-02 2025-06-18 2025-04-23 2025-04-14 2025-04-14 新品发布 Copy page Copy page 最新模型和产品发布公告 Copy page Copy page ​ 公告通知 ​ 2026-06-16 GLM-5.2 新一代旗舰模型上线 💬 GLM-5.2 支持 1M 无损上下文，长程任务能力显著提升，减少复杂任务中的上下文漂移与目标遗忘 Coding 与长程任务评测达到开源 SOTA，在复杂系统工程、深度调试中表现更稳 真实开发体感显著提升，项目级上下文承载、工程规范遵循与多端开发更可靠 ​ 2026-05-29 GLM Coding Plan 团队版上线 🤝 GLM Coding Plan 团队版 面向企业与开发团队的自助订阅方案上线，延续个人版高额模型用量，并兼容全球主流编码工具 支持席位、权限、用量与预算统一管理，帮助团队实现可追踪、可控制的 AI 编程协作 提供集中账单、统一开票与企业级数据安全保障，默认不将代码、提示词和对话内容用于模型训练 高级版支持首发接入最新旗舰模型及高峰期资源优先保障，带来更稳定高效的团队开发体验 ​ 2026-04-07 GLM-5.1 新一代旗舰模型上线 💬 GLM-5.1 Coding 能力大大增强，长程任务（Long Horizon Task）显著提升，支持一次任务中独立、持续工作长达 8 小时，实现从规划、执行到交付的完整闭环 在自主规划、持续执行、问题修复与策略迭代上展现更强的工程智能，能够完成更长链路的复杂任务闭环 综合能力全面对齐 Claude Opus 4.6，成为首个在综合能力上实现全面对齐的中国模型，并跻身全球开源模型前列 通过 multi-turn SFT、RL 与过程质量评估体系，进一步强化长任务中的稳定性、一致性与 tool use 能力 ​ 2026-04-02 GLM-5V-Turbo 多模态 Coding 基座模型上线 👀 GLM-5V-Turbo 兼顾视觉理解与 Coding 能力，在更小参数量下实现更优的性能表现，多模态任务处理更高效 细粒度理解、几何感知与空间理解能力进一步增强，复杂视觉推理更准确 强化 GUI Agent、Coding Agent 等复杂任务表现，更适合“看懂环境—规划动作—执行任务”的长流程场景 多模态工具链进一步扩展，在文本工具基础上新增支持画框、截图、读网页（含图片识别）等多模态 Tools ​ 2026-03-15 GLM-5-Turbo 龙虾增强基座模型上线 🦞 GLM-5-Turbo 面向 OpenClaw 龙虾场景深度优化的基座模型 强化了对外部工具与各类Skills的调用能力，在多步任务中更稳定、更可靠 复杂指令拆解更强，能够精准识别目标、规划步骤，并支持多智能体之间的协同分工 能够更好理解时间维度上的要求，在复杂长任务中保持执行连续性 针对数据吞吐量大、逻辑链条长的龙虾任务，进一步提升了执行效率与响应稳定性 ​ 2026-02-12 GLM-5 新一代旗舰模型上线 💬 GLM-5 专为复杂系统工程与长程 Agent 任务设计，实现从代码到工程的范式跃迁 后端架构设计、复杂算法实现及顽固 Bug 修复上展现出卓越的深度推理能力 在代码逻辑密度和系统工程能力上直接对标 Claude Opus 4.5 首次集成 DeepSeek Sparse Attention，在维持长文本效果无损的同时，提升 Token Efficiency ​ 2026-02-03 GLM-OCR 图文解析模型上线 👀 GLM-OCR 采用自研 CogViT 与 GLM-0.5B 的编码器-解码器设计，连接层实现高效跨模态对齐 基于数十亿图文对的 CLIP 预训练，具备强大的视觉语义与关键 Token 提取能力 模型小、速度快，在手写体、表格、印章、竖排等复杂场景中表现稳定 ​ 2026-01-19 GLM-4.7-Flash 免费模型上线 💬 GLM-4.7-Flash 轻量参数规模下实现了高效的 Coding 能力，任务理解与代码生成能力处于同类模型的较高水平 通用能力同级别最优，在写作、翻译、推理、角色扮演、长文本与审美等核心场景下兼顾质量与响应速度 为 GLM-4.7 的免费版本，针对高频调用场景进行优化，显著降低使用门槛与成本 ​ 2026-01-14 GLM-Image 图像生成模型上线 📷 GLM-Image 首个在国产芯片上完成全流程训练的 SOTA 多模态模型 采用「自回归理解 + 扩散解码」混合架构，模型能读懂指令、补全细节 知识密集型场景全面增强，文字渲染更稳更准（汉字尤其出色） ​ 2025-12-22 GLM-4.7 基座模型上线 💬 GLM-4.7 Coding 能力全面提升，代码生成更稳、更完整，长代码与工程级场景下的一次性交付能力显著增强 Agentic Coding 能力升级，支持以任务为中心的端到端开发 前端与视觉代码理解增强，生成页面在布局、交互与审美上更接近可展示、可直接使用的水平 通用对话与内容生成更可靠，复杂问题拆解更清晰，简单问题回应更直接，整体表达更自然、高效 ​ 2025-12-11 AutoGLM-Phone AI 手机智能助理框架上线 🤖 AutoGLM-Phone 支持用自然语言自动完成 App 操作任务 具备界面识别、意图规划与设备执行的端到端处理能力，无需人工点击或复杂配置 已适配 50+ 主流中文应用场景，覆盖购物、出行、外卖、影音、资讯等高频任务 支持完整操作指令集，包括启动 App、输入文字、滑动、点击、回退、长按等，实现细粒度交互控制 ​ 2025-12-11 GLM-TTS-Clone 音色克隆模型上线 🎵 GLM-TTS-Clone 只需录制约 3 秒清晰语音，即可生成专属音色 支持普通话及轻口音，更好复刻节奏、停顿、语气词等个性化表达 无论旁白、客服、剧情配音、教育讲解，均可保持音色统一与情感一致性 可与 GLM-TTS 联动，通过音色 ID 进行批量生产 ​ 2025-12-11 GLM-TTS 语音合成模型上线 🎵 GLM-TTS 在架构上采用两阶段生成，在自然度、情绪表达与语调连贯性上实现全面升级 支持流式与非流式接口，首帧响应低于 400ms，实现低延迟的交互式体验 强化学习（GRPO）优化显著降低字错误率，并在开源评测中取得 SOTA 情感表达表现 支持灵活控制语速、音量与风格，满足客服、阅读、文旅、智能硬件等多场景需求 ​ 2025-12-10 GLM-ASR-2512 语音识别模型上线 🎤 GLM-ASR-2512 行业出色语音识别性能，最新评测字符错误率（CER）仅 0.0717 支持多语言与方言识别，覆盖普通话、粤语、四川话、美式/英式英语及数十种全球常用语言 原生支持自定义词典，可快速导入专业术语、人名地名与项目代号，显著提升垂直行业识别精度 ​ 2025-12-08 GLM-4.6V 视觉推理模型上线 👀 GLM-4.6V 20+ 主流多模态评测基准全面验证，均取得 SOTA 成绩 原生支持工具调用，具备强大的图文混排创作能力，并能处理识图购物等复杂的视觉任务 视觉上下文窗口扩展至 128k，可单次处理约 150 页的复杂文档、200 页 PPT 或一小时视频 针对前端开发场景深度调优，支持“截图即代码”，大幅提升 GLM Coding Plan 的开发与调试效率 ​ 2025-09-30 GLM-4.6 基座模型上线 💬 GLM-4.6 在公开基准与真实编程任务中展现出更强的代码能力 上下文窗口扩展至200K，提升处理长代码与复杂智能体任务的能力 推理过程进一步优化，支持在推理过程中调用工具，提升智能体任务执行的灵活性与效率 加强了模型在工具调用和智能体框架下的表现，使其在多场景应用中更加高效 ​ 2025-08-11 GLM-4.5V 视觉推理模型上线 👀 GLM-4.5V 100B 级别开源视觉推理模型 SOTA，比 GLM-4.1V-Thinking “更大更强” 覆盖从视频理解、前端复刻、视觉定位、图像识别与推理，到复杂文档解析与 GUI Agent 等多场景的视觉任务 新增“思考模式”开关，可灵活选择快速响应或深度推理 ​ 2025-07-28 G",
       "baseline_initialized": true,
       "source_signature": "10ecc1fa06af0b5ebdba84930554907f1be5b50926f64d96055671c12cbac811",
       "baseline_reinitialized_at": "2026-07-02T10:22:21.295328Z",
-      "last_changed_at": "2026-07-21T08:45:35.140432Z"
+      "last_changed_at": "2026-07-21T18:38:15.429353Z"
     },
     "zai-release-notes": {
       "fingerprint": "5b5ab3620167e1331f3de0aeeefe0cb5df12d59e706e0228bac5dcab6248a6fe",
@@ -203,12 +203,12 @@
       "baseline_reinitialized_at": "2026-07-02T10:22:21.295328Z"
     },
     "volcengine-ark-models": {
-      "fingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "fingerprint": "3a2b2621b0fcb4a2f73e678d87801c4b9bf367d214f8249919e8f89f2706cd02",
       "last_checked_at": "2026-07-02T04:51:33.147542Z",
-      "last_excerpt": "",
+      "last_excerpt": "文档中心 简体 文档 控制台 登录 注册 火山方舟 文档指南 订阅 [Agent/Coding Plan] API参考 资源 火山方舟 火山方舟 文档指南 请输入 入门 产品简介 快速入门 模型列表 模型价格 最新模型：Seed-Evolving 调用 文本生成 多模态理解 图片理解 视频理解 文档理解 音频理解 视频生成 Doubao Seedance 2.0 系列教程 Doubao Seedance 2.0 系列提示词指南 视频生成教程 图片生成 Doubao Seedream 5.0 pro 教程 Doubao Seedream 5.0 pro 实现交互编辑指南 图片生成教程 领域模型 3D 生成 向量化 工具调用 工具概述 豆包助手 Web Search（联网内容插件） Image Process（图像处理） 私域知识库搜索 Knowledge Search 云部署 MCP / Remote MCP Function Calling（函数调用） 进阶使用 深度思考 上下文管理 流式输出 续写模式 上下文缓存 原理及选型 上下文缓存(Context API) 文件输入(File API) GUI Agent 能力 视觉定位 Grounding 提示词工程 结构化输出(beta) 接入三方工具 使用 Responses API 迁移至 Responses API 文本生成 深度思考 多模态理解 工具调用 上下文缓存 结构化输出(beta) 上下文编辑 推理 推理方式概述 在线推理（常规） 在线推理（低延迟） 在线推理（TPM 保障包） 在线推理（模型单元） 模型单元概述 创建模型单元 管理模型单元 批量推理 高级能力 智能模型路由 使用 MLP 推理服务 使用自定义模型进行推理 训练 模型精调 模型精调概述 有监督微调最佳实践 直接偏好优化最佳实践 强化学习最佳实践 精调 SDK 使用指南 模型精调数据集格式说明 管理自定义模型 模型评测 创建模型评测任务 查看并管理模型评测任务 评测数据集格式说明 数据集 数据集介绍 共享数据集 Managed Agents 快速上手 概述 快速入门（代码） 快速入门（控制台） 定义 Agent Agent Skills MCP Tools 工具权限策略 配置 Agent 环境 配置云环境 云沙箱参考 委派任务给 Agent 启动 Session 管理 Session Session 事件流 使用 Vaults 认证 管理 Agent 上下文 上传与挂载文件 持久化记忆 高级能力 Multi Agent 应用 应用实验室 零代码应用简介 零代码应用操作指南 低代码应用简介 高代码应用简介 高代码应用创建部署指南 服务组件库 网页解析插件功能说明 联网内容插件功能说明 联网系列插件升级为联网内容插件说明及操作指南 知识库插件功能说明 应用实验室 知识库 操作指南 文档知识问答核心流程 音视频知识问答核心流程 知识库管理 创建知识库 编辑知识库 查看知识库列表 查看知识库详情 删除知识库 知识检索 知识问答 续订知识库 退订知识库 配置实验版本 文档管理 导入文档 标签配置 删除文档 切片管理 新增切片 编辑切片 查阅切片 删除切片 知识服务管理 创建知识服务 知识服务管理 知识库配额说明 知识库分账管理 API参考 签名鉴权与调用示例 API 列表 最佳实践 MCP Server 知识型视频智能问答解决方案 视频高光提取及检索解决方案 更多最佳实践 知识库免费体验权益 SDK参考 SDK 升级与使用说明 PromptPilot PromptPilot 概述 PromptPilot 订阅管理 Prompt 生成 Prompt 调优 Prompt 批量 PromptPilot 管理 VideoPilot 功能介绍 视觉理解 Solution 评分DSL AgentPilot SDK 参考 AgentPilot OpenAPI 使用指南 VideoPilot API 文档首页 火山方舟 入门 模型列表 复制全文 下载 pdf 我的收藏 入门 模型列表 复制全文 下载 pdf 我的收藏 模型列表 文档反馈 问问助手 最近更新时间： 2026.07.20 17:28:20 这个页面对您有帮助吗？ 有用 有用 无用 无用",
       "baseline_initialized": true,
       "baseline_invalid": true,
-      "last_changed_at": "2026-07-21T14:21:45.375664Z",
+      "last_changed_at": "2026-07-21T18:38:15.429353Z",
       "source_signature": "ab5ee375ff670169281a4aefbc9772546566386e665c24a65ec209061d7dfada",
       "baseline_reinitialized_at": "2026-07-02T10:22:21.295328Z"
     },
@@ -247,9 +247,9 @@
       ],
       "last_checked_at": "2026-07-02T04:52:05.788649Z",
       "baseline_initialized": true,
-      "last_changed_at": "2026-07-21T12:14:07.341382Z",
-      "fingerprint": "e6531700902cce4d3d9c6c3f98c832593af93f4e23988e3123d4ebe5e59ab334",
-      "last_excerpt": "文档中心 简体 文档 控制台 登录 注册 火山方舟 文档指南 订阅 [Agent/Coding Plan] API参考 资源 火山方舟 火山方舟 资源 请输入 产品公告 产品更新公告 模型发布公告 模型下线公告 历史公告 2026 公告 26年春节期间访问方式调整公告 2025 公告 模型发布公告 2025 产品更新公告 2025 模型下线公告 2025 高代码 SDK Arkitect 正式发布 2024 公告 模型发布公告 2024 产品更新公告 2024 模型下线公告 2024 火山方舟 SDK V1/V2下线公告及迁移指引 模型插件联网基础版、联网plus版、联网pro版下线公告 热门活动 Seedance 2.0 系列模型资源包使用规则 协作奖励计划 免费推理额度 实践教程 Managed Agent [基础] 构建连续对话的工单分诊助手 [基础] 工单分诊 Agent 系统提示词版本管理 [进阶] 构建可持续迭代的 AI 研究交付工作台 Ark CLI 使用指南 方舟文档 MCP 快速入门(新手版) Seedance 1.5 pro 提示词指南 Seedance 1.0 系列提示词指南 Seedream 4.0-5.0 提示词指南 Seedream 4.0 助力 Seedance 生视频最佳实践 RAG（检索增强）解决方案 数据回流操作流程 如何设置控制台登录保持时间 角色扮演场景提示词指南 环境变量配置指南 突发流量处理最佳实践 火山方舟分账最佳实践 在应用中使用 RTC 实现 AI 实时对话 通过 TOS 内网预签名 URL 传入文件 购买指南 模型服务计费说明 TPM 保障包计费说明 联网内容插件产品计费 豆包助手计费 知识库计费 PromptPilot 计费 Seedance 2.0 高级创作权益包购买说明 税率与发票 权限管理 使用 IAM 管理权限 管理 API Key HYOK 最佳实践 平台功能 平台能力速览 模型广场 应用广场 体验中心 体验中心概览 语言模型 虚拟人像库 录入真人形象素材 使用版权生视频模板生成 IP 视频 图片生成模型 语音模型 开发者模式 MCP 简介 Canvas 简介 在线推理 管理推理接入点 为 AI 生成产物添加隐式水印 安心体验模式细则说明 开通管理 安全管理 控制台-推理安全审计 控制台-精调安全审计 控制台-推理接入点安全监控总览 用量统计 项目配置 网络配置 Token 计算器 安全管理 安全管理总览 内容安全护栏 火山方舟大模型服务安全白皮书 火山方舟互信计算架构白皮书 推理会话数据应用层加密方案 精调安全防护能力介绍 常见问题 常见问题 相关协议 火山方舟大模型服务平台专用条款 火山方舟体验中心服务规则和免责声明 Agent Plan / Coding Plan 火山引擎数据授权使用协议 ArkClaw 服务规则 Harness 能力说明和产品专用条款 模型服务协议 豆包模型服务协议 火山引擎豆包大模型商标使用规范 月之暗面模型服务协议 智谱AI模型服务协议 PromptPilot 服务专用条款和数据授权使用协议 影眸模型服务协议 数美模型服务协议 开源模型许可证 模型备案 客户应用上架指南-算法备案资质申请流程 大模型备案说明(含算法备案及人工智能备案) 火山方舟模型备案信息公示 MCP 云产品一键授权开通相关协议 知识库产品服务和专用条款 豆包助手专区服务专用条款和数据授权使用协议 方舟售后支持范围 版权和人像素材使用规则 文档首页 火山方舟 产品公告 产品更新公告 复制全文 下载 pdf 我的收藏 产品公告 产品更新公告 复制全文 下载 pdf 我的收藏 产品更新公告 文档反馈 问问助手 最近更新时间： 2026.07.07 18:03:10 这个页面对您有帮助吗？ 有用 有用 无用 无用",
+      "last_changed_at": "2026-07-21T18:38:15.429353Z",
+      "fingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "last_excerpt": "",
       "baseline_invalid": true,
       "source_signature": "bf1f63ca68ab1a7f10b219aa7fbc07472dde5da63456aa15a90f6ecaf31f0156",
       "baseline_reinitialized_at": "2026-07-02T10:22:21.295328Z"
@@ -379,13 +379,13 @@
       "last_checked_at": "2026-07-02T04:51:37.867265Z",
       "baseline_initialized": true,
       "repos": {
-        "MoonshotAI/Kimi-Audio": "2025-06-21T15:30:28Z",
+        "MoonshotAI/kimi-code": "2026-07-21T18:34:10Z",
         "MoonshotAI/kimi-cli": "2026-07-16T10:05:51Z",
+        "MoonshotAI/Kimi-Audio": "2025-06-21T15:30:28Z",
+        "MoonshotAI/Kimi-Linear": "2025-11-17T09:36:48Z",
         "MoonshotAI/Kimi-K2": "2026-01-21T05:33:12Z",
-        "MoonshotAI/kimi-code": "2026-07-21T17:04:47Z",
         "MoonshotAI/Kimi-K2.5": "2026-01-31T00:49:42Z",
         "MoonshotAI/Attention-Residuals": "2026-03-17T06:23:11Z",
-        "MoonshotAI/Kimi-Linear": "2025-11-17T09:36:48Z",
         "MoonshotAI/kimi-help-center": "2026-05-08T04:47:45Z",
         "MoonshotAI/kimi-agent-sdk": "2026-05-29T05:29:38Z",
         "MoonshotAI/walle": "2026-06-29T14:05:32Z",
@@ -400,7 +400,7 @@
         "MoonshotAI/Kimi-VL": "2025-07-15T15:48:21Z",
         "MoonshotAI/Kimi-k1.5": "2025-03-07T11:16:36Z"
       },
-      "last_changed_at": "2026-07-21T17:09:12.825728Z",
+      "last_changed_at": "2026-07-21T18:38:15.429353Z",
       "source_signature": "c925f37596aaabb84376bf83142f08b0ce08447179a5d27a52c7956a40180daa",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -410,11 +410,12 @@
       "baseline_initialized": true,
       "repos": {
         "zai-org/GLM-5": "2026-07-15T12:54:24Z",
-        "zai-org/GLM-4-Voice": "2024-12-05T07:10:01Z",
         "zai-org/Open-AutoGLM": "2026-03-06T08:38:39Z",
+        "zai-org/z-ai-sdk-python": "2026-06-16T03:07:59Z",
+        "zai-org/SCAIL-2": "2026-07-16T03:20:39Z",
+        "zai-org/GLM-4-Voice": "2024-12-05T07:10:01Z",
         "zai-org/GLM-V": "2026-07-21T16:03:29Z",
         "zai-org/Synapse": "2026-05-20T04:44:45Z",
-        "zai-org/SCAIL-2": "2026-07-16T03:20:39Z",
         "zai-org/GLM-Image": "2026-03-20T03:10:16Z",
         "zai-org/ChatGLM3": "2025-01-13T06:55:26Z",
         "zai-org/CogVideo": "2025-11-04T11:19:04Z",
@@ -427,10 +428,9 @@
         "zai-org/GLM-ASR": "2026-03-06T08:37:26Z",
         "zai-org/Vision2Web": "2026-06-15T10:21:43Z",
         "zai-org/CodeGeeX2": "2024-07-10T12:34:55Z",
-        "zai-org/CodeGeeX": "2024-08-13T05:59:38Z",
-        "zai-org/GLM-4": "2025-07-04T04:16:36Z"
+        "zai-org/CodeGeeX": "2024-08-13T05:59:38Z"
       },
-      "last_changed_at": "2026-07-21T17:09:12.825728Z",
+      "last_changed_at": "2026-07-21T18:38:15.429353Z",
       "source_signature": "0f9d07d7983b4898dc433a8d045a96469f65dff73642f9fe1fbf73cf3299210c",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -636,19 +636,19 @@
       "last_checked_at": "2026-07-02T04:51:58.871155Z",
       "baseline_initialized": true,
       "repos": {
+        "QwenLM/qwen-code": "2026-07-21T18:26:23Z",
+        "QwenLM/Qwen3-Coder": "2026-03-24T08:22:10Z",
+        "QwenLM/Qwen-AgentWorld": "2026-07-20T11:52:07Z",
         "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
         "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
         "QwenLM/Qwen": "2026-03-05T13:55:17Z",
         "QwenLM/Qwen-Image": "2026-02-10T07:37:37Z",
-        "QwenLM/qwen-code": "2026-07-21T17:04:54Z",
         "QwenLM/Qwen2-Audio": "2025-04-21T08:50:49Z",
         "QwenLM/open-computer-use": "2026-06-10T16:38:07Z",
         "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
         "QwenLM/Qwen3.6": "2026-06-03T12:14:19Z",
-        "QwenLM/Qwen-AgentWorld": "2026-07-20T11:52:07Z",
         "QwenLM/Qwen-Agent": "2026-03-04T08:15:07Z",
         "QwenLM/Qwen2.5-Omni": "2025-06-12T11:03:07Z",
-        "QwenLM/Qwen3-Coder": "2026-03-24T08:22:10Z",
         "QwenLM/Qwen-Image-Layered": "2025-12-31T11:40:35Z",
         "QwenLM/Qwen-RobotNav": "2026-06-30T03:01:19Z",
         "QwenLM/Qwen3-ASR": "2026-06-26T08:20:17Z",
@@ -657,7 +657,7 @@
         "QwenLM/Qwen-Audio": "2024-07-05T09:17:49Z",
         "QwenLM/Qwen-VLA": "2026-05-29T13:49:38Z"
       },
-      "last_changed_at": "2026-07-21T17:09:12.825728Z",
+      "last_changed_at": "2026-07-21T18:38:15.429353Z",
       "source_signature": "ddc0d8d3788b1fc4ba6779bc400a51934ce7ac0845fbfff67f906a6d77406e21",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -1498,12 +1498,20 @@
       "last_changed_at": "2026-07-06T03:27:32.743048Z"
     },
     "tikhub-wechat-yicai": {
-      "last_polled_at": "2026-07-21T17:09:12.825728Z",
+      "last_polled_at": "2026-07-21T18:38:15.429353Z",
       "last_raw_count": 8,
       "source_signature": "d8f12c33a72df7482441fcd1a3ff851e93b7b9a79cb446d2d37a403664063670",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-06T03:51:43.565947Z",
       "seen_keys": [
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661772813&idx=1&sn=366ac4a022958f39773bde2b889d4cee&chksm=bcd7f5e55f1f4195a47e3753676f31e55b890da9f8b92d2eb1ea8581f8a114d2825ade35872b&scene=126&sessionid=0",
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661772812&idx=1&sn=3c3996370318b7523b5b68ddae2293e5&chksm=bca1a28b6092a5a4079dfcc7ba209d37cc82b3c92dabb28c1b492cce8e99fbb18401909a0e2d&scene=126&sessionid=0",
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661772812&idx=2&sn=e542143604f0a44a30dbbc2e30ef4261&chksm=bc0130b1b58ebe3e8fd61b9f30e07a41495a84e7d165e56685ad41112b6a43b07208e02a1f05&scene=126&sessionid=0",
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661772811&idx=1&sn=2de22fe6f6efb9aee46101bd7d7717f5&chksm=bc4eef957194065fdd07416b4464c77f5f1cec40c91ed1eaf8fd234f17e964c47c20a0403012&scene=126&sessionid=0",
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661772804&idx=1&sn=ed2f3776d55ba4032078386408d5d120&chksm=bc9632bc3d040986ec740296355b281ef2a3af4195129802c149e6843d4431104aeaeca91a76&scene=126&sessionid=0",
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661772799&idx=1&sn=67351c7fd4130bc9a9445a3afc61fe7a&chksm=bca90e05a96f6c7453f960212d1a48322c50593e8a4e15a970da1330e0ecb793d8b7048c2609&scene=126&sessionid=0",
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661772797&idx=1&sn=d88d9d2fdec1614a4c188e68f803ab01&chksm=bc285ca87285c1f626b6ea224acb83cf093cf63040ea114c5313fc7a62d868cbe0337e517c5f&scene=126&sessionid=0",
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661772797&idx=2&sn=c693f937961a5c50f6406ab369201711&chksm=bce6a3781e151ccffde30167b442b41f476d2b96f6269c3877c616c0e1ab21a44cc6a614abb4&scene=126&sessionid=0",
         "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661772813&idx=1&sn=366ac4a022958f39773bde2b889d4cee&chksm=bc7e84f6f481f74cc9c048669ee2f78a9fc1dfbde69bff2862e3186cbf6f398b91bdbea3a976&scene=126&sessionid=0",
         "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661772812&idx=1&sn=3c3996370318b7523b5b68ddae2293e5&chksm=bcfdb8fe6947d5d6b3f0007be3e95e3ab2e507671c2e7be613216a04387e99f05fbff6c17de0&scene=126&sessionid=0",
         "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661772812&idx=2&sn=e542143604f0a44a30dbbc2e30ef4261&chksm=bca0e12fa833c8dd559b574082737bf2093463223e7e5b3a0ffcfb48dd8fbcb5b52e431aad51&scene=126&sessionid=0",
@@ -1795,20 +1803,12 @@
         "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661771158&idx=1&sn=cd0ba7497da8c2995fc8803f98e6bed6&chksm=bcf6cb213d03597edb22feabc89938ba1dfda135bd355e918b063436eb84abfe4a66f6b1650b&scene=126&sessionid=0",
         "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661771131&idx=1&sn=c1b7803cac437fe665f54dc1d22a81c8&chksm=bc605c54d7f00e8cdd01830e06d2684ea980953ab6fcaa8ed59d5e3bf446f554b66f1cfe5580&scene=126&sessionid=0",
         "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661771121&idx=1&sn=9ef8cd612d8d914b57304c30e7910081&chksm=bcedbdf9af8a73bba1add390ecfb752002712b5a96549e42695958bec096e5748a10962e0125&scene=126&sessionid=0",
-        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661771115&idx=1&sn=4e77ae4266e550ffdfea2174578d19ba&chksm=bcdcc6c58112cb65cdb6898e311b40d6487cda3342ce7c09fac0c5ae0d2c04701db48473230e&scene=126&sessionid=0",
-        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661771114&idx=1&sn=9cc8927e5ec3353cd9fb3fae2a5e1ace&chksm=bcfbf5ceac7429566db44af4890e5a77373f37398522f9570140bdf44849e6a50d03f083b63f&scene=126&sessionid=0",
-        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661771114&idx=2&sn=3008a9c9c754b91070e87d68cb3d782c&chksm=bc793e428daeb5639f70f6b4c255f2467598fe1f4107cf8003b969e58073e08244f48783c316&scene=126&sessionid=0",
-        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661771112&idx=1&sn=424b64b69d5bd367b1b0d5fb21a00286&chksm=bcb1690e28e963003c2fb1355014a82e9ff354004c22e17442146aae594d0985ea03dea59bf5&scene=126&sessionid=0",
-        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661771103&idx=1&sn=d898bf8c1fb9994501412a1b6bef2aff&chksm=bc1eb6c933bd1d0e4b8f904484cf3ee90eefd7599ebc3b79204ca7e619a63e5d4f68ebb7ae0c&scene=126&sessionid=0",
-        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661771103&idx=1&sn=d898bf8c1fb9994501412a1b6bef2aff&chksm=bc91ecd2be01f48e8d3a86741242b8aef1ff0748d1f66156b3fe7c4455206dca3d79a7048a27&scene=126&sessionid=0",
-        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661771082&idx=1&sn=ca6916d250d886bffd14aa8bc27c69cc&chksm=bc5fa9c457f950795e0eedf5d90a41e6b2a57d882e13be0348544582e7754824a7cb587beaeb&scene=126&sessionid=0",
-        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661771077&idx=1&sn=17aee59ec6e9ea38b09b84adcc312a16&chksm=bcaf5b432059e9ce4603f36b04c7ddff1aaca9b49b29fc7701960eee2ac28263e9a9eb007b3a&scene=126&sessionid=0",
-        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661771075&idx=1&sn=f0c73b208c11c585228d00f34083b097&chksm=bc6fe497fa9f4391f77431241ce73c59310de13cc599a330a24d3e82bebddbcdfedbf62b417a&scene=126&sessionid=0"
+        "http://mp.weixin.qq.com/s?__biz=MjM5MTM3NTMwNA%3D%3D&mid=2661771115&idx=1&sn=4e77ae4266e550ffdfea2174578d19ba&chksm=bcdcc6c58112cb65cdb6898e311b40d6487cda3342ce7c09fac0c5ae0d2c04701db48473230e&scene=126&sessionid=0"
       ],
-      "last_changed_at": "2026-07-21T17:10:24.294009Z"
+      "last_changed_at": "2026-07-21T18:39:34.593193Z"
     },
     "tikhub-wechat-21jingji": {
-      "last_polled_at": "2026-07-21T17:09:12.825728Z",
+      "last_polled_at": "2026-07-21T18:38:15.429353Z",
       "last_raw_count": 8,
       "source_signature": "a585a9cb4142e0c5cee8958fb7db1b1520cf0b91be787ec3e76d32c337b22356",
       "baseline_initialized": true,
@@ -1816,14 +1816,14 @@
       "seen_keys": [
         "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650619504&idx=2&sn=b1e6b750ab43384fa5ec249583df27b1&chksm=b62a044b6fa2b90b8693b20d0f456f061da024096d7a36bbce4a87bff8c7dfafaddaa5291343",
         "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650619430&idx=1&sn=c0496c82b456a991ca2f6b5bee590727&chksm=b6fea3362db473e83892c7a7cee5fd4e66d12636acd523f55df737785cebf9d16ba620be96bb",
-        "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650619403&idx=1&sn=44e9c21795074a05d514f21775f76ad7&chksm=b6c1d20dfddd35d1a76fb75932ac703d07ed499f86637783843b0a428e901eae3a02554fa21c",
         "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650619291&idx=1&sn=8cce105815675939518b856bed9818ed&chksm=b6aad777cbc245f45bd95a3eddaeceb8661cda77c1109af1376172ba36c6f52db1bd64a3a814",
         "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650619199&idx=3&sn=f47769df93444781ca9614cde81db2f9&chksm=b67ee9f1dd23fe6fdf397ad66e9d01d445f0c644c73fd87515a1cf9e6b8b93558015660cefa7",
         "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650619164&idx=1&sn=9813bb0ec003fb85f3ebe978c475bf6f&chksm=b683a8a9c51fb92caf04f6b9e018b9e6808048ce453102256681f88bd8dc60a26d0591dcbce9",
         "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650619075&idx=1&sn=a4d4bf747514db27c7537faf221a8623&chksm=b60cc3619daaed7dc44a1199d2d82af3961d74283160a691aa6d7d7236ebe51824c9e3b01a8d",
         "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650619058&idx=1&sn=036df1e6e45b4056c493504a5fcdcbc1&chksm=b63c8a1ff358d8b62aaa72c4ef673710ed9fd12b225b575851e7afcc43056308f035eadb8dfc",
-        "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650619119&idx=3&sn=99f04e87624bfb04bcad88973221f8c5&chksm=b61871cb773c0abd68bbe060431aa08a5b11a9c0a56543ea3a7b553cab9e54234a48d38cd051",
         "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650619038&idx=1&sn=be1bd0df158fde5e1244c8c0ba073a5d&chksm=b64323cbcc54f08b7aa256111c984c060d867a61bc9e54c5381e962909013f027ff5ed1c5102",
+        "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650619403&idx=1&sn=44e9c21795074a05d514f21775f76ad7&chksm=b6c1d20dfddd35d1a76fb75932ac703d07ed499f86637783843b0a428e901eae3a02554fa21c",
+        "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650619119&idx=3&sn=99f04e87624bfb04bcad88973221f8c5&chksm=b61871cb773c0abd68bbe060431aa08a5b11a9c0a56543ea3a7b553cab9e54234a48d38cd051",
         "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650618869&idx=2&sn=07f0a622af465d845a754290f5b8b469&chksm=b631a6303308bec70c861befd23d4bdbb065bb0dfccf70f24bfed5d28fda8d1845cc9e0b9b98",
         "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650619058&idx=3&sn=c08e55ccfd820cb3c4184568c4c42b37&chksm=b6968167b561d10fa7dd610845060c301f1730fa8803a0f74c2ca721d2431c6e7f0d202ba57b",
         "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650618986&idx=1&sn=3614c6b5276bbb7fdcbfadeeec8eb4bc&chksm=b6969c498ca884afa1f36f6f2f5e821938ab7334c400225e4e1c6321a06ead3a2fe8731b8bda",
@@ -1919,18 +1919,23 @@
         "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650610905&idx=2&sn=421c7e6994f02709f6bb729c7a3622fd&chksm=b677bdaca6a515990dfe44bdb0cfc6d70c60265003a6a39d8dfa63191ad0b2da87235645fc72",
         "http://mp.weixin.qq.com/s?__biz=MjI3Njc0NTk4MQ%3D%3D&mid=2650612046&idx=2&sn=296e362a46d49fd91e4962a48f9bdaae&chksm=b61c79a051e9ccedfd5649d216c75e366f9df81b7582c7ab8c186a8ad2c597bfc19f4cf35267"
       ],
-      "last_changed_at": "2026-07-21T15:58:05.969020Z"
+      "last_changed_at": "2026-07-21T18:39:36.858609Z"
     },
     "aihot-selected": {
       "last_raw_count": 49,
-      "last_polled_at": "2026-07-21T17:09:12.825728Z",
+      "last_polled_at": "2026-07-21T18:38:15.429353Z",
       "source_signature": "54b0a2ce37b31eed7de5728f2ad3467d3fff1ec95a53a03f9ee11a9fa197fda4",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-09T08:44:50.779962Z",
       "seen_keys": [
+        "https://x.com/OpenAI/status/2079628886950994005",
+        "https://claude.com/blog/how-anthropic-secures-its-ai-native-software-development-lifecycle",
+        "https://x.ai/news/introducing-outlook-addin",
+        "https://blog.exe.dev/claude-is-not-a-compiler",
+        "https://techcrunch.com/2026/07/21/google-releases-three-new-gemini-models-but-no-3-5-pro",
+        "https://x.com/karpathy/status/2079610838143623371",
         "https://developers.googleblog.com/scaling-agentic-rl-high-throughput-agentic-training-with-tunix",
         "https://github.blog/ai-and-ml/github-copilot/how-to-build-interactive-experiences-with-canvases",
-        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber",
         "https://x.com/claudeai/status/2079595988998554047",
         "https://techcrunch.com/2026/07/21/us-threatens-sanctions-against-chinese-ai-models-over-ip-theft",
         "https://deepmind.google/blog/introducing-gemini-36-flash-35-flash-lite-and-35-flash-cyber",
@@ -1943,6 +1948,7 @@
         "https://www.ithome.com/0/979/324.htm",
         "https://mp.weixin.qq.com/s/pqFZreEZj8kB4KDirl4MSQ",
         "https://cursor.com/blog/agent-swarm-model-economics",
+        "https://openrouter.ai/blog/tutorials/prompt-caching-sticky-routing",
         "https://unslop.run/blog/measuring-ai-writing-on-arxiv",
         "https://the-decoder.com/district-9-director-neill-blomkamp-releases-first-short-film-made-entirely-with-ai-video-generation",
         "https://garymarcus.substack.com/p/china-has-all-but-caught-up-the-us",
@@ -1971,6 +1977,7 @@
         "https://workshop.cjpais.com/projects/transcribe-cpp",
         "https://techcrunch.com/2026/07/17/neil-rimer-thinks-the-ai-money-is-coming-back-out",
         "https://www.theverge.com/podcast/967244/apple-openai-lawsuit-vergecast",
+        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber",
         "https://x.com/dotey/status/2078172517085085951",
         "https://x.com/ArtificialAnlys/status/2078165665278730490",
         "https://x.com/Meituan_LongCat/status/2078119654632124547",
@@ -2180,7 +2187,7 @@
         "https://www.tomtunguz.com/the-10b-fde-boom",
         "https://openrouter.ai/blog/insights/image-detail-low-cost"
       ],
-      "last_changed_at": "2026-07-21T17:09:13.482855Z"
+      "last_changed_at": "2026-07-21T18:38:16.141550Z"
     }
   }
 }
