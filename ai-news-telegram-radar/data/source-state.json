@@ -470,6 +470,7 @@
       "last_checked_at": "2026-07-02T04:51:48.615583Z",
       "baseline_initialized": true,
       "repos": {
+        "stepfun-ai/PaCoRe": "2026-02-05T01:27:48Z",
         "stepfun-ai/llama.cpp": "2026-06-21T08:13:56Z",
         "stepfun-ai/Step1X-Edit": "2026-04-29T14:31:44Z",
         "stepfun-ai/Step-Audio-EditX": "2026-04-09T02:27:46Z",
@@ -488,10 +489,9 @@
         "stepfun-ai/Step-3.5-Flash": "2026-04-03T12:50:32Z",
         "stepfun-ai/StepAudio-Skills": "2026-04-16T10:17:46Z",
         "stepfun-ai/Step-Audio": "2026-03-16T03:53:07Z",
-        "stepfun-ai/Step-Audio-Edit-Benchmark": "2025-11-22T15:18:25Z",
-        "stepfun-ai/NextStep-1": "2026-02-27T17:05:44Z"
+        "stepfun-ai/Step-Audio-Edit-Benchmark": "2025-11-22T15:18:25Z"
       },
-      "last_changed_at": "2026-07-23T16:39:15.582612Z",
+      "last_changed_at": "2026-07-23T22:34:12.182735Z",
       "source_signature": "0c16d0bec86c2add01a625f4297429bfc4103a1c7c309525c559da8573280b38",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -638,27 +638,27 @@
       "baseline_initialized": true,
       "repos": {
         "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
-        "QwenLM/qwen-code": "2026-07-23T21:20:04Z",
+        "QwenLM/Qwen3-Coder": "2026-03-24T08:22:10Z",
+        "QwenLM/Qwen3.6": "2026-06-03T12:14:19Z",
+        "QwenLM/Qwen3-ASR": "2026-06-26T08:20:17Z",
+        "QwenLM/qwen-code": "2026-07-23T22:08:11Z",
+        "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
         "QwenLM/Qwen-Image": "2026-02-10T07:37:37Z",
         "QwenLM/Qwen": "2026-03-05T13:55:17Z",
-        "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
         "QwenLM/Qwen3-Embedding": "2025-09-30T06:10:27Z",
         "QwenLM/Qwen3-VL-Embedding": "2026-06-23T10:39:17Z",
         "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
         "QwenLM/Qwen-Agent": "2026-03-04T08:15:07Z",
         "QwenLM/FlashQLA": "2026-07-15T11:00:23Z",
         "QwenLM/Qwen-AgentWorld": "2026-07-20T11:52:07Z",
-        "QwenLM/Qwen3-Coder": "2026-03-24T08:22:10Z",
         "QwenLM/Qwen-RobotNav": "2026-06-30T03:01:19Z",
         "QwenLM/Qwen-Audio": "2024-07-05T09:17:49Z",
         "QwenLM/Qwen2.5-Omni": "2025-06-12T11:03:07Z",
         "QwenLM/Qwen-VL": "2024-08-07T02:37:06Z",
-        "QwenLM/Qwen3.6": "2026-06-03T12:14:19Z",
         "QwenLM/AutoIF": "2024-07-25T05:43:27Z",
-        "QwenLM/Qwen3-ASR": "2026-06-26T08:20:17Z",
         "QwenLM/Qwen-Image-Layered": "2025-12-31T11:40:35Z"
       },
-      "last_changed_at": "2026-07-23T21:37:00.489852Z",
+      "last_changed_at": "2026-07-23T22:34:12.182735Z",
       "source_signature": "ddc0d8d3788b1fc4ba6779bc400a51934ce7ac0845fbfff67f906a6d77406e21",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -1949,7 +1949,7 @@
     },
     "aihot-selected": {
       "last_raw_count": 50,
-      "last_polled_at": "2026-07-23T21:37:00.489852Z",
+      "last_polled_at": "2026-07-23T22:34:12.182735Z",
       "source_signature": "54b0a2ce37b31eed7de5728f2ad3467d3fff1ec95a53a03f9ee11a9fa197fda4",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-09T08:44:50.779962Z",
@@ -1958,6 +1958,7 @@
         "https://claude.com/blog/think-through-hard-problems-in-voice-mode",
         "https://x.com/OpenAI/status/2080378182469857576",
         "https://stephenfollows.com/p/what-just-happened-to-thenumberscom-should-worry-us-all",
+        "https://x.com/gdb/status/2080351159638704615",
         "https://the-decoder.com/one-tampered-chatgpt-link-could-spawn-a-rogue-ai-agent-that-took-orders-from-an-attacker-every-five-minutes",
         "https://x.com/satyanadella/status/2080329851127669104",
         "https://techcrunch.com/2026/07/23/google-closes-in-on-another-billion-user-product-with-gemini",
@@ -1985,6 +1986,7 @@
         "https://openrouter.ai/blog/tutorials/transcription-on-openrouter",
         "https://www.ithome.com/0/979/815.htm",
         "https://x.com/OpenRouter/status/2079686435247186015",
+        "https://x.com/gdb/status/2079669811714683186",
         "https://ads.openai.com",
         "https://x.com/opencode/status/2079631772770242808",
         "https://blog.exe.dev/claude-is-not-a-compiler",
@@ -2251,11 +2253,9 @@
         "https://x.com/elonmusk/status/2074378653501128833",
         "https://x.com/emollick/status/2074348274136346871",
         "https://arxiv.org/abs/2607.05722",
-        "https://arxiv.org/abs/2607.06291",
-        "https://huggingface.co/blog/skypilot-hf-storage",
-        "https://www.tomtunguz.com/the-10b-fde-boom"
+        "https://arxiv.org/abs/2607.06291"
       ],
-      "last_changed_at": "2026-07-23T20:31:51.645584Z"
+      "last_changed_at": "2026-07-23T22:34:12.536058Z"
     }
   }
 }
