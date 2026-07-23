@@ -637,28 +637,28 @@
       "last_checked_at": "2026-07-02T04:51:58.871155Z",
       "baseline_initialized": true,
       "repos": {
-        "QwenLM/qwen-code": "2026-07-23T17:57:21Z",
+        "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
+        "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
+        "QwenLM/Qwen-Agent": "2026-03-04T08:15:07Z",
+        "QwenLM/Qwen-Image": "2026-02-10T07:37:37Z",
+        "QwenLM/qwen-code": "2026-07-23T19:16:53Z",
+        "QwenLM/FlashQLA": "2026-07-15T11:00:23Z",
         "QwenLM/Qwen-AgentWorld": "2026-07-20T11:52:07Z",
         "QwenLM/Qwen3-Coder": "2026-03-24T08:22:10Z",
-        "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
         "QwenLM/Qwen-RobotNav": "2026-06-30T03:01:19Z",
-        "QwenLM/Qwen-Agent": "2026-03-04T08:15:07Z",
-        "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
         "QwenLM/Qwen-Audio": "2024-07-05T09:17:49Z",
         "QwenLM/Qwen3-Embedding": "2025-09-30T06:10:27Z",
         "QwenLM/Qwen2.5-Omni": "2025-06-12T11:03:07Z",
         "QwenLM/Qwen-VL": "2024-08-07T02:37:06Z",
         "QwenLM/Qwen3.6": "2026-06-03T12:14:19Z",
         "QwenLM/Qwen": "2026-03-05T13:55:17Z",
-        "QwenLM/Qwen-Image": "2026-02-10T07:37:37Z",
         "QwenLM/AutoIF": "2024-07-25T05:43:27Z",
-        "QwenLM/FlashQLA": "2026-07-15T11:00:23Z",
         "QwenLM/Qwen3-ASR": "2026-06-26T08:20:17Z",
         "QwenLM/Qwen-Image-Layered": "2025-12-31T11:40:35Z",
         "QwenLM/Qwen3-Omni": "2026-04-23T10:58:01Z",
         "QwenLM/Qwen3": "2026-01-09T03:05:47Z"
       },
-      "last_changed_at": "2026-07-23T17:59:05.930738Z",
+      "last_changed_at": "2026-07-23T19:17:27.287273Z",
       "source_signature": "ddc0d8d3788b1fc4ba6779bc400a51934ce7ac0845fbfff67f906a6d77406e21",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -667,16 +667,17 @@
       "last_checked_at": "2026-07-02T04:52:01.889603Z",
       "baseline_initialized": true,
       "repos": {
-        "Tencent-Hunyuan/HunyuanOCR": "2026-07-22T05:23:16Z",
         "Tencent-Hunyuan/Hunyuan3D-2.1": "2025-10-17T10:10:07Z",
         "Tencent-Hunyuan/HunyuanVideo": "2026-06-29T09:33:50Z",
+        "Tencent-Hunyuan/HunyuanVideo-I2V": "2026-04-07T06:13:09Z",
+        "Tencent-Hunyuan/HY-Embodied": "2026-07-15T11:54:12Z",
+        "Tencent-Hunyuan/HunyuanOCR": "2026-07-22T05:23:16Z",
         "Tencent-Hunyuan/Hunyuan3D-2": "2025-10-28T09:58:12Z",
         "Tencent-Hunyuan/HunyuanWorld-1.0": "2026-04-15T17:27:25Z",
         "Tencent-Hunyuan/HunyuanImage-3.0": "2026-06-23T13:12:44Z",
         "Tencent-Hunyuan/Hy-Embodied-0.5-VLA": "2026-07-09T09:42:43Z",
         "Tencent-Hunyuan/HY-WorldPlay": "2026-06-10T07:10:23Z",
         "Tencent-Hunyuan/GradLoc": "2026-02-16T09:17:25Z",
-        "Tencent-Hunyuan/HY-Embodied": "2026-07-15T11:54:12Z",
         "Tencent-Hunyuan/HiLS-Attention": "2026-07-14T13:10:25Z",
         "Tencent-Hunyuan/Hy3-preview": "2026-04-23T15:09:16Z",
         "Tencent-Hunyuan/Hy3": "2026-07-17T10:11:52Z",
@@ -685,10 +686,9 @@
         "Tencent-Hunyuan/HY-WU": "2026-03-18T09:24:59Z",
         "Tencent-Hunyuan/UniRL": "2026-07-23T06:56:51Z",
         "Tencent-Hunyuan/Hyra-results": "2026-07-20T15:43:18Z",
-        "Tencent-Hunyuan/HY-World-2.0": "2026-05-27T07:25:04Z",
-        "Tencent-Hunyuan/HunyuanVideo-Foley": "2025-09-28T17:48:49Z"
+        "Tencent-Hunyuan/HY-World-2.0": "2026-05-27T07:25:04Z"
       },
-      "last_changed_at": "2026-07-23T16:39:15.582612Z",
+      "last_changed_at": "2026-07-23T19:17:27.287273Z",
       "source_signature": "637ce9b3bc2d070666c42f5fd92e749870848ee35ed6d4c156f831c9bc8f2d04",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -1949,11 +1949,12 @@
     },
     "aihot-selected": {
       "last_raw_count": 50,
-      "last_polled_at": "2026-07-23T17:59:05.930738Z",
+      "last_polled_at": "2026-07-23T19:17:27.287273Z",
       "source_signature": "54b0a2ce37b31eed7de5728f2ad3467d3fff1ec95a53a03f9ee11a9fa197fda4",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-09T08:44:50.779962Z",
       "seen_keys": [
+        "https://stephenfollows.com/p/what-just-happened-to-thenumberscom-should-worry-us-all",
         "https://the-decoder.com/one-tampered-chatgpt-link-could-spawn-a-rogue-ai-agent-that-took-orders-from-an-attacker-every-five-minutes",
         "https://x.com/satyanadella/status/2080329851127669104",
         "https://techcrunch.com/2026/07/23/google-closes-in-on-another-billion-user-product-with-gemini",
@@ -2252,7 +2253,7 @@
         "https://www.tomtunguz.com/the-10b-fde-boom",
         "https://openrouter.ai/blog/insights/image-detail-low-cost"
       ],
-      "last_changed_at": "2026-07-23T17:59:10.614443Z"
+      "last_changed_at": "2026-07-23T19:17:28.335740Z"
     }
   }
 }
