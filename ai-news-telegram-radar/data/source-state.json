@@ -637,17 +637,17 @@
       "last_checked_at": "2026-07-02T04:51:58.871155Z",
       "baseline_initialized": true,
       "repos": {
-        "QwenLM/qwen-code": "2026-07-23T23:09:37Z",
+        "QwenLM/qwen-code": "2026-07-24T00:56:04Z",
+        "QwenLM/Qwen": "2026-03-05T13:55:17Z",
+        "QwenLM/Qwen-Image": "2026-02-10T07:37:37Z",
+        "QwenLM/Qwen3-ASR": "2026-06-26T08:20:17Z",
         "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
+        "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
         "QwenLM/Qwen3-Coder": "2026-03-24T08:22:10Z",
         "QwenLM/Qwen3.6": "2026-06-03T12:14:19Z",
-        "QwenLM/Qwen3-ASR": "2026-06-26T08:20:17Z",
         "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
-        "QwenLM/Qwen-Image": "2026-02-10T07:37:37Z",
-        "QwenLM/Qwen": "2026-03-05T13:55:17Z",
         "QwenLM/Qwen3-Embedding": "2025-09-30T06:10:27Z",
         "QwenLM/Qwen3-VL-Embedding": "2026-06-23T10:39:17Z",
-        "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
         "QwenLM/Qwen-Agent": "2026-03-04T08:15:07Z",
         "QwenLM/FlashQLA": "2026-07-15T11:00:23Z",
         "QwenLM/Qwen-AgentWorld": "2026-07-20T11:52:07Z",
@@ -658,7 +658,7 @@
         "QwenLM/AutoIF": "2024-07-25T05:43:27Z",
         "QwenLM/Qwen-Image-Layered": "2025-12-31T11:40:35Z"
       },
-      "last_changed_at": "2026-07-23T23:31:19.286812Z",
+      "last_changed_at": "2026-07-24T00:56:47.932053Z",
       "source_signature": "ddc0d8d3788b1fc4ba6779bc400a51934ce7ac0845fbfff67f906a6d77406e21",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -1949,11 +1949,12 @@
     },
     "aihot-selected": {
       "last_raw_count": 50,
-      "last_polled_at": "2026-07-23T23:31:19.286812Z",
+      "last_polled_at": "2026-07-24T00:56:47.932053Z",
       "source_signature": "54b0a2ce37b31eed7de5728f2ad3467d3fff1ec95a53a03f9ee11a9fa197fda4",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-09T08:44:50.779962Z",
       "seen_keys": [
+        "https://www.ithome.com/0/980/890.htm",
         "https://www.darpa.mil/news/2026/darpa-us-air-force-fly-ai-controlled-f-16",
         "https://claude.com/blog/think-through-hard-problems-in-voice-mode",
         "https://x.com/OpenAI/status/2080378182469857576",
@@ -2252,10 +2253,9 @@
         "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api",
         "https://spectrum.ieee.org/small-language-models-ai-pharmaceuticals",
         "https://x.com/elonmusk/status/2074378653501128833",
-        "https://x.com/emollick/status/2074348274136346871",
-        "https://arxiv.org/abs/2607.05722"
+        "https://x.com/emollick/status/2074348274136346871"
       ],
-      "last_changed_at": "2026-07-23T23:31:19.632439Z"
+      "last_changed_at": "2026-07-24T00:56:48.403740Z"
     }
   }
 }
