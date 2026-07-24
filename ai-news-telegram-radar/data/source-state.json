@@ -639,7 +639,9 @@
       "last_checked_at": "2026-07-02T04:51:58.871155Z",
       "baseline_initialized": true,
       "repos": {
-        "QwenLM/qwen-code": "2026-07-24T22:08:25Z",
+        "QwenLM/qwen-code": "2026-07-24T22:43:55Z",
+        "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
+        "QwenLM/Qwen3.6": "2026-06-03T12:14:19Z",
         "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
         "QwenLM/Qwen": "2026-03-05T13:55:17Z",
         "QwenLM/Qwen-Image": "2026-02-10T07:37:37Z",
@@ -649,7 +651,6 @@
         "QwenLM/Confident-Decoding": "2026-06-30T12:01:11Z",
         "QwenLM/Qwen3-ASR": "2026-06-26T08:20:17Z",
         "QwenLM/Qwen3-Coder": "2026-03-24T08:22:10Z",
-        "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
         "QwenLM/FlashQLA": "2026-07-24T04:12:25Z",
         "QwenLM/open-computer-use": "2026-06-10T16:38:07Z",
         "QwenLM/Qwen2.5-Omni": "2025-06-12T11:03:07Z",
@@ -657,10 +658,9 @@
         "QwenLM/Qwen-VL": "2024-08-07T02:37:06Z",
         "QwenLM/Qwen3-Embedding": "2025-09-30T06:10:27Z",
         "QwenLM/Qwen-Audio": "2024-07-05T09:17:49Z",
-        "QwenLM/Qwen-RobotNav": "2026-06-30T03:01:19Z",
-        "QwenLM/Qwen3-Omni": "2026-04-23T10:58:01Z"
+        "QwenLM/Qwen-RobotNav": "2026-06-30T03:01:19Z"
       },
-      "last_changed_at": "2026-07-24T22:17:41.528112Z",
+      "last_changed_at": "2026-07-24T23:18:19.385356Z",
       "source_signature": "ddc0d8d3788b1fc4ba6779bc400a51934ce7ac0845fbfff67f906a6d77406e21",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -669,6 +669,8 @@
       "last_checked_at": "2026-07-02T04:52:01.889603Z",
       "baseline_initialized": true,
       "repos": {
+        "Tencent-Hunyuan/HunyuanVideo-1.5": "2026-04-10T06:14:59Z",
+        "Tencent-Hunyuan/HY-SOAR": "2026-04-21T16:45:31Z",
         "Tencent-Hunyuan/HunyuanVideo": "2026-06-29T09:33:50Z",
         "Tencent-Hunyuan/Hy3": "2026-07-17T10:11:52Z",
         "Tencent-Hunyuan/Hy-MT2": "2026-06-30T07:17:36Z",
@@ -684,13 +686,11 @@
         "Tencent-Hunyuan/HunyuanWorld-1.0": "2026-04-15T17:27:25Z",
         "Tencent-Hunyuan/Hy-Embodied-0.5-VLA": "2026-07-09T09:42:43Z",
         "Tencent-Hunyuan/Hunyuan3D-1": "2025-11-19T07:07:41Z",
-        "Tencent-Hunyuan/HunyuanVideo-1.5": "2026-04-10T06:14:59Z",
         "Tencent-Hunyuan/HiLS-Attention": "2026-07-14T13:10:25Z",
         "Tencent-Hunyuan/Hunyuan3D-2.1": "2025-10-17T10:10:07Z",
-        "Tencent-Hunyuan/MixGRPO": "2026-07-01T10:49:26Z",
-        "Tencent-Hunyuan/CL-bench": "2026-05-12T06:58:41Z"
+        "Tencent-Hunyuan/MixGRPO": "2026-07-01T10:49:26Z"
       },
-      "last_changed_at": "2026-07-24T21:13:58.902789Z",
+      "last_changed_at": "2026-07-24T23:18:19.385356Z",
       "source_signature": "637ce9b3bc2d070666c42f5fd92e749870848ee35ed6d4c156f831c9bc8f2d04",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -1974,11 +1974,12 @@
     },
     "aihot-selected": {
       "last_raw_count": 50,
-      "last_polled_at": "2026-07-24T22:17:41.528112Z",
+      "last_polled_at": "2026-07-24T23:18:19.385356Z",
       "source_signature": "54b0a2ce37b31eed7de5728f2ad3467d3fff1ec95a53a03f9ee11a9fa197fda4",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-09T08:44:50.779962Z",
       "seen_keys": [
+        "https://updates.midjourney.com/version-8-2",
         "https://www.cnbc.com/2026/07/24/nvidia-microsoft-meta-open-weight-ai-models.html",
         "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models",
         "https://www.anthropic.com/news/claude-opus-5",
@@ -2277,10 +2278,9 @@
         "https://techcrunch.com/2026/07/09/elon-musk-praises-mythos-fable-promises-not-to-cut-off-anthropic",
         "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
         "https://x.com/krea_ai/status/2074589965653303321",
-        "https://x.com/AIatMeta/status/2074577662840832382",
-        "https://the-decoder.com/copilot-goes-cheap-as-microsoft-phases-out-openai-and-anthropic-models-to-cut-costs"
+        "https://x.com/AIatMeta/status/2074577662840832382"
       ],
-      "last_changed_at": "2026-07-24T20:03:01.954748Z"
+      "last_changed_at": "2026-07-24T23:18:20.469570Z"
     }
   }
 }
