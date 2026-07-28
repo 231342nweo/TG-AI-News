@@ -353,28 +353,28 @@
       "last_checked_at": "2026-07-02T04:51:33.967446Z",
       "baseline_initialized": true,
       "repos": {
-        "deepseek-ai/DeepSeek-V3": "2025-08-28T03:24:37Z",
-        "deepseek-ai/DeepSeek-LLM": "2024-02-04T12:22:16Z",
-        "deepseek-ai/DeepSeek-Coder-V2": "2025-11-11T06:44:45Z",
-        "deepseek-ai/DeepSeek-R1": "2025-06-27T08:35:54Z",
-        "deepseek-ai/open-infra-index": "2025-05-15T02:00:43Z",
-        "deepseek-ai/DeepSeek-OCR-2": "2026-02-03T00:34:18Z",
-        "deepseek-ai/DeepSeek-OCR": "2026-01-27T03:45:14Z",
-        "deepseek-ai/Janus": "2025-02-01T07:58:29Z",
+        "deepseek-ai/FlashMLA": "2026-07-28T06:18:26Z",
+        "deepseek-ai/awesome-deepseek-integration": "2026-02-23T16:27:47Z",
+        "deepseek-ai/DeepSeek-Math": "2024-04-15T07:55:37Z",
+        "deepseek-ai/3FS": "2026-05-07T09:31:54Z",
         "deepseek-ai/awesome-deepseek-agent": "2026-06-17T01:24:37Z",
         "deepseek-ai/DeepSeek-VL2": "2025-02-26T05:03:42Z",
-        "deepseek-ai/Engram": "2026-01-14T01:13:02Z",
+        "deepseek-ai/DeepSeek-R1": "2025-06-27T08:35:54Z",
+        "deepseek-ai/DeepSeek-V3": "2025-08-28T03:24:37Z",
         "deepseek-ai/DeepSpec": "2026-07-09T04:37:14Z",
-        "deepseek-ai/awesome-deepseek-integration": "2026-02-23T16:27:47Z",
+        "deepseek-ai/Engram": "2026-01-14T01:13:02Z",
+        "deepseek-ai/DeepSeek-OCR-2": "2026-02-03T00:34:18Z",
         "deepseek-ai/DeepSeek-Coder": "2025-11-11T06:44:56Z",
-        "deepseek-ai/3FS": "2026-05-07T09:31:54Z",
-        "deepseek-ai/FlashMLA": "2026-07-28T06:18:26Z",
+        "deepseek-ai/DeepSeek-LLM": "2024-02-04T12:22:16Z",
+        "deepseek-ai/DeepSeek-Coder-V2": "2025-11-11T06:44:45Z",
+        "deepseek-ai/open-infra-index": "2025-05-15T02:00:43Z",
+        "deepseek-ai/DeepSeek-OCR": "2026-01-27T03:45:14Z",
+        "deepseek-ai/Janus": "2025-02-01T07:58:29Z",
         "deepseek-ai/DeepEP": "2026-07-27T07:30:57Z",
         "deepseek-ai/LPLB": "2025-11-19T07:20:35Z",
-        "deepseek-ai/profile-data": "2025-03-21T02:23:51Z",
-        "deepseek-ai/DualPipe": "2026-01-14T06:34:59Z"
+        "deepseek-ai/profile-data": "2025-03-21T02:23:51Z"
       },
-      "last_changed_at": "2026-07-28T18:20:44.677458Z",
+      "last_changed_at": "2026-07-28T21:00:35.250241Z",
       "source_signature": "e247a4022cc1b9d1fcca44981d9eb5c7892416a57bcff15ec2fe2fc72cfd972e",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -641,7 +641,9 @@
       "baseline_initialized": true,
       "repos": {
         "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
-        "QwenLM/qwen-code": "2026-07-28T19:55:34Z",
+        "QwenLM/qwen-code": "2026-07-28T20:07:00Z",
+        "QwenLM/Qwen-AgentWorld": "2026-07-20T11:52:07Z",
+        "QwenLM/FlashQLA": "2026-07-28T09:24:24Z",
         "QwenLM/Qwen3.6": "2026-06-03T12:14:19Z",
         "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
         "QwenLM/Qwen": "2026-03-05T13:55:17Z",
@@ -656,12 +658,10 @@
         "QwenLM/Qwen-VLA": "2026-05-29T13:49:38Z",
         "QwenLM/Qwen-VL": "2024-08-07T02:37:06Z",
         "QwenLM/qwenlm.github.io": "2026-01-21T12:15:45Z",
-        "QwenLM/FlashQLA": "2026-07-28T09:24:24Z",
         "QwenLM/Qwen-Image-Bench": "2026-06-18T10:00:04Z",
-        "QwenLM/Qwen-Audio": "2024-07-05T09:17:49Z",
-        "QwenLM/Qwen3-VL-Embedding": "2026-06-23T10:39:17Z"
+        "QwenLM/Qwen-Audio": "2024-07-05T09:17:49Z"
       },
-      "last_changed_at": "2026-07-28T19:56:12.280138Z",
+      "last_changed_at": "2026-07-28T21:00:35.250241Z",
       "source_signature": "ddc0d8d3788b1fc4ba6779bc400a51934ce7ac0845fbfff67f906a6d77406e21",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -2002,11 +2002,16 @@
     },
     "aihot-selected": {
       "last_raw_count": 50,
-      "last_polled_at": "2026-07-28T19:56:12.280138Z",
+      "last_polled_at": "2026-07-28T21:00:35.250241Z",
       "source_signature": "54b0a2ce37b31eed7de5728f2ad3467d3fff1ec95a53a03f9ee11a9fa197fda4",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-09T08:44:50.779962Z",
       "seen_keys": [
+        "https://x.com/ClementDelangue/status/2082201245813514613",
+        "https://x.com/OpenAIDevs/status/2082201169443905798",
+        "https://www.anthropic.com/research/discovering-cryptographic-weaknesses",
+        "https://x.com/AndrewYNg/status/2082199333920027009",
+        "https://techcrunch.com/2026/07/28/sam-altman-is-ready-to-decelerate",
         "https://the-decoder.com/anthropic-says-its-mythos-model-found-vulnerabilities-in-cryptographic-algorithms-that-secure-the-internet",
         "https://x.com/AnthropicAI/status/2082153297670992134",
         "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks",
@@ -2301,14 +2306,9 @@
         "https://x.com/OpenBMB/status/2075218678027850154",
         "https://x.com/AIatMeta/status/2075218647359111460",
         "https://www.anthropic.com/news/reflect-with-claude",
-        "https://www.ithome.com/0/974/744.htm",
-        "https://mp.weixin.qq.com/s/iCq4jVlTdKOt74zAMYIIdw",
-        "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
-        "https://openai.com/index/gpt-5-6",
-        "https://x.com/dotey/status/2076372677577576864",
-        "https://www.marktechpost.com/2026/07/09/nvidia-releases-nemotron-labs-3-puzzle-75b-a9b-a-compressed-hybrid-moe-llm-delivering-2-03x-server-throughput-at-matched-user-throughput"
+        "https://www.ithome.com/0/974/744.htm"
       ],
-      "last_changed_at": "2026-07-28T19:56:15.147151Z"
+      "last_changed_at": "2026-07-28T21:00:36.430495Z"
     }
   }
 }
