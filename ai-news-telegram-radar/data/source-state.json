@@ -353,6 +353,7 @@
       "last_checked_at": "2026-07-02T04:51:33.967446Z",
       "baseline_initialized": true,
       "repos": {
+        "deepseek-ai/DeepGEMM": "2026-07-20T08:52:06Z",
         "deepseek-ai/FlashMLA": "2026-07-28T06:18:26Z",
         "deepseek-ai/awesome-deepseek-integration": "2026-02-23T16:27:47Z",
         "deepseek-ai/DeepSeek-Math": "2024-04-15T07:55:37Z",
@@ -371,10 +372,9 @@
         "deepseek-ai/DeepSeek-OCR": "2026-01-27T03:45:14Z",
         "deepseek-ai/Janus": "2025-02-01T07:58:29Z",
         "deepseek-ai/DeepEP": "2026-07-27T07:30:57Z",
-        "deepseek-ai/LPLB": "2025-11-19T07:20:35Z",
-        "deepseek-ai/profile-data": "2025-03-21T02:23:51Z"
+        "deepseek-ai/LPLB": "2025-11-19T07:20:35Z"
       },
-      "last_changed_at": "2026-07-28T21:00:35.250241Z",
+      "last_changed_at": "2026-07-28T22:07:32.488066Z",
       "source_signature": "e247a4022cc1b9d1fcca44981d9eb5c7892416a57bcff15ec2fe2fc72cfd972e",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -640,8 +640,8 @@
       "last_checked_at": "2026-07-02T04:51:58.871155Z",
       "baseline_initialized": true,
       "repos": {
+        "QwenLM/qwen-code": "2026-07-28T22:05:43Z",
         "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
-        "QwenLM/qwen-code": "2026-07-28T20:07:00Z",
         "QwenLM/Qwen-AgentWorld": "2026-07-20T11:52:07Z",
         "QwenLM/FlashQLA": "2026-07-28T09:24:24Z",
         "QwenLM/Qwen3.6": "2026-06-03T12:14:19Z",
@@ -661,7 +661,7 @@
         "QwenLM/Qwen-Image-Bench": "2026-06-18T10:00:04Z",
         "QwenLM/Qwen-Audio": "2024-07-05T09:17:49Z"
       },
-      "last_changed_at": "2026-07-28T21:00:35.250241Z",
+      "last_changed_at": "2026-07-28T22:07:32.488066Z",
       "source_signature": "ddc0d8d3788b1fc4ba6779bc400a51934ce7ac0845fbfff67f906a6d77406e21",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -2002,16 +2002,11 @@
     },
     "aihot-selected": {
       "last_raw_count": 50,
-      "last_polled_at": "2026-07-28T21:00:35.250241Z",
+      "last_polled_at": "2026-07-28T22:07:32.488066Z",
       "source_signature": "54b0a2ce37b31eed7de5728f2ad3467d3fff1ec95a53a03f9ee11a9fa197fda4",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-09T08:44:50.779962Z",
       "seen_keys": [
-        "https://x.com/ClementDelangue/status/2082201245813514613",
-        "https://x.com/OpenAIDevs/status/2082201169443905798",
-        "https://www.anthropic.com/research/discovering-cryptographic-weaknesses",
-        "https://x.com/AndrewYNg/status/2082199333920027009",
-        "https://techcrunch.com/2026/07/28/sam-altman-is-ready-to-decelerate",
         "https://the-decoder.com/anthropic-says-its-mythos-model-found-vulnerabilities-in-cryptographic-algorithms-that-secure-the-internet",
         "https://x.com/AnthropicAI/status/2082153297670992134",
         "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks",
@@ -2062,6 +2057,11 @@
         "https://x.com/satyanadella/status/2080329851127669104",
         "https://developer.ant-ling.com/zh-CN/blogs/ling-3.0-flash-release",
         "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models",
+        "https://x.com/ClementDelangue/status/2082201245813514613",
+        "https://x.com/OpenAIDevs/status/2082201169443905798",
+        "https://www.anthropic.com/research/discovering-cryptographic-weaknesses",
+        "https://x.com/AndrewYNg/status/2082199333920027009",
+        "https://techcrunch.com/2026/07/28/sam-altman-is-ready-to-decelerate",
         "https://www.anthropic.com/news/claude-opus-5",
         "https://techcrunch.com/2026/07/23/google-closes-in-on-another-billion-user-product-with-gemini",
         "https://www.theverge.com/podcast/968787/apple-openai-trade-secrets-lawsuit-ai-hardware-smartphone-jony-ive",
@@ -2308,7 +2308,7 @@
         "https://www.anthropic.com/news/reflect-with-claude",
         "https://www.ithome.com/0/974/744.htm"
       ],
-      "last_changed_at": "2026-07-28T21:00:36.430495Z"
+      "last_changed_at": "2026-07-28T22:07:43.608521Z"
     }
   }
 }
