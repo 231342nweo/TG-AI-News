@@ -383,28 +383,28 @@
       "last_checked_at": "2026-07-02T04:51:37.867265Z",
       "baseline_initialized": true,
       "repos": {
-        "MoonshotAI/Kimi-Linear": "2025-11-17T09:36:48Z",
         "MoonshotAI/Kimi-K3": "2026-07-28T11:48:27Z",
-        "MoonshotAI/MoonEP": "2026-07-28T01:37:11Z",
         "MoonshotAI/kimi-code": "2026-07-28T18:39:38Z",
+        "MoonshotAI/MoonEP": "2026-07-28T01:37:11Z",
         "MoonshotAI/FlashKDA": "2026-07-28T15:33:43Z",
-        "MoonshotAI/Kimi-K2.5": "2026-01-31T00:49:42Z",
+        "MoonshotAI/MoBA": "2025-04-03T07:28:06Z",
         "MoonshotAI/Kimi-K2": "2026-01-21T05:33:12Z",
-        "MoonshotAI/minitriton": "2026-07-27T13:49:08Z",
         "MoonshotAI/kimi-cli": "2026-07-16T10:05:51Z",
+        "MoonshotAI/Kimi-Linear": "2025-11-17T09:36:48Z",
+        "MoonshotAI/nano-kpu": "2026-07-23T08:06:38Z",
+        "MoonshotAI/PerceptionBench": "2026-07-27T19:40:42Z",
+        "MoonshotAI/Kimi-K2.5": "2026-01-31T00:49:42Z",
+        "MoonshotAI/minitriton": "2026-07-27T13:49:08Z",
         "MoonshotAI/Attention-Residuals": "2026-03-17T06:23:11Z",
         "MoonshotAI/Moonlight": "2025-08-03T06:31:18Z",
-        "MoonshotAI/PerceptionBench": "2026-07-27T19:40:42Z",
         "MoonshotAI/pykaos": "2025-12-26T14:52:32Z",
         "MoonshotAI/Kimi-Dev": "2025-09-30T02:15:54Z",
         "MoonshotAI/Kimi-Audio": "2025-06-21T15:30:28Z",
         "MoonshotAI/awesome-moonshot-api": "2024-05-22T17:15:44Z",
-        "MoonshotAI/nano-kpu": "2026-07-23T08:06:38Z",
         "MoonshotAI/Kimina-Prover-Preview": "2025-07-10T13:04:40Z",
-        "MoonshotAI/kimi-agent-sdk": "2026-05-29T05:29:38Z",
-        "MoonshotAI/Kimi-VL": "2025-07-15T15:48:21Z"
+        "MoonshotAI/kimi-agent-sdk": "2026-05-29T05:29:38Z"
       },
-      "last_changed_at": "2026-07-28T19:56:12.280138Z",
+      "last_changed_at": "2026-07-28T23:17:44.603057Z",
       "source_signature": "c925f37596aaabb84376bf83142f08b0ce08447179a5d27a52c7956a40180daa",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -640,9 +640,10 @@
       "last_checked_at": "2026-07-02T04:51:58.871155Z",
       "baseline_initialized": true,
       "repos": {
-        "QwenLM/qwen-code": "2026-07-28T22:05:43Z",
-        "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
         "QwenLM/Qwen-AgentWorld": "2026-07-20T11:52:07Z",
+        "QwenLM/Qwen3-Embedding": "2025-09-30T06:10:27Z",
+        "QwenLM/qwen-code": "2026-07-28T23:04:15Z",
+        "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
         "QwenLM/FlashQLA": "2026-07-28T09:24:24Z",
         "QwenLM/Qwen3.6": "2026-06-03T12:14:19Z",
         "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
@@ -658,10 +659,9 @@
         "QwenLM/Qwen-VLA": "2026-05-29T13:49:38Z",
         "QwenLM/Qwen-VL": "2024-08-07T02:37:06Z",
         "QwenLM/qwenlm.github.io": "2026-01-21T12:15:45Z",
-        "QwenLM/Qwen-Image-Bench": "2026-06-18T10:00:04Z",
-        "QwenLM/Qwen-Audio": "2024-07-05T09:17:49Z"
+        "QwenLM/Qwen-Image-Bench": "2026-06-18T10:00:04Z"
       },
-      "last_changed_at": "2026-07-28T22:07:32.488066Z",
+      "last_changed_at": "2026-07-28T23:17:44.603057Z",
       "source_signature": "ddc0d8d3788b1fc4ba6779bc400a51934ce7ac0845fbfff67f906a6d77406e21",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -2002,11 +2002,19 @@
     },
     "aihot-selected": {
       "last_raw_count": 50,
-      "last_polled_at": "2026-07-28T22:07:32.488066Z",
+      "last_polled_at": "2026-07-28T23:17:44.603057Z",
       "source_signature": "54b0a2ce37b31eed7de5728f2ad3467d3fff1ec95a53a03f9ee11a9fa197fda4",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-09T08:44:50.779962Z",
       "seen_keys": [
+        "https://x.com/gdb/status/2082235089539526690",
+        "https://x.com/AnthropicAI/status/2082228994653696371",
+        "https://x.com/AISafetyMemes/status/2082223372214448303",
+        "https://x.com/OpenAI/status/2082208694142730340",
+        "https://x.com/ClementDelangue/status/2082201245813514613",
+        "https://x.com/OpenAIDevs/status/2082201169443905798",
+        "https://x.com/AndrewYNg/status/2082199333920027009",
+        "https://techcrunch.com/2026/07/28/sam-altman-is-ready-to-decelerate",
         "https://the-decoder.com/anthropic-says-its-mythos-model-found-vulnerabilities-in-cryptographic-algorithms-that-secure-the-internet",
         "https://x.com/AnthropicAI/status/2082153297670992134",
         "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks",
@@ -2057,11 +2065,7 @@
         "https://x.com/satyanadella/status/2080329851127669104",
         "https://developer.ant-ling.com/zh-CN/blogs/ling-3.0-flash-release",
         "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models",
-        "https://x.com/ClementDelangue/status/2082201245813514613",
-        "https://x.com/OpenAIDevs/status/2082201169443905798",
         "https://www.anthropic.com/research/discovering-cryptographic-weaknesses",
-        "https://x.com/AndrewYNg/status/2082199333920027009",
-        "https://techcrunch.com/2026/07/28/sam-altman-is-ready-to-decelerate",
         "https://www.anthropic.com/news/claude-opus-5",
         "https://techcrunch.com/2026/07/23/google-closes-in-on-another-billion-user-product-with-gemini",
         "https://www.theverge.com/podcast/968787/apple-openai-trade-secrets-lawsuit-ai-hardware-smartphone-jony-ive",
@@ -2302,13 +2306,9 @@
         "https://developers.googleblog.com/litertjs-googles-high-performance-web-ai-inference",
         "https://www.lmsys.org/blog/2026-07-10-rocm-miles-dsv4",
         "https://www.ithome.com/0/974/782.htm",
-        "https://mistral.ai/news/manage-prompts-and-skills-in-studio",
-        "https://x.com/OpenBMB/status/2075218678027850154",
-        "https://x.com/AIatMeta/status/2075218647359111460",
-        "https://www.anthropic.com/news/reflect-with-claude",
-        "https://www.ithome.com/0/974/744.htm"
+        "https://mistral.ai/news/manage-prompts-and-skills-in-studio"
       ],
-      "last_changed_at": "2026-07-28T22:07:43.608521Z"
+      "last_changed_at": "2026-07-28T23:17:46.368290Z"
     }
   }
 }
