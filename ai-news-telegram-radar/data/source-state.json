@@ -642,11 +642,11 @@
       "baseline_initialized": true,
       "repos": {
         "QwenLM/Qwen3.6": "2026-06-03T12:14:19Z",
-        "QwenLM/qwen-code": "2026-07-29T20:56:59Z",
-        "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
-        "QwenLM/Qwen3-Coder": "2026-03-24T08:22:10Z",
+        "QwenLM/qwen-code": "2026-07-29T21:56:12Z",
         "QwenLM/Qwen-AgentWorld": "2026-07-20T11:52:07Z",
         "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
+        "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
+        "QwenLM/Qwen3-Coder": "2026-03-24T08:22:10Z",
         "QwenLM/Qwen-RobotNav": "2026-06-30T03:01:19Z",
         "QwenLM/Qwen3-ASR": "2026-06-26T08:20:17Z",
         "QwenLM/Qwen-Agent": "2026-03-04T08:15:07Z",
@@ -662,7 +662,7 @@
         "QwenLM/open-computer-use": "2026-06-10T16:38:07Z",
         "QwenLM/qwen-code-docs": "2026-07-29T08:39:10Z"
       },
-      "last_changed_at": "2026-07-29T21:04:55.493537Z",
+      "last_changed_at": "2026-07-29T22:08:07.181148Z",
       "source_signature": "ddc0d8d3788b1fc4ba6779bc400a51934ce7ac0845fbfff67f906a6d77406e21",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -671,11 +671,13 @@
       "last_checked_at": "2026-07-02T04:52:01.889603Z",
       "baseline_initialized": true,
       "repos": {
+        "Tencent-Hunyuan/Hunyuan3D-2": "2025-10-28T09:58:12Z",
+        "Tencent-Hunyuan/Hunyuan3D-Omni": "2025-10-17T10:13:05Z",
+        "Tencent-Hunyuan/HunyuanVideo": "2026-06-29T09:33:50Z",
         "Tencent-Hunyuan/Hunyuan3D-2.1": "2025-10-17T10:10:07Z",
         "Tencent-Hunyuan/Twins": "2026-07-26T19:12:22Z",
         "Tencent-Hunyuan/HY-World-2.0": "2026-05-27T07:25:04Z",
         "Tencent-Hunyuan/HunyuanImage-3.0": "2026-06-23T13:12:44Z",
-        "Tencent-Hunyuan/Hunyuan3D-2": "2025-10-28T09:58:12Z",
         "Tencent-Hunyuan/UniRL": "2026-07-29T18:40:47Z",
         "Tencent-Hunyuan/Hyra-results": "2026-07-29T17:38:19Z",
         "Tencent-Hunyuan/HunyuanWorld-1.0": "2026-04-15T17:27:25Z",
@@ -683,16 +685,14 @@
         "Tencent-Hunyuan/HunyuanVideo-1.5": "2026-04-10T06:14:59Z",
         "Tencent-Hunyuan/Hunyuan-MT": "2025-12-30T09:12:46Z",
         "Tencent-Hunyuan/HunyuanVideo-Avatar": "2025-12-16T12:32:46Z",
-        "Tencent-Hunyuan/HunyuanVideo": "2026-06-29T09:33:50Z",
         "Tencent-Hunyuan/HunyuanCustom": "2025-10-15T06:54:23Z",
         "Tencent-Hunyuan/Hunyuan-GameCraft-1.0": "2025-11-28T07:05:10Z",
         "Tencent-Hunyuan/ArtifactsBenchmark": "2025-12-30T06:38:40Z",
         "Tencent-Hunyuan/HunyuanDiT": "2025-11-27T06:37:00Z",
         "Tencent-Hunyuan/Hunyuan3D-1": "2025-11-19T07:07:41Z",
-        "Tencent-Hunyuan/HunyuanWorld-Voyager": "2026-04-15T17:30:08Z",
-        "Tencent-Hunyuan/HY-SOAR": "2026-04-21T16:45:31Z"
+        "Tencent-Hunyuan/HunyuanWorld-Voyager": "2026-04-15T17:30:08Z"
       },
-      "last_changed_at": "2026-07-29T20:01:54.535841Z",
+      "last_changed_at": "2026-07-29T22:08:07.181148Z",
       "source_signature": "637ce9b3bc2d070666c42f5fd92e749870848ee35ed6d4c156f831c9bc8f2d04",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -2013,7 +2013,7 @@
     },
     "aihot-selected": {
       "last_raw_count": 50,
-      "last_polled_at": "2026-07-29T21:04:55.493537Z",
+      "last_polled_at": "2026-07-29T22:08:07.181148Z",
       "source_signature": "54b0a2ce37b31eed7de5728f2ad3467d3fff1ec95a53a03f9ee11a9fa197fda4",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-09T08:44:50.779962Z",
