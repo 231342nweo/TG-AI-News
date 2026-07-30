@@ -95,22 +95,22 @@
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
     "minimax-platform": {
-      "fingerprint": "ceb57f3220ff724611bc4b59e5fe566206d5e4cc836487d51a8c835b879280f6",
+      "fingerprint": "fe9ef8ee8d75eedde898488ab43ef153b7fb714767613a4863d30bf9cae629c7",
       "last_checked_at": "2026-07-02T04:51:33.147542Z",
-      "last_excerpt": "Models - MiniMax API Docs Documentation Index Fetch the complete documentation index at: /docs/llms.txt Use this file to discover all available pages before exploring further. Skip to main content 🎉 MiniMax-M3 is now available! A Frontier Model at your fingertips for Coding & Agent. ➔ Try Now . MiniMax API Docs home page Search... ⌘ K Documentation Pricing Console Search... Navigation Get started Models Developer Guides API Token Plan Pricing Release Notes Developer Program Get started Models Quick Start Use Guides Text Video Speech Image Music MCP Local Deployment FAQs About APIs About Account Contact Us Terms & Policy Terms of Service Privacy Policy On this page Language Video Audio Music Get started Models Copy page Copy page Overview of MiniMax AI models and their capabilities Copy page Copy page ​ Language Models Description Features MiniMax-M3 Frontier multimodal coding model with 1M context window • Multimodal • 1M context window • Frontier coding MiniMax-M2.7 Beginning the journey of recursive self-improvement • Top real-world engineering • Professional office delivery • Character-rich interaction MiniMax-M2.7-highspeed Same performance as M2.7 • Significantly faster inference • Polyglot code mastery • Precision code refactoring • Low latency Legacy Models Models Description Features MiniMax-M2.5 • Optimized for code generation and refactoring • Peak Performance. Ultimate Value. Master the Complex. MiniMax-M2.5-highspeed • Same performance as M2.5 • Significantly faster inference • Polyglot code mastery • Precision code refactoring • Low latency MiniMax-M2.1 • 230B total parameters with 10B activated per inference • Optimized for code generation and refactoring • Polyglot code mastery • Precision code refactoring • Enhanced reasoning MiniMax-M2.1-highspeed • Same performance as M2.1 • Significantly faster inference • Polyglot code mastery • Precision code refactoring • Low latency MiniMax-M2 • Context Length: 200k tokens • Maximum Output: 128k tokens (including CoT) • Agentic capabilities • Function calling • Advanced reasoning • Real-time streaming ​ Video Models Description Res.& Dur. FPS MiniMax Hailuo 2.3 • Text to Video & Image to Video • SOTA instruction following • Extreme physics mastery • 1080p 6s • 768p 6s, 10s 24 fps MiniMax Hailuo 2.3Fast • Image to Video • Extreme physics mastery • Value and Efficiency • 1080p 6s • 768p 6s, 10s 24 fps Legacy Models Models Description Res.& Dur. FPS MiniMax Hailuo 02 • Text to Video & Image to Video • SOTA instruction following • Extreme physics mastery • 1080p 6s • 768p 6s, 10s • 512p 6s, 10s 24 fps ​ Audio Models Description Features speech-2.8-hd • Ultra-realistic quality featuring sound tags • 40 languages supported • 7 emotions supported • specified languages and dialects supported speech-2.8-turbo • Seamless speed meets natural flow • 40 languages supported • 7 emotions supported • specified languages and dialects supported Legacy Models Models Description Features speech-2.6-hd • Ultimate Similarity • Ultra-High Quality • 40 languages supported • 7 emotions supported • specified languages and dialects supported speech-2.6-turbo • Ultimate Value • Low latency • 40 languages supported • 7 emotions supported • specified languages and dialects supported speech-02-hd • Stronger replication similarity • High quality voice generation • 24 languages supported • 7 emotions supported • specified languages and dialects supported speech-02-turbo • Superior rhythm and stability • Low latency • 24 languages supported • 7 emotions supported • specified languages and dialects supported ​ Music Models Description Features music-3.0 • New Music Generation Capabilities • Intent Understood • Sound Elevated • Vocals Humanized music-2.6 • Cover Reborn. Bass Redefined. • Cover Reborn. Bass Redefined. music-cover • Generate cover versions from reference audio • One-step cover generation • Two-step cover with lyrics modification • Style transfer • Auto lyrics extraction Legacy Models Models ",
+      "last_excerpt": "Models - MiniMax API Docs Documentation Index Fetch the complete documentation index at: /docs/llms.txt Use this file to discover all available pages before exploring further. Skip to main content 🎉 MiniMax H3 is now available! A new-generation open general-purpose multimodal video model. ➔ View docs . MiniMax API Docs home page Search... ⌘ K Documentation Pricing Console Search... Navigation Get started Models Developer Guides API Token Plan Pricing Release Notes Developer Program Get started Models Quick Start Use Guides Text Video Speech Image Music MCP Local Deployment FAQs About APIs About Account Contact Us Terms & Policy Terms of Service Privacy Policy On this page Language Video Audio Music Get started Models Copy page Copy page Overview of MiniMax AI models and their capabilities Copy page Copy page ​ Language Models Description Features MiniMax-M3 Frontier multimodal coding model with 1M context window • Multimodal • 1M context window • Frontier coding MiniMax-M2.7 Beginning the journey of recursive self-improvement • Top real-world engineering • Professional office delivery • Character-rich interaction MiniMax-M2.7-highspeed Same performance as M2.7 • Significantly faster inference • Polyglot code mastery • Precision code refactoring • Low latency Legacy Models Models Description Features MiniMax-M2.5 • Optimized for code generation and refactoring • Peak Performance. Ultimate Value. Master the Complex. MiniMax-M2.5-highspeed • Same performance as M2.5 • Significantly faster inference • Polyglot code mastery • Precision code refactoring • Low latency MiniMax-M2.1 • 230B total parameters with 10B activated per inference • Optimized for code generation and refactoring • Polyglot code mastery • Precision code refactoring • Enhanced reasoning MiniMax-M2.1-highspeed • Same performance as M2.1 • Significantly faster inference • Polyglot code mastery • Precision code refactoring • Low latency MiniMax-M2 • Context Length: 200k tokens • Maximum Output: 128k tokens (including CoT) • Agentic capabilities • Function calling • Advanced reasoning • Real-time streaming ​ Video Models Description Res.& Dur. FPS MiniMax H3 Next-gen open general-purpose multimodal video model • Text-to-Video / Image-to-Video / First–Last Frame / Multimodal reference • Up to 2K • 5–15s 24 fps Legacy Models Models Description Res.& Dur. FPS MiniMax Hailuo 2.3 • Text to Video & Image to Video • SOTA instruction following • Extreme physics mastery • 1080p 6s • 768p 6s, 10s 24 fps MiniMax Hailuo 2.3Fast • Image to Video • Extreme physics mastery • Value and Efficiency • 1080p 6s • 768p 6s, 10s 24 fps MiniMax Hailuo 02 • Text to Video & Image to Video • SOTA instruction following • Extreme physics mastery • 1080p 6s • 768p 6s, 10s • 512p 6s, 10s 24 fps ​ Audio Models Description Features speech-2.8-hd • Ultra-realistic quality featuring sound tags • 40 languages supported • 7 emotions supported • specified languages and dialects supported speech-2.8-turbo • Seamless speed meets natural flow • 40 languages supported • 7 emotions supported • specified languages and dialects supported Legacy Models Models Description Features speech-2.6-hd • Ultimate Similarity • Ultra-High Quality • 40 languages supported • 7 emotions supported • specified languages and dialects supported speech-2.6-turbo • Ultimate Value • Low latency • 40 languages supported • 7 emotions supported • specified languages and dialects supported speech-02-hd • Stronger replication similarity • High quality voice generation • 24 languages supported • 7 emotions supported • specified languages and dialects supported speech-02-turbo • Superior rhythm and stability • Low latency • 24 languages supported • 7 emotions supported • specified languages and dialects supported ​ Music Models Description Features music-3.0 • New Music Generation Capabilities • Intent Understood • Sound Elevated • Vocals Humanized music-2.6 • Cover Reborn. Bass Redefined. • Cover Reborn. Bass Redefined. music-cover • Gener",
       "baseline_initialized": true,
       "source_signature": "7efa5264e5e772d4c753eb467c1b0c232a428981fc38afd2b8494069a2091e61",
       "baseline_reinitialized_at": "2026-07-02T10:22:21.295328Z",
-      "last_changed_at": "2026-07-16T19:07:09.911263Z"
+      "last_changed_at": "2026-07-30T23:38:42.439058Z"
     },
     "minimax-release-notes": {
-      "fingerprint": "7e7533153c03a70d10014c546c9af925b15eb614a1ce920d6f5edda85f6f2ccf",
+      "fingerprint": "727ccd80c0c315d16cd8738e84d298976053ee82c0a5a5ff643cbfdaad031a60",
       "last_checked_at": "2026-07-02T04:51:33.147542Z",
-      "last_excerpt": "Models - MiniMax API Docs Documentation Index Fetch the complete documentation index at: /docs/llms.txt Use this file to discover all available pages before exploring further. Skip to main content 🎉 MiniMax-M3 is now available! A Frontier Model at your fingertips for Coding & Agent. ➔ Try Now . MiniMax API Docs home page Search... ⌘ K Documentation Pricing Console Search... Navigation Models Developer Guides API Token Plan Pricing Release Notes Developer Program Models APIs On this page Jul. 16, 2026 Jun. 1, 2026 Apr. 2026 Mar. 18, 2026 Mar. 2026 Feb. 2026 Jan. 23, 2026 Jan. 16, 2026 Dec. 22, 2025 Oct. 29, 2025 Oct. 29, 2025 Oct. 28, 2025 Oct. 27, 2025 Sept. 11, 2025 Aug. 6, 2025 Jun. 20, 2025 Jun. 18, 2025 Apr. 2, 2025 Feb. 15, 2025 Feb. 11, 2025 Jan. 15, 2025 Models Copy page Copy page Stay updated on MiniMax’s latest model releases across language, audio, video, image, and music. Copy page Copy page ​ Jul. 16, 2026 Music-3.0 Experience the New Music Generation Capabilities Learn More ​ Jun. 1, 2026 MiniMax M3 Released MiniMax-M3, the latest M-series language model for agentic reasoning, tool use, coding, multimodal chat input, and long-context tasks. Learn More ​ Apr. 2026 Music-2.6 Cover Reborn. Bass Redefined. Learn More ​ Mar. 18, 2026 MiniMax M2.7 Released MiniMax-M2.7 series (MiniMax-M2.7 / M2.7-highspeed). Beginning the journey of recursive self-improvement. Learn More ​ Mar. 2026 Music2.5+ Released Music2.5+, Instrumental Unlocked, break through style boundaries Learn More ​ Feb. 2026 MiniMax M2.5 Released MiniMax-M2.5 series models (MiniMax-M2.5 / M2.5-highspeed). Achieving or setting new SOTA benchmarks in programming, tool calling and search, office productivity and other scenarios. Learn More ​ Jan. 23, 2026 Speech-2.8 Natural Sound Tags, lifelike voice, pristine audio quality Learn More ​ Jan. 16, 2026 Music-2.5 Released Music 2.5, Direct the Detail. Define the Real. Learn More ​ Dec. 22, 2025 MiniMax-M2.1 Released MiniMax-M2.1. Polyglot Programming Mastery, Precision Code Refactoring. Learn More ​ Oct. 29, 2025 Music-2.0 Released Music 2.0, enhanced musical expression that makes every melody deeply emotional. Learn More ​ Oct. 29, 2025 Speech-2.6 Released Speech 2.6 — More human and instantly responsive voice for your agent. Learn More ​ Oct. 28, 2025 MiniMax-Hailuo-2.3 & 2.3-Fast Released MiniMax-Hailuo-2.3 & 2.3-Fast, featuring breakthroughs in body movement, facial expressions, physical realism, and prompt adherence. Learn More ​ Oct. 27, 2025 MiniMax-M2 MiniMax-M2 Released. An Efficient Model for the Agentic Era. Get free MiniMax M2 model API calls now. Offer ends November 7, 2025, at 00:00 UTC. Learn More ​ Sept. 11, 2025 Music-1.5 New music model released. Now supports 4-minute songs, getting back to the core of great sound. Start Building ​ Aug. 6, 2025 Speech-2.5 Released a next-generation speech synthesis model featuring broader language coverage and exceptionally high voice similarity. Learn More ​ Jun. 20, 2025 Music-1.5 (Beta) Released Music-1.5 (Beta), a next-generation music generation model that supports creating music from musical prompts and lyrics. Start Building ​ Jun. 18, 2025 MiniMax-Hailuo-02 Released MiniMax Hailuo 02, a next-generation video generation model with support for 1080p resolution and video generation of up to 10 seconds. Learn More ​ Apr. 2, 2025 Speech-02-turbo / Speech-02-hd Released the Speech-02 model series, delivering hyper-realistic vocal performance. The models are distinguished by exceptional prosody and stability, along with outstanding voice similarity and audio quality. Learn More ​ Feb. 15, 2025 Image-01 Released the Image-01 model, which supports text-to-image generation in multiple sizes. Start Building ​ Feb. 11, 2025 T2V-01-Director / I2V-01-Director Released a video generation model with enhanced camera control, offering superior adherence to camera movement directives and enabling cinematic storytelling through its shot composition. Start Building ​ Jan. 15",
+      "last_excerpt": "Models - MiniMax API Docs Documentation Index Fetch the complete documentation index at: /docs/llms.txt Use this file to discover all available pages before exploring further. Skip to main content 🎉 MiniMax H3 is now available! A new-generation open general-purpose multimodal video model. ➔ View docs . MiniMax API Docs home page Search... ⌘ K Documentation Pricing Console Search... Navigation Models Developer Guides API Token Plan Pricing Release Notes Developer Program Models APIs On this page Jul. 31, 2026 Jul. 16, 2026 Jun. 1, 2026 Apr. 2026 Mar. 18, 2026 Mar. 2026 Feb. 2026 Jan. 23, 2026 Jan. 16, 2026 Dec. 22, 2025 Oct. 29, 2025 Oct. 29, 2025 Oct. 28, 2025 Oct. 27, 2025 Sept. 11, 2025 Aug. 6, 2025 Jun. 20, 2025 Jun. 18, 2025 Apr. 2, 2025 Feb. 15, 2025 Feb. 11, 2025 Jan. 15, 2025 Models Copy page Copy page Stay updated on MiniMax’s latest model releases across language, audio, video, image, and music. Copy page Copy page ​ Jul. 31, 2026 MiniMax H3 A new-generation open general-purpose multimodal video model. It understands creative intent across multimodal context — text, image, video, and audio — and delivers more natural, coherent generation and expression. Learn More ​ Jul. 16, 2026 Music-3.0 Experience the New Music Generation Capabilities Learn More ​ Jun. 1, 2026 MiniMax M3 Released MiniMax-M3, the latest M-series language model for agentic reasoning, tool use, coding, multimodal chat input, and long-context tasks. Learn More ​ Apr. 2026 Music-2.6 Cover Reborn. Bass Redefined. Learn More ​ Mar. 18, 2026 MiniMax M2.7 Released MiniMax-M2.7 series (MiniMax-M2.7 / M2.7-highspeed). Beginning the journey of recursive self-improvement. Learn More ​ Mar. 2026 Music2.5+ Released Music2.5+, Instrumental Unlocked, break through style boundaries Learn More ​ Feb. 2026 MiniMax M2.5 Released MiniMax-M2.5 series models (MiniMax-M2.5 / M2.5-highspeed). Achieving or setting new SOTA benchmarks in programming, tool calling and search, office productivity and other scenarios. Learn More ​ Jan. 23, 2026 Speech-2.8 Natural Sound Tags, lifelike voice, pristine audio quality Learn More ​ Jan. 16, 2026 Music-2.5 Released Music 2.5, Direct the Detail. Define the Real. Learn More ​ Dec. 22, 2025 MiniMax-M2.1 Released MiniMax-M2.1. Polyglot Programming Mastery, Precision Code Refactoring. Learn More ​ Oct. 29, 2025 Music-2.0 Released Music 2.0, enhanced musical expression that makes every melody deeply emotional. Learn More ​ Oct. 29, 2025 Speech-2.6 Released Speech 2.6 — More human and instantly responsive voice for your agent. Learn More ​ Oct. 28, 2025 MiniMax-Hailuo-2.3 & 2.3-Fast Released MiniMax-Hailuo-2.3 & 2.3-Fast, featuring breakthroughs in body movement, facial expressions, physical realism, and prompt adherence. Learn More ​ Oct. 27, 2025 MiniMax-M2 MiniMax-M2 Released. An Efficient Model for the Agentic Era. Get free MiniMax M2 model API calls now. Offer ends November 7, 2025, at 00:00 UTC. Learn More ​ Sept. 11, 2025 Music-1.5 New music model released. Now supports 4-minute songs, getting back to the core of great sound. Start Building ​ Aug. 6, 2025 Speech-2.5 Released a next-generation speech synthesis model featuring broader language coverage and exceptionally high voice similarity. Learn More ​ Jun. 20, 2025 Music-1.5 (Beta) Released Music-1.5 (Beta), a next-generation music generation model that supports creating music from musical prompts and lyrics. Start Building ​ Jun. 18, 2025 MiniMax-Hailuo-02 Released MiniMax Hailuo 02, a next-generation video generation model with support for 1080p resolution and video generation of up to 10 seconds. Learn More ​ Apr. 2, 2025 Speech-02-turbo / Speech-02-hd Released the Speech-02 model series, delivering hyper-realistic vocal performance. The models are distinguished by exceptional prosody and stability, along with outstanding voice similarity and audio quality. Learn More ​ Feb. 15, 2025 Image-01 Released the Image-01 model, which supports text-to-image generation in multiple sizes. S",
       "baseline_initialized": true,
       "source_signature": "a2532ebbb3dcd662b822ecda363ea5aa2b3a49b3f3b4ef58a3d0ac6ff25450f0",
       "baseline_reinitialized_at": "2026-07-02T10:22:21.295328Z",
-      "last_changed_at": "2026-07-16T19:07:09.911263Z"
+      "last_changed_at": "2026-07-30T23:38:42.439058Z"
     },
     "stepfun-platform": {
       "fingerprint": "d31222abe72f2a1bb197fe2a410337d32929de5e0857edc934fd6174ffee0634",
@@ -415,10 +415,11 @@
       "last_checked_at": "2026-07-02T04:51:40.485322Z",
       "baseline_initialized": true,
       "repos": {
-        "zai-org/Synapse": "2026-05-20T04:44:45Z",
-        "zai-org/CodeGeeX": "2024-08-13T05:59:38Z",
         "zai-org/SCAIL-2": "2026-07-16T03:20:39Z",
+        "zai-org/Synapse": "2026-05-20T04:44:45Z",
+        "zai-org/Kaleido": "2026-03-02T11:54:40Z",
         "zai-org/GLM-5": "2026-07-15T12:54:24Z",
+        "zai-org/CodeGeeX": "2024-08-13T05:59:38Z",
         "zai-org/CodeGeeX4": "2024-08-25T14:26:16Z",
         "zai-org/GLM-OCR": "2026-04-21T08:52:11Z",
         "zai-org/ChatGLM3": "2025-01-13T06:55:26Z",
@@ -433,10 +434,9 @@
         "zai-org/CogVLM": "2024-05-29T10:01:33Z",
         "zai-org/CodeGeeX2": "2024-07-10T12:34:55Z",
         "zai-org/GLM-4": "2025-07-04T04:16:36Z",
-        "zai-org/GLM-V": "2026-07-21T16:03:29Z",
-        "zai-org/GLM-4-Voice": "2024-12-05T07:10:01Z"
+        "zai-org/GLM-V": "2026-07-21T16:03:29Z"
       },
-      "last_changed_at": "2026-07-30T19:00:56.213811Z",
+      "last_changed_at": "2026-07-30T23:38:42.439058Z",
       "source_signature": "0f9d07d7983b4898dc433a8d045a96469f65dff73642f9fe1fbf73cf3299210c",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -445,28 +445,28 @@
       "last_checked_at": "2026-07-02T04:51:46.918095Z",
       "baseline_initialized": true,
       "repos": {
-        "MiniMax-AI/Mini-Agent": "2026-02-14T04:00:26Z",
         "MiniMax-AI/skills": "2026-04-18T09:48:47Z",
+        "MiniMax-AI/minimax_search": "2025-11-03T09:04:57Z",
+        "MiniMax-AI/MiniMax-M2": "2025-11-13T08:12:36Z",
         "MiniMax-AI/MSA": "2026-07-30T06:11:11Z",
-        "MiniMax-AI/MiniMax-Provider-Verifier": "2026-07-30T06:49:00Z",
+        "MiniMax-AI/MiniMax-M3": "2026-07-11T09:08:38Z",
+        "MiniMax-AI/MiniMax-M1": "2025-07-07T11:57:22Z",
+        "MiniMax-AI/Mini-Agent": "2026-02-14T04:00:26Z",
         "MiniMax-AI/cli": "2026-07-18T18:18:44Z",
+        "MiniMax-AI/MiniMax-01": "2025-07-07T12:24:30Z",
+        "MiniMax-AI/MiniMax-Provider-Verifier": "2026-07-30T06:49:00Z",
         "MiniMax-AI/MiniMax-Coding-Plan-MCP": "2026-02-10T12:01:59Z",
         "MiniMax-AI/MiniMax-MCP": "2026-05-21T03:40:18Z",
         "MiniMax-AI/VTP": "2026-04-15T07:09:46Z",
-        "MiniMax-AI/MiniMax-M1": "2025-07-07T11:57:22Z",
         "MiniMax-AI/MiniMax-M2.5": "2026-03-09T02:44:20Z",
         "MiniMax-AI/audio-tools": "2025-04-01T11:37:33Z",
-        "MiniMax-AI/MiniMax-M2": "2025-11-13T08:12:36Z",
-        "MiniMax-AI/MiniMax-01": "2025-07-07T12:24:30Z",
         "MiniMax-AI/minimax-code": "2026-06-14T16:40:13Z",
-        "MiniMax-AI/MiniMax-M3": "2026-07-11T09:08:38Z",
         "MiniMax-AI/MiniMax-M2.7": "2026-04-14T19:11:22Z",
         "MiniMax-AI/OpenRoom": "2026-06-03T23:15:42Z",
         "MiniMax-AI/SynLogic": "2025-07-07T06:03:03Z",
-        "MiniMax-AI/MiniMax-AI.github.io": "2025-11-09T07:43:01Z",
-        "MiniMax-AI/MiniMax-M2.1": "2026-01-28T08:39:36Z"
+        "MiniMax-AI/MiniMax-AI.github.io": "2025-11-09T07:43:01Z"
       },
-      "last_changed_at": "2026-07-30T08:42:23.816991Z",
+      "last_changed_at": "2026-07-30T23:38:42.439058Z",
       "source_signature": "7447070c255f24c8392151456130d2d0f151e24197208adc4a6860c7b238bc6e",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -642,17 +642,17 @@
       "last_checked_at": "2026-07-02T04:51:58.871155Z",
       "baseline_initialized": true,
       "repos": {
-        "QwenLM/Qwen-AgentWorld": "2026-07-20T11:52:07Z",
-        "QwenLM/Qwen": "2026-03-05T13:55:17Z",
-        "QwenLM/qwen-code": "2026-07-30T21:18:40Z",
-        "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
-        "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
-        "QwenLM/Qwen3-Coder": "2026-03-24T08:22:10Z",
-        "QwenLM/Qwen-RobotManip": "2026-06-29T22:29:54Z",
-        "QwenLM/Qwen2.5-Omni": "2025-06-12T11:03:07Z",
         "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
         "QwenLM/Qwen3-ASR": "2026-06-26T08:20:17Z",
+        "QwenLM/Qwen3-Coder": "2026-03-24T08:22:10Z",
+        "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
+        "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
+        "QwenLM/qwen-code": "2026-07-30T23:29:52Z",
         "QwenLM/Qwen-Image": "2026-02-10T07:37:37Z",
+        "QwenLM/Qwen-AgentWorld": "2026-07-20T11:52:07Z",
+        "QwenLM/Qwen": "2026-03-05T13:55:17Z",
+        "QwenLM/Qwen-RobotManip": "2026-06-29T22:29:54Z",
+        "QwenLM/Qwen2.5-Omni": "2025-06-12T11:03:07Z",
         "QwenLM/Qwen-VL": "2024-08-07T02:37:06Z",
         "QwenLM/Qwen3.6": "2026-06-03T12:14:19Z",
         "QwenLM/Qwen-Image-Layered": "2025-12-31T11:40:35Z",
@@ -663,7 +663,7 @@
         "QwenLM/Qwen-Audio": "2024-07-05T09:17:49Z",
         "QwenLM/Qwen2-Audio": "2025-04-21T08:50:49Z"
       },
-      "last_changed_at": "2026-07-30T21:34:29.599026Z",
+      "last_changed_at": "2026-07-30T23:38:42.439058Z",
       "source_signature": "ddc0d8d3788b1fc4ba6779bc400a51934ce7ac0845fbfff67f906a6d77406e21",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -672,6 +672,7 @@
       "last_checked_at": "2026-07-02T04:52:01.889603Z",
       "baseline_initialized": true,
       "repos": {
+        "Tencent-Hunyuan/Hy-MT2": "2026-06-30T07:17:36Z",
         "Tencent-Hunyuan/Twins": "2026-07-26T19:12:22Z",
         "Tencent-Hunyuan/Hunyuan3D-2": "2025-10-28T09:58:12Z",
         "Tencent-Hunyuan/HunyuanVideo-Avatar": "2025-12-16T12:32:46Z",
@@ -690,10 +691,9 @@
         "Tencent-Hunyuan/HY-Embodied": "2026-07-15T11:54:12Z",
         "Tencent-Hunyuan/Tencent-Hunyuan-Large": "2024-12-06T08:15:56Z",
         "Tencent-Hunyuan/HY-WorldPlay": "2026-06-10T07:10:23Z",
-        "Tencent-Hunyuan/iFSQ": "2026-01-27T14:25:02Z",
-        "Tencent-Hunyuan/HY-Video-PRFL": "2026-01-13T06:19:01Z"
+        "Tencent-Hunyuan/iFSQ": "2026-01-27T14:25:02Z"
       },
-      "last_changed_at": "2026-07-30T22:40:04.818132Z",
+      "last_changed_at": "2026-07-30T23:38:42.439058Z",
       "source_signature": "637ce9b3bc2d070666c42f5fd92e749870848ee35ed6d4c156f831c9bc8f2d04",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -1449,26 +1449,26 @@
         "https://www.tc260.org.cn/portal/article/1/f57857bcdc15494890df2022b83321cc",
         "https://www.tc260.org.cn/portal/article/1/0efe73df0f234fa5a4fce766173b5678",
         "https://www.tc260.org.cn/portal/article/1/c38f19280f2b4b5284c642a174f27d38",
-        "https://www.tc260.org.cn/portal/article/1/07d60a8d728445fbb3526ca97e3d02d9",
         "https://www.tc260.org.cn/portal/article/1/9745608fa11e46639275aa834e58b5c4",
+        "https://www.tc260.org.cn/portal/article/1/07d60a8d728445fbb3526ca97e3d02d9",
         "https://www.tc260.org.cn/portal/article/1/c5bff06b0a544674b12b89271bf8df02",
-        "https://www.tc260.org.cn/portal/article/1/4541a22bb6f542b5ae7c37ffe0d914aa",
         "https://www.tc260.org.cn/portal/article/1/a6d21a769f07420f818f6bed6797c618",
-        "https://www.tc260.org.cn/portal/article/2/9e176851622448ed8d4cf65ad2fd7782",
-        "https://www.tc260.org.cn/portal/article/2/b9304669f02244d2a97ba08b0e08e687",
-        "https://www.tc260.org.cn/portal/article/2/303471689c844e2b8f536bf54eafacfd",
+        "https://www.tc260.org.cn/portal/article/1/4541a22bb6f542b5ae7c37ffe0d914aa",
         "https://www.tc260.org.cn/portal/article/2/874620aaa2b741f19e73eb77d3ca5a62",
-        "https://www.tc260.org.cn/portal/article/2/a3794e3451db4b4f846a2b77c5891f9f",
-        "https://www.tc260.org.cn/portal/article/2/ae2e14ac130245a88039b38a7d3971a2",
         "https://www.tc260.org.cn/portal/article/2/a222aaa71da944fd8967d204b378eedf",
         "https://www.tc260.org.cn/portal/article/2/ff0d900caa5a44409f0d1e6c4bbd0023",
+        "https://www.tc260.org.cn/portal/article/2/d64b1e40d5cd4de3895e03b3cc4b4fca",
+        "https://www.tc260.org.cn/portal/article/2/b9304669f02244d2a97ba08b0e08e687",
+        "https://www.tc260.org.cn/portal/article/2/6488429d64344016b1cafb19ab05b573",
+        "https://www.tc260.org.cn/portal/article/2/303471689c844e2b8f536bf54eafacfd",
+        "https://www.tc260.org.cn/portal/article/2/ae2e14ac130245a88039b38a7d3971a2",
         "https://www.tc260.org.cn/portal/suggestion-detail/c8801e1c45954e098355a334d703a003",
         "https://www.tc260.org.cn/portal/suggestion-detail/383541def7cd40e098f635d2638b2e15",
         "https://www.tc260.org.cn/portal/suggestion-detail/ebcbdb1c877a45be8de13947b95edae3",
         "https://www.tc260.org.cn/portal/suggestion-detail/fc2b2c81ab0a4b37b59635b8349b05e8",
         "https://www.tc260.org.cn/portal/suggestion-detail/070bd0f2bab446be9e293e491a786a76",
-        "https://www.tc260.org.cn/portal/article/2/d64b1e40d5cd4de3895e03b3cc4b4fca",
-        "https://www.tc260.org.cn/portal/article/2/6488429d64344016b1cafb19ab05b573",
+        "https://www.tc260.org.cn/portal/article/2/9e176851622448ed8d4cf65ad2fd7782",
+        "https://www.tc260.org.cn/portal/article/2/a3794e3451db4b4f846a2b77c5891f9f",
         "https://www.tc260.org.cn/portal/article/2/dcc415370d074cd89580c968bde97231",
         "https://www.tc260.org.cn/portal/article/2/875bee06d56241c3a5b35b647975f3f9",
         "https://www.tc260.org.cn/portal/article/2/a36ae157bc214c41ae69ddf2fb3df247",
@@ -1507,7 +1507,7 @@
       ],
       "last_checked_at": "2026-07-02T04:52:25.829528Z",
       "baseline_initialized": true,
-      "last_changed_at": "2026-07-30T22:41:29.370666Z",
+      "last_changed_at": "2026-07-30T23:39:52.626538Z",
       "source_signature": "ac7adf7536607ad1dc8d9ca06c0f10f499a52b1893dcc2d8ec03dd7b6240b921",
       "baseline_reinitialized_at": "2026-07-02T10:23:25.737100Z"
     },
@@ -2037,11 +2037,12 @@
     },
     "aihot-selected": {
       "last_raw_count": 50,
-      "last_polled_at": "2026-07-30T22:40:04.818132Z",
+      "last_polled_at": "2026-07-30T23:38:42.439058Z",
       "source_signature": "54b0a2ce37b31eed7de5728f2ad3467d3fff1ec95a53a03f9ee11a9fa197fda4",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-09T08:44:50.779962Z",
       "seen_keys": [
+        "https://x.com/AnthropicAI/status/2082965101083320543",
         "https://techcrunch.com/2026/07/30/judge-says-trump-admin-still-lacks-evidence-for-anthropic-supply-chain-risk-label",
         "https://x.com/GeminiApp/status/2082923048362299629",
         "https://x.com/GoogleAI/status/2082902334984609936",
@@ -2340,10 +2341,9 @@
         "https://x.com/AYi_AInotes/status/2076341952023310580",
         "https://x.com/satyanadella/status/2076323181154230284",
         "https://github.com/cosmtrek/mindwalk",
-        "https://the-decoder.com/openai-ceo-altman-is-now-pretty-sure-ai-is-net-job-creating-which-is-quite-the-pivot-from-predicting-mass-layoffs",
-        "https://gist.github.com/cereblab/dc9a40bc26120f4540e4e09b75ffb547"
+        "https://the-decoder.com/openai-ceo-altman-is-now-pretty-sure-ai-is-net-job-creating-which-is-quite-the-pivot-from-predicting-mass-layoffs"
       ],
-      "last_changed_at": "2026-07-30T21:34:30.511806Z"
+      "last_changed_at": "2026-07-30T23:38:43.913158Z"
     }
   }
 }
