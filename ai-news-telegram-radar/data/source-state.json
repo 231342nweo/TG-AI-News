@@ -385,28 +385,28 @@
       "last_checked_at": "2026-07-02T04:51:37.867265Z",
       "baseline_initialized": true,
       "repos": {
-        "MoonshotAI/Kimi-K3": "2026-07-28T11:48:27Z",
-        "MoonshotAI/minitriton": "2026-07-27T13:49:08Z",
+        "MoonshotAI/nano-kpu": "2026-07-23T08:06:38Z",
+        "MoonshotAI/MoonEP": "2026-07-28T01:37:11Z",
         "MoonshotAI/kimi-code": "2026-07-30T16:41:14Z",
+        "MoonshotAI/Kimi-K3": "2026-07-28T11:48:27Z",
+        "MoonshotAI/Kimi-K2": "2026-01-21T05:33:12Z",
+        "MoonshotAI/Kimina-Prover-Preview": "2025-07-10T13:04:40Z",
+        "MoonshotAI/kimi-cli": "2026-07-16T10:05:51Z",
         "MoonshotAI/FlashKDA": "2026-07-30T07:14:39Z",
+        "MoonshotAI/Attention-Residuals": "2026-03-17T06:23:11Z",
+        "MoonshotAI/minitriton": "2026-07-27T13:49:08Z",
         "MoonshotAI/PerceptionBench": "2026-07-27T19:40:42Z",
         "MoonshotAI/Kimi-Linear": "2025-11-17T09:36:48Z",
-        "MoonshotAI/MoonEP": "2026-07-28T01:37:11Z",
-        "MoonshotAI/nano-kpu": "2026-07-23T08:06:38Z",
         "MoonshotAI/walle": "2026-07-29T16:54:02Z",
-        "MoonshotAI/Attention-Residuals": "2026-03-17T06:23:11Z",
         "MoonshotAI/Kimi-Dev": "2025-09-30T02:15:54Z",
         "MoonshotAI/Kimi-Audio": "2025-06-21T15:30:28Z",
-        "MoonshotAI/Kimi-K2": "2026-01-21T05:33:12Z",
-        "MoonshotAI/kimi-cli": "2026-07-16T10:05:51Z",
         "MoonshotAI/Kimi-K2.5": "2026-01-31T00:49:42Z",
         "MoonshotAI/Kimi-k1.5": "2025-03-07T11:16:36Z",
         "MoonshotAI/checkpoint-engine": "2026-07-04T09:26:11Z",
         "MoonshotAI/Kimi-Vendor-Verifier": "2026-07-28T08:21:49Z",
-        "MoonshotAI/CombiBench": "2026-06-15T07:35:37Z",
-        "MoonshotAI/awesome-moonshot-api": "2024-05-22T17:15:44Z"
+        "MoonshotAI/CombiBench": "2026-06-15T07:35:37Z"
       },
-      "last_changed_at": "2026-07-30T17:45:05.000856Z",
+      "last_changed_at": "2026-07-30T20:17:30.145275Z",
       "source_signature": "c925f37596aaabb84376bf83142f08b0ce08447179a5d27a52c7956a40180daa",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -642,12 +642,13 @@
       "last_checked_at": "2026-07-02T04:51:58.871155Z",
       "baseline_initialized": true,
       "repos": {
+        "QwenLM/qwen-code": "2026-07-30T19:49:55Z",
+        "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
+        "QwenLM/Qwen3-Coder": "2026-03-24T08:22:10Z",
         "QwenLM/Qwen-RobotManip": "2026-06-29T22:29:54Z",
-        "QwenLM/qwen-code": "2026-07-30T18:55:49Z",
         "QwenLM/Qwen2.5-Omni": "2025-06-12T11:03:07Z",
         "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
         "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
-        "QwenLM/Qwen3-Coder": "2026-03-24T08:22:10Z",
         "QwenLM/Qwen": "2026-03-05T13:55:17Z",
         "QwenLM/Qwen-AgentWorld": "2026-07-20T11:52:07Z",
         "QwenLM/Qwen3-ASR": "2026-06-26T08:20:17Z",
@@ -657,13 +658,12 @@
         "QwenLM/Qwen-Image-Layered": "2025-12-31T11:40:35Z",
         "QwenLM/Qwen3-Omni": "2026-04-23T10:58:01Z",
         "QwenLM/Qwen-Agent": "2026-03-04T08:15:07Z",
-        "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
         "QwenLM/Qwen2.5-Math": "2025-01-11T17:30:43Z",
         "QwenLM/Qwen-VLA": "2026-05-29T13:49:38Z",
         "QwenLM/Qwen-Audio": "2024-07-05T09:17:49Z",
         "QwenLM/Qwen2-Audio": "2025-04-21T08:50:49Z"
       },
-      "last_changed_at": "2026-07-30T19:00:56.213811Z",
+      "last_changed_at": "2026-07-30T20:17:30.145275Z",
       "source_signature": "ddc0d8d3788b1fc4ba6779bc400a51934ce7ac0845fbfff67f906a6d77406e21",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -2037,11 +2037,12 @@
     },
     "aihot-selected": {
       "last_raw_count": 50,
-      "last_polled_at": "2026-07-30T19:00:56.213811Z",
+      "last_polled_at": "2026-07-30T20:17:30.145275Z",
       "source_signature": "54b0a2ce37b31eed7de5728f2ad3467d3fff1ec95a53a03f9ee11a9fa197fda4",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-09T08:44:50.779962Z",
       "seen_keys": [
+        "https://x.com/GoogleAI/status/2082902334984609936",
         "https://x.com/OpenRouter/status/2082882158574911564",
         "https://github.blog/ai-and-ml/github-copilot/stacked-sessions-and-pull-requests-in-the-github-copilot-app",
         "https://x.com/AravSrinivas/status/2082872551538380939",
@@ -2340,10 +2341,9 @@
         "https://the-decoder.com/openai-ceo-altman-is-now-pretty-sure-ai-is-net-job-creating-which-is-quite-the-pivot-from-predicting-mass-layoffs",
         "https://gist.github.com/cereblab/dc9a40bc26120f4540e4e09b75ffb547",
         "https://www.ithome.com/0/975/666.htm",
-        "https://www.iroh.computer/blog/mesh-llm",
-        "https://x.com/thsottiaux/status/2076119366647894371"
+        "https://www.iroh.computer/blog/mesh-llm"
       ],
-      "last_changed_at": "2026-07-30T19:00:57.260393Z"
+      "last_changed_at": "2026-07-30T20:17:31.423481Z"
     }
   }
 }
