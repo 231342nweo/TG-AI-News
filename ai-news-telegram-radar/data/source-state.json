@@ -202,12 +202,12 @@
       "baseline_reinitialized_at": "2026-07-02T10:22:21.295328Z"
     },
     "volcengine-ark-models": {
-      "fingerprint": "3a2b2621b0fcb4a2f73e678d87801c4b9bf367d214f8249919e8f89f2706cd02",
+      "fingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "last_checked_at": "2026-07-02T04:51:33.147542Z",
-      "last_excerpt": "文档中心 简体 文档 控制台 登录 注册 火山方舟 文档指南 订阅 [Agent/Coding Plan] API参考 资源 火山方舟 火山方舟 文档指南 请输入 入门 产品简介 快速入门 模型列表 模型价格 最新模型：Seed-Evolving 调用 文本生成 多模态理解 图片理解 视频理解 文档理解 音频理解 视频生成 Doubao Seedance 2.0 系列教程 Doubao Seedance 2.0 系列提示词指南 视频生成教程 图片生成 Doubao Seedream 5.0 pro 教程 Doubao Seedream 5.0 pro 实现交互编辑指南 图片生成教程 领域模型 3D 生成 向量化 工具调用 工具概述 豆包助手 Web Search（联网内容插件） Image Process（图像处理） 私域知识库搜索 Knowledge Search 云部署 MCP / Remote MCP Function Calling（函数调用） 进阶使用 深度思考 上下文管理 流式输出 续写模式 上下文缓存 原理及选型 上下文缓存(Context API) 文件输入(File API) GUI Agent 能力 视觉定位 Grounding 提示词工程 结构化输出(beta) 接入三方工具 使用 Responses API 迁移至 Responses API 文本生成 深度思考 多模态理解 工具调用 上下文缓存 结构化输出(beta) 上下文编辑 推理 推理方式概述 在线推理（常规） 在线推理（低延迟） 在线推理（TPM 保障包） 在线推理（模型单元） 模型单元概述 创建模型单元 管理模型单元 批量推理 高级能力 智能模型路由 使用 MLP 推理服务 使用自定义模型进行推理 训练 模型精调 模型精调概述 有监督微调最佳实践 直接偏好优化最佳实践 强化学习最佳实践 精调 SDK 使用指南 模型精调数据集格式说明 管理自定义模型 模型评测 创建模型评测任务 查看并管理模型评测任务 评测数据集格式说明 数据集 数据集介绍 共享数据集 Managed Agents 快速上手 概述 快速入门（代码） 快速入门（控制台） 定义 Agent Agent Skills MCP Tools 工具权限策略 配置 Agent 环境 配置云环境 云沙箱参考 委派任务给 Agent 启动 Session 管理 Session Session 事件流 使用 Vaults 认证 管理 Agent 上下文 上传与挂载文件 持久化记忆 高级能力 Multi Agent 应用 应用实验室 零代码应用简介 零代码应用操作指南 低代码应用简介 高代码应用简介 高代码应用创建部署指南 服务组件库 网页解析插件功能说明 联网内容插件功能说明 联网系列插件升级为联网内容插件说明及操作指南 知识库插件功能说明 应用实验室 知识库 操作指南 文档知识问答核心流程 音视频知识问答核心流程 知识库管理 创建知识库 编辑知识库 查看知识库列表 查看知识库详情 删除知识库 知识检索 知识问答 续订知识库 退订知识库 配置实验版本 文档管理 导入文档 标签配置 删除文档 切片管理 新增切片 编辑切片 查阅切片 删除切片 知识服务管理 创建知识服务 知识服务管理 知识库配额说明 知识库分账管理 API参考 签名鉴权与调用示例 API 列表 最佳实践 MCP Server 知识型视频智能问答解决方案 视频高光提取及检索解决方案 更多最佳实践 知识库免费体验权益 SDK参考 SDK 升级与使用说明 PromptPilot PromptPilot 概述 PromptPilot 订阅管理 Prompt 生成 Prompt 调优 Prompt 批量 PromptPilot 管理 VideoPilot 功能介绍 视觉理解 Solution 评分DSL AgentPilot SDK 参考 AgentPilot OpenAPI 使用指南 VideoPilot API 文档首页 火山方舟 入门 模型列表 复制全文 下载 pdf 我的收藏 入门 模型列表 复制全文 下载 pdf 我的收藏 模型列表 文档反馈 问问助手 最近更新时间： 2026.07.20 17:28:20 这个页面对您有帮助吗？ 有用 有用 无用 无用",
+      "last_excerpt": "",
       "baseline_initialized": true,
       "baseline_invalid": true,
-      "last_changed_at": "2026-07-31T10:03:36.549149Z",
+      "last_changed_at": "2026-07-31T17:54:31.600683Z",
       "source_signature": "ab5ee375ff670169281a4aefbc9772546566386e665c24a65ec209061d7dfada",
       "baseline_reinitialized_at": "2026-07-02T10:22:21.295328Z"
     },
@@ -246,9 +246,9 @@
       ],
       "last_checked_at": "2026-07-02T04:52:05.788649Z",
       "baseline_initialized": true,
-      "last_changed_at": "2026-07-31T16:17:08.697355Z",
-      "fingerprint": "46144dab02dafc990798bbd60ed75c6c54474f476b2270e68cdd99c40b3a3a00",
-      "last_excerpt": "文档中心 简体 文档 控制台 登录 注册 火山方舟 文档指南 订阅 [Agent/Coding Plan] API参考 资源 火山方舟 火山方舟 资源 请输入 产品公告 产品更新公告 模型发布公告 模型下线公告 历史公告 2026 公告 26年春节期间访问方式调整公告 2025 公告 模型发布公告 2025 产品更新公告 2025 模型下线公告 2025 高代码 SDK Arkitect 正式发布 2024 公告 模型发布公告 2024 产品更新公告 2024 模型下线公告 2024 火山方舟 SDK V1/V2下线公告及迁移指引 模型插件联网基础版、联网plus版、联网pro版下线公告 热门活动 Seedance 2.0 系列模型资源包使用规则 协作奖励计划 免费推理额度 实践教程 Managed Agent [基础] 构建连续对话的工单分诊助手 [基础] 工单分诊 Agent 系统提示词版本管理 [进阶] 构建可持续迭代的 AI 研究交付工作台 [进阶] 构建从 CSV 到交互式报告的数据分析 Agent [进阶] 使用 Vaults 让开发 Agent 以用户身份提交 GitHub PR [进阶] 使用 Memory Store 构建有记忆的购物助手 [进阶] 用多智能体团队生成定制销售提案 [进阶] 使用 arkcli 构建集成 Vault 与 Memory 的投研 Agent Ark CLI 使用指南 方舟文档 MCP 快速入门(新手版) Seedance 1.5 pro 提示词指南 Seedance 1.0 系列提示词指南 Seedream 4.0-5.0 提示词指南 Seedream 4.0 助力 Seedance 生视频最佳实践 RAG（检索增强）解决方案 数据回流操作流程 如何设置控制台登录保持时间 角色扮演场景提示词指南 环境变量配置指南 突发流量处理最佳实践 火山方舟分账最佳实践 在应用中使用 RTC 实现 AI 实时对话 通过 TOS 内网预签名 URL 传入文件 购买指南 模型服务计费说明 TPM 保障包计费说明 联网内容插件产品计费 豆包助手计费 知识库计费 PromptPilot 计费 Seedance 2.0 高级创作权益包购买说明 方舟官方产物验证功能说明 税率与发票 权限管理 使用 IAM 管理权限 管理 API Key HYOK 最佳实践 平台功能 平台能力速览 模型广场 应用广场 体验中心 体验中心概览 语言模型 虚拟人像库 录入真人形象素材 使用版权生视频模板生成 IP 视频 图片生成模型 语音模型 开发者模式 MCP 简介 Canvas 简介 在线推理 管理推理接入点 为 AI 生成产物添加隐式水印 安心体验模式细则说明 开通管理 安全管理 控制台-推理安全审计 控制台-精调安全审计 控制台-推理接入点安全监控总览 用量统计 项目配置 网络配置 Token 计算器 安全管理 安全管理总览 内容安全护栏 火山方舟大模型服务安全白皮书 火山方舟互信计算架构白皮书 推理会话数据应用层加密方案 精调安全防护能力介绍 常见问题 常见问题 相关协议 火山方舟大模型服务平台专用条款 火山方舟体验中心服务规则和免责声明 Agent Plan / Coding Plan 火山引擎数据授权使用协议 ArkClaw 服务规则 Harness 能力说明和产品专用条款 模型服务协议 豆包模型服务协议 火山引擎豆包大模型商标使用规范 月之暗面模型服务协议 智谱AI模型服务协议 PromptPilot 服务专用条款和数据授权使用协议 影眸模型服务协议 数美模型服务协议 开源模型许可证 模型备案 客户应用上架指南-算法备案资质申请流程 大模型备案说明(含算法备案及人工智能备案) 火山方舟模型备案信息公示 MCP 云产品一键授权开通相关协议 知识库产品服务和专用条款 豆包助手专区服务专用条款和数据授权使用协议 方舟售后支持范围 版权和人像素材使用规则 文档首页 火山方舟 产品公告 产品更新公告 复制全文 下载 pdf 我的收藏 产品公告 产品更新公告 复制全文 下载 pdf 我的收藏 产品更新公告 文档反馈 问问助手 最近更新时间： 2026.07.07 18:03:10 这个页面对您有帮助吗？ 有用 有用 无用 无用",
+      "last_changed_at": "2026-07-31T17:54:31.600683Z",
+      "fingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "last_excerpt": "",
       "baseline_invalid": true,
       "source_signature": "bf1f63ca68ab1a7f10b219aa7fbc07472dde5da63456aa15a90f6ecaf31f0156",
       "baseline_reinitialized_at": "2026-07-02T10:22:21.295328Z"
@@ -418,27 +418,27 @@
       "baseline_initialized": true,
       "repos": {
         "zai-org/ChatGLM2-6B": "2024-06-27T04:05:08Z",
-        "zai-org/GLM-TTS": "2026-04-10T08:50:23Z",
+        "zai-org/GLM-130B": "2023-07-25T09:01:49Z",
+        "zai-org/ChatGLM-6B": "2024-06-27T04:05:25Z",
         "zai-org/Synapse": "2026-07-31T07:25:27Z",
+        "zai-org/Open-AutoGLM": "2026-03-06T08:38:39Z",
+        "zai-org/GLM-4": "2025-07-04T04:16:36Z",
+        "zai-org/GLM-TTS": "2026-04-10T08:50:23Z",
         "zai-org/GLM-5": "2026-07-15T12:54:24Z",
         "zai-org/SCAIL-2": "2026-07-16T03:20:39Z",
-        "zai-org/Open-AutoGLM": "2026-03-06T08:38:39Z",
         "zai-org/SSVAE": "2025-12-25T09:24:54Z",
         "zai-org/CogVLM": "2024-05-29T10:01:33Z",
         "zai-org/GLM-4.5": "2026-02-01T08:28:10Z",
         "zai-org/GLM-OCR": "2026-04-21T08:52:11Z",
         "zai-org/CogVideo": "2025-11-04T11:19:04Z",
         "zai-org/SCAIL-Pose": "2026-06-11T02:23:37Z",
-        "zai-org/ChatGLM-6B": "2024-06-27T04:05:25Z",
         "zai-org/zai-coding-plugins": "2026-02-22T15:51:20Z",
-        "zai-org/GLM-130B": "2023-07-25T09:01:49Z",
         "zai-org/GLM-4-Voice": "2024-12-05T07:10:01Z",
         "zai-org/Kaleido": "2026-03-02T11:54:40Z",
         "zai-org/CodeGeeX": "2024-08-13T05:59:38Z",
-        "zai-org/CodeGeeX4": "2024-08-25T14:26:16Z",
-        "zai-org/ChatGLM3": "2025-01-13T06:55:26Z"
+        "zai-org/CodeGeeX4": "2024-08-25T14:26:16Z"
       },
-      "last_changed_at": "2026-07-31T16:17:08.697355Z",
+      "last_changed_at": "2026-07-31T17:54:31.600683Z",
       "source_signature": "0f9d07d7983b4898dc433a8d045a96469f65dff73642f9fe1fbf73cf3299210c",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -581,12 +581,13 @@
       "last_checked_at": "2026-07-02T04:51:55.708102Z",
       "baseline_initialized": true,
       "repos": {
+        "OpenBMB/StaffDeck": "2026-07-31T09:06:32Z",
+        "OpenBMB/IoA": "2025-10-04T17:40:10Z",
+        "OpenBMB/VoxCPM": "2026-07-08T09:46:11Z",
+        "OpenBMB/ChatDev": "2026-07-24T08:01:27Z",
         "OpenBMB/MiniCPM-V": "2026-07-23T08:46:08Z",
         "OpenBMB/InfiniteBench": "2024-09-25T20:06:30Z",
         "OpenBMB/MiniCPM": "2026-07-27T06:50:07Z",
-        "OpenBMB/StaffDeck": "2026-07-31T09:06:32Z",
-        "OpenBMB/VoxCPM": "2026-07-08T09:46:11Z",
-        "OpenBMB/ChatDev": "2026-07-24T08:01:27Z",
         "OpenBMB/UltraRAG": "2026-07-30T04:11:47Z",
         "OpenBMB/AgentCPM-GUI": "2026-01-11T08:24:15Z",
         "OpenBMB/AgentCPM": "2026-02-09T13:39:47Z",
@@ -599,10 +600,9 @@
         "OpenBMB/ArcLight": "2026-05-30T02:59:35Z",
         "OpenBMB/MiniCPM-Desk-Pet": "2026-07-07T14:15:36Z",
         "OpenBMB/AgentVerse": "2024-09-09T05:47:44Z",
-        "OpenBMB/MetaMem": "2026-07-02T08:31:10Z",
-        "OpenBMB/ForgeTrain": "2026-06-17T06:14:58Z"
+        "OpenBMB/MetaMem": "2026-07-02T08:31:10Z"
       },
-      "last_changed_at": "2026-07-31T16:17:08.697355Z",
+      "last_changed_at": "2026-07-31T17:54:31.600683Z",
       "source_signature": "3dd1c4ab8bc380dc66624329d310bc65fe6deafde7a370da1191ca03b32c0764",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -644,10 +644,11 @@
       "last_checked_at": "2026-07-02T04:51:58.871155Z",
       "baseline_initialized": true,
       "repos": {
-        "QwenLM/Qwen3.6": "2026-06-03T12:14:19Z",
-        "QwenLM/qwen-code": "2026-07-31T16:04:47Z",
-        "QwenLM/Qwen-Image": "2026-02-10T07:37:37Z",
+        "QwenLM/qwen-code": "2026-07-31T17:54:10Z",
         "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
+        "QwenLM/Qwen3-Coder": "2026-03-24T08:22:10Z",
+        "QwenLM/Qwen3.6": "2026-06-03T12:14:19Z",
+        "QwenLM/Qwen-Image": "2026-02-10T07:37:37Z",
         "QwenLM/Qwen": "2026-03-05T13:55:17Z",
         "QwenLM/Qwen-Agent": "2026-03-04T08:15:07Z",
         "QwenLM/Qwen3-ASR": "2026-06-26T08:20:17Z",
@@ -661,11 +662,10 @@
         "QwenLM/Qwen-RobotManip": "2026-06-29T22:29:54Z",
         "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
         "QwenLM/WebWorld": "2026-02-25T06:29:03Z",
-        "QwenLM/Qwen3-Coder": "2026-03-24T08:22:10Z",
         "QwenLM/Qwen3-ASR-Toolkit": "2026-02-05T05:35:03Z",
         "QwenLM/Qwen3-VL-Embedding": "2026-06-23T10:39:17Z"
       },
-      "last_changed_at": "2026-07-31T16:17:08.697355Z",
+      "last_changed_at": "2026-07-31T17:54:31.600683Z",
       "source_signature": "ddc0d8d3788b1fc4ba6779bc400a51934ce7ac0845fbfff67f906a6d77406e21",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -674,17 +674,18 @@
       "last_checked_at": "2026-07-02T04:52:01.889603Z",
       "baseline_initialized": true,
       "repos": {
+        "Tencent-Hunyuan/Hunyuan3D-2": "2025-10-28T09:58:12Z",
+        "Tencent-Hunyuan/Hunyuan3D-Buffalo1.0": "2026-07-31T09:35:23Z",
         "Tencent-Hunyuan/HunyuanVideo-1.5": "2026-04-10T06:14:59Z",
         "Tencent-Hunyuan/Hunyuan3D-Part": "2025-12-05T03:43:28Z",
         "Tencent-Hunyuan/Hy-Embodied-RxBrain-1.0": "2026-07-28T09:58:49Z",
-        "Tencent-Hunyuan/UniRL": "2026-07-31T13:46:15Z",
+        "Tencent-Hunyuan/UniRL": "2026-07-31T16:22:42Z",
         "Tencent-Hunyuan/HunyuanWorld-Voyager": "2026-04-15T17:30:08Z",
         "Tencent-Hunyuan/R-DMesh": "2026-07-18T14:59:49Z",
         "Tencent-Hunyuan/HunyuanVideo-I2V": "2026-04-07T06:13:09Z",
         "Tencent-Hunyuan/HY-WorldPlay": "2026-06-10T07:10:23Z",
         "Tencent-Hunyuan/Hunyuan3D-2.1": "2025-10-17T10:10:07Z",
         "Tencent-Hunyuan/Hyra-results": "2026-07-31T05:44:23Z",
-        "Tencent-Hunyuan/Hunyuan3D-Buffalo1.0": "2026-07-31T09:35:23Z",
         "Tencent-Hunyuan/HunyuanVideo": "2026-06-29T09:33:50Z",
         "Tencent-Hunyuan/HunyuanOCR": "2026-07-29T06:29:52Z",
         "Tencent-Hunyuan/HY-World-2.0": "2026-05-27T07:25:04Z",
@@ -692,10 +693,9 @@
         "Tencent-Hunyuan/SRPO": "2026-05-11T03:51:29Z",
         "Tencent-Hunyuan/HY-Embodied": "2026-07-15T11:54:12Z",
         "Tencent-Hunyuan/HY-WU": "2026-03-18T09:24:59Z",
-        "Tencent-Hunyuan/HunyuanImage-3.0": "2026-06-23T13:12:44Z",
-        "Tencent-Hunyuan/Hunyuan3D-2": "2025-10-28T09:58:12Z"
+        "Tencent-Hunyuan/HunyuanImage-3.0": "2026-06-23T13:12:44Z"
       },
-      "last_changed_at": "2026-07-31T14:30:07.173595Z",
+      "last_changed_at": "2026-07-31T17:54:31.600683Z",
       "source_signature": "637ce9b3bc2d070666c42f5fd92e749870848ee35ed6d4c156f831c9bc8f2d04",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -2057,11 +2057,12 @@
     },
     "aihot-selected": {
       "last_raw_count": 50,
-      "last_polled_at": "2026-07-31T16:17:08.697355Z",
+      "last_polled_at": "2026-07-31T17:54:31.600683Z",
       "source_signature": "54b0a2ce37b31eed7de5728f2ad3467d3fff1ec95a53a03f9ee11a9fa197fda4",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-09T08:44:50.779962Z",
       "seen_keys": [
+        "https://x.com/AYi_AInotes/status/2083221612778668388",
         "https://x.com/OpenBMB/status/2083175856563003724",
         "https://www.ithome.com/0/984/365.htm",
         "https://dev.to/googleai/hands-on-tutorial-building-an-autonomous-financial-audit-agent-team-with-antigravity-sdk-google-13de",
@@ -2360,10 +2361,9 @@
         "https://mp.weixin.qq.com/s/s75qDGt5iNqLXyMbjpwxeQ",
         "https://x.com/SenseTime_AI/status/2076828658531262619",
         "https://arxiv.org/abs/2607.13125",
-        "https://techcrunch.com/2026/07/13/video-generation-startup-pixverse-raises-439m-valuation-soars-past-2b",
-        "https://playcode.io/blog/real-price-of-frontier-models"
+        "https://techcrunch.com/2026/07/13/video-generation-startup-pixverse-raises-439m-valuation-soars-past-2b"
       ],
-      "last_changed_at": "2026-07-31T16:17:14.669418Z"
+      "last_changed_at": "2026-07-31T17:54:32.718077Z"
     }
   }
 }
