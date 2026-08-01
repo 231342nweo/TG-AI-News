@@ -644,15 +644,15 @@
       "last_checked_at": "2026-07-02T04:51:58.871155Z",
       "baseline_initialized": true,
       "repos": {
+        "QwenLM/Qwen3-Coder": "2026-03-24T08:22:10Z",
+        "QwenLM/qwen-code": "2026-08-01T20:05:43Z",
+        "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
         "QwenLM/Qwen3-Embedding": "2025-09-30T06:10:27Z",
         "QwenLM/FlashQLA": "2026-07-28T09:24:24Z",
         "QwenLM/Qwen-Agent": "2026-03-04T08:15:07Z",
         "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
-        "QwenLM/qwen-code": "2026-08-01T19:30:49Z",
-        "QwenLM/Qwen3-Coder": "2026-03-24T08:22:10Z",
         "QwenLM/Qwen3-VL-Embedding": "2026-06-23T10:39:17Z",
         "QwenLM/Qwen": "2026-03-05T13:55:17Z",
-        "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
         "QwenLM/Qwen-Audio": "2024-07-05T09:17:49Z",
         "QwenLM/Qwen-Image": "2026-02-10T07:37:37Z",
         "QwenLM/Qwen3-ASR": "2026-06-26T08:20:17Z",
@@ -665,7 +665,7 @@
         "QwenLM/Qwen-AgentWorld": "2026-07-20T11:52:07Z",
         "QwenLM/Qwen2-Audio": "2025-04-21T08:50:49Z"
       },
-      "last_changed_at": "2026-08-01T19:30:56.841930Z",
+      "last_changed_at": "2026-08-01T20:27:21.004825Z",
       "source_signature": "ddc0d8d3788b1fc4ba6779bc400a51934ce7ac0845fbfff67f906a6d77406e21",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -2064,7 +2064,7 @@
     },
     "aihot-selected": {
       "last_raw_count": 50,
-      "last_polled_at": "2026-08-01T19:30:56.841930Z",
+      "last_polled_at": "2026-08-01T20:27:21.004825Z",
       "source_signature": "54b0a2ce37b31eed7de5728f2ad3467d3fff1ec95a53a03f9ee11a9fa197fda4",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-09T08:44:50.779962Z",
@@ -2114,6 +2114,7 @@
         "https://x.com/perplexity_ai/status/2082511900580196596",
         "https://github.com/drumih/turbo-fieldfare",
         "https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control",
+        "https://research.google/blog/science-one-framework-a-verifiable-autonomous-research-framework-via-chain-of-evidence",
         "https://techcrunch.com/2026/07/29/hint-a-new-ai-startup-co-founded-by-martha-stewart-offers-an-ai-assistant-for-homeowners",
         "https://www.dwarkesh.com/p/why-compute-might-get-10x-more-expensive",
         "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores",
@@ -2367,10 +2368,9 @@
         "https://techcrunch.com/2026/07/14/new-york-state-halts-construction-of-all-new-data-centers",
         "https://x.com/googleaidevs/status/2077049898059354565",
         "https://www.anthropic.com/news/claude-for-teachers",
-        "https://www.anthropic.com/research/how-canada-uses-claude",
-        "https://x.com/demishassabis/status/2076957440109625718"
+        "https://www.anthropic.com/research/how-canada-uses-claude"
       ],
-      "last_changed_at": "2026-08-01T11:48:36.174054Z"
+      "last_changed_at": "2026-08-01T20:27:22.347297Z"
     }
   }
 }
