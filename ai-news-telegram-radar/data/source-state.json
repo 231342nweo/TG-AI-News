@@ -644,12 +644,12 @@
       "last_checked_at": "2026-07-02T04:51:58.871155Z",
       "baseline_initialized": true,
       "repos": {
-        "QwenLM/qwen-code": "2026-08-03T21:49:46Z",
+        "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
+        "QwenLM/qwen-code": "2026-08-03T22:42:57Z",
         "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
         "QwenLM/Qwen": "2026-03-05T13:55:17Z",
         "QwenLM/Qwen3.6": "2026-06-03T12:14:19Z",
         "QwenLM/Qwen-AgentWorld": "2026-07-20T11:52:07Z",
-        "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
         "QwenLM/Qwen3-ASR": "2026-06-26T08:20:17Z",
         "QwenLM/Qwen3-Embedding": "2025-09-30T06:10:27Z",
         "QwenLM/Qwen-Agent": "2026-03-04T08:15:07Z",
@@ -665,7 +665,7 @@
         "QwenLM/Qwen-Audio": "2024-07-05T09:17:49Z",
         "QwenLM/qwen-code-examples": "2026-05-19T09:30:22Z"
       },
-      "last_changed_at": "2026-08-03T21:52:10.737130Z",
+      "last_changed_at": "2026-08-03T22:44:16.346466Z",
       "source_signature": "ddc0d8d3788b1fc4ba6779bc400a51934ce7ac0845fbfff67f906a6d77406e21",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -2066,11 +2066,12 @@
     },
     "aihot-selected": {
       "last_raw_count": 50,
-      "last_polled_at": "2026-08-03T21:52:10.737130Z",
+      "last_polled_at": "2026-08-03T22:44:16.346466Z",
       "source_signature": "54b0a2ce37b31eed7de5728f2ad3467d3fff1ec95a53a03f9ee11a9fa197fda4",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-09T08:44:50.779962Z",
       "seen_keys": [
+        "https://x.com/gdb/status/2084405421041963356",
         "https://x.com/trq212/status/2084387303959740449",
         "https://runwayml.com/news/company-news/electronic-arts-ai-summit-2026",
         "https://x.com/MSFTResearch/status/2084364547142418722",
@@ -2369,10 +2370,9 @@
         "https://core.telegram.org/bots/serverless",
         "https://x.com/thexpin/status/2077346752219521469",
         "https://openai.com/index/unlocking-self-improvement-gpt-red",
-        "https://www.ithome.com/0/977/109.htm",
-        "https://www.ithome.com/0/977/105.htm"
+        "https://www.ithome.com/0/977/109.htm"
       ],
-      "last_changed_at": "2026-08-03T21:52:11.784510Z"
+      "last_changed_at": "2026-08-03T22:44:17.957911Z"
     }
   }
 }
