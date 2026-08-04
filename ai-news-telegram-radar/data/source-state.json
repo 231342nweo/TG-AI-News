@@ -644,17 +644,17 @@
       "last_checked_at": "2026-07-02T04:51:58.871155Z",
       "baseline_initialized": true,
       "repos": {
-        "QwenLM/qwen-code": "2026-08-03T23:21:35Z",
-        "QwenLM/Qwen-RobotNav": "2026-06-30T03:01:19Z",
         "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
+        "QwenLM/Qwen-AgentWorld": "2026-07-20T11:52:07Z",
+        "QwenLM/qwen-code": "2026-08-04T01:00:38Z",
+        "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
         "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
         "QwenLM/Qwen": "2026-03-05T13:55:17Z",
-        "QwenLM/Qwen3.6": "2026-06-03T12:14:19Z",
-        "QwenLM/Qwen-AgentWorld": "2026-07-20T11:52:07Z",
         "QwenLM/Qwen3-ASR": "2026-06-26T08:20:17Z",
+        "QwenLM/Qwen-RobotNav": "2026-06-30T03:01:19Z",
+        "QwenLM/Qwen3.6": "2026-06-03T12:14:19Z",
         "QwenLM/Qwen3-Embedding": "2025-09-30T06:10:27Z",
         "QwenLM/Qwen-Agent": "2026-03-04T08:15:07Z",
-        "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
         "QwenLM/open-computer-use": "2026-06-10T16:38:07Z",
         "QwenLM/Qwen-Image": "2026-02-10T07:37:37Z",
         "QwenLM/Qwen-VLA": "2026-05-29T13:49:38Z",
@@ -665,7 +665,7 @@
         "QwenLM/Qwen3-Coder": "2026-03-24T08:22:10Z",
         "QwenLM/Qwen-Audio": "2024-07-05T09:17:49Z"
       },
-      "last_changed_at": "2026-08-03T23:48:18.873373Z",
+      "last_changed_at": "2026-08-04T01:08:47.983006Z",
       "source_signature": "ddc0d8d3788b1fc4ba6779bc400a51934ce7ac0845fbfff67f906a6d77406e21",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -1473,20 +1473,20 @@
         "https://www.tc260.org.cn/portal/article/1/a6d21a769f07420f818f6bed6797c618",
         "https://www.tc260.org.cn/portal/article/1/4541a22bb6f542b5ae7c37ffe0d914aa",
         "https://www.tc260.org.cn/portal/article/2/e0467c848e224a698badf7ded8339e63",
+        "https://www.tc260.org.cn/portal/article/2/b6d3d059836344089c3907987137fff9",
+        "https://www.tc260.org.cn/portal/article/2/c885001f2e2b4f2ca1d909afd72f83d1",
         "https://www.tc260.org.cn/portal/article/2/bdbc7f891856411e8fd70ace1cc416d8",
         "https://www.tc260.org.cn/portal/article/2/917fd7fa11c642acb995b6dc03c56141",
         "https://www.tc260.org.cn/portal/article/2/640037da350b4b459ef60810b729802b",
         "https://www.tc260.org.cn/portal/article/2/359619853f8248908d07cd0491e3b9e6",
         "https://www.tc260.org.cn/portal/article/2/c881228595f540e49abd4ee28a6a344d",
-        "https://www.tc260.org.cn/portal/article/2/84c1c63b01f7413c80cdb8d806f284fb",
-        "https://www.tc260.org.cn/portal/article/2/3f604cca6e30493286b0cb58f4f5a0fe",
         "https://www.tc260.org.cn/portal/suggestion-detail/c8801e1c45954e098355a334d703a003",
         "https://www.tc260.org.cn/portal/suggestion-detail/383541def7cd40e098f635d2638b2e15",
         "https://www.tc260.org.cn/portal/suggestion-detail/ebcbdb1c877a45be8de13947b95edae3",
         "https://www.tc260.org.cn/portal/suggestion-detail/fc2b2c81ab0a4b37b59635b8349b05e8",
         "https://www.tc260.org.cn/portal/suggestion-detail/070bd0f2bab446be9e293e491a786a76",
-        "https://www.tc260.org.cn/portal/article/2/b6d3d059836344089c3907987137fff9",
-        "https://www.tc260.org.cn/portal/article/2/c885001f2e2b4f2ca1d909afd72f83d1",
+        "https://www.tc260.org.cn/portal/article/2/84c1c63b01f7413c80cdb8d806f284fb",
+        "https://www.tc260.org.cn/portal/article/2/3f604cca6e30493286b0cb58f4f5a0fe",
         "https://www.tc260.org.cn/portal/article/2/1c87982643394f55af90291d5e49857b",
         "https://www.tc260.org.cn/portal/article/2/dcc415370d074cd89580c968bde97231",
         "https://www.tc260.org.cn/portal/article/2/a36ae157bc214c41ae69ddf2fb3df247",
@@ -1536,7 +1536,7 @@
       ],
       "last_checked_at": "2026-07-02T04:52:25.829528Z",
       "baseline_initialized": true,
-      "last_changed_at": "2026-08-03T20:50:06.824577Z",
+      "last_changed_at": "2026-08-04T01:10:08.993118Z",
       "source_signature": "ac7adf7536607ad1dc8d9ca06c0f10f499a52b1893dcc2d8ec03dd7b6240b921",
       "baseline_reinitialized_at": "2026-07-02T10:23:25.737100Z"
     },
@@ -2066,11 +2066,12 @@
     },
     "aihot-selected": {
       "last_raw_count": 50,
-      "last_polled_at": "2026-08-03T23:48:18.873373Z",
+      "last_polled_at": "2026-08-04T01:08:47.983006Z",
       "source_signature": "54b0a2ce37b31eed7de5728f2ad3467d3fff1ec95a53a03f9ee11a9fa197fda4",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-09T08:44:50.779962Z",
       "seen_keys": [
+        "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647684924&idx=1&sn=f9ecf13ac374f13dfa75f98f685a231d",
         "https://techcrunch.com/2026/08/03/after-killer-quarter-palantir-ceo-alex-karp-calls-ai-industry-marxist",
         "https://x.com/gdb/status/2084405421041963356",
         "https://x.com/trq212/status/2084387303959740449",
@@ -2105,7 +2106,6 @@
         "https://the-decoder.com/anthropic-follows-openai-in-admitting-its-claude-models-reached-out-of-test-environments-and-attacked-real-world-systems",
         "https://mp.weixin.qq.com/s?__biz=Mzg4OTc2MzczNg%3D%3D&mid=2247495889&idx=1&sn=abb72082b7b1e1b12cc7dc6e4c812a50",
         "https://www.minimax.io/blog/minimax-h3",
-        "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw%3D%3D&mid=2247508935&idx=1&sn=6199054420605cc9cb0f8f36845a9ad3",
         "https://x.com/deepseek_ai/status/2083084415157022911",
         "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647684859&idx=1&sn=29658a67b2b3ef46aead73698d900250",
         "https://www.ithome.com/0/984/130.htm",
@@ -2121,6 +2121,7 @@
         "https://x.com/GoogleAI/status/2082902334984609936",
         "https://x.com/thinkymachines/status/2082885869426631032",
         "https://x.com/OpenRouter/status/2082882158574911564",
+        "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw%3D%3D&mid=2247508935&idx=1&sn=6199054420605cc9cb0f8f36845a9ad3",
         "https://github.blog/ai-and-ml/github-copilot/stacked-sessions-and-pull-requests-in-the-github-copilot-app",
         "https://x.com/AravSrinivas/status/2082872551538380939",
         "https://api-docs.deepseek.com/zh-cn/updates",
@@ -2369,10 +2370,9 @@
         "https://mp.weixin.qq.com/s/x2JlkhOlGNVhL8oe7AVk9Q",
         "https://github.com/vshulcz/deja-vu",
         "https://x.com/ClaudeDevs/status/2077489907350856038",
-        "https://turntrout.com/why-i-left-google-deepmind",
-        "https://x.com/thinkymachines/status/2077454609551921208"
+        "https://turntrout.com/why-i-left-google-deepmind"
       ],
-      "last_changed_at": "2026-08-03T23:48:20.374249Z"
+      "last_changed_at": "2026-08-04T01:08:48.958142Z"
     }
   }
 }
