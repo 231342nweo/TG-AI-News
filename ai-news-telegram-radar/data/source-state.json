@@ -390,14 +390,16 @@
       "last_checked_at": "2026-07-02T04:51:37.867265Z",
       "baseline_initialized": true,
       "repos": {
+        "MoonshotAI/Attention-Residuals": "2026-03-17T06:23:11Z",
         "MoonshotAI/Kimi-K3": "2026-07-28T11:48:27Z",
-        "MoonshotAI/kimi-code": "2026-08-05T16:41:48Z",
+        "MoonshotAI/FlashKDA": "2026-07-30T07:14:39Z",
+        "MoonshotAI/Kimi-K2": "2026-01-21T05:33:12Z",
+        "MoonshotAI/kimi-code": "2026-08-05T18:32:13Z",
+        "MoonshotAI/Kimi-Vendor-Verifier": "2026-08-03T17:57:27Z",
         "MoonshotAI/kimi-cli": "2026-08-03T07:59:07Z",
         "MoonshotAI/K2-Vendor-Verifier": "2026-02-14T05:28:46Z",
         "MoonshotAI/MoonEP": "2026-08-04T12:08:35Z",
-        "MoonshotAI/FlashKDA": "2026-07-30T07:14:39Z",
         "MoonshotAI/Kimi-Linear": "2025-11-17T09:36:48Z",
-        "MoonshotAI/Kimi-K2": "2026-01-21T05:33:12Z",
         "MoonshotAI/Kimi-Audio": "2025-06-21T15:30:28Z",
         "MoonshotAI/Kimi-Dev": "2025-09-30T02:15:54Z",
         "MoonshotAI/minitriton": "2026-07-27T13:49:08Z",
@@ -405,13 +407,11 @@
         "MoonshotAI/kimi-agent-rs": "2026-02-06T15:15:57Z",
         "MoonshotAI/PerceptionBench": "2026-08-03T08:33:26Z",
         "MoonshotAI/moonpalace": "2024-12-30T21:17:27Z",
-        "MoonshotAI/Attention-Residuals": "2026-03-17T06:23:11Z",
         "MoonshotAI/nano-kpu": "2026-07-23T08:06:38Z",
         "MoonshotAI/Kimi-K2.5": "2026-01-31T00:49:42Z",
-        "MoonshotAI/Moonlight": "2025-08-03T06:31:18Z",
-        "MoonshotAI/Kimi-Vendor-Verifier": "2026-08-03T17:57:27Z"
+        "MoonshotAI/Moonlight": "2025-08-03T06:31:18Z"
       },
-      "last_changed_at": "2026-08-05T17:01:44.095792Z",
+      "last_changed_at": "2026-08-05T18:39:21.506676Z",
       "source_signature": "c925f37596aaabb84376bf83142f08b0ce08447179a5d27a52c7956a40180daa",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -647,28 +647,28 @@
       "last_checked_at": "2026-07-02T04:51:58.871155Z",
       "baseline_initialized": true,
       "repos": {
-        "QwenLM/qwen-code": "2026-08-05T16:57:25Z",
+        "QwenLM/Qwen3-ASR": "2026-06-26T08:20:17Z",
         "QwenLM/Qwen3-Coder": "2026-03-24T08:22:10Z",
-        "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
-        "QwenLM/open-computer-use": "2026-06-10T16:38:07Z",
+        "QwenLM/qwen-code": "2026-08-05T18:33:05Z",
         "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
+        "QwenLM/Qwen-Agent": "2026-03-04T08:15:07Z",
+        "QwenLM/Qwen3.6": "2026-06-03T12:14:19Z",
+        "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
         "QwenLM/Qwen-MM-Plugins": "2026-08-05T12:20:27Z",
+        "QwenLM/open-computer-use": "2026-06-10T16:38:07Z",
         "QwenLM/Qwen-AgentWorld": "2026-07-20T11:52:07Z",
         "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
-        "QwenLM/Qwen3-ASR": "2026-06-26T08:20:17Z",
         "QwenLM/Qwen2.5-Math": "2025-01-11T17:30:43Z",
-        "QwenLM/Qwen-Agent": "2026-03-04T08:15:07Z",
         "QwenLM/Qwen3-Omni": "2026-04-23T10:58:01Z",
         "QwenLM/Qwen": "2026-03-05T13:55:17Z",
         "QwenLM/Qwen-Image-Layered": "2025-12-31T11:40:35Z",
-        "QwenLM/Qwen3.6": "2026-06-03T12:14:19Z",
         "QwenLM/Qwen2-Audio": "2025-04-21T08:50:49Z",
         "QwenLM/Qwen-Image": "2026-02-10T07:37:37Z",
         "QwenLM/Qwen-VLA": "2026-05-29T13:49:38Z",
         "QwenLM/Qwen-Image-Bench": "2026-06-18T10:00:04Z",
         "QwenLM/Qwen3-Embedding": "2025-09-30T06:10:27Z"
       },
-      "last_changed_at": "2026-08-05T17:01:44.095792Z",
+      "last_changed_at": "2026-08-05T18:39:21.506676Z",
       "source_signature": "ddc0d8d3788b1fc4ba6779bc400a51934ce7ac0845fbfff67f906a6d77406e21",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -2082,11 +2082,14 @@
     },
     "aihot-selected": {
       "last_raw_count": 50,
-      "last_polled_at": "2026-08-05T17:01:44.095792Z",
+      "last_polled_at": "2026-08-05T18:39:21.506676Z",
       "source_signature": "54b0a2ce37b31eed7de5728f2ad3467d3fff1ec95a53a03f9ee11a9fa197fda4",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-09T08:44:50.779962Z",
       "seen_keys": [
+        "https://x.com/JeffDean/status/2085059187437113387",
+        "https://the-decoder.com/google-deepmind-loses-both-its-ceo-and-chief-scientist-as-demis-hassabis-and-jeff-dean-step-down-simultaneously",
+        "https://www.axios.com/2026/08/05/google-deepmind-demis-hassabis-ai",
         "https://www.quantamagazine.org/why-the-legendary-erdos-problems-are-falling-to-ai-20260803",
         "https://x.com/demishassabis/status/2085034334914769203",
         "https://x.com/AYi_AInotes/status/2085010659150852220",
@@ -2109,7 +2112,6 @@
         "https://simonwillison.net/2026/Aug/4/minimax-h3-mlx",
         "https://github.com/MakazhanAlpamys/Soup",
         "https://x.com/OpenRouter/status/2084699413898027064",
-        "https://www.lmsys.org/blog/2026-08-04-specforge-v0-3",
         "https://github.blog/engineering/turn-one-giant-ai-generated-pull-request-to-a-reviewable-stack",
         "https://developers.googleblog.com/a-unified-api-for-ai-model-routing",
         "https://seed.bytedance.com/zh/blog/seedrealtime-%E9%9F%B3%E8%A7%86%E9%A2%91%E5%85%A8%E5%8F%8C%E5%B7%A5%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%8F%91%E5%B8%83-%E8%B5%B0%E5%90%91%E5%85%A8%E6%A8%A1%E6%80%81%E8%87%AA%E7%84%B6%E4%BA%A4%E4%BA%92",
@@ -2135,6 +2137,7 @@
         "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647684924&idx=1&sn=f9ecf13ac374f13dfa75f98f685a231d",
         "https://arxiv.org/abs/2608.03979",
         "https://arxiv.org/abs/2608.03316",
+        "https://www.lmsys.org/blog/2026-08-04-specforge-v0-3",
         "https://www.tomtunguz.com/what-if-gpu-prices-double",
         "https://openrouter.ai/blog/announcements/ori-harness",
         "https://techcrunch.com/2026/08/03/after-killer-quarter-palantir-ceo-alex-karp-calls-ai-industry-marxist",
@@ -2383,12 +2386,9 @@
         "https://www.ithome.com/0/979/017.htm",
         "https://mp.weixin.qq.com/s/KwBAC8TFa846WFj-DHrgIQ",
         "https://ollama.com/blog/all-aboard-open-models",
-        "https://mp.weixin.qq.com/s/EeHjsju08ARLbwtwFcViqg",
-        "https://arxiv.org/abs/2607.15434",
-        "https://techcrunch.com/2026/07/19/what-to-watch-for-after-jensen-huangs-japan-visit",
-        "https://x.ai/news/introducing-excel-addin"
+        "https://mp.weixin.qq.com/s/EeHjsju08ARLbwtwFcViqg"
       ],
-      "last_changed_at": "2026-08-05T17:01:45.073612Z"
+      "last_changed_at": "2026-08-05T18:39:22.542823Z"
     }
   }
 }
