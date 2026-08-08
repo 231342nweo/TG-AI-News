@@ -2089,7 +2089,7 @@
     },
     "aihot-selected": {
       "last_raw_count": 49,
-      "last_polled_at": "2026-08-07T23:30:56.895251Z",
+      "last_polled_at": "2026-08-08T00:00:24.413916Z",
       "source_signature": "54b0a2ce37b31eed7de5728f2ad3467d3fff1ec95a53a03f9ee11a9fa197fda4",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-09T08:44:50.779962Z",
@@ -2112,6 +2112,7 @@
         "https://mp.weixin.qq.com/s?__biz=MzI0NzU1NzI5NQ%3D%3D&mid=2247543416&idx=1&sn=badeafc780a939033a1e4cb0bba4221c",
         "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards",
         "https://mp.weixin.qq.com/s?__biz=MzYzNDE5MDEwMQ%3D%3D&mid=2247488266&idx=1&sn=3a1988ba0710abcefba9c9dd282b464e",
+        "https://www.tomtunguz.com/the-secret-chat-room",
         "https://machinelearning.apple.com/research/scaling-categorical-flow-maps",
         "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
         "https://github.blog/ai-and-ml/github-copilot/a-guide-to-slash-commands-in-the-github-copilot-app",
@@ -2392,10 +2393,9 @@
         "https://mp.weixin.qq.com/s/tNJARtn1jIayL5URg87Row",
         "https://mp.weixin.qq.com/s/qQhq9nxoeCD68iMwQoEVFQ",
         "https://arxiv.org/abs/2607.20379",
-        "https://cursor.com/blog/router",
-        "https://openrouter.ai/blog/tutorials/transcription-on-openrouter"
+        "https://cursor.com/blog/router"
       ],
-      "last_changed_at": "2026-08-07T23:30:57.805641Z"
+      "last_changed_at": "2026-08-08T00:00:25.875336Z"
     }
   }
 }
