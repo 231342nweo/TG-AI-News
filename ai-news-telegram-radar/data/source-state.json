@@ -652,12 +652,13 @@
       "last_checked_at": "2026-07-02T04:51:58.871155Z",
       "baseline_initialized": true,
       "repos": {
-        "QwenLM/qwen-code": "2026-08-08T14:07:16Z",
+        "QwenLM/Qwen-Image-Layered": "2025-12-31T11:40:35Z",
+        "QwenLM/qwen-code": "2026-08-08T14:34:51Z",
+        "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
         "QwenLM/Qwen-MM-Plugins": "2026-08-06T20:22:45Z",
         "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
         "QwenLM/Qwen-VLA": "2026-05-29T13:49:38Z",
         "QwenLM/Qwen3-ASR": "2026-06-26T08:20:17Z",
-        "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
         "QwenLM/Qwen-Agent": "2026-03-04T08:15:07Z",
         "QwenLM/Qwen3.6": "2026-06-03T12:14:19Z",
         "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
@@ -670,10 +671,9 @@
         "QwenLM/Qwen-Image": "2026-02-10T07:37:37Z",
         "QwenLM/qwen-code-docs": "2026-08-07T21:32:28Z",
         "QwenLM/Qwen3-Omni": "2026-04-23T10:58:01Z",
-        "QwenLM/Qwen-AgentWorld": "2026-07-20T11:52:07Z",
-        "QwenLM/Qwen3-ASR-Toolkit": "2026-02-05T05:35:03Z"
+        "QwenLM/Qwen-AgentWorld": "2026-07-20T11:52:07Z"
       },
-      "last_changed_at": "2026-08-08T14:06:49.516625Z",
+      "last_changed_at": "2026-08-08T14:44:52.518201Z",
       "source_signature": "ddc0d8d3788b1fc4ba6779bc400a51934ce7ac0845fbfff67f906a6d77406e21",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -1486,8 +1486,8 @@
         "https://www.tc260.org.cn/portal/article/2/bb40941bb2784c749a43ec4762cdb988",
         "https://www.tc260.org.cn/portal/article/2/807a1aa20047477086ba2b44b726a5f7",
         "https://www.tc260.org.cn/portal/article/2/4456ae01b56e4792bb98d82d452e9cba",
-        "https://www.tc260.org.cn/portal/article/2/e277e9cf94424b4cb2434ba552dc8279",
         "https://www.tc260.org.cn/portal/article/2/c26a15400af34b66bf76771dcf9d0d3c",
+        "https://www.tc260.org.cn/portal/article/2/e277e9cf94424b4cb2434ba552dc8279",
         "https://www.tc260.org.cn/portal/article/2/bb41ce76e8ce44e2b4aa18ec5cd1e51e",
         "https://www.tc260.org.cn/portal/suggestion-detail/1b21a4adefd04d7a8f8b2aec67225f50",
         "https://www.tc260.org.cn/portal/suggestion-detail/770f550a6774493d9a6dc2f51454e8db",
@@ -1559,7 +1559,7 @@
       ],
       "last_checked_at": "2026-07-02T04:52:25.829528Z",
       "baseline_initialized": true,
-      "last_changed_at": "2026-08-08T04:29:30.606559Z",
+      "last_changed_at": "2026-08-08T14:46:24.935455Z",
       "source_signature": "ac7adf7536607ad1dc8d9ca06c0f10f499a52b1893dcc2d8ec03dd7b6240b921",
       "baseline_reinitialized_at": "2026-07-02T10:23:25.737100Z"
     },
@@ -2089,11 +2089,12 @@
     },
     "aihot-selected": {
       "last_raw_count": 49,
-      "last_polled_at": "2026-08-08T14:06:49.516625Z",
+      "last_polled_at": "2026-08-08T14:44:52.518201Z",
       "source_signature": "54b0a2ce37b31eed7de5728f2ad3467d3fff1ec95a53a03f9ee11a9fa197fda4",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-09T08:44:50.779962Z",
       "seen_keys": [
+        "https://www.ithome.com/0/987/438.htm",
         "https://arstechnica.com/science/2026/08/deepminds-hurricane-model-bought-forecasters-an-extra-day",
         "https://www.ithome.com/0/987/366.htm",
         "https://www.ithome.com/0/987/221.htm",
@@ -2392,10 +2393,9 @@
         "https://www.interconnects.ai/p/open-models-recap-more-on-kimi-k3",
         "https://x.com/SemiAnalysis_/status/2079929602429141215",
         "https://mp.weixin.qq.com/s/PnXGmmDYejrHBSpoRBOHkg",
-        "https://mp.weixin.qq.com/s/tNJARtn1jIayL5URg87Row",
-        "https://mp.weixin.qq.com/s/qQhq9nxoeCD68iMwQoEVFQ"
+        "https://mp.weixin.qq.com/s/tNJARtn1jIayL5URg87Row"
       ],
-      "last_changed_at": "2026-08-08T11:37:04.146136Z"
+      "last_changed_at": "2026-08-08T14:44:53.692177Z"
     }
   }
 }
