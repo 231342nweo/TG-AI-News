@@ -652,7 +652,7 @@
       "last_checked_at": "2026-07-02T04:51:58.871155Z",
       "baseline_initialized": true,
       "repos": {
-        "QwenLM/qwen-code": "2026-08-08T19:10:28Z",
+        "QwenLM/qwen-code": "2026-08-08T19:25:42Z",
         "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
         "QwenLM/Qwen3Guard": "2025-10-21T02:27:12Z",
         "QwenLM/Qwen-AgentWorld": "2026-07-20T11:52:07Z",
@@ -673,7 +673,7 @@
         "QwenLM/Qwen-RobotNav": "2026-06-30T03:01:19Z",
         "QwenLM/Qwen": "2026-03-05T13:55:17Z"
       },
-      "last_changed_at": "2026-08-08T19:17:40.134196Z",
+      "last_changed_at": "2026-08-08T19:46:28.827005Z",
       "source_signature": "ddc0d8d3788b1fc4ba6779bc400a51934ce7ac0845fbfff67f906a6d77406e21",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -1486,7 +1486,7 @@
         "https://www.tc260.org.cn/portal/article/2/bb40941bb2784c749a43ec4762cdb988",
         "https://www.tc260.org.cn/portal/article/2/807a1aa20047477086ba2b44b726a5f7",
         "https://www.tc260.org.cn/portal/article/2/4456ae01b56e4792bb98d82d452e9cba",
-        "https://www.tc260.org.cn/portal/article/2/e277e9cf94424b4cb2434ba552dc8279",
+        "https://www.tc260.org.cn/portal/article/2/7ca40adc25de45918add74f2ff16cdc9",
         "https://www.tc260.org.cn/portal/article/2/c26a15400af34b66bf76771dcf9d0d3c",
         "https://www.tc260.org.cn/portal/article/2/bb41ce76e8ce44e2b4aa18ec5cd1e51e",
         "https://www.tc260.org.cn/portal/suggestion-detail/1b21a4adefd04d7a8f8b2aec67225f50",
@@ -1494,7 +1494,7 @@
         "https://www.tc260.org.cn/portal/suggestion-detail/cb5000e8a5de441298c267b21777e51b",
         "https://www.tc260.org.cn/portal/suggestion-detail/e79c8c1ecc99494e93861c7c618d12ec",
         "https://www.tc260.org.cn/portal/suggestion-detail/f134b0e1e59647679e797e5d3863cd63",
-        "https://www.tc260.org.cn/portal/article/2/7ca40adc25de45918add74f2ff16cdc9",
+        "https://www.tc260.org.cn/portal/article/2/e277e9cf94424b4cb2434ba552dc8279",
         "https://www.tc260.org.cn/portal/article/2/e0467c848e224a698badf7ded8339e63",
         "https://www.tc260.org.cn/portal/article/2/c881228595f540e49abd4ee28a6a344d",
         "https://www.tc260.org.cn/portal/article/2/917fd7fa11c642acb995b6dc03c56141",
@@ -1559,7 +1559,7 @@
       ],
       "last_checked_at": "2026-07-02T04:52:25.829528Z",
       "baseline_initialized": true,
-      "last_changed_at": "2026-08-08T19:18:57.297578Z",
+      "last_changed_at": "2026-08-08T19:47:36.799110Z",
       "source_signature": "ac7adf7536607ad1dc8d9ca06c0f10f499a52b1893dcc2d8ec03dd7b6240b921",
       "baseline_reinitialized_at": "2026-07-02T10:23:25.737100Z"
     },
@@ -2089,7 +2089,7 @@
     },
     "aihot-selected": {
       "last_raw_count": 49,
-      "last_polled_at": "2026-08-08T19:17:40.134196Z",
+      "last_polled_at": "2026-08-08T19:46:28.827005Z",
       "source_signature": "54b0a2ce37b31eed7de5728f2ad3467d3fff1ec95a53a03f9ee11a9fa197fda4",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-09T08:44:50.779962Z",
