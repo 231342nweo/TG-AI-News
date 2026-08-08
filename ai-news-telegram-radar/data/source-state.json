@@ -1,13 +1,13 @@
 {
   "sources": {
     "deepseek-api-updates": {
-      "fingerprint": "d4ef0118f7b7fc3b2db156558b1ac4cbebe2331a008dd00fa103ff997fd3fb94",
+      "fingerprint": "2ae37662e404aa4b0f3c6ea0f113bbe3206d6a746d1b6e7e9dcbac1aaf5994f3",
       "last_checked_at": "2026-07-02T04:51:33.147542Z",
-      "last_excerpt": "Your First API Call | DeepSeek API Docs Skip to main content DeepSeek API Docs English English 中文（中国） DeepSeek Platform Quick Start Your First API Call Models & Pricing Token & Token Usage Rate Limit & Isolation Error Codes Agent Integrations API Guides Thinking Mode Multi-round Conversation Chat Prefix Completion (Beta) FIM Completion (Beta) JSON Output Tool Calls Context Caching Using the Responses API Using the Anthropic API API Reference News Other Resources FAQ Change Log Quick Start Your First API Call On this page Your First API Call The DeepSeek API uses an API format compatible with OpenAI/Anthropic. By modifying the configuration, you can use the OpenAI/Anthropic SDK or softwares compatible with the OpenAI/Anthropic API to access the DeepSeek API. PARAM VALUE base_url (OpenAI) https://api.deepseek.com base_url (Anthropic) https://api.deepseek.com/anthropic api_key apply for an API key model (1) deepseek-v4-flash deepseek-v4-pro (1) The deepseek-v4-flash model has been updated to DeepSeek-V4-Flash-0731. The calling method remains unchanged — simply use deepseek-v4-flash to access the latest version. Integrate with Agent Tools ​ The DeepSeek API is supported by many popular AI agent and coding assistant tools. If you use tools like Claude Code, GitHub Copilot, or OpenCode, you can use DeepSeek as the backend model directly — no code required. See the Agent Integrations Guide for details. Invoke The Chat API ​ Once you have obtained an API key, you can access the DeepSeek model using the following example scripts in the OpenAI API format. This is a non-stream example, you can set the stream parameter to true to get stream response. For examples using the Anthropic API format, please refer to Anthropic API . curl python nodejs curl https://api.deepseek.com/chat/completions \\ -H \"Content-Type: application/json\" \\ -H \"Authorization: Bearer ${DEEPSEEK_API_KEY}\" \\ -d '{ \"model\": \"deepseek-v4-pro\", \"messages\": [ {\"role\": \"system\", \"content\": \"You are a helpful assistant.\"}, {\"role\": \"user\", \"content\": \"Hello!\"} ], \"thinking\": {\"type\": \"enabled\"}, \"reasoning_effort\": \"high\", \"stream\": false }' # Please install OpenAI SDK first: `pip3 install openai` import os from openai import OpenAI client = OpenAI ( api_key = os . environ . get ( 'DEEPSEEK_API_KEY' ) , base_url = \"https://api.deepseek.com\" ) response = client . chat . completions . create ( model = \"deepseek-v4-pro\" , messages = [ { \"role\" : \"system\" , \"content\" : \"You are a helpful assistant\" } , { \"role\" : \"user\" , \"content\" : \"Hello\" } , ] , stream = False , reasoning_effort = \"high\" , extra_body = { \"thinking\" : { \"type\" : \"enabled\" } } ) print ( response . choices [ 0 ] . message . content ) // Please install OpenAI SDK first: `npm install openai` import OpenAI from \"openai\" ; const openai = new OpenAI ( { baseURL : 'https://api.deepseek.com' , apiKey : process . env . DEEPSEEK_API_KEY , } ) ; async function main ( ) { const completion = await openai . chat . completions . create ( { messages : [ { role : \"system\" , content : \"You are a helpful assistant.\" } ] , model : \"deepseek-v4-pro\" , thinking : { \"type\" : \"enabled\" } , reasoning_effort : \"high\" , stream : false , } ) ; console . log ( completion . choices [ 0 ] . message . content ) ; } main ( ) ; Next Models & Pricing Integrate with Agent Tools Invoke The Chat API WeChat Official Account Community Email Discord Twitter More GitHub Copyright © 2026 DeepSeek, Inc.",
+      "last_excerpt": "Change Log | DeepSeek API Docs Skip to main content DeepSeek API Docs English English 中文（中国） DeepSeek Platform Quick Start Your First API Call Models & Pricing Token & Token Usage Rate Limit & Isolation Error Codes Agent Integrations API Guides Thinking Mode Multi-round Conversation Chat Prefix Completion (Beta) FIM Completion (Beta) JSON Output Tool Calls Context Caching Using the Responses API Using the Anthropic API API Reference News Other Resources FAQ Change Log Change Log On this page Change Log Date: 2026-07-31 ​ DeepSeek-V4-Flash Update ​ The official release of the DeepSeek-V4-Flash API is now in public beta. The API calling method remains unchanged — simply set the model name to deepseek-v4-flash to use the latest version. Significantly enhanced agent capabilities, with benchmark results far exceeding V4-Pro-Preview: Terminal Bench 2.1: 82.7 NL2Repo: 54.2 Cybergym: 76.7 DeepSWE: 54.4 Toolathlon verified: 70.3 Agent Last Exam: 25.2 Automation Bench (Public): 25.1 DSBench-FullStack: 68.7 DSBench-Hard: 59.6 Note 1: For the Code Agent tasks in the public benchmark sets, the official DeepSeek-V4-Flash was tested using the DeepSeek Harness minimal mode (to be released soon) as the framework, with the max effort level, topp=0.95, and temperature=1.0 Note 2: DSBench-FullStack is an internal full-stack development test set, and DSBench-Hard is an internal Coding Agent hard-problem test set The official V4-Flash natively supports the Responses API format and is specifically adapted for Codex. For the specific configuration, please refer to the documentation . DeepSeek-V4-Flash-0731 keeps the same model architecture and size as DeepSeek-V4-Flash-Preview, and was only re-post-trained. Note: This update only upgrades the DeepSeek-V4-Flash API. The DeepSeek-V4-Pro API and the APP/WEB models are unchanged. The official release of DeepSeek-V4-Pro will follow soon. Date: 2026-04-24 ​ DeepSeek-V4 ​ The DeepSeek API now supports V4-Pro and V4-Flash, available via both the OpenAI ChatCompletions interface and the Anthropic interface. To access the new models, the base_url remains unchanged, and the model parameter should be set to deepseek-v4-pro or deepseek-v4-flash . The two legacy API model names, deepseek-chat and deepseek-reasoner , will be discontinued in three months (2026-07-24). During the current period, these two model names point to the non-thinking mode and thinking mode of deepseek-v4-flash , respectively. For more details, please refer to this documentation . Date: 2025-12-01 ​ DeepSeek-V3.2 ​ Both deepseek-chat and deepseek-reasoner have been upgraded to DeepSeek-V3.2. deepseek-chat corresponds to DeepSeek-V3.2's non-thinking mode deepseek-reasoner corresponds to DeepSeek-V3.2's thinking mode DeepSeek-V3.2-Speciale ​ DeepSeek-V3.2-Speciale is served via a temporary endpoint: base_url=\" https://api.deepseek.com/v3.2_speciale_expires_on_20251215 \". Same pricing as V3.2, no tool calls, available until Dec 15th, 2025, 15:59 (UTC Time). For more details, please refer to this documentation . Date: 2025-09-29 ​ DeepSeek-V3.2-Exp ​ Both deepseek-chat and deepseek-reasoner have been upgraded to DeepSeek-V3.2-Exp. deepseek-chat corresponds to DeepSeek-V3.2-Exp's non-thinking mode deepseek-reasoner corresponds to DeepSeek-V3.2-Exp's thinking mode For more details, please refer to this documentation . Date: 2025-09-22 ​ DeepSeek-V3.1-Terminus ​ Both deepseek-chat and deepseek-reasoner have been upgraded to DeepSeek-V3.1-Terminus. deepseek-chat corresponds to DeepSeek-V3.1-Terminus's non-thinking mode , while deepseek-reasoner corresponds to its thinking mode . This update maintains the model's original capabilities while addressing issues reported by users, including: Language consistency: Reduced occurrences of Chinese-English mixing and occasional abnormal characters; Agent capabilities: Further optimized the performance of the Code Agent and Search Agent. Date: 2025-08-21 ​ DeepSeek-V3.1 ​ Both deepseek-chat and deepseek-reasone",
       "baseline_initialized": true,
       "source_signature": "da94888987a371666a5f08739c9802c186474211b8f74f055d7f6cfad14cf7a4",
       "baseline_reinitialized_at": "2026-07-02T10:22:21.295328Z",
-      "last_changed_at": "2026-08-08T08:08:20.379544Z"
+      "last_changed_at": "2026-08-08T10:02:03.702826Z"
     },
     "deepseek-huggingface": {
       "models": {
@@ -249,9 +249,9 @@
       ],
       "last_checked_at": "2026-07-02T04:52:05.788649Z",
       "baseline_initialized": true,
-      "last_changed_at": "2026-08-08T06:39:09.332717Z",
-      "fingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "last_excerpt": "",
+      "last_changed_at": "2026-08-08T10:02:03.702826Z",
+      "fingerprint": "24310298651641f8554b43faf7df116d130ab6a6134942e5b8b909d596d0f16c",
+      "last_excerpt": "文档中心 简体 文档 控制台 登录 注册 火山方舟 文档指南 订阅 [Agent/Coding Plan] API参考 资源 火山方舟 火山方舟 资源 请输入 产品公告 产品更新公告 模型发布公告 模型下线公告 历史公告 2026 公告 26年春节期间访问方式调整公告 2025 公告 模型发布公告 2025 产品更新公告 2025 模型下线公告 2025 高代码 SDK Arkitect 正式发布 2024 公告 模型发布公告 2024 产品更新公告 2024 模型下线公告 2024 火山方舟 SDK V1/V2下线公告及迁移指引 模型插件联网基础版、联网plus版、联网pro版下线公告 热门活动 Seedance 2.0-2.5 模型资源包使用规则 协作奖励计划 免费推理额度 实践教程 Managed Agent [基础] 构建连续对话的工单分诊助手 [基础] 工单分诊 Agent 系统提示词版本管理 [进阶] 构建可持续迭代的 AI 研究交付工作台 [进阶] 构建从 CSV 到交互式报告的数据分析 Agent [进阶] 使用 Vaults 让开发 Agent 以用户身份提交 GitHub PR [进阶] 使用 Memory Store 构建有记忆的购物助手 [进阶] 用多智能体团队生成定制销售提案 [进阶] 使用 arkcli 构建集成 Vault 与 Memory 的投研 Agent Ark CLI 使用指南 方舟文档 MCP 快速入门(新手版) Seedance 1.5 pro 提示词指南 Seedance 1.0 系列提示词指南 Seedream 4.0-5.0 提示词指南 Seedream 4.0 助力 Seedance 生视频最佳实践 RAG（检索增强）解决方案 数据回流操作流程 如何设置控制台登录保持时间 角色扮演场景提示词指南 环境变量配置指南 突发流量处理最佳实践 火山方舟分账最佳实践 在应用中使用 RTC 实现 AI 实时对话 通过 TOS 内网预签名 URL 传入文件 购买指南 模型服务计费说明 TPM 保障包计费说明 联网内容插件产品计费 豆包助手计费 知识库计费 PromptPilot 计费 Seedance 2.0 高级创作权益包购买说明 方舟官方产物验证功能说明 税率与发票 权限管理 使用 IAM 管理权限 管理 API Key HYOK 最佳实践 平台功能 平台能力速览 模型广场 应用广场 体验中心 体验中心概览 语言模型 虚拟人像库 录入真人形象素材 使用版权生视频模板生成 IP 视频 图片生成模型 开发者模式 MCP 简介 Canvas 简介 在线推理 管理推理接入点 为 AI 生成产物添加隐式水印 安心体验模式细则说明 开通管理 安全管理 控制台-推理安全审计 控制台-精调安全审计 控制台-推理接入点安全监控总览 用量统计 项目配置 网络配置 Token 计算器 安全管理 安全管理总览 内容安全护栏 火山方舟大模型服务安全白皮书 火山方舟互信计算架构白皮书 推理会话数据应用层加密方案 精调安全防护能力介绍 常见问题 常见问题 相关协议 火山方舟大模型服务平台专用条款 火山方舟体验中心服务规则和免责声明 Agent Plan / Coding Plan 火山引擎数据授权使用协议 ArkClaw 服务规则 Harness 能力说明和产品专用条款 模型服务协议 豆包模型服务协议 火山引擎豆包大模型商标使用规范 月之暗面模型服务协议 智谱AI模型服务协议 PromptPilot 服务专用条款和数据授权使用协议 影眸模型服务协议 数美模型服务协议 开源模型许可证 模型备案 客户应用上架指南-算法备案资质申请流程 大模型备案说明(含算法备案及人工智能备案) 火山方舟模型备案信息公示 MCP 云产品一键授权开通相关协议 知识库产品服务和专用条款 豆包助手专区服务专用条款和数据授权使用协议 方舟售后支持范围 版权和人像素材使用规则 文档首页 火山方舟 产品公告 产品更新公告 复制全文 下载 pdf 我的收藏 产品公告 产品更新公告 复制全文 下载 pdf 我的收藏 产品更新公告 文档反馈 问问助手 最近更新时间： 2026.08.05 20:45:46 这个页面对您有帮助吗？ 有用 有用 无用 无用",
       "baseline_invalid": true,
       "source_signature": "bf1f63ca68ab1a7f10b219aa7fbc07472dde5da63456aa15a90f6ecaf31f0156",
       "baseline_reinitialized_at": "2026-07-02T10:22:21.295328Z"
@@ -365,12 +365,13 @@
       "last_checked_at": "2026-07-02T04:51:33.967446Z",
       "baseline_initialized": true,
       "repos": {
-        "deepseek-ai/DeepSeek-OCR-2": "2026-02-03T00:34:18Z",
-        "deepseek-ai/DeepSeek-V3": "2025-08-28T03:24:37Z",
-        "deepseek-ai/DeepSeek-Coder": "2025-11-11T06:44:56Z",
+        "deepseek-ai/smallpond": "2025-03-05T18:23:54Z",
         "deepseek-ai/awesome-deepseek-agent": "2026-06-17T01:24:37Z",
-        "deepseek-ai/TileKernels": "2026-04-23T10:19:21Z",
+        "deepseek-ai/DeepSeek-V3": "2025-08-28T03:24:37Z",
         "deepseek-ai/awesome-deepseek-integration": "2026-02-23T16:27:47Z",
+        "deepseek-ai/DeepSeek-OCR-2": "2026-02-03T00:34:18Z",
+        "deepseek-ai/DeepSeek-Coder": "2025-11-11T06:44:56Z",
+        "deepseek-ai/TileKernels": "2026-04-23T10:19:21Z",
         "deepseek-ai/DeepSeek-R1": "2025-06-27T08:35:54Z",
         "deepseek-ai/Janus": "2025-02-01T07:58:29Z",
         "deepseek-ai/DeepSpec": "2026-07-09T04:37:14Z",
@@ -383,10 +384,9 @@
         "deepseek-ai/DeepSeek-VL": "2024-04-24T05:01:06Z",
         "deepseek-ai/DeepSeek-Coder-V2": "2025-11-11T06:44:45Z",
         "deepseek-ai/open-infra-index": "2025-05-15T02:00:43Z",
-        "deepseek-ai/DeepSeek-LLM": "2024-02-04T12:22:16Z",
-        "deepseek-ai/DeepSeek-Prover-V1.5": "2024-08-16T03:33:41Z"
+        "deepseek-ai/DeepSeek-LLM": "2024-02-04T12:22:16Z"
       },
-      "last_changed_at": "2026-08-08T09:28:25.382798Z",
+      "last_changed_at": "2026-08-08T10:02:03.702826Z",
       "source_signature": "e247a4022cc1b9d1fcca44981d9eb5c7892416a57bcff15ec2fe2fc72cfd972e",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -589,20 +589,20 @@
       "last_checked_at": "2026-07-02T04:51:55.708102Z",
       "baseline_initialized": true,
       "repos": {
-        "OpenBMB/VoxCPM": "2026-07-08T09:46:11Z",
-        "OpenBMB/MiniCPM": "2026-07-27T06:50:07Z",
-        "OpenBMB/StaffDeck": "2026-08-07T06:56:59Z",
-        "OpenBMB/EdgeClaw": "2026-04-15T09:25:35Z",
-        "OpenBMB/MiniCPM-V": "2026-08-04T05:58:49Z",
+        "OpenBMB/StaffDeck": "2026-08-08T09:48:16Z",
         "OpenBMB/ChatDev": "2026-07-24T08:01:27Z",
+        "OpenBMB/VoxCPM": "2026-07-08T09:46:11Z",
+        "OpenBMB/MiniCPM-V": "2026-08-04T05:58:49Z",
+        "OpenBMB/MiniCPM": "2026-07-27T06:50:07Z",
+        "OpenBMB/UltraRAG": "2026-08-08T03:48:44Z",
+        "OpenBMB/XAgent": "2026-07-31T03:30:54Z",
+        "OpenBMB/MiniCPM-Desk-Pet": "2026-07-07T14:15:36Z",
+        "OpenBMB/EdgeClaw": "2026-04-15T09:25:35Z",
         "OpenBMB/PilotDeck": "2026-08-07T10:19:48Z",
         "OpenBMB/AgentVerse": "2024-09-09T05:47:44Z",
-        "OpenBMB/UltraRAG": "2026-08-08T03:48:44Z",
         "OpenBMB/MiniCPM-Robot": "2026-08-05T07:51:51Z",
-        "OpenBMB/XAgent": "2026-07-31T03:30:54Z",
         "OpenBMB/ForgeStencil": "2026-08-04T07:34:41Z",
         "OpenBMB/AppCopilot": "2025-11-18T06:18:21Z",
-        "OpenBMB/MiniCPM-Desk-Pet": "2026-07-07T14:15:36Z",
         "OpenBMB/MiniCPM-o-Demo": "2026-08-05T09:51:11Z",
         "OpenBMB/ToolBench": "2025-05-21T15:46:59Z",
         "OpenBMB/MiniCPM-V-Apps": "2026-08-07T06:51:53Z",
@@ -610,7 +610,7 @@
         "OpenBMB/RepoAgent": "2024-12-23T11:48:52Z",
         "OpenBMB/Scicore-Omics": "2026-06-03T01:02:56Z"
       },
-      "last_changed_at": "2026-08-08T04:27:58.200344Z",
+      "last_changed_at": "2026-08-08T10:02:03.702826Z",
       "source_signature": "3dd1c4ab8bc380dc66624329d310bc65fe6deafde7a370da1191ca03b32c0764",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -652,15 +652,15 @@
       "last_checked_at": "2026-07-02T04:51:58.871155Z",
       "baseline_initialized": true,
       "repos": {
-        "QwenLM/qwen-code": "2026-08-08T09:03:29Z",
-        "QwenLM/Qwen-Agent": "2026-03-04T08:15:07Z",
         "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
+        "QwenLM/qwen-code": "2026-08-08T10:00:43Z",
+        "QwenLM/Qwen-MM-Plugins": "2026-08-06T20:22:45Z",
+        "QwenLM/Qwen-Agent": "2026-03-04T08:15:07Z",
         "QwenLM/Qwen2.5-Omni": "2025-06-12T11:03:07Z",
         "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
         "QwenLM/Qwen-Audio": "2024-07-05T09:17:49Z",
         "QwenLM/Qwen3-Coder": "2026-03-24T08:22:10Z",
         "QwenLM/Qwen3.6": "2026-06-03T12:14:19Z",
-        "QwenLM/Qwen-MM-Plugins": "2026-08-06T20:22:45Z",
         "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
         "QwenLM/Qwen-VLA": "2026-05-29T13:49:38Z",
         "QwenLM/Qwen-RobotNav": "2026-06-30T03:01:19Z",
@@ -673,7 +673,7 @@
         "QwenLM/Qwen-AgentWorld": "2026-07-20T11:52:07Z",
         "QwenLM/Qwen3-ASR-Toolkit": "2026-02-05T05:35:03Z"
       },
-      "last_changed_at": "2026-08-08T09:28:25.382798Z",
+      "last_changed_at": "2026-08-08T10:02:03.702826Z",
       "source_signature": "ddc0d8d3788b1fc4ba6779bc400a51934ce7ac0845fbfff67f906a6d77406e21",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -2089,7 +2089,7 @@
     },
     "aihot-selected": {
       "last_raw_count": 49,
-      "last_polled_at": "2026-08-08T09:28:25.382798Z",
+      "last_polled_at": "2026-08-08T10:02:03.702826Z",
       "source_signature": "54b0a2ce37b31eed7de5728f2ad3467d3fff1ec95a53a03f9ee11a9fa197fda4",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-09T08:44:50.779962Z",
