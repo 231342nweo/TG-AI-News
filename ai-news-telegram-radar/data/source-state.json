@@ -425,28 +425,28 @@
       "last_checked_at": "2026-07-02T04:51:40.485322Z",
       "baseline_initialized": true,
       "repos": {
-        "zai-org/ComplexFuncBench": "2025-01-20T03:04:21Z",
-        "zai-org/GLM-5": "2026-07-15T12:54:24Z",
+        "zai-org/CogAgent": "2025-04-04T13:29:55Z",
+        "zai-org/ImageReward": "2025-10-29T13:40:51Z",
         "zai-org/Open-AutoGLM": "2026-03-06T08:38:39Z",
+        "zai-org/GLM-Image": "2026-03-20T03:10:16Z",
+        "zai-org/GLM-5": "2026-07-15T12:54:24Z",
+        "zai-org/CodeGeeX2": "2024-07-10T12:34:55Z",
+        "zai-org/Synapse": "2026-07-31T07:25:27Z",
+        "zai-org/ChatGLM-6B": "2024-06-27T04:05:25Z",
+        "zai-org/GLM-OCR": "2026-04-21T08:52:11Z",
+        "zai-org/GLM-4.5": "2026-02-01T08:28:10Z",
+        "zai-org/GLM-4": "2026-08-05T07:08:46Z",
+        "zai-org/SCAIL-2": "2026-08-06T08:27:03Z",
+        "zai-org/ComplexFuncBench": "2025-01-20T03:04:21Z",
         "zai-org/CogVLM": "2024-05-29T10:01:33Z",
         "zai-org/VisualGLM-6B": "2024-08-23T07:45:06Z",
         "zai-org/ChatGLM3": "2025-01-13T06:55:26Z",
-        "zai-org/GLM-4": "2026-08-05T07:08:46Z",
-        "zai-org/Synapse": "2026-07-31T07:25:27Z",
         "zai-org/GLM-V": "2026-07-21T16:03:29Z",
-        "zai-org/SCAIL-2": "2026-08-06T08:27:03Z",
         "zai-org/CogVideo": "2025-11-04T11:19:04Z",
-        "zai-org/CodeGeeX2": "2024-07-10T12:34:55Z",
         "zai-org/CodeGeeX4": "2024-08-25T14:26:16Z",
-        "zai-org/ChatGLM-6B": "2024-06-27T04:05:25Z",
-        "zai-org/GLM-OCR": "2026-04-21T08:52:11Z",
-        "zai-org/GLM-skills": "2026-04-15T12:28:08Z",
-        "zai-org/CogView4": "2025-03-29T07:09:58Z",
-        "zai-org/GLM-4.5": "2026-02-01T08:28:10Z",
-        "zai-org/ChatGLM2-6B": "2024-06-27T04:05:08Z",
-        "zai-org/CogVLM2": "2025-03-03T03:01:31Z"
+        "zai-org/GLM-skills": "2026-04-15T12:28:08Z"
       },
-      "last_changed_at": "2026-08-09T08:21:34.425842Z",
+      "last_changed_at": "2026-08-09T23:39:54.766554Z",
       "source_signature": "0f9d07d7983b4898dc433a8d045a96469f65dff73642f9fe1fbf73cf3299210c",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -652,17 +652,18 @@
       "last_checked_at": "2026-07-02T04:51:58.871155Z",
       "baseline_initialized": true,
       "repos": {
+        "QwenLM/qwen-code": "2026-08-09T23:31:59Z",
+        "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
+        "QwenLM/Qwen3-Omni": "2026-04-23T10:58:01Z",
+        "QwenLM/FlashQLA": "2026-08-07T12:21:56Z",
         "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
-        "QwenLM/qwen-code": "2026-08-09T22:52:44Z",
         "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
         "QwenLM/Qwen": "2026-03-05T13:55:17Z",
         "QwenLM/Qwen3-Coder": "2026-03-24T08:22:10Z",
         "QwenLM/qwen-code-docs": "2026-08-09T21:06:50Z",
         "QwenLM/Qwen3.6": "2026-06-03T12:14:19Z",
         "QwenLM/Qwen-Image": "2026-02-10T07:37:37Z",
-        "QwenLM/Qwen3-Omni": "2026-04-23T10:58:01Z",
         "QwenLM/Qwen-Audio": "2024-07-05T09:17:49Z",
-        "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
         "QwenLM/open-computer-use": "2026-06-10T16:38:07Z",
         "QwenLM/Qwen3-ASR": "2026-06-26T08:20:17Z",
         "QwenLM/Qwen-VLA": "2026-05-29T13:49:38Z",
@@ -670,10 +671,9 @@
         "QwenLM/Qwen-MM-Plugins": "2026-08-09T14:12:06Z",
         "QwenLM/Qwen-Agent": "2026-03-04T08:15:07Z",
         "QwenLM/Qwen2.5-Omni": "2025-06-12T11:03:07Z",
-        "QwenLM/Qwen3-VL-Embedding": "2026-06-23T10:39:17Z",
-        "QwenLM/Confident-Decoding": "2026-06-30T12:01:11Z"
+        "QwenLM/Qwen3-VL-Embedding": "2026-06-23T10:39:17Z"
       },
-      "last_changed_at": "2026-08-09T23:03:59.694128Z",
+      "last_changed_at": "2026-08-09T23:39:54.766554Z",
       "source_signature": "ddc0d8d3788b1fc4ba6779bc400a51934ce7ac0845fbfff67f906a6d77406e21",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -2089,11 +2089,12 @@
     },
     "aihot-selected": {
       "last_raw_count": 49,
-      "last_polled_at": "2026-08-09T23:03:59.694128Z",
+      "last_polled_at": "2026-08-09T23:39:54.766554Z",
       "source_signature": "54b0a2ce37b31eed7de5728f2ad3467d3fff1ec95a53a03f9ee11a9fa197fda4",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-09T08:44:50.779962Z",
       "seen_keys": [
+        "https://www.ithome.com/0/987/649.htm",
         "https://x.com/bcherny/status/2086520950259118464",
         "https://www.interconnects.ai/p/lessons-from-the-hacks",
         "https://techcrunch.com/2026/08/09/the-ai-safety-test-is-becoming-a-safety-risk",
@@ -2392,10 +2393,9 @@
         "https://x.com/sundarpichai/status/2080021408856293584",
         "https://the-decoder.com/anthropics-1-5b-piracy-settlement-with-book-authors-is-a-record-loss-that-hands-ai-labs-their-biggest-legal-win",
         "https://github.com/marcelroed/gigatoken",
-        "https://x.com/MSFTResearch/status/2079989338994069511",
-        "https://x.com/omarsar0/status/2079982491578827214"
+        "https://x.com/MSFTResearch/status/2079989338994069511"
       ],
-      "last_changed_at": "2026-08-09T19:02:29.820237Z"
+      "last_changed_at": "2026-08-09T23:39:56.357541Z"
     }
   }
 }
