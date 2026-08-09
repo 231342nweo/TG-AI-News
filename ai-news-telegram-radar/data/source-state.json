@@ -425,16 +425,17 @@
       "last_checked_at": "2026-07-02T04:51:40.485322Z",
       "baseline_initialized": true,
       "repos": {
+        "zai-org/ComplexFuncBench": "2025-01-20T03:04:21Z",
+        "zai-org/GLM-5": "2026-07-15T12:54:24Z",
+        "zai-org/Open-AutoGLM": "2026-03-06T08:38:39Z",
         "zai-org/CogVLM": "2024-05-29T10:01:33Z",
         "zai-org/VisualGLM-6B": "2024-08-23T07:45:06Z",
         "zai-org/ChatGLM3": "2025-01-13T06:55:26Z",
         "zai-org/GLM-4": "2026-08-05T07:08:46Z",
         "zai-org/Synapse": "2026-07-31T07:25:27Z",
-        "zai-org/GLM-5": "2026-07-15T12:54:24Z",
         "zai-org/GLM-V": "2026-07-21T16:03:29Z",
         "zai-org/SCAIL-2": "2026-08-06T08:27:03Z",
         "zai-org/CogVideo": "2025-11-04T11:19:04Z",
-        "zai-org/Open-AutoGLM": "2026-03-06T08:38:39Z",
         "zai-org/CodeGeeX2": "2024-07-10T12:34:55Z",
         "zai-org/CodeGeeX4": "2024-08-25T14:26:16Z",
         "zai-org/ChatGLM-6B": "2024-06-27T04:05:25Z",
@@ -443,10 +444,9 @@
         "zai-org/CogView4": "2025-03-29T07:09:58Z",
         "zai-org/GLM-4.5": "2026-02-01T08:28:10Z",
         "zai-org/ChatGLM2-6B": "2024-06-27T04:05:08Z",
-        "zai-org/CogVLM2": "2025-03-03T03:01:31Z",
-        "zai-org/AISE-Bench": "2026-08-07T09:49:44Z"
+        "zai-org/CogVLM2": "2025-03-03T03:01:31Z"
       },
-      "last_changed_at": "2026-08-09T05:15:12.101917Z",
+      "last_changed_at": "2026-08-09T08:21:34.425842Z",
       "source_signature": "0f9d07d7983b4898dc433a8d045a96469f65dff73642f9fe1fbf73cf3299210c",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -652,12 +652,13 @@
       "last_checked_at": "2026-07-02T04:51:58.871155Z",
       "baseline_initialized": true,
       "repos": {
+        "QwenLM/Qwen3.6": "2026-06-03T12:14:19Z",
         "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
-        "QwenLM/qwen-code": "2026-08-09T07:42:17Z",
+        "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
+        "QwenLM/qwen-code": "2026-08-09T08:19:10Z",
         "QwenLM/Qwen": "2026-03-05T13:55:17Z",
         "QwenLM/Qwen-Image": "2026-02-10T07:37:37Z",
         "QwenLM/Qwen-Agent": "2026-03-04T08:15:07Z",
-        "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
         "QwenLM/Qwen-MM-Plugins": "2026-08-06T20:22:45Z",
         "QwenLM/open-computer-use": "2026-06-10T16:38:07Z",
         "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
@@ -670,10 +671,9 @@
         "QwenLM/Qwen-VLA": "2026-05-29T13:49:38Z",
         "QwenLM/qwen-code-docs": "2026-08-08T22:58:50Z",
         "QwenLM/Qwen3-Omni": "2026-04-23T10:58:01Z",
-        "QwenLM/Qwen-AgentWorld": "2026-07-20T11:52:07Z",
-        "QwenLM/Qwen3Guard": "2025-10-21T02:27:12Z"
+        "QwenLM/Qwen-AgentWorld": "2026-07-20T11:52:07Z"
       },
-      "last_changed_at": "2026-08-09T07:41:23.323269Z",
+      "last_changed_at": "2026-08-09T08:21:34.425842Z",
       "source_signature": "ddc0d8d3788b1fc4ba6779bc400a51934ce7ac0845fbfff67f906a6d77406e21",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -2089,11 +2089,12 @@
     },
     "aihot-selected": {
       "last_raw_count": 49,
-      "last_polled_at": "2026-08-09T07:41:23.323269Z",
+      "last_polled_at": "2026-08-09T08:21:34.425842Z",
       "source_signature": "54b0a2ce37b31eed7de5728f2ad3467d3fff1ec95a53a03f9ee11a9fa197fda4",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-09T08:44:50.779962Z",
       "seen_keys": [
+        "https://www.marktechpost.com/2026/08/09/imdb-sentiment-analysis-with-distilbert-lora-tf-idf-baselines-calibration-interpretability-robustness-testing-and-semi-supervised-learning",
         "https://www.ithome.com/0/987/452.htm",
         "https://x.com/elonmusk/status/2086127247077843282",
         "https://simonwillison.net/2026/Aug/7/openai-timeline",
@@ -2392,10 +2393,9 @@
         "https://mp.weixin.qq.com/s/5ic54FCsy334JJsQcyBr1g",
         "https://www.ithome.com/0/981/137.htm",
         "https://claude.com/blog/think-through-hard-problems-in-voice-mode",
-        "https://x.com/Thom_Wolf/status/2079954096950264238",
-        "https://www.ithome.com/0/980/322.htm"
+        "https://x.com/Thom_Wolf/status/2079954096950264238"
       ],
-      "last_changed_at": "2026-08-08T23:29:51.952872Z"
+      "last_changed_at": "2026-08-09T08:21:37.240089Z"
     }
   }
 }
