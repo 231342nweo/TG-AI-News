@@ -619,7 +619,7 @@
       "last_checked_at": "2026-07-02T04:51:56.844085Z",
       "baseline_initialized": true,
       "repos": {
-        "InternLM/WildClawBench": "2026-08-10T23:04:31Z",
+        "InternLM/WildClawBench": "2026-08-10T23:39:46Z",
         "InternLM/MindSearch": "2025-07-04T10:06:45Z",
         "InternLM/InternBootcamp": "2026-07-22T13:40:10Z",
         "InternLM/Intern-S2-Mobius": "2026-08-06T09:08:34Z",
@@ -640,7 +640,7 @@
         "InternLM/Challenge-Cup-2026": "2026-08-06T06:56:02Z",
         "InternLM/ARM-Thinker": "2026-02-13T09:00:05Z"
       },
-      "last_changed_at": "2026-08-10T23:20:43.659559Z",
+      "last_changed_at": "2026-08-10T23:54:10.637961Z",
       "source_signature": "a7a2f73a91108336ba1fe2d4fb4d5921862eb329f648d490a4d7903663f49f70",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -653,9 +653,11 @@
       "baseline_initialized": true,
       "repos": {
         "QwenLM/Qwen-MM-Plugins": "2026-08-10T18:49:42Z",
+        "QwenLM/qwen-code": "2026-08-10T23:35:13Z",
+        "QwenLM/Qwen-AgentWorld": "2026-07-20T11:52:07Z",
+        "QwenLM/Qwen-Image-Layered": "2025-12-31T11:40:35Z",
         "QwenLM/qwen-code-docs": "2026-08-10T21:40:36Z",
         "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
-        "QwenLM/qwen-code": "2026-08-10T22:02:26Z",
         "QwenLM/Qwen3-ASR": "2026-06-26T08:20:17Z",
         "QwenLM/Qwen-Image": "2026-02-10T07:37:37Z",
         "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
@@ -669,11 +671,9 @@
         "QwenLM/Qwen-VL": "2024-08-07T02:37:06Z",
         "QwenLM/Qwen3-ASR-Toolkit": "2026-02-05T05:35:03Z",
         "QwenLM/Qwen-VLA": "2026-05-29T13:49:38Z",
-        "QwenLM/Qwen-AgentWorld": "2026-07-20T11:52:07Z",
-        "QwenLM/Qwen-RobotNav": "2026-06-30T03:01:19Z",
-        "QwenLM/Qwen-Image-Layered": "2025-12-31T11:40:35Z"
+        "QwenLM/Qwen-RobotNav": "2026-06-30T03:01:19Z"
       },
-      "last_changed_at": "2026-08-10T22:05:43.775129Z",
+      "last_changed_at": "2026-08-10T23:54:10.637961Z",
       "source_signature": "ddc0d8d3788b1fc4ba6779bc400a51934ce7ac0845fbfff67f906a6d77406e21",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -1220,13 +1220,13 @@
       "last_changed_at": "2026-07-06T03:50:27.306264Z"
     },
     "sensenova-website": {
-      "fingerprint": "2f1da556db8bb729d58d36ad249ce2a3fd2b502ec58de741779a0aec0f0cdcac",
+      "fingerprint": "a491dca5c2e56500857ad1495003ebc4a701967c36df45b0d94cfe0b6d33e535",
       "last_checked_at": "2026-07-02T04:51:33.147542Z",
-      "last_excerpt": "日日新 - 商汤科技大模型平台 | SenseNova 模型 Token Plan 文档 控制台 商汤官网 English 问题反馈 01 模型 02 产品 03 开源 01 模型 02 产品 03 开源 原生多模态，突破技术边界 原生多模态，突破技术边界 异步生成 顶级效果 SenseNova U1 Pro 旗舰版图片创作模型，可通过内生的图文交错思维链创作出内容准确、设计精美、生产可用的图片素材，效果比肩海外顶尖模型 原生架构 理解生成统一 SenseNova U1 新一代原生多模态模型，基于 NEO-Unify 原生架构，理解生成高效统一 办公增强 更省 Token SenseNova 6.7 Flash-Lite 轻量级多模态智能体模型，面向真实工作流，兼顾智能体应用与日常任务执行需求 「日日新」 原生应用 小浣熊 办公小浣熊 Seko Seko 多模态短片创作 Agent 如影数字人 如影数字人 Skills SenseNova Skills 办公小浣熊 依托日日新大模型与 Cowork-Skill，可高效完成数据分析、PPT、信息图生成及任务规划；提供个性、安全的 AI 原生办公体验 「日日新」 开源生态 大模型 框架 旗舰模型 SenseNova U1 理解生成一体模型，带有 Agent 和生图能力 统一多模态 SenseNova-Vision 自然语言指令与任选视觉任务提示用于指定、目标区域或视角、输出结构和解码规则，模型则通过文本、图像，或图文混合生成进行输出 空间智能 SenseNova-SI 空间智能大模型，同时保持强大的通用多模态理解能力 推理模型 SenseNova-MARS 多模态自主推理模型，支持动态视觉推理与图文搜索深度融合 嵌入模型 Piccolo Embedding 通用 embedding 模型，支持更灵活的向量维度 多模态 NEO v1 新一代多模态大模型，支持视觉问答和图像生成 时序预测 Kairos-SenseNova 时序预测与决策模型，具有物理级的深层认知和低延迟推理能力 技能组件 SenseNova-Skills 汇聚海量技能组件，探索模型更多玩法，助力创新无限可能 ✦ 访问 GitHub 查看更多 坚持原创，让AI引领人类进步 沪 ICP 备 2021035992 号-11 | 沪公网安备 沪ICP备2021035992号 © 2014-2025 SenseTime. All Rights Reserved. 上海商汤科技开发有限公司 上海商汤科技开发有限公司是商汤集团旗下子公司",
+      "last_excerpt": "日日新 - 商汤科技大模型平台 | SenseNova 模型 Token Plan 文档 控制台 商汤官网 English 问题反馈 01 模型 02 产品 03 开源 01 模型 02 产品 03 开源 原生多模态，突破技术边界 原生多模态，突破技术边界 异步生成 顶级效果 SenseNova U1 Pro 旗舰版图片创作模型，可通过内生的图文交错思维链创作出内容准确、设计精美、生产可用的图片素材，效果比肩海外顶尖模型 原生架构 理解生成统一 SenseNova U1 新一代原生多模态模型，基于 NEO-Unify 原生架构，理解生成高效统一 轻量高效 复杂任务交付 SenseNova 6.8 Flash Lite 轻量高效的多模态智能体模型，面向真实复杂任务，适配数据分析和复杂信息呈现场景 「日日新」 原生应用 小浣熊 办公小浣熊 Seko Seko 多模态短片创作 Agent 如影数字人 如影数字人 Skills SenseNova Skills 办公小浣熊 依托日日新大模型与 Cowork-Skill，可高效完成数据分析、PPT、信息图生成及任务规划；提供个性、安全的 AI 原生办公体验 「日日新」 开源生态 大模型 框架 旗舰模型 SenseNova U1 理解生成一体模型，带有 Agent 和生图能力 统一多模态 SenseNova-Vision 自然语言指令与任选视觉任务提示用于指定、目标区域或视角、输出结构和解码规则，模型则通过文本、图像，或图文混合生成进行输出 空间智能 SenseNova-SI 空间智能大模型，同时保持强大的通用多模态理解能力 推理模型 SenseNova-MARS 多模态自主推理模型，支持动态视觉推理与图文搜索深度融合 嵌入模型 Piccolo Embedding 通用 embedding 模型，支持更灵活的向量维度 多模态 NEO v1 新一代多模态大模型，支持视觉问答和图像生成 时序预测 Kairos-SenseNova 时序预测与决策模型，具有物理级的深层认知和低延迟推理能力 技能组件 SenseNova-Skills 汇聚海量技能组件，探索模型更多玩法，助力创新无限可能 ✦ 访问 GitHub 查看更多 坚持原创，让AI引领人类进步 沪 ICP 备 2021035992 号-11 | 沪公网安备 沪ICP备2021035992号 © 2014-2025 SenseTime. All Rights Reserved. 上海商汤科技开发有限公司 上海商汤科技开发有限公司是商汤集团旗下子公司",
       "baseline_initialized": true,
       "source_signature": "912f625820f14dc102deac41d8bb2d2eb9f9851ee2ad05d7f410f035980e5cd6",
       "baseline_reinitialized_at": "2026-07-02T10:22:21.295328Z",
-      "last_changed_at": "2026-07-17T06:01:06.783479Z"
+      "last_changed_at": "2026-08-10T23:54:10.637961Z"
     },
     "openbmb-website": {
       "seen_keys": [
@@ -2090,7 +2090,7 @@
     },
     "aihot-selected": {
       "last_raw_count": 50,
-      "last_polled_at": "2026-08-10T23:20:43.659559Z",
+      "last_polled_at": "2026-08-10T23:54:10.637961Z",
       "source_signature": "54b0a2ce37b31eed7de5728f2ad3467d3fff1ec95a53a03f9ee11a9fa197fda4",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-09T08:44:50.779962Z",
