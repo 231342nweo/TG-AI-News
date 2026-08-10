@@ -619,8 +619,8 @@
       "last_checked_at": "2026-07-02T04:51:56.844085Z",
       "baseline_initialized": true,
       "repos": {
+        "InternLM/WildClawBench": "2026-08-10T21:34:41Z",
         "InternLM/InternBootcamp": "2026-07-22T13:40:10Z",
-        "InternLM/WildClawBench": "2026-08-09T21:00:29Z",
         "InternLM/Intern-S2-Mobius": "2026-08-06T09:08:34Z",
         "InternLM/lmdeploy": "2026-08-10T13:20:46Z",
         "InternLM/MindSearch": "2025-07-04T10:06:45Z",
@@ -640,7 +640,7 @@
         "InternLM/Challenge-Cup-2026": "2026-08-06T06:56:02Z",
         "InternLM/ARM-Thinker": "2026-02-13T09:00:05Z"
       },
-      "last_changed_at": "2026-08-10T19:13:16.690156Z",
+      "last_changed_at": "2026-08-10T22:05:43.775129Z",
       "source_signature": "a7a2f73a91108336ba1fe2d4fb4d5921862eb329f648d490a4d7903663f49f70",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -653,8 +653,9 @@
       "baseline_initialized": true,
       "repos": {
         "QwenLM/Qwen-MM-Plugins": "2026-08-10T18:49:42Z",
+        "QwenLM/qwen-code-docs": "2026-08-10T21:40:36Z",
         "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
-        "QwenLM/qwen-code": "2026-08-10T21:16:38Z",
+        "QwenLM/qwen-code": "2026-08-10T22:02:26Z",
         "QwenLM/Qwen3-ASR": "2026-06-26T08:20:17Z",
         "QwenLM/Qwen-Image": "2026-02-10T07:37:37Z",
         "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
@@ -670,10 +671,9 @@
         "QwenLM/Qwen-VLA": "2026-05-29T13:49:38Z",
         "QwenLM/Qwen-AgentWorld": "2026-07-20T11:52:07Z",
         "QwenLM/Qwen-RobotNav": "2026-06-30T03:01:19Z",
-        "QwenLM/Qwen-Image-Layered": "2025-12-31T11:40:35Z",
-        "QwenLM/Qwen2.5-Omni": "2025-06-12T11:03:07Z"
+        "QwenLM/Qwen-Image-Layered": "2025-12-31T11:40:35Z"
       },
-      "last_changed_at": "2026-08-10T21:27:11.126900Z",
+      "last_changed_at": "2026-08-10T22:05:43.775129Z",
       "source_signature": "ddc0d8d3788b1fc4ba6779bc400a51934ce7ac0845fbfff67f906a6d77406e21",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -683,10 +683,11 @@
       "baseline_initialized": true,
       "repos": {
         "Tencent-Hunyuan/Hunyuan3D-Buffalo1.0": "2026-08-10T17:04:25Z",
+        "Tencent-Hunyuan/HunyuanWorld-Voyager": "2026-04-15T17:30:08Z",
         "Tencent-Hunyuan/Hunyuan3D-WorldClaw": "2026-08-10T13:54:35Z",
+        "Tencent-Hunyuan/HY-World-2.0": "2026-08-05T07:14:12Z",
         "Tencent-Hunyuan/Hunyuan3D-2": "2025-10-28T09:58:12Z",
         "Tencent-Hunyuan/iFSQ": "2026-01-27T14:25:02Z",
-        "Tencent-Hunyuan/HY-World-2.0": "2026-08-05T07:14:12Z",
         "Tencent-Hunyuan/HY-Embodied": "2026-07-15T11:54:12Z",
         "Tencent-Hunyuan/HunyuanVideo": "2026-06-29T09:33:50Z",
         "Tencent-Hunyuan/Hy-MT": "2026-06-01T11:38:04Z",
@@ -700,10 +701,9 @@
         "Tencent-Hunyuan/Hy3": "2026-07-17T10:11:52Z",
         "Tencent-Hunyuan/HunyuanImage-3.0": "2026-06-23T13:12:44Z",
         "Tencent-Hunyuan/Hy-Embodied-0.5-VLA": "2026-08-04T07:32:42Z",
-        "Tencent-Hunyuan/Hyra-results": "2026-07-31T05:44:23Z",
-        "Tencent-Hunyuan/HY-WorldPlay": "2026-06-10T07:10:23Z"
+        "Tencent-Hunyuan/Hyra-results": "2026-07-31T05:44:23Z"
       },
-      "last_changed_at": "2026-08-10T20:01:02.854039Z",
+      "last_changed_at": "2026-08-10T22:05:43.775129Z",
       "source_signature": "637ce9b3bc2d070666c42f5fd92e749870848ee35ed6d4c156f831c9bc8f2d04",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -2090,11 +2090,12 @@
     },
     "aihot-selected": {
       "last_raw_count": 50,
-      "last_polled_at": "2026-08-10T21:27:11.126900Z",
+      "last_polled_at": "2026-08-10T22:05:43.775129Z",
       "source_signature": "54b0a2ce37b31eed7de5728f2ad3467d3fff1ec95a53a03f9ee11a9fa197fda4",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-09T08:44:50.779962Z",
       "seen_keys": [
+        "https://x.com/JensenHuang/status/2086934705207959965",
         "https://www.anthropic.com/research/riemann-zeta",
         "https://x.com/ClaudeDevs/status/2086844755770757531",
         "https://bobdahacker.com/blog/tldv-hack",
@@ -2141,6 +2142,7 @@
         "https://mp.weixin.qq.com/s?__biz=MzI0NzU1NzI5NQ%3D%3D&mid=2247543416&idx=1&sn=badeafc780a939033a1e4cb0bba4221c",
         "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards",
         "https://mp.weixin.qq.com/s?__biz=MzYzNDE5MDEwMQ%3D%3D&mid=2247488266&idx=1&sn=3a1988ba0710abcefba9c9dd282b464e",
+        "https://openrouter.ai/blog/tutorials/team-spend-controls-setup",
         "https://www.tomtunguz.com/the-secret-chat-room",
         "https://machinelearning.apple.com/research/scaling-categorical-flow-maps",
         "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
@@ -2392,11 +2394,9 @@
         "https://www.theverge.com/podcast/968787/apple-openai-trade-secrets-lawsuit-ai-hardware-smartphone-jony-ive",
         "https://x.com/Alibaba_Qwen/status/2080270065547809133",
         "https://mp.weixin.qq.com/s/P3yzceXkVxth7Q63nRfBLg",
-        "https://mp.weixin.qq.com/s/TEAuv29LPgmjQG_rO3b_Ag",
-        "https://www.anthropic.com/news/position-open-weights-models",
-        "https://dev.to/googleai/google-cloud-skills-tutorial-the-complete-guide-to-ai-powered-cloud-operations-13d9"
+        "https://mp.weixin.qq.com/s/TEAuv29LPgmjQG_rO3b_Ag"
       ],
-      "last_changed_at": "2026-08-10T20:49:39.066911Z"
+      "last_changed_at": "2026-08-10T22:05:46.179414Z"
     }
   }
 }
