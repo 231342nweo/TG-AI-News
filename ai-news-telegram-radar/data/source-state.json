@@ -395,8 +395,8 @@
       "last_checked_at": "2026-07-02T04:51:37.867265Z",
       "baseline_initialized": true,
       "repos": {
+        "MoonshotAI/kimi-code": "2026-08-11T05:44:52Z",
         "MoonshotAI/kimi-cli": "2026-08-03T07:59:07Z",
-        "MoonshotAI/kimi-code": "2026-08-11T04:56:07Z",
         "MoonshotAI/PerceptionBench": "2026-08-03T08:33:26Z",
         "MoonshotAI/Kimi-K3": "2026-08-06T10:17:28Z",
         "MoonshotAI/FlashKDA": "2026-07-30T07:14:39Z",
@@ -416,7 +416,7 @@
         "MoonshotAI/Kimi-Dev": "2025-09-30T02:15:54Z",
         "MoonshotAI/MoBA": "2025-04-03T07:28:06Z"
       },
-      "last_changed_at": "2026-08-11T05:18:22.411135Z",
+      "last_changed_at": "2026-08-11T06:06:56.724219Z",
       "source_signature": "c925f37596aaabb84376bf83142f08b0ce08447179a5d27a52c7956a40180daa",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -558,9 +558,9 @@
       "baseline_initialized": true,
       "repos": {
         "OpenSenseNova/SenseNova-U1": "2026-08-07T16:32:47Z",
+        "OpenSenseNova/SenseNova6.8": "2026-08-11T05:58:34Z",
         "OpenSenseNova/SenseNova-Skills": "2026-08-11T04:18:24Z",
         "OpenSenseNova/SenseNova-Vision": "2026-07-22T09:31:28Z",
-        "OpenSenseNova/SenseNova6.8": "2026-08-10T11:42:53Z",
         "OpenSenseNova/ConsistCompose": "2026-07-10T10:27:15Z",
         "OpenSenseNova/SenseNova-MARS": "2026-04-09T07:55:50Z",
         "OpenSenseNova/SenseNova-SI": "2026-05-14T03:11:20Z",
@@ -577,7 +577,7 @@
         "OpenSenseNova/InteractiveOmni": "2025-12-03T10:43:09Z",
         "OpenSenseNova/LlamaIndex_SenseNova": "2024-08-30T07:51:57Z"
       },
-      "last_changed_at": "2026-08-11T05:18:22.411135Z",
+      "last_changed_at": "2026-08-11T06:06:56.724219Z",
       "source_signature": "184a583402fb329afbafdb76f2a65866a141a46158abf1628f6e67daed5e148c",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -592,11 +592,11 @@
       "repos": {
         "OpenBMB/MiniCPM-V": "2026-08-04T05:58:49Z",
         "OpenBMB/VoxCPM": "2026-07-08T09:46:11Z",
+        "OpenBMB/MiniCPM-V-Apps": "2026-08-11T05:38:19Z",
         "OpenBMB/MiniCPM": "2026-07-27T06:50:07Z",
+        "OpenBMB/StaffDeck": "2026-08-10T12:30:23Z",
         "OpenBMB/ChatDev": "2026-07-24T08:01:27Z",
         "OpenBMB/ForgeTrain": "2026-06-17T06:14:58Z",
-        "OpenBMB/MiniCPM-V-Apps": "2026-08-07T06:51:53Z",
-        "OpenBMB/StaffDeck": "2026-08-10T12:30:23Z",
         "OpenBMB/MiniCPM-Robot": "2026-08-05T07:51:51Z",
         "OpenBMB/UltraRAG": "2026-08-10T04:10:48Z",
         "OpenBMB/Omni-DuplexEval": "2026-05-19T03:07:23Z",
@@ -611,7 +611,7 @@
         "OpenBMB/VisRAG": "2026-08-09T09:23:53Z",
         "OpenBMB/AgentCPM-GUI": "2026-01-11T08:24:15Z"
       },
-      "last_changed_at": "2026-08-11T02:50:24.862352Z",
+      "last_changed_at": "2026-08-11T06:06:56.724219Z",
       "source_signature": "3dd1c4ab8bc380dc66624329d310bc65fe6deafde7a370da1191ca03b32c0764",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -653,12 +653,13 @@
       "last_checked_at": "2026-07-02T04:51:58.871155Z",
       "baseline_initialized": true,
       "repos": {
-        "QwenLM/Qwen-MM-Plugins": "2026-08-10T18:49:42Z",
+        "QwenLM/Qwen-MM-Plugins": "2026-08-11T05:21:08Z",
+        "QwenLM/qwen-code": "2026-08-11T06:02:37Z",
         "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
-        "QwenLM/Qwen-RobotManip": "2026-06-29T22:29:54Z",
         "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
+        "QwenLM/Qwen3-ASR": "2026-06-26T08:20:17Z",
+        "QwenLM/Qwen-RobotManip": "2026-06-29T22:29:54Z",
         "QwenLM/Qwen3-Omni": "2026-04-23T10:58:01Z",
-        "QwenLM/qwen-code": "2026-08-11T05:09:30Z",
         "QwenLM/Qwen3-Coder": "2026-03-24T08:22:10Z",
         "QwenLM/FlashQLA": "2026-08-07T12:21:56Z",
         "QwenLM/Qwen-Image-Layered": "2025-12-31T11:40:35Z",
@@ -667,14 +668,13 @@
         "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
         "QwenLM/Qwen-Image": "2026-02-10T07:37:37Z",
         "QwenLM/Qwen-RobotNav": "2026-06-30T03:01:19Z",
-        "QwenLM/Qwen3-ASR": "2026-06-26T08:20:17Z",
         "QwenLM/Qwen": "2026-03-05T13:55:17Z",
         "QwenLM/Qwen-AgentWorld": "2026-07-20T11:52:07Z",
         "QwenLM/qwen-code-docs": "2026-08-10T21:40:36Z",
         "QwenLM/open-computer-use": "2026-06-10T16:38:07Z",
         "QwenLM/Qwen3.6": "2026-06-03T12:14:19Z"
       },
-      "last_changed_at": "2026-08-11T05:18:22.411135Z",
+      "last_changed_at": "2026-08-11T06:06:56.724219Z",
       "source_signature": "ddc0d8d3788b1fc4ba6779bc400a51934ce7ac0845fbfff67f906a6d77406e21",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -710,6 +710,9 @@
     },
     "qbitai-rss": {
       "seen_keys": [
+        "https://www.qbitai.com/2026/08/470485.html",
+        "https://www.qbitai.com/2026/08/470307.html",
+        "https://www.qbitai.com/2026/08/470254.html",
         "https://www.qbitai.com/2026/08/470228.html",
         "https://www.qbitai.com/2026/08/469880.html",
         "https://www.qbitai.com/2026/08/469869.html",
@@ -1006,14 +1009,11 @@
         "https://www.qbitai.com/2026/07/447682.html",
         "https://www.qbitai.com/2026/07/447681.html",
         "https://www.qbitai.com/2026/07/447627.html",
-        "https://www.qbitai.com/2026/07/447602.html",
-        "https://www.qbitai.com/2026/07/447597.html",
-        "https://www.qbitai.com/2026/07/447508.html",
-        "https://www.qbitai.com/2026/07/446843.html"
+        "https://www.qbitai.com/2026/07/447602.html"
       ],
       "last_checked_at": "2026-07-02T04:52:26.145879Z",
       "baseline_initialized": true,
-      "last_changed_at": "2026-08-11T05:19:52.972446Z",
+      "last_changed_at": "2026-08-11T06:08:18.594394Z",
       "source_signature": "34418d38d4b87c134f9922d6999ac3c069821ed0be2134f9ba6ae5e00e4b63a9",
       "baseline_reinitialized_at": "2026-07-02T10:23:28.426031Z"
     },
@@ -1478,25 +1478,25 @@
         "https://www.tc260.org.cn/portal/article/1/f57857bcdc15494890df2022b83321cc",
         "https://www.tc260.org.cn/portal/article/1/0efe73df0f234fa5a4fce766173b5678",
         "https://www.tc260.org.cn/portal/article/1/c38f19280f2b4b5284c642a174f27d38",
-        "https://www.tc260.org.cn/portal/article/1/9745608fa11e46639275aa834e58b5c4",
         "https://www.tc260.org.cn/portal/article/1/c5bff06b0a544674b12b89271bf8df02",
+        "https://www.tc260.org.cn/portal/article/1/9745608fa11e46639275aa834e58b5c4",
         "https://www.tc260.org.cn/portal/article/1/07d60a8d728445fbb3526ca97e3d02d9",
         "https://www.tc260.org.cn/portal/article/1/a6d21a769f07420f818f6bed6797c618",
         "https://www.tc260.org.cn/portal/article/1/4541a22bb6f542b5ae7c37ffe0d914aa",
-        "https://www.tc260.org.cn/portal/article/2/a1de240fa2a7452e93df1ca6c3f1cf45",
         "https://www.tc260.org.cn/portal/article/2/f81cf1f5c0504a1b92239f042d04d0bb",
+        "https://www.tc260.org.cn/portal/article/2/a1de240fa2a7452e93df1ca6c3f1cf45",
         "https://www.tc260.org.cn/portal/article/2/8653731b442a460a910e6100d4eee9ea",
         "https://www.tc260.org.cn/portal/article/2/d7b8b931bce4444cae14a48c0f0dd8b4",
+        "https://www.tc260.org.cn/portal/article/2/807a1aa20047477086ba2b44b726a5f7",
         "https://www.tc260.org.cn/portal/article/2/bb40941bb2784c749a43ec4762cdb988",
         "https://www.tc260.org.cn/portal/article/2/4456ae01b56e4792bb98d82d452e9cba",
-        "https://www.tc260.org.cn/portal/article/2/807a1aa20047477086ba2b44b726a5f7",
-        "https://www.tc260.org.cn/portal/article/2/e277e9cf94424b4cb2434ba552dc8279",
+        "https://www.tc260.org.cn/portal/article/2/bb41ce76e8ce44e2b4aa18ec5cd1e51e",
         "https://www.tc260.org.cn/portal/suggestion-detail/1b21a4adefd04d7a8f8b2aec67225f50",
         "https://www.tc260.org.cn/portal/suggestion-detail/770f550a6774493d9a6dc2f51454e8db",
         "https://www.tc260.org.cn/portal/suggestion-detail/cb5000e8a5de441298c267b21777e51b",
         "https://www.tc260.org.cn/portal/suggestion-detail/e79c8c1ecc99494e93861c7c618d12ec",
         "https://www.tc260.org.cn/portal/suggestion-detail/f134b0e1e59647679e797e5d3863cd63",
-        "https://www.tc260.org.cn/portal/article/2/bb41ce76e8ce44e2b4aa18ec5cd1e51e",
+        "https://www.tc260.org.cn/portal/article/2/e277e9cf94424b4cb2434ba552dc8279",
         "https://www.tc260.org.cn/portal/article/2/c26a15400af34b66bf76771dcf9d0d3c",
         "https://www.tc260.org.cn/portal/article/2/7ca40adc25de45918add74f2ff16cdc9",
         "https://www.tc260.org.cn/portal/article/2/e0467c848e224a698badf7ded8339e63",
@@ -1563,7 +1563,7 @@
       ],
       "last_checked_at": "2026-07-02T04:52:25.829528Z",
       "baseline_initialized": true,
-      "last_changed_at": "2026-08-11T05:19:49.464361Z",
+      "last_changed_at": "2026-08-11T06:08:15.296357Z",
       "source_signature": "ac7adf7536607ad1dc8d9ca06c0f10f499a52b1893dcc2d8ec03dd7b6240b921",
       "baseline_reinitialized_at": "2026-07-02T10:23:25.737100Z"
     },
@@ -2093,11 +2093,15 @@
     },
     "aihot-selected": {
       "last_raw_count": 50,
-      "last_polled_at": "2026-08-11T05:18:22.411135Z",
+      "last_polled_at": "2026-08-11T06:06:56.724219Z",
       "source_signature": "54b0a2ce37b31eed7de5728f2ad3467d3fff1ec95a53a03f9ee11a9fa197fda4",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-09T08:44:50.779962Z",
       "seen_keys": [
+        "https://mp.weixin.qq.com/s?__biz=MzkyMzI3NzQ0Mg%3D%3D&mid=2247494052&idx=1&sn=ee3ab3d0f4550e9120927c53a27522c9",
+        "https://www.marktechpost.com/2026/08/10/implementing-a-minimax-h3-multimodal-video-and-audio-generation-pipeline-with-comfyui-apis",
+        "http://danluu.com/pl-tokens",
+        "https://www.ithome.com/0/988/239.htm",
         "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647685081&idx=1&sn=13a05578a3959c047209c8e74b56fa48",
         "https://www.databricks.com/blog/how-ground-genie-agents-both-structured-data-and-documents-without-losing-governance",
         "https://x.com/JensenHuang/status/2086934705207959965",
@@ -2114,6 +2118,7 @@
         "https://mp.weixin.qq.com/s?__biz=MzYzNDE5MDEwMQ%3D%3D&mid=2247488345&idx=1&sn=ef4e57c9c9350f9238d90211eb2dd453",
         "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647685059&idx=1&sn=a329fe9999ac2419470c7eca9a97acd3",
         "https://openchamber.dev",
+        "https://arxiv.org/abs/2608.09853",
         "https://openrouter.ai/blog/announcements/introducing-the-new-auto-router",
         "https://www.marktechpost.com/2026/08/09/nvidia-releases-nemotronlabs-voicechat-11b-an-open-full-duplex-speech-to-speech-model-with-450-ms-turn-taking-and-live-tool-calling",
         "https://www.ithome.com/0/987/649.htm",
@@ -2129,6 +2134,7 @@
         "https://www.ithome.com/0/987/438.htm",
         "https://arstechnica.com/science/2026/08/deepminds-hurricane-model-bought-forecasters-an-extra-day",
         "https://www.ithome.com/0/987/366.htm",
+        "https://arxiv.org/abs/2608.08311",
         "https://www.ithome.com/0/987/221.htm",
         "https://x.com/ClaudeDevs/status/2085817074816070014",
         "https://blog.cloudflare.com/kitesurf",
@@ -2391,15 +2397,9 @@
         "https://x.com/gdb/status/2080351159638704615",
         "https://the-decoder.com/one-tampered-chatgpt-link-could-spawn-a-rogue-ai-agent-that-took-orders-from-an-attacker-every-five-minutes",
         "https://x.com/satyanadella/status/2080329851127669104",
-        "https://developer.ant-ling.com/zh-CN/blogs/ling-3.0-flash-release",
-        "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models",
-        "https://www.anthropic.com/research/discovering-cryptographic-weaknesses",
-        "https://www.anthropic.com/news/claude-opus-5",
-        "https://techcrunch.com/2026/07/23/google-closes-in-on-another-billion-user-product-with-gemini",
-        "https://www.theverge.com/podcast/968787/apple-openai-trade-secrets-lawsuit-ai-hardware-smartphone-jony-ive",
-        "https://x.com/Alibaba_Qwen/status/2080270065547809133"
+        "https://developer.ant-ling.com/zh-CN/blogs/ling-3.0-flash-release"
       ],
-      "last_changed_at": "2026-08-11T00:40:58.267787Z"
+      "last_changed_at": "2026-08-11T06:06:58.984685Z"
     }
   }
 }
