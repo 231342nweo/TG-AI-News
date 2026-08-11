@@ -115,13 +115,13 @@
       "last_suppressed_reason": "html_diff_without_readable_change"
     },
     "stepfun-platform": {
-      "fingerprint": "69045992b52aaf46fa8baed4e857a9b9297edd9ce0022c02aca6573e95893ec1",
+      "fingerprint": "a602696ea152773f3a3c3adb086b9cb8db3b86ff4feefb1332ecc256496394ee",
       "last_checked_at": "2026-07-02T04:51:33.147542Z",
-      "last_excerpt": "阶跃星辰开放平台 首页 Step Plan 文档中心 文档中心 Startup Program Builder Program 体验中心 Studio 体验中心 场景示例 阶跃星辰官网 EN 未登录 Step 3.7 Flash 面向生产级 Agent 的高效率 Flash 模型 原生多模态理解与执行 / 联网与视觉搜索增强 / 高可靠工具调用与编排 / Agent 生态兼容优化 模型介绍 立即使用 Step Plan Step Plan 从 Coding 到 Agent 皆可构建 多模型智能路由 / 多模态 / 适配主流 Agent 框架 模型介绍 立即使用 Step Image Edit 2 图像编辑与通用生图大模型 3.5B 轻量架构 / 极致智能密度 / 秒级响应 模型介绍 立即使用 StepAudio 2.5 TTS 具备语境感知力的语音合成模型 双档语境风格控制 / Zero-shot 精准音色复刻 / “人味儿”拉满 模型介绍 立即使用 携手合作伙伴加速 AI 应用落地 语言模型 语音模型 多模态/GUI 模型 语言大模型 Step 3.7 Flash 面向生产级 Agent 的高效率 Flash 模型 模型介绍 马上开始 原生多模态理解与执行 原生理解 UI、图表、文档、图片和应用界面，将复杂视觉信息转化为结构化结果、代码生成和可执行任务。 联网与视觉搜索增强 强化联网检索与图像搜索,使模型在开放信息环境中跨文本与图像主动获取并交叉比对多源证据。 高可靠工具调用与编排 在长程多轮 Agent 工作流中稳定调用 API、浏览器、终端、Office工具和外部系统，保持任务轨迹一致，降低跑偏和执行失败。 Agent 生态兼容优化 针对主流 Agent 框架（Claude Code / KiloCode / Hermes Agent / OpenClaw等）、MCP/Skills 等工具调用协议和开发链路进行兼容优化，降低模型接入和工作流编排成本。 语言大模型 Step 3.5 Flash 为 Agent 而生的语言大模型！快，很快，还能更快 语言大模型 Step 2 万亿参数自研底座；深度推理对标前沿；精准多层指令跟随 语言大模型 Step 1 单卡低比特长文本推理；千万级用户产品稳定验证；高效多轮指令跟随能力 文档中心 了解定价 让 AI 应用更容易构建 连接模型、工具与工作流,探索下一代 AI 应用 Studio 模型体验中心 无需编写任何代码即可在体验中心中探索我们的模型和 API 立即使用 行业解决方案 消费电子 内容创作 智能汽车 本地生活 金融财经 智能制造 游戏娱乐 智能政务 消费电子 助力智能终端设备个性化交互， 提升用户体验 提供 AI 多模态智搜、拍照问万物、AI 助手智答等功能，引领手机迈入智能新时代。 内容创作 助力内容创作应用生态升级， 开启智能创作新体验 提供长篇叙事能力与存储能力，覆盖 IP 互动游戏、智能音视频编辑、音视频内容生产、网文创作等场景。 智能汽车 深度融合智能汽车行业， 引领 AI 汽车革新 为智能汽车提供智能个性化互动体验和车外环境感知等功能，提升驾驶安全性和出行乐趣。 本地生活 助力本地生活智慧化运营， 创造增量业务价值 AIGC 助力营销落地，AI 巡检提升运营效率，智能数据分析赋能经营决策。 金融财经 驱动金融行业智能化升级， 重塑金融服务面貌 形成投研、投顾、资讯大模型生态圈，提供更准确、全面和及时的投资研究支持，全面助力数字化服务体系能力提升。 智能制造 为智能制造业注入新动力， 推动智能化生产普及应用 赋能产品生产过程，实现产品质量智能检查，为制造商提供了更全面的质量控制解决方案。 游戏娱乐 丰富游戏行业创作形式， 沉浸式体验游戏乐趣 支持虚拟角色创建、无限剧情拓展、游戏数值计算等功能，开启个性化虚拟世界新纪元。 智能政务 助力服务效率提升， 开启智能政务新篇章 围绕一体化办公助手、城市生命体征、法律咨询等场景，推进政务领域大模型的落地应用。 联系我们：platform@stepfun.com 联系我们 官方邮箱 开发者交流群 客服微信 文档中心 模型列表 开发指南 定价计费 体验模型 体验中心 阶跃 AI Scale-up possibilities for everyone 模型名称：阶跃大模型 沪公网安备31010402333581 备案号：Shanghai-JieYue-20231106 沪ICP备2023019222号-3 Copyright © 2023 上海阶跃星辰智能科技股份有限公司 地址：上海市徐汇区云锦路701号30层",
+      "last_excerpt": "阶跃星辰开放平台 首页 Step Plan 文档中心 文档中心 Startup Program Builder Program Studio 阶跃星辰官网 EN 未登录 Step 3.7 Flash 面向生产级 Agent 的高效率 Flash 模型 原生多模态理解与执行 / 联网与视觉搜索增强 / 高可靠工具调用与编排 / Agent 生态兼容优化 模型介绍 立即使用 Step Plan Step Plan 从 Coding 到 Agent 皆可构建 多模型智能路由 / 多模态 / 适配主流 Agent 框架 模型介绍 立即使用 Step Image Edit 2 图像编辑与通用生图大模型 3.5B 轻量架构 / 极致智能密度 / 秒级响应 模型介绍 立即使用 StepAudio 2.5 TTS 具备语境感知力的语音合成模型 双档语境风格控制 / Zero-shot 精准音色复刻 / “人味儿”拉满 模型介绍 立即使用 携手合作伙伴加速 AI 应用落地 语言模型 语音模型 多模态/GUI 模型 语言大模型 Step 3.7 Flash 面向生产级 Agent 的高效率 Flash 模型 模型介绍 马上开始 原生多模态理解与执行 原生理解 UI、图表、文档、图片和应用界面，将复杂视觉信息转化为结构化结果、代码生成和可执行任务。 联网与视觉搜索增强 强化联网检索与图像搜索,使模型在开放信息环境中跨文本与图像主动获取并交叉比对多源证据。 高可靠工具调用与编排 在长程多轮 Agent 工作流中稳定调用 API、浏览器、终端、Office工具和外部系统，保持任务轨迹一致，降低跑偏和执行失败。 Agent 生态兼容优化 针对主流 Agent 框架（Claude Code / KiloCode / Hermes Agent / OpenClaw等）、MCP/Skills 等工具调用协议和开发链路进行兼容优化，降低模型接入和工作流编排成本。 语言大模型 Step 3.5 Flash 为 Agent 而生的语言大模型！快，很快，还能更快 语言大模型 Step 2 万亿参数自研底座；深度推理对标前沿；精准多层指令跟随 语言大模型 Step 1 单卡低比特长文本推理；千万级用户产品稳定验证；高效多轮指令跟随能力 文档中心 了解定价 让 AI 应用更容易构建 连接模型、工具与工作流,探索下一代 AI 应用 Studio 行业解决方案 消费电子 内容创作 智能汽车 本地生活 金融财经 智能制造 游戏娱乐 智能政务 消费电子 助力智能终端设备个性化交互， 提升用户体验 提供 AI 多模态智搜、拍照问万物、AI 助手智答等功能，引领手机迈入智能新时代。 内容创作 助力内容创作应用生态升级， 开启智能创作新体验 提供长篇叙事能力与存储能力，覆盖 IP 互动游戏、智能音视频编辑、音视频内容生产、网文创作等场景。 智能汽车 深度融合智能汽车行业， 引领 AI 汽车革新 为智能汽车提供智能个性化互动体验和车外环境感知等功能，提升驾驶安全性和出行乐趣。 本地生活 助力本地生活智慧化运营， 创造增量业务价值 AIGC 助力营销落地，AI 巡检提升运营效率，智能数据分析赋能经营决策。 金融财经 驱动金融行业智能化升级， 重塑金融服务面貌 形成投研、投顾、资讯大模型生态圈，提供更准确、全面和及时的投资研究支持，全面助力数字化服务体系能力提升。 智能制造 为智能制造业注入新动力， 推动智能化生产普及应用 赋能产品生产过程，实现产品质量智能检查，为制造商提供了更全面的质量控制解决方案。 游戏娱乐 丰富游戏行业创作形式， 沉浸式体验游戏乐趣 支持虚拟角色创建、无限剧情拓展、游戏数值计算等功能，开启个性化虚拟世界新纪元。 智能政务 助力服务效率提升， 开启智能政务新篇章 围绕一体化办公助手、城市生命体征、法律咨询等场景，推进政务领域大模型的落地应用。 联系我们：platform@stepfun.com 联系我们 官方邮箱 开发者交流群 客服微信 文档中心 模型列表 开发指南 定价计费 体验模型 Studio 阶跃 AI Scale-up possibilities for everyone 模型名称：阶跃大模型 沪公网安备31010402333581 备案号：Shanghai-JieYue-20231106 沪ICP备2023019222号-3 Copyright © 2023 上海阶跃星辰智能科技股份有限公司 地址：上海市徐汇区云锦路701号30层",
       "baseline_initialized": true,
       "source_signature": "1764b050776e48118386a9b8f957cabbc6103cedf92d24ea4a75aca9c840feca",
       "baseline_reinitialized_at": "2026-07-02T10:22:21.295328Z",
-      "last_changed_at": "2026-08-01T01:09:06.587166Z"
+      "last_changed_at": "2026-08-11T09:30:19.955616Z"
     },
     "baichuan-api-docs": {
       "fingerprint": "e70e07d29b52339cabbc2d77c16275a8ff814eaac6c714b8dd66885f9db9a321",
@@ -176,13 +176,13 @@
       "last_changed_at": "2026-07-22T12:16:54.680553Z"
     },
     "aliyun-bailian-models": {
-      "fingerprint": "3ba56201ce4716c357c0b379ae178f120867f5a39f0377415da71529d91efbe5",
+      "fingerprint": "5156ef09154199841ef4ea3e2216112dcfbc042af03228ffa96e0a12297eb9dc",
       "last_checked_at": "2026-07-02T04:51:33.147542Z",
       "last_excerpt": "模型大全功能规格与计费-大模型服务平台百炼-阿里云-大模型服务平台百炼(Model Studio)-阿里云帮助中心 大模型 产品 解决方案 权益 定价 云市场 伙伴 服务 了解阿里云 查看 \"\" 全部搜索结果 AI 助理 文档 备案 控制台 官方文档 用户指南（模型） 用户指南（应用） API参考（模型） API参考（应用） 首页 选择模型 更新时间： 复制 MD 格式 产品详情 我的收藏 阿里云百炼提供千问及第三方模型服务，覆盖文本、图像、音频、视频等多种模态。 文本生成 查看更多 → qwen3.8-max 华北2（北京） 新加坡 日本（东京） 德国（法兰克福） 美国（弗吉尼亚） OpenAI 兼容 Anthropic 兼容 DashScope 模型 ID qwen3.8-max Base URL https:// {WorkspaceId} .cn-beijing.maas.aliyuncs.com/compatible-mode/v1 API Key 获取↗ 模型 ID qwen3.8-max Base URL https:// {WorkspaceId} .cn-beijing.maas.aliyuncs.com/apps/anthropic API Key 获取↗ 模型 ID qwen3.8-max Base URL https:// {WorkspaceId} .cn-beijing.maas.aliyuncs.com/api/v1 API Key 获取↗ OpenAI 兼容 Anthropic 兼容 DashScope 模型 ID qwen3.8-max Base URL https:// {WorkspaceId} .ap-southeast-1.maas.aliyuncs.com/compatible-mode/v1 API Key 获取↗ 模型 ID qwen3.8-max Base URL https:// {WorkspaceId} .ap-southeast-1.maas.aliyuncs.com/apps/anthropic API Key 获取↗ 模型 ID qwen3.8-max Base URL https:// {WorkspaceId} .ap-southeast-1.maas.aliyuncs.com/api/v1 API Key 获取↗ OpenAI 兼容 Anthropic 兼容 DashScope 模型 ID qwen3.8-max Base URL https:// {WorkspaceId} .ap-northeast-1.maas.aliyuncs.com/compatible-mode/v1 API Key 获取↗ 模型 ID qwen3.8-max Base URL https:// {WorkspaceId} .ap-northeast-1.maas.aliyuncs.com/apps/anthropic API Key 获取↗ 模型 ID qwen3.8-max Base URL https:// {WorkspaceId} .ap-northeast-1.maas.aliyuncs.com/api/v1 API Key 获取↗ OpenAI 兼容 Anthropic 兼容 DashScope 模型 ID qwen3.8-max Base URL https:// {WorkspaceId} .eu-central-1.maas.aliyuncs.com/compatible-mode/v1 API Key 获取↗ 模型 ID qwen3.8-max Base URL https:// {WorkspaceId} .eu-central-1.maas.aliyuncs.com/apps/anthropic API Key 获取↗ 模型 ID qwen3.8-max Base URL https:// {WorkspaceId} .eu-central-1.maas.aliyuncs.com/api/v1 API Key 获取↗ OpenAI 兼容 Anthropic 兼容 DashScope 模型 ID qwen3.8-max Base URL https://dashscope-us.aliyuncs.com/compatible-mode/v1 API Key 获取↗ 模型 ID qwen3.8-max Base URL https://dashscope-us.aliyuncs.com/apps/anthropic API Key 获取↗ 模型 ID qwen3.8-max Base URL https://dashscope-us.aliyuncs.com/api/v1 API Key 获取↗ qwen3.7-plus 华北2（北京） 新加坡 日本（东京） 德国（法兰克福） 美国（弗吉尼亚） OpenAI 兼容 Anthropic 兼容 DashScope 模型 ID qwen3.7-plus Base URL https:// {WorkspaceId} .cn-beijing.maas.aliyuncs.com/compatible-mode/v1 API Key 获取↗ 模型 ID qwen3.7-plus Base URL https:// {WorkspaceId} .cn-beijing.maas.aliyuncs.com/apps/anthropic API Key 获取↗ 模型 ID qwen3.7-plus Base URL https:// {WorkspaceId} .cn-beijing.maas.aliyuncs.com/api/v1 API Key 获取↗ OpenAI 兼容 Anthropic 兼容 DashScope 模型 ID qwen3.7-plus Base URL https:// {WorkspaceId} .ap-southeast-1.maas.aliyuncs.com/compatible-mode/v1 API Key 获取↗ 模型 ID qwen3.7-plus Base URL https:// {WorkspaceId} .ap-southeast-1.maas.aliyuncs.com/apps/anthropic API Key 获取↗ 模型 ID qwen3.7-plus Base URL https:// {WorkspaceId} .ap-southeast-1.maas.aliyuncs.com/api/v1 API Key 获取↗ OpenAI 兼容 Anthropic 兼容 DashScope 模型 ID qwen3.7-plus Base URL https:// {WorkspaceId} .ap-northeast-1.maas.aliyuncs.com/compatible-mode/v1 API Key 获取↗ 模型 ID qwen3.7-plus Base URL https:// {WorkspaceId} .ap-northeast-1.maas.aliyuncs.com/apps/anthropic API Key 获取↗ 模型 ID qwen3.7-plus Base URL https:// {WorkspaceId} .ap-northeast-1.maas.aliyuncs.com/api/v1 API Key 获取↗ OpenAI 兼容 Anthropic 兼容 DashScope 模型 ID qwen3.7-plus Base URL https:// {WorkspaceId} .eu-central-1.maas.aliyuncs.com/compatible-mode/v1 API Key 获取↗ 模型 ID qwen3.7-plus Base URL https:// {WorkspaceId} .eu-central-1.maas.aliyuncs.com/apps/anthropic API Key 获取↗ 模型 ID qwen3.7-plus Base URL https:// {WorkspaceId} .eu-central-1.maas.aliyuncs.com/api/v1 API Key 获取↗ OpenAI 兼容 Anthropic 兼容 DashScope 模型 ID qwen3.7-plus Base URL https://dashscope-us.aliyuncs.com/compatible-mode/v1 API Key 获取↗ 模型 ID qwen3.7-plus Base URL https://dashscope-us.aliyuncs.com/apps/anthropic API Key 获取↗ 模型 ID qwen3.7-plus Base URL https://dashscope-us.aliyuncs.com/api/v1 API Key 获取↗ qwen3.7-flash 华北2（北京） 新加坡 日本（东京） 德国（法兰克福） 美国（弗吉尼亚） OpenAI 兼容 Anthropic 兼容 DashScope 模型 ID qwen3.7-flash Base URL https:// {WorkspaceId} .cn-beijing.maas.aliyuncs.com/compatible-mode/v1 API Key ",
       "baseline_initialized": true,
       "source_signature": "55deffc503423fb3ce68daece33fd797ae9f277c5d24e170f039031f65315073",
       "baseline_reinitialized_at": "2026-07-02T10:22:21.295328Z",
-      "last_changed_at": "2026-08-10T02:26:09.207442Z",
+      "last_changed_at": "2026-08-11T09:30:19.955616Z",
       "last_suppressed_reason": "html_diff_without_readable_change"
     },
     "baidu-qianfan-docs": {
@@ -249,9 +249,9 @@
       ],
       "last_checked_at": "2026-07-02T04:52:05.788649Z",
       "baseline_initialized": true,
-      "last_changed_at": "2026-08-11T02:50:24.862352Z",
-      "fingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "last_excerpt": "",
+      "last_changed_at": "2026-08-11T09:30:19.955616Z",
+      "fingerprint": "10826b2c9ae87e81122821d35207c44644eab311e32d8105642a1b63c003a219",
+      "last_excerpt": "文档中心 简体 文档 控制台 登录 注册 火山方舟 文档指南 订阅 [Agent/Coding Plan] API参考 资源 火山方舟 火山方舟 资源 请输入 产品公告 产品更新公告 模型发布公告 模型下线公告 历史公告 2026 公告 26年春节期间访问方式调整公告 2025 公告 模型发布公告 2025 产品更新公告 2025 模型下线公告 2025 高代码 SDK Arkitect 正式发布 2024 公告 模型发布公告 2024 产品更新公告 2024 模型下线公告 2024 火山方舟 SDK V1/V2下线公告及迁移指引 模型插件联网基础版、联网plus版、联网pro版下线公告 热门活动 Seedance 2.0-2.5 模型资源包使用规则 协作奖励计划 免费推理额度 实践教程 Managed Agent [基础] 构建连续对话的工单分诊助手 [基础] 工单分诊 Agent 系统提示词版本管理 [进阶] 构建可持续迭代的 AI 研究交付工作台 [进阶] 构建从 CSV 到交互式报告的数据分析 Agent [进阶] 使用 Vaults 让开发 Agent 以用户身份提交 GitHub PR [进阶] 使用 Memory Store 构建有记忆的购物助手 [进阶] 用多智能体团队生成定制销售提案 [进阶] 使用 arkcli 构建集成 Vault 与 Memory 的投研 Agent Ark CLI 使用指南 方舟文档 MCP 快速入门(新手版) Seedance 1.5 pro 提示词指南 Seedance 1.0 系列提示词指南 Seedream 4.0-5.0 提示词指南 Seedream 4.0 助力 Seedance 生视频最佳实践 RAG（检索增强）解决方案 数据回流操作流程 如何设置控制台登录保持时间 角色扮演场景提示词指南 环境变量配置指南 突发流量处理最佳实践 火山方舟分账最佳实践 在应用中使用 RTC 实现 AI 实时对话 通过 TOS 内网预签名 URL 传入文件 购买指南 模型服务计费说明 TPM 保障包计费说明 联网内容插件产品计费 豆包助手计费 知识库计费 PromptPilot 计费 Seedance 高级创作权益包购买说明 方舟官方产物验证功能说明 税率与发票 权限管理 使用 IAM 管理权限 管理 API Key HYOK 最佳实践 平台功能 平台能力速览 模型广场 应用广场 体验中心 体验中心概览 语言模型 虚拟人像库 录入真人形象素材 使用版权生视频模板生成 IP 视频 图片生成模型 开发者模式 MCP 简介 Canvas 简介 在线推理 管理推理接入点 为 AI 生成产物添加隐式水印 安心体验模式细则说明 开通管理 安全管理 控制台-推理安全审计 控制台-精调安全审计 控制台-推理接入点安全监控总览 用量统计 项目配置 网络配置 Token 计算器 安全管理 安全管理总览 内容安全护栏 火山方舟大模型服务安全白皮书 火山方舟互信计算架构白皮书 推理会话数据应用层加密方案 精调安全防护能力介绍 常见问题 常见问题 相关协议 火山方舟大模型服务平台专用条款 火山方舟体验中心服务规则和免责声明 Agent Plan / Coding Plan 火山引擎数据授权使用协议 ArkClaw 服务规则 Harness 能力说明和产品专用条款 模型服务协议 豆包模型服务协议 火山引擎豆包大模型商标使用规范 月之暗面模型服务协议 智谱AI模型服务协议 PromptPilot 服务专用条款和数据授权使用协议 影眸模型服务协议 数美模型服务协议 开源模型许可证 模型备案 客户应用上架指南-算法备案资质申请流程 大模型备案说明(含算法备案及人工智能备案) 火山方舟模型备案信息公示 MCP 云产品一键授权开通相关协议 知识库产品服务和专用条款 豆包助手专区服务专用条款和数据授权使用协议 方舟售后支持范围 版权和人像素材使用规则 文档首页 火山方舟 产品公告 产品更新公告 复制全文 下载 pdf 我的收藏 产品公告 产品更新公告 复制全文 下载 pdf 我的收藏 产品更新公告 文档反馈 问问助手 最近更新时间： 2026.08.05 20:45:46 这个页面对您有帮助吗？ 有用 有用 无用 无用",
       "baseline_invalid": true,
       "source_signature": "bf1f63ca68ab1a7f10b219aa7fbc07472dde5da63456aa15a90f6ecaf31f0156",
       "baseline_reinitialized_at": "2026-07-02T10:22:21.295328Z"
@@ -395,10 +395,10 @@
       "last_checked_at": "2026-07-02T04:51:37.867265Z",
       "baseline_initialized": true,
       "repos": {
+        "MoonshotAI/kimi-code": "2026-08-11T09:28:59Z",
         "MoonshotAI/Kimi-K3": "2026-08-06T10:17:28Z",
         "MoonshotAI/FlashKDA": "2026-07-30T07:14:39Z",
         "MoonshotAI/Kimi-Linear": "2025-11-17T09:36:48Z",
-        "MoonshotAI/kimi-code": "2026-08-11T08:15:30Z",
         "MoonshotAI/Kimi-K2": "2026-01-21T05:33:12Z",
         "MoonshotAI/MoBA": "2025-04-03T07:28:06Z",
         "MoonshotAI/Kimi-Vendor-Verifier": "2026-08-11T07:16:33Z",
@@ -416,7 +416,7 @@
         "MoonshotAI/nano-kpu": "2026-07-23T08:06:38Z",
         "MoonshotAI/Kimi-Dev": "2025-09-30T02:15:54Z"
       },
-      "last_changed_at": "2026-08-11T08:28:13.508495Z",
+      "last_changed_at": "2026-08-11T09:30:19.955616Z",
       "source_signature": "c925f37596aaabb84376bf83142f08b0ce08447179a5d27a52c7956a40180daa",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -455,9 +455,9 @@
       "last_checked_at": "2026-07-02T04:51:46.918095Z",
       "baseline_initialized": true,
       "repos": {
-        "MiniMax-AI/MiniMax-H3": "2026-08-10T02:41:10Z",
-        "MiniMax-AI/cli": "2026-08-11T08:07:48Z",
+        "MiniMax-AI/MiniMax-H3": "2026-08-11T09:06:22Z",
         "MiniMax-AI/skills": "2026-04-18T09:48:47Z",
+        "MiniMax-AI/cli": "2026-08-11T08:07:48Z",
         "MiniMax-AI/MiniMax-M3": "2026-07-11T09:08:38Z",
         "MiniMax-AI/OpenRoom": "2026-06-03T23:15:42Z",
         "MiniMax-AI/MSA": "2026-07-30T06:11:11Z",
@@ -476,7 +476,7 @@
         "MiniMax-AI/MiniMax-Coding-Plan-MCP": "2026-02-10T12:01:59Z",
         "MiniMax-AI/audio-tools": "2025-04-01T11:37:33Z"
       },
-      "last_changed_at": "2026-08-11T08:28:13.508495Z",
+      "last_changed_at": "2026-08-11T09:30:19.955616Z",
       "source_signature": "7447070c255f24c8392151456130d2d0f151e24197208adc4a6860c7b238bc6e",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -590,28 +590,28 @@
       "last_checked_at": "2026-07-02T04:51:55.708102Z",
       "baseline_initialized": true,
       "repos": {
-        "OpenBMB/MiniCPM-V": "2026-08-04T05:58:49Z",
-        "OpenBMB/PilotDeck": "2026-08-10T09:10:23Z",
-        "OpenBMB/StaffDeck": "2026-08-11T06:36:33Z",
+        "OpenBMB/PilotDeck": "2026-08-11T09:25:33Z",
+        "OpenBMB/ForgeTrain": "2026-06-17T06:14:58Z",
         "OpenBMB/VoxCPM": "2026-07-08T09:46:11Z",
+        "OpenBMB/MiniCPM-V": "2026-08-04T05:58:49Z",
+        "OpenBMB/MiniCPM": "2026-07-27T06:50:07Z",
+        "OpenBMB/ToolBench": "2025-05-21T15:46:59Z",
+        "OpenBMB/StaffDeck": "2026-08-11T06:36:33Z",
         "OpenBMB/ChatDev": "2026-07-24T08:01:27Z",
         "OpenBMB/IoA": "2025-10-04T17:40:10Z",
         "OpenBMB/AgentVerse": "2024-09-09T05:47:44Z",
-        "OpenBMB/MiniCPM": "2026-07-27T06:50:07Z",
         "OpenBMB/VisRAG": "2026-08-09T09:23:53Z",
         "OpenBMB/MiniCPM-Robot": "2026-08-05T07:51:51Z",
         "OpenBMB/MiniCPM-o-Demo": "2026-08-05T09:51:11Z",
         "OpenBMB/MiniCPM-V-Apps": "2026-08-11T05:38:19Z",
-        "OpenBMB/ForgeTrain": "2026-06-17T06:14:58Z",
         "OpenBMB/UltraRAG": "2026-08-10T04:10:48Z",
         "OpenBMB/Omni-DuplexEval": "2026-05-19T03:07:23Z",
         "OpenBMB/EdgeClaw": "2026-04-15T09:25:35Z",
         "OpenBMB/AppCopilot": "2025-11-18T06:18:21Z",
         "OpenBMB/DeepThinkVLA": "2026-04-16T10:43:05Z",
-        "OpenBMB/MiniCPM-Desk-Pet": "2026-07-07T14:15:36Z",
-        "OpenBMB/ToolBench": "2025-05-21T15:46:59Z"
+        "OpenBMB/MiniCPM-Desk-Pet": "2026-07-07T14:15:36Z"
       },
-      "last_changed_at": "2026-08-11T08:28:13.508495Z",
+      "last_changed_at": "2026-08-11T09:30:19.955616Z",
       "source_signature": "3dd1c4ab8bc380dc66624329d310bc65fe6deafde7a370da1191ca03b32c0764",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -620,8 +620,10 @@
       "last_checked_at": "2026-07-02T04:51:56.844085Z",
       "baseline_initialized": true,
       "repos": {
+        "InternLM/SIM-CoT": "2026-04-13T14:19:59Z",
+        "InternLM/WildClawBench": "2026-08-11T08:37:01Z",
+        "InternLM/xtuner": "2026-08-11T08:48:14Z",
         "InternLM/InternLM": "2025-10-30T00:35:43Z",
-        "InternLM/WildClawBench": "2026-08-11T06:36:29Z",
         "InternLM/archspace": "2026-07-29T08:27:42Z",
         "InternLM/MindSearch": "2025-07-04T10:06:45Z",
         "InternLM/Intern-S2-Mobius": "2026-08-06T09:08:34Z",
@@ -629,8 +631,6 @@
         "InternLM/lmdeploy": "2026-08-10T13:20:46Z",
         "InternLM/Intern-S1": "2026-07-17T10:25:15Z",
         "InternLM/HuixiangDou": "2025-11-24T11:17:29Z",
-        "InternLM/SIM-CoT": "2026-04-13T14:19:59Z",
-        "InternLM/xtuner": "2026-08-11T07:59:28Z",
         "InternLM/Tutorial": "2026-04-22T08:39:08Z",
         "InternLM/Spatial-SSRL": "2026-04-07T01:56:49Z",
         "InternLM/StarBench": "2026-04-19T12:32:54Z",
@@ -641,7 +641,7 @@
         "InternLM/Challenge-Cup-2026": "2026-08-06T06:56:02Z",
         "InternLM/ARM-Thinker": "2026-02-13T09:00:05Z"
       },
-      "last_changed_at": "2026-08-11T08:28:13.508495Z",
+      "last_changed_at": "2026-08-11T09:30:19.955616Z",
       "source_signature": "a7a2f73a91108336ba1fe2d4fb4d5921862eb329f648d490a4d7903663f49f70",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -653,28 +653,28 @@
       "last_checked_at": "2026-07-02T04:51:58.871155Z",
       "baseline_initialized": true,
       "repos": {
-        "QwenLM/Qwen-MM-Plugins": "2026-08-11T08:17:22Z",
+        "QwenLM/Qwen-MM-Plugins": "2026-08-11T09:06:44Z",
+        "QwenLM/Qwen-VLA": "2026-05-29T13:49:38Z",
+        "QwenLM/qwen-code": "2026-08-11T09:28:06Z",
         "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
-        "QwenLM/qwen-code": "2026-08-11T08:26:30Z",
-        "QwenLM/Qwen-VL": "2024-08-07T02:37:06Z",
-        "QwenLM/Qwen3-ASR": "2026-06-26T08:20:17Z",
-        "QwenLM/Qwen-Image": "2026-02-10T07:37:37Z",
         "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
+        "QwenLM/Qwen-RobotManip": "2026-06-29T22:29:54Z",
+        "QwenLM/Qwen3-Omni": "2026-04-23T10:58:01Z",
+        "QwenLM/Qwen3-VL-Embedding": "2026-06-23T10:39:17Z",
+        "QwenLM/Qwen3-ASR": "2026-06-26T08:20:17Z",
+        "QwenLM/Qwen3.6": "2026-06-03T12:14:19Z",
+        "QwenLM/qwen-code-examples": "2026-05-19T09:30:22Z",
+        "QwenLM/Qwen-VL": "2024-08-07T02:37:06Z",
+        "QwenLM/Qwen-Image": "2026-02-10T07:37:37Z",
         "QwenLM/Qwen-Agent": "2026-03-04T08:15:07Z",
         "QwenLM/Qwen2.5-Omni": "2025-06-12T11:03:07Z",
         "QwenLM/Qwen3Guard": "2025-10-21T02:27:12Z",
         "QwenLM/FlashQLA": "2026-08-11T06:25:42Z",
         "QwenLM/Qwen-AgentWorld": "2026-07-20T11:52:07Z",
-        "QwenLM/Qwen-RobotManip": "2026-06-29T22:29:54Z",
-        "QwenLM/Qwen3-Omni": "2026-04-23T10:58:01Z",
         "QwenLM/Qwen3-Coder": "2026-03-24T08:22:10Z",
-        "QwenLM/Qwen-Image-Layered": "2025-12-31T11:40:35Z",
-        "QwenLM/Qwen3-VL-Embedding": "2026-06-23T10:39:17Z",
-        "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
-        "QwenLM/Qwen-RobotNav": "2026-06-30T03:01:19Z",
-        "QwenLM/Qwen": "2026-03-05T13:55:17Z"
+        "QwenLM/Qwen-Image-Layered": "2025-12-31T11:40:35Z"
       },
-      "last_changed_at": "2026-08-11T08:28:13.508495Z",
+      "last_changed_at": "2026-08-11T09:30:19.955616Z",
       "source_signature": "ddc0d8d3788b1fc4ba6779bc400a51934ce7ac0845fbfff67f906a6d77406e21",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -683,8 +683,14 @@
       "last_checked_at": "2026-07-02T04:52:01.889603Z",
       "baseline_initialized": true,
       "repos": {
-        "Tencent-Hunyuan/Hunyuan3D-Buffalo1.0": "2026-08-10T17:04:25Z",
         "Tencent-Hunyuan/Hunyuan3D-WorldClaw": "2026-08-10T13:54:35Z",
+        "Tencent-Hunyuan/Hy3": "2026-07-17T10:11:52Z",
+        "Tencent-Hunyuan/Hunyuan3D-Buffalo1.0": "2026-08-10T17:04:25Z",
+        "Tencent-Hunyuan/HunyuanVideo": "2026-06-29T09:33:50Z",
+        "Tencent-Hunyuan/HunyuanImage-3.0": "2026-06-23T13:12:44Z",
+        "Tencent-Hunyuan/Tencent-Hunyuan-Large": "2024-12-06T08:15:56Z",
+        "Tencent-Hunyuan/Hy-MT2": "2026-06-30T07:17:36Z",
+        "Tencent-Hunyuan/HunyuanVideo-1.5": "2026-04-10T06:14:59Z",
         "Tencent-Hunyuan/UniRL": "2026-08-11T07:14:11Z",
         "Tencent-Hunyuan/HunyuanDiT": "2025-11-27T06:37:00Z",
         "Tencent-Hunyuan/Hy3-preview": "2026-04-23T15:09:16Z",
@@ -695,16 +701,10 @@
         "Tencent-Hunyuan/HunyuanWorld-1.0": "2026-04-15T17:27:25Z",
         "Tencent-Hunyuan/HY-Motion-1.0": "2026-07-18T15:13:36Z",
         "Tencent-Hunyuan/HY-World-2.0": "2026-08-05T07:14:12Z",
-        "Tencent-Hunyuan/Hy3": "2026-07-17T10:11:52Z",
-        "Tencent-Hunyuan/HunyuanVideo": "2026-06-29T09:33:50Z",
-        "Tencent-Hunyuan/HunyuanVideo-1.5": "2026-04-10T06:14:59Z",
         "Tencent-Hunyuan/R-DMesh": "2026-08-11T01:56:44Z",
-        "Tencent-Hunyuan/iFSQ": "2026-01-27T14:25:02Z",
-        "Tencent-Hunyuan/Hy-MT2": "2026-06-30T07:17:36Z",
-        "Tencent-Hunyuan/HunyuanWorld-Voyager": "2026-04-15T17:30:08Z",
-        "Tencent-Hunyuan/HY-Embodied": "2026-07-15T11:54:12Z"
+        "Tencent-Hunyuan/iFSQ": "2026-01-27T14:25:02Z"
       },
-      "last_changed_at": "2026-08-11T08:28:13.508495Z",
+      "last_changed_at": "2026-08-11T09:30:19.955616Z",
       "source_signature": "637ce9b3bc2d070666c42f5fd92e749870848ee35ed6d4c156f831c9bc8f2d04",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -1070,7 +1070,7 @@
     },
     "minimax-huggingface": {
       "models": {
-        "MiniMaxAI/MiniMax-H3": "2026-08-10T10:31:07.000Z",
+        "MiniMaxAI/MiniMax-H3": "2026-08-11T09:06:41.000Z",
         "MiniMaxAI/MiniMax-M3": "2026-07-23T04:25:20.000Z",
         "MiniMaxAI/MiniMax-M3-MXFP8": "2026-07-11T09:09:23.000Z",
         "MiniMaxAI/MiniMax-M2.7": "2026-04-20T04:28:14.000Z",
@@ -1095,7 +1095,7 @@
       "baseline_initialized": true,
       "source_signature": "c791f8f3410867867693db204e455df86ae7a3e9a02dd3d6e92a695edbddb685",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z",
-      "last_changed_at": "2026-08-10T10:52:05.772307Z"
+      "last_changed_at": "2026-08-11T09:30:19.955616Z"
     },
     "stepfun-research": {
       "fingerprint": "4f49fe683cc0d83cad8fd122f63f9c87942a8debff88d9b2c3eb5ddc888e1bf8",
@@ -1479,25 +1479,25 @@
         "https://www.tc260.org.cn/portal/article/1/0efe73df0f234fa5a4fce766173b5678",
         "https://www.tc260.org.cn/portal/article/1/c38f19280f2b4b5284c642a174f27d38",
         "https://www.tc260.org.cn/portal/article/1/c5bff06b0a544674b12b89271bf8df02",
-        "https://www.tc260.org.cn/portal/article/1/9745608fa11e46639275aa834e58b5c4",
         "https://www.tc260.org.cn/portal/article/1/07d60a8d728445fbb3526ca97e3d02d9",
+        "https://www.tc260.org.cn/portal/article/1/9745608fa11e46639275aa834e58b5c4",
         "https://www.tc260.org.cn/portal/article/1/a6d21a769f07420f818f6bed6797c618",
         "https://www.tc260.org.cn/portal/article/1/4541a22bb6f542b5ae7c37ffe0d914aa",
-        "https://www.tc260.org.cn/portal/article/2/f81cf1f5c0504a1b92239f042d04d0bb",
         "https://www.tc260.org.cn/portal/article/2/a1de240fa2a7452e93df1ca6c3f1cf45",
+        "https://www.tc260.org.cn/portal/article/2/f81cf1f5c0504a1b92239f042d04d0bb",
         "https://www.tc260.org.cn/portal/article/2/8653731b442a460a910e6100d4eee9ea",
         "https://www.tc260.org.cn/portal/article/2/d7b8b931bce4444cae14a48c0f0dd8b4",
         "https://www.tc260.org.cn/portal/article/2/807a1aa20047477086ba2b44b726a5f7",
         "https://www.tc260.org.cn/portal/article/2/bb40941bb2784c749a43ec4762cdb988",
         "https://www.tc260.org.cn/portal/article/2/4456ae01b56e4792bb98d82d452e9cba",
-        "https://www.tc260.org.cn/portal/article/2/bb41ce76e8ce44e2b4aa18ec5cd1e51e",
+        "https://www.tc260.org.cn/portal/article/2/e277e9cf94424b4cb2434ba552dc8279",
         "https://www.tc260.org.cn/portal/suggestion-detail/1b21a4adefd04d7a8f8b2aec67225f50",
         "https://www.tc260.org.cn/portal/suggestion-detail/770f550a6774493d9a6dc2f51454e8db",
         "https://www.tc260.org.cn/portal/suggestion-detail/cb5000e8a5de441298c267b21777e51b",
         "https://www.tc260.org.cn/portal/suggestion-detail/e79c8c1ecc99494e93861c7c618d12ec",
         "https://www.tc260.org.cn/portal/suggestion-detail/f134b0e1e59647679e797e5d3863cd63",
+        "https://www.tc260.org.cn/portal/article/2/bb41ce76e8ce44e2b4aa18ec5cd1e51e",
         "https://www.tc260.org.cn/portal/article/2/c26a15400af34b66bf76771dcf9d0d3c",
-        "https://www.tc260.org.cn/portal/article/2/e277e9cf94424b4cb2434ba552dc8279",
         "https://www.tc260.org.cn/portal/article/2/7ca40adc25de45918add74f2ff16cdc9",
         "https://www.tc260.org.cn/portal/article/2/e0467c848e224a698badf7ded8339e63",
         "https://www.tc260.org.cn/portal/article/2/c881228595f540e49abd4ee28a6a344d",
@@ -1563,7 +1563,7 @@
       ],
       "last_checked_at": "2026-07-02T04:52:25.829528Z",
       "baseline_initialized": true,
-      "last_changed_at": "2026-08-11T08:29:41.219797Z",
+      "last_changed_at": "2026-08-11T09:32:02.615819Z",
       "source_signature": "ac7adf7536607ad1dc8d9ca06c0f10f499a52b1893dcc2d8ec03dd7b6240b921",
       "baseline_reinitialized_at": "2026-07-02T10:23:25.737100Z"
     },
@@ -2093,11 +2093,12 @@
     },
     "aihot-selected": {
       "last_raw_count": 50,
-      "last_polled_at": "2026-08-11T08:28:13.508495Z",
+      "last_polled_at": "2026-08-11T09:30:19.955616Z",
       "source_signature": "54b0a2ce37b31eed7de5728f2ad3467d3fff1ec95a53a03f9ee11a9fa197fda4",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-09T08:44:50.779962Z",
       "seen_keys": [
+        "https://mp.weixin.qq.com/s?__biz=MzkyODk2MDQwNw%3D%3D&mid=2247487491&idx=1&sn=fcb14aceb054f9a24e22525d3dae6fa0",
         "https://mp.weixin.qq.com/s?__biz=MzkyMzI3NzQ0Mg%3D%3D&mid=2247494052&idx=1&sn=ee3ab3d0f4550e9120927c53a27522c9",
         "https://www.marktechpost.com/2026/08/10/implementing-a-minimax-h3-multimodal-video-and-audio-generation-pipeline-with-comfyui-apis",
         "http://danluu.com/pl-tokens",
@@ -2135,6 +2136,7 @@
         "https://www.ithome.com/0/987/438.htm",
         "https://arstechnica.com/science/2026/08/deepminds-hurricane-model-bought-forecasters-an-extra-day",
         "https://www.ithome.com/0/987/366.htm",
+        "https://arxiv.org/abs/2608.08285",
         "https://arxiv.org/abs/2608.08311",
         "https://www.ithome.com/0/987/221.htm",
         "https://x.com/ClaudeDevs/status/2085817074816070014",
@@ -2395,11 +2397,9 @@
         "https://www.darpa.mil/news/2026/darpa-us-air-force-fly-ai-controlled-f-16",
         "https://x.com/OpenAI/status/2080378182469857576",
         "https://stephenfollows.com/p/what-just-happened-to-thenumberscom-should-worry-us-all",
-        "https://x.com/gdb/status/2080351159638704615",
-        "https://the-decoder.com/one-tampered-chatgpt-link-could-spawn-a-rogue-ai-agent-that-took-orders-from-an-attacker-every-five-minutes",
-        "https://x.com/satyanadella/status/2080329851127669104"
+        "https://x.com/gdb/status/2080351159638704615"
       ],
-      "last_changed_at": "2026-08-11T08:28:18.721885Z"
+      "last_changed_at": "2026-08-11T09:30:26.710561Z"
     }
   }
 }
