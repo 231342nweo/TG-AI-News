@@ -395,9 +395,9 @@
       "last_checked_at": "2026-07-02T04:51:37.867265Z",
       "baseline_initialized": true,
       "repos": {
+        "MoonshotAI/kimi-code": "2026-08-12T21:03:17Z",
         "MoonshotAI/Kimi-K3": "2026-08-06T10:17:28Z",
         "MoonshotAI/Attention-Residuals": "2026-03-17T06:23:11Z",
-        "MoonshotAI/kimi-code": "2026-08-12T20:11:48Z",
         "MoonshotAI/kimi-cli": "2026-08-03T07:59:07Z",
         "MoonshotAI/FlashKDA": "2026-07-30T07:14:39Z",
         "MoonshotAI/kimi-agent-sdk": "2026-05-29T05:29:38Z",
@@ -416,7 +416,7 @@
         "MoonshotAI/awesome-moonshot-api": "2024-05-22T17:15:44Z",
         "MoonshotAI/nano-kpu": "2026-07-23T08:06:38Z"
       },
-      "last_changed_at": "2026-08-12T20:18:31.619349Z",
+      "last_changed_at": "2026-08-12T21:06:05.444163Z",
       "source_signature": "c925f37596aaabb84376bf83142f08b0ce08447179a5d27a52c7956a40180daa",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -654,10 +654,10 @@
       "baseline_initialized": true,
       "repos": {
         "QwenLM/Qwen-MM-Plugins": "2026-08-12T17:43:25Z",
-        "QwenLM/qwen-code": "2026-08-12T20:01:47Z",
+        "QwenLM/Qwen": "2026-03-05T13:55:17Z",
+        "QwenLM/qwen-code": "2026-08-12T21:05:20Z",
         "QwenLM/Qwen-VL": "2024-08-07T02:37:06Z",
         "QwenLM/Qwen-VLA": "2026-05-29T13:49:38Z",
-        "QwenLM/Qwen": "2026-03-05T13:55:17Z",
         "QwenLM/Qwen3-Coder": "2026-03-24T08:22:10Z",
         "QwenLM/Qwen-AgentWorld": "2026-07-20T11:52:07Z",
         "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
@@ -674,7 +674,7 @@
         "QwenLM/Qwen3.6": "2026-06-03T12:14:19Z",
         "QwenLM/Qwen-Image-Layered": "2025-12-31T11:40:35Z"
       },
-      "last_changed_at": "2026-08-12T20:18:31.619349Z",
+      "last_changed_at": "2026-08-12T21:06:05.444163Z",
       "source_signature": "ddc0d8d3788b1fc4ba6779bc400a51934ce7ac0845fbfff67f906a6d77406e21",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -2094,7 +2094,7 @@
     },
     "aihot-selected": {
       "last_raw_count": 50,
-      "last_polled_at": "2026-08-12T20:18:31.619349Z",
+      "last_polled_at": "2026-08-12T21:06:05.444163Z",
       "source_signature": "54b0a2ce37b31eed7de5728f2ad3467d3fff1ec95a53a03f9ee11a9fa197fda4",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-09T08:44:50.779962Z",
