@@ -395,11 +395,11 @@
       "last_checked_at": "2026-07-02T04:51:37.867265Z",
       "baseline_initialized": true,
       "repos": {
-        "MoonshotAI/kimi-code": "2026-08-12T19:25:48Z",
         "MoonshotAI/Kimi-K3": "2026-08-06T10:17:28Z",
+        "MoonshotAI/Attention-Residuals": "2026-03-17T06:23:11Z",
+        "MoonshotAI/kimi-code": "2026-08-12T20:11:48Z",
         "MoonshotAI/kimi-cli": "2026-08-03T07:59:07Z",
         "MoonshotAI/FlashKDA": "2026-07-30T07:14:39Z",
-        "MoonshotAI/Attention-Residuals": "2026-03-17T06:23:11Z",
         "MoonshotAI/kimi-agent-sdk": "2026-05-29T05:29:38Z",
         "MoonshotAI/MoonEP": "2026-08-07T13:31:23Z",
         "MoonshotAI/Kimi-K2.5": "2026-08-06T10:42:43Z",
@@ -416,7 +416,7 @@
         "MoonshotAI/awesome-moonshot-api": "2024-05-22T17:15:44Z",
         "MoonshotAI/nano-kpu": "2026-07-23T08:06:38Z"
       },
-      "last_changed_at": "2026-08-12T19:34:43.198472Z",
+      "last_changed_at": "2026-08-12T20:18:31.619349Z",
       "source_signature": "c925f37596aaabb84376bf83142f08b0ce08447179a5d27a52c7956a40180daa",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -590,15 +590,16 @@
       "last_checked_at": "2026-07-02T04:51:55.708102Z",
       "baseline_initialized": true,
       "repos": {
-        "OpenBMB/StaffDeck": "2026-08-12T12:43:08Z",
-        "OpenBMB/MiniCPM": "2026-07-27T06:50:07Z",
+        "OpenBMB/ArcLight": "2026-05-30T02:59:35Z",
         "OpenBMB/VoxCPM": "2026-08-12T14:14:37Z",
-        "OpenBMB/UltraFeedback": "2023-12-29T16:39:19Z",
+        "OpenBMB/MiniCPM": "2026-07-27T06:50:07Z",
+        "OpenBMB/ChatDev": "2026-07-24T08:01:27Z",
         "OpenBMB/MiniCPM-V": "2026-08-12T14:16:57Z",
+        "OpenBMB/StaffDeck": "2026-08-12T12:43:08Z",
+        "OpenBMB/UltraFeedback": "2023-12-29T16:39:19Z",
         "OpenBMB/UltraRAG": "2026-08-12T11:23:35Z",
         "OpenBMB/PilotDeck": "2026-08-12T12:17:10Z",
         "OpenBMB/ToolBench": "2025-05-21T15:46:59Z",
-        "OpenBMB/ChatDev": "2026-07-24T08:01:27Z",
         "OpenBMB/AgentCPM": "2026-02-09T13:39:47Z",
         "OpenBMB/MiniCPM-Desk-Pet": "2026-07-07T14:15:36Z",
         "OpenBMB/MiniCPM-o-Demo": "2026-08-05T09:51:11Z",
@@ -608,10 +609,9 @@
         "OpenBMB/OmniEvalKit": "2026-03-27T11:18:33Z",
         "OpenBMB/AgentCPM-GUI": "2026-01-11T08:24:15Z",
         "OpenBMB/Omni-DuplexEval": "2026-05-19T03:07:23Z",
-        "OpenBMB/XAgent": "2026-07-31T03:30:54Z",
-        "OpenBMB/ClawXRouter": "2026-03-31T08:35:42Z"
+        "OpenBMB/XAgent": "2026-07-31T03:30:54Z"
       },
-      "last_changed_at": "2026-08-12T16:30:24.276811Z",
+      "last_changed_at": "2026-08-12T20:18:31.619349Z",
       "source_signature": "3dd1c4ab8bc380dc66624329d310bc65fe6deafde7a370da1191ca03b32c0764",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -654,7 +654,7 @@
       "baseline_initialized": true,
       "repos": {
         "QwenLM/Qwen-MM-Plugins": "2026-08-12T17:43:25Z",
-        "QwenLM/qwen-code": "2026-08-12T19:27:51Z",
+        "QwenLM/qwen-code": "2026-08-12T20:01:47Z",
         "QwenLM/Qwen-VL": "2024-08-07T02:37:06Z",
         "QwenLM/Qwen-VLA": "2026-05-29T13:49:38Z",
         "QwenLM/Qwen": "2026-03-05T13:55:17Z",
@@ -674,7 +674,7 @@
         "QwenLM/Qwen3.6": "2026-06-03T12:14:19Z",
         "QwenLM/Qwen-Image-Layered": "2025-12-31T11:40:35Z"
       },
-      "last_changed_at": "2026-08-12T19:34:43.198472Z",
+      "last_changed_at": "2026-08-12T20:18:31.619349Z",
       "source_signature": "ddc0d8d3788b1fc4ba6779bc400a51934ce7ac0845fbfff67f906a6d77406e21",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -683,9 +683,11 @@
       "last_checked_at": "2026-07-02T04:52:01.889603Z",
       "baseline_initialized": true,
       "repos": {
-        "Tencent-Hunyuan/HY-Motion-1.0": "2026-07-18T15:13:36Z",
-        "Tencent-Hunyuan/Hunyuan3D-2": "2025-10-28T09:58:12Z",
         "Tencent-Hunyuan/Hunyuan3D-WorldClaw": "2026-08-10T13:54:35Z",
+        "Tencent-Hunyuan/MixGRPO": "2026-07-01T10:49:26Z",
+        "Tencent-Hunyuan/Hunyuan3D-2": "2025-10-28T09:58:12Z",
+        "Tencent-Hunyuan/Hunyuan3D-2.1": "2025-10-17T10:10:07Z",
+        "Tencent-Hunyuan/HY-Motion-1.0": "2026-07-18T15:13:36Z",
         "Tencent-Hunyuan/Hunyuan3D-Buffalo1.0": "2026-08-10T17:04:25Z",
         "Tencent-Hunyuan/HY-World-2.0": "2026-08-12T16:15:12Z",
         "Tencent-Hunyuan/DisCa": "2026-04-15T11:41:09Z",
@@ -693,7 +695,6 @@
         "Tencent-Hunyuan/HunyuanImage-3.0": "2026-06-23T13:12:44Z",
         "Tencent-Hunyuan/AutoCodeBenchmark": "2026-02-17T08:03:11Z",
         "Tencent-Hunyuan/Hy3": "2026-07-17T10:11:52Z",
-        "Tencent-Hunyuan/Hunyuan3D-2.1": "2025-10-17T10:10:07Z",
         "Tencent-Hunyuan/HunyuanVideo": "2026-06-29T09:33:50Z",
         "Tencent-Hunyuan/HunyuanDiT": "2025-11-27T06:37:00Z",
         "Tencent-Hunyuan/flex-block-attn": "2025-12-26T02:48:33Z",
@@ -701,10 +702,9 @@
         "Tencent-Hunyuan/HY-WorldPlay": "2026-06-10T07:10:23Z",
         "Tencent-Hunyuan/HunyuanWorld-Mirror": "2026-05-27T03:22:57Z",
         "Tencent-Hunyuan/OmniWeaving": "2026-04-11T08:19:27Z",
-        "Tencent-Hunyuan/Hy-Embodied-0.5-VLA": "2026-08-04T07:32:42Z",
-        "Tencent-Hunyuan/Hy-MT": "2026-06-01T11:38:04Z"
+        "Tencent-Hunyuan/Hy-Embodied-0.5-VLA": "2026-08-04T07:32:42Z"
       },
-      "last_changed_at": "2026-08-12T18:26:40.633959Z",
+      "last_changed_at": "2026-08-12T20:18:31.619349Z",
       "source_signature": "637ce9b3bc2d070666c42f5fd92e749870848ee35ed6d4c156f831c9bc8f2d04",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -2094,11 +2094,12 @@
     },
     "aihot-selected": {
       "last_raw_count": 50,
-      "last_polled_at": "2026-08-12T19:34:43.198472Z",
+      "last_polled_at": "2026-08-12T20:18:31.619349Z",
       "source_signature": "54b0a2ce37b31eed7de5728f2ad3467d3fff1ec95a53a03f9ee11a9fa197fda4",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-09T08:44:50.779962Z",
       "seen_keys": [
+        "https://claude.com/blog/cowork-chrome-side-panel",
         "https://github.blog/open-source/maintainers/your-contributors-are-ai-first-now-is-your-project",
         "https://research.google/blog/empty-shelves-or-lost-keys-recall-is-the-bottleneck-for-parametric-factuality",
         "https://www.ithome.com/0/989/001.htm",
@@ -2397,10 +2398,9 @@
         "https://www.marktechpost.com/2026/07/27/designing-skill-driven-financial-analysis-agents-with-claude-python-mcp-connectors-and-automated-deliverables",
         "https://github.blog/ai-and-ml/github-copilot/the-harness-is-all-you-need-mostly",
         "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-getting-started",
-        "https://techcrunch.com/2026/07/27/googles-ai-search-is-rapidly-becoming-the-default-new-data-shows",
-        "https://mp.weixin.qq.com/s/IW9BdyA3hLvuuiX_aMCJEQ"
+        "https://techcrunch.com/2026/07/27/googles-ai-search-is-rapidly-becoming-the-default-new-data-shows"
       ],
-      "last_changed_at": "2026-08-12T19:34:44.601129Z"
+      "last_changed_at": "2026-08-12T20:18:35.093025Z"
     }
   }
 }
