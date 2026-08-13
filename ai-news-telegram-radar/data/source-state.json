@@ -11,6 +11,7 @@
     },
     "deepseek-huggingface": {
       "models": {
+        "deepseek-ai/DeepSeek-V4-Pro-0813": "2026-08-13T16:28:28.000Z",
         "deepseek-ai/DeepSeek-V4-Flash-0731": "2026-08-01T03:07:41.000Z",
         "deepseek-ai/DeepSeek-V4-Flash-DSpark": "2026-07-04T03:15:12.000Z",
         "deepseek-ai/DeepSeek-V4-Pro-DSpark": "2026-07-04T03:14:46.000Z",
@@ -29,12 +30,11 @@
         "deepseek-ai/DeepSeek-V4-Pro": "2026-06-22T12:12:50.000Z",
         "deepseek-ai/DeepSeek-V4-Flash": "2026-06-22T12:12:13.000Z",
         "deepseek-ai/DeepSeek-V4-Flash-Base": "2026-04-27T06:51:43.000Z",
-        "deepseek-ai/DeepSeek-V4-Pro-Base": "2026-04-27T06:51:19.000Z",
-        "deepseek-ai/DeepSeek-OCR-2": "2026-02-03T00:33:19.000Z"
+        "deepseek-ai/DeepSeek-V4-Pro-Base": "2026-04-27T06:51:19.000Z"
       },
       "last_checked_at": "2026-07-02T04:51:33.147542Z",
       "baseline_initialized": true,
-      "last_changed_at": "2026-08-01T04:31:42.536275Z",
+      "last_changed_at": "2026-08-13T16:29:48.375851Z",
       "source_signature": "493770913e8ae652ad69deeb66eaf0582ce01f637f12ff2a200fcf5ffb6c8c79",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -426,28 +426,28 @@
       "last_checked_at": "2026-07-02T04:51:40.485322Z",
       "baseline_initialized": true,
       "repos": {
-        "zai-org/GLM-OCR": "2026-04-21T08:52:11Z",
-        "zai-org/CogView4": "2025-03-29T07:09:58Z",
-        "zai-org/SCAIL-2": "2026-08-06T08:27:03Z",
         "zai-org/Open-AutoGLM": "2026-03-06T08:38:39Z",
+        "zai-org/GLM-Image": "2026-03-20T03:10:16Z",
+        "zai-org/ChatGLM3": "2025-01-13T06:55:26Z",
+        "zai-org/ChatGLM-6B": "2024-06-27T04:05:25Z",
         "zai-org/GLM-5": "2026-08-11T06:36:36Z",
-        "zai-org/Synapse": "2026-07-31T07:25:27Z",
-        "zai-org/CogVideo": "2025-11-04T11:19:04Z",
-        "zai-org/CogVLM": "2024-05-29T10:01:33Z",
+        "zai-org/SCAIL-2": "2026-08-06T08:27:03Z",
+        "zai-org/GLM-OCR": "2026-04-21T08:52:11Z",
         "zai-org/CodeGeeX": "2024-08-13T05:59:38Z",
+        "zai-org/GLM-4": "2026-08-05T07:08:46Z",
+        "zai-org/ChatGLM2-6B": "2024-06-27T04:05:08Z",
+        "zai-org/GLM-V": "2026-07-21T16:03:29Z",
+        "zai-org/CogVideo": "2025-11-04T11:19:04Z",
+        "zai-org/Synapse": "2026-07-31T07:25:27Z",
+        "zai-org/CogView4": "2025-03-29T07:09:58Z",
+        "zai-org/CogVLM": "2024-05-29T10:01:33Z",
         "zai-org/RelayDiffusion": "2024-04-29T09:29:51Z",
         "zai-org/CodeGeeX2": "2024-07-10T12:34:55Z",
-        "zai-org/GLM-4": "2026-08-05T07:08:46Z",
-        "zai-org/GLM-V": "2026-07-21T16:03:29Z",
         "zai-org/Vision2Web": "2026-08-05T09:04:19Z",
         "zai-org/AISE-Bench": "2026-08-07T09:49:44Z",
-        "zai-org/feedback": "2026-06-23T11:23:22Z",
-        "zai-org/GLM-4.5": "2026-02-01T08:28:10Z",
-        "zai-org/ChatGLM-6B": "2024-06-27T04:05:25Z",
-        "zai-org/ChatGLM2-6B": "2024-06-27T04:05:08Z",
-        "zai-org/RealVideo": "2025-12-15T07:50:46Z"
+        "zai-org/feedback": "2026-06-23T11:23:22Z"
       },
-      "last_changed_at": "2026-08-13T05:52:15.359833Z",
+      "last_changed_at": "2026-08-13T16:29:48.375851Z",
       "source_signature": "0f9d07d7983b4898dc433a8d045a96469f65dff73642f9fe1fbf73cf3299210c",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -456,28 +456,28 @@
       "last_checked_at": "2026-07-02T04:51:46.918095Z",
       "baseline_initialized": true,
       "repos": {
-        "MiniMax-AI/skills": "2026-04-18T09:48:47Z",
         "MiniMax-AI/MiniMax-H3": "2026-08-13T01:51:29Z",
+        "MiniMax-AI/MiniMax-Music3": "2026-08-13T16:07:35Z",
+        "MiniMax-AI/skills": "2026-04-18T09:48:47Z",
+        "MiniMax-AI/MiniMax-MCP": "2026-05-21T03:40:18Z",
+        "MiniMax-AI/MiniMax-01": "2025-07-07T12:24:30Z",
         "MiniMax-AI/music3-demo": "2026-08-13T09:19:28Z",
+        "MiniMax-AI/MiniMax-M3": "2026-07-11T09:08:38Z",
         "MiniMax-AI/MiniMax-Provider-Verifier": "2026-08-13T10:58:57Z",
         "MiniMax-AI/cli": "2026-08-11T08:07:48Z",
-        "MiniMax-AI/MiniMax-01": "2025-07-07T12:24:30Z",
         "MiniMax-AI/OpenRoom": "2026-06-03T23:15:42Z",
         "MiniMax-AI/One-RL-to-See-Them-All": "2025-05-31T12:43:31Z",
-        "MiniMax-AI/MiniMax-MCP": "2026-05-21T03:40:18Z",
         "MiniMax-AI/Mini-Agent": "2026-02-14T04:00:26Z",
         "MiniMax-AI/MiniMax-M2.1": "2026-01-28T08:39:36Z",
-        "MiniMax-AI/MiniMax-M3": "2026-07-11T09:08:38Z",
         "MiniMax-AI/MSA": "2026-07-30T06:11:11Z",
         "MiniMax-AI/audio-tools": "2025-04-01T11:37:33Z",
         "MiniMax-AI/MiniMax-Coding-Plan-MCP": "2026-02-10T12:01:59Z",
         "MiniMax-AI/MiniMax-M1": "2025-07-07T11:57:22Z",
         "MiniMax-AI/minimax-code": "2026-06-14T16:40:13Z",
         "MiniMax-AI/MiniMax-M2": "2025-11-13T08:12:36Z",
-        "MiniMax-AI/SynLogic": "2025-07-07T06:03:03Z",
-        "MiniMax-AI/VTP": "2026-04-15T07:09:46Z"
+        "MiniMax-AI/SynLogic": "2025-07-07T06:03:03Z"
       },
-      "last_changed_at": "2026-08-13T11:28:23.086815Z",
+      "last_changed_at": "2026-08-13T16:29:48.375851Z",
       "source_signature": "7447070c255f24c8392151456130d2d0f151e24197208adc4a6860c7b238bc6e",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -591,14 +591,15 @@
       "last_checked_at": "2026-07-02T04:51:55.708102Z",
       "baseline_initialized": true,
       "repos": {
+        "OpenBMB/RAGEval": "2025-04-02T20:45:47Z",
         "OpenBMB/MiniCPM": "2026-07-27T06:50:07Z",
+        "OpenBMB/MiniCPM-o-Demo": "2026-08-13T13:02:24Z",
         "OpenBMB/VoxCPM": "2026-08-12T14:14:37Z",
+        "OpenBMB/PilotDeck": "2026-08-13T08:26:32Z",
+        "OpenBMB/ChatDev": "2026-07-24T08:01:27Z",
         "OpenBMB/AgentCPM-GUI": "2026-01-11T08:24:15Z",
         "OpenBMB/MiniCPM-V": "2026-08-12T14:16:57Z",
-        "OpenBMB/MiniCPM-o-Demo": "2026-08-13T13:02:24Z",
-        "OpenBMB/ChatDev": "2026-07-24T08:01:27Z",
         "OpenBMB/UltraEval-Audio": "2026-08-13T06:34:40Z",
-        "OpenBMB/PilotDeck": "2026-08-13T08:26:32Z",
         "OpenBMB/MiniCPM-Robot": "2026-08-05T07:51:51Z",
         "OpenBMB/StaffDeck": "2026-08-13T07:26:15Z",
         "OpenBMB/ArcLight": "2026-05-30T02:59:35Z",
@@ -609,10 +610,9 @@
         "OpenBMB/AgentVerse": "2024-09-09T05:47:44Z",
         "OpenBMB/UltraFeedback": "2023-12-29T16:39:19Z",
         "OpenBMB/UltraRAG": "2026-08-12T11:23:35Z",
-        "OpenBMB/AgentCPM": "2026-02-09T13:39:47Z",
-        "OpenBMB/OmniEvalKit": "2026-03-27T11:18:33Z"
+        "OpenBMB/AgentCPM": "2026-02-09T13:39:47Z"
       },
-      "last_changed_at": "2026-08-13T13:39:56.891440Z",
+      "last_changed_at": "2026-08-13T16:29:48.375851Z",
       "source_signature": "3dd1c4ab8bc380dc66624329d310bc65fe6deafde7a370da1191ca03b32c0764",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -654,28 +654,28 @@
       "last_checked_at": "2026-07-02T04:51:58.871155Z",
       "baseline_initialized": true,
       "repos": {
-        "QwenLM/qwen-code": "2026-08-13T15:34:24Z",
-        "QwenLM/Qwen-MM-Plugins": "2026-08-13T14:57:42Z",
-        "QwenLM/Qwen-Audio": "2024-07-05T09:17:49Z",
+        "QwenLM/Qwen-Image": "2026-02-10T07:37:37Z",
+        "QwenLM/Qwen-Agent": "2026-03-04T08:15:07Z",
         "QwenLM/Qwen3.6": "2026-06-03T12:14:19Z",
         "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
-        "QwenLM/QwQ": "2025-03-27T15:48:52Z",
         "QwenLM/Qwen3-Coder": "2026-03-24T08:22:10Z",
-        "QwenLM/Qwen-VL": "2024-08-07T02:37:06Z",
-        "QwenLM/Qwen-Image": "2026-02-10T07:37:37Z",
-        "QwenLM/Qwen-Image-Layered": "2025-12-31T11:40:35Z",
         "QwenLM/Qwen": "2026-03-05T13:55:17Z",
+        "QwenLM/Qwen-MM-Plugins": "2026-08-13T14:57:42Z",
+        "QwenLM/qwen-code": "2026-08-13T16:30:17Z",
+        "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
+        "QwenLM/Qwen-Audio": "2024-07-05T09:17:49Z",
+        "QwenLM/QwQ": "2025-03-27T15:48:52Z",
+        "QwenLM/Qwen-VL": "2024-08-07T02:37:06Z",
+        "QwenLM/Qwen-Image-Layered": "2025-12-31T11:40:35Z",
         "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
         "QwenLM/Qwen-Image-Bench": "2026-06-18T10:00:04Z",
-        "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
-        "QwenLM/Qwen-Agent": "2026-03-04T08:15:07Z",
         "QwenLM/Qwen-RobotNav": "2026-06-30T03:01:19Z",
         "QwenLM/Qwen3-ASR-Toolkit": "2026-02-05T05:35:03Z",
         "QwenLM/Qwen3-ASR": "2026-06-26T08:20:17Z",
         "QwenLM/Qwen3-Omni": "2026-04-23T10:58:01Z",
         "QwenLM/Qwen-AgentWorld": "2026-07-20T11:52:07Z"
       },
-      "last_changed_at": "2026-08-13T15:36:39.871161Z",
+      "last_changed_at": "2026-08-13T16:29:48.375851Z",
       "source_signature": "ddc0d8d3788b1fc4ba6779bc400a51934ce7ac0845fbfff67f906a6d77406e21",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -1071,6 +1071,7 @@
     },
     "minimax-huggingface": {
       "models": {
+        "MiniMaxAI/MiniMax-Music3": "2026-08-13T16:13:34.000Z",
         "MiniMaxAI/MiniMax-H3": "2026-08-13T01:46:29.000Z",
         "MiniMaxAI/MiniMax-M3": "2026-07-23T04:25:20.000Z",
         "MiniMaxAI/MiniMax-M3-MXFP8": "2026-07-11T09:09:23.000Z",
@@ -1089,14 +1090,13 @@
         "MiniMaxAI/MiniMax-Text-01": "2025-07-03T05:13:03.000Z",
         "MiniMaxAI/MiniMax-VL-01": "2025-07-03T05:11:03.000Z",
         "MiniMaxAI/SynLogic-32B": "2025-06-10T02:57:20.000Z",
-        "MiniMaxAI/SynLogic-7B": "2025-06-10T02:56:30.000Z",
-        "MiniMaxAI/SynLogic-Mix-3-32B": "2025-06-10T02:53:28.000Z"
+        "MiniMaxAI/SynLogic-7B": "2025-06-10T02:56:30.000Z"
       },
       "last_checked_at": "2026-07-02T04:51:33.147542Z",
       "baseline_initialized": true,
       "source_signature": "c791f8f3410867867693db204e455df86ae7a3e9a02dd3d6e92a695edbddb685",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z",
-      "last_changed_at": "2026-08-13T02:24:56.898433Z"
+      "last_changed_at": "2026-08-13T16:29:48.375851Z"
     },
     "stepfun-research": {
       "fingerprint": "4f49fe683cc0d83cad8fd122f63f9c87942a8debff88d9b2c3eb5ddc888e1bf8",
@@ -2095,7 +2095,7 @@
     },
     "aihot-selected": {
       "last_raw_count": 50,
-      "last_polled_at": "2026-08-13T15:36:39.871161Z",
+      "last_polled_at": "2026-08-13T16:29:48.375851Z",
       "source_signature": "54b0a2ce37b31eed7de5728f2ad3467d3fff1ec95a53a03f9ee11a9fa197fda4",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-09T08:44:50.779962Z",
@@ -2107,9 +2107,7 @@
         "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647685179&idx=1&sn=4cbee32b677b57a9dc6ec2a79d6f72c7",
         "https://www.anthropic.com/research/multiagent-systems",
         "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647685175&idx=1&sn=64c383b5b757945397894270c5f38301",
-        "https://claude.com/blog/cowork-chrome-side-panel",
         "https://github.blog/open-source/maintainers/your-contributors-are-ai-first-now-is-your-project",
-        "https://research.google/blog/empty-shelves-or-lost-keys-recall-is-the-bottleneck-for-parametric-factuality",
         "https://x.com/mustafasuleyman/status/2087570047967408396",
         "https://www.interconnects.ai/p/i-wrote-an-ai-textbook-how-long-until",
         "https://x.com/OpenRouter/status/2087509478480765218",
@@ -2129,6 +2127,8 @@
         "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-video-consultations",
         "https://github.com/trycua/cua/blob/main/blog/gpu-passthrough-macos-vms.md",
         "https://www.dwarkesh.com/p/ryan-greenblatt",
+        "https://claude.com/blog/cowork-chrome-side-panel",
+        "https://research.google/blog/empty-shelves-or-lost-keys-recall-is-the-bottleneck-for-parametric-factuality",
         "https://cloud.google.com/blog/products/databases/accelerate-postgresql-migrations-with-gemini-in-dms",
         "https://www.ithome.com/0/988/524.htm",
         "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw%3D%3D&mid=2247509276&idx=1&sn=675b64d514b1179c8f2362941144bbb4",
@@ -2401,7 +2401,7 @@
         "https://arxiv.org/abs/2607.26115",
         "https://openrouter.ai/blog/insights/evaluate-llm-provider-performance"
       ],
-      "last_changed_at": "2026-08-13T15:36:47.843551Z"
+      "last_changed_at": "2026-08-13T16:29:49.765356Z"
     }
   }
 }
