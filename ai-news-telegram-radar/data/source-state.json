@@ -654,9 +654,10 @@
       "last_checked_at": "2026-07-02T04:51:58.871155Z",
       "baseline_initialized": true,
       "repos": {
+        "QwenLM/qwen-code-docs": "2026-08-14T21:46:22Z",
         "QwenLM/Qwen-MM-Plugins": "2026-08-13T17:47:45Z",
         "QwenLM/Qwen": "2026-03-05T13:55:17Z",
-        "QwenLM/qwen-code": "2026-08-14T21:30:21Z",
+        "QwenLM/qwen-code": "2026-08-14T21:51:50Z",
         "QwenLM/Qwen3-ASR": "2026-06-26T08:20:17Z",
         "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
         "QwenLM/Qwen-AgentWorld": "2026-07-20T11:52:07Z",
@@ -669,13 +670,12 @@
         "QwenLM/Qwen-Agent": "2026-03-04T08:15:07Z",
         "QwenLM/FlashQLA": "2026-08-11T06:25:42Z",
         "QwenLM/Qwen-Image-Layered": "2025-12-31T11:40:35Z",
-        "QwenLM/qwen-code-docs": "2026-08-14T11:35:40Z",
         "QwenLM/Qwen2.5-Omni": "2025-06-12T11:03:07Z",
         "QwenLM/Qwen3-Coder": "2026-03-24T08:22:10Z",
         "QwenLM/Qwen-RobotNav": "2026-06-30T03:01:19Z",
         "QwenLM/Qwen3-VL-Embedding": "2026-06-23T10:39:17Z"
       },
-      "last_changed_at": "2026-08-14T21:33:34.204611Z",
+      "last_changed_at": "2026-08-14T21:52:26.446635Z",
       "source_signature": "ddc0d8d3788b1fc4ba6779bc400a51934ce7ac0845fbfff67f906a6d77406e21",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -2095,7 +2095,7 @@
     },
     "aihot-selected": {
       "last_raw_count": 50,
-      "last_polled_at": "2026-08-14T21:33:34.204611Z",
+      "last_polled_at": "2026-08-14T21:52:26.446635Z",
       "source_signature": "54b0a2ce37b31eed7de5728f2ad3467d3fff1ec95a53a03f9ee11a9fa197fda4",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-09T08:44:50.779962Z",
@@ -2122,7 +2122,6 @@
         "https://mp.weixin.qq.com/s?__biz=Mzg4OTc2MzczNg%3D%3D&mid=2247496062&idx=1&sn=d4c48926c5d7607f129dfea03699a6c0",
         "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647685179&idx=1&sn=4cbee32b677b57a9dc6ec2a79d6f72c7",
         "https://www.anthropic.com/research/multiagent-systems",
-        "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647685175&idx=1&sn=64c383b5b757945397894270c5f38301",
         "https://github.blog/open-source/maintainers/your-contributors-are-ai-first-now-is-your-project",
         "https://x.com/mustafasuleyman/status/2087570047967408396",
         "https://www.minimax.io/blog/minimax-music-3-0-next-generation-open-weights-production-ready-versatile-music-model",
@@ -2151,6 +2150,7 @@
         "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw%3D%3D&mid=2247509276&idx=1&sn=675b64d514b1179c8f2362941144bbb4",
         "https://www.lmsys.org/blog/2026-08-11-unified-radix-cache",
         "https://www.lmsys.org/blog/2026-08-11-nemotron-3-5-lightning",
+        "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647685175&idx=1&sn=64c383b5b757945397894270c5f38301",
         "https://blogs.nvidia.com/blog/local-ai-open-source-models-agents-nemotron",
         "https://www.theverge.com/ai-artificial-intelligence/977273/the-ai-takeover-of-mathematics-has-begun",
         "https://x.com/SpaceXAI/status/2088250109188608289",
@@ -2401,7 +2401,7 @@
         "https://x.com/thsottiaux/status/2082241164850364555",
         "https://x.com/AnthropicAI/status/2082228994653696371"
       ],
-      "last_changed_at": "2026-08-14T21:33:35.493490Z"
+      "last_changed_at": "2026-08-14T21:52:28.321852Z"
     }
   }
 }
