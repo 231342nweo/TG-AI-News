@@ -396,17 +396,18 @@
       "last_checked_at": "2026-07-02T04:51:37.867265Z",
       "baseline_initialized": true,
       "repos": {
-        "MoonshotAI/PerceptionBench": "2026-08-03T08:33:26Z",
-        "MoonshotAI/kimi-code": "2026-08-14T15:08:39Z",
-        "MoonshotAI/Kimi-K2": "2026-01-21T05:33:12Z",
+        "MoonshotAI/kimi-code": "2026-08-14T16:01:04Z",
         "MoonshotAI/Kimi-K3": "2026-08-06T10:17:28Z",
+        "MoonshotAI/kimi-agent-rs": "2026-02-06T15:15:57Z",
+        "MoonshotAI/kimi-cli": "2026-08-03T07:59:07Z",
+        "MoonshotAI/PerceptionBench": "2026-08-03T08:33:26Z",
+        "MoonshotAI/Kimi-K2": "2026-01-21T05:33:12Z",
         "MoonshotAI/kimi-agent-sdk": "2026-05-29T05:29:38Z",
         "MoonshotAI/MoonEP": "2026-08-13T09:30:40Z",
         "MoonshotAI/FlashKDA": "2026-07-30T07:14:39Z",
         "MoonshotAI/Attention-Residuals": "2026-03-17T06:23:11Z",
         "MoonshotAI/Kimi-Audio": "2025-06-21T15:30:28Z",
         "MoonshotAI/Kimi-K2.5": "2026-08-06T10:42:43Z",
-        "MoonshotAI/kimi-cli": "2026-08-03T07:59:07Z",
         "MoonshotAI/Kimi-k1.5": "2025-03-07T11:16:36Z",
         "MoonshotAI/Kimi-Dev": "2025-09-30T02:15:54Z",
         "MoonshotAI/Kimi-Vendor-Verifier": "2026-08-13T15:21:02Z",
@@ -414,10 +415,9 @@
         "MoonshotAI/minitriton": "2026-07-27T13:49:08Z",
         "MoonshotAI/moonpalace": "2024-12-30T21:17:27Z",
         "MoonshotAI/Kimina-Prover-Preview": "2025-07-10T13:04:40Z",
-        "MoonshotAI/kosong": "2026-07-16T10:06:23Z",
-        "MoonshotAI/K2-Vendor-Verifier": "2026-02-14T05:28:46Z"
+        "MoonshotAI/kosong": "2026-07-16T10:06:23Z"
       },
-      "last_changed_at": "2026-08-14T15:21:36.372417Z",
+      "last_changed_at": "2026-08-14T16:08:54.200545Z",
       "source_signature": "c925f37596aaabb84376bf83142f08b0ce08447179a5d27a52c7956a40180daa",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -654,10 +654,11 @@
       "last_checked_at": "2026-07-02T04:51:58.871155Z",
       "baseline_initialized": true,
       "repos": {
-        "QwenLM/qwen-code": "2026-08-14T15:17:04Z",
         "QwenLM/Qwen-Agent": "2026-03-04T08:15:07Z",
-        "QwenLM/Qwen-MM-Plugins": "2026-08-13T17:47:45Z",
         "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
+        "QwenLM/FlashQLA": "2026-08-11T06:25:42Z",
+        "QwenLM/Qwen-MM-Plugins": "2026-08-13T17:47:45Z",
+        "QwenLM/qwen-code": "2026-08-14T16:08:17Z",
         "QwenLM/Qwen": "2026-03-05T13:55:17Z",
         "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
         "QwenLM/Qwen3.6": "2026-06-03T12:14:19Z",
@@ -671,11 +672,10 @@
         "QwenLM/Qwen3-Coder": "2026-03-24T08:22:10Z",
         "QwenLM/Qwen-RobotNav": "2026-06-30T03:01:19Z",
         "QwenLM/Qwen3-VL-Embedding": "2026-06-23T10:39:17Z",
-        "QwenLM/FlashQLA": "2026-08-11T06:25:42Z",
         "QwenLM/Qwen-Audio": "2024-07-05T09:17:49Z",
         "QwenLM/Qwen3-Omni": "2026-04-23T10:58:01Z"
       },
-      "last_changed_at": "2026-08-14T15:21:36.372417Z",
+      "last_changed_at": "2026-08-14T16:08:54.200545Z",
       "source_signature": "ddc0d8d3788b1fc4ba6779bc400a51934ce7ac0845fbfff67f906a6d77406e21",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -684,33 +684,35 @@
       "last_checked_at": "2026-07-02T04:52:01.889603Z",
       "baseline_initialized": true,
       "repos": {
-        "Tencent-Hunyuan/HY-Embodied": "2026-07-15T11:54:12Z",
         "Tencent-Hunyuan/Hunyuan3D-WorldClaw": "2026-08-13T05:47:55Z",
+        "Tencent-Hunyuan/HunyuanVideo": "2026-06-29T09:33:50Z",
+        "Tencent-Hunyuan/HY-World-2.0": "2026-08-12T16:15:12Z",
+        "Tencent-Hunyuan/HY-Motion-1.0": "2026-07-18T15:13:36Z",
+        "Tencent-Hunyuan/HunyuanVideo-1.5": "2026-04-10T06:14:59Z",
+        "Tencent-Hunyuan/Hunyuan3D-Buffalo1.0": "2026-08-10T17:04:25Z",
+        "Tencent-Hunyuan/HY-Embodied": "2026-07-15T11:54:12Z",
         "Tencent-Hunyuan/Hunyuan3D-2": "2025-10-28T09:58:12Z",
         "Tencent-Hunyuan/HunyuanCustom": "2025-10-15T06:54:23Z",
         "Tencent-Hunyuan/Hunyuan3D-2.1": "2025-10-17T10:10:07Z",
-        "Tencent-Hunyuan/HunyuanVideo-1.5": "2026-04-10T06:14:59Z",
         "Tencent-Hunyuan/UniRL": "2026-08-14T08:27:45Z",
         "Tencent-Hunyuan/Hy-Embodied-0.5-VLA": "2026-08-04T07:32:42Z",
         "Tencent-Hunyuan/HunyuanWorld-Mirror": "2026-05-27T03:22:57Z",
         "Tencent-Hunyuan/MixGRPO": "2026-07-01T10:49:26Z",
         "Tencent-Hunyuan/HY-WorldPlay": "2026-06-10T07:10:23Z",
-        "Tencent-Hunyuan/Hunyuan3D-Buffalo1.0": "2026-08-10T17:04:25Z",
         "Tencent-Hunyuan/RepoProbe": "2026-08-06T03:33:17Z",
         "Tencent-Hunyuan/Hunyuan3D-Omni": "2025-10-17T10:13:05Z",
         "Tencent-Hunyuan/SRPO": "2026-05-11T03:51:29Z",
         "Tencent-Hunyuan/Hy-MT2": "2026-06-30T07:17:36Z",
-        "Tencent-Hunyuan/HY-Motion-1.0": "2026-07-18T15:13:36Z",
-        "Tencent-Hunyuan/Hy3": "2026-07-17T10:11:52Z",
-        "Tencent-Hunyuan/HunyuanDiT": "2025-11-27T06:37:00Z",
-        "Tencent-Hunyuan/HunyuanPortrait": "2025-12-07T17:27:14Z"
+        "Tencent-Hunyuan/Hy3": "2026-07-17T10:11:52Z"
       },
-      "last_changed_at": "2026-08-14T14:28:43.551339Z",
+      "last_changed_at": "2026-08-14T16:08:54.200545Z",
       "source_signature": "637ce9b3bc2d070666c42f5fd92e749870848ee35ed6d4c156f831c9bc8f2d04",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
     "qbitai-rss": {
       "seen_keys": [
+        "https://www.qbitai.com/2026/08/473379.html",
+        "https://www.qbitai.com/2026/08/473261.html",
         "https://www.qbitai.com/2026/08/473153.html",
         "https://www.qbitai.com/2026/08/473149.html",
         "https://www.qbitai.com/2026/08/473038.html",
@@ -1008,13 +1010,11 @@
         "https://www.qbitai.com/2026/07/449906.html",
         "https://www.qbitai.com/2026/07/449863.html",
         "https://www.qbitai.com/2026/07/449850.html",
-        "https://www.qbitai.com/2026/07/449842.html",
-        "https://www.qbitai.com/2026/07/449836.html",
-        "https://www.qbitai.com/2026/07/449568.html"
+        "https://www.qbitai.com/2026/07/449842.html"
       ],
       "last_checked_at": "2026-07-02T04:52:26.145879Z",
       "baseline_initialized": true,
-      "last_changed_at": "2026-08-14T15:23:21.672435Z",
+      "last_changed_at": "2026-08-14T16:13:29.162800Z",
       "source_signature": "34418d38d4b87c134f9922d6999ac3c069821ed0be2134f9ba6ae5e00e4b63a9",
       "baseline_reinitialized_at": "2026-07-02T10:23:28.426031Z"
     },
@@ -2095,17 +2095,19 @@
     },
     "aihot-selected": {
       "last_raw_count": 50,
-      "last_polled_at": "2026-08-14T15:21:36.372417Z",
+      "last_polled_at": "2026-08-14T16:08:54.200545Z",
       "source_signature": "54b0a2ce37b31eed7de5728f2ad3467d3fff1ec95a53a03f9ee11a9fa197fda4",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-09T08:44:50.779962Z",
       "seen_keys": [
+        "https://x.com/Alibaba_Qwen/status/2088280182356611304",
         "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground",
-        "https://x.com/SpaceXAI/status/2088250109188608289",
+        "https://cursor.com/blog/joining-spacex",
         "https://mp.weixin.qq.com/s?__biz=Mzg4OTc2MzczNg%3D%3D&mid=2247496140&idx=1&sn=5239a5fbb115c58d2ae0056bb32789ff",
         "https://mp.weixin.qq.com/s?__biz=MzkyMzI3NzQ0Mg%3D%3D&mid=2247494084&idx=1&sn=a2e5cd9a534a4825feb3633ea1b6d492",
         "https://x.com/SiliconFlowAI/status/2088127458558271885",
         "https://mp.weixin.qq.com/s?__biz=MzkyODk2MDQwNw%3D%3D&mid=2247487525&idx=1&sn=b9def9117e34b45fce50ab76eeed726c",
+        "https://huggingface.co/blog/state-of-open-models-summer-2026",
         "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647685238&idx=1&sn=c3159dba0dd5a141f8dd726fd474e6e2",
         "https://x.com/bcherny/status/2088014489438621990",
         "https://deepmind.google/blog/introducing-gemini-3-7-flash",
@@ -2119,7 +2121,6 @@
         "https://mp.weixin.qq.com/s?__biz=Mzg4OTc2MzczNg%3D%3D&mid=2247496062&idx=1&sn=d4c48926c5d7607f129dfea03699a6c0",
         "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647685179&idx=1&sn=4cbee32b677b57a9dc6ec2a79d6f72c7",
         "https://www.anthropic.com/research/multiagent-systems",
-        "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647685175&idx=1&sn=64c383b5b757945397894270c5f38301",
         "https://github.blog/open-source/maintainers/your-contributors-are-ai-first-now-is-your-project",
         "https://x.com/mustafasuleyman/status/2087570047967408396",
         "https://www.interconnects.ai/p/i-wrote-an-ai-textbook-how-long-until",
@@ -2149,6 +2150,8 @@
         "https://www.lmsys.org/blog/2026-08-11-nemotron-3-5-lightning",
         "https://blogs.nvidia.com/blog/local-ai-open-source-models-agents-nemotron",
         "https://www.theverge.com/ai-artificial-intelligence/977273/the-ai-takeover-of-mathematics-has-begun",
+        "https://x.com/SpaceXAI/status/2088250109188608289",
+        "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647685175&idx=1&sn=64c383b5b757945397894270c5f38301",
         "https://mp.weixin.qq.com/s?__biz=MzkyODk2MDQwNw%3D%3D&mid=2247487491&idx=1&sn=fcb14aceb054f9a24e22525d3dae6fa0",
         "https://mp.weixin.qq.com/s?__biz=MzkyMzI3NzQ0Mg%3D%3D&mid=2247494052&idx=1&sn=ee3ab3d0f4550e9120927c53a27522c9",
         "https://www.marktechpost.com/2026/08/10/implementing-a-minimax-h3-multimodal-video-and-audio-generation-pipeline-with-comfyui-apis",
@@ -2396,12 +2399,9 @@
         "https://x.com/thsottiaux/status/2082241164850364555",
         "https://x.com/AnthropicAI/status/2082228994653696371",
         "https://x.com/AISafetyMemes/status/2082223372214448303",
-        "https://x.com/OpenAI/status/2082208694142730340",
-        "https://x.com/ClementDelangue/status/2082201245813514613",
-        "https://x.com/OpenAIDevs/status/2082201169443905798",
-        "https://x.com/AndrewYNg/status/2082199333920027009"
+        "https://x.com/OpenAI/status/2082208694142730340"
       ],
-      "last_changed_at": "2026-08-14T15:21:38.978517Z"
+      "last_changed_at": "2026-08-14T16:08:55.367669Z"
     }
   }
 }
