@@ -396,8 +396,8 @@
       "last_checked_at": "2026-07-02T04:51:37.867265Z",
       "baseline_initialized": true,
       "repos": {
-        "MoonshotAI/kimi-code": "2026-08-14T11:18:45Z",
         "MoonshotAI/Kimi-K3": "2026-08-06T10:17:28Z",
+        "MoonshotAI/kimi-code": "2026-08-14T11:55:50Z",
         "MoonshotAI/kimi-cli": "2026-08-03T07:59:07Z",
         "MoonshotAI/MoonEP": "2026-08-13T09:30:40Z",
         "MoonshotAI/FlashKDA": "2026-07-30T07:14:39Z",
@@ -417,7 +417,7 @@
         "MoonshotAI/checkpoint-engine": "2026-08-12T05:59:00Z",
         "MoonshotAI/Kimi-VL": "2025-07-15T15:48:21Z"
       },
-      "last_changed_at": "2026-08-14T11:25:28.349382Z",
+      "last_changed_at": "2026-08-14T12:03:59.172189Z",
       "source_signature": "c925f37596aaabb84376bf83142f08b0ce08447179a5d27a52c7956a40180daa",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -426,11 +426,12 @@
       "last_checked_at": "2026-07-02T04:51:40.485322Z",
       "baseline_initialized": true,
       "repos": {
+        "zai-org/GLM-5": "2026-08-11T06:36:36Z",
+        "zai-org/ImageReward": "2025-10-29T13:40:51Z",
         "zai-org/Open-AutoGLM": "2026-03-06T08:38:39Z",
         "zai-org/GLM-4-Voice": "2024-12-05T07:10:01Z",
         "zai-org/CodeGeeX4": "2024-08-25T14:26:16Z",
         "zai-org/GLM-OCR": "2026-04-21T08:52:11Z",
-        "zai-org/GLM-5": "2026-08-11T06:36:36Z",
         "zai-org/GLM-TTS": "2026-04-10T08:50:23Z",
         "zai-org/GLM-4.5": "2026-02-01T08:28:10Z",
         "zai-org/ChatGLM-6B": "2024-06-27T04:05:25Z",
@@ -444,10 +445,9 @@
         "zai-org/Synapse": "2026-07-31T07:25:27Z",
         "zai-org/GLM-Image": "2026-03-20T03:10:16Z",
         "zai-org/CodeGeeX": "2024-08-13T05:59:38Z",
-        "zai-org/CogVLM2": "2025-03-03T03:01:31Z",
-        "zai-org/GLM-V": "2026-07-21T16:03:29Z"
+        "zai-org/CogVLM2": "2025-03-03T03:01:31Z"
       },
-      "last_changed_at": "2026-08-14T11:25:28.349382Z",
+      "last_changed_at": "2026-08-14T12:03:59.172189Z",
       "source_signature": "0f9d07d7983b4898dc433a8d045a96469f65dff73642f9fe1fbf73cf3299210c",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -594,7 +594,7 @@
         "OpenBMB/VoxCPM": "2026-08-12T14:14:37Z",
         "OpenBMB/AgentCPM-GUI": "2026-01-11T08:24:15Z",
         "OpenBMB/ChatDev": "2026-07-24T08:01:27Z",
-        "OpenBMB/StaffDeck": "2026-08-14T11:23:57Z",
+        "OpenBMB/StaffDeck": "2026-08-14T11:26:52Z",
         "OpenBMB/MiniCPM-V": "2026-08-12T14:16:57Z",
         "OpenBMB/MiniCPM": "2026-07-27T06:50:07Z",
         "OpenBMB/OmniEvalKit": "2026-03-27T11:18:33Z",
@@ -612,7 +612,7 @@
         "OpenBMB/ArcLight": "2026-05-30T02:59:35Z",
         "OpenBMB/MiniCPM-Desk-Pet": "2026-07-07T14:15:36Z"
       },
-      "last_changed_at": "2026-08-14T11:25:28.349382Z",
+      "last_changed_at": "2026-08-14T12:03:59.172189Z",
       "source_signature": "3dd1c4ab8bc380dc66624329d310bc65fe6deafde7a370da1191ca03b32c0764",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -626,7 +626,7 @@
         "InternLM/lmdeploy": "2026-08-14T11:04:29Z",
         "InternLM/InternLM": "2025-10-30T00:35:43Z",
         "InternLM/Intern-S2-Mobius": "2026-08-14T05:53:24Z",
-        "InternLM/xtuner": "2026-08-14T07:48:40Z",
+        "InternLM/xtuner": "2026-08-14T11:32:56Z",
         "InternLM/WildClawBench": "2026-08-13T15:12:33Z",
         "InternLM/OVO-S-Bench": "2026-06-24T12:26:42Z",
         "InternLM/InternLM-Law": "2024-05-14T07:44:09Z",
@@ -642,7 +642,7 @@
         "InternLM/Intern-S1": "2026-07-17T10:25:15Z",
         "InternLM/HuixiangDou": "2025-11-24T11:17:29Z"
       },
-      "last_changed_at": "2026-08-14T11:25:28.349382Z",
+      "last_changed_at": "2026-08-14T12:03:59.172189Z",
       "source_signature": "a7a2f73a91108336ba1fe2d4fb4d5921862eb329f648d490a4d7903663f49f70",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -654,16 +654,18 @@
       "last_checked_at": "2026-07-02T04:51:58.871155Z",
       "baseline_initialized": true,
       "repos": {
+        "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
+        "QwenLM/Qwen3.6": "2026-06-03T12:14:19Z",
+        "QwenLM/qwen-code-docs": "2026-08-14T11:35:40Z",
+        "QwenLM/Qwen-AgentWorld": "2026-07-20T11:52:07Z",
         "QwenLM/Qwen-MM-Plugins": "2026-08-13T17:47:45Z",
         "QwenLM/Qwen3-ASR": "2026-06-26T08:20:17Z",
         "QwenLM/Qwen2.5-Omni": "2025-06-12T11:03:07Z",
-        "QwenLM/qwen-code": "2026-08-14T11:20:23Z",
+        "QwenLM/qwen-code": "2026-08-14T11:59:16Z",
         "QwenLM/Qwen-Image": "2026-02-10T07:37:37Z",
         "QwenLM/Qwen": "2026-03-05T13:55:17Z",
         "QwenLM/Qwen-Agent": "2026-03-04T08:15:07Z",
         "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
-        "QwenLM/Qwen3.6": "2026-06-03T12:14:19Z",
-        "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
         "QwenLM/Qwen3-Coder": "2026-03-24T08:22:10Z",
         "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
         "QwenLM/Qwen-RobotNav": "2026-06-30T03:01:19Z",
@@ -671,11 +673,9 @@
         "QwenLM/FlashQLA": "2026-08-11T06:25:42Z",
         "QwenLM/Qwen-Image-Layered": "2025-12-31T11:40:35Z",
         "QwenLM/Qwen-Audio": "2024-07-05T09:17:49Z",
-        "QwenLM/Qwen3-Omni": "2026-04-23T10:58:01Z",
-        "QwenLM/qwen-code-docs": "2026-08-13T22:37:52Z",
-        "QwenLM/QwQ": "2025-03-27T15:48:52Z"
+        "QwenLM/Qwen3-Omni": "2026-04-23T10:58:01Z"
       },
-      "last_changed_at": "2026-08-14T11:25:28.349382Z",
+      "last_changed_at": "2026-08-14T12:03:59.172189Z",
       "source_signature": "ddc0d8d3788b1fc4ba6779bc400a51934ce7ac0845fbfff67f906a6d77406e21",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -711,6 +711,7 @@
     },
     "qbitai-rss": {
       "seen_keys": [
+        "https://www.qbitai.com/2026/08/473149.html",
         "https://www.qbitai.com/2026/08/473038.html",
         "https://www.qbitai.com/2026/08/473144.html",
         "https://www.qbitai.com/2026/08/472722.html",
@@ -1009,12 +1010,11 @@
         "https://www.qbitai.com/2026/07/449842.html",
         "https://www.qbitai.com/2026/07/449836.html",
         "https://www.qbitai.com/2026/07/449568.html",
-        "https://www.qbitai.com/2026/07/449566.html",
-        "https://www.qbitai.com/2026/07/449474.html"
+        "https://www.qbitai.com/2026/07/449566.html"
       ],
       "last_checked_at": "2026-07-02T04:52:26.145879Z",
       "baseline_initialized": true,
-      "last_changed_at": "2026-08-14T09:47:39.946441Z",
+      "last_changed_at": "2026-08-14T12:05:39.145964Z",
       "source_signature": "34418d38d4b87c134f9922d6999ac3c069821ed0be2134f9ba6ae5e00e4b63a9",
       "baseline_reinitialized_at": "2026-07-02T10:23:28.426031Z"
     },
@@ -2095,11 +2095,12 @@
     },
     "aihot-selected": {
       "last_raw_count": 50,
-      "last_polled_at": "2026-08-14T11:25:28.349382Z",
+      "last_polled_at": "2026-08-14T12:03:59.172189Z",
       "source_signature": "54b0a2ce37b31eed7de5728f2ad3467d3fff1ec95a53a03f9ee11a9fa197fda4",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-09T08:44:50.779962Z",
       "seen_keys": [
+        "https://mp.weixin.qq.com/s?__biz=Mzg4OTc2MzczNg%3D%3D&mid=2247496140&idx=1&sn=5239a5fbb115c58d2ae0056bb32789ff",
         "https://mp.weixin.qq.com/s?__biz=MzkyMzI3NzQ0Mg%3D%3D&mid=2247494084&idx=1&sn=a2e5cd9a534a4825feb3633ea1b6d492",
         "https://x.com/SiliconFlowAI/status/2088127458558271885",
         "https://mp.weixin.qq.com/s?__biz=MzkyODk2MDQwNw%3D%3D&mid=2247487525&idx=1&sn=b9def9117e34b45fce50ab76eeed726c",
@@ -2398,10 +2399,9 @@
         "https://x.com/OpenAIDevs/status/2082201169443905798",
         "https://x.com/AndrewYNg/status/2082199333920027009",
         "https://techcrunch.com/2026/07/28/sam-altman-is-ready-to-decelerate",
-        "https://x.com/AnthropicAI/status/2082153297670992134",
-        "https://www.lmsys.org/blog/2026-07-29-mxfp8-nvfp4-rl"
+        "https://x.com/AnthropicAI/status/2082153297670992134"
       ],
-      "last_changed_at": "2026-08-14T11:25:30.271673Z"
+      "last_changed_at": "2026-08-14T12:04:02.291587Z"
     }
   }
 }
