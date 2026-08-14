@@ -367,27 +367,27 @@
       "baseline_initialized": true,
       "repos": {
         "deepseek-ai/deepseek-harness": "2026-08-13T13:00:21Z",
-        "deepseek-ai/awesome-deepseek-agent": "2026-06-17T01:24:37Z",
-        "deepseek-ai/DeepGEMM": "2026-08-11T08:21:15Z",
-        "deepseek-ai/Janus": "2025-02-01T07:58:29Z",
         "deepseek-ai/awesome-deepseek-integration": "2026-02-23T16:27:47Z",
-        "deepseek-ai/DeepSeek-R1": "2025-06-27T08:35:54Z",
         "deepseek-ai/DeepSeek-V3": "2025-08-28T03:24:37Z",
-        "deepseek-ai/DeepSeek-Coder": "2025-11-11T06:44:56Z",
-        "deepseek-ai/DeepSeek-OCR-2": "2026-02-03T00:34:18Z",
-        "deepseek-ai/DeepEP": "2026-08-05T06:27:08Z",
-        "deepseek-ai/DeepSeek-V3.2-Exp": "2025-11-18T02:57:11Z",
+        "deepseek-ai/DeepSeek-R1": "2025-06-27T08:35:54Z",
+        "deepseek-ai/awesome-deepseek-agent": "2026-06-17T01:24:37Z",
         "deepseek-ai/DeepSeek-OCR": "2026-01-27T03:45:14Z",
+        "deepseek-ai/DeepSeek-Coder": "2025-11-11T06:44:56Z",
+        "deepseek-ai/DeepSeek-Coder-V2": "2025-11-11T06:44:45Z",
+        "deepseek-ai/ESFT": "2025-05-22T07:47:15Z",
+        "deepseek-ai/DeepGEMM": "2026-08-11T08:21:15Z",
+        "deepseek-ai/DeepSeek-OCR-2": "2026-02-03T00:34:18Z",
+        "deepseek-ai/3FS": "2026-05-07T09:31:54Z",
+        "deepseek-ai/DeepEP": "2026-08-05T06:27:08Z",
+        "deepseek-ai/DeepSpec": "2026-07-09T04:37:14Z",
+        "deepseek-ai/Janus": "2025-02-01T07:58:29Z",
+        "deepseek-ai/DeepSeek-V3.2-Exp": "2025-11-18T02:57:11Z",
         "deepseek-ai/Engram": "2026-01-14T01:13:02Z",
         "deepseek-ai/LPLB": "2025-11-19T07:20:35Z",
-        "deepseek-ai/ESFT": "2025-05-22T07:47:15Z",
         "deepseek-ai/TileKernels": "2026-04-23T10:19:21Z",
-        "deepseek-ai/DeepSpec": "2026-07-09T04:37:14Z",
-        "deepseek-ai/smallpond": "2025-03-05T18:23:54Z",
-        "deepseek-ai/DeepSeek-Math": "2024-04-15T07:55:37Z",
-        "deepseek-ai/DeepSeek-V2": "2024-09-25T10:23:55Z"
+        "deepseek-ai/smallpond": "2025-03-05T18:23:54Z"
       },
-      "last_changed_at": "2026-08-14T11:25:28.349382Z",
+      "last_changed_at": "2026-08-14T13:24:48.671932Z",
       "source_signature": "e247a4022cc1b9d1fcca44981d9eb5c7892416a57bcff15ec2fe2fc72cfd972e",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -396,15 +396,16 @@
       "last_checked_at": "2026-07-02T04:51:37.867265Z",
       "baseline_initialized": true,
       "repos": {
-        "MoonshotAI/Kimi-K3": "2026-08-06T10:17:28Z",
-        "MoonshotAI/kimi-code": "2026-08-14T11:55:50Z",
-        "MoonshotAI/kimi-cli": "2026-08-03T07:59:07Z",
-        "MoonshotAI/MoonEP": "2026-08-13T09:30:40Z",
         "MoonshotAI/FlashKDA": "2026-07-30T07:14:39Z",
+        "MoonshotAI/Attention-Residuals": "2026-03-17T06:23:11Z",
+        "MoonshotAI/Kimi-Audio": "2025-06-21T15:30:28Z",
+        "MoonshotAI/Kimi-K2.5": "2026-08-06T10:42:43Z",
+        "MoonshotAI/kimi-code": "2026-08-14T12:53:36Z",
+        "MoonshotAI/kimi-cli": "2026-08-03T07:59:07Z",
+        "MoonshotAI/Kimi-K3": "2026-08-06T10:17:28Z",
+        "MoonshotAI/MoonEP": "2026-08-13T09:30:40Z",
         "MoonshotAI/Kimi-k1.5": "2025-03-07T11:16:36Z",
         "MoonshotAI/Kimi-Dev": "2025-09-30T02:15:54Z",
-        "MoonshotAI/Kimi-K2.5": "2026-08-06T10:42:43Z",
-        "MoonshotAI/Kimi-Audio": "2025-06-21T15:30:28Z",
         "MoonshotAI/Kimi-K2": "2026-01-21T05:33:12Z",
         "MoonshotAI/Kimi-Vendor-Verifier": "2026-08-13T15:21:02Z",
         "MoonshotAI/MoBA": "2025-04-03T07:28:06Z",
@@ -414,10 +415,9 @@
         "MoonshotAI/kosong": "2026-07-16T10:06:23Z",
         "MoonshotAI/kimi-agent-sdk": "2026-05-29T05:29:38Z",
         "MoonshotAI/K2-Vendor-Verifier": "2026-02-14T05:28:46Z",
-        "MoonshotAI/checkpoint-engine": "2026-08-12T05:59:00Z",
-        "MoonshotAI/Kimi-VL": "2025-07-15T15:48:21Z"
+        "MoonshotAI/checkpoint-engine": "2026-08-12T05:59:00Z"
       },
-      "last_changed_at": "2026-08-14T12:03:59.172189Z",
+      "last_changed_at": "2026-08-14T13:24:48.671932Z",
       "source_signature": "c925f37596aaabb84376bf83142f08b0ce08447179a5d27a52c7956a40180daa",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -426,28 +426,28 @@
       "last_checked_at": "2026-07-02T04:51:40.485322Z",
       "baseline_initialized": true,
       "repos": {
+        "zai-org/Open-AutoGLM": "2026-03-06T08:38:39Z",
+        "zai-org/ChatGLM-6B": "2024-06-27T04:05:25Z",
+        "zai-org/GLM-4": "2026-08-05T07:08:46Z",
+        "zai-org/CodeGeeX2": "2024-07-10T12:34:55Z",
+        "zai-org/ChatGLM3": "2025-01-13T06:55:26Z",
+        "zai-org/ChatGLM2-6B": "2024-06-27T04:05:08Z",
+        "zai-org/GLM-OCR": "2026-04-21T08:52:11Z",
         "zai-org/GLM-5": "2026-08-11T06:36:36Z",
         "zai-org/ImageReward": "2025-10-29T13:40:51Z",
-        "zai-org/Open-AutoGLM": "2026-03-06T08:38:39Z",
         "zai-org/GLM-4-Voice": "2024-12-05T07:10:01Z",
         "zai-org/CodeGeeX4": "2024-08-25T14:26:16Z",
-        "zai-org/GLM-OCR": "2026-04-21T08:52:11Z",
         "zai-org/GLM-TTS": "2026-04-10T08:50:23Z",
         "zai-org/GLM-4.5": "2026-02-01T08:28:10Z",
-        "zai-org/ChatGLM-6B": "2024-06-27T04:05:25Z",
         "zai-org/CogVideo": "2025-11-04T11:19:04Z",
-        "zai-org/ChatGLM3": "2025-01-13T06:55:26Z",
         "zai-org/SCAIL-2": "2026-08-14T04:46:01Z",
-        "zai-org/ChatGLM2-6B": "2024-06-27T04:05:08Z",
         "zai-org/AISE-Bench": "2026-08-07T09:49:44Z",
         "zai-org/GLM-130B": "2023-07-25T09:01:49Z",
-        "zai-org/GLM-4": "2026-08-05T07:08:46Z",
         "zai-org/Synapse": "2026-07-31T07:25:27Z",
         "zai-org/GLM-Image": "2026-03-20T03:10:16Z",
-        "zai-org/CodeGeeX": "2024-08-13T05:59:38Z",
-        "zai-org/CogVLM2": "2025-03-03T03:01:31Z"
+        "zai-org/CodeGeeX": "2024-08-13T05:59:38Z"
       },
-      "last_changed_at": "2026-08-14T12:03:59.172189Z",
+      "last_changed_at": "2026-08-14T13:24:48.671932Z",
       "source_signature": "0f9d07d7983b4898dc433a8d045a96469f65dff73642f9fe1fbf73cf3299210c",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -591,12 +591,14 @@
       "last_checked_at": "2026-07-02T04:51:55.708102Z",
       "baseline_initialized": true,
       "repos": {
-        "OpenBMB/VoxCPM": "2026-08-12T14:14:37Z",
-        "OpenBMB/AgentCPM-GUI": "2026-01-11T08:24:15Z",
+        "OpenBMB/RepoAgent": "2024-12-23T11:48:52Z",
         "OpenBMB/ChatDev": "2026-07-24T08:01:27Z",
-        "OpenBMB/StaffDeck": "2026-08-14T11:26:52Z",
-        "OpenBMB/MiniCPM-V": "2026-08-12T14:16:57Z",
         "OpenBMB/MiniCPM": "2026-07-27T06:50:07Z",
+        "OpenBMB/MiniCPM-V": "2026-08-12T14:16:57Z",
+        "OpenBMB/VoxCPM": "2026-08-12T14:14:37Z",
+        "OpenBMB/BMTools": "2023-12-05T05:25:27Z",
+        "OpenBMB/AgentCPM-GUI": "2026-01-11T08:24:15Z",
+        "OpenBMB/StaffDeck": "2026-08-14T11:26:52Z",
         "OpenBMB/OmniEvalKit": "2026-03-27T11:18:33Z",
         "OpenBMB/ClawXRouter": "2026-03-31T08:35:42Z",
         "OpenBMB/MiniCPM-o-Demo": "2026-08-14T07:26:44Z",
@@ -608,11 +610,9 @@
         "OpenBMB/AgentVerse": "2024-09-09T05:47:44Z",
         "OpenBMB/XAgent": "2026-07-31T03:30:54Z",
         "OpenBMB/UltraEval-Audio": "2026-08-13T06:34:40Z",
-        "OpenBMB/RAGEval": "2025-04-02T20:45:47Z",
-        "OpenBMB/ArcLight": "2026-05-30T02:59:35Z",
-        "OpenBMB/MiniCPM-Desk-Pet": "2026-07-07T14:15:36Z"
+        "OpenBMB/RAGEval": "2025-04-02T20:45:47Z"
       },
-      "last_changed_at": "2026-08-14T12:03:59.172189Z",
+      "last_changed_at": "2026-08-14T13:24:48.671932Z",
       "source_signature": "3dd1c4ab8bc380dc66624329d310bc65fe6deafde7a370da1191ca03b32c0764",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -621,19 +621,19 @@
       "last_checked_at": "2026-07-02T04:51:56.844085Z",
       "baseline_initialized": true,
       "repos": {
+        "InternLM/InternLM-XComposer": "2025-05-26T15:59:34Z",
+        "InternLM/lmdeploy": "2026-08-14T11:04:29Z",
+        "InternLM/Intern-S2-Mobius": "2026-08-14T12:48:30Z",
+        "InternLM/xtuner": "2026-08-14T12:47:35Z",
+        "InternLM/InternLM": "2025-10-30T00:35:43Z",
         "InternLM/MindSearch": "2025-07-04T10:06:45Z",
         "InternLM/lagent": "2026-08-03T07:18:16Z",
-        "InternLM/lmdeploy": "2026-08-14T11:04:29Z",
-        "InternLM/InternLM": "2025-10-30T00:35:43Z",
-        "InternLM/Intern-S2-Mobius": "2026-08-14T05:53:24Z",
-        "InternLM/xtuner": "2026-08-14T11:32:56Z",
         "InternLM/WildClawBench": "2026-08-13T15:12:33Z",
         "InternLM/OVO-S-Bench": "2026-06-24T12:26:42Z",
         "InternLM/InternLM-Law": "2024-05-14T07:44:09Z",
         "InternLM/AcmeTrace": "2024-03-12T11:49:56Z",
         "InternLM/Tutorial": "2026-04-22T08:39:08Z",
         "InternLM/InternBootcamp": "2026-08-12T13:13:22Z",
-        "InternLM/InternLM-XComposer": "2025-05-26T15:59:34Z",
         "InternLM/SIM-CoT": "2026-04-13T14:19:59Z",
         "InternLM/Skill-as-Pseudocode": "2026-05-28T16:11:56Z",
         "InternLM/EndoCoT": "2026-08-11T12:58:37Z",
@@ -642,7 +642,7 @@
         "InternLM/Intern-S1": "2026-07-17T10:25:15Z",
         "InternLM/HuixiangDou": "2025-11-24T11:17:29Z"
       },
-      "last_changed_at": "2026-08-14T12:03:59.172189Z",
+      "last_changed_at": "2026-08-14T13:24:48.671932Z",
       "source_signature": "a7a2f73a91108336ba1fe2d4fb4d5921862eb329f648d490a4d7903663f49f70",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -654,28 +654,28 @@
       "last_checked_at": "2026-07-02T04:51:58.871155Z",
       "baseline_initialized": true,
       "repos": {
+        "QwenLM/Qwen-Image": "2026-02-10T07:37:37Z",
         "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
+        "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
+        "QwenLM/Qwen": "2026-03-05T13:55:17Z",
+        "QwenLM/qwen-code": "2026-08-14T13:07:44Z",
+        "QwenLM/Qwen-Image-Layered": "2025-12-31T11:40:35Z",
+        "QwenLM/Qwen-Agent": "2026-03-04T08:15:07Z",
+        "QwenLM/Qwen3-ASR": "2026-06-26T08:20:17Z",
+        "QwenLM/Qwen-MM-Plugins": "2026-08-13T17:47:45Z",
         "QwenLM/Qwen3.6": "2026-06-03T12:14:19Z",
         "QwenLM/qwen-code-docs": "2026-08-14T11:35:40Z",
         "QwenLM/Qwen-AgentWorld": "2026-07-20T11:52:07Z",
-        "QwenLM/Qwen-MM-Plugins": "2026-08-13T17:47:45Z",
-        "QwenLM/Qwen3-ASR": "2026-06-26T08:20:17Z",
         "QwenLM/Qwen2.5-Omni": "2025-06-12T11:03:07Z",
-        "QwenLM/qwen-code": "2026-08-14T11:59:16Z",
-        "QwenLM/Qwen-Image": "2026-02-10T07:37:37Z",
-        "QwenLM/Qwen": "2026-03-05T13:55:17Z",
-        "QwenLM/Qwen-Agent": "2026-03-04T08:15:07Z",
         "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
         "QwenLM/Qwen3-Coder": "2026-03-24T08:22:10Z",
-        "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
         "QwenLM/Qwen-RobotNav": "2026-06-30T03:01:19Z",
         "QwenLM/Qwen3-VL-Embedding": "2026-06-23T10:39:17Z",
         "QwenLM/FlashQLA": "2026-08-11T06:25:42Z",
-        "QwenLM/Qwen-Image-Layered": "2025-12-31T11:40:35Z",
         "QwenLM/Qwen-Audio": "2024-07-05T09:17:49Z",
         "QwenLM/Qwen3-Omni": "2026-04-23T10:58:01Z"
       },
-      "last_changed_at": "2026-08-14T12:03:59.172189Z",
+      "last_changed_at": "2026-08-14T13:24:48.671932Z",
       "source_signature": "ddc0d8d3788b1fc4ba6779bc400a51934ce7ac0845fbfff67f906a6d77406e21",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -1019,13 +1019,13 @@
       "baseline_reinitialized_at": "2026-07-02T10:23:28.426031Z"
     },
     "moonshot-website": {
-      "fingerprint": "33cda1cd0738161f8f5b2834f666d8f5d8ca0e4e8cd8ef02fc121eca0ebb7280",
+      "fingerprint": "0be471543e9c0585eb6f4887aab8b85b88e169d8ce1be97bb954be74308c7b8f",
       "last_checked_at": "2026-07-02T04:51:33.147542Z",
-      "last_excerpt": "Moonshot AI Kimi Business API Research Download Careers EN 中文 Kimi Business API Research Download Careers EN 中文 Seeking the optimal conversion from energy to intelligence Try Kimi Try API Latest Research Our research team works toward AGI while sharing the latest research with the global open-source community. Get More 2026-07-16 Kimi K3 2026-07-16 PerceptionBench 2026-04-20 Kimi K2.6 Complex problems, solved with ease AI Models is capability. Code, analyze, sheets and slides — simplify complex work with the latest flagship model. Kimi K3 The new frontier of intelligence. 2.8T parameters, natively multimodal, 1M-token context — built for long-horizon coding, knowledge work, and deep reasoning. Explore Features Discover Kimi doodles Explore doodles for holidays, events, and trends — each one a small surprise. June · Turing's Birthday A tape defined computation. One question inspired AI. Chat with Kimi continues Turing's legacy. May · Bob Dylan 's Birthday Sunglasses, guitar, harmonica. For the old rock Nobel who couldn't be bothered. The question is the answer. April · Earth Day A Fauvist forest honoring Matisse’s cut-outs. Let this Doodle remind you: log off and step into spring. Built for the future. Available today. App Scan to download Kimi App Chrome Extension Desktop macOS Windows Try Kimi right now Copyright © 2023-2026 Moonshot AI. All Rights Reserved. Co-created with Kimi K2.6 Products Kimi Open Platform Kimi Code Pricing Kimi Business Features Agent Agent Swarm Website Document Slides Excel Deep Research Kimi Claw Resources Multi-Agent Parallel Agent Hermes Agent Overview Hermes API Company Terms of Service Privacy Policy © 2023-2026 北京月之暗面科技有限公司 | 京ICP备2023011302号-17",
+      "last_excerpt": "Moonshot AI Kimi Business API Research Download Careers EN 中文 Kimi Business API Research Download Careers EN 中文 Seeking the optimal conversion from energy to intelligence Try Kimi Try API Latest Research Our research team works toward AGI while sharing the latest research with the global open-source community. Get More 2026-07-16 Kimi K3 2026-07-16 PerceptionBench 2026-04-20 Kimi K2.6 Complex problems, solved with ease AI Models is capability. Code, analyze, sheets and slides — simplify complex work with the latest flagship model. Kimi K3 The new frontier of intelligence. 2.8T parameters, natively multimodal, 1M-token context — built for long-horizon coding, knowledge work, and deep reasoning. Explore Features Discover Kimi doodles Explore doodles for holidays, events, and trends — each one a small surprise. June · Turing's Birthday A tape defined computation. One question inspired AI. Chat with Kimi continues Turing's legacy. May · Bob Dylan 's Birthday Sunglasses, guitar, harmonica. For the old rock Nobel who couldn't be bothered. The question is the answer. April · Earth Day A Fauvist forest honoring Matisse’s cut-outs. Let this Doodle remind you: log off and step into spring. Built for the future. Available today. App Scan to download Kimi App Chrome Extension Desktop macOS Windows Try Kimi right now Copyright © 2023-2026 Moonshot AI. All Rights Reserved. Co-created with Kimi K3 Products Kimi Open Platform Kimi Code Pricing Kimi Business Features Agent Agent Swarm Website Document Slides Excel Deep Research Kimi Claw Resources Multi-Agent Parallel Agent Hermes Agent Overview Hermes API Company Terms of Service Privacy Policy PR Contact © 2023-2026 北京月之暗面科技有限公司 | 京ICP备2023011302号-17",
       "baseline_initialized": true,
       "source_signature": "eaada35abc15302434b4815c7958463d46b626935b9bf4a0a6c2bd5bd74c5dd0",
       "baseline_reinitialized_at": "2026-07-02T10:22:21.295328Z",
-      "last_changed_at": "2026-07-19T06:13:00.047416Z"
+      "last_changed_at": "2026-08-14T13:24:48.671932Z"
     },
     "kimi-forum": {
       "seen_keys": [
@@ -1273,7 +1273,8 @@
     },
     "internlm-huggingface": {
       "models": {
-        "internlm/Intern-S2-Mobius": "2026-08-12T10:48:54.000Z",
+        "internlm/Intern-S2-Mobius-FP8": "2026-08-14T13:03:03.000Z",
+        "internlm/Intern-S2-Mobius": "2026-08-14T13:02:45.000Z",
         "internlm/Intern-S1-FP8": "2026-08-06T13:50:22.000Z",
         "internlm/Intern-MemDec-4B": "2026-08-06T08:43:50.000Z",
         "internlm/Intern-S2-Preview-397B": "2026-07-29T12:52:27.000Z",
@@ -1291,14 +1292,13 @@
         "internlm/Spatial-SSRL-3B": "2026-04-06T12:02:45.000Z",
         "internlm/Spatial-SSRL-7B": "2026-04-06T12:02:03.000Z",
         "internlm/Intern-S1-Pro": "2026-03-30T03:46:30.000Z",
-        "internlm/Intern-S1": "2026-03-29T04:50:08.000Z",
-        "internlm/Intern-S1-mini": "2026-03-29T04:49:52.000Z"
+        "internlm/Intern-S1": "2026-03-29T04:50:08.000Z"
       },
       "last_checked_at": "2026-07-02T04:51:33.147542Z",
       "baseline_initialized": true,
       "source_signature": "e67cfe98b67041106415f085a4fd6d130de23d6cc98457236a41d6861c4827c3",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z",
-      "last_changed_at": "2026-08-12T11:25:48.778043Z"
+      "last_changed_at": "2026-08-14T13:24:48.671932Z"
     },
     "modelscope": {
       "seen_keys": [],
@@ -2095,11 +2095,12 @@
     },
     "aihot-selected": {
       "last_raw_count": 50,
-      "last_polled_at": "2026-08-14T12:03:59.172189Z",
+      "last_polled_at": "2026-08-14T13:24:48.671932Z",
       "source_signature": "54b0a2ce37b31eed7de5728f2ad3467d3fff1ec95a53a03f9ee11a9fa197fda4",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-09T08:44:50.779962Z",
       "seen_keys": [
+        "https://x.com/SpaceXAI/status/2088250109188608289",
         "https://mp.weixin.qq.com/s?__biz=Mzg4OTc2MzczNg%3D%3D&mid=2247496140&idx=1&sn=5239a5fbb115c58d2ae0056bb32789ff",
         "https://mp.weixin.qq.com/s?__biz=MzkyMzI3NzQ0Mg%3D%3D&mid=2247494084&idx=1&sn=a2e5cd9a534a4825feb3633ea1b6d492",
         "https://x.com/SiliconFlowAI/status/2088127458558271885",
@@ -2398,10 +2399,9 @@
         "https://x.com/ClementDelangue/status/2082201245813514613",
         "https://x.com/OpenAIDevs/status/2082201169443905798",
         "https://x.com/AndrewYNg/status/2082199333920027009",
-        "https://techcrunch.com/2026/07/28/sam-altman-is-ready-to-decelerate",
-        "https://x.com/AnthropicAI/status/2082153297670992134"
+        "https://techcrunch.com/2026/07/28/sam-altman-is-ready-to-decelerate"
       ],
-      "last_changed_at": "2026-08-14T12:04:02.291587Z"
+      "last_changed_at": "2026-08-14T13:24:51.128789Z"
     }
   }
 }
