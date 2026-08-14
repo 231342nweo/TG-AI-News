@@ -148,6 +148,8 @@
     },
     "qwen-huggingface": {
       "models": {
+        "Qwen/Qwen3.8-27B": "2026-08-14T15:00:01.000Z",
+        "Qwen/Qwen3.8-27B-FP8": "2026-08-14T14:44:41.000Z",
         "Qwen/Qwen3.8-2.4T-A95B": "2026-08-12T10:24:04.000Z",
         "Qwen/Qwen3.8-2.4T-A95B-FP8": "2026-08-12T10:23:42.000Z",
         "Qwen/Qwen3-ASR-0.6B-hf": "2026-07-22T11:58:47.000Z",
@@ -165,15 +167,13 @@
         "Qwen/SAE-Res-Qwen3.5-27B-W80K-L0_50": "2026-05-13T12:19:02.000Z",
         "Qwen/SAE-Res-Qwen3-30B-A3B-Base-W32K-L0_50": "2026-05-13T12:18:56.000Z",
         "Qwen/SAE-Res-Qwen3-30B-A3B-Base-W128K-L0_100": "2026-05-13T12:18:52.000Z",
-        "Qwen/SAE-Res-Qwen3-1.7B-Base-W32K-L0_50": "2026-05-13T12:18:50.000Z",
-        "Qwen/SAE-Res-Qwen3-1.7B-Base-W32K-L0_100": "2026-05-13T12:18:47.000Z",
-        "Qwen/SAE-Res-Qwen3.5-27B-W80K-L0_100": "2026-05-13T09:44:26.000Z"
+        "Qwen/SAE-Res-Qwen3-1.7B-Base-W32K-L0_50": "2026-05-13T12:18:50.000Z"
       },
       "last_checked_at": "2026-07-02T04:51:33.147542Z",
       "baseline_initialized": true,
       "source_signature": "7fe916e0221a8af09fce24b96190cab3af4515a23ac49096747d486b164cef7f",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z",
-      "last_changed_at": "2026-08-12T15:35:30.517873Z"
+      "last_changed_at": "2026-08-14T15:21:36.372417Z"
     },
     "aliyun-bailian-models": {
       "fingerprint": "5156ef09154199841ef4ea3e2216112dcfbc042af03228ffa96e0a12297eb9dc",
@@ -366,28 +366,28 @@
       "last_checked_at": "2026-07-02T04:51:33.967446Z",
       "baseline_initialized": true,
       "repos": {
-        "deepseek-ai/deepseek-harness": "2026-08-13T13:00:21Z",
-        "deepseek-ai/DeepSeek-OCR": "2026-01-27T03:45:14Z",
         "deepseek-ai/awesome-deepseek-agent": "2026-06-17T01:24:37Z",
-        "deepseek-ai/Janus": "2025-02-01T07:58:29Z",
-        "deepseek-ai/awesome-deepseek-integration": "2026-02-23T16:27:47Z",
+        "deepseek-ai/deepseek-harness": "2026-08-13T13:00:21Z",
+        "deepseek-ai/DeepSeek-R1": "2025-06-27T08:35:54Z",
         "deepseek-ai/DeepSeek-V3": "2025-08-28T03:24:37Z",
+        "deepseek-ai/DeepGEMM": "2026-08-11T08:21:15Z",
+        "deepseek-ai/DeepSeek-Coder": "2025-11-11T06:44:56Z",
+        "deepseek-ai/open-infra-index": "2025-05-15T02:00:43Z",
+        "deepseek-ai/awesome-deepseek-integration": "2026-02-23T16:27:47Z",
+        "deepseek-ai/3FS": "2026-05-07T09:31:54Z",
+        "deepseek-ai/DeepSeek-OCR": "2026-01-27T03:45:14Z",
+        "deepseek-ai/Janus": "2025-02-01T07:58:29Z",
         "deepseek-ai/DeepSeek-V2": "2024-09-25T10:23:55Z",
         "deepseek-ai/Engram": "2026-01-14T01:13:02Z",
-        "deepseek-ai/DeepSeek-R1": "2025-06-27T08:35:54Z",
-        "deepseek-ai/DeepSeek-Coder": "2025-11-11T06:44:56Z",
         "deepseek-ai/DeepSeek-Coder-V2": "2025-11-11T06:44:45Z",
         "deepseek-ai/ESFT": "2025-05-22T07:47:15Z",
-        "deepseek-ai/DeepGEMM": "2026-08-11T08:21:15Z",
         "deepseek-ai/DeepSeek-OCR-2": "2026-02-03T00:34:18Z",
-        "deepseek-ai/3FS": "2026-05-07T09:31:54Z",
         "deepseek-ai/DeepEP": "2026-08-05T06:27:08Z",
         "deepseek-ai/DeepSpec": "2026-07-09T04:37:14Z",
         "deepseek-ai/DeepSeek-V3.2-Exp": "2025-11-18T02:57:11Z",
-        "deepseek-ai/LPLB": "2025-11-19T07:20:35Z",
-        "deepseek-ai/TileKernels": "2026-04-23T10:19:21Z"
+        "deepseek-ai/LPLB": "2025-11-19T07:20:35Z"
       },
-      "last_changed_at": "2026-08-14T14:28:43.551339Z",
+      "last_changed_at": "2026-08-14T15:21:36.372417Z",
       "source_signature": "e247a4022cc1b9d1fcca44981d9eb5c7892416a57bcff15ec2fe2fc72cfd972e",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -396,8 +396,10 @@
       "last_checked_at": "2026-07-02T04:51:37.867265Z",
       "baseline_initialized": true,
       "repos": {
+        "MoonshotAI/PerceptionBench": "2026-08-03T08:33:26Z",
+        "MoonshotAI/kimi-code": "2026-08-14T15:08:39Z",
+        "MoonshotAI/Kimi-K2": "2026-01-21T05:33:12Z",
         "MoonshotAI/Kimi-K3": "2026-08-06T10:17:28Z",
-        "MoonshotAI/kimi-code": "2026-08-14T13:59:54Z",
         "MoonshotAI/kimi-agent-sdk": "2026-05-29T05:29:38Z",
         "MoonshotAI/MoonEP": "2026-08-13T09:30:40Z",
         "MoonshotAI/FlashKDA": "2026-07-30T07:14:39Z",
@@ -407,17 +409,15 @@
         "MoonshotAI/kimi-cli": "2026-08-03T07:59:07Z",
         "MoonshotAI/Kimi-k1.5": "2025-03-07T11:16:36Z",
         "MoonshotAI/Kimi-Dev": "2025-09-30T02:15:54Z",
-        "MoonshotAI/Kimi-K2": "2026-01-21T05:33:12Z",
         "MoonshotAI/Kimi-Vendor-Verifier": "2026-08-13T15:21:02Z",
         "MoonshotAI/MoBA": "2025-04-03T07:28:06Z",
         "MoonshotAI/minitriton": "2026-07-27T13:49:08Z",
         "MoonshotAI/moonpalace": "2024-12-30T21:17:27Z",
         "MoonshotAI/Kimina-Prover-Preview": "2025-07-10T13:04:40Z",
         "MoonshotAI/kosong": "2026-07-16T10:06:23Z",
-        "MoonshotAI/K2-Vendor-Verifier": "2026-02-14T05:28:46Z",
-        "MoonshotAI/checkpoint-engine": "2026-08-12T05:59:00Z"
+        "MoonshotAI/K2-Vendor-Verifier": "2026-02-14T05:28:46Z"
       },
-      "last_changed_at": "2026-08-14T14:28:43.551339Z",
+      "last_changed_at": "2026-08-14T15:21:36.372417Z",
       "source_signature": "c925f37596aaabb84376bf83142f08b0ce08447179a5d27a52c7956a40180daa",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -654,16 +654,16 @@
       "last_checked_at": "2026-07-02T04:51:58.871155Z",
       "baseline_initialized": true,
       "repos": {
-        "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
+        "QwenLM/qwen-code": "2026-08-14T15:17:04Z",
+        "QwenLM/Qwen-Agent": "2026-03-04T08:15:07Z",
         "QwenLM/Qwen-MM-Plugins": "2026-08-13T17:47:45Z",
+        "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
+        "QwenLM/Qwen": "2026-03-05T13:55:17Z",
+        "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
         "QwenLM/Qwen3.6": "2026-06-03T12:14:19Z",
         "QwenLM/Qwen-Image": "2026-02-10T07:37:37Z",
         "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
-        "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
-        "QwenLM/Qwen": "2026-03-05T13:55:17Z",
-        "QwenLM/qwen-code": "2026-08-14T14:28:27Z",
         "QwenLM/Qwen-Image-Layered": "2025-12-31T11:40:35Z",
-        "QwenLM/Qwen-Agent": "2026-03-04T08:15:07Z",
         "QwenLM/Qwen3-ASR": "2026-06-26T08:20:17Z",
         "QwenLM/qwen-code-docs": "2026-08-14T11:35:40Z",
         "QwenLM/Qwen-AgentWorld": "2026-07-20T11:52:07Z",
@@ -675,7 +675,7 @@
         "QwenLM/Qwen-Audio": "2024-07-05T09:17:49Z",
         "QwenLM/Qwen3-Omni": "2026-04-23T10:58:01Z"
       },
-      "last_changed_at": "2026-08-14T14:28:43.551339Z",
+      "last_changed_at": "2026-08-14T15:21:36.372417Z",
       "source_signature": "ddc0d8d3788b1fc4ba6779bc400a51934ce7ac0845fbfff67f906a6d77406e21",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -711,6 +711,7 @@
     },
     "qbitai-rss": {
       "seen_keys": [
+        "https://www.qbitai.com/2026/08/473153.html",
         "https://www.qbitai.com/2026/08/473149.html",
         "https://www.qbitai.com/2026/08/473038.html",
         "https://www.qbitai.com/2026/08/473144.html",
@@ -1009,12 +1010,11 @@
         "https://www.qbitai.com/2026/07/449850.html",
         "https://www.qbitai.com/2026/07/449842.html",
         "https://www.qbitai.com/2026/07/449836.html",
-        "https://www.qbitai.com/2026/07/449568.html",
-        "https://www.qbitai.com/2026/07/449566.html"
+        "https://www.qbitai.com/2026/07/449568.html"
       ],
       "last_checked_at": "2026-07-02T04:52:26.145879Z",
       "baseline_initialized": true,
-      "last_changed_at": "2026-08-14T12:05:39.145964Z",
+      "last_changed_at": "2026-08-14T15:23:21.672435Z",
       "source_signature": "34418d38d4b87c134f9922d6999ac3c069821ed0be2134f9ba6ae5e00e4b63a9",
       "baseline_reinitialized_at": "2026-07-02T10:23:28.426031Z"
     },
@@ -2095,11 +2095,12 @@
     },
     "aihot-selected": {
       "last_raw_count": 50,
-      "last_polled_at": "2026-08-14T14:28:43.551339Z",
+      "last_polled_at": "2026-08-14T15:21:36.372417Z",
       "source_signature": "54b0a2ce37b31eed7de5728f2ad3467d3fff1ec95a53a03f9ee11a9fa197fda4",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-09T08:44:50.779962Z",
       "seen_keys": [
+        "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground",
         "https://x.com/SpaceXAI/status/2088250109188608289",
         "https://mp.weixin.qq.com/s?__biz=Mzg4OTc2MzczNg%3D%3D&mid=2247496140&idx=1&sn=5239a5fbb115c58d2ae0056bb32789ff",
         "https://mp.weixin.qq.com/s?__biz=MzkyMzI3NzQ0Mg%3D%3D&mid=2247494084&idx=1&sn=a2e5cd9a534a4825feb3633ea1b6d492",
@@ -2398,10 +2399,9 @@
         "https://x.com/OpenAI/status/2082208694142730340",
         "https://x.com/ClementDelangue/status/2082201245813514613",
         "https://x.com/OpenAIDevs/status/2082201169443905798",
-        "https://x.com/AndrewYNg/status/2082199333920027009",
-        "https://techcrunch.com/2026/07/28/sam-altman-is-ready-to-decelerate"
+        "https://x.com/AndrewYNg/status/2082199333920027009"
       ],
-      "last_changed_at": "2026-08-14T13:24:51.128789Z"
+      "last_changed_at": "2026-08-14T15:21:38.978517Z"
     }
   }
 }
