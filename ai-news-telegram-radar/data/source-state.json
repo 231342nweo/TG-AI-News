@@ -249,9 +249,9 @@
       ],
       "last_checked_at": "2026-07-02T04:52:05.788649Z",
       "baseline_initialized": true,
-      "last_changed_at": "2026-08-15T18:20:52.098886Z",
-      "fingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "last_excerpt": "",
+      "last_changed_at": "2026-08-15T21:17:13.118192Z",
+      "fingerprint": "dbfe380e2ca423a09c5de9ac287c4f9b817faef253f9eac8d351b6ef7c76d9bc",
+      "last_excerpt": "文档中心 登录 注册 火山方舟 文档指南 订阅 [Agent/Coding Plan] API参考 资源 火山方舟 火山方舟 资源 请输入 产品公告 产品更新公告 模型发布公告 模型下线公告 历史公告 2026 公告 26年春节期间访问方式调整公告 2025 公告 模型发布公告 2025 产品更新公告 2025 模型下线公告 2025 高代码 SDK Arkitect 正式发布 2024 公告 模型发布公告 2024 产品更新公告 2024 模型下线公告 2024 火山方舟 SDK V1/V2下线公告及迁移指引 模型插件联网基础版、联网plus版、联网pro版下线公告 热门活动 Seedance 2.0-2.5 模型资源包使用规则 Seedance 2.5 与 Seedance 2.0 系列模型开通、使用与退订说明 Seedance 模型限时折扣活动规则 协作奖励计划 免费推理额度 实践教程 Managed Agent [基础] 构建连续对话的工单分诊助手 [基础] 工单分诊 Agent 系统提示词版本管理 [进阶] 构建可持续迭代的 AI 研究交付工作台 [进阶] 构建从 CSV 到交互式报告的数据分析 Agent [进阶] 使用 Vaults 让开发 Agent 以用户身份提交 GitHub PR [进阶] 使用 Memory Store 构建有记忆的购物助手 [进阶] 用多智能体团队生成定制销售提案 [进阶] 使用 arkcli 构建集成 Vault 与 Memory 的投研 Agent Ark CLI 使用指南 方舟文档 MCP 快速入门(新手版) Seedance 1.5 pro 提示词指南 Seedance 1.0 系列提示词指南 Seedream 4.0-5.0 提示词指南 Seedream 4.0 助力 Seedance 生视频最佳实践 RAG（检索增强）解决方案 数据回流操作流程 强化学习最佳实践 如何设置控制台登录保持时间 角色扮演场景提示词指南 环境变量配置指南 突发流量处理最佳实践 火山方舟分账最佳实践 在应用中使用 RTC 实现 AI 实时对话 通过 TOS 内网预签名 URL 传入文件 购买指南 模型服务计费说明 TPM 保障包计费说明 联网内容插件产品计费 豆包助手计费 知识库计费 PromptPilot 计费 Seedance 高级创作权益包购买说明 方舟官方产物验证功能说明 税率与发票 权限管理 使用 IAM 管理权限 管理 API Key HYOK 最佳实践 平台功能 平台能力速览 模型广场 应用广场 体验中心 体验中心概览 语言模型 虚拟人像库 录入真人形象素材 使用版权生视频模板生成 IP 视频 图片生成模型 开发者模式 MCP 简介 Canvas 简介 在线推理 管理推理接入点 为 AI 生成产物添加隐式水印 安心体验模式细则说明 开通管理 安全管理 控制台-推理安全审计 控制台-精调安全审计 控制台-推理接入点安全监控总览 用量统计 项目配置 网络配置 Token 计算器 安全管理 安全管理总览 内容安全护栏 火山方舟大模型服务安全白皮书 火山方舟互信计算架构白皮书 推理会话数据应用层加密方案 精调安全防护能力介绍 常见问题 常见问题 相关协议 火山方舟大模型服务平台专用条款 火山方舟体验中心服务规则和免责声明 Agent Plan / Coding Plan 火山引擎数据授权使用协议 ArkClaw 服务规则 Harness 能力说明和产品专用条款 模型服务协议 豆包模型服务协议 火山引擎豆包大模型商标使用规范 月之暗面模型服务协议 智谱AI模型服务协议 PromptPilot 服务专用条款和数据授权使用协议 影眸模型服务协议 数美模型服务协议 开源模型许可证 模型备案 客户应用上架指南-算法备案资质申请流程 大模型备案说明(含算法备案及人工智能备案) 火山方舟模型备案信息公示 MCP 云产品一键授权开通相关协议 知识库产品服务和专用条款 豆包助手专区服务专用条款和数据授权使用协议 方舟售后支持范围 版权和人像素材使用规则 文档首页 火山方舟 产品公告 产品更新公告 复制全文 下载 pdf 我的收藏 产品公告 产品更新公告 复制全文 下载 pdf 我的收藏 产品更新公告 文档反馈 问问助手 最近更新时间： 2026.08.05 20:45:46 这个页面对您有帮助吗？ 有用 有用 无用 无用",
       "baseline_invalid": true,
       "source_signature": "bf1f63ca68ab1a7f10b219aa7fbc07472dde5da63456aa15a90f6ecaf31f0156",
       "baseline_reinitialized_at": "2026-07-02T10:22:21.295328Z"
@@ -426,28 +426,28 @@
       "last_checked_at": "2026-07-02T04:51:40.485322Z",
       "baseline_initialized": true,
       "repos": {
-        "zai-org/CogView": "2023-09-25T04:07:19Z",
-        "zai-org/GLM-OCR": "2026-04-21T08:52:11Z",
+        "zai-org/GLM-130B": "2023-07-25T09:01:49Z",
+        "zai-org/CogVideo": "2025-11-04T11:19:04Z",
+        "zai-org/SCAIL-2": "2026-08-14T04:46:01Z",
         "zai-org/Open-AutoGLM": "2026-03-06T08:38:39Z",
-        "zai-org/GLM-TTS": "2026-04-10T08:50:23Z",
-        "zai-org/GLM-skills": "2026-04-15T12:28:08Z",
         "zai-org/GLM-5": "2026-08-11T06:36:36Z",
+        "zai-org/GLM-skills": "2026-04-15T12:28:08Z",
         "zai-org/Synapse": "2026-07-31T07:25:27Z",
         "zai-org/ChatGLM-6B": "2024-06-27T04:05:25Z",
+        "zai-org/CogView": "2023-09-25T04:07:19Z",
+        "zai-org/GLM-OCR": "2026-04-21T08:52:11Z",
+        "zai-org/GLM-TTS": "2026-04-10T08:50:23Z",
         "zai-org/GLM-4": "2026-08-05T07:08:46Z",
-        "zai-org/SCAIL-2": "2026-08-14T04:46:01Z",
         "zai-org/ChatGLM2-6B": "2024-06-27T04:05:08Z",
         "zai-org/Kaleido": "2026-03-02T11:54:40Z",
         "zai-org/GLM-4.5": "2026-02-01T08:28:10Z",
         "zai-org/CodeGeeX": "2024-08-13T05:59:38Z",
-        "zai-org/CogVideo": "2025-11-04T11:19:04Z",
         "zai-org/ChatGLM3": "2025-01-13T06:55:26Z",
         "zai-org/VisionReward": "2025-03-26T10:07:04Z",
         "zai-org/CodeGeeX2": "2024-07-10T12:34:55Z",
-        "zai-org/ImageReward": "2025-10-29T13:40:51Z",
-        "zai-org/GLM-4-Voice": "2024-12-05T07:10:01Z"
+        "zai-org/ImageReward": "2025-10-29T13:40:51Z"
       },
-      "last_changed_at": "2026-08-15T13:05:39.233024Z",
+      "last_changed_at": "2026-08-15T21:17:13.118192Z",
       "source_signature": "0f9d07d7983b4898dc433a8d045a96469f65dff73642f9fe1fbf73cf3299210c",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -654,14 +654,14 @@
       "last_checked_at": "2026-07-02T04:51:58.871155Z",
       "baseline_initialized": true,
       "repos": {
+        "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
         "QwenLM/Qwen3-Coder": "2026-03-24T08:22:10Z",
-        "QwenLM/qwen-code-docs": "2026-08-15T20:56:35Z",
+        "QwenLM/qwen-code-docs": "2026-08-15T21:02:29Z",
         "QwenLM/Qwen-MM-Plugins": "2026-08-15T11:44:52Z",
-        "QwenLM/qwen-code": "2026-08-15T20:41:12Z",
+        "QwenLM/qwen-code": "2026-08-15T21:12:50Z",
         "QwenLM/Qwen3.6": "2026-06-03T12:14:19Z",
         "QwenLM/open-computer-use": "2026-06-10T16:38:07Z",
         "QwenLM/Qwen3-ASR": "2026-06-26T08:20:17Z",
-        "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
         "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
         "QwenLM/Qwen-Image": "2026-02-10T07:37:37Z",
         "QwenLM/Qwen-RobotManip": "2026-06-29T22:29:54Z",
@@ -675,7 +675,7 @@
         "QwenLM/Qwen-VLA": "2026-05-29T13:49:38Z",
         "QwenLM/Qwen-AgentWorld": "2026-07-20T11:52:07Z"
       },
-      "last_changed_at": "2026-08-15T20:57:52.362646Z",
+      "last_changed_at": "2026-08-15T21:17:13.118192Z",
       "source_signature": "ddc0d8d3788b1fc4ba6779bc400a51934ce7ac0845fbfff67f906a6d77406e21",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -1484,10 +1484,10 @@
         "https://www.tc260.org.cn/portal/article/1/c5bff06b0a544674b12b89271bf8df02",
         "https://www.tc260.org.cn/portal/article/1/4541a22bb6f542b5ae7c37ffe0d914aa",
         "https://www.tc260.org.cn/portal/article/2/13c3282d6feb4b97930ded6faf656b2b",
-        "https://www.tc260.org.cn/portal/article/2/f81cf1f5c0504a1b92239f042d04d0bb",
         "https://www.tc260.org.cn/portal/article/2/a1de240fa2a7452e93df1ca6c3f1cf45",
-        "https://www.tc260.org.cn/portal/article/2/8653731b442a460a910e6100d4eee9ea",
+        "https://www.tc260.org.cn/portal/article/2/f81cf1f5c0504a1b92239f042d04d0bb",
         "https://www.tc260.org.cn/portal/article/2/d7b8b931bce4444cae14a48c0f0dd8b4",
+        "https://www.tc260.org.cn/portal/article/2/8653731b442a460a910e6100d4eee9ea",
         "https://www.tc260.org.cn/portal/article/2/bb40941bb2784c749a43ec4762cdb988",
         "https://www.tc260.org.cn/portal/article/2/4456ae01b56e4792bb98d82d452e9cba",
         "https://www.tc260.org.cn/portal/article/2/807a1aa20047477086ba2b44b726a5f7",
@@ -1565,7 +1565,7 @@
       ],
       "last_checked_at": "2026-07-02T04:52:25.829528Z",
       "baseline_initialized": true,
-      "last_changed_at": "2026-08-15T21:01:45.787771Z",
+      "last_changed_at": "2026-08-15T21:21:42.090667Z",
       "source_signature": "ac7adf7536607ad1dc8d9ca06c0f10f499a52b1893dcc2d8ec03dd7b6240b921",
       "baseline_reinitialized_at": "2026-07-02T10:23:25.737100Z"
     },
@@ -2094,17 +2094,17 @@
       "last_changed_at": "2026-07-21T20:06:00.608583Z"
     },
     "aihot-selected": {
-      "last_raw_count": 49,
-      "last_polled_at": "2026-08-15T20:57:52.362646Z",
+      "last_raw_count": 50,
+      "last_polled_at": "2026-08-15T21:17:13.118192Z",
       "source_signature": "54b0a2ce37b31eed7de5728f2ad3467d3fff1ec95a53a03f9ee11a9fa197fda4",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-09T08:44:50.779962Z",
       "seen_keys": [
-        "https://cursor.com/blog/joining-spacex",
         "https://the-decoder.com/ai-generated-books-are-flooding-amazon-and-tanking-sales-for-human-authors",
         "https://x.com/GeminiApp/status/2088326407730692538",
         "https://x.com/Alibaba_Qwen/status/2088280182356611304",
         "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground",
+        "https://cursor.com/blog/joining-spacex",
         "https://mp.weixin.qq.com/s?__biz=Mzg4OTc2MzczNg%3D%3D&mid=2247496140&idx=1&sn=5239a5fbb115c58d2ae0056bb32789ff",
         "https://mp.weixin.qq.com/s?__biz=MzkyMzI3NzQ0Mg%3D%3D&mid=2247494084&idx=1&sn=a2e5cd9a534a4825feb3633ea1b6d492",
         "https://x.com/SiliconFlowAI/status/2088127458558271885",
@@ -2401,7 +2401,7 @@
         "https://www.theverge.com/ai-artificial-intelligence/973670/anthropic-claude-hacked-organizations-during-cyber-tests",
         "https://x.com/thsottiaux/status/2082241164850364555"
       ],
-      "last_changed_at": "2026-08-15T20:41:47.606824Z"
+      "last_changed_at": "2026-08-15T21:17:24.021781Z"
     }
   }
 }
