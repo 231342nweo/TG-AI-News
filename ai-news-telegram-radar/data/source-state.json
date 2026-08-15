@@ -621,6 +621,8 @@
       "last_checked_at": "2026-07-02T04:51:56.844085Z",
       "baseline_initialized": true,
       "repos": {
+        "InternLM/WildClawBench": "2026-08-13T15:12:33Z",
+        "InternLM/InternLM-techreport": "2023-06-07T04:52:53Z",
         "InternLM/lagent": "2026-08-03T07:18:16Z",
         "InternLM/agentlego": "2024-09-13T08:00:19Z",
         "InternLM/archspace": "2026-08-13T06:49:54Z",
@@ -631,7 +633,6 @@
         "InternLM/InternLM-XComposer": "2025-05-26T15:59:34Z",
         "InternLM/InternLM": "2025-10-30T00:35:43Z",
         "InternLM/MindSearch": "2025-07-04T10:06:45Z",
-        "InternLM/WildClawBench": "2026-08-13T15:12:33Z",
         "InternLM/OVO-S-Bench": "2026-06-24T12:26:42Z",
         "InternLM/InternLM-Law": "2024-05-14T07:44:09Z",
         "InternLM/AcmeTrace": "2024-03-12T11:49:56Z",
@@ -639,10 +640,9 @@
         "InternLM/InternBootcamp": "2026-08-12T13:13:22Z",
         "InternLM/SIM-CoT": "2026-04-13T14:19:59Z",
         "InternLM/Skill-as-Pseudocode": "2026-05-28T16:11:56Z",
-        "InternLM/EndoCoT": "2026-08-11T12:58:37Z",
-        "InternLM/ARC-VL": "2025-11-26T12:14:10Z"
+        "InternLM/EndoCoT": "2026-08-11T12:58:37Z"
       },
-      "last_changed_at": "2026-08-15T02:40:32.465171Z",
+      "last_changed_at": "2026-08-15T03:21:30.795690Z",
       "source_signature": "a7a2f73a91108336ba1fe2d4fb4d5921862eb329f648d490a4d7903663f49f70",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -654,12 +654,12 @@
       "last_checked_at": "2026-07-02T04:51:58.871155Z",
       "baseline_initialized": true,
       "repos": {
-        "QwenLM/Qwen": "2026-03-05T13:55:17Z",
         "QwenLM/Qwen-MM-Plugins": "2026-08-13T17:47:45Z",
-        "QwenLM/qwen-code": "2026-08-15T02:27:10Z",
+        "QwenLM/Qwen3-ASR": "2026-06-26T08:20:17Z",
+        "QwenLM/Qwen": "2026-03-05T13:55:17Z",
+        "QwenLM/qwen-code": "2026-08-15T03:12:23Z",
         "QwenLM/Qwen3-Coder": "2026-03-24T08:22:10Z",
         "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
-        "QwenLM/Qwen3-ASR": "2026-06-26T08:20:17Z",
         "QwenLM/Qwen-Image": "2026-02-10T07:37:37Z",
         "QwenLM/Qwen3.6": "2026-06-03T12:14:19Z",
         "QwenLM/Qwen3-ASR-Toolkit": "2026-02-05T05:35:03Z",
@@ -675,7 +675,7 @@
         "QwenLM/Qwen2.5-Omni": "2025-06-12T11:03:07Z",
         "QwenLM/Qwen-RobotNav": "2026-06-30T03:01:19Z"
       },
-      "last_changed_at": "2026-08-15T02:40:32.465171Z",
+      "last_changed_at": "2026-08-15T03:21:30.795690Z",
       "source_signature": "ddc0d8d3788b1fc4ba6779bc400a51934ce7ac0845fbfff67f906a6d77406e21",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -2095,7 +2095,7 @@
     },
     "aihot-selected": {
       "last_raw_count": 50,
-      "last_polled_at": "2026-08-15T02:40:32.465171Z",
+      "last_polled_at": "2026-08-15T03:21:30.795690Z",
       "source_signature": "54b0a2ce37b31eed7de5728f2ad3467d3fff1ec95a53a03f9ee11a9fa197fda4",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-09T08:44:50.779962Z",
