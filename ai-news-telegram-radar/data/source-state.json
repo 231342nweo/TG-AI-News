@@ -367,8 +367,9 @@
       "baseline_initialized": true,
       "repos": {
         "deepseek-ai/deepseek-harness": "2026-08-13T13:00:21Z",
-        "deepseek-ai/DeepSeek-R1": "2025-06-27T08:35:54Z",
+        "deepseek-ai/3FS": "2026-05-07T09:31:54Z",
         "deepseek-ai/DeepSeek-V3": "2025-08-28T03:24:37Z",
+        "deepseek-ai/DeepSeek-R1": "2025-06-27T08:35:54Z",
         "deepseek-ai/awesome-deepseek-agent": "2026-06-17T01:24:37Z",
         "deepseek-ai/open-infra-index": "2025-05-15T02:00:43Z",
         "deepseek-ai/DeepSeek-Coder": "2025-11-11T06:44:56Z",
@@ -384,10 +385,9 @@
         "deepseek-ai/DeepEP": "2026-08-05T06:27:08Z",
         "deepseek-ai/DeepSpec": "2026-07-09T04:37:14Z",
         "deepseek-ai/Janus": "2025-02-01T07:58:29Z",
-        "deepseek-ai/FlashMLA": "2026-07-28T06:18:26Z",
-        "deepseek-ai/DeepSeek-VL": "2024-04-24T05:01:06Z"
+        "deepseek-ai/FlashMLA": "2026-07-28T06:18:26Z"
       },
-      "last_changed_at": "2026-08-16T11:30:42.341650Z",
+      "last_changed_at": "2026-08-16T11:46:55.912216Z",
       "source_signature": "e247a4022cc1b9d1fcca44981d9eb5c7892416a57bcff15ec2fe2fc72cfd972e",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -396,13 +396,13 @@
       "last_checked_at": "2026-07-02T04:51:37.867265Z",
       "baseline_initialized": true,
       "repos": {
-        "MoonshotAI/kimi-code": "2026-08-16T10:40:20Z",
-        "MoonshotAI/kimi-cli": "2026-08-03T07:59:07Z",
+        "MoonshotAI/kimi-code": "2026-08-16T11:33:53Z",
+        "MoonshotAI/Kimi-K3": "2026-08-06T10:17:28Z",
         "MoonshotAI/Kimi-K2": "2026-01-21T05:33:12Z",
+        "MoonshotAI/kimi-cli": "2026-08-03T07:59:07Z",
         "MoonshotAI/Kimi-k1.5": "2025-03-07T11:16:36Z",
         "MoonshotAI/kimi-agent-sdk": "2026-05-29T05:29:38Z",
         "MoonshotAI/FlashKDA": "2026-07-30T07:14:39Z",
-        "MoonshotAI/Kimi-K3": "2026-08-06T10:17:28Z",
         "MoonshotAI/MoonEP": "2026-08-13T09:30:40Z",
         "MoonshotAI/K2-Vendor-Verifier": "2026-02-14T05:28:46Z",
         "MoonshotAI/Kimi-K2.5": "2026-08-06T10:42:43Z",
@@ -417,7 +417,7 @@
         "MoonshotAI/Kimi-Vendor-Verifier": "2026-08-13T15:21:02Z",
         "MoonshotAI/minitriton": "2026-07-27T13:49:08Z"
       },
-      "last_changed_at": "2026-08-16T10:52:59.808234Z",
+      "last_changed_at": "2026-08-16T11:46:55.912216Z",
       "source_signature": "c925f37596aaabb84376bf83142f08b0ce08447179a5d27a52c7956a40180daa",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -621,9 +621,10 @@
       "last_checked_at": "2026-07-02T04:51:56.844085Z",
       "baseline_initialized": true,
       "repos": {
-        "InternLM/WildClawBench": "2026-08-15T17:56:31Z",
-        "InternLM/lmdeploy": "2026-08-14T11:04:29Z",
         "InternLM/MindSearch": "2025-07-04T10:06:45Z",
+        "InternLM/InternLM": "2025-10-30T00:35:43Z",
+        "InternLM/lmdeploy": "2026-08-14T11:04:29Z",
+        "InternLM/WildClawBench": "2026-08-16T11:39:30Z",
         "InternLM/InternLM-techreport": "2023-06-07T04:52:53Z",
         "InternLM/lagent": "2026-08-03T07:18:16Z",
         "InternLM/agentlego": "2024-09-13T08:00:19Z",
@@ -632,7 +633,6 @@
         "InternLM/xtuner": "2026-08-14T14:08:41Z",
         "InternLM/Intern-S1": "2026-07-17T10:25:15Z",
         "InternLM/InternLM-XComposer": "2025-05-26T15:59:34Z",
-        "InternLM/InternLM": "2025-10-30T00:35:43Z",
         "InternLM/OVO-S-Bench": "2026-06-24T12:26:42Z",
         "InternLM/InternLM-Law": "2024-05-14T07:44:09Z",
         "InternLM/AcmeTrace": "2024-03-12T11:49:56Z",
@@ -642,7 +642,7 @@
         "InternLM/Skill-as-Pseudocode": "2026-05-28T16:11:56Z",
         "InternLM/EndoCoT": "2026-08-11T12:58:37Z"
       },
-      "last_changed_at": "2026-08-15T17:57:23.109086Z",
+      "last_changed_at": "2026-08-16T11:46:55.912216Z",
       "source_signature": "a7a2f73a91108336ba1fe2d4fb4d5921862eb329f648d490a4d7903663f49f70",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -654,8 +654,8 @@
       "last_checked_at": "2026-07-02T04:51:58.871155Z",
       "baseline_initialized": true,
       "repos": {
+        "QwenLM/qwen-code": "2026-08-16T11:38:18Z",
         "QwenLM/Qwen3-VL-Embedding": "2026-06-23T10:39:17Z",
-        "QwenLM/qwen-code": "2026-08-16T11:29:43Z",
         "QwenLM/Qwen": "2026-03-05T13:55:17Z",
         "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
         "QwenLM/Qwen-Agent": "2026-03-04T08:15:07Z",
@@ -675,7 +675,7 @@
         "QwenLM/Qwen2.5-Math": "2025-01-11T17:30:43Z",
         "QwenLM/Qwen2.5-Omni": "2025-06-12T11:03:07Z"
       },
-      "last_changed_at": "2026-08-16T11:30:42.341650Z",
+      "last_changed_at": "2026-08-16T11:46:55.912216Z",
       "source_signature": "ddc0d8d3788b1fc4ba6779bc400a51934ce7ac0845fbfff67f906a6d77406e21",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -711,6 +711,8 @@
     },
     "qbitai-rss": {
       "seen_keys": [
+        "https://www.qbitai.com/2026/08/474140.html",
+        "https://www.qbitai.com/2026/08/474064.html",
         "https://www.qbitai.com/2026/08/473972.html",
         "https://www.qbitai.com/2026/08/473947.html",
         "https://www.qbitai.com/2026/08/473876.html",
@@ -1008,13 +1010,11 @@
         "https://www.qbitai.com/2026/07/450831.html",
         "https://www.qbitai.com/2026/07/450709.html",
         "https://www.qbitai.com/2026/07/450130.html",
-        "https://www.qbitai.com/2026/07/450657.html",
-        "https://www.qbitai.com/2026/07/450652.html",
-        "https://www.qbitai.com/2026/07/450385.html"
+        "https://www.qbitai.com/2026/07/450657.html"
       ],
       "last_checked_at": "2026-07-02T04:52:26.145879Z",
       "baseline_initialized": true,
-      "last_changed_at": "2026-08-16T07:19:31.853544Z",
+      "last_changed_at": "2026-08-16T11:48:31.452395Z",
       "source_signature": "34418d38d4b87c134f9922d6999ac3c069821ed0be2134f9ba6ae5e00e4b63a9",
       "baseline_reinitialized_at": "2026-07-02T10:23:28.426031Z"
     },
@@ -2095,7 +2095,7 @@
     },
     "aihot-selected": {
       "last_raw_count": 48,
-      "last_polled_at": "2026-08-16T11:30:42.341650Z",
+      "last_polled_at": "2026-08-16T11:46:55.912216Z",
       "source_signature": "54b0a2ce37b31eed7de5728f2ad3467d3fff1ec95a53a03f9ee11a9fa197fda4",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-09T08:44:50.779962Z",
