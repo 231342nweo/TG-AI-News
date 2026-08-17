@@ -205,12 +205,12 @@
       "baseline_reinitialized_at": "2026-07-02T10:22:21.295328Z"
     },
     "volcengine-ark-models": {
-      "fingerprint": "29c84c86035eeff95a2316d5969e369b9b058ed7faa263d1cf4cb8ff8ceb534a",
+      "fingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "last_checked_at": "2026-07-02T04:51:33.147542Z",
-      "last_excerpt": "文档中心 登录 注册 火山方舟 文档指南 订阅 [Agent/Coding Plan] API参考 资源 火山方舟 火山方舟 文档指南 请输入 入门 产品简介 快速入门 模型列表 模型价格 最新模型：Seed-Evolving Agent 场景模型调用的正确姿势 调用 文本生成 多模态理解 图片理解 视频理解 文档理解 音频理解 视频生成 Doubao Seedance 2.5 教程 Doubao Seedance 2.5 提示词指南 Doubao Seedance 2.0 系列教程 Doubao Seedance 2.0 系列提示词指南 视频生成教程 Doubao Seedance 便利创作含肖像视频 图片生成 Doubao Seedream 5.0 pro 教程 Doubao Seedream 5.0 pro 实现交互编辑指南 图片生成教程 领域模型 3D 生成 向量化 工具调用 工具概述 豆包助手 Web Search（联网内容插件） Image Process（图像处理） 私域知识库搜索 Knowledge Search 云部署 MCP / Remote MCP Function Calling（函数调用） 进阶使用 深度思考 上下文管理 流式输出 续写模式 上下文缓存 原理及选型 上下文缓存(Context API) 文件输入(File API) GUI Agent 能力 视觉定位 Grounding 提示词工程 结构化输出(beta) 接入三方工具 使用 Responses API 迁移至 Responses API 文本生成 深度思考 多模态理解 工具调用 上下文缓存 结构化输出(beta) 上下文编辑 推理 推理方式概述 在线推理（常规） 在线推理（低延迟） 在线推理（TPM 保障包） 在线推理（模型单元） 模型单元概述 创建模型单元 管理模型单元 批量推理 高级能力 智能模型路由 使用 MLP 推理服务 使用自定义模型进行推理 训练 模型精调 模型精调概述 有监督微调最佳实践 直接偏好优化最佳实践 强化学习最佳实践 精调 SDK 使用指南 精调数据集格式 格式总览 语言及多模态理解模型精调数据格式 图片生成模型精调数据格式 视频生成 管理自定义模型 模型仓库 模型共享 模型评测 创建模型评测任务 查看并管理模型评测任务 评测数据集格式说明 人工评测 人工评测作业 数据集 数据集介绍 共享数据集 Managed Agents 快速上手 概述 快速入门（代码） 快速入门（控制台） 定义 Agent Agent Skills MCP Tools 工具权限策略 配置 Agent 环境 配置云环境 云沙箱参考 委派任务给 Agent 启动 Session 管理 Session Session 事件流 使用 Vaults 认证 管理 Agent 上下文 上传与挂载文件 持久化记忆 高级能力 Multi Agent 应用 应用实验室 零代码应用简介 零代码应用操作指南 低代码应用简介 高代码应用简介 高代码应用创建部署指南 veFaaS部署指南 服务组件库 网页解析插件功能说明 联网内容插件功能说明 知识库插件功能说明 应用实验室 知识库 操作指南 文档知识问答核心流程 音视频知识问答核心流程 知识库管理 创建知识库 编辑知识库 查看知识库列表 查看知识库详情 删除知识库 知识检索 知识问答 续订知识库 退订知识库 配置实验版本 文档管理 导入文档 标签配置 删除文档 切片管理 新增切片 编辑切片 查阅切片 删除切片 知识服务管理 创建知识服务 知识服务管理 知识库配额说明 知识库分账管理 API参考 签名鉴权与调用示例 API 列表 最佳实践 MCP Server 知识型视频智能问答解决方案 视频高光提取及检索解决方案 更多最佳实践 知识库免费体验权益 SDK参考 SDK 升级与使用说明 PromptPilot PromptPilot 概述 PromptPilot 订阅管理 Prompt 生成 Prompt 调优 Prompt 批量 PromptPilot 管理 VideoPilot 功能介绍 视觉理解 Solution 评分DSL AgentPilot SDK 参考 AgentPilot OpenAPI 使用指南 VideoPilot API 文档首页 火山方舟 入门 模型列表 复制全文 下载 pdf 我的收藏 入门 模型列表 复制全文 下载 pdf 我的收藏 模型列表 文档反馈 问问助手 最近更新时间： 2026.08.17 10:25:24 这个页面对您有帮助吗？ 有用 有用 无用 无用",
+      "last_excerpt": "",
       "baseline_initialized": true,
       "baseline_invalid": true,
-      "last_changed_at": "2026-08-17T04:55:30.717129Z",
+      "last_changed_at": "2026-08-17T05:26:19.338170Z",
       "source_signature": "ab5ee375ff670169281a4aefbc9772546566386e665c24a65ec209061d7dfada",
       "baseline_reinitialized_at": "2026-07-02T10:22:21.295328Z"
     },
@@ -397,9 +397,9 @@
       "baseline_initialized": true,
       "repos": {
         "MoonshotAI/kimi-cli": "2026-08-03T07:59:07Z",
-        "MoonshotAI/kimi-code": "2026-08-17T04:44:30Z",
-        "MoonshotAI/MoonEP": "2026-08-13T09:30:40Z",
         "MoonshotAI/Kimi-K3": "2026-08-06T10:17:28Z",
+        "MoonshotAI/kimi-code": "2026-08-17T05:22:18Z",
+        "MoonshotAI/MoonEP": "2026-08-13T09:30:40Z",
         "MoonshotAI/checkpoint-engine": "2026-08-12T05:59:00Z",
         "MoonshotAI/Kimi-Audio": "2025-06-21T15:30:28Z",
         "MoonshotAI/kimi-agent-sdk": "2026-05-29T05:29:38Z",
@@ -417,7 +417,7 @@
         "MoonshotAI/Moonlight": "2025-08-03T06:31:18Z",
         "MoonshotAI/awesome-moonshot-api": "2024-05-22T17:15:44Z"
       },
-      "last_changed_at": "2026-08-17T04:55:30.717129Z",
+      "last_changed_at": "2026-08-17T05:26:19.338170Z",
       "source_signature": "c925f37596aaabb84376bf83142f08b0ce08447179a5d27a52c7956a40180daa",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -592,13 +592,14 @@
       "baseline_initialized": true,
       "repos": {
         "OpenBMB/VoxCPM": "2026-08-12T14:14:37Z",
+        "OpenBMB/MathForm": "2026-08-17T03:21:28Z",
         "OpenBMB/ForgeStencil": "2026-08-04T07:34:41Z",
         "OpenBMB/StaffDeck": "2026-08-17T03:33:27Z",
         "OpenBMB/MiniCPM": "2026-07-27T06:50:07Z",
         "OpenBMB/MiniCPM-V": "2026-08-12T14:16:57Z",
         "OpenBMB/XAgent": "2026-07-31T03:30:54Z",
         "OpenBMB/ChatDev": "2026-07-24T08:01:27Z",
-        "OpenBMB/PilotDeck": "2026-08-17T02:54:45Z",
+        "OpenBMB/PilotDeck": "2026-08-17T05:23:20Z",
         "OpenBMB/MiniCPM-V-Apps": "2026-08-11T05:38:19Z",
         "OpenBMB/ArcLight": "2026-05-30T02:59:35Z",
         "OpenBMB/MiniCPM-Robot": "2026-08-05T07:51:51Z",
@@ -609,10 +610,9 @@
         "OpenBMB/MiniCPM-o-Demo": "2026-08-14T07:26:44Z",
         "OpenBMB/AgentVerse": "2024-09-09T05:47:44Z",
         "OpenBMB/EdgeClaw": "2026-04-15T09:25:35Z",
-        "OpenBMB/InfiniteBench": "2024-09-25T20:06:30Z",
-        "OpenBMB/BMTools": "2023-12-05T05:25:27Z"
+        "OpenBMB/InfiniteBench": "2024-09-25T20:06:30Z"
       },
-      "last_changed_at": "2026-08-17T04:11:01.000490Z",
+      "last_changed_at": "2026-08-17T05:26:19.338170Z",
       "source_signature": "3dd1c4ab8bc380dc66624329d310bc65fe6deafde7a370da1191ca03b32c0764",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -621,6 +621,7 @@
       "last_checked_at": "2026-07-02T04:51:56.844085Z",
       "baseline_initialized": true,
       "repos": {
+        "InternLM/JanusCoder": "2026-05-09T04:22:10Z",
         "InternLM/lmdeploy": "2026-08-14T11:04:29Z",
         "InternLM/ARM-Thinker": "2026-02-13T09:00:05Z",
         "InternLM/WildClawBench": "2026-08-16T12:00:00Z",
@@ -639,10 +640,9 @@
         "InternLM/AcmeTrace": "2024-03-12T11:49:56Z",
         "InternLM/Tutorial": "2026-04-22T08:39:08Z",
         "InternLM/InternBootcamp": "2026-08-12T13:13:22Z",
-        "InternLM/SIM-CoT": "2026-04-13T14:19:59Z",
-        "InternLM/Skill-as-Pseudocode": "2026-05-28T16:11:56Z"
+        "InternLM/SIM-CoT": "2026-04-13T14:19:59Z"
       },
-      "last_changed_at": "2026-08-17T03:28:35.119131Z",
+      "last_changed_at": "2026-08-17T05:26:19.338170Z",
       "source_signature": "a7a2f73a91108336ba1fe2d4fb4d5921862eb329f648d490a4d7903663f49f70",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -654,9 +654,11 @@
       "last_checked_at": "2026-07-02T04:51:58.871155Z",
       "baseline_initialized": true,
       "repos": {
-        "QwenLM/qwen-code": "2026-08-17T04:49:08Z",
         "QwenLM/Qwen-MM-Plugins": "2026-08-16T16:57:05Z",
-        "QwenLM/Qwen3.6": "2026-06-03T12:14:19Z",
+        "QwenLM/qwen-code": "2026-08-17T05:24:11Z",
+        "QwenLM/Qwen3.8": "2026-08-17T05:17:40Z",
+        "QwenLM/Qwen-Agent": "2026-03-04T08:15:07Z",
+        "QwenLM/Qwen3-Coder": "2026-03-24T08:22:10Z",
         "QwenLM/Qwen": "2026-03-05T13:55:17Z",
         "QwenLM/Qwen-Image": "2026-02-10T07:37:37Z",
         "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
@@ -664,18 +666,16 @@
         "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
         "QwenLM/vllm": "2025-01-26T13:38:33Z",
         "QwenLM/WebWorld": "2026-02-25T06:29:03Z",
-        "QwenLM/Qwen-Agent": "2026-03-04T08:15:07Z",
         "QwenLM/qwen-code-action": "2026-08-03T07:53:08Z",
         "QwenLM/Qwen-Image-Layered": "2025-12-31T11:40:35Z",
         "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
         "QwenLM/qwen-code-docs": "2026-08-16T21:49:21Z",
         "QwenLM/open-computer-use": "2026-06-10T16:38:07Z",
-        "QwenLM/Qwen3-Coder": "2026-03-24T08:22:10Z",
         "QwenLM/AutoIF": "2024-07-25T05:43:27Z",
         "QwenLM/Qwen-RobotManip": "2026-06-29T22:29:54Z",
         "QwenLM/Qwen3-ASR": "2026-06-26T08:20:17Z"
       },
-      "last_changed_at": "2026-08-17T04:55:30.717129Z",
+      "last_changed_at": "2026-08-17T05:26:19.338170Z",
       "source_signature": "ddc0d8d3788b1fc4ba6779bc400a51934ce7ac0845fbfff67f906a6d77406e21",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -1244,6 +1244,7 @@
     },
     "openbmb-huggingface": {
       "models": {
+        "openbmb/MathForm-8B": "2026-08-17T05:18:18.000Z",
         "openbmb/MiniCPM-V-4_5-int4": "2026-08-13T07:55:56.000Z",
         "openbmb/MiniCPM-o-4_5-GPTQ": "2026-08-03T10:15:28.000Z",
         "openbmb/MiniCPM-o-4_5-gguf": "2026-08-03T10:15:12.000Z",
@@ -1262,14 +1263,13 @@
         "openbmb/MiniCPM-V-4-gguf": "2026-06-02T08:20:11.000Z",
         "openbmb/MiniCPM-V-4-AWQ": "2026-06-02T08:20:08.000Z",
         "openbmb/MiniCPM-V-4_5-gguf": "2026-06-02T08:13:14.000Z",
-        "openbmb/MiniCPM-V-4_5-AWQ": "2026-06-02T08:13:11.000Z",
-        "openbmb/MiniCPM-V-4_5-GPTQ": "2026-06-02T08:12:15.000Z"
+        "openbmb/MiniCPM-V-4_5-AWQ": "2026-06-02T08:13:11.000Z"
       },
       "last_checked_at": "2026-07-02T04:51:33.147542Z",
       "baseline_initialized": true,
       "source_signature": "215825cd22461b9c15e76a7c5633ff4c1d67c0e420c55ff47a0e5831ab5311aa",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z",
-      "last_changed_at": "2026-08-13T08:38:22.021682Z"
+      "last_changed_at": "2026-08-17T05:26:19.338170Z"
     },
     "internlm-huggingface": {
       "models": {
@@ -2095,7 +2095,7 @@
     },
     "aihot-selected": {
       "last_raw_count": 48,
-      "last_polled_at": "2026-08-17T04:55:30.717129Z",
+      "last_polled_at": "2026-08-17T05:26:19.338170Z",
       "source_signature": "54b0a2ce37b31eed7de5728f2ad3467d3fff1ec95a53a03f9ee11a9fa197fda4",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-09T08:44:50.779962Z",
