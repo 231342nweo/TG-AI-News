@@ -396,14 +396,14 @@
       "last_checked_at": "2026-07-02T04:51:37.867265Z",
       "baseline_initialized": true,
       "repos": {
+        "MoonshotAI/kimi-code": "2026-08-17T12:55:38Z",
         "MoonshotAI/Kimi-K3": "2026-08-06T10:17:28Z",
+        "MoonshotAI/Kimi-K2": "2026-01-21T05:33:12Z",
         "MoonshotAI/kimi-cli": "2026-08-03T07:59:07Z",
         "MoonshotAI/Attention-Residuals": "2026-03-17T06:23:11Z",
-        "MoonshotAI/kimi-code": "2026-08-17T12:19:15Z",
         "MoonshotAI/checkpoint-engine": "2026-08-12T05:59:00Z",
         "MoonshotAI/MoonEP": "2026-08-13T09:30:40Z",
         "MoonshotAI/Moonlight": "2025-08-03T06:31:18Z",
-        "MoonshotAI/Kimi-K2": "2026-01-21T05:33:12Z",
         "MoonshotAI/FlashKDA": "2026-07-30T07:14:39Z",
         "MoonshotAI/PerceptionBench": "2026-08-03T08:33:26Z",
         "MoonshotAI/Kimi-Audio": "2025-06-21T15:30:28Z",
@@ -417,7 +417,7 @@
         "MoonshotAI/Kimi-K2.5": "2026-08-06T10:42:43Z",
         "MoonshotAI/awesome-moonshot-api": "2024-05-22T17:15:44Z"
       },
-      "last_changed_at": "2026-08-17T12:19:23.808218Z",
+      "last_changed_at": "2026-08-17T13:10:22.468898Z",
       "source_signature": "c925f37596aaabb84376bf83142f08b0ce08447179a5d27a52c7956a40180daa",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -457,15 +457,16 @@
       "baseline_initialized": true,
       "repos": {
         "MiniMax-AI/MiniMax-Music3": "2026-08-14T08:23:47Z",
+        "MiniMax-AI/MiniMax-Code-Plugins": "2026-08-17T12:25:52Z",
         "MiniMax-AI/MiniMax-H3": "2026-08-15T08:31:17Z",
-        "MiniMax-AI/MSA": "2026-07-30T06:11:11Z",
         "MiniMax-AI/skills": "2026-04-18T09:48:47Z",
-        "MiniMax-AI/MiniMax-01": "2025-07-07T12:24:30Z",
-        "MiniMax-AI/MiniMax-MCP": "2026-05-21T03:40:18Z",
-        "MiniMax-AI/MiniMax-M2": "2025-11-13T08:12:36Z",
-        "MiniMax-AI/Mini-Agent": "2026-02-14T04:00:26Z",
         "MiniMax-AI/MiniMax-M1": "2025-07-07T11:57:22Z",
+        "MiniMax-AI/MiniMax-MCP": "2026-05-21T03:40:18Z",
+        "MiniMax-AI/Mini-Agent": "2026-02-14T04:00:26Z",
         "MiniMax-AI/cli": "2026-08-11T08:07:48Z",
+        "MiniMax-AI/MiniMax-01": "2025-07-07T12:24:30Z",
+        "MiniMax-AI/MSA": "2026-07-30T06:11:11Z",
+        "MiniMax-AI/MiniMax-M2": "2025-11-13T08:12:36Z",
         "MiniMax-AI/vercel-minimax-ai-provider": "2026-06-06T07:41:49Z",
         "MiniMax-AI/vllm": "2025-10-26T16:08:09Z",
         "MiniMax-AI/minimax_search": "2025-11-03T09:04:57Z",
@@ -474,10 +475,9 @@
         "MiniMax-AI/OpenRoom": "2026-06-03T23:15:42Z",
         "MiniMax-AI/awesome-minimax-h3-integration": "2026-08-14T22:47:52Z",
         "MiniMax-AI/minimax-code": "2026-06-14T16:40:13Z",
-        "MiniMax-AI/MiniMax-M2.5": "2026-03-09T02:44:20Z",
-        "MiniMax-AI/MiniMax-M2.1": "2026-01-28T08:39:36Z"
+        "MiniMax-AI/MiniMax-M2.5": "2026-03-09T02:44:20Z"
       },
-      "last_changed_at": "2026-08-17T04:11:01.000490Z",
+      "last_changed_at": "2026-08-17T13:10:22.468898Z",
       "source_signature": "7447070c255f24c8392151456130d2d0f151e24197208adc4a6860c7b238bc6e",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -558,9 +558,9 @@
       "last_checked_at": "2026-07-02T04:51:54.681996Z",
       "baseline_initialized": true,
       "repos": {
-        "OpenSenseNova/SenseNova-U1": "2026-08-17T01:14:03Z",
-        "OpenSenseNova/SenseNova-Skills": "2026-08-17T07:45:24Z",
+        "OpenSenseNova/SenseNova-U1": "2026-08-17T12:58:51Z",
         "OpenSenseNova/SenseNova-Vision": "2026-07-22T09:31:28Z",
+        "OpenSenseNova/SenseNova-Skills": "2026-08-17T07:45:24Z",
         "OpenSenseNova/ComfyUI-SenseNova-U1": "2026-08-16T16:12:09Z",
         "OpenSenseNova/SenseNova6.7": "2026-05-22T10:06:18Z",
         "OpenSenseNova/SenseNova-MARS": "2026-04-09T07:55:50Z",
@@ -578,7 +578,7 @@
         "OpenSenseNova/InteractiveOmni": "2025-12-03T10:43:09Z",
         "OpenSenseNova/LlamaIndex_SenseNova": "2024-08-30T07:51:57Z"
       },
-      "last_changed_at": "2026-08-17T08:22:01.599831Z",
+      "last_changed_at": "2026-08-17T13:10:22.468898Z",
       "source_signature": "184a583402fb329afbafdb76f2a65866a141a46158abf1628f6e67daed5e148c",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -654,28 +654,28 @@
       "last_checked_at": "2026-07-02T04:51:58.871155Z",
       "baseline_initialized": true,
       "repos": {
+        "QwenLM/Qwen-MM-Plugins": "2026-08-16T16:57:05Z",
+        "QwenLM/Qwen-RobotNav": "2026-06-30T03:01:19Z",
+        "QwenLM/Qwen3-Coder": "2026-03-24T08:22:10Z",
+        "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
         "QwenLM/Qwen": "2026-03-05T13:55:17Z",
         "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
-        "QwenLM/Qwen-MM-Plugins": "2026-08-16T16:57:05Z",
         "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
-        "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
-        "QwenLM/qwen-code": "2026-08-17T12:13:15Z",
+        "QwenLM/qwen-code": "2026-08-17T13:01:30Z",
         "QwenLM/Qwen-Image": "2026-02-10T07:37:37Z",
         "QwenLM/open-computer-use": "2026-06-10T16:38:07Z",
         "QwenLM/Qwen3.8": "2026-08-17T05:17:40Z",
         "QwenLM/Qwen3-Embedding": "2025-09-30T06:10:27Z",
         "QwenLM/qwen.cpp": "2024-12-06T08:32:28Z",
-        "QwenLM/Qwen3-Coder": "2026-03-24T08:22:10Z",
         "QwenLM/Qwen2.5-Math": "2025-01-11T17:30:43Z",
         "QwenLM/Qwen-Image-Layered": "2025-12-31T11:40:35Z",
         "QwenLM/Qwen-AgentWorld": "2026-07-20T11:52:07Z",
         "QwenLM/Qwen-VLA": "2026-05-29T13:49:38Z",
         "QwenLM/Qwen3-ASR": "2026-06-26T08:20:17Z",
         "QwenLM/Qwen-Agent": "2026-03-04T08:15:07Z",
-        "QwenLM/vllm": "2025-01-26T13:38:33Z",
-        "QwenLM/WebWorld": "2026-02-25T06:29:03Z"
+        "QwenLM/vllm": "2025-01-26T13:38:33Z"
       },
-      "last_changed_at": "2026-08-17T12:19:23.808218Z",
+      "last_changed_at": "2026-08-17T13:10:22.468898Z",
       "source_signature": "ddc0d8d3788b1fc4ba6779bc400a51934ce7ac0845fbfff67f906a6d77406e21",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -684,28 +684,28 @@
       "last_checked_at": "2026-07-02T04:52:01.889603Z",
       "baseline_initialized": true,
       "repos": {
+        "Tencent-Hunyuan/Hunyuan3D-Buffalo1.0": "2026-08-10T17:04:25Z",
         "Tencent-Hunyuan/Hunyuan3D-WorldClaw": "2026-08-13T05:47:55Z",
+        "Tencent-Hunyuan/HiLS-Attention": "2026-08-13T12:46:21Z",
+        "Tencent-Hunyuan/Hunyuan3D-2.1": "2025-10-17T10:10:07Z",
+        "Tencent-Hunyuan/HunyuanImage-3.0": "2026-06-23T13:12:44Z",
+        "Tencent-Hunyuan/Hy-MT2": "2026-06-30T07:17:36Z",
+        "Tencent-Hunyuan/HY-World-2.0": "2026-08-12T16:15:12Z",
         "Tencent-Hunyuan/Hy3": "2026-07-17T10:11:52Z",
         "Tencent-Hunyuan/Hy3-preview": "2026-04-23T15:09:16Z",
         "Tencent-Hunyuan/HunyuanVideo": "2026-06-29T09:33:50Z",
         "Tencent-Hunyuan/Hunyuan3D-2": "2025-10-28T09:58:12Z",
-        "Tencent-Hunyuan/Hy-MT2": "2026-06-30T07:17:36Z",
         "Tencent-Hunyuan/HunyuanWorld-1.0": "2026-04-15T17:27:25Z",
-        "Tencent-Hunyuan/Hunyuan3D-Buffalo1.0": "2026-08-10T17:04:25Z",
         "Tencent-Hunyuan/Hyra-results": "2026-08-17T08:01:54Z",
         "Tencent-Hunyuan/Hunyuan3D-Part": "2025-12-05T03:43:28Z",
-        "Tencent-Hunyuan/HY-World-2.0": "2026-08-12T16:15:12Z",
         "Tencent-Hunyuan/HunyuanOCR": "2026-07-29T06:29:52Z",
-        "Tencent-Hunyuan/HunyuanImage-3.0": "2026-06-23T13:12:44Z",
         "Tencent-Hunyuan/HY3D-Bench": "2026-02-27T10:03:22Z",
         "Tencent-Hunyuan/HunyuanVideo-Avatar": "2025-12-16T12:32:46Z",
         "Tencent-Hunyuan/AutoCodeBenchmark": "2026-02-17T08:03:11Z",
         "Tencent-Hunyuan/Hy-Embodied-0.5-VLA": "2026-08-04T07:32:42Z",
-        "Tencent-Hunyuan/Hunyuan3D-2.1": "2025-10-17T10:10:07Z",
-        "Tencent-Hunyuan/HunyuanDiT": "2025-11-27T06:37:00Z",
-        "Tencent-Hunyuan/UniRL": "2026-08-17T03:49:23Z"
+        "Tencent-Hunyuan/HunyuanDiT": "2025-11-27T06:37:00Z"
       },
-      "last_changed_at": "2026-08-17T10:17:12.082461Z",
+      "last_changed_at": "2026-08-17T13:10:22.468898Z",
       "source_signature": "637ce9b3bc2d070666c42f5fd92e749870848ee35ed6d4c156f831c9bc8f2d04",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -1351,7 +1351,7 @@
     },
     "tencent-huggingface": {
       "models": {
-        "tencent/EVIE-Preview-4.5B": "2026-08-17T12:11:14.000Z",
+        "tencent/EVIE-Preview-4.5B": "2026-08-17T12:38:01.000Z",
         "tencent/HunyuanOCR": "2026-07-28T07:49:28.000Z",
         "tencent/HiLS-Attention-7B": "2026-07-27T08:55:39.000Z",
         "tencent/Hy-MT2-30B-A3B-GGUF": "2026-07-23T11:47:14.000Z",
@@ -1374,7 +1374,7 @@
       },
       "last_checked_at": "2026-07-02T04:51:33.147542Z",
       "baseline_initialized": true,
-      "last_changed_at": "2026-08-17T12:19:23.808218Z",
+      "last_changed_at": "2026-08-17T13:10:22.468898Z",
       "source_signature": "02d7601c1d854eab72d26dff11922e611205f62b41994239baa86dea0e53b5a4",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -2095,11 +2095,13 @@
     },
     "aihot-selected": {
       "last_raw_count": 48,
-      "last_polled_at": "2026-08-17T12:19:23.808218Z",
+      "last_polled_at": "2026-08-17T13:10:22.468898Z",
       "source_signature": "54b0a2ce37b31eed7de5728f2ad3467d3fff1ec95a53a03f9ee11a9fa197fda4",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-09T08:44:50.779962Z",
       "seen_keys": [
+        "https://x.com/JensenHuang/status/2089331487342829862",
+        "https://openrouter.ai/blog/announcements/activity-dashboard",
         "https://simonwillison.net/2026/Aug/16/qwen-38-27b",
         "https://www.anthropic.com/research/multiagent-systems",
         "https://cursor.com/blog/joining-spacex",
@@ -2397,11 +2399,9 @@
         "https://mp.weixin.qq.com/s/Sb4YYeEYsBAAczDo8n41UA",
         "https://www.tomtunguz.com/microsoft-resells-the-frontier",
         "https://arxiv.org/abs/2607.27191",
-        "https://x.com/ArtificialAnlys/status/2083123180869496865",
-        "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
-        "https://openrouter.ai/blog/tutorials/langchain-chatopenrouter-setup"
+        "https://x.com/ArtificialAnlys/status/2083123180869496865"
       ],
-      "last_changed_at": "2026-08-17T02:33:21.014402Z"
+      "last_changed_at": "2026-08-17T13:10:24.571391Z"
     }
   }
 }
