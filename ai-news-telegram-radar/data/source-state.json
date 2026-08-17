@@ -654,7 +654,9 @@
       "last_checked_at": "2026-07-02T04:51:58.871155Z",
       "baseline_initialized": true,
       "repos": {
-        "QwenLM/qwen-code": "2026-08-17T11:30:21Z",
+        "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
+        "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
+        "QwenLM/qwen-code": "2026-08-17T11:49:37Z",
         "QwenLM/Qwen-Image": "2026-02-10T07:37:37Z",
         "QwenLM/open-computer-use": "2026-06-10T16:38:07Z",
         "QwenLM/Qwen-MM-Plugins": "2026-08-16T16:57:05Z",
@@ -664,18 +666,16 @@
         "QwenLM/qwen.cpp": "2024-12-06T08:32:28Z",
         "QwenLM/Qwen3-Coder": "2026-03-24T08:22:10Z",
         "QwenLM/Qwen2.5-Math": "2025-01-11T17:30:43Z",
-        "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
         "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
         "QwenLM/Qwen-Image-Layered": "2025-12-31T11:40:35Z",
         "QwenLM/Qwen-AgentWorld": "2026-07-20T11:52:07Z",
-        "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
         "QwenLM/Qwen-VLA": "2026-05-29T13:49:38Z",
         "QwenLM/Qwen3-ASR": "2026-06-26T08:20:17Z",
         "QwenLM/Qwen-Agent": "2026-03-04T08:15:07Z",
         "QwenLM/vllm": "2025-01-26T13:38:33Z",
         "QwenLM/WebWorld": "2026-02-25T06:29:03Z"
       },
-      "last_changed_at": "2026-08-17T11:37:06.567899Z",
+      "last_changed_at": "2026-08-17T11:54:56.935167Z",
       "source_signature": "ddc0d8d3788b1fc4ba6779bc400a51934ce7ac0845fbfff67f906a6d77406e21",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -1351,6 +1351,7 @@
     },
     "tencent-huggingface": {
       "models": {
+        "tencent/EVIE-Preview-4.5B": "2026-08-17T11:53:54.000Z",
         "tencent/HunyuanOCR": "2026-07-28T07:49:28.000Z",
         "tencent/HiLS-Attention-7B": "2026-07-27T08:55:39.000Z",
         "tencent/Hy-MT2-30B-A3B-GGUF": "2026-07-23T11:47:14.000Z",
@@ -1369,12 +1370,11 @@
         "tencent/Hy-MT1.5-1.8B-1.25bit-GGUF": "2026-06-04T07:25:34.000Z",
         "tencent/Universal_Audio_Tokenizer": "2026-06-01T13:53:31.000Z",
         "tencent/HY-MT1.5-7B": "2026-06-01T11:36:19.000Z",
-        "tencent/Hy-MT1.5-1.8B-1.25bit": "2026-05-27T03:43:14.000Z",
-        "tencent/Hy-MT2-1.8B-2Bit-GGUF": "2026-05-26T09:06:26.000Z"
+        "tencent/Hy-MT1.5-1.8B-1.25bit": "2026-05-27T03:43:14.000Z"
       },
       "last_checked_at": "2026-07-02T04:51:33.147542Z",
       "baseline_initialized": true,
-      "last_changed_at": "2026-07-28T09:24:38.114100Z",
+      "last_changed_at": "2026-08-17T11:54:56.935167Z",
       "source_signature": "02d7601c1d854eab72d26dff11922e611205f62b41994239baa86dea0e53b5a4",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -2095,7 +2095,7 @@
     },
     "aihot-selected": {
       "last_raw_count": 48,
-      "last_polled_at": "2026-08-17T11:37:06.567899Z",
+      "last_polled_at": "2026-08-17T11:54:56.935167Z",
       "source_signature": "54b0a2ce37b31eed7de5728f2ad3467d3fff1ec95a53a03f9ee11a9fa197fda4",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-09T08:44:50.779962Z",
