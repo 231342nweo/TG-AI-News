@@ -396,14 +396,14 @@
       "last_checked_at": "2026-07-02T04:51:37.867265Z",
       "baseline_initialized": true,
       "repos": {
-        "MoonshotAI/kimi-code": "2026-08-18T07:19:06Z",
+        "MoonshotAI/kimi-code": "2026-08-18T07:37:58Z",
+        "MoonshotAI/kimi-cli": "2026-08-03T07:59:07Z",
         "MoonshotAI/Attention-Residuals": "2026-03-17T06:23:11Z",
         "MoonshotAI/PerceptionBench": "2026-08-03T08:33:26Z",
         "MoonshotAI/MoonEP": "2026-08-13T09:30:40Z",
         "MoonshotAI/Kimi-K2": "2026-01-21T05:33:12Z",
         "MoonshotAI/minitriton": "2026-07-27T13:49:08Z",
         "MoonshotAI/Kimi-K3": "2026-08-06T10:17:28Z",
-        "MoonshotAI/kimi-cli": "2026-08-03T07:59:07Z",
         "MoonshotAI/Kimi-VL": "2025-07-15T15:48:21Z",
         "MoonshotAI/kimi-agent-sdk": "2026-05-29T05:29:38Z",
         "MoonshotAI/Moonlight": "2025-08-03T06:31:18Z",
@@ -417,7 +417,7 @@
         "MoonshotAI/MoBA": "2025-04-03T07:28:06Z",
         "MoonshotAI/Kimi-Linear": "2025-11-17T09:36:48Z"
       },
-      "last_changed_at": "2026-08-18T07:31:02.708493Z",
+      "last_changed_at": "2026-08-18T08:03:58.016672Z",
       "source_signature": "c925f37596aaabb84376bf83142f08b0ce08447179a5d27a52c7956a40180daa",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -426,10 +426,14 @@
       "last_checked_at": "2026-07-02T04:51:40.485322Z",
       "baseline_initialized": true,
       "repos": {
-        "zai-org/CodeGeeX4": "2024-08-25T14:26:16Z",
         "zai-org/Open-AutoGLM": "2026-03-06T08:38:39Z",
-        "zai-org/ChatGLM-6B": "2024-06-27T04:05:25Z",
+        "zai-org/SSVAE": "2025-12-25T09:24:54Z",
+        "zai-org/GLM-4": "2026-08-05T07:08:46Z",
+        "zai-org/ChatGLM2-6B": "2024-06-27T04:05:08Z",
         "zai-org/GLM-5": "2026-08-11T06:36:36Z",
+        "zai-org/Synapse": "2026-07-31T07:25:27Z",
+        "zai-org/CodeGeeX4": "2024-08-25T14:26:16Z",
+        "zai-org/ChatGLM-6B": "2024-06-27T04:05:25Z",
         "zai-org/Vision2Web": "2026-08-05T09:04:19Z",
         "zai-org/GLM-OCR": "2026-04-21T08:52:11Z",
         "zai-org/CogVideo": "2025-11-04T11:19:04Z",
@@ -437,17 +441,13 @@
         "zai-org/GLM-ASR": "2026-03-06T08:37:26Z",
         "zai-org/GLM-TTS": "2026-04-10T08:50:23Z",
         "zai-org/CogView": "2023-09-25T04:07:19Z",
-        "zai-org/Synapse": "2026-07-31T07:25:27Z",
         "zai-org/SCAIL-2": "2026-08-14T04:46:01Z",
         "zai-org/zai-coding-plugins": "2026-02-22T15:51:20Z",
         "zai-org/GLM-skills": "2026-04-15T12:28:08Z",
         "zai-org/GLM-130B": "2023-07-25T09:01:49Z",
-        "zai-org/ChatGLM3": "2025-01-13T06:55:26Z",
-        "zai-org/CodeGeeX2": "2024-07-10T12:34:55Z",
-        "zai-org/feedback": "2026-08-17T03:03:47Z",
-        "zai-org/GLM-4": "2026-08-05T07:08:46Z"
+        "zai-org/ChatGLM3": "2025-01-13T06:55:26Z"
       },
-      "last_changed_at": "2026-08-18T06:56:21.026181Z",
+      "last_changed_at": "2026-08-18T08:03:58.016672Z",
       "source_signature": "0f9d07d7983b4898dc433a8d045a96469f65dff73642f9fe1fbf73cf3299210c",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -591,16 +591,17 @@
       "last_checked_at": "2026-07-02T04:51:55.708102Z",
       "baseline_initialized": true,
       "repos": {
-        "OpenBMB/MiniCPM": "2026-07-27T06:50:07Z",
-        "OpenBMB/MathForm": "2026-08-17T05:28:16Z",
         "OpenBMB/VoxCPM": "2026-08-12T14:14:37Z",
+        "OpenBMB/MiniCPM-Desk-Pet": "2026-08-18T07:58:20Z",
+        "OpenBMB/MiniCPM": "2026-07-27T06:50:07Z",
+        "OpenBMB/StaffDeck": "2026-08-18T07:40:49Z",
+        "OpenBMB/Tell_Me_More": "2024-02-20T03:28:31Z",
+        "OpenBMB/MathForm": "2026-08-17T05:28:16Z",
         "OpenBMB/AgentVerse": "2024-09-09T05:47:44Z",
         "OpenBMB/MiniCPM-V": "2026-08-12T14:16:57Z",
         "OpenBMB/ChatDev": "2026-07-24T08:01:27Z",
-        "OpenBMB/PilotDeck": "2026-08-18T07:13:30Z",
+        "OpenBMB/PilotDeck": "2026-08-18T07:43:42Z",
         "OpenBMB/MiniCPM-o-Demo": "2026-08-14T07:26:44Z",
-        "OpenBMB/MiniCPM-Desk-Pet": "2026-07-07T14:15:36Z",
-        "OpenBMB/StaffDeck": "2026-08-18T07:29:12Z",
         "OpenBMB/XAgent": "2026-07-31T03:30:54Z",
         "OpenBMB/MiniCPM-Robot": "2026-08-05T07:51:51Z",
         "OpenBMB/RepoAgent": "2024-12-23T11:48:52Z",
@@ -609,10 +610,9 @@
         "OpenBMB/voxcpm2-demopage": "2026-04-09T08:40:28Z",
         "OpenBMB/ForgeStencil": "2026-08-04T07:34:41Z",
         "OpenBMB/MiniCPM-V-Apps": "2026-08-11T05:38:19Z",
-        "OpenBMB/ArcLight": "2026-05-30T02:59:35Z",
-        "OpenBMB/ToolBench": "2025-05-21T15:46:59Z"
+        "OpenBMB/ArcLight": "2026-05-30T02:59:35Z"
       },
-      "last_changed_at": "2026-08-18T07:31:02.708493Z",
+      "last_changed_at": "2026-08-18T08:03:58.016672Z",
       "source_signature": "3dd1c4ab8bc380dc66624329d310bc65fe6deafde7a370da1191ca03b32c0764",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -623,7 +623,7 @@
       "repos": {
         "InternLM/Intern-S2-Mobius": "2026-08-14T12:48:30Z",
         "InternLM/lmdeploy": "2026-08-18T03:19:06Z",
-        "InternLM/xtuner": "2026-08-18T07:25:49Z",
+        "InternLM/xtuner": "2026-08-18T07:46:54Z",
         "InternLM/EndoCoT": "2026-08-11T12:58:37Z",
         "InternLM/WildClawBench": "2026-08-17T06:04:32Z",
         "InternLM/InternLM": "2025-10-30T00:35:43Z",
@@ -642,7 +642,7 @@
         "InternLM/AcmeTrace": "2024-03-12T11:49:56Z",
         "InternLM/Tutorial": "2026-04-22T08:39:08Z"
       },
-      "last_changed_at": "2026-08-18T07:31:02.708493Z",
+      "last_changed_at": "2026-08-18T08:03:58.016672Z",
       "source_signature": "a7a2f73a91108336ba1fe2d4fb4d5921862eb329f648d490a4d7903663f49f70",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -654,20 +654,20 @@
       "last_checked_at": "2026-07-02T04:51:58.871155Z",
       "baseline_initialized": true,
       "repos": {
-        "QwenLM/qwen-code": "2026-08-18T07:30:23Z",
-        "QwenLM/Qwen-VLA": "2026-05-29T13:49:38Z",
-        "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
-        "QwenLM/Qwen3.8": "2026-08-17T05:17:40Z",
         "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
+        "QwenLM/Qwen": "2026-03-05T13:55:17Z",
+        "QwenLM/qwen-code": "2026-08-18T08:02:44Z",
+        "QwenLM/Qwen-AgentWorld": "2026-07-20T11:52:07Z",
+        "QwenLM/Qwen3.8": "2026-08-17T05:17:40Z",
+        "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
         "QwenLM/Qwen-MM-Plugins": "2026-08-16T16:57:05Z",
+        "QwenLM/Qwen-VLA": "2026-05-29T13:49:38Z",
         "QwenLM/Qwen3Guard": "2025-10-21T02:27:12Z",
         "QwenLM/Qwen-Agent": "2026-03-04T08:15:07Z",
         "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
         "QwenLM/Qwen-RobotManip": "2026-06-29T22:29:54Z",
         "QwenLM/Qwen-Image": "2026-02-10T07:37:37Z",
         "QwenLM/Qwen-VL": "2024-08-07T02:37:06Z",
-        "QwenLM/Qwen": "2026-03-05T13:55:17Z",
-        "QwenLM/Qwen-AgentWorld": "2026-07-20T11:52:07Z",
         "QwenLM/Qwen3-Omni": "2026-04-23T10:58:01Z",
         "QwenLM/Qwen3-ASR": "2026-06-26T08:20:17Z",
         "QwenLM/qwen-code-docs": "2026-08-17T22:21:13Z",
@@ -675,7 +675,7 @@
         "QwenLM/Qwen3-Embedding": "2025-09-30T06:10:27Z",
         "QwenLM/Qwen-Image-Layered": "2025-12-31T11:40:35Z"
       },
-      "last_changed_at": "2026-08-18T07:31:02.708493Z",
+      "last_changed_at": "2026-08-18T08:03:58.016672Z",
       "source_signature": "ddc0d8d3788b1fc4ba6779bc400a51934ce7ac0845fbfff67f906a6d77406e21",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -684,11 +684,13 @@
       "last_checked_at": "2026-07-02T04:52:01.889603Z",
       "baseline_initialized": true,
       "repos": {
-        "Tencent-Hunyuan/HunyuanWorld-Voyager": "2026-04-15T17:30:08Z",
+        "Tencent-Hunyuan/UniRL": "2026-08-18T07:58:49Z",
+        "Tencent-Hunyuan/MixGRPO": "2026-07-01T10:49:26Z",
+        "Tencent-Hunyuan/Hyra-results": "2026-08-17T08:01:54Z",
         "Tencent-Hunyuan/Hunyuan3D-WorldClaw": "2026-08-13T05:47:55Z",
+        "Tencent-Hunyuan/HunyuanWorld-Voyager": "2026-04-15T17:30:08Z",
         "Tencent-Hunyuan/Hunyuan3D-2": "2025-10-28T09:58:12Z",
         "Tencent-Hunyuan/HY-World-2.0": "2026-08-12T16:15:12Z",
-        "Tencent-Hunyuan/UniRL": "2026-08-18T07:12:56Z",
         "Tencent-Hunyuan/HY-WorldPlay": "2026-06-10T07:10:23Z",
         "Tencent-Hunyuan/HY-Embodied": "2026-07-15T11:54:12Z",
         "Tencent-Hunyuan/Hy-Embodied-0.5-VLA": "2026-08-04T07:32:42Z",
@@ -701,16 +703,16 @@
         "Tencent-Hunyuan/HunyuanImage-3.0": "2026-06-23T13:12:44Z",
         "Tencent-Hunyuan/RepoProbe": "2026-08-06T03:33:17Z",
         "Tencent-Hunyuan/flex-block-attn": "2025-12-26T02:48:33Z",
-        "Tencent-Hunyuan/Hy-MT2": "2026-06-30T07:17:36Z",
-        "Tencent-Hunyuan/Hy3": "2026-07-17T10:11:52Z",
-        "Tencent-Hunyuan/Hunyuan3D-Part": "2025-12-05T03:43:28Z"
+        "Tencent-Hunyuan/Hy-MT2": "2026-06-30T07:17:36Z"
       },
-      "last_changed_at": "2026-08-18T07:31:02.708493Z",
+      "last_changed_at": "2026-08-18T08:03:58.016672Z",
       "source_signature": "637ce9b3bc2d070666c42f5fd92e749870848ee35ed6d4c156f831c9bc8f2d04",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
     "qbitai-rss": {
       "seen_keys": [
+        "https://www.qbitai.com/2026/08/474803.html",
+        "https://www.qbitai.com/2026/08/474736.html",
         "https://www.qbitai.com/2026/08/474673.html",
         "https://www.qbitai.com/2026/08/474647.html",
         "https://www.qbitai.com/2026/08/474611.html",
@@ -1008,13 +1010,11 @@
         "https://www.qbitai.com/2026/07/451576.html",
         "https://www.qbitai.com/2026/07/451403.html",
         "https://www.qbitai.com/2026/07/451371.html",
-        "https://www.qbitai.com/2026/07/451379.html",
-        "https://www.qbitai.com/2026/07/451327.html",
-        "https://www.qbitai.com/2026/07/451084.html"
+        "https://www.qbitai.com/2026/07/451379.html"
       ],
       "last_checked_at": "2026-07-02T04:52:26.145879Z",
       "baseline_initialized": true,
-      "last_changed_at": "2026-08-18T07:32:35.366416Z",
+      "last_changed_at": "2026-08-18T08:05:26.677295Z",
       "source_signature": "34418d38d4b87c134f9922d6999ac3c069821ed0be2134f9ba6ae5e00e4b63a9",
       "baseline_reinitialized_at": "2026-07-02T10:23:28.426031Z"
     },
@@ -1244,6 +1244,7 @@
     },
     "openbmb-huggingface": {
       "models": {
+        "openbmb/VoxCPM2": "2026-08-18T07:37:17.000Z",
         "openbmb/MiniCPM-o-2_6-int4": "2026-08-18T03:58:53.000Z",
         "openbmb/MiniCPM-o-2_6-gguf": "2026-08-18T03:58:49.000Z",
         "openbmb/MiniCPM-o-2_6": "2026-08-18T03:58:46.000Z",
@@ -1260,7 +1261,6 @@
         "openbmb/MiniCPM-o-4_5": "2026-08-18T03:57:56.000Z",
         "openbmb/VoxCPM-0.5B": "2026-08-18T03:06:29.000Z",
         "openbmb/VoxCPM1.5": "2026-08-18T03:06:26.000Z",
-        "openbmb/VoxCPM2": "2026-08-17T11:30:39.000Z",
         "openbmb/MiniCPM-V-4.6-Thinking-AWQ": "2026-08-17T10:09:43.000Z",
         "openbmb/MiniCPM-V-4.6-Thinking-GPTQ": "2026-08-17T10:09:40.000Z",
         "openbmb/MiniCPM-V-4.6-Thinking-BNB": "2026-08-17T10:09:35.000Z"
@@ -1269,7 +1269,7 @@
       "baseline_initialized": true,
       "source_signature": "215825cd22461b9c15e76a7c5633ff4c1d67c0e420c55ff47a0e5831ab5311aa",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z",
-      "last_changed_at": "2026-08-18T04:06:25.469186Z"
+      "last_changed_at": "2026-08-18T08:03:58.016672Z"
     },
     "internlm-huggingface": {
       "models": {
@@ -2095,11 +2095,12 @@
     },
     "aihot-selected": {
       "last_raw_count": 48,
-      "last_polled_at": "2026-08-18T07:31:02.708493Z",
+      "last_polled_at": "2026-08-18T08:03:58.016672Z",
       "source_signature": "54b0a2ce37b31eed7de5728f2ad3467d3fff1ec95a53a03f9ee11a9fa197fda4",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-09T08:44:50.779962Z",
       "seen_keys": [
+        "https://dev.to/googleai/designing-ai-evals-clarity-now-and-visualization-next-4eii",
         "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647685329&idx=1&sn=9471278dc489641c097b228912965ed4",
         "https://developers.googleblog.com/build-zero-trust-ai-agents-with-googles-agent-development-kit",
         "https://cursor.com/changelog/origin-code-hosting",
@@ -2398,10 +2399,9 @@
         "https://research.google/blog/science-one-framework-a-verifiable-autonomous-research-framework-via-chain-of-evidence",
         "https://techcrunch.com/2026/07/29/hint-a-new-ai-startup-co-founded-by-martha-stewart-offers-an-ai-assistant-for-homeowners",
         "https://www.dwarkesh.com/p/why-compute-might-get-10x-more-expensive",
-        "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores",
-        "https://x.com/TencentHunyuan/status/2082447023626944936"
+        "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores"
       ],
-      "last_changed_at": "2026-08-18T05:44:58.261205Z"
+      "last_changed_at": "2026-08-18T08:04:00.117979Z"
     }
   }
 }
