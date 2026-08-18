@@ -367,6 +367,8 @@
       "baseline_initialized": true,
       "repos": {
         "deepseek-ai/deepseek-harness": "2026-08-17T12:01:58Z",
+        "deepseek-ai/DeepSpec": "2026-07-09T04:37:14Z",
+        "deepseek-ai/DeepSeek-OCR-2": "2026-02-03T00:34:18Z",
         "deepseek-ai/awesome-deepseek-integration": "2026-02-23T16:27:47Z",
         "deepseek-ai/LPLB": "2025-11-19T07:20:35Z",
         "deepseek-ai/DeepSeek-Prover-V1.5": "2024-08-16T03:33:41Z",
@@ -381,13 +383,11 @@
         "deepseek-ai/DeepSeek-MoE": "2024-01-16T12:18:10Z",
         "deepseek-ai/DualPipe": "2026-01-14T06:34:59Z",
         "deepseek-ai/DreamCraft3D": "2025-04-22T11:09:39Z",
-        "deepseek-ai/DeepSeek-OCR-2": "2026-02-03T00:34:18Z",
         "deepseek-ai/DeepSeek-Math": "2024-04-15T07:55:37Z",
         "deepseek-ai/DeepSeek-VL": "2024-04-24T05:01:06Z",
-        "deepseek-ai/Engram": "2026-01-14T01:13:02Z",
-        "deepseek-ai/smallpond": "2025-03-05T18:23:54Z"
+        "deepseek-ai/Engram": "2026-01-14T01:13:02Z"
       },
-      "last_changed_at": "2026-08-18T22:07:40.153241Z",
+      "last_changed_at": "2026-08-18T22:36:27.746115Z",
       "source_signature": "e247a4022cc1b9d1fcca44981d9eb5c7892416a57bcff15ec2fe2fc72cfd972e",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -396,10 +396,10 @@
       "last_checked_at": "2026-07-02T04:51:37.867265Z",
       "baseline_initialized": true,
       "repos": {
+        "MoonshotAI/kimi-code": "2026-08-18T22:25:56Z",
         "MoonshotAI/FlashKDA": "2026-07-30T07:14:39Z",
         "MoonshotAI/Kimi-K2.5": "2026-08-06T10:42:43Z",
         "MoonshotAI/MoonEP": "2026-08-13T09:30:40Z",
-        "MoonshotAI/kimi-code": "2026-08-18T21:58:16Z",
         "MoonshotAI/kimi-cli": "2026-08-03T07:59:07Z",
         "MoonshotAI/Kimi-K3": "2026-08-06T10:17:28Z",
         "MoonshotAI/PerceptionBench": "2026-08-03T08:33:26Z",
@@ -417,7 +417,7 @@
         "MoonshotAI/Kimi-Audio": "2025-06-21T15:30:28Z",
         "MoonshotAI/MoBA": "2025-04-03T07:28:06Z"
       },
-      "last_changed_at": "2026-08-18T22:07:40.153241Z",
+      "last_changed_at": "2026-08-18T22:36:27.746115Z",
       "source_signature": "c925f37596aaabb84376bf83142f08b0ce08447179a5d27a52c7956a40180daa",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -426,13 +426,15 @@
       "last_checked_at": "2026-07-02T04:51:40.485322Z",
       "baseline_initialized": true,
       "repos": {
+        "zai-org/UI2Code_N": "2026-05-02T11:57:35Z",
+        "zai-org/GLM-5": "2026-08-11T06:36:36Z",
         "zai-org/Synapse": "2026-07-31T07:25:27Z",
+        "zai-org/Open-AutoGLM": "2026-03-06T08:38:39Z",
+        "zai-org/SCAIL-2": "2026-08-14T04:46:01Z",
         "zai-org/ChatGLM2-6B": "2024-06-27T04:05:08Z",
         "zai-org/VisualGLM-6B": "2024-08-23T07:45:06Z",
         "zai-org/ChatGLM-6B": "2024-06-27T04:05:25Z",
         "zai-org/GLM-4-Voice": "2024-12-05T07:10:01Z",
-        "zai-org/Open-AutoGLM": "2026-03-06T08:38:39Z",
-        "zai-org/GLM-5": "2026-08-11T06:36:36Z",
         "zai-org/CodeGeeX4": "2024-08-25T14:26:16Z",
         "zai-org/GLM-4": "2026-08-05T07:08:46Z",
         "zai-org/CodeGeeX2": "2024-07-10T12:34:55Z",
@@ -443,11 +445,9 @@
         "zai-org/GLM-V": "2026-07-21T16:03:29Z",
         "zai-org/GLM-ASR": "2026-03-06T08:37:26Z",
         "zai-org/GLM-TTS": "2026-04-10T08:50:23Z",
-        "zai-org/CogView": "2023-09-25T04:07:19Z",
-        "zai-org/SCAIL-2": "2026-08-14T04:46:01Z",
-        "zai-org/zai-coding-plugins": "2026-02-22T15:51:20Z"
+        "zai-org/CogView": "2023-09-25T04:07:19Z"
       },
-      "last_changed_at": "2026-08-18T13:54:16.237478Z",
+      "last_changed_at": "2026-08-18T22:36:27.746115Z",
       "source_signature": "0f9d07d7983b4898dc433a8d045a96469f65dff73642f9fe1fbf73cf3299210c",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -1479,13 +1479,13 @@
         "https://www.tc260.org.cn/portal/article/1/f57857bcdc15494890df2022b83321cc",
         "https://www.tc260.org.cn/portal/article/1/0efe73df0f234fa5a4fce766173b5678",
         "https://www.tc260.org.cn/portal/article/1/c38f19280f2b4b5284c642a174f27d38",
-        "https://www.tc260.org.cn/portal/article/1/9745608fa11e46639275aa834e58b5c4",
         "https://www.tc260.org.cn/portal/article/1/c5bff06b0a544674b12b89271bf8df02",
+        "https://www.tc260.org.cn/portal/article/1/9745608fa11e46639275aa834e58b5c4",
         "https://www.tc260.org.cn/portal/article/1/07d60a8d728445fbb3526ca97e3d02d9",
         "https://www.tc260.org.cn/portal/article/1/a6d21a769f07420f818f6bed6797c618",
         "https://www.tc260.org.cn/portal/article/2/13c3282d6feb4b97930ded6faf656b2b",
-        "https://www.tc260.org.cn/portal/article/2/f81cf1f5c0504a1b92239f042d04d0bb",
         "https://www.tc260.org.cn/portal/article/2/a1de240fa2a7452e93df1ca6c3f1cf45",
+        "https://www.tc260.org.cn/portal/article/2/f81cf1f5c0504a1b92239f042d04d0bb",
         "https://www.tc260.org.cn/portal/article/2/8653731b442a460a910e6100d4eee9ea",
         "https://www.tc260.org.cn/portal/article/2/d7b8b931bce4444cae14a48c0f0dd8b4",
         "https://www.tc260.org.cn/portal/article/2/bb40941bb2784c749a43ec4762cdb988",
@@ -1565,7 +1565,7 @@
       ],
       "last_checked_at": "2026-07-02T04:52:25.829528Z",
       "baseline_initialized": true,
-      "last_changed_at": "2026-08-18T22:08:59.093727Z",
+      "last_changed_at": "2026-08-18T22:37:36.049642Z",
       "source_signature": "ac7adf7536607ad1dc8d9ca06c0f10f499a52b1893dcc2d8ec03dd7b6240b921",
       "baseline_reinitialized_at": "2026-07-02T10:23:25.737100Z"
     },
@@ -2095,11 +2095,12 @@
     },
     "aihot-selected": {
       "last_raw_count": 48,
-      "last_polled_at": "2026-08-18T22:07:40.153241Z",
+      "last_polled_at": "2026-08-18T22:36:27.746115Z",
       "source_signature": "54b0a2ce37b31eed7de5728f2ad3467d3fff1ec95a53a03f9ee11a9fa197fda4",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-09T08:44:50.779962Z",
       "seen_keys": [
+        "https://www.anthropic.com/research/Claude-accelerates-protein-design",
         "https://www.modular.com/blog/mojo-open-source",
         "https://x.com/claudeai/status/2089806039088517356",
         "https://claude.com/blog/ai-ci-cd-on-call",
@@ -2398,10 +2399,9 @@
         "https://arxiv.org/abs/2607.28478",
         "https://arxiv.org/abs/2607.26497",
         "https://arxiv.org/abs/2607.28624",
-        "https://www.ithome.com/0/983/374.htm",
-        "https://x.com/Replit/status/2082568269119062019"
+        "https://www.ithome.com/0/983/374.htm"
       ],
-      "last_changed_at": "2026-08-18T22:07:41.614804Z"
+      "last_changed_at": "2026-08-18T22:36:31.287080Z"
     }
   }
 }
