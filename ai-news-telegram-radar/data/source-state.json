@@ -367,27 +367,27 @@
       "baseline_initialized": true,
       "repos": {
         "deepseek-ai/deepseek-harness": "2026-08-17T12:01:58Z",
+        "deepseek-ai/DeepSeek-V3": "2025-08-28T03:24:37Z",
+        "deepseek-ai/DeepSpec": "2026-07-09T04:37:14Z",
+        "deepseek-ai/awesome-deepseek-integration": "2026-02-23T16:27:47Z",
+        "deepseek-ai/awesome-deepseek-agent": "2026-06-17T01:24:37Z",
+        "deepseek-ai/DeepSeek-Coder-V2": "2025-11-11T06:44:45Z",
         "deepseek-ai/DeepSeek-OCR": "2026-01-27T03:45:14Z",
         "deepseek-ai/DeepSeek-OCR-2": "2026-02-03T00:34:18Z",
         "deepseek-ai/FlashMLA": "2026-07-28T06:18:26Z",
         "deepseek-ai/smallpond": "2025-03-05T18:23:54Z",
         "deepseek-ai/3FS": "2026-05-07T09:31:54Z",
-        "deepseek-ai/awesome-deepseek-agent": "2026-06-17T01:24:37Z",
-        "deepseek-ai/DeepSeek-V3": "2025-08-28T03:24:37Z",
-        "deepseek-ai/awesome-deepseek-integration": "2026-02-23T16:27:47Z",
         "deepseek-ai/DeepSeek-R1": "2025-06-27T08:35:54Z",
         "deepseek-ai/Engram": "2026-01-14T01:13:02Z",
         "deepseek-ai/LPLB": "2025-11-19T07:20:35Z",
         "deepseek-ai/EPLB": "2025-03-24T09:17:10Z",
         "deepseek-ai/DeepEP": "2026-08-05T06:27:08Z",
-        "deepseek-ai/DeepSpec": "2026-07-09T04:37:14Z",
         "deepseek-ai/DeepGEMM": "2026-08-11T08:21:15Z",
         "deepseek-ai/DeepSeek-Coder": "2025-11-11T06:44:56Z",
         "deepseek-ai/DeepSeek-LLM": "2024-02-04T12:22:16Z",
-        "deepseek-ai/DualPipe": "2026-01-14T06:34:59Z",
-        "deepseek-ai/TileKernels": "2026-04-23T10:19:21Z"
+        "deepseek-ai/DualPipe": "2026-01-14T06:34:59Z"
       },
-      "last_changed_at": "2026-08-18T13:54:16.237478Z",
+      "last_changed_at": "2026-08-18T14:19:27.727372Z",
       "source_signature": "e247a4022cc1b9d1fcca44981d9eb5c7892416a57bcff15ec2fe2fc72cfd972e",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -396,7 +396,7 @@
       "last_checked_at": "2026-07-02T04:51:37.867265Z",
       "baseline_initialized": true,
       "repos": {
-        "MoonshotAI/kimi-code": "2026-08-18T13:51:08Z",
+        "MoonshotAI/kimi-code": "2026-08-18T14:18:51Z",
         "MoonshotAI/Kimi-K3": "2026-08-06T10:17:28Z",
         "MoonshotAI/kimi-cli": "2026-08-03T07:59:07Z",
         "MoonshotAI/PerceptionBench": "2026-08-03T08:33:26Z",
@@ -417,7 +417,7 @@
         "MoonshotAI/Kimi-Audio": "2025-06-21T15:30:28Z",
         "MoonshotAI/MoBA": "2025-04-03T07:28:06Z"
       },
-      "last_changed_at": "2026-08-18T13:54:16.237478Z",
+      "last_changed_at": "2026-08-18T14:19:27.727372Z",
       "source_signature": "c925f37596aaabb84376bf83142f08b0ce08447179a5d27a52c7956a40180daa",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -602,7 +602,7 @@
         "OpenBMB/MiniCPM": "2026-07-27T06:50:07Z",
         "OpenBMB/MiniCPM-Desk-Pet": "2026-08-18T07:58:20Z",
         "OpenBMB/ToolBench": "2025-05-21T15:46:59Z",
-        "OpenBMB/PilotDeck": "2026-08-18T13:50:19Z",
+        "OpenBMB/PilotDeck": "2026-08-18T14:05:47Z",
         "OpenBMB/IoA": "2025-10-04T17:40:10Z",
         "OpenBMB/Tell_Me_More": "2024-02-20T03:28:31Z",
         "OpenBMB/MathForm": "2026-08-17T05:28:16Z",
@@ -612,7 +612,7 @@
         "OpenBMB/ClawXRouter": "2026-03-31T08:35:42Z",
         "OpenBMB/UltraRAG": "2026-08-17T03:24:42Z"
       },
-      "last_changed_at": "2026-08-18T13:54:16.237478Z",
+      "last_changed_at": "2026-08-18T14:19:27.727372Z",
       "source_signature": "3dd1c4ab8bc380dc66624329d310bc65fe6deafde7a370da1191ca03b32c0764",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -654,18 +654,18 @@
       "last_checked_at": "2026-07-02T04:51:58.871155Z",
       "baseline_initialized": true,
       "repos": {
+        "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
+        "QwenLM/Qwen-MM-Plugins": "2026-08-18T09:48:37Z",
         "QwenLM/Qwen3.8": "2026-08-17T05:17:40Z",
         "QwenLM/Qwen-AgentWorld": "2026-07-20T11:52:07Z",
-        "QwenLM/qwen-code": "2026-08-18T13:47:56Z",
+        "QwenLM/qwen-code": "2026-08-18T14:14:20Z",
         "QwenLM/Qwen3-Omni": "2026-04-23T10:58:01Z",
         "QwenLM/Qwen3-ASR": "2026-06-26T08:20:17Z",
-        "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
         "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
         "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
         "QwenLM/Qwen-Image": "2026-02-10T07:37:37Z",
         "QwenLM/Qwen2.5-Omni": "2025-06-12T11:03:07Z",
         "QwenLM/Qwen3Guard": "2025-10-21T02:27:12Z",
-        "QwenLM/Qwen-MM-Plugins": "2026-08-18T09:48:37Z",
         "QwenLM/open-computer-use": "2026-06-10T16:38:07Z",
         "QwenLM/Qwen-VL": "2024-08-07T02:37:06Z",
         "QwenLM/FlashQLA": "2026-08-11T06:25:42Z",
@@ -675,7 +675,7 @@
         "QwenLM/Qwen-Agent": "2026-03-04T08:15:07Z",
         "QwenLM/Qwen-VLA": "2026-05-29T13:49:38Z"
       },
-      "last_changed_at": "2026-08-18T13:54:16.237478Z",
+      "last_changed_at": "2026-08-18T14:19:27.727372Z",
       "source_signature": "ddc0d8d3788b1fc4ba6779bc400a51934ce7ac0845fbfff67f906a6d77406e21",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -684,10 +684,11 @@
       "last_checked_at": "2026-07-02T04:52:01.889603Z",
       "baseline_initialized": true,
       "repos": {
+        "Tencent-Hunyuan/OmniWeaving": "2026-04-11T08:19:27Z",
+        "Tencent-Hunyuan/Hunyuan3D-WorldClaw": "2026-08-13T05:47:55Z",
         "Tencent-Hunyuan/Tencent-Hunyuan-Large": "2024-12-06T08:15:56Z",
         "Tencent-Hunyuan/Hy-MT": "2026-06-01T11:38:04Z",
         "Tencent-Hunyuan/HunyuanOCR": "2026-07-29T06:29:52Z",
-        "Tencent-Hunyuan/Hunyuan3D-WorldClaw": "2026-08-13T05:47:55Z",
         "Tencent-Hunyuan/HunyuanImage-3.0": "2026-06-23T13:12:44Z",
         "Tencent-Hunyuan/HunyuanVideo": "2026-06-29T09:33:50Z",
         "Tencent-Hunyuan/HY-Motion-1.0": "2026-07-18T15:13:36Z",
@@ -702,10 +703,9 @@
         "Tencent-Hunyuan/Hunyuan3D-2": "2025-10-28T09:58:12Z",
         "Tencent-Hunyuan/HunyuanWorld-Voyager": "2026-04-15T17:30:08Z",
         "Tencent-Hunyuan/HunyuanWorld-1.0": "2026-04-15T17:27:25Z",
-        "Tencent-Hunyuan/UniRL": "2026-08-18T10:10:02Z",
-        "Tencent-Hunyuan/MixGRPO": "2026-07-01T10:49:26Z"
+        "Tencent-Hunyuan/UniRL": "2026-08-18T10:10:02Z"
       },
-      "last_changed_at": "2026-08-18T13:54:16.237478Z",
+      "last_changed_at": "2026-08-18T14:19:27.727372Z",
       "source_signature": "637ce9b3bc2d070666c42f5fd92e749870848ee35ed6d4c156f831c9bc8f2d04",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -2095,13 +2095,14 @@
     },
     "aihot-selected": {
       "last_raw_count": 48,
-      "last_polled_at": "2026-08-18T13:54:16.237478Z",
+      "last_polled_at": "2026-08-18T14:19:27.727372Z",
       "source_signature": "54b0a2ce37b31eed7de5728f2ad3467d3fff1ec95a53a03f9ee11a9fa197fda4",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-09T08:44:50.779962Z",
       "seen_keys": [
         "https://openai.com/index/chatgpt-for-teens",
         "https://dev.to/googleai/designing-ai-evals-clarity-now-and-visualization-next-4eii",
+        "https://huggingface.co/blog/multi-vector-encoder",
         "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647685329&idx=1&sn=9471278dc489641c097b228912965ed4",
         "https://developers.googleblog.com/build-zero-trust-ai-agents-with-googles-agent-development-kit",
         "https://cursor.com/changelog/origin-code-hosting",
@@ -2398,10 +2399,9 @@
         "https://x.com/perplexity_ai/status/2082511900580196596",
         "https://github.com/drumih/turbo-fieldfare",
         "https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control",
-        "https://research.google/blog/science-one-framework-a-verifiable-autonomous-research-framework-via-chain-of-evidence",
-        "https://techcrunch.com/2026/07/29/hint-a-new-ai-startup-co-founded-by-martha-stewart-offers-an-ai-assistant-for-homeowners"
+        "https://research.google/blog/science-one-framework-a-verifiable-autonomous-research-framework-via-chain-of-evidence"
       ],
-      "last_changed_at": "2026-08-18T11:33:14.020665Z"
+      "last_changed_at": "2026-08-18T14:19:33.812239Z"
     }
   }
 }
