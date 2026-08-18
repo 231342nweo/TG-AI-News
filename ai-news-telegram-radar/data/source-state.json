@@ -367,6 +367,9 @@
       "baseline_initialized": true,
       "repos": {
         "deepseek-ai/deepseek-harness": "2026-08-17T12:01:58Z",
+        "deepseek-ai/DeepSeek-Coder-V2": "2025-11-11T06:44:45Z",
+        "deepseek-ai/DeepSeek-Coder": "2025-11-11T06:44:56Z",
+        "deepseek-ai/DeepSeek-V3": "2025-08-28T03:24:37Z",
         "deepseek-ai/Engram": "2026-01-14T01:13:02Z",
         "deepseek-ai/smallpond": "2025-03-05T18:23:54Z",
         "deepseek-ai/DeepSpec": "2026-07-09T04:37:14Z",
@@ -382,12 +385,9 @@
         "deepseek-ai/DeepSeek-Math-V2": "2025-12-01T07:01:42Z",
         "deepseek-ai/DeepSeek-V3.2-Exp": "2025-11-18T02:57:11Z",
         "deepseek-ai/TileKernels": "2026-04-23T10:19:21Z",
-        "deepseek-ai/DeepSeek-MoE": "2024-01-16T12:18:10Z",
-        "deepseek-ai/DualPipe": "2026-01-14T06:34:59Z",
-        "deepseek-ai/DreamCraft3D": "2025-04-22T11:09:39Z",
-        "deepseek-ai/DeepSeek-Math": "2024-04-15T07:55:37Z"
+        "deepseek-ai/DeepSeek-MoE": "2024-01-16T12:18:10Z"
       },
-      "last_changed_at": "2026-08-18T23:13:31.756564Z",
+      "last_changed_at": "2026-08-18T23:35:09.859406Z",
       "source_signature": "e247a4022cc1b9d1fcca44981d9eb5c7892416a57bcff15ec2fe2fc72cfd972e",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -396,7 +396,7 @@
       "last_checked_at": "2026-07-02T04:51:37.867265Z",
       "baseline_initialized": true,
       "repos": {
-        "MoonshotAI/kimi-code": "2026-08-18T22:58:52Z",
+        "MoonshotAI/kimi-code": "2026-08-18T23:25:06Z",
         "MoonshotAI/FlashKDA": "2026-07-30T07:14:39Z",
         "MoonshotAI/Kimi-K2.5": "2026-08-06T10:42:43Z",
         "MoonshotAI/MoonEP": "2026-08-13T09:30:40Z",
@@ -417,7 +417,7 @@
         "MoonshotAI/Kimi-Audio": "2025-06-21T15:30:28Z",
         "MoonshotAI/MoBA": "2025-04-03T07:28:06Z"
       },
-      "last_changed_at": "2026-08-18T23:13:31.756564Z",
+      "last_changed_at": "2026-08-18T23:35:09.859406Z",
       "source_signature": "c925f37596aaabb84376bf83142f08b0ce08447179a5d27a52c7956a40180daa",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -2095,7 +2095,7 @@
     },
     "aihot-selected": {
       "last_raw_count": 48,
-      "last_polled_at": "2026-08-18T23:13:31.756564Z",
+      "last_polled_at": "2026-08-18T23:35:09.859406Z",
       "source_signature": "54b0a2ce37b31eed7de5728f2ad3467d3fff1ec95a53a03f9ee11a9fa197fda4",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-09T08:44:50.779962Z",
