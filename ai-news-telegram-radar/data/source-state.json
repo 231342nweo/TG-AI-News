@@ -396,9 +396,9 @@
       "last_checked_at": "2026-07-02T04:51:37.867265Z",
       "baseline_initialized": true,
       "repos": {
-        "MoonshotAI/kimi-cli": "2026-08-03T07:59:07Z",
-        "MoonshotAI/kimi-code": "2026-08-18T04:06:09Z",
+        "MoonshotAI/kimi-code": "2026-08-18T04:34:00Z",
         "MoonshotAI/Kimi-K3": "2026-08-06T10:17:28Z",
+        "MoonshotAI/kimi-cli": "2026-08-03T07:59:07Z",
         "MoonshotAI/Kimi-VL": "2025-07-15T15:48:21Z",
         "MoonshotAI/Kimi-K2": "2026-01-21T05:33:12Z",
         "MoonshotAI/kimi-agent-sdk": "2026-05-29T05:29:38Z",
@@ -417,7 +417,7 @@
         "MoonshotAI/Kimi-Linear": "2025-11-17T09:36:48Z",
         "MoonshotAI/Kimi-Vendor-Verifier": "2026-08-13T15:21:02Z"
       },
-      "last_changed_at": "2026-08-18T04:06:25.469186Z",
+      "last_changed_at": "2026-08-18T04:46:05.026612Z",
       "source_signature": "c925f37596aaabb84376bf83142f08b0ce08447179a5d27a52c7956a40180daa",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -591,16 +591,16 @@
       "last_checked_at": "2026-07-02T04:51:55.708102Z",
       "baseline_initialized": true,
       "repos": {
-        "OpenBMB/MiniCPM": "2026-07-27T06:50:07Z",
         "OpenBMB/MiniCPM-V": "2026-08-12T14:16:57Z",
         "OpenBMB/StaffDeck": "2026-08-18T03:12:11Z",
         "OpenBMB/VoxCPM": "2026-08-12T14:14:37Z",
         "OpenBMB/XAgent": "2026-07-31T03:30:54Z",
+        "OpenBMB/MiniCPM": "2026-07-27T06:50:07Z",
         "OpenBMB/MiniCPM-Robot": "2026-08-05T07:51:51Z",
         "OpenBMB/MathForm": "2026-08-17T05:28:16Z",
         "OpenBMB/RepoAgent": "2024-12-23T11:48:52Z",
         "OpenBMB/ChatDev": "2026-07-24T08:01:27Z",
-        "OpenBMB/PilotDeck": "2026-08-18T03:27:50Z",
+        "OpenBMB/PilotDeck": "2026-08-18T04:12:34Z",
         "OpenBMB/ClawXRouter": "2026-03-31T08:35:42Z",
         "OpenBMB/MiniCPM-o-Demo": "2026-08-14T07:26:44Z",
         "OpenBMB/MiniCPM-Desk-Pet": "2026-07-07T14:15:36Z",
@@ -612,7 +612,7 @@
         "OpenBMB/ArcLight": "2026-05-30T02:59:35Z",
         "OpenBMB/ToolBench": "2025-05-21T15:46:59Z"
       },
-      "last_changed_at": "2026-08-18T03:28:05.641201Z",
+      "last_changed_at": "2026-08-18T04:46:05.026612Z",
       "source_signature": "3dd1c4ab8bc380dc66624329d310bc65fe6deafde7a370da1191ca03b32c0764",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -654,13 +654,13 @@
       "last_checked_at": "2026-07-02T04:51:58.871155Z",
       "baseline_initialized": true,
       "repos": {
-        "QwenLM/qwen-code": "2026-08-18T04:06:13Z",
+        "QwenLM/Qwen": "2026-03-05T13:55:17Z",
+        "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
+        "QwenLM/qwen-code": "2026-08-18T04:33:21Z",
         "QwenLM/Qwen-MM-Plugins": "2026-08-16T16:57:05Z",
         "QwenLM/Qwen3.8": "2026-08-17T05:17:40Z",
         "QwenLM/Qwen-Image": "2026-02-10T07:37:37Z",
-        "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
         "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
-        "QwenLM/Qwen": "2026-03-05T13:55:17Z",
         "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
         "QwenLM/Qwen3-Omni": "2026-04-23T10:58:01Z",
         "QwenLM/Qwen-AgentWorld": "2026-07-20T11:52:07Z",
@@ -675,7 +675,7 @@
         "QwenLM/qwen.cpp": "2024-12-06T08:32:28Z",
         "QwenLM/Qwen2.5-Math": "2025-01-11T17:30:43Z"
       },
-      "last_changed_at": "2026-08-18T04:06:25.469186Z",
+      "last_changed_at": "2026-08-18T04:46:05.026612Z",
       "source_signature": "ddc0d8d3788b1fc4ba6779bc400a51934ce7ac0845fbfff67f906a6d77406e21",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -711,6 +711,7 @@
     },
     "qbitai-rss": {
       "seen_keys": [
+        "https://www.qbitai.com/2026/08/474611.html",
         "https://www.qbitai.com/2026/08/474537.html",
         "https://www.qbitai.com/2026/08/474518.html",
         "https://www.qbitai.com/2026/08/474381.html",
@@ -1009,12 +1010,11 @@
         "https://www.qbitai.com/2026/07/451327.html",
         "https://www.qbitai.com/2026/07/451084.html",
         "https://www.qbitai.com/2026/07/451049.html",
-        "https://www.qbitai.com/2026/07/450921.html",
-        "https://www.qbitai.com/2026/07/450917.html"
+        "https://www.qbitai.com/2026/07/450921.html"
       ],
       "last_checked_at": "2026-07-02T04:52:26.145879Z",
       "baseline_initialized": true,
-      "last_changed_at": "2026-08-17T10:51:12.970467Z",
+      "last_changed_at": "2026-08-18T04:47:27.827821Z",
       "source_signature": "34418d38d4b87c134f9922d6999ac3c069821ed0be2134f9ba6ae5e00e4b63a9",
       "baseline_reinitialized_at": "2026-07-02T10:23:28.426031Z"
     },
@@ -2095,7 +2095,7 @@
     },
     "aihot-selected": {
       "last_raw_count": 48,
-      "last_polled_at": "2026-08-18T04:06:25.469186Z",
+      "last_polled_at": "2026-08-18T04:46:05.026612Z",
       "source_signature": "54b0a2ce37b31eed7de5728f2ad3467d3fff1ec95a53a03f9ee11a9fa197fda4",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-09T08:44:50.779962Z",
