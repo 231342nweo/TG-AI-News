@@ -48,22 +48,22 @@
       "last_changed_at": "2026-07-31T07:26:20.387037Z"
     },
     "zhipu-bigmodel-releases": {
-      "fingerprint": "634492b8cadcb1be2d7db5171c9a40e4f38c747395b30cfddf214a5c1bf55da0",
+      "fingerprint": "12d395dc8808047d391426185acc1217e07de2236a92905f8e022bc69e9b9576",
       "last_checked_at": "2026-07-02T04:51:33.147542Z",
-      "last_excerpt": "新品发布 - 智谱AI开放文档 Documentation Index Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. Skip to main content 智谱AI开放文档 home page Search... ⌘ K 控制台 价格 财务 API Key 个人中心 Search... Navigation 新品发布 使用指南 API 文档 场景示例 编码套餐 更新日志 条款与协议 常见问题 新品发布 功能更新 On this page 公告通知 2026-06-16 2026-05-29 2026-04-07 2026-04-02 2026-03-15 2026-02-12 2026-02-03 2026-01-19 2026-01-14 2025-12-22 2025-12-11 2025-12-11 2025-12-11 2025-12-10 2025-12-08 2025-09-30 2025-08-11 2025-07-28 2025-07-15 2025-07-02 2025-06-18 2025-04-23 2025-04-14 2025-04-14 新品发布 Copy page Copy page 最新模型和产品发布公告 Copy page Copy page ​ 公告通知 ​ 2026-06-16 GLM-5.2 新一代旗舰模型上线 💬 GLM-5.2 支持 1M 无损上下文，长程任务能力显著提升，减少复杂任务中的上下文漂移与目标遗忘 Coding 与长程任务评测达到开源 SOTA，在复杂系统工程、深度调试中表现更稳 真实开发体感显著提升，项目级上下文承载、工程规范遵循与多端开发更可靠 ​ 2026-05-29 GLM Coding Plan 团队版上线 🤝 GLM Coding Plan 团队版 面向企业与开发团队的自助订阅方案上线，延续个人版高额模型用量，并兼容全球主流编码工具 支持席位、权限、用量与预算统一管理，帮助团队实现可追踪、可控制的 AI 编程协作 提供集中账单、统一开票与企业级数据安全保障，默认不将代码、提示词和对话内容用于模型训练 高级版支持首发接入最新旗舰模型及高峰期资源优先保障，带来更稳定高效的团队开发体验 ​ 2026-04-07 GLM-5.1 新一代旗舰模型上线 💬 GLM-5.1 Coding 能力大大增强，长程任务（Long Horizon Task）显著提升，支持一次任务中独立、持续工作长达 8 小时，实现从规划、执行到交付的完整闭环 在自主规划、持续执行、问题修复与策略迭代上展现更强的工程智能，能够完成更长链路的复杂任务闭环 综合能力全面对齐 Claude Opus 4.6，成为首个在综合能力上实现全面对齐的中国模型，并跻身全球开源模型前列 通过 multi-turn SFT、RL 与过程质量评估体系，进一步强化长任务中的稳定性、一致性与 tool use 能力 ​ 2026-04-02 GLM-5V-Turbo 多模态 Coding 基座模型上线 👀 GLM-5V-Turbo 兼顾视觉理解与 Coding 能力，在更小参数量下实现更优的性能表现，多模态任务处理更高效 细粒度理解、几何感知与空间理解能力进一步增强，复杂视觉推理更准确 强化 GUI Agent、Coding Agent 等复杂任务表现，更适合“看懂环境—规划动作—执行任务”的长流程场景 多模态工具链进一步扩展，在文本工具基础上新增支持画框、截图、读网页（含图片识别）等多模态 Tools ​ 2026-03-15 GLM-5-Turbo 龙虾增强基座模型上线 🦞 GLM-5-Turbo 面向 OpenClaw 龙虾场景深度优化的基座模型 强化了对外部工具与各类Skills的调用能力，在多步任务中更稳定、更可靠 复杂指令拆解更强，能够精准识别目标、规划步骤，并支持多智能体之间的协同分工 能够更好理解时间维度上的要求，在复杂长任务中保持执行连续性 针对数据吞吐量大、逻辑链条长的龙虾任务，进一步提升了执行效率与响应稳定性 ​ 2026-02-12 GLM-5 新一代旗舰模型上线 💬 GLM-5 专为复杂系统工程与长程 Agent 任务设计，实现从代码到工程的范式跃迁 后端架构设计、复杂算法实现及顽固 Bug 修复上展现出卓越的深度推理能力 在代码逻辑密度和系统工程能力上直接对标 Claude Opus 4.5 首次集成 DeepSeek Sparse Attention，在维持长文本效果无损的同时，提升 Token Efficiency ​ 2026-02-03 GLM-OCR 图文解析模型上线 👀 GLM-OCR 采用自研 CogViT 与 GLM-0.5B 的编码器-解码器设计，连接层实现高效跨模态对齐 基于数十亿图文对的 CLIP 预训练，具备强大的视觉语义与关键 Token 提取能力 模型小、速度快，在手写体、表格、印章、竖排等复杂场景中表现稳定 ​ 2026-01-19 GLM-4.7-Flash 免费模型上线 💬 GLM-4.7-Flash 轻量参数规模下实现了高效的 Coding 能力，任务理解与代码生成能力处于同类模型的较高水平 通用能力同级别最优，在写作、翻译、推理、角色扮演、长文本与审美等核心场景下兼顾质量与响应速度 为 GLM-4.7 的免费版本，针对高频调用场景进行优化，显著降低使用门槛与成本 ​ 2026-01-14 GLM-Image 图像生成模型上线 📷 GLM-Image 首个在国产芯片上完成全流程训练的 SOTA 多模态模型 采用「自回归理解 + 扩散解码」混合架构，模型能读懂指令、补全细节 知识密集型场景全面增强，文字渲染更稳更准（汉字尤其出色） ​ 2025-12-22 GLM-4.7 基座模型上线 💬 GLM-4.7 Coding 能力全面提升，代码生成更稳、更完整，长代码与工程级场景下的一次性交付能力显著增强 Agentic Coding 能力升级，支持以任务为中心的端到端开发 前端与视觉代码理解增强，生成页面在布局、交互与审美上更接近可展示、可直接使用的水平 通用对话与内容生成更可靠，复杂问题拆解更清晰，简单问题回应更直接，整体表达更自然、高效 ​ 2025-12-11 AutoGLM-Phone AI 手机智能助理框架上线 🤖 AutoGLM-Phone 支持用自然语言自动完成 App 操作任务 具备界面识别、意图规划与设备执行的端到端处理能力，无需人工点击或复杂配置 已适配 50+ 主流中文应用场景，覆盖购物、出行、外卖、影音、资讯等高频任务 支持完整操作指令集，包括启动 App、输入文字、滑动、点击、回退、长按等，实现细粒度交互控制 ​ 2025-12-11 GLM-TTS-Clone 音色克隆模型上线 🎵 GLM-TTS-Clone 只需录制约 3 秒清晰语音，即可生成专属音色 支持普通话及轻口音，更好复刻节奏、停顿、语气词等个性化表达 无论旁白、客服、剧情配音、教育讲解，均可保持音色统一与情感一致性 可与 GLM-TTS 联动，通过音色 ID 进行批量生产 ​ 2025-12-11 GLM-TTS 语音合成模型上线 🎵 GLM-TTS 在架构上采用两阶段生成，在自然度、情绪表达与语调连贯性上实现全面升级 支持流式与非流式接口，首帧响应低于 400ms，实现低延迟的交互式体验 强化学习（GRPO）优化显著降低字错误率，并在开源评测中取得 SOTA 情感表达表现 支持灵活控制语速、音量与风格，满足客服、阅读、文旅、智能硬件等多场景需求 ​ 2025-12-10 GLM-ASR-2512 语音识别模型上线 🎤 GLM-ASR-2512 行业出色语音识别性能，最新评测字符错误率（CER）仅 0.0717 支持多语言与方言识别，覆盖普通话、粤语、四川话、美式/英式英语及数十种全球常用语言 原生支持自定义词典，可快速导入专业术语、人名地名与项目代号，显著提升垂直行业识别精度 ​ 2025-12-08 GLM-4.6V 视觉推理模型上线 👀 GLM-4.6V 20+ 主流多模态评测基准全面验证，均取得 SOTA 成绩 原生支持工具调用，具备强大的图文混排创作能力，并能处理识图购物等复杂的视觉任务 视觉上下文窗口扩展至 128k，可单次处理约 150 页的复杂文档、200 页 PPT 或一小时视频 针对前端开发场景深度调优，支持“截图即代码”，大幅提升 GLM Coding Plan 的开发与调试效率 ​ 2025-09-30 GLM-4.6 基座模型上线 💬 GLM-4.6 在公开基准与真实编程任务中展现出更强的代码能力 上下文窗口扩展至200K，提升处理长代码与复杂智能体任务的能力 推理过程进一步优化，支持在推理过程中调用工具，提升智能体任务执行的灵活性与效率 加强了模型在工具调用和智能体框架下的表现，使其在多场景应用中更加高效 ​ 2025-08-11 GLM-4.5V 视觉推理模型上线 👀 GLM-4.5V 100B 级别开源视觉推理模型 SOTA，比 GLM-4.1V-Thinking “更大更强” 覆盖从视频理解、前端复刻、视觉定位、图像识别与推理，到复杂文档解析与 GUI Agent 等多场景的视觉任务 新增“思考模式”开关，可灵活选择快速响应或深度推理 ​ 2025-07-28 G",
+      "last_excerpt": "新品发布 - 智谱AI开放文档 Documentation Index Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. Skip to main content 智谱AI开放文档 home page Search... ⌘ K 控制台 价格 财务 API Key 个人中心 Search... Navigation 新品发布 使用指南 API 文档 场景示例 编码套餐 更新日志 条款与协议 常见问题 新品发布 功能更新 On this page 公告通知 2026-8-19 2026-06-16 2026-05-29 2026-04-07 2026-04-02 2026-03-15 2026-02-12 2026-02-03 2026-01-19 2026-01-14 2025-12-22 2025-12-11 2025-12-11 2025-12-11 2025-12-10 2025-12-08 2025-09-30 2025-08-11 2025-07-28 2025-07-15 2025-07-02 2025-06-18 2025-04-23 2025-04-14 2025-04-14 新品发布 Copy page Copy page 最新模型和产品发布公告 Copy page Copy page ​ 公告通知 ​ 2026-8-19 GLM-5.3 新一代旗舰模型上线 💬 GLM-5.3 更强的编程能力：GLM-5.3 的编程能力大幅提升，在智谱内部 Z.ai Code Bench 上较 GLM-5.2 提升了 50%，在包括 Terminal Bench 3.0 等公开基准测试中达到开源模型 SOTA 水平 涌现的网络安全能力：在白盒代码审查与漏洞发现持平 Mythos 5，已联合多个中国安全团队测试并累计发现 2436 个漏洞（1097 个中高危） ​ 2026-06-16 GLM-5.2 新一代旗舰模型上线 💬 GLM-5.2 支持 1M 无损上下文，长程任务能力显著提升，减少复杂任务中的上下文漂移与目标遗忘 Coding 与长程任务评测达到开源 SOTA，在复杂系统工程、深度调试中表现更稳 真实开发体感显著提升，项目级上下文承载、工程规范遵循与多端开发更可靠 ​ 2026-05-29 GLM Coding Plan 团队版上线 🤝 GLM Coding Plan 团队版 面向企业与开发团队的自助订阅方案上线，延续个人版高额模型用量，并兼容全球主流编码工具 支持席位、权限、用量与预算统一管理，帮助团队实现可追踪、可控制的 AI 编程协作 提供集中账单、统一开票与企业级数据安全保障，默认不将代码、提示词和对话内容用于模型训练 高级版支持首发接入最新旗舰模型及高峰期资源优先保障，带来更稳定高效的团队开发体验 ​ 2026-04-07 GLM-5.1 新一代旗舰模型上线 💬 GLM-5.1 Coding 能力大大增强，长程任务（Long Horizon Task）显著提升，支持一次任务中独立、持续工作长达 8 小时，实现从规划、执行到交付的完整闭环 在自主规划、持续执行、问题修复与策略迭代上展现更强的工程智能，能够完成更长链路的复杂任务闭环 综合能力全面对齐 Claude Opus 4.6，成为首个在综合能力上实现全面对齐的中国模型，并跻身全球开源模型前列 通过 multi-turn SFT、RL 与过程质量评估体系，进一步强化长任务中的稳定性、一致性与 tool use 能力 ​ 2026-04-02 GLM-5V-Turbo 多模态 Coding 基座模型上线 👀 GLM-5V-Turbo 兼顾视觉理解与 Coding 能力，在更小参数量下实现更优的性能表现，多模态任务处理更高效 细粒度理解、几何感知与空间理解能力进一步增强，复杂视觉推理更准确 强化 GUI Agent、Coding Agent 等复杂任务表现，更适合“看懂环境—规划动作—执行任务”的长流程场景 多模态工具链进一步扩展，在文本工具基础上新增支持画框、截图、读网页（含图片识别）等多模态 Tools ​ 2026-03-15 GLM-5-Turbo 龙虾增强基座模型上线 🦞 GLM-5-Turbo 面向 OpenClaw 龙虾场景深度优化的基座模型 强化了对外部工具与各类Skills的调用能力，在多步任务中更稳定、更可靠 复杂指令拆解更强，能够精准识别目标、规划步骤，并支持多智能体之间的协同分工 能够更好理解时间维度上的要求，在复杂长任务中保持执行连续性 针对数据吞吐量大、逻辑链条长的龙虾任务，进一步提升了执行效率与响应稳定性 ​ 2026-02-12 GLM-5 新一代旗舰模型上线 💬 GLM-5 专为复杂系统工程与长程 Agent 任务设计，实现从代码到工程的范式跃迁 后端架构设计、复杂算法实现及顽固 Bug 修复上展现出卓越的深度推理能力 在代码逻辑密度和系统工程能力上直接对标 Claude Opus 4.5 首次集成 DeepSeek Sparse Attention，在维持长文本效果无损的同时，提升 Token Efficiency ​ 2026-02-03 GLM-OCR 图文解析模型上线 👀 GLM-OCR 采用自研 CogViT 与 GLM-0.5B 的编码器-解码器设计，连接层实现高效跨模态对齐 基于数十亿图文对的 CLIP 预训练，具备强大的视觉语义与关键 Token 提取能力 模型小、速度快，在手写体、表格、印章、竖排等复杂场景中表现稳定 ​ 2026-01-19 GLM-4.7-Flash 免费模型上线 💬 GLM-4.7-Flash 轻量参数规模下实现了高效的 Coding 能力，任务理解与代码生成能力处于同类模型的较高水平 通用能力同级别最优，在写作、翻译、推理、角色扮演、长文本与审美等核心场景下兼顾质量与响应速度 为 GLM-4.7 的免费版本，针对高频调用场景进行优化，显著降低使用门槛与成本 ​ 2026-01-14 GLM-Image 图像生成模型上线 📷 GLM-Image 首个在国产芯片上完成全流程训练的 SOTA 多模态模型 采用「自回归理解 + 扩散解码」混合架构，模型能读懂指令、补全细节 知识密集型场景全面增强，文字渲染更稳更准（汉字尤其出色） ​ 2025-12-22 GLM-4.7 基座模型上线 💬 GLM-4.7 Coding 能力全面提升，代码生成更稳、更完整，长代码与工程级场景下的一次性交付能力显著增强 Agentic Coding 能力升级，支持以任务为中心的端到端开发 前端与视觉代码理解增强，生成页面在布局、交互与审美上更接近可展示、可直接使用的水平 通用对话与内容生成更可靠，复杂问题拆解更清晰，简单问题回应更直接，整体表达更自然、高效 ​ 2025-12-11 AutoGLM-Phone AI 手机智能助理框架上线 🤖 AutoGLM-Phone 支持用自然语言自动完成 App 操作任务 具备界面识别、意图规划与设备执行的端到端处理能力，无需人工点击或复杂配置 已适配 50+ 主流中文应用场景，覆盖购物、出行、外卖、影音、资讯等高频任务 支持完整操作指令集，包括启动 App、输入文字、滑动、点击、回退、长按等，实现细粒度交互控制 ​ 2025-12-11 GLM-TTS-Clone 音色克隆模型上线 🎵 GLM-TTS-Clone 只需录制约 3 秒清晰语音，即可生成专属音色 支持普通话及轻口音，更好复刻节奏、停顿、语气词等个性化表达 无论旁白、客服、剧情配音、教育讲解，均可保持音色统一与情感一致性 可与 GLM-TTS 联动，通过音色 ID 进行批量生产 ​ 2025-12-11 GLM-TTS 语音合成模型上线 🎵 GLM-TTS 在架构上采用两阶段生成，在自然度、情绪表达与语调连贯性上实现全面升级 支持流式与非流式接口，首帧响应低于 400ms，实现低延迟的交互式体验 强化学习（GRPO）优化显著降低字错误率，并在开源评测中取得 SOTA 情感表达表现 支持灵活控制语速、音量与风格，满足客服、阅读、文旅、智能硬件等多场景需求 ​ 2025-12-10 GLM-ASR-2512 语音识别模型上线 🎤 GLM-ASR-2512 行业出色语音识别性能，最新评测字符错误率（CER）仅 0.0717 支持多语言与方言识别，覆盖普通话、粤语、四川话、美式/英式英语及数十种全球常用语言 原生支持自定义词典，可快速导入专业术语、人名地名与项目代号，显著提升垂直行业识别精度 ​ 2025-12-08 GLM-4.6V 视觉推理模型上线 👀 GLM-4.6V 20+ 主流多模态评测基准全面验证，均取得 SOTA 成绩 原生支持工具调用，具备强大的图文混排创作能力，并能处理识图购物等复杂的视觉任务 视觉上下文窗口扩展至 128k，可单次处理约 150 页的复杂文档、200 页 PPT 或一小时视频 针对前端开发场景深度调优，支持“截图即代码”，大幅提升 GLM Coding Plan 的开发与调试效率 ​ 2025-09-30 GLM-4.6 基座模型上线 💬 GLM-4.6 在公开基准与真实编程任务中展现出更强的代码能力 上下文窗口扩展至200K，提升处理长代码与复杂智能体任务的能力 推理过程进一步优化，支持在推理过程中调用工具，提",
       "baseline_initialized": true,
       "source_signature": "10ecc1fa06af0b5ebdba84930554907f1be5b50926f64d96055671c12cbac811",
       "baseline_reinitialized_at": "2026-07-02T10:22:21.295328Z",
-      "last_changed_at": "2026-07-28T06:43:45.843999Z"
+      "last_changed_at": "2026-08-18T17:11:22.158914Z"
     },
     "zai-release-notes": {
-      "fingerprint": "5b5ab3620167e1331f3de0aeeefe0cb5df12d59e706e0228bac5dcab6248a6fe",
+      "fingerprint": "9dbf64e6dd46f6578e8bd92511e29f50785c3e00fd1e1712f334988e52478d6b",
       "last_checked_at": "2026-07-02T04:51:33.147542Z",
-      "last_excerpt": "New Released - Overview - Z.AI DEVELOPER DOCUMENT Documentation Index Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. Skip to main content Overview - Z.AI DEVELOPER DOCUMENT home page English Search... ⌘ K API Keys Payment Method Search... Navigation New Released Guides API Reference Coding Plan Released Notes Terms and Policy Help Center New Released On this page Models 2026-06-16 2026-04-07 2026-04-01 2026-03-15 2026-02-12 2026-02-03 2026-01-19 2026-01-14 2025-12-22 2025-12-11 2025-12-10 2025-12-08 2025-09-30 2025-08-11 2025-08-08 2025-07-28 2025-07-15 New Released Copy page Copy page Follow along with updates across Z.AI’s models Copy page Copy page ​ Models ​ 2026-06-16 GLM-5.2 Supports 1M lossless context, significantly improving long-horizon task capabilities and reducing context drift and goal forgetting in complex tasks Achieves open-source SOTA performance on coding and long-horizon task benchmarks, delivering more stable results in complex system engineering and deep debugging Significantly improves the real-world developer experience, with more reliable project-level context handling, adherence to engineering standards, and multi-platform development. Learn more in our documentation .* ​ 2026-04-07 GLM-5.1 Designed for long-horizon tasks, GLM-5.1 can work independently for up to 8 hours in a single run, enabling a full loop from planning and execution to iterative refinement and final delivery. It demonstrates stronger engineering intelligence across autonomous planning, sustained execution, bug fixing, and strategy iteration, while achieving comprehensive capability alignment with Claude Opus 4.6. Built with multi-turn SFT, RL, and a process-quality evaluation framework, GLM-5.1 further improves stability, consistency, and tool use over extended tasks. Learn more in our documentation .* ​ 2026-04-01 GLM-5V-Turbo Designed for vision-based coding and claw-style Agent workflows, GLM-5V-Turbo brings native multimodal understanding to images, video, and text, enabling stronger planning, coding, and action execution in visually grounded tasks. It strengthens multimodal tool use and GUI task execution, allowing the model to better interpret interfaces, design mocks, documents, and charts, plan the next action, and complete end-to-end Agent workflows while maintaining strong pure-text coding and reasoning performance. Learn more in our documentation .* ​ 2026-03-15 GLM-5-Turbo Designed for high-throughput OpenClaw lobster workloads, GLM-5-Turbo focuses on improving stability and efficiency in long-chain Agent tasks, enabling smoother execution for complex, multi-step workflows. It strengthens tool and Skills integration and enhances complex instruction decomposition, allowing the model to better identify task goals, plan execution steps, coordinate across multiple agents, and maintain temporal consistency in extended tasks.Learn more in our documentation .* ​ 2026-02-12 GLM-5 Designed for complex system engineering and long-range Agent tasks, GLM-5 shifts the paradigm from coding to engineering, demonstrating strong deep-reasoning performance in backend architecture, complex algorithms, and stubborn bug fixing. It directly benchmarks against Claude Opus 4.5 in code-logic density and systems-engineering capability, and integrates DeepSeek Sparse Attention for higher token efficiency while preserving long-context quality.Learn more in our documentation .* ​ 2026-02-03 GLM-OCR We’ve launched GLM-OCR, a compact and high-performance optical character recognition model powered by the self-developed CogViT and GLM-0.5B encoder-decoder architecture, enabling efficient cross-modal alignment through its dedicated connection layer. The update leverages CLIP pre-training on billions of image-text pairs to deliver robust visual semantic understanding and key token extraction capabilities, while maintaining a lightweight design for fast inference. Learn more in",
+      "last_excerpt": "New Released - Overview - Z.AI DEVELOPER DOCUMENT Documentation Index Fetch the complete documentation index at: /llms.txt Use this file to discover all available pages before exploring further. Skip to main content Overview - Z.AI DEVELOPER DOCUMENT home page English Search... ⌘ K API Keys Payment Method Search... Navigation New Released Guides API Reference Coding Plan Released Notes Terms and Policy Help Center New Released On this page Models 2026-08-18 2026-06-16 2026-04-07 2026-04-01 2026-03-15 2026-02-12 2026-02-03 2026-01-19 2026-01-14 2025-12-22 2025-12-11 2025-12-10 2025-12-08 2025-09-30 2025-08-11 2025-08-08 2025-07-28 2025-07-15 New Released Copy page Copy page Follow along with updates across Z.AI’s models Copy page Copy page ​ Models ​ 2026-08-18 GLM-5.3 Stronger Coding Capabilities: GLM-5.3 delivers a significant improvement in coding capabilities, achieving a 50% gain over GLM-5.2 on Z.ai Code Bench and reaching state-of-the-art (SOTA) performance among open-source models on public benchmarks, including Terminal Bench 3.0. Emergent Cybersecurity Capabilities: GLM-5.3 matches Mythos 5 in white-box code review and vulnerability discovery. In collaboration with multiple cybersecurity teams, it has been tested on real-world targets and has identified a total of 2,436 vulnerabilities, including 1,097 medium- and high-severity vulnerabilities.Learn more in our documentation .* ​ 2026-06-16 GLM-5.2 Supports 1M lossless context, significantly improving long-horizon task capabilities and reducing context drift and goal forgetting in complex tasks Achieves open-source SOTA performance on coding and long-horizon task benchmarks, delivering more stable results in complex system engineering and deep debugging Significantly improves the real-world developer experience, with more reliable project-level context handling, adherence to engineering standards, and multi-platform development. Learn more in our documentation .* ​ 2026-04-07 GLM-5.1 Designed for long-horizon tasks, GLM-5.1 can work independently for up to 8 hours in a single run, enabling a full loop from planning and execution to iterative refinement and final delivery. It demonstrates stronger engineering intelligence across autonomous planning, sustained execution, bug fixing, and strategy iteration, while achieving comprehensive capability alignment with Claude Opus 4.6. Built with multi-turn SFT, RL, and a process-quality evaluation framework, GLM-5.1 further improves stability, consistency, and tool use over extended tasks. Learn more in our documentation .* ​ 2026-04-01 GLM-5V-Turbo Designed for vision-based coding and claw-style Agent workflows, GLM-5V-Turbo brings native multimodal understanding to images, video, and text, enabling stronger planning, coding, and action execution in visually grounded tasks. It strengthens multimodal tool use and GUI task execution, allowing the model to better interpret interfaces, design mocks, documents, and charts, plan the next action, and complete end-to-end Agent workflows while maintaining strong pure-text coding and reasoning performance. Learn more in our documentation .* ​ 2026-03-15 GLM-5-Turbo Designed for high-throughput OpenClaw lobster workloads, GLM-5-Turbo focuses on improving stability and efficiency in long-chain Agent tasks, enabling smoother execution for complex, multi-step workflows. It strengthens tool and Skills integration and enhances complex instruction decomposition, allowing the model to better identify task goals, plan execution steps, coordinate across multiple agents, and maintain temporal consistency in extended tasks.Learn more in our documentation .* ​ 2026-02-12 GLM-5 Designed for complex system engineering and long-range Agent tasks, GLM-5 shifts the paradigm from coding to engineering, demonstrating strong deep-reasoning performance in backend architecture, complex algorithms, and stubborn bug fixing. It directly benchmarks against Claude Opus 4.5 in code-logic density and systems-engine",
       "baseline_initialized": true,
       "source_signature": "17e0c70fa26af5bceb63ab992818e61ea4fa7140e818e75f8d23d31f31fc777a",
       "baseline_reinitialized_at": "2026-07-02T10:22:21.295328Z",
-      "last_changed_at": "2026-07-16T19:07:09.911263Z"
+      "last_changed_at": "2026-08-18T17:11:22.158914Z"
     },
     "zai-huggingface": {
       "models": {
@@ -396,11 +396,11 @@
       "last_checked_at": "2026-07-02T04:51:37.867265Z",
       "baseline_initialized": true,
       "repos": {
-        "MoonshotAI/kimi-code": "2026-08-18T16:28:04Z",
+        "MoonshotAI/kimi-code": "2026-08-18T16:51:21Z",
+        "MoonshotAI/Kimi-K3": "2026-08-06T10:17:28Z",
         "MoonshotAI/kimi-cli": "2026-08-03T07:59:07Z",
         "MoonshotAI/PerceptionBench": "2026-08-03T08:33:26Z",
         "MoonshotAI/Kimi-K2": "2026-01-21T05:33:12Z",
-        "MoonshotAI/Kimi-K3": "2026-08-06T10:17:28Z",
         "MoonshotAI/Kimi-Vendor-Verifier": "2026-08-13T15:21:02Z",
         "MoonshotAI/checkpoint-engine": "2026-08-12T05:59:00Z",
         "MoonshotAI/Attention-Residuals": "2026-03-17T06:23:11Z",
@@ -417,7 +417,7 @@
         "MoonshotAI/Kimi-Audio": "2025-06-21T15:30:28Z",
         "MoonshotAI/MoBA": "2025-04-03T07:28:06Z"
       },
-      "last_changed_at": "2026-08-18T16:47:48.787240Z",
+      "last_changed_at": "2026-08-18T17:11:22.158914Z",
       "source_signature": "c925f37596aaabb84376bf83142f08b0ce08447179a5d27a52c7956a40180daa",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -621,9 +621,10 @@
       "last_checked_at": "2026-07-02T04:51:56.844085Z",
       "baseline_initialized": true,
       "repos": {
-        "InternLM/xtuner": "2026-08-18T09:59:15Z",
-        "InternLM/SIM-CoT": "2026-04-13T14:19:59Z",
+        "InternLM/MindSearch": "2025-07-04T10:06:45Z",
         "InternLM/Intern-S2-Mobius": "2026-08-14T12:48:30Z",
+        "InternLM/xtuner": "2026-08-18T16:56:21Z",
+        "InternLM/SIM-CoT": "2026-04-13T14:19:59Z",
         "InternLM/InternLM": "2025-10-30T00:35:43Z",
         "InternLM/lmdeploy": "2026-08-18T08:28:57Z",
         "InternLM/EndoCoT": "2026-08-11T12:58:37Z",
@@ -633,7 +634,6 @@
         "InternLM/JanusCoder": "2026-05-09T04:22:10Z",
         "InternLM/ARM-Thinker": "2026-02-13T09:00:05Z",
         "InternLM/archspace": "2026-08-13T06:49:54Z",
-        "InternLM/MindSearch": "2025-07-04T10:06:45Z",
         "InternLM/InternLM-techreport": "2023-06-07T04:52:53Z",
         "InternLM/agentlego": "2024-09-13T08:00:19Z",
         "InternLM/Intern-S1": "2026-07-17T10:25:15Z",
@@ -642,7 +642,7 @@
         "InternLM/InternLM-Law": "2024-05-14T07:44:09Z",
         "InternLM/AcmeTrace": "2024-03-12T11:49:56Z"
       },
-      "last_changed_at": "2026-08-18T10:12:11.839250Z",
+      "last_changed_at": "2026-08-18T17:11:22.158914Z",
       "source_signature": "a7a2f73a91108336ba1fe2d4fb4d5921862eb329f648d490a4d7903663f49f70",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -654,7 +654,8 @@
       "last_checked_at": "2026-07-02T04:51:58.871155Z",
       "baseline_initialized": true,
       "repos": {
-        "QwenLM/qwen-code": "2026-08-18T16:43:03Z",
+        "QwenLM/qwen-code": "2026-08-18T17:10:11Z",
+        "QwenLM/Qwen-Agent": "2026-03-04T08:15:07Z",
         "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
         "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
         "QwenLM/Qwen3.8": "2026-08-17T05:17:40Z",
@@ -672,10 +673,9 @@
         "QwenLM/Qwen-VL": "2024-08-07T02:37:06Z",
         "QwenLM/FlashQLA": "2026-08-11T06:25:42Z",
         "QwenLM/Qwen-RobotNav": "2026-06-30T03:01:19Z",
-        "QwenLM/Qwen3-Coder": "2026-03-24T08:22:10Z",
-        "QwenLM/Qwen-Agent": "2026-03-04T08:15:07Z"
+        "QwenLM/Qwen3-Coder": "2026-03-24T08:22:10Z"
       },
-      "last_changed_at": "2026-08-18T16:47:48.787240Z",
+      "last_changed_at": "2026-08-18T17:11:22.158914Z",
       "source_signature": "ddc0d8d3788b1fc4ba6779bc400a51934ce7ac0845fbfff67f906a6d77406e21",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -684,6 +684,7 @@
       "last_checked_at": "2026-07-02T04:52:01.889603Z",
       "baseline_initialized": true,
       "repos": {
+        "Tencent-Hunyuan/ArtifactsBenchmark": "2025-12-30T06:38:40Z",
         "Tencent-Hunyuan/Hy3": "2026-07-17T10:11:52Z",
         "Tencent-Hunyuan/HunyuanVideo": "2026-06-29T09:33:50Z",
         "Tencent-Hunyuan/Hunyuan3D-2.1": "2025-10-17T10:10:07Z",
@@ -702,10 +703,9 @@
         "Tencent-Hunyuan/Hy-Embodied-0.5-VLA": "2026-08-04T07:32:42Z",
         "Tencent-Hunyuan/HY-Embodied": "2026-07-15T11:54:12Z",
         "Tencent-Hunyuan/Hunyuan3D-Buffalo1.0": "2026-08-10T17:04:25Z",
-        "Tencent-Hunyuan/Hunyuan3D-2": "2025-10-28T09:58:12Z",
-        "Tencent-Hunyuan/HunyuanWorld-Voyager": "2026-04-15T17:30:08Z"
+        "Tencent-Hunyuan/Hunyuan3D-2": "2025-10-28T09:58:12Z"
       },
-      "last_changed_at": "2026-08-18T16:47:48.787240Z",
+      "last_changed_at": "2026-08-18T17:11:22.158914Z",
       "source_signature": "637ce9b3bc2d070666c42f5fd92e749870848ee35ed6d4c156f831c9bc8f2d04",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -1482,7 +1482,7 @@
         "https://www.tc260.org.cn/portal/article/1/c5bff06b0a544674b12b89271bf8df02",
         "https://www.tc260.org.cn/portal/article/1/9745608fa11e46639275aa834e58b5c4",
         "https://www.tc260.org.cn/portal/article/1/07d60a8d728445fbb3526ca97e3d02d9",
-        "https://www.tc260.org.cn/portal/article/1/4541a22bb6f542b5ae7c37ffe0d914aa",
+        "https://www.tc260.org.cn/portal/article/1/a6d21a769f07420f818f6bed6797c618",
         "https://www.tc260.org.cn/portal/article/2/13c3282d6feb4b97930ded6faf656b2b",
         "https://www.tc260.org.cn/portal/article/2/a1de240fa2a7452e93df1ca6c3f1cf45",
         "https://www.tc260.org.cn/portal/article/2/f81cf1f5c0504a1b92239f042d04d0bb",
@@ -1496,7 +1496,7 @@
         "https://www.tc260.org.cn/portal/suggestion-detail/cb5000e8a5de441298c267b21777e51b",
         "https://www.tc260.org.cn/portal/suggestion-detail/e79c8c1ecc99494e93861c7c618d12ec",
         "https://www.tc260.org.cn/portal/suggestion-detail/f134b0e1e59647679e797e5d3863cd63",
-        "https://www.tc260.org.cn/portal/article/1/a6d21a769f07420f818f6bed6797c618",
+        "https://www.tc260.org.cn/portal/article/1/4541a22bb6f542b5ae7c37ffe0d914aa",
         "https://www.tc260.org.cn/portal/article/2/e277e9cf94424b4cb2434ba552dc8279",
         "https://www.tc260.org.cn/portal/article/2/c26a15400af34b66bf76771dcf9d0d3c",
         "https://www.tc260.org.cn/portal/article/2/bb41ce76e8ce44e2b4aa18ec5cd1e51e",
@@ -1565,7 +1565,7 @@
       ],
       "last_checked_at": "2026-07-02T04:52:25.829528Z",
       "baseline_initialized": true,
-      "last_changed_at": "2026-08-18T16:51:48.503661Z",
+      "last_changed_at": "2026-08-18T17:15:31.197569Z",
       "source_signature": "ac7adf7536607ad1dc8d9ca06c0f10f499a52b1893dcc2d8ec03dd7b6240b921",
       "baseline_reinitialized_at": "2026-07-02T10:23:25.737100Z"
     },
@@ -2095,7 +2095,7 @@
     },
     "aihot-selected": {
       "last_raw_count": 48,
-      "last_polled_at": "2026-08-18T16:47:48.787240Z",
+      "last_polled_at": "2026-08-18T17:11:22.158914Z",
       "source_signature": "54b0a2ce37b31eed7de5728f2ad3467d3fff1ec95a53a03f9ee11a9fa197fda4",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-09T08:44:50.779962Z",
