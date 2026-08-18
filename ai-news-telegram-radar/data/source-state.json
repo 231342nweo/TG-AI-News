@@ -186,13 +186,13 @@
       "last_suppressed_reason": "html_diff_without_readable_change"
     },
     "baidu-qianfan-docs": {
-      "fingerprint": "cb3ea18581160368fd2149918d7678bf2d2daea4f9e25ffe180ba4a57c5eb485",
+      "fingerprint": "c4491dd35b99f7fe65743fc805428aeb03cada2ace72e2b695ea2859d7c4a528",
       "last_checked_at": "2026-07-02T04:51:33.147542Z",
-      "last_excerpt": "百度千帆·大模型服务及Agent开发平台 -百度智能云 最新活动 产品 解决方案 千帆社区 AI原生应用商店 企业服务 云市场 合作与生态 开发者 服务与支持 了解智能云 备案 文档 管理控制台 文档中心 推荐文档 云服务器 千帆大模型平台 文字识别 人脸识别 实名认证介绍 备案介绍 财务功能概述 搜索本产品文档关键词 所有文档 人工智能 百度千帆模型服务及Agent开发平台 百度胜算 DuClaw DuMate 秒哒 百度伐谋 百度一见 智能代码助手 文字识别 语音技术 人脸识别 人体分析 语言处理技术 图像识别 图像搜索 图像增强 BML全功能AI开发平台 零门槛AI开发平台 EasyDL 知识理解 机器人平台 ABC Robot 内容审核 机器翻译 居民服务Agent 曦灵数字人 计算 云服务器 BCC 专属服务器 DCC 弹性裸金属服务器 GPU云服务器 FPGA云服务器 云手机 弹性伸缩 AS 云编排服务 COS 应用引擎 BAE 轻量应用服务器 LS 本地计算集群 LCC 百度百舸·AI计算平台 云高性能计算平台 磐玉一体机 网络 弹性公网IP 私有网络 VPC 服务网卡 SNIC 负载均衡 BLB 智能云解析 DNS 专线接入 ET 云智能网 CSN 智能流量管理 云防火墙 CFW 智能网络接入服务 网络诊断服务 存储 对象存储 BOS 云磁盘 CDS 文件存储 CFS 并行文件存储 PFS 存储网关 BSG 数据流转平台 CloudFlow 极速文件缓存 RapidFS 云备份 BCB 表格存储 TableStorage CDN与边缘服务 内容分发网络 CDN 海外CDN 动态加速 DRCDN 边缘计算节点 BEC 边缘服务器 ECS 数据库 云数据库 RDS 云数据库 Redis 云数据库 DocDB for MongoDB 云原生数据库 GaiaDB 数据传输服务 DTS 数据库智能驾驶舱 DBSC 消息服务 for RabbitMQ 向量数据库 VectorDB 云原生 容器引擎服务 CCE 容器镜像服务CCR Prometheus监控服务 容器实例BCI 函数计算 CFC 服务网格 CSM 微服务引擎 MSE AI原生网关 AIGW 智能体沙箱 AX 管理运维 云监控BCM 运维编排服务 效率云 API网关 标签管理 资源管理 配额中心 云迁移中心 服务与支持 智能视频 音视频处理 智能视频 SDK 媒体内容分析 媒体内容审核 音视频直播 智能直播应用平台 ILAP 实时音视频 RTC 智能点播平台 VOD 多模态资源检索 智能视联网平台 智能大数据 MapReduce 流式计算 BSC 数据可视化 Sugar BI Elasticsearch 数据仓库 PALO 日志服务 BLS 消息服务 for Kafka 消息服务 for RocketMQ 千帆数据智能平台 DataBuilder 城市时空大数据分析 DMI 安全 DDoS防护服务 Agent安全中心 应用防火墙WAF 云安全中心 安全检测服务 流量审计分析 云审计 业务安全风控 号码安全服务SPNS 密钥管理服务 SSL证书 云堡垒机 安全漏洞预警 操作系统安全加固 应用加固与安全检测 短网址服务 史宾格安全及隐私合规平台 大模型内容安全平台 云通信 短信服务 SMS 号码隐私保护服务 PNS 号码认证服务 语音通话 语言通知服务 5G消息服务 域名与网站 智能门户 域名服务 备案服务 移动域名解析 商标服务 云主机管家 数字营销云 智能对话营销服务 企业智能应用 智能对话平台UNIT私有化 智能对话平台UNIT云端版 智能外呼 智能推荐引擎 工商财税服务 CBS 问卷调研服务 移动APP测试服务 物联网服务 物联网核心套件 时序时空数据库 TSDB 物联网安全套件 天工智能物联网解决方案 度家-AIOT语音平台 区块链 超级链BaaS平台 超级链数字商品可信登记平台 超级链可信存证 混合云 广目混合云管理平台 BaiduLinuxOS 云市场 云市场 解决方案 金融云 工业视觉智能平台 云游戏 金融智能体 账户管理 账号管理 多用户访问控制 企业组织 证书管理 实名认证 通用参考 ICP备案帮助 区域选择说明 鉴权认证机制 获取AK/SK 术语表 法律条款 API入门指南 财务参考 计费说明 发票 充值 续费 代金券 账单与收支 订单管理 提现 退款 配置升/降级 赔付 企业组织财务管理 合同 常见问题 百度千帆·大模型服务及Agent开发平台 平台介绍 模型介绍 Token Plan 个人版 Token Plan 企业版 Coding Plan 计费说明 最佳实践 平台操作 API参考 SDK参考 常见问题 相关协议 文档中心 百度千帆·大模型服务及Agent开发平台 百度千帆·大模型服务及Agent开发平台 产品详情 全新的“百度千帆”以Agent为核心，为企业提供模型、Agent开发及数据智能服务等一站式服务。百度千帆基于百度智能云的全栈AI云布局，围绕Agent引擎、工具及MCP、模型服务与企业级服务等四大关键要素，为Agent的应用落地构建了坚实的能力底座。 学习路径 循序渐进，带您全面了解百度千帆·大模型服务及Agent开发平台 了解 了解百度千帆·大模型服务及Agent开发平台的产品特性，优势和使用场景，让您对它有一个全局的认识。 平台简介 产品公告 费用说明 针对不同的应用场景，您可以灵活选择计费模式 模型服务计费 退款申请说明 模型token计算说明 平台操作 当前新用户注册百度千帆·大模型服务及Agent开发平台 ，实名认证后即送20元代金券！全平台无门槛使用，有效期一个月。 模型服务 应用开发 组件广场 系统管理 百度千帆·大模型服务及Agent开发平台 百度千帆·大模型服务及Agent开发平台 产品详情 全新的“百度千帆”以Agent为核心，为企业提供模型、Agent开发及数据智能服务等一站式服务。百度千帆基于百度智能云的全栈AI云布局，围绕Agent引擎、工具及MCP、模型服务与企业级服务等四大关键要素，为Agent的应用落地构建了坚实的能力底座。 学习路径 循序渐进，带您全面了解百度千帆·大模型服务及Agent开发平台 ① 了解 了解百度千帆·大模型服务及Agent开发平台的产品特性，优势和使用场景，让您对它有一个全局的认识。 · 平台简介 · 产品公告 ② 费用说明 针对不同的应用场景，您可以灵活选择计费模式 · 模型服务计费 · 退款申请说明 · 模型token计算说明 ③ 平台操作 当前新用户注册百度千帆·大模型服务及Agent开发平台 ，实名认证后即送20元代金券！全平台无门槛使用，有效期一个月。 · 模型服务 · 应用开发 · 组件广场 · 系统管理",
+      "last_excerpt": "百度千帆·大模型服务及Agent开发平台 -百度智能云 最新活动 产品 解决方案 千帆社区 AI原生应用商店 企业服务 云市场 合作与生态 开发者 服务与支持 了解智能云 备案 文档 管理控制台 文档中心 推荐文档 云服务器 千帆大模型平台 文字识别 人脸识别 实名认证介绍 备案介绍 财务功能概述 搜索本产品文档关键词 所有文档 人工智能 百度千帆模型服务及Agent开发平台 百度胜算 DuClaw DuMate 秒哒 百度伐谋 百度一见 智能代码助手 文字识别 语音技术 人脸识别 人体分析 语言处理技术 图像识别 图像搜索 图像增强 BML全功能AI开发平台 零门槛AI开发平台 EasyDL 知识理解 机器人平台 ABC Robot 内容审核 机器翻译 居民服务Agent Hogee数字员工 计算 云服务器 BCC 专属服务器 DCC 弹性裸金属服务器 GPU云服务器 FPGA云服务器 云手机 弹性伸缩 AS 云编排服务 COS 应用引擎 BAE 轻量应用服务器 LS 本地计算集群 LCC 百度百舸·AI计算平台 云高性能计算平台 磐玉一体机 网络 弹性公网IP 私有网络 VPC 服务网卡 SNIC 负载均衡 BLB 智能云解析 DNS 专线接入 ET 云智能网 CSN 智能流量管理 云防火墙 CFW 智能网络接入服务 网络诊断服务 存储 对象存储 BOS 云磁盘 CDS 文件存储 CFS 并行文件存储 PFS 存储网关 BSG 数据流转平台 CloudFlow 极速文件缓存 RapidFS 云备份 BCB 表格存储 TableStorage CDN与边缘服务 内容分发网络 CDN 海外CDN 动态加速 DRCDN 边缘计算节点 BEC 边缘服务器 ECS 数据库 云数据库 RDS 云数据库 Redis 云数据库 DocDB for MongoDB 云原生数据库 GaiaDB 数据传输服务 DTS 数据库智能驾驶舱 DBSC 消息服务 for RabbitMQ 向量数据库 VectorDB 云原生 容器引擎服务 CCE 容器镜像服务CCR Prometheus监控服务 容器实例BCI 函数计算 CFC 服务网格 CSM 微服务引擎 MSE AI原生网关 AIGW 智能体沙箱 AX 管理运维 云监控BCM 运维编排服务 效率云 API网关 标签管理 资源管理 配额中心 云迁移中心 服务与支持 智能视频 音视频处理 智能视频 SDK 媒体内容分析 媒体内容审核 音视频直播 智能直播应用平台 ILAP 实时音视频 RTC 智能点播平台 VOD 多模态资源检索 智能视联网平台 智能大数据 MapReduce 流式计算 BSC 数据可视化 Sugar BI Elasticsearch 数据仓库 PALO 日志服务 BLS 消息服务 for Kafka 消息服务 for RocketMQ 千帆数据智能平台 DataBuilder 城市时空大数据分析 DMI 安全 DDoS防护服务 Agent安全中心 应用防火墙WAF 云安全中心 安全检测服务 流量审计分析 云审计 业务安全风控 号码安全服务SPNS 密钥管理服务 SSL证书 云堡垒机 安全漏洞预警 操作系统安全加固 应用加固与安全检测 短网址服务 史宾格安全及隐私合规平台 大模型内容安全平台 云通信 短信服务 SMS 号码隐私保护服务 PNS 号码认证服务 语音通话 语言通知服务 5G消息服务 域名与网站 智能门户 域名服务 备案服务 移动域名解析 商标服务 云主机管家 数字营销云 智能对话营销服务 企业智能应用 智能对话平台UNIT私有化 智能对话平台UNIT云端版 智能外呼 智能推荐引擎 工商财税服务 CBS 问卷调研服务 移动APP测试服务 物联网服务 物联网核心套件 时序时空数据库 TSDB 物联网安全套件 天工智能物联网解决方案 度家-AIOT语音平台 区块链 超级链BaaS平台 超级链数字商品可信登记平台 超级链可信存证 混合云 广目混合云管理平台 BaiduLinuxOS 云市场 云市场 解决方案 金融云 工业视觉智能平台 云游戏 金融智能体 账户管理 账号管理 多用户访问控制 企业组织 证书管理 实名认证 通用参考 ICP备案帮助 区域选择说明 鉴权认证机制 获取AK/SK 术语表 法律条款 API入门指南 财务参考 计费说明 发票 充值 续费 代金券 账单与收支 订单管理 提现 退款 配置升/降级 赔付 企业组织财务管理 合同 常见问题 百度千帆·大模型服务及Agent开发平台 平台介绍 模型介绍 Token Plan 个人版 Token Plan 企业版 Coding Plan 计费说明 最佳实践 平台操作 API参考 SDK参考 常见问题 相关协议 文档中心 百度千帆·大模型服务及Agent开发平台 百度千帆·大模型服务及Agent开发平台 产品详情 全新的“百度千帆”以Agent为核心，为企业提供模型、Agent开发及数据智能服务等一站式服务。百度千帆基于百度智能云的全栈AI云布局，围绕Agent引擎、工具及MCP、模型服务与企业级服务等四大关键要素，为Agent的应用落地构建了坚实的能力底座。 学习路径 循序渐进，带您全面了解百度千帆·大模型服务及Agent开发平台 了解 了解百度千帆·大模型服务及Agent开发平台的产品特性，优势和使用场景，让您对它有一个全局的认识。 平台简介 产品公告 费用说明 针对不同的应用场景，您可以灵活选择计费模式 模型服务计费 退款申请说明 模型token计算说明 平台操作 当前新用户注册百度千帆·大模型服务及Agent开发平台 ，实名认证后即送20元代金券！全平台无门槛使用，有效期一个月。 模型服务 应用开发 组件广场 系统管理 百度千帆·大模型服务及Agent开发平台 百度千帆·大模型服务及Agent开发平台 产品详情 全新的“百度千帆”以Agent为核心，为企业提供模型、Agent开发及数据智能服务等一站式服务。百度千帆基于百度智能云的全栈AI云布局，围绕Agent引擎、工具及MCP、模型服务与企业级服务等四大关键要素，为Agent的应用落地构建了坚实的能力底座。 学习路径 循序渐进，带您全面了解百度千帆·大模型服务及Agent开发平台 ① 了解 了解百度千帆·大模型服务及Agent开发平台的产品特性，优势和使用场景，让您对它有一个全局的认识。 · 平台简介 · 产品公告 ② 费用说明 针对不同的应用场景，您可以灵活选择计费模式 · 模型服务计费 · 退款申请说明 · 模型token计算说明 ③ 平台操作 当前新用户注册百度千帆·大模型服务及Agent开发平台 ，实名认证后即送20元代金券！全平台无门槛使用，有效期一个月。 · 模型服务 · 应用开发 · 组件广场 · 系统管理",
       "baseline_initialized": true,
       "source_signature": "70f27b13727d41b2aa701e06aaddd8cef63e3dfe9e04c82f149e4ddc0031ea05",
       "baseline_reinitialized_at": "2026-07-02T10:22:21.295328Z",
-      "last_changed_at": "2026-08-18T02:45:11.550005Z"
+      "last_changed_at": "2026-08-18T08:48:28.813747Z"
     },
     "tencent-hunyuan-update-history": {
       "fingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
@@ -396,7 +396,8 @@
       "last_checked_at": "2026-07-02T04:51:37.867265Z",
       "baseline_initialized": true,
       "repos": {
-        "MoonshotAI/kimi-code": "2026-08-18T07:37:58Z",
+        "MoonshotAI/kimi-code": "2026-08-18T08:41:41Z",
+        "MoonshotAI/checkpoint-engine": "2026-08-12T05:59:00Z",
         "MoonshotAI/kimi-cli": "2026-08-03T07:59:07Z",
         "MoonshotAI/Attention-Residuals": "2026-03-17T06:23:11Z",
         "MoonshotAI/PerceptionBench": "2026-08-03T08:33:26Z",
@@ -412,12 +413,11 @@
         "MoonshotAI/Kimi-Dev": "2025-09-30T02:15:54Z",
         "MoonshotAI/kosong": "2026-07-16T10:06:23Z",
         "MoonshotAI/nano-kpu": "2026-07-23T08:06:38Z",
-        "MoonshotAI/checkpoint-engine": "2026-08-12T05:59:00Z",
         "MoonshotAI/Kimi-Audio": "2025-06-21T15:30:28Z",
         "MoonshotAI/MoBA": "2025-04-03T07:28:06Z",
         "MoonshotAI/Kimi-Linear": "2025-11-17T09:36:48Z"
       },
-      "last_changed_at": "2026-08-18T08:03:58.016672Z",
+      "last_changed_at": "2026-08-18T08:48:28.813747Z",
       "source_signature": "c925f37596aaabb84376bf83142f08b0ce08447179a5d27a52c7956a40180daa",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -427,8 +427,9 @@
       "baseline_initialized": true,
       "repos": {
         "zai-org/Open-AutoGLM": "2026-03-06T08:38:39Z",
-        "zai-org/SSVAE": "2025-12-25T09:24:54Z",
         "zai-org/GLM-4": "2026-08-05T07:08:46Z",
+        "zai-org/CodeGeeX2": "2024-07-10T12:34:55Z",
+        "zai-org/SSVAE": "2025-12-25T09:24:54Z",
         "zai-org/ChatGLM2-6B": "2024-06-27T04:05:08Z",
         "zai-org/GLM-5": "2026-08-11T06:36:36Z",
         "zai-org/Synapse": "2026-07-31T07:25:27Z",
@@ -444,10 +445,9 @@
         "zai-org/SCAIL-2": "2026-08-14T04:46:01Z",
         "zai-org/zai-coding-plugins": "2026-02-22T15:51:20Z",
         "zai-org/GLM-skills": "2026-04-15T12:28:08Z",
-        "zai-org/GLM-130B": "2023-07-25T09:01:49Z",
-        "zai-org/ChatGLM3": "2025-01-13T06:55:26Z"
+        "zai-org/GLM-130B": "2023-07-25T09:01:49Z"
       },
-      "last_changed_at": "2026-08-18T08:03:58.016672Z",
+      "last_changed_at": "2026-08-18T08:48:28.813747Z",
       "source_signature": "0f9d07d7983b4898dc433a8d045a96469f65dff73642f9fe1fbf73cf3299210c",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -536,20 +536,20 @@
       "last_checked_at": "2026-07-02T04:51:52.965880Z",
       "baseline_initialized": true,
       "repos": {
-        "01-ai/langcrew": "2026-07-28T07:55:51Z",
+        "01-ai/langcrew": "2026-08-18T08:30:51Z",
         "01-ai/Yi": "2024-11-27T09:25:57Z",
+        "01-ai/Yi-1.5": "2024-11-11T03:33:18Z",
         "01-ai/Yi-Coder": "2024-09-18T04:14:44Z",
         "01-ai/Descartes": "2024-04-02T11:00:15Z",
         "01-ai/LLaVA": "2024-01-03T06:57:15Z",
         "01-ai/HumanEval.jl": "2024-08-17T12:45:41Z",
-        "01-ai/Yi-1.5": "2024-11-11T03:33:18Z",
         "01-ai/open-agentkit": "2025-10-31T14:54:00Z",
         "01-ai/YiDong": "2025-01-21T06:20:52Z",
         "01-ai/open-agentkit-builder": "2025-11-11T12:02:01Z",
         "01-ai/unstructured-api": "2024-09-14T06:57:57Z",
         "01-ai/.github": "2023-10-27T14:24:11Z"
       },
-      "last_changed_at": "2026-07-28T09:24:38.114100Z",
+      "last_changed_at": "2026-08-18T08:48:28.813747Z",
       "source_signature": "efa93526cbd110d8f3c7d9702195de7b2ee71ae284d25861e5bcbff6d9b1c505",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -591,16 +591,17 @@
       "last_checked_at": "2026-07-02T04:51:55.708102Z",
       "baseline_initialized": true,
       "repos": {
+        "OpenBMB/StaffDeck": "2026-08-18T08:47:03Z",
         "OpenBMB/VoxCPM": "2026-08-12T14:14:37Z",
-        "OpenBMB/MiniCPM-Desk-Pet": "2026-08-18T07:58:20Z",
+        "OpenBMB/PilotDeck": "2026-08-18T08:23:22Z",
         "OpenBMB/MiniCPM": "2026-07-27T06:50:07Z",
-        "OpenBMB/StaffDeck": "2026-08-18T07:40:49Z",
+        "OpenBMB/IoA": "2025-10-04T17:40:10Z",
+        "OpenBMB/MiniCPM-Desk-Pet": "2026-08-18T07:58:20Z",
         "OpenBMB/Tell_Me_More": "2024-02-20T03:28:31Z",
         "OpenBMB/MathForm": "2026-08-17T05:28:16Z",
         "OpenBMB/AgentVerse": "2024-09-09T05:47:44Z",
         "OpenBMB/MiniCPM-V": "2026-08-12T14:16:57Z",
         "OpenBMB/ChatDev": "2026-07-24T08:01:27Z",
-        "OpenBMB/PilotDeck": "2026-08-18T07:43:42Z",
         "OpenBMB/MiniCPM-o-Demo": "2026-08-14T07:26:44Z",
         "OpenBMB/XAgent": "2026-07-31T03:30:54Z",
         "OpenBMB/MiniCPM-Robot": "2026-08-05T07:51:51Z",
@@ -609,10 +610,9 @@
         "OpenBMB/UltraRAG": "2026-08-17T03:24:42Z",
         "OpenBMB/voxcpm2-demopage": "2026-04-09T08:40:28Z",
         "OpenBMB/ForgeStencil": "2026-08-04T07:34:41Z",
-        "OpenBMB/MiniCPM-V-Apps": "2026-08-11T05:38:19Z",
-        "OpenBMB/ArcLight": "2026-05-30T02:59:35Z"
+        "OpenBMB/MiniCPM-V-Apps": "2026-08-11T05:38:19Z"
       },
-      "last_changed_at": "2026-08-18T08:03:58.016672Z",
+      "last_changed_at": "2026-08-18T08:48:28.813747Z",
       "source_signature": "3dd1c4ab8bc380dc66624329d310bc65fe6deafde7a370da1191ca03b32c0764",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -621,12 +621,12 @@
       "last_checked_at": "2026-07-02T04:51:56.844085Z",
       "baseline_initialized": true,
       "repos": {
+        "InternLM/InternLM": "2025-10-30T00:35:43Z",
+        "InternLM/lmdeploy": "2026-08-18T08:28:57Z",
         "InternLM/Intern-S2-Mobius": "2026-08-14T12:48:30Z",
-        "InternLM/lmdeploy": "2026-08-18T03:19:06Z",
         "InternLM/xtuner": "2026-08-18T07:46:54Z",
         "InternLM/EndoCoT": "2026-08-11T12:58:37Z",
         "InternLM/WildClawBench": "2026-08-17T06:04:32Z",
-        "InternLM/InternLM": "2025-10-30T00:35:43Z",
         "InternLM/EMemBench": "2026-03-05T09:42:48Z",
         "InternLM/lagent": "2026-08-03T07:18:16Z",
         "InternLM/JanusCoder": "2026-05-09T04:22:10Z",
@@ -642,7 +642,7 @@
         "InternLM/AcmeTrace": "2024-03-12T11:49:56Z",
         "InternLM/Tutorial": "2026-04-22T08:39:08Z"
       },
-      "last_changed_at": "2026-08-18T08:03:58.016672Z",
+      "last_changed_at": "2026-08-18T08:48:28.813747Z",
       "source_signature": "a7a2f73a91108336ba1fe2d4fb4d5921862eb329f648d490a4d7903663f49f70",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -654,16 +654,16 @@
       "last_checked_at": "2026-07-02T04:51:58.871155Z",
       "baseline_initialized": true,
       "repos": {
-        "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
+        "QwenLM/qwen-code": "2026-08-18T08:46:01Z",
         "QwenLM/Qwen": "2026-03-05T13:55:17Z",
-        "QwenLM/qwen-code": "2026-08-18T08:02:44Z",
-        "QwenLM/Qwen-AgentWorld": "2026-07-20T11:52:07Z",
         "QwenLM/Qwen3.8": "2026-08-17T05:17:40Z",
+        "QwenLM/Qwen-MM-Plugins": "2026-08-18T08:33:13Z",
+        "QwenLM/Qwen-Agent": "2026-03-04T08:15:07Z",
+        "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
+        "QwenLM/Qwen-AgentWorld": "2026-07-20T11:52:07Z",
         "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
-        "QwenLM/Qwen-MM-Plugins": "2026-08-16T16:57:05Z",
         "QwenLM/Qwen-VLA": "2026-05-29T13:49:38Z",
         "QwenLM/Qwen3Guard": "2025-10-21T02:27:12Z",
-        "QwenLM/Qwen-Agent": "2026-03-04T08:15:07Z",
         "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
         "QwenLM/Qwen-RobotManip": "2026-06-29T22:29:54Z",
         "QwenLM/Qwen-Image": "2026-02-10T07:37:37Z",
@@ -675,7 +675,7 @@
         "QwenLM/Qwen3-Embedding": "2025-09-30T06:10:27Z",
         "QwenLM/Qwen-Image-Layered": "2025-12-31T11:40:35Z"
       },
-      "last_changed_at": "2026-08-18T08:03:58.016672Z",
+      "last_changed_at": "2026-08-18T08:48:28.813747Z",
       "source_signature": "ddc0d8d3788b1fc4ba6779bc400a51934ce7ac0845fbfff67f906a6d77406e21",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -684,13 +684,15 @@
       "last_checked_at": "2026-07-02T04:52:01.889603Z",
       "baseline_initialized": true,
       "repos": {
+        "Tencent-Hunyuan/HY-World-2.0": "2026-08-12T16:15:12Z",
+        "Tencent-Hunyuan/Hunyuan3D-2.1": "2025-10-17T10:10:07Z",
+        "Tencent-Hunyuan/Hunyuan3D-WorldClaw": "2026-08-13T05:47:55Z",
+        "Tencent-Hunyuan/Hunyuan3D-2": "2025-10-28T09:58:12Z",
+        "Tencent-Hunyuan/HunyuanWorld-1.0": "2026-04-15T17:27:25Z",
         "Tencent-Hunyuan/UniRL": "2026-08-18T07:58:49Z",
         "Tencent-Hunyuan/MixGRPO": "2026-07-01T10:49:26Z",
         "Tencent-Hunyuan/Hyra-results": "2026-08-17T08:01:54Z",
-        "Tencent-Hunyuan/Hunyuan3D-WorldClaw": "2026-08-13T05:47:55Z",
         "Tencent-Hunyuan/HunyuanWorld-Voyager": "2026-04-15T17:30:08Z",
-        "Tencent-Hunyuan/Hunyuan3D-2": "2025-10-28T09:58:12Z",
-        "Tencent-Hunyuan/HY-World-2.0": "2026-08-12T16:15:12Z",
         "Tencent-Hunyuan/HY-WorldPlay": "2026-06-10T07:10:23Z",
         "Tencent-Hunyuan/HY-Embodied": "2026-07-15T11:54:12Z",
         "Tencent-Hunyuan/Hy-Embodied-0.5-VLA": "2026-08-04T07:32:42Z",
@@ -698,19 +700,18 @@
         "Tencent-Hunyuan/HunyuanVideo-Avatar": "2025-12-16T12:32:46Z",
         "Tencent-Hunyuan/Hunyuan3D-Buffalo1.0": "2026-08-10T17:04:25Z",
         "Tencent-Hunyuan/R-DMesh": "2026-08-11T01:56:44Z",
-        "Tencent-Hunyuan/Hunyuan3D-2.1": "2025-10-17T10:10:07Z",
         "Tencent-Hunyuan/HunyuanVideo-1.5": "2026-04-10T06:14:59Z",
         "Tencent-Hunyuan/HunyuanImage-3.0": "2026-06-23T13:12:44Z",
         "Tencent-Hunyuan/RepoProbe": "2026-08-06T03:33:17Z",
-        "Tencent-Hunyuan/flex-block-attn": "2025-12-26T02:48:33Z",
-        "Tencent-Hunyuan/Hy-MT2": "2026-06-30T07:17:36Z"
+        "Tencent-Hunyuan/flex-block-attn": "2025-12-26T02:48:33Z"
       },
-      "last_changed_at": "2026-08-18T08:03:58.016672Z",
+      "last_changed_at": "2026-08-18T08:48:28.813747Z",
       "source_signature": "637ce9b3bc2d070666c42f5fd92e749870848ee35ed6d4c156f831c9bc8f2d04",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
     "qbitai-rss": {
       "seen_keys": [
+        "https://www.qbitai.com/2026/08/474806.html",
         "https://www.qbitai.com/2026/08/474803.html",
         "https://www.qbitai.com/2026/08/474736.html",
         "https://www.qbitai.com/2026/08/474673.html",
@@ -1009,12 +1010,11 @@
         "https://www.qbitai.com/2026/07/451691.html",
         "https://www.qbitai.com/2026/07/451576.html",
         "https://www.qbitai.com/2026/07/451403.html",
-        "https://www.qbitai.com/2026/07/451371.html",
-        "https://www.qbitai.com/2026/07/451379.html"
+        "https://www.qbitai.com/2026/07/451371.html"
       ],
       "last_checked_at": "2026-07-02T04:52:26.145879Z",
       "baseline_initialized": true,
-      "last_changed_at": "2026-08-18T08:05:26.677295Z",
+      "last_changed_at": "2026-08-18T08:49:59.217648Z",
       "source_signature": "34418d38d4b87c134f9922d6999ac3c069821ed0be2134f9ba6ae5e00e4b63a9",
       "baseline_reinitialized_at": "2026-07-02T10:23:28.426031Z"
     },
@@ -1480,16 +1480,16 @@
         "https://www.tc260.org.cn/portal/article/1/0efe73df0f234fa5a4fce766173b5678",
         "https://www.tc260.org.cn/portal/article/1/c38f19280f2b4b5284c642a174f27d38",
         "https://www.tc260.org.cn/portal/article/1/c5bff06b0a544674b12b89271bf8df02",
-        "https://www.tc260.org.cn/portal/article/1/9745608fa11e46639275aa834e58b5c4",
         "https://www.tc260.org.cn/portal/article/1/07d60a8d728445fbb3526ca97e3d02d9",
+        "https://www.tc260.org.cn/portal/article/1/9745608fa11e46639275aa834e58b5c4",
         "https://www.tc260.org.cn/portal/article/1/a6d21a769f07420f818f6bed6797c618",
         "https://www.tc260.org.cn/portal/article/2/13c3282d6feb4b97930ded6faf656b2b",
         "https://www.tc260.org.cn/portal/article/2/a1de240fa2a7452e93df1ca6c3f1cf45",
         "https://www.tc260.org.cn/portal/article/2/f81cf1f5c0504a1b92239f042d04d0bb",
         "https://www.tc260.org.cn/portal/article/2/8653731b442a460a910e6100d4eee9ea",
         "https://www.tc260.org.cn/portal/article/2/d7b8b931bce4444cae14a48c0f0dd8b4",
-        "https://www.tc260.org.cn/portal/article/2/4456ae01b56e4792bb98d82d452e9cba",
         "https://www.tc260.org.cn/portal/article/2/807a1aa20047477086ba2b44b726a5f7",
+        "https://www.tc260.org.cn/portal/article/2/4456ae01b56e4792bb98d82d452e9cba",
         "https://www.tc260.org.cn/portal/article/2/bb40941bb2784c749a43ec4762cdb988",
         "https://www.tc260.org.cn/portal/suggestion-detail/1b21a4adefd04d7a8f8b2aec67225f50",
         "https://www.tc260.org.cn/portal/suggestion-detail/770f550a6774493d9a6dc2f51454e8db",
@@ -1565,7 +1565,7 @@
       ],
       "last_checked_at": "2026-07-02T04:52:25.829528Z",
       "baseline_initialized": true,
-      "last_changed_at": "2026-08-18T07:32:32.282489Z",
+      "last_changed_at": "2026-08-18T08:49:55.896401Z",
       "source_signature": "ac7adf7536607ad1dc8d9ca06c0f10f499a52b1893dcc2d8ec03dd7b6240b921",
       "baseline_reinitialized_at": "2026-07-02T10:23:25.737100Z"
     },
@@ -2095,7 +2095,7 @@
     },
     "aihot-selected": {
       "last_raw_count": 48,
-      "last_polled_at": "2026-08-18T08:03:58.016672Z",
+      "last_polled_at": "2026-08-18T08:48:28.813747Z",
       "source_signature": "54b0a2ce37b31eed7de5728f2ad3467d3fff1ec95a53a03f9ee11a9fa197fda4",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-09T08:44:50.779962Z",
