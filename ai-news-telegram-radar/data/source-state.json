@@ -364,7 +364,7 @@
       "last_checked_at": "2026-07-02T04:51:33.967446Z",
       "baseline_initialized": true,
       "repos": {
-        "deepseek-ai/deepseek-harness": "2026-08-19T15:35:01Z",
+        "deepseek-ai/deepseek-harness": "2026-08-19T15:37:57Z",
         "deepseek-ai/DeepSeek-OCR-2": "2026-02-03T00:34:18Z",
         "deepseek-ai/DeepSeek-OCR": "2026-01-27T03:45:14Z",
         "deepseek-ai/DeepSeek-R1": "2025-06-27T08:35:54Z",
@@ -385,7 +385,7 @@
         "deepseek-ai/DeepSeek-MoE": "2024-01-16T12:18:10Z",
         "deepseek-ai/Engram": "2026-01-14T01:13:02Z"
       },
-      "last_changed_at": "2026-08-19T15:37:43.436339Z",
+      "last_changed_at": "2026-08-19T16:00:36.639185Z",
       "source_signature": "e247a4022cc1b9d1fcca44981d9eb5c7892416a57bcff15ec2fe2fc72cfd972e",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -394,9 +394,10 @@
       "last_checked_at": "2026-07-02T04:51:37.867265Z",
       "baseline_initialized": true,
       "repos": {
+        "MoonshotAI/nano-kpu": "2026-07-23T08:06:38Z",
         "MoonshotAI/kimi-cli": "2026-08-03T07:59:07Z",
         "MoonshotAI/Kimi-K3": "2026-08-06T10:17:28Z",
-        "MoonshotAI/kimi-code": "2026-08-19T15:33:29Z",
+        "MoonshotAI/kimi-code": "2026-08-19T15:59:27Z",
         "MoonshotAI/MoonEP": "2026-08-13T09:30:40Z",
         "MoonshotAI/Attention-Residuals": "2026-03-17T06:23:11Z",
         "MoonshotAI/kimi-agent-sdk": "2026-05-29T05:29:38Z",
@@ -412,10 +413,9 @@
         "MoonshotAI/minitriton": "2026-07-27T13:49:08Z",
         "MoonshotAI/Kimi-VL": "2025-07-15T15:48:21Z",
         "MoonshotAI/Kimi-Dev": "2025-09-30T02:15:54Z",
-        "MoonshotAI/kosong": "2026-07-16T10:06:23Z",
-        "MoonshotAI/nano-kpu": "2026-07-23T08:06:38Z"
+        "MoonshotAI/kosong": "2026-07-16T10:06:23Z"
       },
-      "last_changed_at": "2026-08-19T15:37:43.436339Z",
+      "last_changed_at": "2026-08-19T16:00:36.639185Z",
       "source_signature": "c925f37596aaabb84376bf83142f08b0ce08447179a5d27a52c7956a40180daa",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -556,8 +556,8 @@
       "last_checked_at": "2026-07-02T04:51:54.681996Z",
       "baseline_initialized": true,
       "repos": {
+        "OpenSenseNova/SenseNova-U1": "2026-08-19T15:57:32Z",
         "OpenSenseNova/ComfyUI-SenseNova-U1": "2026-08-16T16:12:09Z",
-        "OpenSenseNova/SenseNova-U1": "2026-08-19T14:57:02Z",
         "OpenSenseNova/SenseNova-Skills": "2026-08-17T07:45:24Z",
         "OpenSenseNova/SenseNova-MARS": "2026-04-09T07:55:50Z",
         "OpenSenseNova/SenseNova-Vision": "2026-07-22T09:31:28Z",
@@ -576,7 +576,7 @@
         "OpenSenseNova/InteractiveOmni": "2025-12-03T10:43:09Z",
         "OpenSenseNova/LlamaIndex_SenseNova": "2024-08-30T07:51:57Z"
       },
-      "last_changed_at": "2026-08-19T15:01:32.279926Z",
+      "last_changed_at": "2026-08-19T16:00:36.639185Z",
       "source_signature": "184a583402fb329afbafdb76f2a65866a141a46158abf1628f6e67daed5e148c",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -653,8 +653,8 @@
       "baseline_initialized": true,
       "repos": {
         "QwenLM/Qwen-Agent": "2026-03-04T08:15:07Z",
+        "QwenLM/qwen-code": "2026-08-19T15:59:55Z",
         "QwenLM/Qwen3.8": "2026-08-17T05:17:40Z",
-        "QwenLM/qwen-code": "2026-08-19T15:32:06Z",
         "QwenLM/Qwen3-ASR": "2026-06-26T08:20:17Z",
         "QwenLM/Qwen": "2026-03-05T13:55:17Z",
         "QwenLM/Qwen3-Coder": "2026-03-24T08:22:10Z",
@@ -673,7 +673,7 @@
         "QwenLM/Qwen3-Omni": "2026-04-23T10:58:01Z",
         "QwenLM/Qwen3-Embedding": "2025-09-30T06:10:27Z"
       },
-      "last_changed_at": "2026-08-19T15:37:43.436339Z",
+      "last_changed_at": "2026-08-19T16:00:36.639185Z",
       "source_signature": "ddc0d8d3788b1fc4ba6779bc400a51934ce7ac0845fbfff67f906a6d77406e21",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -682,13 +682,14 @@
       "last_checked_at": "2026-07-02T04:52:01.889603Z",
       "baseline_initialized": true,
       "repos": {
+        "Tencent-Hunyuan/Hunyuan3D-2": "2025-10-28T09:58:12Z",
+        "Tencent-Hunyuan/Hunyuan3D-WorldClaw": "2026-08-13T05:47:55Z",
+        "Tencent-Hunyuan/Hy-Embodied-0.5-VLA": "2026-08-04T07:32:42Z",
         "Tencent-Hunyuan/Hy3": "2026-07-17T10:11:52Z",
         "Tencent-Hunyuan/Hy3-preview": "2026-04-23T15:09:16Z",
-        "Tencent-Hunyuan/Hunyuan3D-WorldClaw": "2026-08-13T05:47:55Z",
         "Tencent-Hunyuan/HunyuanWorld-Mirror": "2026-05-27T03:22:57Z",
         "Tencent-Hunyuan/Hunyuan3D-Buffalo1.0": "2026-08-10T17:04:25Z",
         "Tencent-Hunyuan/Hy-MT2": "2026-06-30T07:17:36Z",
-        "Tencent-Hunyuan/Hunyuan3D-2": "2025-10-28T09:58:12Z",
         "Tencent-Hunyuan/HunyuanVideo": "2026-06-29T09:33:50Z",
         "Tencent-Hunyuan/Hunyuan3D-Omni": "2025-10-17T10:13:05Z",
         "Tencent-Hunyuan/Hyra-results": "2026-08-19T06:17:13Z",
@@ -700,10 +701,9 @@
         "Tencent-Hunyuan/HunyuanVideo-1.5": "2026-04-10T06:14:59Z",
         "Tencent-Hunyuan/Twins": "2026-07-26T19:12:22Z",
         "Tencent-Hunyuan/HY-World-2.0": "2026-08-12T16:15:12Z",
-        "Tencent-Hunyuan/R-DMesh": "2026-08-11T01:56:44Z",
-        "Tencent-Hunyuan/Hunyuan3D-2.1": "2025-10-17T10:10:07Z"
+        "Tencent-Hunyuan/R-DMesh": "2026-08-11T01:56:44Z"
       },
-      "last_changed_at": "2026-08-19T15:37:43.436339Z",
+      "last_changed_at": "2026-08-19T16:00:36.639185Z",
       "source_signature": "637ce9b3bc2d070666c42f5fd92e749870848ee35ed6d4c156f831c9bc8f2d04",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -2093,7 +2093,7 @@
     },
     "aihot-selected": {
       "last_raw_count": 48,
-      "last_polled_at": "2026-08-19T15:37:43.436339Z",
+      "last_polled_at": "2026-08-19T16:00:36.639185Z",
       "source_signature": "54b0a2ce37b31eed7de5728f2ad3467d3fff1ec95a53a03f9ee11a9fa197fda4",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-09T08:44:50.779962Z",
