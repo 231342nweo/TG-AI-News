@@ -285,9 +285,9 @@
     "miit-ai-policy": {
       "seen_keys": [
         "http://www.miit.gov.cn/xwfb/gxdt/sjdt/art/2026/art_16d1319a933d4ffd8501e60dc4d88491.html",
-        "http://www.miit.gov.cn/xwfb/bldhd/art/2026/art_79e6b8bde1974fc9b120b0e18cb0b262.html",
         "http://www.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2026/art_bbccc17a650749c2a76569679350fa5d.html",
         "http://www.miit.gov.cn/xwfb/bldhd/art/2026/art_d109e2b6dc4844cc902a1f6f49712f67.html",
+        "http://www.miit.gov.cn/xwfb/bldhd/art/2026/art_79e6b8bde1974fc9b120b0e18cb0b262.html",
         "http://www.miit.gov.cn/xwfb/bldhd/art/2026/art_a1dcaacc0394430fa13197ef3946dece.html",
         "http://www.miit.gov.cn/xwfb/bldhd/art/2026/art_75ccfbf768704a3aaa390fd39394033e.html",
         "http://www.miit.gov.cn/zwgk/zcwj/wjfb/gg/art/2026/art_301fff2dc3c3434f94f781026672b4ae.html",
@@ -302,7 +302,7 @@
       ],
       "last_checked_at": "2026-07-02T04:52:07.296657Z",
       "baseline_initialized": true,
-      "last_changed_at": "2026-08-04T09:48:20.239148Z",
+      "last_changed_at": "2026-08-19T13:16:12.905527Z",
       "source_signature": "fff6f3c21156d4cbf20bbad042acc8fa3d760a86cd12542122fdc64c07822ce4",
       "baseline_reinitialized_at": "2026-07-02T10:23:13.339291Z"
     },
@@ -396,9 +396,12 @@
       "last_checked_at": "2026-07-02T04:51:37.867265Z",
       "baseline_initialized": true,
       "repos": {
-        "MoonshotAI/Kimi-K3": "2026-08-06T10:17:28Z",
+        "MoonshotAI/Attention-Residuals": "2026-03-17T06:23:11Z",
+        "MoonshotAI/kimi-agent-sdk": "2026-05-29T05:29:38Z",
         "MoonshotAI/MoonEP": "2026-08-13T09:30:40Z",
-        "MoonshotAI/kimi-code": "2026-08-19T12:19:19Z",
+        "MoonshotAI/Kimi-K3": "2026-08-06T10:17:28Z",
+        "MoonshotAI/Kimi-K2.5": "2026-08-06T10:42:43Z",
+        "MoonshotAI/kimi-code": "2026-08-19T13:12:20Z",
         "MoonshotAI/FlashKDA": "2026-07-30T07:14:39Z",
         "MoonshotAI/kimi-cli": "2026-08-03T07:59:07Z",
         "MoonshotAI/Kimi-Vendor-Verifier": "2026-08-13T15:21:02Z",
@@ -406,18 +409,15 @@
         "MoonshotAI/Moonlight": "2025-08-03T06:31:18Z",
         "MoonshotAI/Kimi-K2": "2026-01-21T05:33:12Z",
         "MoonshotAI/Kimi-Audio": "2025-06-21T15:30:28Z",
-        "MoonshotAI/Kimi-K2.5": "2026-08-06T10:42:43Z",
         "MoonshotAI/PerceptionBench": "2026-08-03T08:33:26Z",
         "MoonshotAI/checkpoint-engine": "2026-08-12T05:59:00Z",
-        "MoonshotAI/Attention-Residuals": "2026-03-17T06:23:11Z",
         "MoonshotAI/minitriton": "2026-07-27T13:49:08Z",
         "MoonshotAI/Kimi-VL": "2025-07-15T15:48:21Z",
-        "MoonshotAI/kimi-agent-sdk": "2026-05-29T05:29:38Z",
         "MoonshotAI/Kimi-Dev": "2025-09-30T02:15:54Z",
         "MoonshotAI/kosong": "2026-07-16T10:06:23Z",
         "MoonshotAI/nano-kpu": "2026-07-23T08:06:38Z"
       },
-      "last_changed_at": "2026-08-19T12:21:13.236714Z",
+      "last_changed_at": "2026-08-19T13:14:59.756434Z",
       "source_signature": "c925f37596aaabb84376bf83142f08b0ce08447179a5d27a52c7956a40180daa",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -558,7 +558,7 @@
       "last_checked_at": "2026-07-02T04:51:54.681996Z",
       "baseline_initialized": true,
       "repos": {
-        "OpenSenseNova/SenseNova-U1": "2026-08-19T12:11:54Z",
+        "OpenSenseNova/SenseNova-U1": "2026-08-19T12:35:52Z",
         "OpenSenseNova/SenseNova-MARS": "2026-04-09T07:55:50Z",
         "OpenSenseNova/SenseNova-Skills": "2026-08-17T07:45:24Z",
         "OpenSenseNova/SenseNova-Vision": "2026-07-22T09:31:28Z",
@@ -578,7 +578,7 @@
         "OpenSenseNova/InteractiveOmni": "2025-12-03T10:43:09Z",
         "OpenSenseNova/LlamaIndex_SenseNova": "2024-08-30T07:51:57Z"
       },
-      "last_changed_at": "2026-08-19T12:21:13.236714Z",
+      "last_changed_at": "2026-08-19T13:14:59.756434Z",
       "source_signature": "184a583402fb329afbafdb76f2a65866a141a46158abf1628f6e67daed5e148c",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -591,12 +591,13 @@
       "last_checked_at": "2026-07-02T04:51:55.708102Z",
       "baseline_initialized": true,
       "repos": {
-        "OpenBMB/ChatDev": "2026-07-24T08:01:27Z",
         "OpenBMB/VoxCPM": "2026-08-12T14:14:37Z",
+        "OpenBMB/ChatDev": "2026-07-24T08:01:27Z",
+        "OpenBMB/StaffDeck": "2026-08-19T13:13:10Z",
+        "OpenBMB/AgentVerse": "2024-09-09T05:47:44Z",
         "OpenBMB/MiniCPM": "2026-07-27T06:50:07Z",
-        "OpenBMB/PilotDeck": "2026-08-19T11:20:26Z",
+        "OpenBMB/PilotDeck": "2026-08-19T12:47:57Z",
         "OpenBMB/MathForm": "2026-08-17T05:28:16Z",
-        "OpenBMB/StaffDeck": "2026-08-19T12:10:46Z",
         "OpenBMB/MiniCPM-V": "2026-08-12T14:16:57Z",
         "OpenBMB/UltraRAG": "2026-08-19T11:23:56Z",
         "OpenBMB/ForgeStencil": "2026-08-04T07:34:41Z",
@@ -609,10 +610,9 @@
         "OpenBMB/XAgent": "2026-07-31T03:30:54Z",
         "OpenBMB/VisCPM": "2024-06-13T14:02:54Z",
         "OpenBMB/CPM-Bee": "2026-07-07T14:05:53Z",
-        "OpenBMB/ToolBench": "2025-05-21T15:46:59Z",
-        "OpenBMB/IoA": "2025-10-04T17:40:10Z"
+        "OpenBMB/ToolBench": "2025-05-21T15:46:59Z"
       },
-      "last_changed_at": "2026-08-19T12:21:13.236714Z",
+      "last_changed_at": "2026-08-19T13:14:59.756434Z",
       "source_signature": "3dd1c4ab8bc380dc66624329d310bc65fe6deafde7a370da1191ca03b32c0764",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -654,12 +654,12 @@
       "last_checked_at": "2026-07-02T04:51:58.871155Z",
       "baseline_initialized": true,
       "repos": {
-        "QwenLM/qwen-code": "2026-08-19T12:07:45Z",
+        "QwenLM/Qwen3.8": "2026-08-17T05:17:40Z",
+        "QwenLM/qwen-code": "2026-08-19T13:12:46Z",
+        "QwenLM/Qwen-MM-Plugins": "2026-08-19T07:49:04Z",
         "QwenLM/open-computer-use": "2026-06-10T16:38:07Z",
         "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
         "QwenLM/Qwen-Agent": "2026-03-04T08:15:07Z",
-        "QwenLM/Qwen3.8": "2026-08-17T05:17:40Z",
-        "QwenLM/Qwen-MM-Plugins": "2026-08-19T07:49:04Z",
         "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
         "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
         "QwenLM/Qwen-RobotManip": "2026-06-29T22:29:54Z",
@@ -675,7 +675,7 @@
         "QwenLM/qwen-code-docs": "2026-08-18T21:22:31Z",
         "QwenLM/Qwen-Image": "2026-02-10T07:37:37Z"
       },
-      "last_changed_at": "2026-08-19T12:21:13.236714Z",
+      "last_changed_at": "2026-08-19T13:14:59.756434Z",
       "source_signature": "ddc0d8d3788b1fc4ba6779bc400a51934ce7ac0845fbfff67f906a6d77406e21",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -2095,7 +2095,7 @@
     },
     "aihot-selected": {
       "last_raw_count": 48,
-      "last_polled_at": "2026-08-19T12:21:13.236714Z",
+      "last_polled_at": "2026-08-19T13:14:59.756434Z",
       "source_signature": "54b0a2ce37b31eed7de5728f2ad3467d3fff1ec95a53a03f9ee11a9fa197fda4",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-09T08:44:50.779962Z",
