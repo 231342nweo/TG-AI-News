@@ -652,10 +652,11 @@
       "last_checked_at": "2026-07-02T04:51:58.871155Z",
       "baseline_initialized": true,
       "repos": {
-        "QwenLM/Qwen-MM-Plugins": "2026-08-19T07:49:04Z",
         "QwenLM/Qwen3.8": "2026-08-17T05:17:40Z",
+        "QwenLM/Qwen": "2026-03-05T13:55:17Z",
+        "QwenLM/Qwen-MM-Plugins": "2026-08-19T07:49:04Z",
         "QwenLM/Qwen-Cookbook": "2024-11-20T05:24:49Z",
-        "QwenLM/qwen-code": "2026-08-19T19:04:24Z",
+        "QwenLM/qwen-code": "2026-08-19T19:33:23Z",
         "QwenLM/open-computer-use": "2026-06-10T16:38:07Z",
         "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
         "QwenLM/Qwen2.5-Math": "2025-01-11T17:30:43Z",
@@ -663,7 +664,6 @@
         "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
         "QwenLM/Qwen-Agent": "2026-03-04T08:15:07Z",
         "QwenLM/Qwen3-ASR": "2026-06-26T08:20:17Z",
-        "QwenLM/Qwen": "2026-03-05T13:55:17Z",
         "QwenLM/Qwen3-Coder": "2026-03-24T08:22:10Z",
         "QwenLM/Qwen-AgentWorld": "2026-07-20T11:52:07Z",
         "QwenLM/Qwen3-ASR-Toolkit": "2026-02-05T05:35:03Z",
@@ -673,7 +673,7 @@
         "QwenLM/Qwen-RobotManip": "2026-06-29T22:29:54Z",
         "QwenLM/Qwen3-VL-Embedding": "2026-06-23T10:39:17Z"
       },
-      "last_changed_at": "2026-08-19T19:05:36.731224Z",
+      "last_changed_at": "2026-08-19T19:34:03.978911Z",
       "source_signature": "ddc0d8d3788b1fc4ba6779bc400a51934ce7ac0845fbfff67f906a6d77406e21",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -2092,17 +2092,16 @@
       "last_changed_at": "2026-07-21T20:06:00.608583Z"
     },
     "aihot-selected": {
-      "last_raw_count": 48,
-      "last_polled_at": "2026-08-19T19:05:36.731224Z",
+      "last_raw_count": 49,
+      "last_polled_at": "2026-08-19T19:34:03.978911Z",
       "source_signature": "54b0a2ce37b31eed7de5728f2ad3467d3fff1ec95a53a03f9ee11a9fa197fda4",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-09T08:44:50.779962Z",
       "seen_keys": [
-        "https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe",
         "https://www.lmsys.org/blog/2026-08-19-deepseek-v4-pro-engine-optimization-h20",
-        "https://x.com/OpenRouter/status/2090127246430216403",
         "https://huggingface.co/blog/LiquidAI/qad",
         "https://mp.weixin.qq.com/s?__biz=MzkyMzI3NzQ0Mg%3D%3D&mid=2247494105&idx=1&sn=8d7409e0fb846a3c7803c142b5d1a8e7",
+        "https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe",
         "https://www.modular.com/blog/mojo-open-source",
         "https://x.com/claudeai/status/2089806039088517356",
         "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
@@ -2148,6 +2147,7 @@
         "https://api-docs.deepseek.com/zh-cn/updates",
         "https://openai.com/index/builders-guide-to-gpt-5-6",
         "https://mp.weixin.qq.com/s?__biz=Mzg4OTc2MzczNg%3D%3D&mid=2247496062&idx=1&sn=d4c48926c5d7607f129dfea03699a6c0",
+        "https://x.com/OpenRouter/status/2090127246430216403",
         "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647685179&idx=1&sn=4cbee32b677b57a9dc6ec2a79d6f72c7",
         "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647685175&idx=1&sn=64c383b5b757945397894270c5f38301",
         "https://github.blog/open-source/maintainers/your-contributors-are-ai-first-now-is-your-project",
@@ -2399,7 +2399,7 @@
         "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
         "https://www.marktechpost.com/2026/07/30/token-saver-an-open-source-mcp-extension-using-local-hybrid-rag"
       ],
-      "last_changed_at": "2026-08-19T19:05:37.547940Z"
+      "last_changed_at": "2026-08-19T19:34:06.797645Z"
     }
   }
 }
