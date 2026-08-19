@@ -396,10 +396,10 @@
       "last_checked_at": "2026-07-02T04:51:37.867265Z",
       "baseline_initialized": true,
       "repos": {
+        "MoonshotAI/kimi-code": "2026-08-19T07:57:39Z",
         "MoonshotAI/Kimi-K3": "2026-08-06T10:17:28Z",
-        "MoonshotAI/Kimi-Linear": "2025-11-17T09:36:48Z",
-        "MoonshotAI/kimi-code": "2026-08-19T07:36:51Z",
         "MoonshotAI/FlashKDA": "2026-07-30T07:14:39Z",
+        "MoonshotAI/Kimi-Linear": "2025-11-17T09:36:48Z",
         "MoonshotAI/MoonEP": "2026-08-13T09:30:40Z",
         "MoonshotAI/kimi-cli": "2026-08-03T07:59:07Z",
         "MoonshotAI/Moonlight": "2025-08-03T06:31:18Z",
@@ -417,7 +417,7 @@
         "MoonshotAI/kosong": "2026-07-16T10:06:23Z",
         "MoonshotAI/nano-kpu": "2026-07-23T08:06:38Z"
       },
-      "last_changed_at": "2026-08-19T07:49:56.466438Z",
+      "last_changed_at": "2026-08-19T08:17:18.039173Z",
       "source_signature": "c925f37596aaabb84376bf83142f08b0ce08447179a5d27a52c7956a40180daa",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -558,27 +558,27 @@
       "last_checked_at": "2026-07-02T04:51:54.681996Z",
       "baseline_initialized": true,
       "repos": {
-        "OpenSenseNova/SenseNova-U1": "2026-08-17T16:46:25Z",
         "OpenSenseNova/SenseNova-Skills": "2026-08-17T07:45:24Z",
+        "OpenSenseNova/SenseNova-U1": "2026-08-19T08:13:20Z",
         "OpenSenseNova/SenseNova-Vision": "2026-07-22T09:31:28Z",
+        "OpenSenseNova/agent_pack": "2026-05-13T13:12:00Z",
+        "OpenSenseNova/SenseNova6.8": "2026-08-11T05:58:34Z",
         "OpenSenseNova/ComfyUI-SenseNova-U1": "2026-08-16T16:12:09Z",
         "OpenSenseNova/SenseNova6.7": "2026-05-22T10:06:18Z",
         "OpenSenseNova/SenseNova-MARS": "2026-04-09T07:55:50Z",
         "OpenSenseNova/Demystifying_Video_Reasoning": "2026-07-14T08:45:01Z",
         "OpenSenseNova/ConsistCompose": "2026-07-10T10:27:15Z",
-        "OpenSenseNova/SenseNova6.8": "2026-08-11T05:58:34Z",
         "OpenSenseNova/MemSense": "2026-06-18T09:35:58Z",
         "OpenSenseNova/SenseNova-SI": "2026-05-14T03:11:20Z",
         "OpenSenseNova/piccolo-embedding": "2024-05-21T04:34:56Z",
         "OpenSenseNova/SekoTalk": "2025-09-14T04:29:02Z",
-        "OpenSenseNova/agent_pack": "2026-05-13T13:12:00Z",
         "OpenSenseNova/ComfyUI-SenseNova-SI": "2026-04-30T17:29:30Z",
         "OpenSenseNova/evalscope": "2026-04-25T04:24:13Z",
         "OpenSenseNova/.github": "2024-08-28T02:32:36Z",
         "OpenSenseNova/InteractiveOmni": "2025-12-03T10:43:09Z",
         "OpenSenseNova/LlamaIndex_SenseNova": "2024-08-30T07:51:57Z"
       },
-      "last_changed_at": "2026-08-17T17:01:09.699742Z",
+      "last_changed_at": "2026-08-19T08:17:18.039173Z",
       "source_signature": "184a583402fb329afbafdb76f2a65866a141a46158abf1628f6e67daed5e148c",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -591,13 +591,13 @@
       "last_checked_at": "2026-07-02T04:51:55.708102Z",
       "baseline_initialized": true,
       "repos": {
-        "OpenBMB/ChatDev": "2026-07-24T08:01:27Z",
         "OpenBMB/VoxCPM": "2026-08-12T14:14:37Z",
-        "OpenBMB/PilotDeck": "2026-08-19T06:26:04Z",
-        "OpenBMB/StaffDeck": "2026-08-18T11:32:00Z",
+        "OpenBMB/StaffDeck": "2026-08-19T08:00:08Z",
         "OpenBMB/MiniCPM": "2026-07-27T06:50:07Z",
-        "OpenBMB/UltraRAG": "2026-08-17T03:24:42Z",
+        "OpenBMB/PilotDeck": "2026-08-19T06:26:04Z",
         "OpenBMB/MiniCPM-V": "2026-08-12T14:16:57Z",
+        "OpenBMB/ChatDev": "2026-07-24T08:01:27Z",
+        "OpenBMB/UltraRAG": "2026-08-17T03:24:42Z",
         "OpenBMB/ForgeStencil": "2026-08-04T07:34:41Z",
         "OpenBMB/EdgeClaw": "2026-04-15T09:25:35Z",
         "OpenBMB/MiniCPM-Desk-Pet": "2026-08-18T07:58:20Z",
@@ -612,7 +612,7 @@
         "OpenBMB/IoA": "2025-10-04T17:40:10Z",
         "OpenBMB/Tell_Me_More": "2024-02-20T03:28:31Z"
       },
-      "last_changed_at": "2026-08-19T07:07:25.648164Z",
+      "last_changed_at": "2026-08-19T08:17:18.039173Z",
       "source_signature": "3dd1c4ab8bc380dc66624329d310bc65fe6deafde7a370da1191ca03b32c0764",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -654,17 +654,17 @@
       "last_checked_at": "2026-07-02T04:51:58.871155Z",
       "baseline_initialized": true,
       "repos": {
+        "QwenLM/Qwen3-ASR": "2026-06-26T08:20:17Z",
+        "QwenLM/qwen-code": "2026-08-19T08:16:28Z",
+        "QwenLM/Qwen-MM-Plugins": "2026-08-19T07:49:04Z",
         "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
         "QwenLM/open-computer-use": "2026-06-10T16:38:07Z",
         "QwenLM/Qwen-RobotManip": "2026-06-29T22:29:54Z",
         "QwenLM/Qwen3-Coder": "2026-03-24T08:22:10Z",
         "QwenLM/Qwen-Agent": "2026-03-04T08:15:07Z",
         "QwenLM/Qwen3.8": "2026-08-17T05:17:40Z",
-        "QwenLM/Qwen-MM-Plugins": "2026-08-19T07:49:04Z",
-        "QwenLM/qwen-code": "2026-08-19T07:41:40Z",
         "QwenLM/Qwen3-Omni": "2026-04-23T10:58:01Z",
         "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
-        "QwenLM/Qwen3-ASR": "2026-06-26T08:20:17Z",
         "QwenLM/Qwen3-Embedding": "2025-09-30T06:10:27Z",
         "QwenLM/Qwen-Image-Layered": "2025-12-31T11:40:35Z",
         "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
@@ -675,7 +675,7 @@
         "QwenLM/Qwen-Image": "2026-02-10T07:37:37Z",
         "QwenLM/Qwen-VLA": "2026-05-29T13:49:38Z"
       },
-      "last_changed_at": "2026-08-19T07:49:56.466438Z",
+      "last_changed_at": "2026-08-19T08:17:18.039173Z",
       "source_signature": "ddc0d8d3788b1fc4ba6779bc400a51934ce7ac0845fbfff67f906a6d77406e21",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -1019,13 +1019,13 @@
       "baseline_reinitialized_at": "2026-07-02T10:23:28.426031Z"
     },
     "moonshot-website": {
-      "fingerprint": "0be471543e9c0585eb6f4887aab8b85b88e169d8ce1be97bb954be74308c7b8f",
+      "fingerprint": "1bb4d02bae34ad1550f751e4bcb665630f1e14976ca58a435b0fb490d66245fe",
       "last_checked_at": "2026-07-02T04:51:33.147542Z",
-      "last_excerpt": "Moonshot AI Kimi Business API Research Download Careers EN 中文 Kimi Business API Research Download Careers EN 中文 Seeking the optimal conversion from energy to intelligence Try Kimi Try API Latest Research Our research team works toward AGI while sharing the latest research with the global open-source community. Get More 2026-07-16 Kimi K3 2026-07-16 PerceptionBench 2026-04-20 Kimi K2.6 Complex problems, solved with ease AI Models is capability. Code, analyze, sheets and slides — simplify complex work with the latest flagship model. Kimi K3 The new frontier of intelligence. 2.8T parameters, natively multimodal, 1M-token context — built for long-horizon coding, knowledge work, and deep reasoning. Explore Features Discover Kimi doodles Explore doodles for holidays, events, and trends — each one a small surprise. June · Turing's Birthday A tape defined computation. One question inspired AI. Chat with Kimi continues Turing's legacy. May · Bob Dylan 's Birthday Sunglasses, guitar, harmonica. For the old rock Nobel who couldn't be bothered. The question is the answer. April · Earth Day A Fauvist forest honoring Matisse’s cut-outs. Let this Doodle remind you: log off and step into spring. Built for the future. Available today. App Scan to download Kimi App Chrome Extension Desktop macOS Windows Try Kimi right now Copyright © 2023-2026 Moonshot AI. All Rights Reserved. Co-created with Kimi K3 Products Kimi Open Platform Kimi Code Pricing Kimi Business Features Agent Agent Swarm Website Document Slides Excel Deep Research Kimi Claw Resources Multi-Agent Parallel Agent Hermes Agent Overview Hermes API Company Terms of Service Privacy Policy PR Contact © 2023-2026 北京月之暗面科技有限公司 | 京ICP备2023011302号-17",
+      "last_excerpt": "Moonshot AI Kimi Business API Research Download Careers EN 中文 Kimi Business API Research Download Careers EN 中文 Seeking the optimal conversion from energy to intelligence Try Kimi Try API Latest Research Our research team works toward AGI while sharing the latest research with the global open-source community. Get More 2026-07-16 Kimi K3 2026-07-16 PerceptionBench 2026-04-20 Kimi K2.6 Complex problems, solved with ease AI Models is capability. Code, analyze, sheets and slides — simplify complex work with the latest flagship model. Kimi K3 The new frontier of intelligence. 2.8T parameters, natively multimodal, 1M-token context — built for long-horizon coding, knowledge work, and deep reasoning. Explore Features Discover Kimi doodles Explore doodles for holidays, events, and trends — each one a small surprise. June · Turing's Birthday A tape defined computation. One question inspired AI. Chat with Kimi continues Turing's legacy. May · Bob Dylan 's Birthday Sunglasses, guitar, harmonica. For the old rock Nobel who couldn't be bothered. The question is the answer. April · Earth Day A Fauvist forest honoring Matisse’s cut-outs. Let this Doodle remind you: log off and step into spring. Built for the future. Available today. App Scan to download Kimi App Chrome Extension Desktop macOS Windows Try Kimi right now Copyright © 2023-2026 Moonshot AI. All Rights Reserved. Co-created with Kimi K3 Products Kimi Open Platform Kimi Code Pricing Kimi Business Features Agent Agent Swarm Website Document Slides Excel Deep Research Kimi Claw Resources Multi-Agent Parallel Agent Hermes Agent Overview Hermes API Company Terms of Service Privacy Policy PR Contact",
       "baseline_initialized": true,
       "source_signature": "eaada35abc15302434b4815c7958463d46b626935b9bf4a0a6c2bd5bd74c5dd0",
       "baseline_reinitialized_at": "2026-07-02T10:22:21.295328Z",
-      "last_changed_at": "2026-08-14T13:24:48.671932Z"
+      "last_changed_at": "2026-08-19T08:17:18.039173Z"
     },
     "kimi-forum": {
       "seen_keys": [
@@ -1479,9 +1479,9 @@
         "https://www.tc260.org.cn/portal/article/1/f57857bcdc15494890df2022b83321cc",
         "https://www.tc260.org.cn/portal/article/1/0efe73df0f234fa5a4fce766173b5678",
         "https://www.tc260.org.cn/portal/article/1/c38f19280f2b4b5284c642a174f27d38",
-        "https://www.tc260.org.cn/portal/article/1/07d60a8d728445fbb3526ca97e3d02d9",
         "https://www.tc260.org.cn/portal/article/1/9745608fa11e46639275aa834e58b5c4",
         "https://www.tc260.org.cn/portal/article/1/c5bff06b0a544674b12b89271bf8df02",
+        "https://www.tc260.org.cn/portal/article/1/07d60a8d728445fbb3526ca97e3d02d9",
         "https://www.tc260.org.cn/portal/article/1/a6d21a769f07420f818f6bed6797c618",
         "https://www.tc260.org.cn/portal/article/2/13c3282d6feb4b97930ded6faf656b2b",
         "https://www.tc260.org.cn/portal/article/2/a1de240fa2a7452e93df1ca6c3f1cf45",
@@ -1565,7 +1565,7 @@
       ],
       "last_checked_at": "2026-07-02T04:52:25.829528Z",
       "baseline_initialized": true,
-      "last_changed_at": "2026-08-19T07:51:09.191851Z",
+      "last_changed_at": "2026-08-19T08:18:43.231248Z",
       "source_signature": "ac7adf7536607ad1dc8d9ca06c0f10f499a52b1893dcc2d8ec03dd7b6240b921",
       "baseline_reinitialized_at": "2026-07-02T10:23:25.737100Z"
     },
@@ -2095,7 +2095,7 @@
     },
     "aihot-selected": {
       "last_raw_count": 48,
-      "last_polled_at": "2026-08-19T07:49:56.466438Z",
+      "last_polled_at": "2026-08-19T08:17:18.039173Z",
       "source_signature": "54b0a2ce37b31eed7de5728f2ad3467d3fff1ec95a53a03f9ee11a9fa197fda4",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-09T08:44:50.779962Z",
