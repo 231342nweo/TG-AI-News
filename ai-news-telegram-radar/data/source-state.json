@@ -175,13 +175,13 @@
       "last_changed_at": "2026-08-14T15:21:36.372417Z"
     },
     "aliyun-bailian-models": {
-      "fingerprint": "a4945f0c6b4fee1a793fddb49741a066c092459018bb6630e5b0b5b311bc3661",
+      "fingerprint": "436c3012895091387bc3f173c5388b36297e209cfdd9d53a9604600280a268ec",
       "last_checked_at": "2026-07-02T04:51:33.147542Z",
-      "last_excerpt": "模型大全功能规格与计费-大模型服务平台百炼-阿里云-大模型服务平台百炼(Model Studio)-阿里云帮助中心 大模型 产品 解决方案 权益 定价 云市场 伙伴 服务 了解阿里云 查看 \"\" 全部搜索结果 AI 助理 文档 备案 控制台 官方文档 用户指南（模型） 用户指南（应用） API参考（模型） API参考（应用） 选择模型 更新时间： 复制 MD 格式 产品详情 我的收藏 阿里云百炼提供千问及第三方模型服务，覆盖文本、图像、音频、视频等多种模态。 文本生成 查看更多 → qwen3.8-max 华北2（北京） 新加坡 日本（东京） 德国（法兰克福） 美国（弗吉尼亚） OpenAI 兼容 Anthropic 兼容 DashScope 模型 ID qwen3.8-max Base URL https:// {WorkspaceId} .cn-beijing.maas.aliyuncs.com/compatible-mode/v1 API Key 获取↗ 模型 ID qwen3.8-max Base URL https:// {WorkspaceId} .cn-beijing.maas.aliyuncs.com/apps/anthropic API Key 获取↗ 模型 ID qwen3.8-max Base URL https:// {WorkspaceId} .cn-beijing.maas.aliyuncs.com/api/v1 API Key 获取↗ OpenAI 兼容 Anthropic 兼容 DashScope 模型 ID qwen3.8-max Base URL https:// {WorkspaceId} .ap-southeast-1.maas.aliyuncs.com/compatible-mode/v1 API Key 获取↗ 模型 ID qwen3.8-max Base URL https:// {WorkspaceId} .ap-southeast-1.maas.aliyuncs.com/apps/anthropic API Key 获取↗ 模型 ID qwen3.8-max Base URL https:// {WorkspaceId} .ap-southeast-1.maas.aliyuncs.com/api/v1 API Key 获取↗ OpenAI 兼容 Anthropic 兼容 DashScope 模型 ID qwen3.8-max Base URL https:// {WorkspaceId} .ap-northeast-1.maas.aliyuncs.com/compatible-mode/v1 API Key 获取↗ 模型 ID qwen3.8-max Base URL https:// {WorkspaceId} .ap-northeast-1.maas.aliyuncs.com/apps/anthropic API Key 获取↗ 模型 ID qwen3.8-max Base URL https:// {WorkspaceId} .ap-northeast-1.maas.aliyuncs.com/api/v1 API Key 获取↗ OpenAI 兼容 Anthropic 兼容 DashScope 模型 ID qwen3.8-max Base URL https:// {WorkspaceId} .eu-central-1.maas.aliyuncs.com/compatible-mode/v1 API Key 获取↗ 模型 ID qwen3.8-max Base URL https:// {WorkspaceId} .eu-central-1.maas.aliyuncs.com/apps/anthropic API Key 获取↗ 模型 ID qwen3.8-max Base URL https:// {WorkspaceId} .eu-central-1.maas.aliyuncs.com/api/v1 API Key 获取↗ OpenAI 兼容 Anthropic 兼容 DashScope 模型 ID qwen3.8-max Base URL https://dashscope-us.aliyuncs.com/compatible-mode/v1 API Key 获取↗ 模型 ID qwen3.8-max Base URL https://dashscope-us.aliyuncs.com/apps/anthropic API Key 获取↗ 模型 ID qwen3.8-max Base URL https://dashscope-us.aliyuncs.com/api/v1 API Key 获取↗ qwen3.7-plus 华北2（北京） 新加坡 日本（东京） 德国（法兰克福） 美国（弗吉尼亚） OpenAI 兼容 Anthropic 兼容 DashScope 模型 ID qwen3.7-plus Base URL https:// {WorkspaceId} .cn-beijing.maas.aliyuncs.com/compatible-mode/v1 API Key 获取↗ 模型 ID qwen3.7-plus Base URL https:// {WorkspaceId} .cn-beijing.maas.aliyuncs.com/apps/anthropic API Key 获取↗ 模型 ID qwen3.7-plus Base URL https:// {WorkspaceId} .cn-beijing.maas.aliyuncs.com/api/v1 API Key 获取↗ OpenAI 兼容 Anthropic 兼容 DashScope 模型 ID qwen3.7-plus Base URL https:// {WorkspaceId} .ap-southeast-1.maas.aliyuncs.com/compatible-mode/v1 API Key 获取↗ 模型 ID qwen3.7-plus Base URL https:// {WorkspaceId} .ap-southeast-1.maas.aliyuncs.com/apps/anthropic API Key 获取↗ 模型 ID qwen3.7-plus Base URL https:// {WorkspaceId} .ap-southeast-1.maas.aliyuncs.com/api/v1 API Key 获取↗ OpenAI 兼容 Anthropic 兼容 DashScope 模型 ID qwen3.7-plus Base URL https:// {WorkspaceId} .ap-northeast-1.maas.aliyuncs.com/compatible-mode/v1 API Key 获取↗ 模型 ID qwen3.7-plus Base URL https:// {WorkspaceId} .ap-northeast-1.maas.aliyuncs.com/apps/anthropic API Key 获取↗ 模型 ID qwen3.7-plus Base URL https:// {WorkspaceId} .ap-northeast-1.maas.aliyuncs.com/api/v1 API Key 获取↗ OpenAI 兼容 Anthropic 兼容 DashScope 模型 ID qwen3.7-plus Base URL https:// {WorkspaceId} .eu-central-1.maas.aliyuncs.com/compatible-mode/v1 API Key 获取↗ 模型 ID qwen3.7-plus Base URL https:// {WorkspaceId} .eu-central-1.maas.aliyuncs.com/apps/anthropic API Key 获取↗ 模型 ID qwen3.7-plus Base URL https:// {WorkspaceId} .eu-central-1.maas.aliyuncs.com/api/v1 API Key 获取↗ OpenAI 兼容 Anthropic 兼容 DashScope 模型 ID qwen3.7-plus Base URL https://dashscope-us.aliyuncs.com/compatible-mode/v1 API Key 获取↗ 模型 ID qwen3.7-plus Base URL https://dashscope-us.aliyuncs.com/apps/anthropic API Key 获取↗ 模型 ID qwen3.7-plus Base URL https://dashscope-us.aliyuncs.com/api/v1 API Key 获取↗ qwen3.7-flash 华北2（北京） 新加坡 日本（东京） 德国（法兰克福） 美国（弗吉尼亚） OpenAI 兼容 Anthropic 兼容 DashScope 模型 ID qwen3.7-flash Base URL https:// {WorkspaceId} .cn-beijing.maas.aliyuncs.com/compatible-mode/v1 API Key 获取↗",
+      "last_excerpt": "模型大全功能规格与计费-大模型服务平台百炼-阿里云-大模型服务平台百炼(Model Studio)-阿里云帮助中心 大模型 产品 解决方案 权益 定价 云市场 伙伴 服务 了解阿里云 查看 \"\" 全部搜索结果 AI 助理 文档 备案 控制台 官方文档 用户指南（模型） 用户指南（应用） API参考（模型） API参考（应用） API参考（应用） 首页 大模型服务平台百炼 用户指南（模型） 开始使用 选择模型 选择模型 更新时间： 复制 MD 格式 产品详情 我的收藏 阿里云百炼提供千问及第三方模型服务，覆盖文本、图像、音频、视频等多种模态。 文本生成 查看更多 → qwen3.8-max 华北2（北京） 新加坡 日本（东京） 德国（法兰克福） 美国（弗吉尼亚） OpenAI 兼容 Anthropic 兼容 DashScope 模型 ID qwen3.8-max Base URL https:// {WorkspaceId} .cn-beijing.maas.aliyuncs.com/compatible-mode/v1 API Key 获取↗ 模型 ID qwen3.8-max Base URL https:// {WorkspaceId} .cn-beijing.maas.aliyuncs.com/apps/anthropic API Key 获取↗ 模型 ID qwen3.8-max Base URL https:// {WorkspaceId} .cn-beijing.maas.aliyuncs.com/api/v1 API Key 获取↗ OpenAI 兼容 Anthropic 兼容 DashScope 模型 ID qwen3.8-max Base URL https:// {WorkspaceId} .ap-southeast-1.maas.aliyuncs.com/compatible-mode/v1 API Key 获取↗ 模型 ID qwen3.8-max Base URL https:// {WorkspaceId} .ap-southeast-1.maas.aliyuncs.com/apps/anthropic API Key 获取↗ 模型 ID qwen3.8-max Base URL https:// {WorkspaceId} .ap-southeast-1.maas.aliyuncs.com/api/v1 API Key 获取↗ OpenAI 兼容 Anthropic 兼容 DashScope 模型 ID qwen3.8-max Base URL https:// {WorkspaceId} .ap-northeast-1.maas.aliyuncs.com/compatible-mode/v1 API Key 获取↗ 模型 ID qwen3.8-max Base URL https:// {WorkspaceId} .ap-northeast-1.maas.aliyuncs.com/apps/anthropic API Key 获取↗ 模型 ID qwen3.8-max Base URL https:// {WorkspaceId} .ap-northeast-1.maas.aliyuncs.com/api/v1 API Key 获取↗ OpenAI 兼容 Anthropic 兼容 DashScope 模型 ID qwen3.8-max Base URL https:// {WorkspaceId} .eu-central-1.maas.aliyuncs.com/compatible-mode/v1 API Key 获取↗ 模型 ID qwen3.8-max Base URL https:// {WorkspaceId} .eu-central-1.maas.aliyuncs.com/apps/anthropic API Key 获取↗ 模型 ID qwen3.8-max Base URL https:// {WorkspaceId} .eu-central-1.maas.aliyuncs.com/api/v1 API Key 获取↗ OpenAI 兼容 Anthropic 兼容 DashScope 模型 ID qwen3.8-max Base URL https://dashscope-us.aliyuncs.com/compatible-mode/v1 API Key 获取↗ 模型 ID qwen3.8-max Base URL https://dashscope-us.aliyuncs.com/apps/anthropic API Key 获取↗ 模型 ID qwen3.8-max Base URL https://dashscope-us.aliyuncs.com/api/v1 API Key 获取↗ qwen3.7-plus 华北2（北京） 新加坡 日本（东京） 德国（法兰克福） 美国（弗吉尼亚） OpenAI 兼容 Anthropic 兼容 DashScope 模型 ID qwen3.7-plus Base URL https:// {WorkspaceId} .cn-beijing.maas.aliyuncs.com/compatible-mode/v1 API Key 获取↗ 模型 ID qwen3.7-plus Base URL https:// {WorkspaceId} .cn-beijing.maas.aliyuncs.com/apps/anthropic API Key 获取↗ 模型 ID qwen3.7-plus Base URL https:// {WorkspaceId} .cn-beijing.maas.aliyuncs.com/api/v1 API Key 获取↗ OpenAI 兼容 Anthropic 兼容 DashScope 模型 ID qwen3.7-plus Base URL https:// {WorkspaceId} .ap-southeast-1.maas.aliyuncs.com/compatible-mode/v1 API Key 获取↗ 模型 ID qwen3.7-plus Base URL https:// {WorkspaceId} .ap-southeast-1.maas.aliyuncs.com/apps/anthropic API Key 获取↗ 模型 ID qwen3.7-plus Base URL https:// {WorkspaceId} .ap-southeast-1.maas.aliyuncs.com/api/v1 API Key 获取↗ OpenAI 兼容 Anthropic 兼容 DashScope 模型 ID qwen3.7-plus Base URL https:// {WorkspaceId} .ap-northeast-1.maas.aliyuncs.com/compatible-mode/v1 API Key 获取↗ 模型 ID qwen3.7-plus Base URL https:// {WorkspaceId} .ap-northeast-1.maas.aliyuncs.com/apps/anthropic API Key 获取↗ 模型 ID qwen3.7-plus Base URL https:// {WorkspaceId} .ap-northeast-1.maas.aliyuncs.com/api/v1 API Key 获取↗ OpenAI 兼容 Anthropic 兼容 DashScope 模型 ID qwen3.7-plus Base URL https:// {WorkspaceId} .eu-central-1.maas.aliyuncs.com/compatible-mode/v1 API Key 获取↗ 模型 ID qwen3.7-plus Base URL https:// {WorkspaceId} .eu-central-1.maas.aliyuncs.com/apps/anthropic API Key 获取↗ 模型 ID qwen3.7-plus Base URL https:// {WorkspaceId} .eu-central-1.maas.aliyuncs.com/api/v1 API Key 获取↗ OpenAI 兼容 Anthropic 兼容 DashScope 模型 ID qwen3.7-plus Base URL https://dashscope-us.aliyuncs.com/compatible-mode/v1 API Key 获取↗ 模型 ID qwen3.7-plus Base URL https://dashscope-us.aliyuncs.com/apps/anthropic API Key 获取↗ 模型 ID qwen3.7-plus Base URL https://dashscope-us.aliyuncs.com/api/v1 API Key 获取↗ qwen3.7-flash 华北2（北京） 新加坡 日本（东京） 德国（法兰克福） 美国（弗吉尼亚） OpenAI 兼容 Anthropic 兼容 DashScope 模型 ID qwen3.7-flash Base URL https:// {WorkspaceId} .cn-beijing.maas.a",
       "baseline_initialized": true,
       "source_signature": "55deffc503423fb3ce68daece33fd797ae9f277c5d24e170f039031f65315073",
       "baseline_reinitialized_at": "2026-07-02T10:22:21.295328Z",
-      "last_changed_at": "2026-08-20T19:49:33.447880Z"
+      "last_changed_at": "2026-08-20T20:11:31.166565Z"
     },
     "baidu-qianfan-docs": {
       "fingerprint": "c4491dd35b99f7fe65743fc805428aeb03cada2ace72e2b695ea2859d7c4a528",
@@ -590,13 +590,14 @@
       "last_checked_at": "2026-07-02T04:51:55.708102Z",
       "baseline_initialized": true,
       "repos": {
+        "OpenBMB/XAgent": "2026-07-31T03:30:54Z",
         "OpenBMB/VoxCPM": "2026-08-12T14:14:37Z",
         "OpenBMB/StaffDeck": "2026-08-20T17:54:41Z",
-        "OpenBMB/ForgeTrain": "2026-08-20T12:39:33Z",
         "OpenBMB/ChatDev": "2026-07-24T08:01:27Z",
+        "OpenBMB/MiniCPM": "2026-07-27T06:50:07Z",
+        "OpenBMB/ForgeTrain": "2026-08-20T12:39:33Z",
         "OpenBMB/UltraRAG": "2026-08-19T11:23:56Z",
         "OpenBMB/MiniCPM-V": "2026-08-12T14:16:57Z",
-        "OpenBMB/MiniCPM": "2026-07-27T06:50:07Z",
         "OpenBMB/MiniCPM-Desk-Pet": "2026-08-18T07:58:20Z",
         "OpenBMB/MiniCPM-o-Demo": "2026-08-14T07:26:44Z",
         "OpenBMB/AppCopilot": "2025-11-18T06:18:21Z",
@@ -608,10 +609,9 @@
         "OpenBMB/PilotDeck": "2026-08-20T07:40:38Z",
         "OpenBMB/AgentCPM": "2026-02-09T13:39:47Z",
         "OpenBMB/AgentVerse": "2024-09-09T05:47:44Z",
-        "OpenBMB/MiniCPM-V-Apps": "2026-08-11T05:38:19Z",
-        "OpenBMB/AgentCPM-GUI": "2026-01-11T08:24:15Z"
+        "OpenBMB/MiniCPM-V-Apps": "2026-08-11T05:38:19Z"
       },
-      "last_changed_at": "2026-08-20T18:04:15.151998Z",
+      "last_changed_at": "2026-08-20T20:11:31.166565Z",
       "source_signature": "3dd1c4ab8bc380dc66624329d310bc65fe6deafde7a370da1191ca03b32c0764",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -657,7 +657,7 @@
         "QwenLM/Qwen-VL": "2024-08-07T02:37:06Z",
         "QwenLM/Qwen3Guard": "2025-10-21T02:27:12Z",
         "QwenLM/Qwen-Agent": "2026-03-04T08:15:07Z",
-        "QwenLM/qwen-code": "2026-08-20T19:45:41Z",
+        "QwenLM/qwen-code": "2026-08-20T20:11:22Z",
         "QwenLM/Qwen": "2026-03-05T13:55:17Z",
         "QwenLM/Qwen3-Coder": "2026-03-24T08:22:10Z",
         "QwenLM/Qwen3.8": "2026-08-17T05:17:40Z",
@@ -674,7 +674,7 @@
         "QwenLM/Qwen-Image-Bench": "2026-06-18T10:00:04Z",
         "QwenLM/Qwen2.5-Math": "2025-01-11T17:30:43Z"
       },
-      "last_changed_at": "2026-08-20T19:49:33.447880Z",
+      "last_changed_at": "2026-08-20T20:11:31.166565Z",
       "source_signature": "ddc0d8d3788b1fc4ba6779bc400a51934ce7ac0845fbfff67f906a6d77406e21",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -1478,9 +1478,9 @@
         "https://www.tc260.org.cn/portal/article/1/f57857bcdc15494890df2022b83321cc",
         "https://www.tc260.org.cn/portal/article/1/0efe73df0f234fa5a4fce766173b5678",
         "https://www.tc260.org.cn/portal/article/1/c38f19280f2b4b5284c642a174f27d38",
-        "https://www.tc260.org.cn/portal/article/1/07d60a8d728445fbb3526ca97e3d02d9",
         "https://www.tc260.org.cn/portal/article/1/9745608fa11e46639275aa834e58b5c4",
         "https://www.tc260.org.cn/portal/article/1/c5bff06b0a544674b12b89271bf8df02",
+        "https://www.tc260.org.cn/portal/article/1/07d60a8d728445fbb3526ca97e3d02d9",
         "https://www.tc260.org.cn/portal/article/1/a6d21a769f07420f818f6bed6797c618",
         "https://www.tc260.org.cn/portal/article/2/66ab0e249d404f0583bc420b6106f899",
         "https://www.tc260.org.cn/portal/article/2/13c3282d6feb4b97930ded6faf656b2b",
@@ -1565,7 +1565,7 @@
       ],
       "last_checked_at": "2026-07-02T04:52:25.829528Z",
       "baseline_initialized": true,
-      "last_changed_at": "2026-08-20T19:53:28.579961Z",
+      "last_changed_at": "2026-08-20T20:15:33.479759Z",
       "source_signature": "ac7adf7536607ad1dc8d9ca06c0f10f499a52b1893dcc2d8ec03dd7b6240b921",
       "baseline_reinitialized_at": "2026-07-02T10:23:25.737100Z"
     },
@@ -2095,7 +2095,7 @@
     },
     "aihot-selected": {
       "last_raw_count": 48,
-      "last_polled_at": "2026-08-20T19:49:33.447880Z",
+      "last_polled_at": "2026-08-20T20:11:31.166565Z",
       "source_signature": "54b0a2ce37b31eed7de5728f2ad3467d3fff1ec95a53a03f9ee11a9fa197fda4",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-09T08:44:50.779962Z",
