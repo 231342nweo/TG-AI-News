@@ -1,13 +1,13 @@
 {
   "sources": {
     "deepseek-api-updates": {
-      "fingerprint": "f85f9946ab09af5f7110222c8d4e4965c4fa2daa233795ad4cc541a4d1d38821",
+      "fingerprint": "a87cf7b9e0d91c01c3c2202876729410f8f1d4e36caeb6830d5125dac6404c16",
       "last_checked_at": "2026-07-02T04:51:33.147542Z",
-      "last_excerpt": "Change Log | DeepSeek API Docs Skip to main content DeepSeek API Docs English English 中文（中国） DeepSeek Platform Quick Start Your First API Call Models & Pricing Token & Token Usage Rate Limit & Isolation Error Codes Agent Integrations API Guides Thinking Mode Multi-round Conversation Chat Prefix Completion (Beta) FIM Completion (Beta) JSON Output Tool Calls Context Caching Using the Responses API Using the Anthropic API API Reference News Other Resources FAQ Change Log Change Log On this page Change Log Date: 2026-08-13 ​ DeepSeek-V4-Pro Update ​ The GA release of DeepSeek-V4-Pro has been rolled out on the APP, Web, and API. The API calling method remains unchanged — simply set the model name to deepseek-v4-pro to use the latest version. Significantly enhanced Agent capabilities The GA version of DeepSeek V4 Pro greatly enhances agent capabilities, with particularly significant performance improvements in production environments. HLE (wo / w tools): 42.7/60.0 Terminal Bench 2.1: 87.9 NL2Repo: 61.5 Cybergym: 83.3 DeepSWE: 62.7 Toolathlon-Verified: 74.1 Agents' Last Exam: 25.7 AutomationBench (Public): 31.8 DSBench-FullStack: 71.1 DSBench-Hard: 67.2 Native support for the Responses API The DeepSeek API now natively supports the OpenAI Responses API format and is specifically adapted for Codex. Users can refer to the official documentation and complete the Codex configuration with a one-click configuration script. More flexible thinking effort control The thinking modes of V4-Pro and V4-Flash now support three thinking effort levels: low / high / max. In real-world usage, users can flexibly choose based on task complexity: use low for simple tasks, high for daily Agent tasks, and max for more complex scenarios. For setup instructions, please refer to the official API documentation: Thinking Mode . API Pricing Adjustment With the official release of the DeepSeek V4 model family, we will update and adjust API pricing . To allocate resources more reasonably, we will adopt peak/off-peak pricing, with off-peak prices set at half of the peak-hour prices, encouraging users to schedule their tasks based on actual usage. The new prices will take effect at 16:00 (UTC Time) on August 16, 2026. For more details, please refer to this documentation . Date: 2026-07-31 ​ DeepSeek-V4-Flash Update ​ The official release of the DeepSeek-V4-Flash API is now in public beta. The API calling method remains unchanged — simply set the model name to deepseek-v4-flash to use the latest version. Significantly enhanced agent capabilities, with benchmark results far exceeding V4-Pro-Preview: Terminal Bench 2.1: 82.7 NL2Repo: 54.2 Cybergym: 76.7 DeepSWE: 54.4 Toolathlon verified: 70.3 Agent Last Exam: 25.2 Automation Bench (Public): 25.1 DSBench-FullStack: 68.7 DSBench-Hard: 59.6 Note 1: For the Code Agent tasks in the public benchmark sets, the official DeepSeek-V4-Flash was tested using the DeepSeek Harness minimal mode (to be released soon) as the framework, with the max effort level, topp=0.95, and temperature=1.0 Note 2: DSBench-FullStack is an internal full-stack development test set, and DSBench-Hard is an internal Coding Agent hard-problem test set The official V4-Flash natively supports the Responses API format and is specifically adapted for Codex. For the specific configuration, please refer to the documentation . DeepSeek-V4-Flash-0731 keeps the same model architecture and size as DeepSeek-V4-Flash-Preview, and was only re-post-trained. Note: This update only upgrades the DeepSeek-V4-Flash API. The DeepSeek-V4-Pro API and the APP/WEB models are unchanged. The official release of DeepSeek-V4-Pro will follow soon. Date: 2026-04-24 ​ DeepSeek-V4 ​ The DeepSeek API now supports V4-Pro and V4-Flash, available via both the OpenAI ChatCompletions interface and the Anthropic interface. To access the new models, the base_url remains unchanged, and the model parameter should be set to deepseek-v4-pro or deepseek-v4-flash . The two legacy API model names, deep",
+      "last_excerpt": "Change Log | DeepSeek API Docs Skip to main content DeepSeek API Docs English English 中文（中国） DeepSeek Platform Quick Start Your First API Call Models & Pricing Token & Token Usage Rate Limit & Isolation Error Codes Agent Integrations API Guides Vision Thinking Mode Multi-round Conversation Chat Prefix Completion (Beta) FIM Completion (Beta) JSON Output Tool Calls Files API Context Caching Using the Responses API Using the Anthropic API API Reference News Other Resources FAQ Change Log Change Log On this page Change Log Date: 2026-08-21 ​ DeepSeek-V4-Flash-Vision-Exp Release ​ Today, the new multimodal vision understanding model DeepSeek-V4-Flash-Vision-Exp is now available on the DeepSeek API platform. This is an experimental model that can be accessed by setting model='deepseek-v4-flash-vision-exp' . Terminal Bench 2.1: 83.9 NL2Repo: 57.7 DeepSWE: 59.3 DSBench-Hard: 63.6 AutomationBench (Public): 25.7 ApexBench (Pass@1): 36.5 Agents' Last Exam: 27.3 Chartography: 64.3 (p0.95); 63.3 (p1.0) ZeroBench (Pass@5): 35.0 * For the Code Agent text tasks in the public benchmark sets, the DeepSeek family models were tested using the DeepSeek Harness minimal mode as the framework, with the max effort level, topp=0.95, and temperature=1.0; in the ApexBench and Agents' Last Exam evaluations, the text model DeepSeek-V4-Flash ignores the multimodal elements within them. In terms of pure-text capabilities (agent, reasoning, world knowledge, etc.), DeepSeek-V4-Flash-Vision-Exp is on par with the official DeepSeek-V4-Flash. On agent benchmarks that require visual understanding, DeepSeek-V4-Flash-Vision-Exp delivers a significant leap over DeepSeek-V4-Flash, bringing its multimodal agent capabilities close to Opus-4.8. For usage details, please refer to the Vision guide . Date: 2026-08-13 ​ DeepSeek-V4-Pro Update ​ The GA release of DeepSeek-V4-Pro has been rolled out on the APP, Web, and API. The API calling method remains unchanged — simply set the model name to deepseek-v4-pro to use the latest version. Significantly enhanced Agent capabilities The GA version of DeepSeek V4 Pro greatly enhances agent capabilities, with particularly significant performance improvements in production environments. HLE (wo / w tools): 42.7/60.0 Terminal Bench 2.1: 87.9 NL2Repo: 61.5 Cybergym: 83.3 DeepSWE: 62.7 Toolathlon-Verified: 74.1 Agents' Last Exam: 25.7 AutomationBench (Public): 31.8 DSBench-FullStack: 71.1 DSBench-Hard: 67.2 Native support for the Responses API The DeepSeek API now natively supports the OpenAI Responses API format and is specifically adapted for Codex. Users can refer to the official documentation and complete the Codex configuration with a one-click configuration script. More flexible thinking effort control The thinking modes of V4-Pro and V4-Flash now support three thinking effort levels: low / high / max. In real-world usage, users can flexibly choose based on task complexity: use low for simple tasks, high for daily Agent tasks, and max for more complex scenarios. For setup instructions, please refer to the official API documentation: Thinking Mode . API Pricing Adjustment With the official release of the DeepSeek V4 model family, we will update and adjust API pricing . To allocate resources more reasonably, we will adopt peak/off-peak pricing, with off-peak prices set at half of the peak-hour prices, encouraging users to schedule their tasks based on actual usage. The new prices will take effect at 16:00 (UTC Time) on August 16, 2026. For more details, please refer to this documentation . Date: 2026-07-31 ​ DeepSeek-V4-Flash Update ​ The official release of the DeepSeek-V4-Flash API is now in public beta. The API calling method remains unchanged — simply set the model name to deepseek-v4-flash to use the latest version. Significantly enhanced agent capabilities, with benchmark results far exceeding V4-Pro-Preview: Terminal Bench 2.1: 82.7 NL2Repo: 54.2 Cybergym: 76.7 DeepSWE: 54.4 Toolathlon verified: 70.3 Agent Last Exam: 25.2 Aut",
       "baseline_initialized": true,
       "source_signature": "da94888987a371666a5f08739c9802c186474211b8f74f055d7f6cfad14cf7a4",
       "baseline_reinitialized_at": "2026-07-02T10:22:21.295328Z",
-      "last_changed_at": "2026-08-13T13:39:56.891440Z"
+      "last_changed_at": "2026-08-21T09:46:10.097161Z"
     },
     "deepseek-huggingface": {
       "models": {
@@ -203,12 +203,12 @@
       "baseline_reinitialized_at": "2026-07-02T10:22:21.295328Z"
     },
     "volcengine-ark-models": {
-      "fingerprint": "d88fc0fef063b077406c96ad89119b26b31d49a4e26661ac0d80eb180134594b",
+      "fingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "last_checked_at": "2026-07-02T04:51:33.147542Z",
-      "last_excerpt": "文档中心 登录 注册 火山方舟 文档指南 订阅 [Agent/Coding Plan] API参考 资源 火山方舟 火山方舟 文档指南 请输入 入门 产品简介 快速入门 模型列表 模型价格 最新模型：Seed-Evolving Agent 场景模型调用的正确姿势 调用 文本生成 多模态理解 图片理解 视频理解 文档理解 音频理解 视频生成 Doubao Seedance 2.5 教程 Doubao Seedance 2.5 提示词指南 Doubao Seedance 2.0 系列教程 Doubao Seedance 2.0 系列提示词指南 视频生成教程 Doubao Seedance 便利创作含肖像视频 图片生成 Doubao Seedream 5.0 pro 教程 Doubao Seedream 5.0 pro 实现交互编辑指南 图片生成教程 领域模型 3D 生成 向量化 工具调用 工具概述 豆包助手 Web Search（联网内容插件） Image Process（图像处理） 私域知识库搜索 Knowledge Search 云部署 MCP / Remote MCP Function Calling（函数调用） 进阶使用 深度思考 上下文管理 流式输出 续写模式 上下文缓存 原理及选型 上下文缓存(Context API) 文件输入(File API) GUI Agent 能力 视觉定位 Grounding 提示词工程 结构化输出(beta) 接入三方工具 使用 Responses API 迁移至 Responses API 文本生成 深度思考 多模态理解 工具调用 上下文缓存 结构化输出(beta) 上下文编辑 推理 推理方式概述 在线推理（常规） 在线推理（低延迟） 在线推理（TPM 保障包） 在线推理（模型单元） 模型单元概述 创建模型单元 管理模型单元 批量推理 高级能力 智能模型路由 使用 MLP 推理服务 使用自定义模型进行推理 训练 模型精调 模型精调概述 有监督微调最佳实践 直接偏好优化最佳实践 强化学习最佳实践 精调 SDK 使用指南 精调数据集格式 格式总览 语言及多模态理解模型精调数据格式 图片生成模型精调数据格式 视频生成 管理自定义模型 模型仓库 模型共享 模型评测 创建模型评测任务 查看并管理模型评测任务 评测数据集格式说明 人工评测 人工评测作业 查看评测报告 数据集 数据集介绍 共享数据集 Managed Agents 快速上手 概述 快速入门（代码） 快速入门（控制台） 定义 Agent Agent Skills MCP Tools 工具权限策略 配置 Agent 环境 配置云环境 云沙箱参考 委派任务给 Agent 启动 Session 管理 Session Session 事件流 使用 Vaults 认证 管理 Agent 上下文 上传与挂载文件 持久化记忆 高级能力 Multi Agent 应用 应用实验室 零代码应用简介 零代码应用操作指南 低代码应用简介 高代码应用简介 高代码应用创建部署指南 veFaaS部署指南 服务组件库 网页解析插件功能说明 联网内容插件功能说明 知识库插件功能说明 应用实验室 知识库 操作指南 文档知识问答核心流程 音视频知识问答核心流程 知识库管理 创建知识库 编辑知识库 查看知识库列表 查看知识库详情 删除知识库 知识检索 知识问答 续订知识库 退订知识库 配置实验版本 文档管理 导入文档 标签配置 删除文档 切片管理 新增切片 编辑切片 查阅切片 删除切片 知识服务管理 创建知识服务 知识服务管理 知识库配额说明 知识库分账管理 API参考 签名鉴权与调用示例 API 列表 最佳实践 MCP Server 知识型视频智能问答解决方案 视频高光提取及检索解决方案 更多最佳实践 知识库免费体验权益 SDK参考 SDK 升级与使用说明 PromptPilot PromptPilot 概述 PromptPilot 订阅管理 Prompt 生成 Prompt 调优 Prompt 批量 PromptPilot 管理 VideoPilot 功能介绍 视觉理解 Solution 评分DSL AgentPilot SDK 参考 AgentPilot OpenAPI 使用指南 VideoPilot API 文档首页 火山方舟 入门 模型列表 复制全文 下载 pdf 我的收藏 入门 模型列表 复制全文 下载 pdf 我的收藏 模型列表 文档反馈 问问助手 最近更新时间： 2026.08.17 13:54:22 这个页面对您有帮助吗？ 有用 有用 无用 无用",
+      "last_excerpt": "",
       "baseline_initialized": true,
       "baseline_invalid": true,
-      "last_changed_at": "2026-08-21T09:03:16.663445Z",
+      "last_changed_at": "2026-08-21T09:46:10.097161Z",
       "source_signature": "ab5ee375ff670169281a4aefbc9772546566386e665c24a65ec209061d7dfada",
       "baseline_reinitialized_at": "2026-07-02T10:22:21.295328Z"
     },
@@ -314,12 +314,14 @@
         "https://api-docs.deepseek.com/quick_start/token_usage",
         "https://api-docs.deepseek.com/quick_start/rate_limit",
         "https://api-docs.deepseek.com/quick_start/error_codes",
+        "https://api-docs.deepseek.com/guides/vision",
         "https://api-docs.deepseek.com/guides/thinking_mode",
         "https://api-docs.deepseek.com/guides/multi_round_chat",
         "https://api-docs.deepseek.com/guides/chat_prefix_completion",
         "https://api-docs.deepseek.com/guides/fim_completion",
         "https://api-docs.deepseek.com/guides/json_mode",
         "https://api-docs.deepseek.com/guides/tool_calls",
+        "https://api-docs.deepseek.com/guides/files_api",
         "https://api-docs.deepseek.com/guides/kv_cache",
         "https://api-docs.deepseek.com/guides/responses_api",
         "https://api-docs.deepseek.com/guides/anthropic_api",
@@ -348,7 +350,7 @@
       "baseline_initialized": true,
       "source_signature": "b97370b903e85e92567298e4c4b6ad643dde377046186875f36b3cdd7e30841a",
       "baseline_reinitialized_at": "2026-07-02T10:22:22.350710Z",
-      "last_changed_at": "2026-08-14T06:18:26.805763Z"
+      "last_changed_at": "2026-08-21T09:46:22.237077Z"
     },
     "jiqizhixin-rss": {
       "seen_keys": [
@@ -366,27 +368,27 @@
       "baseline_initialized": true,
       "repos": {
         "deepseek-ai/deepseek-harness": "2026-08-21T07:12:39Z",
-        "deepseek-ai/awesome-deepseek-agent": "2026-06-17T01:24:37Z",
-        "deepseek-ai/DeepSpec": "2026-07-09T04:37:14Z",
-        "deepseek-ai/DeepGEMM": "2026-08-11T08:21:15Z",
-        "deepseek-ai/DeepEP": "2026-08-20T08:04:39Z",
-        "deepseek-ai/DeepSeek-Coder": "2025-11-11T06:44:56Z",
-        "deepseek-ai/DeepSeek-V3": "2025-08-28T03:24:37Z",
-        "deepseek-ai/DeepSeek-R1": "2025-06-27T08:35:54Z",
-        "deepseek-ai/awesome-deepseek-integration": "2026-02-23T16:27:47Z",
         "deepseek-ai/DeepSeek-OCR": "2026-01-27T03:45:14Z",
-        "deepseek-ai/DeepSeek-VL2": "2025-02-26T05:03:42Z",
+        "deepseek-ai/DeepSeek-R1": "2025-06-27T08:35:54Z",
+        "deepseek-ai/DeepSeek-V3": "2025-08-28T03:24:37Z",
         "deepseek-ai/DeepSeek-OCR-2": "2026-02-03T00:34:18Z",
+        "deepseek-ai/DeepSeek-Coder": "2025-11-11T06:44:56Z",
+        "deepseek-ai/awesome-deepseek-agent": "2026-06-17T01:24:37Z",
+        "deepseek-ai/awesome-deepseek-integration": "2026-02-23T16:27:47Z",
+        "deepseek-ai/DeepSpec": "2026-07-09T04:37:14Z",
+        "deepseek-ai/DeepEP": "2026-08-20T08:04:39Z",
+        "deepseek-ai/open-infra-index": "2025-05-15T02:00:43Z",
+        "deepseek-ai/Janus": "2025-02-01T07:58:29Z",
+        "deepseek-ai/Engram": "2026-01-14T01:13:02Z",
+        "deepseek-ai/DeepSeek-LLM": "2024-02-04T12:22:16Z",
+        "deepseek-ai/DeepGEMM": "2026-08-11T08:21:15Z",
+        "deepseek-ai/DeepSeek-VL2": "2025-02-26T05:03:42Z",
         "deepseek-ai/3FS": "2026-05-07T09:31:54Z",
         "deepseek-ai/awesome-deepseek-coder": "2025-11-11T06:45:15Z",
         "deepseek-ai/DeepSeek-VL": "2024-04-24T05:01:06Z",
-        "deepseek-ai/DeepSeek-Math": "2024-04-15T07:55:37Z",
-        "deepseek-ai/open-infra-index": "2025-05-15T02:00:43Z",
-        "deepseek-ai/DeepSeek-Coder-V2": "2025-11-11T06:44:45Z",
-        "deepseek-ai/DeepSeek-LLM": "2024-02-04T12:22:16Z",
-        "deepseek-ai/FlashMLA": "2026-07-28T06:18:26Z"
+        "deepseek-ai/DeepSeek-Math": "2024-04-15T07:55:37Z"
       },
-      "last_changed_at": "2026-08-21T07:54:29.767926Z",
+      "last_changed_at": "2026-08-21T09:46:10.097161Z",
       "source_signature": "e247a4022cc1b9d1fcca44981d9eb5c7892416a57bcff15ec2fe2fc72cfd972e",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -425,28 +427,28 @@
       "last_checked_at": "2026-07-02T04:51:40.485322Z",
       "baseline_initialized": true,
       "repos": {
+        "zai-org/Open-AutoGLM": "2026-03-06T08:38:39Z",
+        "zai-org/SCAIL-2": "2026-08-14T04:46:01Z",
+        "zai-org/GLM-5": "2026-08-11T06:36:36Z",
+        "zai-org/ChatGLM-6B": "2024-06-27T04:05:25Z",
+        "zai-org/GLM-4-Voice": "2024-12-05T07:10:01Z",
+        "zai-org/GLM-ASR": "2026-03-06T08:37:26Z",
+        "zai-org/GLM-4": "2026-08-05T07:08:46Z",
+        "zai-org/ChatGLM3": "2025-01-13T06:55:26Z",
         "zai-org/GLM-OCR": "2026-04-21T08:52:11Z",
         "zai-org/VisionReward": "2025-03-26T10:07:04Z",
-        "zai-org/GLM-5": "2026-08-11T06:36:36Z",
         "zai-org/ChatGLM2-6B": "2024-06-27T04:05:08Z",
-        "zai-org/ChatGLM-6B": "2024-06-27T04:05:25Z",
         "zai-org/CodeGeeX4": "2024-08-25T14:26:16Z",
         "zai-org/CodeGeeX2": "2024-07-10T12:34:55Z",
-        "zai-org/ChatGLM3": "2025-01-13T06:55:26Z",
-        "zai-org/GLM-4": "2026-08-05T07:08:46Z",
         "zai-org/GLM-V": "2026-07-21T16:03:29Z",
-        "zai-org/Open-AutoGLM": "2026-03-06T08:38:39Z",
         "zai-org/CogVideo": "2025-11-04T11:19:04Z",
         "zai-org/CogAgent": "2025-04-04T13:29:55Z",
-        "zai-org/SCAIL-2": "2026-08-14T04:46:01Z",
         "zai-org/ImageReward": "2025-10-29T13:40:51Z",
         "zai-org/CogView2": "2022-08-03T17:38:41Z",
         "zai-org/MotionBench": "2025-03-03T06:36:49Z",
-        "zai-org/SCAIL": "2026-05-06T14:59:54Z",
-        "zai-org/CodeGeeX": "2024-08-13T05:59:38Z",
-        "zai-org/GLM-4.5": "2026-02-01T08:28:10Z"
+        "zai-org/SCAIL": "2026-05-06T14:59:54Z"
       },
-      "last_changed_at": "2026-08-21T07:10:54.708208Z",
+      "last_changed_at": "2026-08-21T09:46:10.097161Z",
       "source_signature": "0f9d07d7983b4898dc433a8d045a96469f65dff73642f9fe1fbf73cf3299210c",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -485,28 +487,28 @@
       "last_checked_at": "2026-07-02T04:51:48.615583Z",
       "baseline_initialized": true,
       "repos": {
+        "stepfun-ai/Step-Audio2": "2026-03-16T04:06:21Z",
+        "stepfun-ai/NextStep-1": "2026-02-27T17:05:44Z",
+        "stepfun-ai/Step-Audio-EditX": "2026-04-09T02:27:46Z",
+        "stepfun-ai/Step-Audio-Edit-Benchmark": "2025-11-22T15:18:25Z",
+        "stepfun-ai/Step-3.5-Flash": "2026-04-03T12:50:32Z",
+        "stepfun-ai/Step1X-3D": "2025-09-08T22:32:12Z",
         "stepfun-ai/Step-Video-T2V": "2025-03-17T03:26:54Z",
         "stepfun-ai/Step1X-Edit": "2026-04-29T14:31:44Z",
         "stepfun-ai/Step-Audio-R1": "2026-04-29T04:15:21Z",
-        "stepfun-ai/Step-Audio2": "2026-03-16T04:06:21Z",
-        "stepfun-ai/Step-Audio-EditX": "2026-04-09T02:27:46Z",
-        "stepfun-ai/Step-3.5-Flash": "2026-04-03T12:50:32Z",
         "stepfun-ai/gelab-zero": "2026-05-11T05:50:07Z",
         "stepfun-ai/Step-3.7-Flash": "2026-06-01T06:58:45Z",
         "stepfun-ai/SteptronOss": "2026-05-18T07:15:55Z",
-        "stepfun-ai/Step1X-3D": "2025-09-08T22:32:12Z",
-        "stepfun-ai/Step-Realtime-CLI": "2026-08-20T09:26:51Z",
+        "stepfun-ai/Step-Realtime-CLI": "2026-08-21T09:35:46Z",
         "stepfun-ai/StepAudio-Skills": "2026-04-16T10:17:46Z",
         "stepfun-ai/Step-Audio": "2026-03-16T03:53:07Z",
         "stepfun-ai/Step-Realtime-Console": "2026-06-09T09:02:21Z",
         "stepfun-ai/StepMesh": "2026-01-28T11:26:52Z",
-        "stepfun-ai/NextStep-1": "2026-02-27T17:05:44Z",
         "stepfun-ai/StepDeepResearch": "2026-03-24T07:08:07Z",
         "stepfun-ai/Step3-VL-10B": "2026-01-21T13:42:15Z",
-        "stepfun-ai/vllm": "2026-05-28T16:40:24Z",
-        "stepfun-ai/llama.cpp": "2026-06-21T08:13:56Z"
+        "stepfun-ai/vllm": "2026-05-28T16:40:24Z"
       },
-      "last_changed_at": "2026-08-20T09:36:52.120437Z",
+      "last_changed_at": "2026-08-21T09:46:10.097161Z",
       "source_signature": "0c16d0bec86c2add01a625f4297429bfc4103a1c7c309525c559da8573280b38",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -590,13 +592,14 @@
       "last_checked_at": "2026-07-02T04:51:55.708102Z",
       "baseline_initialized": true,
       "repos": {
-        "OpenBMB/StaffDeck": "2026-08-21T07:03:32Z",
+        "OpenBMB/MiniCPM-V": "2026-08-12T14:16:57Z",
+        "OpenBMB/UltraEval-Audio": "2026-08-17T06:43:49Z",
         "OpenBMB/VoxCPM": "2026-08-12T14:14:37Z",
-        "OpenBMB/PilotDeck": "2026-08-21T08:03:22Z",
+        "OpenBMB/MiniCPM": "2026-07-27T06:50:07Z",
+        "OpenBMB/StaffDeck": "2026-08-21T07:03:32Z",
+        "OpenBMB/PilotDeck": "2026-08-21T09:37:04Z",
         "OpenBMB/MiniCPM-Desk-Pet": "2026-08-18T07:58:20Z",
         "OpenBMB/MathForm": "2026-08-17T05:28:16Z",
-        "OpenBMB/MiniCPM": "2026-07-27T06:50:07Z",
-        "OpenBMB/MiniCPM-V": "2026-08-12T14:16:57Z",
         "OpenBMB/XAgent": "2026-07-31T03:30:54Z",
         "OpenBMB/ChatDev": "2026-07-24T08:01:27Z",
         "OpenBMB/AgentCPM-GUI": "2026-01-11T08:24:15Z",
@@ -608,10 +611,9 @@
         "OpenBMB/UltraRAG": "2026-08-19T11:23:56Z",
         "OpenBMB/MiniCPM-o-Demo": "2026-08-14T07:26:44Z",
         "OpenBMB/AppCopilot": "2025-11-18T06:18:21Z",
-        "OpenBMB/BMTools": "2023-12-05T05:25:27Z",
-        "OpenBMB/BMPrinciples": "2023-08-13T09:08:36Z"
+        "OpenBMB/BMTools": "2023-12-05T05:25:27Z"
       },
-      "last_changed_at": "2026-08-21T08:23:10.570077Z",
+      "last_changed_at": "2026-08-21T09:46:10.097161Z",
       "source_signature": "3dd1c4ab8bc380dc66624329d310bc65fe6deafde7a370da1191ca03b32c0764",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -620,12 +622,14 @@
       "last_checked_at": "2026-07-02T04:51:56.844085Z",
       "baseline_initialized": true,
       "repos": {
+        "InternLM/InternLM-XComposer": "2025-05-26T15:59:34Z",
+        "InternLM/MindSearch": "2025-07-04T10:06:45Z",
+        "InternLM/StarBench": "2026-04-19T12:32:54Z",
         "InternLM/OVO-S-Bench": "2026-06-24T12:26:42Z",
         "InternLM/RNGBench": "2026-07-07T05:52:46Z",
         "InternLM/EMemBench": "2026-03-05T09:42:48Z",
         "InternLM/Skill-as-Pseudocode": "2026-05-28T16:11:56Z",
         "InternLM/xtuner": "2026-08-21T08:47:47Z",
-        "InternLM/MindSearch": "2025-07-04T10:06:45Z",
         "InternLM/archspace": "2026-08-13T06:49:54Z",
         "InternLM/lmdeploy": "2026-08-20T03:20:15Z",
         "InternLM/WildClawBench": "2026-08-17T06:04:32Z",
@@ -637,11 +641,9 @@
         "InternLM/SIM-CoT": "2026-04-13T14:19:59Z",
         "InternLM/EndoCoT": "2026-08-11T12:58:37Z",
         "InternLM/lagent": "2026-08-03T07:18:16Z",
-        "InternLM/JanusCoder": "2026-05-09T04:22:10Z",
-        "InternLM/InternLM-techreport": "2023-06-07T04:52:53Z",
-        "InternLM/agentlego": "2024-09-13T08:00:19Z"
+        "InternLM/JanusCoder": "2026-05-09T04:22:10Z"
       },
-      "last_changed_at": "2026-08-21T09:03:16.663445Z",
+      "last_changed_at": "2026-08-21T09:46:10.097161Z",
       "source_signature": "a7a2f73a91108336ba1fe2d4fb4d5921862eb329f648d490a4d7903663f49f70",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -653,28 +655,28 @@
       "last_checked_at": "2026-07-02T04:51:58.871155Z",
       "baseline_initialized": true,
       "repos": {
-        "QwenLM/Qwen3-ASR": "2026-06-26T08:20:17Z",
-        "QwenLM/qwen-code": "2026-08-21T09:03:19Z",
+        "QwenLM/Qwen-MM-Plugins": "2026-08-21T09:44:32Z",
+        "QwenLM/qwen-code": "2026-08-21T09:46:40Z",
         "QwenLM/Qwen": "2026-03-05T13:55:17Z",
-        "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
         "QwenLM/Qwen3.8": "2026-08-17T05:17:40Z",
+        "QwenLM/Qwen-VL": "2024-08-07T02:37:06Z",
+        "QwenLM/Qwen2.5-Omni": "2025-06-12T11:03:07Z",
+        "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
+        "QwenLM/Qwen3-Omni": "2026-04-23T10:58:01Z",
+        "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
+        "QwenLM/Qwen3-ASR": "2026-06-26T08:20:17Z",
         "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
         "QwenLM/Qwen2-Audio": "2025-04-21T08:50:49Z",
         "QwenLM/Qwen-Agent": "2026-03-04T08:15:07Z",
         "QwenLM/Qwen3-Embedding": "2025-09-30T06:10:27Z",
         "QwenLM/Qwen-VLA": "2026-05-29T13:49:38Z",
-        "QwenLM/Qwen-MM-Plugins": "2026-08-20T10:24:37Z",
-        "QwenLM/Qwen3-Omni": "2026-04-23T10:58:01Z",
         "QwenLM/Qwen3-Coder": "2026-03-24T08:22:10Z",
         "QwenLM/Qwen3-ASR-Toolkit": "2026-02-05T05:35:03Z",
         "QwenLM/Qwen-RobotManip": "2026-06-29T22:29:54Z",
         "QwenLM/open-computer-use": "2026-06-10T16:38:07Z",
-        "QwenLM/Qwen-Image": "2026-02-10T07:37:37Z",
-        "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
-        "QwenLM/Qwen3-VL-Embedding": "2026-06-23T10:39:17Z",
-        "QwenLM/Qwen-Image-Layered": "2025-12-31T11:40:35Z"
+        "QwenLM/Qwen-Image": "2026-02-10T07:37:37Z"
       },
-      "last_changed_at": "2026-08-21T09:03:16.663445Z",
+      "last_changed_at": "2026-08-21T09:46:10.097161Z",
       "source_signature": "ddc0d8d3788b1fc4ba6779bc400a51934ce7ac0845fbfff67f906a6d77406e21",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -710,6 +712,7 @@
     },
     "qbitai-rss": {
       "seen_keys": [
+        "https://www.qbitai.com/2026/08/476628.html",
         "https://www.qbitai.com/2026/08/476596.html",
         "https://www.qbitai.com/2026/08/476591.html",
         "https://www.qbitai.com/2026/08/476532.html",
@@ -1008,12 +1011,11 @@
         "https://www.qbitai.com/2026/07/454423.html",
         "https://www.qbitai.com/2026/07/454419.html",
         "https://www.qbitai.com/2026/07/454170.html",
-        "https://www.qbitai.com/2026/07/454165.html",
-        "https://www.qbitai.com/2026/07/454155.html"
+        "https://www.qbitai.com/2026/07/454165.html"
       ],
       "last_checked_at": "2026-07-02T04:52:26.145879Z",
       "baseline_initialized": true,
-      "last_changed_at": "2026-08-21T09:04:43.036894Z",
+      "last_changed_at": "2026-08-21T09:47:30.228936Z",
       "source_signature": "34418d38d4b87c134f9922d6999ac3c069821ed0be2134f9ba6ae5e00e4b63a9",
       "baseline_reinitialized_at": "2026-07-02T10:23:28.426031Z"
     },
@@ -2094,12 +2096,13 @@
       "last_changed_at": "2026-07-21T20:06:00.608583Z"
     },
     "aihot-selected": {
-      "last_raw_count": 43,
-      "last_polled_at": "2026-08-21T09:03:16.663445Z",
+      "last_raw_count": 44,
+      "last_polled_at": "2026-08-21T09:46:10.097161Z",
       "source_signature": "54b0a2ce37b31eed7de5728f2ad3467d3fff1ec95a53a03f9ee11a9fa197fda4",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-09T08:44:50.779962Z",
       "seen_keys": [
+        "https://api-docs.deepseek.com/zh-cn/updates",
         "https://claude.com/blog/computer-use-skills-api-files-api",
         "https://claude.com/blog/anthropics-approach-to-teaching-and-learning-ai",
         "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
@@ -2155,7 +2158,6 @@
         "https://x.com/SiliconFlowAI/status/2087903227224412222",
         "https://x.com/deepseek_ai/status/2087887408440164663",
         "https://cursor.com/blog/builds",
-        "https://api-docs.deepseek.com/zh-cn/updates",
         "https://openai.com/index/builders-guide-to-gpt-5-6",
         "https://mp.weixin.qq.com/s?__biz=Mzg4OTc2MzczNg%3D%3D&mid=2247496062&idx=1&sn=d4c48926c5d7607f129dfea03699a6c0",
         "https://www.anthropic.com/research/multiagent-systems",
@@ -2401,7 +2403,7 @@
         "https://x.com/OpenRouter/status/2082882158574911564",
         "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw%3D%3D&mid=2247508935&idx=1&sn=6199054420605cc9cb0f8f36845a9ad3"
       ],
-      "last_changed_at": "2026-08-20T20:43:50.958824Z"
+      "last_changed_at": "2026-08-21T09:46:17.706634Z"
     }
   }
 }
