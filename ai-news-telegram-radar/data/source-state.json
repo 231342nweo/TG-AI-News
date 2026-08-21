@@ -657,7 +657,9 @@
       "last_checked_at": "2026-07-02T04:51:58.871155Z",
       "baseline_initialized": true,
       "repos": {
-        "QwenLM/qwen-code": "2026-08-21T19:49:01Z",
+        "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
+        "QwenLM/Qwen-Agent": "2026-03-04T08:15:07Z",
+        "QwenLM/qwen-code": "2026-08-21T19:55:57Z",
         "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
         "QwenLM/Qwen3-Coder": "2026-03-24T08:22:10Z",
         "QwenLM/Qwen3.8": "2026-08-17T05:17:40Z",
@@ -674,11 +676,9 @@
         "QwenLM/Qwen-AgentWorld": "2026-07-20T11:52:07Z",
         "QwenLM/Confident-Decoding": "2026-06-30T12:01:11Z",
         "QwenLM/Qwen-RobotNav": "2026-06-30T03:01:19Z",
-        "QwenLM/Qwen-RobotManip": "2026-06-29T22:29:54Z",
-        "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
-        "QwenLM/Qwen-Image-Bench": "2026-06-18T10:00:04Z"
+        "QwenLM/Qwen-RobotManip": "2026-06-29T22:29:54Z"
       },
-      "last_changed_at": "2026-08-21T19:52:58.789699Z",
+      "last_changed_at": "2026-08-21T20:09:28.122623Z",
       "source_signature": "ddc0d8d3788b1fc4ba6779bc400a51934ce7ac0845fbfff67f906a6d77406e21",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -2098,8 +2098,8 @@
       "last_changed_at": "2026-07-21T20:06:00.608583Z"
     },
     "aihot-selected": {
-      "last_raw_count": 46,
-      "last_polled_at": "2026-08-21T19:52:58.789699Z",
+      "last_raw_count": 47,
+      "last_polled_at": "2026-08-21T20:09:28.122623Z",
       "source_signature": "54b0a2ce37b31eed7de5728f2ad3467d3fff1ec95a53a03f9ee11a9fa197fda4",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-09T08:44:50.779962Z",
@@ -2117,6 +2117,7 @@
         "https://claude.com/blog/claude-code-guide-for-startups",
         "https://www.ithome.com/0/992/239.htm",
         "https://www.ithome.com/0/991/886.htm",
+        "https://platform.claude.com/docs/en/release-notes/overview",
         "https://x.com/haoailab/status/2090177721913770407",
         "https://claude.com/blog/computer-use-skills-api-files-api",
         "https://claude.com/blog/anthropics-approach-to-teaching-and-learning-ai",
@@ -2402,10 +2403,9 @@
         "https://mp.weixin.qq.com/s?__biz=MzkwODU2OTQyNQ%3D%3D&mid=2247498145&idx=1&sn=6968b330e01b1f306db418dc19ae4843",
         "https://www.ithome.com/0/983/974.htm",
         "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647684857&idx=1&sn=03c84df8bc0389c4ceb8f50f6c0015e3",
-        "https://x.com/Replit/status/2082979584799060267",
-        "https://openrouter.ai/blog/announcements/ori-eval"
+        "https://x.com/Replit/status/2082979584799060267"
       ],
-      "last_changed_at": "2026-08-21T18:03:10.290843Z"
+      "last_changed_at": "2026-08-21T20:09:29.676111Z"
     }
   }
 }
