@@ -624,7 +624,7 @@
       "last_checked_at": "2026-07-02T04:51:56.844085Z",
       "baseline_initialized": true,
       "repos": {
-        "InternLM/lmdeploy": "2026-08-21T13:08:41Z",
+        "InternLM/lmdeploy": "2026-08-21T14:31:55Z",
         "InternLM/InternLM-XComposer": "2025-05-26T15:59:34Z",
         "InternLM/MindSearch": "2025-07-04T10:06:45Z",
         "InternLM/StarBench": "2026-04-19T12:32:54Z",
@@ -645,7 +645,7 @@
         "InternLM/lagent": "2026-08-03T07:18:16Z",
         "InternLM/JanusCoder": "2026-05-09T04:22:10Z"
       },
-      "last_changed_at": "2026-08-21T13:25:56.198911Z",
+      "last_changed_at": "2026-08-21T14:46:40.526380Z",
       "source_signature": "a7a2f73a91108336ba1fe2d4fb4d5921862eb329f648d490a4d7903663f49f70",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -657,12 +657,12 @@
       "last_checked_at": "2026-07-02T04:51:58.871155Z",
       "baseline_initialized": true,
       "repos": {
-        "QwenLM/qwen-code": "2026-08-21T13:55:02Z",
         "QwenLM/Qwen-MM-Plugins": "2026-08-21T09:44:32Z",
+        "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
+        "QwenLM/qwen-code": "2026-08-21T14:41:40Z",
+        "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
         "QwenLM/Qwen3.8": "2026-08-17T05:17:40Z",
         "QwenLM/Qwen": "2026-03-05T13:55:17Z",
-        "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
-        "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
         "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
         "QwenLM/Qwen-Image-Bench": "2026-06-18T10:00:04Z",
         "QwenLM/Qwen-Agent": "2026-03-04T08:15:07Z",
@@ -678,7 +678,7 @@
         "QwenLM/Qwen-VLA": "2026-05-29T13:49:38Z",
         "QwenLM/Qwen3-ASR-Toolkit": "2026-02-05T05:35:03Z"
       },
-      "last_changed_at": "2026-08-21T14:04:46.616143Z",
+      "last_changed_at": "2026-08-21T14:46:40.526380Z",
       "source_signature": "ddc0d8d3788b1fc4ba6779bc400a51934ce7ac0845fbfff67f906a6d77406e21",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -1483,8 +1483,8 @@
         "https://www.tc260.org.cn/portal/article/1/0efe73df0f234fa5a4fce766173b5678",
         "https://www.tc260.org.cn/portal/article/1/c38f19280f2b4b5284c642a174f27d38",
         "https://www.tc260.org.cn/portal/article/1/9745608fa11e46639275aa834e58b5c4",
-        "https://www.tc260.org.cn/portal/article/1/c5bff06b0a544674b12b89271bf8df02",
         "https://www.tc260.org.cn/portal/article/1/07d60a8d728445fbb3526ca97e3d02d9",
+        "https://www.tc260.org.cn/portal/article/1/c5bff06b0a544674b12b89271bf8df02",
         "https://www.tc260.org.cn/portal/article/1/a6d21a769f07420f818f6bed6797c618",
         "https://www.tc260.org.cn/portal/article/2/66ab0e249d404f0583bc420b6106f899",
         "https://www.tc260.org.cn/portal/article/2/13c3282d6feb4b97930ded6faf656b2b",
@@ -1569,7 +1569,7 @@
       ],
       "last_checked_at": "2026-07-02T04:52:25.829528Z",
       "baseline_initialized": true,
-      "last_changed_at": "2026-08-21T12:30:11.305656Z",
+      "last_changed_at": "2026-08-21T14:48:06.812525Z",
       "source_signature": "ac7adf7536607ad1dc8d9ca06c0f10f499a52b1893dcc2d8ec03dd7b6240b921",
       "baseline_reinitialized_at": "2026-07-02T10:23:25.737100Z"
     },
@@ -2098,15 +2098,17 @@
       "last_changed_at": "2026-07-21T20:06:00.608583Z"
     },
     "aihot-selected": {
-      "last_raw_count": 44,
-      "last_polled_at": "2026-08-21T14:04:46.616143Z",
+      "last_raw_count": 45,
+      "last_polled_at": "2026-08-21T14:46:40.526380Z",
       "source_signature": "54b0a2ce37b31eed7de5728f2ad3467d3fff1ec95a53a03f9ee11a9fa197fda4",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-09T08:44:50.779962Z",
       "seen_keys": [
+        "https://claude.com/blog/the-ai-native-sdlc-playbook",
         "https://x.com/OpenBMB/status/2090786300194590816",
         "https://api-docs.deepseek.com/zh-cn/updates",
         "https://dreadnode.io/research/every-model-cheats-prompt-level-mitigation-of-cheating-on-offensive-cyber-tasks",
+        "https://huggingface.co/blog/asr-benchmark-optimization",
         "https://claude.com/blog/computer-use-skills-api-files-api",
         "https://claude.com/blog/anthropics-approach-to-teaching-and-learning-ai",
         "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
@@ -2401,11 +2403,9 @@
         "https://openrouter.ai/blog/announcements/ori-eval",
         "https://x.com/AnthropicAI/status/2082965101083320543",
         "https://techcrunch.com/2026/07/30/judge-says-trump-admin-still-lacks-evidence-for-anthropic-supply-chain-risk-label",
-        "https://x.com/GeminiApp/status/2082923048362299629",
-        "https://x.com/GoogleAI/status/2082902334984609936",
-        "https://x.com/thinkymachines/status/2082885869426631032"
+        "https://x.com/GeminiApp/status/2082923048362299629"
       ],
-      "last_changed_at": "2026-08-21T13:25:58.797817Z"
+      "last_changed_at": "2026-08-21T14:46:45.339443Z"
     }
   }
 }
