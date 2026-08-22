@@ -429,7 +429,13 @@
       "last_checked_at": "2026-07-02T04:51:40.485322Z",
       "baseline_initialized": true,
       "repos": {
+        "zai-org/GLM-TTS": "2026-04-10T08:50:23Z",
+        "zai-org/CogVideo": "2025-11-04T11:19:04Z",
+        "zai-org/GLM-skills": "2026-04-15T12:28:08Z",
         "zai-org/GLM-OCR": "2026-04-21T08:52:11Z",
+        "zai-org/GLM-4": "2026-08-05T07:08:46Z",
+        "zai-org/GLM-4-Voice": "2024-12-05T07:10:01Z",
+        "zai-org/SCAIL-2": "2026-08-14T04:46:01Z",
         "zai-org/MotionBench": "2025-03-03T06:36:49Z",
         "zai-org/CogVLM": "2024-05-29T10:01:33Z",
         "zai-org/ChatGLM2-6B": "2024-06-27T04:05:08Z",
@@ -438,19 +444,13 @@
         "zai-org/GLM-130B": "2023-07-25T09:01:49Z",
         "zai-org/CogAgent": "2025-04-04T13:29:55Z",
         "zai-org/Synapse": "2026-07-31T07:25:27Z",
-        "zai-org/SCAIL-2": "2026-08-14T04:46:01Z",
-        "zai-org/GLM-skills": "2026-04-15T12:28:08Z",
         "zai-org/Open-AutoGLM": "2026-03-06T08:38:39Z",
-        "zai-org/GLM-4-Voice": "2024-12-05T07:10:01Z",
         "zai-org/CodeGeeX4": "2024-08-25T14:26:16Z",
         "zai-org/ChatGLM3": "2025-01-13T06:55:26Z",
         "zai-org/GLM-5": "2026-08-11T06:36:36Z",
-        "zai-org/GLM-4": "2026-08-05T07:08:46Z",
-        "zai-org/GLM-V": "2026-07-21T16:03:29Z",
-        "zai-org/CogVideo": "2025-11-04T11:19:04Z",
-        "zai-org/feedback": "2026-08-17T03:03:47Z"
+        "zai-org/GLM-V": "2026-07-21T16:03:29Z"
       },
-      "last_changed_at": "2026-08-22T17:32:43.222278Z",
+      "last_changed_at": "2026-08-22T21:11:17.811471Z",
       "source_signature": "0f9d07d7983b4898dc433a8d045a96469f65dff73642f9fe1fbf73cf3299210c",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -657,8 +657,10 @@
       "last_checked_at": "2026-07-02T04:51:58.871155Z",
       "baseline_initialized": true,
       "repos": {
-        "QwenLM/qwen-code": "2026-08-22T20:53:46Z",
+        "QwenLM/open-computer-use": "2026-06-10T16:38:07Z",
+        "QwenLM/Qwen-MM-Plugins": "2026-08-21T09:44:32Z",
         "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
+        "QwenLM/qwen-code": "2026-08-22T21:11:00Z",
         "QwenLM/Qwen-Audio": "2024-07-05T09:17:49Z",
         "QwenLM/Qwen": "2026-03-05T13:55:17Z",
         "QwenLM/Qwen-AgentWorld": "2026-07-20T11:52:07Z",
@@ -667,7 +669,6 @@
         "QwenLM/Qwen2.5-Math": "2025-01-11T17:30:43Z",
         "QwenLM/Qwen3-Omni": "2026-04-23T10:58:01Z",
         "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
-        "QwenLM/Qwen-MM-Plugins": "2026-08-21T09:44:32Z",
         "QwenLM/Qwen3-ASR": "2026-06-26T08:20:17Z",
         "QwenLM/FlashQLA": "2026-08-11T06:25:42Z",
         "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
@@ -675,10 +676,9 @@
         "QwenLM/Qwen-VL": "2024-08-07T02:37:06Z",
         "QwenLM/Qwen2.5-Omni": "2025-06-12T11:03:07Z",
         "QwenLM/qwen-code-docs": "2026-08-21T23:56:17Z",
-        "QwenLM/Qwen3-VL-Embedding": "2026-06-23T10:39:17Z",
-        "QwenLM/Qwen-Image": "2026-02-10T07:37:37Z"
+        "QwenLM/Qwen3-VL-Embedding": "2026-06-23T10:39:17Z"
       },
-      "last_changed_at": "2026-08-22T20:55:12.012680Z",
+      "last_changed_at": "2026-08-22T21:11:17.811471Z",
       "source_signature": "ddc0d8d3788b1fc4ba6779bc400a51934ce7ac0845fbfff67f906a6d77406e21",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -2099,7 +2099,7 @@
     },
     "aihot-selected": {
       "last_raw_count": 46,
-      "last_polled_at": "2026-08-22T20:55:12.012680Z",
+      "last_polled_at": "2026-08-22T21:11:17.811471Z",
       "source_signature": "54b0a2ce37b31eed7de5728f2ad3467d3fff1ec95a53a03f9ee11a9fa197fda4",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-09T08:44:50.779962Z",
