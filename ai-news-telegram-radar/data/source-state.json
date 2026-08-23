@@ -657,11 +657,11 @@
       "last_checked_at": "2026-07-02T04:51:58.871155Z",
       "baseline_initialized": true,
       "repos": {
-        "QwenLM/qwen-code": "2026-08-23T10:12:00Z",
-        "QwenLM/Qwen3.8": "2026-08-17T05:17:40Z",
+        "QwenLM/qwen-code": "2026-08-23T10:35:46Z",
         "QwenLM/Qwen-MM-Plugins": "2026-08-21T09:44:32Z",
-        "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
         "QwenLM/Qwen": "2026-03-05T13:55:17Z",
+        "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
+        "QwenLM/Qwen3.8": "2026-08-17T05:17:40Z",
         "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
         "QwenLM/Qwen3-Coder": "2026-03-24T08:22:10Z",
         "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
@@ -678,7 +678,7 @@
         "QwenLM/Qwen2.5-Omni": "2025-06-12T11:03:07Z",
         "QwenLM/Qwen3-VL-Embedding": "2026-06-23T10:39:17Z"
       },
-      "last_changed_at": "2026-08-23T10:14:28.593173Z",
+      "last_changed_at": "2026-08-23T10:40:46.054883Z",
       "source_signature": "ddc0d8d3788b1fc4ba6779bc400a51934ce7ac0845fbfff67f906a6d77406e21",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -714,6 +714,10 @@
     },
     "qbitai-rss": {
       "seen_keys": [
+        "https://www.qbitai.com/2026/08/478191.html",
+        "https://www.qbitai.com/2026/08/478164.html",
+        "https://www.qbitai.com/2026/08/478093.html",
+        "https://www.qbitai.com/2026/08/478020.html",
         "https://www.qbitai.com/2026/08/478017.html",
         "https://www.qbitai.com/2026/08/478007.html",
         "https://www.qbitai.com/2026/08/477253.html",
@@ -1009,15 +1013,11 @@
         "https://www.qbitai.com/2026/07/455229.html",
         "https://www.qbitai.com/2026/07/455179.html",
         "https://www.qbitai.com/2026/07/455136.html",
-        "https://www.qbitai.com/2026/07/455130.html",
-        "https://www.qbitai.com/2026/07/455041.html",
-        "https://www.qbitai.com/2026/07/455031.html",
-        "https://www.qbitai.com/2026/07/454932.html",
-        "https://www.qbitai.com/2026/07/454802.html"
+        "https://www.qbitai.com/2026/07/455130.html"
       ],
       "last_checked_at": "2026-07-02T04:52:26.145879Z",
       "baseline_initialized": true,
-      "last_changed_at": "2026-08-23T08:47:54.314936Z",
+      "last_changed_at": "2026-08-23T10:42:25.581281Z",
       "source_signature": "34418d38d4b87c134f9922d6999ac3c069821ed0be2134f9ba6ae5e00e4b63a9",
       "baseline_reinitialized_at": "2026-07-02T10:23:28.426031Z"
     },
@@ -2099,7 +2099,7 @@
     },
     "aihot-selected": {
       "last_raw_count": 47,
-      "last_polled_at": "2026-08-23T10:14:28.593173Z",
+      "last_polled_at": "2026-08-23T10:40:46.054883Z",
       "source_signature": "54b0a2ce37b31eed7de5728f2ad3467d3fff1ec95a53a03f9ee11a9fa197fda4",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-09T08:44:50.779962Z",
