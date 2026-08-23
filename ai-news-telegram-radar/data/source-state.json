@@ -595,7 +595,7 @@
       "baseline_initialized": true,
       "repos": {
         "OpenBMB/VoxCPM": "2026-08-12T14:14:37Z",
-        "OpenBMB/StaffDeck": "2026-08-23T14:04:55Z",
+        "OpenBMB/StaffDeck": "2026-08-23T14:42:08Z",
         "OpenBMB/MiniCPM-Desk-Pet": "2026-08-18T07:58:20Z",
         "OpenBMB/MathForm": "2026-08-17T05:28:16Z",
         "OpenBMB/ChatDev": "2026-07-24T08:01:27Z",
@@ -615,7 +615,7 @@
         "OpenBMB/RepoAgent": "2024-12-23T11:48:52Z",
         "OpenBMB/XAgent": "2026-07-31T03:30:54Z"
       },
-      "last_changed_at": "2026-08-23T14:16:01.321464Z",
+      "last_changed_at": "2026-08-23T14:42:10.576905Z",
       "source_signature": "3dd1c4ab8bc380dc66624329d310bc65fe6deafde7a370da1191ca03b32c0764",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -657,15 +657,15 @@
       "last_checked_at": "2026-07-02T04:51:58.871155Z",
       "baseline_initialized": true,
       "repos": {
-        "QwenLM/Qwen": "2026-03-05T13:55:17Z",
+        "QwenLM/qwen-code": "2026-08-23T14:42:16Z",
+        "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
+        "QwenLM/Qwen-Agent": "2026-03-04T08:15:07Z",
         "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
-        "QwenLM/qwen-code": "2026-08-23T14:14:07Z",
+        "QwenLM/Qwen": "2026-03-05T13:55:17Z",
         "QwenLM/Qwen-MM-Plugins": "2026-08-21T09:44:32Z",
         "QwenLM/Qwen3.8": "2026-08-17T05:17:40Z",
         "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
-        "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
         "QwenLM/Qwen3-Coder": "2026-03-24T08:22:10Z",
-        "QwenLM/Qwen-Agent": "2026-03-04T08:15:07Z",
         "QwenLM/qwen-code-docs": "2026-08-22T22:30:55Z",
         "QwenLM/open-computer-use": "2026-06-10T16:38:07Z",
         "QwenLM/Qwen-Audio": "2024-07-05T09:17:49Z",
@@ -678,7 +678,7 @@
         "QwenLM/Qwen2.5-Omni": "2025-06-12T11:03:07Z",
         "QwenLM/Qwen3-VL-Embedding": "2026-06-23T10:39:17Z"
       },
-      "last_changed_at": "2026-08-23T14:16:01.321464Z",
+      "last_changed_at": "2026-08-23T14:42:10.576905Z",
       "source_signature": "ddc0d8d3788b1fc4ba6779bc400a51934ce7ac0845fbfff67f906a6d77406e21",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -687,6 +687,10 @@
       "last_checked_at": "2026-07-02T04:52:01.889603Z",
       "baseline_initialized": true,
       "repos": {
+        "Tencent-Hunyuan/HY-WorldPlay": "2026-06-10T07:10:23Z",
+        "Tencent-Hunyuan/HY-World-2.0": "2026-08-12T16:15:12Z",
+        "Tencent-Hunyuan/Hunyuan3D-Buffalo1.0": "2026-08-10T17:04:25Z",
+        "Tencent-Hunyuan/Hunyuan3D-2": "2025-10-28T09:58:12Z",
         "Tencent-Hunyuan/Hy3-preview": "2026-04-23T15:09:16Z",
         "Tencent-Hunyuan/HunyuanVideo-1.5": "2026-04-10T06:14:59Z",
         "Tencent-Hunyuan/UniRL": "2026-08-20T13:30:29Z",
@@ -694,21 +698,17 @@
         "Tencent-Hunyuan/HunyuanVideo": "2026-06-29T09:33:50Z",
         "Tencent-Hunyuan/AutoCodeBenchmark": "2026-02-17T08:03:11Z",
         "Tencent-Hunyuan/HY-Motion-1.0": "2026-07-18T15:13:36Z",
-        "Tencent-Hunyuan/HY-World-2.0": "2026-08-12T16:15:12Z",
         "Tencent-Hunyuan/Hy-MT": "2026-06-01T11:38:04Z",
         "Tencent-Hunyuan/Hunyuan-MT": "2025-12-30T09:12:46Z",
         "Tencent-Hunyuan/Hunyuan3D-WorldClaw": "2026-08-13T05:47:55Z",
         "Tencent-Hunyuan/HunyuanWorld-Mirror": "2026-05-27T03:22:57Z",
         "Tencent-Hunyuan/HunyuanWorld-Voyager": "2026-04-15T17:30:08Z",
         "Tencent-Hunyuan/flex-block-attn": "2025-12-26T02:48:33Z",
-        "Tencent-Hunyuan/Hunyuan3D-2": "2025-10-28T09:58:12Z",
         "Tencent-Hunyuan/Hy-MT2": "2026-06-30T07:17:36Z",
         "Tencent-Hunyuan/GradLoc": "2026-02-16T09:17:25Z",
-        "Tencent-Hunyuan/HunyuanImage-3.0": "2026-06-23T13:12:44Z",
-        "Tencent-Hunyuan/Hunyuan3D-Buffalo1.0": "2026-08-10T17:04:25Z",
-        "Tencent-Hunyuan/Hy3": "2026-07-17T10:11:52Z"
+        "Tencent-Hunyuan/HunyuanImage-3.0": "2026-06-23T13:12:44Z"
       },
-      "last_changed_at": "2026-08-23T13:33:59.515413Z",
+      "last_changed_at": "2026-08-23T14:42:10.576905Z",
       "source_signature": "637ce9b3bc2d070666c42f5fd92e749870848ee35ed6d4c156f831c9bc8f2d04",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -1482,9 +1482,9 @@
         "https://www.tc260.org.cn/portal/article/1/f57857bcdc15494890df2022b83321cc",
         "https://www.tc260.org.cn/portal/article/1/0efe73df0f234fa5a4fce766173b5678",
         "https://www.tc260.org.cn/portal/article/1/c38f19280f2b4b5284c642a174f27d38",
+        "https://www.tc260.org.cn/portal/article/1/07d60a8d728445fbb3526ca97e3d02d9",
         "https://www.tc260.org.cn/portal/article/1/9745608fa11e46639275aa834e58b5c4",
         "https://www.tc260.org.cn/portal/article/1/c5bff06b0a544674b12b89271bf8df02",
-        "https://www.tc260.org.cn/portal/article/1/07d60a8d728445fbb3526ca97e3d02d9",
         "https://www.tc260.org.cn/portal/article/1/a6d21a769f07420f818f6bed6797c618",
         "https://www.tc260.org.cn/portal/article/2/66ab0e249d404f0583bc420b6106f899",
         "https://www.tc260.org.cn/portal/article/2/13c3282d6feb4b97930ded6faf656b2b",
@@ -1492,14 +1492,14 @@
         "https://www.tc260.org.cn/portal/article/2/a1de240fa2a7452e93df1ca6c3f1cf45",
         "https://www.tc260.org.cn/portal/article/2/d7b8b931bce4444cae14a48c0f0dd8b4",
         "https://www.tc260.org.cn/portal/article/2/8653731b442a460a910e6100d4eee9ea",
+        "https://www.tc260.org.cn/portal/article/2/807a1aa20047477086ba2b44b726a5f7",
         "https://www.tc260.org.cn/portal/article/2/bb40941bb2784c749a43ec4762cdb988",
-        "https://www.tc260.org.cn/portal/article/2/4456ae01b56e4792bb98d82d452e9cba",
         "https://www.tc260.org.cn/portal/suggestion-detail/1b21a4adefd04d7a8f8b2aec67225f50",
         "https://www.tc260.org.cn/portal/suggestion-detail/770f550a6774493d9a6dc2f51454e8db",
         "https://www.tc260.org.cn/portal/suggestion-detail/cb5000e8a5de441298c267b21777e51b",
         "https://www.tc260.org.cn/portal/suggestion-detail/e79c8c1ecc99494e93861c7c618d12ec",
         "https://www.tc260.org.cn/portal/suggestion-detail/f134b0e1e59647679e797e5d3863cd63",
-        "https://www.tc260.org.cn/portal/article/2/807a1aa20047477086ba2b44b726a5f7",
+        "https://www.tc260.org.cn/portal/article/2/4456ae01b56e4792bb98d82d452e9cba",
         "https://www.tc260.org.cn/portal/article/1/4541a22bb6f542b5ae7c37ffe0d914aa",
         "https://www.tc260.org.cn/portal/article/2/e277e9cf94424b4cb2434ba552dc8279",
         "https://www.tc260.org.cn/portal/article/2/c26a15400af34b66bf76771dcf9d0d3c",
@@ -1569,7 +1569,7 @@
       ],
       "last_checked_at": "2026-07-02T04:52:25.829528Z",
       "baseline_initialized": true,
-      "last_changed_at": "2026-08-23T14:17:32.576234Z",
+      "last_changed_at": "2026-08-23T14:43:49.568256Z",
       "source_signature": "ac7adf7536607ad1dc8d9ca06c0f10f499a52b1893dcc2d8ec03dd7b6240b921",
       "baseline_reinitialized_at": "2026-07-02T10:23:25.737100Z"
     },
@@ -2098,12 +2098,13 @@
       "last_changed_at": "2026-07-21T20:06:00.608583Z"
     },
     "aihot-selected": {
-      "last_raw_count": 47,
-      "last_polled_at": "2026-08-23T14:16:01.321464Z",
+      "last_raw_count": 48,
+      "last_polled_at": "2026-08-23T14:42:10.576905Z",
       "source_signature": "54b0a2ce37b31eed7de5728f2ad3467d3fff1ec95a53a03f9ee11a9fa197fda4",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-09T08:44:50.779962Z",
       "seen_keys": [
+        "https://www.ithome.com/0/993/305.htm",
         "https://www.reuters.com/world/how-texas-student-blew-whistle-rogue-ai-hacking-attempt-2026-08-20",
         "https://www.ithome.com/0/993/105.htm",
         "https://x.com/AntLingAGI/status/2091021795373855124",
@@ -2402,10 +2403,9 @@
         "https://x.com/deepseek_ai/status/2083084415157022911",
         "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647684859&idx=1&sn=29658a67b2b3ef46aead73698d900250",
         "https://www.ithome.com/0/984/130.htm",
-        "https://www.ctgt.ai/research/distillation-censorship-transfer",
-        "https://mp.weixin.qq.com/s?__biz=MzkwODU2OTQyNQ%3D%3D&mid=2247498145&idx=1&sn=6968b330e01b1f306db418dc19ae4843"
+        "https://www.ctgt.ai/research/distillation-censorship-transfer"
       ],
-      "last_changed_at": "2026-08-23T02:12:11.679716Z"
+      "last_changed_at": "2026-08-23T14:42:16.325056Z"
     }
   }
 }
