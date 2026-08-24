@@ -656,8 +656,9 @@
       "last_checked_at": "2026-07-02T04:51:58.871155Z",
       "baseline_initialized": true,
       "repos": {
-        "QwenLM/qwen-code": "2026-08-24T20:49:56Z",
+        "QwenLM/qwen-code": "2026-08-24T21:12:01Z",
         "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
+        "QwenLM/qwen-code-docs": "2026-08-24T21:01:08Z",
         "QwenLM/Qwen-Image-Layered": "2025-12-31T11:40:35Z",
         "QwenLM/Qwen-MM-Plugins": "2026-08-24T19:08:37Z",
         "QwenLM/Qwen3.8": "2026-08-17T05:17:40Z",
@@ -674,10 +675,9 @@
         "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
         "QwenLM/Qwen-Image-Bench": "2026-06-18T10:00:04Z",
         "QwenLM/WebWorld": "2026-02-25T06:29:03Z",
-        "QwenLM/qwen-code-action": "2026-08-03T07:53:08Z",
-        "QwenLM/Qwen3-Omni": "2026-04-23T10:58:01Z"
+        "QwenLM/qwen-code-action": "2026-08-03T07:53:08Z"
       },
-      "last_changed_at": "2026-08-24T20:50:27.245956Z",
+      "last_changed_at": "2026-08-24T21:14:33.046005Z",
       "source_signature": "ddc0d8d3788b1fc4ba6779bc400a51934ce7ac0845fbfff67f906a6d77406e21",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -2100,7 +2100,7 @@
     },
     "aihot-selected": {
       "last_raw_count": 42,
-      "last_polled_at": "2026-08-24T20:50:27.245956Z",
+      "last_polled_at": "2026-08-24T21:14:33.046005Z",
       "source_signature": "54b0a2ce37b31eed7de5728f2ad3467d3fff1ec95a53a03f9ee11a9fa197fda4",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-09T08:44:50.779962Z",
