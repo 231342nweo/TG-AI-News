@@ -656,6 +656,7 @@
       "last_checked_at": "2026-07-02T04:51:58.871155Z",
       "baseline_initialized": true,
       "repos": {
+        "QwenLM/FlashQLA": "2026-08-11T06:25:42Z",
         "QwenLM/qwen-code": "2026-08-24T21:44:40Z",
         "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
         "QwenLM/qwen-code-docs": "2026-08-24T21:01:08Z",
@@ -674,10 +675,9 @@
         "QwenLM/Qwen-Image": "2026-02-10T07:37:37Z",
         "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
         "QwenLM/Qwen-Image-Bench": "2026-06-18T10:00:04Z",
-        "QwenLM/WebWorld": "2026-02-25T06:29:03Z",
-        "QwenLM/qwen-code-action": "2026-08-03T07:53:08Z"
+        "QwenLM/WebWorld": "2026-02-25T06:29:03Z"
       },
-      "last_changed_at": "2026-08-24T21:44:11.857854Z",
+      "last_changed_at": "2026-08-24T22:01:00.572124Z",
       "source_signature": "ddc0d8d3788b1fc4ba6779bc400a51934ce7ac0845fbfff67f906a6d77406e21",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -1481,9 +1481,9 @@
         "https://www.tc260.org.cn/portal/article/1/f57857bcdc15494890df2022b83321cc",
         "https://www.tc260.org.cn/portal/article/1/0efe73df0f234fa5a4fce766173b5678",
         "https://www.tc260.org.cn/portal/article/1/c38f19280f2b4b5284c642a174f27d38",
-        "https://www.tc260.org.cn/portal/article/1/07d60a8d728445fbb3526ca97e3d02d9",
         "https://www.tc260.org.cn/portal/article/1/9745608fa11e46639275aa834e58b5c4",
         "https://www.tc260.org.cn/portal/article/1/c5bff06b0a544674b12b89271bf8df02",
+        "https://www.tc260.org.cn/portal/article/1/07d60a8d728445fbb3526ca97e3d02d9",
         "https://www.tc260.org.cn/portal/article/1/a6d21a769f07420f818f6bed6797c618",
         "https://www.tc260.org.cn/portal/article/2/a6c0c49ed5664b46a7d75aefe802f84e",
         "https://www.tc260.org.cn/portal/article/2/0e4273cd2172469d8a8d399ba8a744ee",
@@ -1570,7 +1570,7 @@
       ],
       "last_checked_at": "2026-07-02T04:52:25.829528Z",
       "baseline_initialized": true,
-      "last_changed_at": "2026-08-24T20:54:22.140262Z",
+      "last_changed_at": "2026-08-24T22:02:22.203807Z",
       "source_signature": "ac7adf7536607ad1dc8d9ca06c0f10f499a52b1893dcc2d8ec03dd7b6240b921",
       "baseline_reinitialized_at": "2026-07-02T10:23:25.737100Z"
     },
@@ -2100,7 +2100,7 @@
     },
     "aihot-selected": {
       "last_raw_count": 42,
-      "last_polled_at": "2026-08-24T21:44:11.857854Z",
+      "last_polled_at": "2026-08-24T22:01:00.572124Z",
       "source_signature": "54b0a2ce37b31eed7de5728f2ad3467d3fff1ec95a53a03f9ee11a9fa197fda4",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-09T08:44:50.779962Z",
