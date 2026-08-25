@@ -623,15 +623,15 @@
       "last_checked_at": "2026-07-02T04:51:56.844085Z",
       "baseline_initialized": true,
       "repos": {
+        "InternLM/InternLM": "2025-10-30T00:35:43Z",
+        "InternLM/xtuner": "2026-08-25T15:07:01Z",
         "InternLM/MindSearch": "2025-07-04T10:06:45Z",
         "InternLM/HuixiangDou": "2025-11-24T11:17:29Z",
         "InternLM/WildClawBench": "2026-08-17T06:04:32Z",
         "InternLM/lmdeploy": "2026-08-25T13:41:30Z",
         "InternLM/CapRL": "2026-06-23T02:40:21Z",
-        "InternLM/xtuner": "2026-08-25T15:07:01Z",
         "InternLM/lagent": "2026-08-03T07:18:16Z",
-        "InternLM/OVO-S-Bench": "2026-08-23T15:19:34Z",
-        "InternLM/InternLM": "2025-10-30T00:35:43Z",
+        "InternLM/OVO-S-Bench": "2026-08-25T21:02:33Z",
         "InternLM/Intern-S1": "2026-07-17T10:25:15Z",
         "InternLM/Agent-FLAN": "2024-03-22T15:12:14Z",
         "InternLM/ARM-Thinker": "2026-02-13T09:00:05Z",
@@ -644,7 +644,7 @@
         "InternLM/archspace": "2026-08-13T06:49:54Z",
         "InternLM/Intern-S2-Mobius": "2026-08-14T12:48:30Z"
       },
-      "last_changed_at": "2026-08-25T15:24:39.563603Z",
+      "last_changed_at": "2026-08-25T21:03:23.354489Z",
       "source_signature": "a7a2f73a91108336ba1fe2d4fb4d5921862eb329f648d490a4d7903663f49f70",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -656,13 +656,14 @@
       "last_checked_at": "2026-07-02T04:51:58.871155Z",
       "baseline_initialized": true,
       "repos": {
-        "QwenLM/open-computer-use": "2026-06-10T16:38:07Z",
         "QwenLM/qwen-code": "2026-08-25T20:39:45Z",
+        "QwenLM/Qwen3-ASR-Toolkit": "2026-02-05T05:35:03Z",
+        "QwenLM/Qwen-AgentWorld": "2026-07-20T11:52:07Z",
+        "QwenLM/open-computer-use": "2026-06-10T16:38:07Z",
         "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
         "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
         "QwenLM/Qwen": "2026-03-05T13:55:17Z",
         "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
-        "QwenLM/Qwen-AgentWorld": "2026-07-20T11:52:07Z",
         "QwenLM/Qwen3-ASR": "2026-06-26T08:20:17Z",
         "QwenLM/Qwen-Agent": "2026-03-04T08:15:07Z",
         "QwenLM/Qwen-MM-Plugins": "2026-08-25T07:38:04Z",
@@ -674,10 +675,9 @@
         "QwenLM/Qwen2.5-Omni": "2025-06-12T11:03:07Z",
         "QwenLM/Qwen-RobotNav": "2026-06-30T03:01:19Z",
         "QwenLM/qwen-code-docs": "2026-08-25T05:33:43Z",
-        "QwenLM/Qwen3Guard": "2025-10-21T02:27:12Z",
-        "QwenLM/FlashQLA": "2026-08-25T03:28:43Z"
+        "QwenLM/Qwen3Guard": "2025-10-21T02:27:12Z"
       },
-      "last_changed_at": "2026-08-25T20:44:28.710062Z",
+      "last_changed_at": "2026-08-25T21:03:23.354489Z",
       "source_signature": "ddc0d8d3788b1fc4ba6779bc400a51934ce7ac0845fbfff67f906a6d77406e21",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -1482,8 +1482,8 @@
         "https://www.tc260.org.cn/portal/article/1/0efe73df0f234fa5a4fce766173b5678",
         "https://www.tc260.org.cn/portal/article/1/c38f19280f2b4b5284c642a174f27d38",
         "https://www.tc260.org.cn/portal/article/1/9745608fa11e46639275aa834e58b5c4",
-        "https://www.tc260.org.cn/portal/article/1/c5bff06b0a544674b12b89271bf8df02",
         "https://www.tc260.org.cn/portal/article/1/07d60a8d728445fbb3526ca97e3d02d9",
+        "https://www.tc260.org.cn/portal/article/1/c5bff06b0a544674b12b89271bf8df02",
         "https://www.tc260.org.cn/portal/article/1/a6d21a769f07420f818f6bed6797c618",
         "https://www.tc260.org.cn/portal/article/2/0e4273cd2172469d8a8d399ba8a744ee",
         "https://www.tc260.org.cn/portal/article/2/a6c0c49ed5664b46a7d75aefe802f84e",
@@ -1570,7 +1570,7 @@
       ],
       "last_checked_at": "2026-07-02T04:52:25.829528Z",
       "baseline_initialized": true,
-      "last_changed_at": "2026-08-25T20:48:20.468479Z",
+      "last_changed_at": "2026-08-25T21:07:42.274948Z",
       "source_signature": "ac7adf7536607ad1dc8d9ca06c0f10f499a52b1893dcc2d8ec03dd7b6240b921",
       "baseline_reinitialized_at": "2026-07-02T10:23:25.737100Z"
     },
@@ -2099,8 +2099,8 @@
       "last_changed_at": "2026-07-21T20:06:00.608583Z"
     },
     "aihot-selected": {
-      "last_raw_count": 40,
-      "last_polled_at": "2026-08-25T20:44:28.710062Z",
+      "last_raw_count": 41,
+      "last_polled_at": "2026-08-25T21:03:23.354489Z",
       "source_signature": "54b0a2ce37b31eed7de5728f2ad3467d3fff1ec95a53a03f9ee11a9fa197fda4",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-09T08:44:50.779962Z",
@@ -2117,6 +2117,7 @@
         "https://blogs.nvidia.com/blog/vera-rubin-nvl72-efficiency-ai-agents",
         "https://techcrunch.com/2026/08/24/openai-is-building-an-ai-agent-for-everything-will-everyone-use-them",
         "https://openai.com/index/gpt-5-6-in-kiro",
+        "https://www.tomtunguz.com/how-long-should-an-agent-live",
         "https://arxiv.org/abs/2606.13610",
         "https://www.ithome.com/0/993/305.htm",
         "https://www.reuters.com/world/how-texas-student-blew-whistle-rogue-ai-hacking-attempt-2026-08-20",
@@ -2403,10 +2404,9 @@
         "https://x.com/elonmusk/status/2083800942927839307",
         "https://the-decoder.com/german-court-rules-ai-music-generator-suno-violated-copyrights-rejects-fair-use-defense",
         "https://x.com/gdb/status/2083457463337287721",
-        "https://x.com/AYi_AInotes/status/2083401614623133921",
-        "https://x.com/ArtificialAnlys/status/2083306229074739285"
+        "https://x.com/AYi_AInotes/status/2083401614623133921"
       ],
-      "last_changed_at": "2026-08-25T19:53:57.684987Z"
+      "last_changed_at": "2026-08-25T21:03:26.459161Z"
     }
   }
 }
