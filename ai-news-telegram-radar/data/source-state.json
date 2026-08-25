@@ -656,8 +656,9 @@
       "last_checked_at": "2026-07-02T04:51:58.871155Z",
       "baseline_initialized": true,
       "repos": {
+        "QwenLM/Qwen3Guard": "2025-10-21T02:27:12Z",
+        "QwenLM/qwen-code": "2026-08-25T04:54:10Z",
         "QwenLM/Qwen3-Coder": "2026-03-24T08:22:10Z",
-        "QwenLM/qwen-code": "2026-08-25T04:18:00Z",
         "QwenLM/Qwen3-ASR": "2026-06-26T08:20:17Z",
         "QwenLM/FlashQLA": "2026-08-25T03:28:43Z",
         "QwenLM/Qwen-MM-Plugins": "2026-08-24T19:08:37Z",
@@ -674,10 +675,9 @@
         "QwenLM/qwen-code-examples": "2026-05-19T09:30:22Z",
         "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
         "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
-        "QwenLM/Qwen2.5-Omni": "2025-06-12T11:03:07Z",
-        "QwenLM/Qwen3-Embedding": "2025-09-30T06:10:27Z"
+        "QwenLM/Qwen2.5-Omni": "2025-06-12T11:03:07Z"
       },
-      "last_changed_at": "2026-08-25T04:19:35.657816Z",
+      "last_changed_at": "2026-08-25T04:57:44.552016Z",
       "source_signature": "ddc0d8d3788b1fc4ba6779bc400a51934ce7ac0845fbfff67f906a6d77406e21",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -686,6 +686,8 @@
       "last_checked_at": "2026-07-02T04:52:01.889603Z",
       "baseline_initialized": true,
       "repos": {
+        "Tencent-Hunyuan/Hyra-results": "2026-08-19T06:17:13Z",
+        "Tencent-Hunyuan/HunyuanWorld-1.0": "2026-04-15T17:27:25Z",
         "Tencent-Hunyuan/Hunyuan3D-WorldClaw": "2026-08-13T05:47:55Z",
         "Tencent-Hunyuan/GradLoc": "2026-02-16T09:17:25Z",
         "Tencent-Hunyuan/Hunyuan-A13B": "2025-07-08T08:45:27Z",
@@ -703,11 +705,9 @@
         "Tencent-Hunyuan/MixGRPO": "2026-07-01T10:49:26Z",
         "Tencent-Hunyuan/HunyuanWorld-Mirror": "2026-05-27T03:22:57Z",
         "Tencent-Hunyuan/Hunyuan3D-Buffalo1.0": "2026-08-10T17:04:25Z",
-        "Tencent-Hunyuan/UniRL": "2026-08-20T13:30:29Z",
-        "Tencent-Hunyuan/HunyuanVideo": "2026-06-29T09:33:50Z",
-        "Tencent-Hunyuan/HunyuanOCR": "2026-07-29T06:29:52Z"
+        "Tencent-Hunyuan/UniRL": "2026-08-20T13:30:29Z"
       },
-      "last_changed_at": "2026-08-25T04:19:35.657816Z",
+      "last_changed_at": "2026-08-25T04:57:44.552016Z",
       "source_signature": "637ce9b3bc2d070666c42f5fd92e749870848ee35ed6d4c156f831c9bc8f2d04",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -1482,8 +1482,8 @@
         "https://www.tc260.org.cn/portal/article/1/0efe73df0f234fa5a4fce766173b5678",
         "https://www.tc260.org.cn/portal/article/1/c38f19280f2b4b5284c642a174f27d38",
         "https://www.tc260.org.cn/portal/article/1/9745608fa11e46639275aa834e58b5c4",
-        "https://www.tc260.org.cn/portal/article/1/07d60a8d728445fbb3526ca97e3d02d9",
         "https://www.tc260.org.cn/portal/article/1/c5bff06b0a544674b12b89271bf8df02",
+        "https://www.tc260.org.cn/portal/article/1/07d60a8d728445fbb3526ca97e3d02d9",
         "https://www.tc260.org.cn/portal/article/1/a6d21a769f07420f818f6bed6797c618",
         "https://www.tc260.org.cn/portal/article/2/a6c0c49ed5664b46a7d75aefe802f84e",
         "https://www.tc260.org.cn/portal/article/2/0e4273cd2172469d8a8d399ba8a744ee",
@@ -1570,7 +1570,7 @@
       ],
       "last_checked_at": "2026-07-02T04:52:25.829528Z",
       "baseline_initialized": true,
-      "last_changed_at": "2026-08-25T04:20:59.299511Z",
+      "last_changed_at": "2026-08-25T04:59:35.361866Z",
       "source_signature": "ac7adf7536607ad1dc8d9ca06c0f10f499a52b1893dcc2d8ec03dd7b6240b921",
       "baseline_reinitialized_at": "2026-07-02T10:23:25.737100Z"
     },
@@ -2100,7 +2100,7 @@
     },
     "aihot-selected": {
       "last_raw_count": 37,
-      "last_polled_at": "2026-08-25T04:19:35.657816Z",
+      "last_polled_at": "2026-08-25T04:57:44.552016Z",
       "source_signature": "54b0a2ce37b31eed7de5728f2ad3467d3fff1ec95a53a03f9ee11a9fa197fda4",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-09T08:44:50.779962Z",
