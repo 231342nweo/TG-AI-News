@@ -369,27 +369,27 @@
       "baseline_initialized": true,
       "repos": {
         "deepseek-ai/deepseek-harness": "2026-08-21T12:35:08Z",
-        "deepseek-ai/DeepGEMM": "2026-08-11T08:21:15Z",
+        "deepseek-ai/Engram": "2026-01-14T01:13:02Z",
+        "deepseek-ai/DeepSeek-V3": "2025-08-28T03:24:37Z",
+        "deepseek-ai/profile-data": "2025-03-21T02:23:51Z",
+        "deepseek-ai/awesome-deepseek-integration": "2026-02-23T16:27:47Z",
         "deepseek-ai/DeepSeek-OCR": "2026-01-27T03:45:14Z",
+        "deepseek-ai/awesome-deepseek-agent": "2026-06-17T01:24:37Z",
+        "deepseek-ai/DeepSeek-R1": "2025-06-27T08:35:54Z",
+        "deepseek-ai/FlashMLA": "2026-07-28T06:18:26Z",
+        "deepseek-ai/DeepEP": "2026-08-20T08:04:39Z",
+        "deepseek-ai/DeepSeek-Coder": "2025-11-11T06:44:56Z",
+        "deepseek-ai/3FS": "2026-05-07T09:31:54Z",
+        "deepseek-ai/DeepGEMM": "2026-08-11T08:21:15Z",
         "deepseek-ai/DeepSeek-Coder-V2": "2025-11-11T06:44:45Z",
         "deepseek-ai/DeepSeek-V2": "2024-09-25T10:23:55Z",
-        "deepseek-ai/awesome-deepseek-integration": "2026-02-23T16:27:47Z",
         "deepseek-ai/DeepSeek-LLM": "2024-02-04T12:22:16Z",
-        "deepseek-ai/DeepSeek-Coder": "2025-11-11T06:44:56Z",
         "deepseek-ai/EPLB": "2025-03-24T09:17:10Z",
-        "deepseek-ai/DeepSeek-V3": "2025-08-28T03:24:37Z",
         "deepseek-ai/DeepSpec": "2026-07-09T04:37:14Z",
-        "deepseek-ai/Engram": "2026-01-14T01:13:02Z",
-        "deepseek-ai/DeepSeek-R1": "2025-06-27T08:35:54Z",
         "deepseek-ai/DeepSeek-OCR-2": "2026-02-03T00:34:18Z",
-        "deepseek-ai/DeepEP": "2026-08-20T08:04:39Z",
-        "deepseek-ai/FlashMLA": "2026-07-28T06:18:26Z",
-        "deepseek-ai/DeepSeek-Math": "2024-04-15T07:55:37Z",
-        "deepseek-ai/3FS": "2026-05-07T09:31:54Z",
-        "deepseek-ai/Janus": "2025-02-01T07:58:29Z",
-        "deepseek-ai/awesome-deepseek-agent": "2026-06-17T01:24:37Z"
+        "deepseek-ai/DeepSeek-Math": "2024-04-15T07:55:37Z"
       },
-      "last_changed_at": "2026-08-26T12:00:14.972765Z",
+      "last_changed_at": "2026-08-26T18:27:50.770713Z",
       "source_signature": "e247a4022cc1b9d1fcca44981d9eb5c7892416a57bcff15ec2fe2fc72cfd972e",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -657,11 +657,12 @@
       "baseline_initialized": true,
       "repos": {
         "QwenLM/Qwen3.8-Flash-Next": "2026-08-26T13:05:07Z",
-        "QwenLM/Qwen3-Omni": "2026-04-23T10:58:01Z",
-        "QwenLM/qwen-code": "2026-08-26T16:49:14Z",
-        "QwenLM/Qwen": "2026-03-05T13:55:17Z",
-        "QwenLM/Qwen3.8": "2026-08-17T05:17:40Z",
+        "QwenLM/qwen-code": "2026-08-26T18:21:08Z",
         "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
+        "QwenLM/Qwen3.8": "2026-08-17T05:17:40Z",
+        "QwenLM/Qwen3-Coder": "2026-03-24T08:22:10Z",
+        "QwenLM/Qwen3-Omni": "2026-04-23T10:58:01Z",
+        "QwenLM/Qwen": "2026-03-05T13:55:17Z",
         "QwenLM/Qwen-Image-Bench": "2026-06-18T10:00:04Z",
         "QwenLM/WebWorld": "2026-02-25T06:29:03Z",
         "QwenLM/Qwen-MM-Plugins": "2026-08-25T07:38:04Z",
@@ -674,10 +675,9 @@
         "QwenLM/Qwen-Image": "2026-02-10T07:37:37Z",
         "QwenLM/Qwen-VLA": "2026-05-29T13:49:38Z",
         "QwenLM/Qwen3-ASR-Toolkit": "2026-02-05T05:35:03Z",
-        "QwenLM/Qwen3-ASR": "2026-06-26T08:20:17Z",
-        "QwenLM/Qwen-AgentWorld": "2026-07-20T11:52:07Z"
+        "QwenLM/Qwen3-ASR": "2026-06-26T08:20:17Z"
       },
-      "last_changed_at": "2026-08-26T16:48:43.482272Z",
+      "last_changed_at": "2026-08-26T18:27:50.770713Z",
       "source_signature": "ddc0d8d3788b1fc4ba6779bc400a51934ce7ac0845fbfff67f906a6d77406e21",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -686,33 +686,34 @@
       "last_checked_at": "2026-07-02T04:52:01.889603Z",
       "baseline_initialized": true,
       "repos": {
-        "Tencent-Hunyuan/HunyuanWorld-1.0": "2026-04-15T17:27:25Z",
-        "Tencent-Hunyuan/Hunyuan3D-1": "2025-11-19T07:07:41Z",
-        "Tencent-Hunyuan/Hunyuan3D-2.1": "2025-10-17T10:10:07Z",
-        "Tencent-Hunyuan/Hunyuan3D-2": "2025-10-28T09:58:12Z",
-        "Tencent-Hunyuan/HunyuanVideo-Avatar": "2025-12-16T12:32:46Z",
         "Tencent-Hunyuan/Hunyuan3D-WorldClaw": "2026-08-13T05:47:55Z",
+        "Tencent-Hunyuan/HunyuanWorld-1.0": "2026-04-15T17:27:25Z",
+        "Tencent-Hunyuan/Hunyuan3D-2.1": "2025-10-17T10:10:07Z",
+        "Tencent-Hunyuan/Hy-MT2": "2026-08-26T01:48:04Z",
+        "Tencent-Hunyuan/HY-Motion-1.0": "2026-07-18T15:13:36Z",
+        "Tencent-Hunyuan/Hy3": "2026-07-17T10:11:52Z",
         "Tencent-Hunyuan/HunyuanVideo": "2026-06-29T09:33:50Z",
+        "Tencent-Hunyuan/Hunyuan3D-2": "2025-10-28T09:58:12Z",
+        "Tencent-Hunyuan/Hunyuan3D-1": "2025-11-19T07:07:41Z",
+        "Tencent-Hunyuan/HunyuanVideo-Avatar": "2025-12-16T12:32:46Z",
         "Tencent-Hunyuan/HunyuanVideo-Foley": "2025-09-28T17:48:49Z",
         "Tencent-Hunyuan/HY-SOAR": "2026-04-21T16:45:31Z",
         "Tencent-Hunyuan/HunyuanOCR": "2026-07-29T06:29:52Z",
         "Tencent-Hunyuan/R-DMesh": "2026-08-11T01:56:44Z",
         "Tencent-Hunyuan/Hunyuan3D-Buffalo1.0": "2026-08-10T17:04:25Z",
-        "Tencent-Hunyuan/Hy-MT2": "2026-08-26T01:48:04Z",
         "Tencent-Hunyuan/Hunyuan-A13B": "2025-07-08T08:45:27Z",
         "Tencent-Hunyuan/Hunyuan-TurboS": "2025-05-23T03:38:48Z",
         "Tencent-Hunyuan/HunyuanVideo-I2V": "2026-04-07T06:13:09Z",
         "Tencent-Hunyuan/Tencent-Hunyuan-Large": "2024-12-06T08:15:56Z",
-        "Tencent-Hunyuan/Hy3-preview": "2026-04-23T15:09:16Z",
-        "Tencent-Hunyuan/HY-Motion-1.0": "2026-07-18T15:13:36Z",
-        "Tencent-Hunyuan/Hy-Embodied-0.5-VLA": "2026-08-04T07:32:42Z"
+        "Tencent-Hunyuan/Hy3-preview": "2026-04-23T15:09:16Z"
       },
-      "last_changed_at": "2026-08-26T15:59:49.510005Z",
+      "last_changed_at": "2026-08-26T18:27:50.770713Z",
       "source_signature": "637ce9b3bc2d070666c42f5fd92e749870848ee35ed6d4c156f831c9bc8f2d04",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
     "qbitai-rss": {
       "seen_keys": [
+        "https://www.qbitai.com/2026/08/479919.html",
         "https://www.qbitai.com/2026/08/479895.html",
         "https://www.qbitai.com/2026/08/479811.html",
         "https://www.qbitai.com/2026/08/479834.html",
@@ -1011,12 +1012,11 @@
         "https://www.qbitai.com/2026/07/457356.html",
         "https://www.qbitai.com/2026/07/457249.html",
         "https://www.qbitai.com/2026/07/457223.html",
-        "https://www.qbitai.com/2026/07/457117.html",
-        "https://www.qbitai.com/2026/07/457054.html"
+        "https://www.qbitai.com/2026/07/457117.html"
       ],
       "last_checked_at": "2026-07-02T04:52:26.145879Z",
       "baseline_initialized": true,
-      "last_changed_at": "2026-08-26T12:01:35.548419Z",
+      "last_changed_at": "2026-08-26T18:31:48.319315Z",
       "source_signature": "34418d38d4b87c134f9922d6999ac3c069821ed0be2134f9ba6ae5e00e4b63a9",
       "baseline_reinitialized_at": "2026-07-02T10:23:28.426031Z"
     },
@@ -2104,12 +2104,16 @@
       "last_changed_at": "2026-07-21T20:06:00.608583Z"
     },
     "aihot-selected": {
-      "last_raw_count": 46,
-      "last_polled_at": "2026-08-26T16:48:43.482272Z",
+      "last_raw_count": 50,
+      "last_polled_at": "2026-08-26T18:27:50.770713Z",
       "source_signature": "54b0a2ce37b31eed7de5728f2ad3467d3fff1ec95a53a03f9ee11a9fa197fda4",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-09T08:44:50.779962Z",
       "seen_keys": [
+        "https://claude.com/blog/claude-in-chrome-generally-available",
+        "https://www.anthropic.com/research/enabling-independent-research",
+        "https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude",
+        "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe",
         "https://x.com/Alibaba_Qwen/status/2092636376990990503",
         "https://mp.weixin.qq.com/s?__biz=MzkyMzI3NzQ0Mg%3D%3D&mid=2247494157&idx=1&sn=6837b15a07d2518842eb6c6b53a3eb3c",
         "https://www.theguardian.com/world/2026/aug/26/fake-thinktank-israel-ai-propaganda",
@@ -2131,6 +2135,7 @@
         "https://blogs.nvidia.com/blog/vera-rubin-nvl72-efficiency-ai-agents",
         "https://techcrunch.com/2026/08/24/openai-is-building-an-ai-agent-for-everything-will-everyone-use-them",
         "https://openai.com/index/gpt-5-6-in-kiro",
+        "https://arxiv.org/abs/2608.23691",
         "https://www.tomtunguz.com/how-long-should-an-agent-live",
         "https://arxiv.org/abs/2606.13610",
         "https://www.ithome.com/0/993/305.htm",
@@ -2404,14 +2409,9 @@
         "https://x.com/gdb/status/2084405421041963356",
         "https://x.com/trq212/status/2084387303959740449",
         "https://x.com/MSFTResearch/status/2084364547142418722",
-        "https://www.theverge.com/ai-artificial-intelligence/974571/eu-ai-act-transparency-labels-rules-deepfakes",
-        "https://github.com/lyogavin/airllm",
-        "https://x.com/OpenRouter/status/2084301100078027143",
-        "https://x.com/SenseTime_AI/status/2084288424236782073",
-        "https://dev.to/googleai/behind-the-scenes-how-we-build-test-and-scale-google-agent-skills-1am5",
-        "https://blog.cloudflare.com/cloudflare-computer"
+        "https://www.theverge.com/ai-artificial-intelligence/974571/eu-ai-act-transparency-labels-rules-deepfakes"
       ],
-      "last_changed_at": "2026-08-26T16:48:47.414528Z"
+      "last_changed_at": "2026-08-26T18:27:54.331853Z"
     }
   }
 }
