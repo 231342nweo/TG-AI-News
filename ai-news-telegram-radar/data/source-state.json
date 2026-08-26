@@ -369,27 +369,27 @@
       "baseline_initialized": true,
       "repos": {
         "deepseek-ai/deepseek-harness": "2026-08-21T12:35:08Z",
-        "deepseek-ai/Engram": "2026-01-14T01:13:02Z",
-        "deepseek-ai/DeepSeek-V3": "2025-08-28T03:24:37Z",
-        "deepseek-ai/profile-data": "2025-03-21T02:23:51Z",
-        "deepseek-ai/awesome-deepseek-integration": "2026-02-23T16:27:47Z",
-        "deepseek-ai/DeepSeek-OCR": "2026-01-27T03:45:14Z",
         "deepseek-ai/awesome-deepseek-agent": "2026-06-17T01:24:37Z",
         "deepseek-ai/DeepSeek-R1": "2025-06-27T08:35:54Z",
-        "deepseek-ai/FlashMLA": "2026-07-28T06:18:26Z",
         "deepseek-ai/DeepEP": "2026-08-20T08:04:39Z",
-        "deepseek-ai/DeepSeek-Coder": "2025-11-11T06:44:56Z",
-        "deepseek-ai/3FS": "2026-05-07T09:31:54Z",
-        "deepseek-ai/DeepGEMM": "2026-08-11T08:21:15Z",
-        "deepseek-ai/DeepSeek-Coder-V2": "2025-11-11T06:44:45Z",
+        "deepseek-ai/FlashMLA": "2026-07-28T06:18:26Z",
+        "deepseek-ai/awesome-deepseek-integration": "2026-02-23T16:27:47Z",
         "deepseek-ai/DeepSeek-V2": "2024-09-25T10:23:55Z",
+        "deepseek-ai/DeepSeek-Coder-V2": "2025-11-11T06:44:45Z",
+        "deepseek-ai/DeepSeek-OCR": "2026-01-27T03:45:14Z",
+        "deepseek-ai/DeepSeek-V3": "2025-08-28T03:24:37Z",
+        "deepseek-ai/DeepSeek-Coder": "2025-11-11T06:44:56Z",
         "deepseek-ai/DeepSeek-LLM": "2024-02-04T12:22:16Z",
+        "deepseek-ai/DeepGEMM": "2026-08-11T08:21:15Z",
+        "deepseek-ai/open-infra-index": "2025-05-15T02:00:43Z",
+        "deepseek-ai/3FS": "2026-05-07T09:31:54Z",
+        "deepseek-ai/Janus": "2025-02-01T07:58:29Z",
+        "deepseek-ai/Engram": "2026-01-14T01:13:02Z",
+        "deepseek-ai/profile-data": "2025-03-21T02:23:51Z",
         "deepseek-ai/EPLB": "2025-03-24T09:17:10Z",
-        "deepseek-ai/DeepSpec": "2026-07-09T04:37:14Z",
-        "deepseek-ai/DeepSeek-OCR-2": "2026-02-03T00:34:18Z",
-        "deepseek-ai/DeepSeek-Math": "2024-04-15T07:55:37Z"
+        "deepseek-ai/DeepSpec": "2026-07-09T04:37:14Z"
       },
-      "last_changed_at": "2026-08-26T18:27:50.770713Z",
+      "last_changed_at": "2026-08-26T20:28:49.836084Z",
       "source_signature": "e247a4022cc1b9d1fcca44981d9eb5c7892416a57bcff15ec2fe2fc72cfd972e",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -398,16 +398,17 @@
       "last_checked_at": "2026-07-02T04:51:37.867265Z",
       "baseline_initialized": true,
       "repos": {
-        "MoonshotAI/Kimi-Audio": "2025-06-21T15:30:28Z",
-        "MoonshotAI/kimi-code": "2026-08-26T16:48:18Z",
+        "MoonshotAI/Kimi-Dev": "2025-09-30T02:15:54Z",
         "MoonshotAI/Kimi-K3": "2026-08-06T10:17:28Z",
-        "MoonshotAI/Kimi-Linear": "2025-11-17T09:36:48Z",
+        "MoonshotAI/kimi-code": "2026-08-26T19:19:22Z",
+        "MoonshotAI/checkpoint-engine": "2026-08-12T05:59:00Z",
         "MoonshotAI/kimi-cli": "2026-08-03T07:59:07Z",
-        "MoonshotAI/Kimi-K2.5": "2026-08-06T10:42:43Z",
         "MoonshotAI/kimi-agent-sdk": "2026-05-29T05:29:38Z",
+        "MoonshotAI/Kimi-Audio": "2025-06-21T15:30:28Z",
+        "MoonshotAI/Kimi-Linear": "2025-11-17T09:36:48Z",
+        "MoonshotAI/Kimi-K2.5": "2026-08-06T10:42:43Z",
         "MoonshotAI/K2-Vendor-Verifier": "2026-02-14T05:28:46Z",
         "MoonshotAI/Kimi-K2": "2026-01-21T05:33:12Z",
-        "MoonshotAI/Kimi-Dev": "2025-09-30T02:15:54Z",
         "MoonshotAI/Kimi-VL": "2025-07-15T15:48:21Z",
         "MoonshotAI/MoonEP": "2026-08-13T09:30:40Z",
         "MoonshotAI/Kimi-Vendor-Verifier": "2026-08-13T15:21:02Z",
@@ -416,10 +417,9 @@
         "MoonshotAI/FlashKDA": "2026-07-30T07:14:39Z",
         "MoonshotAI/MoBA": "2025-04-03T07:28:06Z",
         "MoonshotAI/Kimi-k1.5": "2025-03-07T11:16:36Z",
-        "MoonshotAI/Attention-Residuals": "2026-03-17T06:23:11Z",
-        "MoonshotAI/nano-kpu": "2026-07-23T08:06:38Z"
+        "MoonshotAI/Attention-Residuals": "2026-03-17T06:23:11Z"
       },
-      "last_changed_at": "2026-08-26T16:48:43.482272Z",
+      "last_changed_at": "2026-08-26T20:28:49.836084Z",
       "source_signature": "c925f37596aaabb84376bf83142f08b0ce08447179a5d27a52c7956a40180daa",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -656,11 +656,11 @@
       "last_checked_at": "2026-07-02T04:51:58.871155Z",
       "baseline_initialized": true,
       "repos": {
+        "QwenLM/qwen-code": "2026-08-26T20:16:55Z",
         "QwenLM/Qwen3.8-Flash-Next": "2026-08-26T13:05:07Z",
-        "QwenLM/qwen-code": "2026-08-26T18:21:08Z",
-        "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
         "QwenLM/Qwen3.8": "2026-08-17T05:17:40Z",
         "QwenLM/Qwen3-Coder": "2026-03-24T08:22:10Z",
+        "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
         "QwenLM/Qwen3-Omni": "2026-04-23T10:58:01Z",
         "QwenLM/Qwen": "2026-03-05T13:55:17Z",
         "QwenLM/Qwen-Image-Bench": "2026-06-18T10:00:04Z",
@@ -677,7 +677,7 @@
         "QwenLM/Qwen3-ASR-Toolkit": "2026-02-05T05:35:03Z",
         "QwenLM/Qwen3-ASR": "2026-06-26T08:20:17Z"
       },
-      "last_changed_at": "2026-08-26T18:27:50.770713Z",
+      "last_changed_at": "2026-08-26T20:28:49.836084Z",
       "source_signature": "ddc0d8d3788b1fc4ba6779bc400a51934ce7ac0845fbfff67f906a6d77406e21",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -686,14 +686,15 @@
       "last_checked_at": "2026-07-02T04:52:01.889603Z",
       "baseline_initialized": true,
       "repos": {
+        "Tencent-Hunyuan/Hunyuan3D-2": "2025-10-28T09:58:12Z",
+        "Tencent-Hunyuan/HunyuanVideo": "2026-06-29T09:33:50Z",
         "Tencent-Hunyuan/Hunyuan3D-WorldClaw": "2026-08-13T05:47:55Z",
+        "Tencent-Hunyuan/Hunyuan3D-Omni": "2025-10-17T10:13:05Z",
         "Tencent-Hunyuan/HunyuanWorld-1.0": "2026-04-15T17:27:25Z",
         "Tencent-Hunyuan/Hunyuan3D-2.1": "2025-10-17T10:10:07Z",
         "Tencent-Hunyuan/Hy-MT2": "2026-08-26T01:48:04Z",
         "Tencent-Hunyuan/HY-Motion-1.0": "2026-07-18T15:13:36Z",
         "Tencent-Hunyuan/Hy3": "2026-07-17T10:11:52Z",
-        "Tencent-Hunyuan/HunyuanVideo": "2026-06-29T09:33:50Z",
-        "Tencent-Hunyuan/Hunyuan3D-2": "2025-10-28T09:58:12Z",
         "Tencent-Hunyuan/Hunyuan3D-1": "2025-11-19T07:07:41Z",
         "Tencent-Hunyuan/HunyuanVideo-Avatar": "2025-12-16T12:32:46Z",
         "Tencent-Hunyuan/HunyuanVideo-Foley": "2025-09-28T17:48:49Z",
@@ -704,10 +705,9 @@
         "Tencent-Hunyuan/Hunyuan-A13B": "2025-07-08T08:45:27Z",
         "Tencent-Hunyuan/Hunyuan-TurboS": "2025-05-23T03:38:48Z",
         "Tencent-Hunyuan/HunyuanVideo-I2V": "2026-04-07T06:13:09Z",
-        "Tencent-Hunyuan/Tencent-Hunyuan-Large": "2024-12-06T08:15:56Z",
-        "Tencent-Hunyuan/Hy3-preview": "2026-04-23T15:09:16Z"
+        "Tencent-Hunyuan/Tencent-Hunyuan-Large": "2024-12-06T08:15:56Z"
       },
-      "last_changed_at": "2026-08-26T18:27:50.770713Z",
+      "last_changed_at": "2026-08-26T20:28:49.836084Z",
       "source_signature": "637ce9b3bc2d070666c42f5fd92e749870848ee35ed6d4c156f831c9bc8f2d04",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -1481,8 +1481,8 @@
         "https://www.tc260.org.cn/portal/article/1/f57857bcdc15494890df2022b83321cc",
         "https://www.tc260.org.cn/portal/article/1/0efe73df0f234fa5a4fce766173b5678",
         "https://www.tc260.org.cn/portal/article/1/c38f19280f2b4b5284c642a174f27d38",
-        "https://www.tc260.org.cn/portal/article/1/07d60a8d728445fbb3526ca97e3d02d9",
         "https://www.tc260.org.cn/portal/article/1/9745608fa11e46639275aa834e58b5c4",
+        "https://www.tc260.org.cn/portal/article/1/07d60a8d728445fbb3526ca97e3d02d9",
         "https://www.tc260.org.cn/portal/article/1/c5bff06b0a544674b12b89271bf8df02",
         "https://www.tc260.org.cn/portal/article/1/a6d21a769f07420f818f6bed6797c618",
         "https://www.tc260.org.cn/portal/article/2/0e4273cd2172469d8a8d399ba8a744ee",
@@ -1575,7 +1575,7 @@
       ],
       "last_checked_at": "2026-07-02T04:52:25.829528Z",
       "baseline_initialized": true,
-      "last_changed_at": "2026-08-26T16:52:54.247306Z",
+      "last_changed_at": "2026-08-26T20:33:08.143402Z",
       "source_signature": "ac7adf7536607ad1dc8d9ca06c0f10f499a52b1893dcc2d8ec03dd7b6240b921",
       "baseline_reinitialized_at": "2026-07-02T10:23:25.737100Z"
     },
@@ -2105,11 +2105,12 @@
     },
     "aihot-selected": {
       "last_raw_count": 50,
-      "last_polled_at": "2026-08-26T18:27:50.770713Z",
+      "last_polled_at": "2026-08-26T20:28:49.836084Z",
       "source_signature": "54b0a2ce37b31eed7de5728f2ad3467d3fff1ec95a53a03f9ee11a9fa197fda4",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-09T08:44:50.779962Z",
       "seen_keys": [
+        "https://research.google/blog/glucofm-foundation-model-for-continuous-glucose-monitoring",
         "https://claude.com/blog/claude-in-chrome-generally-available",
         "https://www.anthropic.com/research/enabling-independent-research",
         "https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude",
@@ -2121,6 +2122,7 @@
         "https://qwen.ai/blog?id=qwen3.8-flash-next",
         "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw%3D%3D&mid=2247509950&idx=1&sn=18e7ecdceb66058f5ae1681009b4054e",
         "https://mp.weixin.qq.com/s?__biz=MzkwODU2OTQyNQ%3D%3D&mid=2247498367&idx=1&sn=f1a5cf87eb06015cbe995bd5ef8b5d0a",
+        "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
         "https://huggingface.co/blog/train-multi-vector-encoder",
         "https://x.com/AndrewYNg/status/2092315079576555806",
         "https://x.com/GoogleAI/status/2092275116503707733",
@@ -2407,11 +2409,9 @@
         "https://openrouter.ai/blog/announcements/ori-harness",
         "https://techcrunch.com/2026/08/03/after-killer-quarter-palantir-ceo-alex-karp-calls-ai-industry-marxist",
         "https://x.com/gdb/status/2084405421041963356",
-        "https://x.com/trq212/status/2084387303959740449",
-        "https://x.com/MSFTResearch/status/2084364547142418722",
-        "https://www.theverge.com/ai-artificial-intelligence/974571/eu-ai-act-transparency-labels-rules-deepfakes"
+        "https://x.com/trq212/status/2084387303959740449"
       ],
-      "last_changed_at": "2026-08-26T18:27:54.331853Z"
+      "last_changed_at": "2026-08-26T20:28:53.241227Z"
     }
   }
 }
