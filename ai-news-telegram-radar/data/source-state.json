@@ -147,6 +147,8 @@
     },
     "qwen-huggingface": {
       "models": {
+        "Qwen/Qwen3.8-Flash-Next": "2026-08-26T12:29:54.000Z",
+        "Qwen/Qwen3.8-Flash-Next-FP8": "2026-08-26T11:55:24.000Z",
         "Qwen/Qwen3.8-27B": "2026-08-14T15:00:01.000Z",
         "Qwen/Qwen3.8-27B-FP8": "2026-08-14T14:44:41.000Z",
         "Qwen/Qwen3.8-2.4T-A95B": "2026-08-12T10:24:04.000Z",
@@ -164,15 +166,13 @@
         "Qwen/SAE-Res-Qwen3.5-2B-Base-W32K-L0_50": "2026-05-13T12:19:08.000Z",
         "Qwen/SAE-Res-Qwen3.5-2B-Base-W32K-L0_100": "2026-05-13T12:19:05.000Z",
         "Qwen/SAE-Res-Qwen3.5-27B-W80K-L0_50": "2026-05-13T12:19:02.000Z",
-        "Qwen/SAE-Res-Qwen3-30B-A3B-Base-W32K-L0_50": "2026-05-13T12:18:56.000Z",
-        "Qwen/SAE-Res-Qwen3-30B-A3B-Base-W128K-L0_100": "2026-05-13T12:18:52.000Z",
-        "Qwen/SAE-Res-Qwen3-1.7B-Base-W32K-L0_50": "2026-05-13T12:18:50.000Z"
+        "Qwen/SAE-Res-Qwen3-30B-A3B-Base-W32K-L0_50": "2026-05-13T12:18:56.000Z"
       },
       "last_checked_at": "2026-07-02T04:51:33.147542Z",
       "baseline_initialized": true,
       "source_signature": "7fe916e0221a8af09fce24b96190cab3af4515a23ac49096747d486b164cef7f",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z",
-      "last_changed_at": "2026-08-14T15:21:36.372417Z"
+      "last_changed_at": "2026-08-26T12:57:35.811597Z"
     },
     "aliyun-bailian-models": {
       "fingerprint": "454e924d4aa46634392e6274604ab919e78169e6d5fcc2337331a81aca3887bd",
@@ -428,6 +428,8 @@
       "last_checked_at": "2026-07-02T04:51:40.485322Z",
       "baseline_initialized": true,
       "repos": {
+        "zai-org/zcode-plugins": "2026-08-26T12:48:29Z",
+        "zai-org/GLM-skills": "2026-04-15T12:28:08Z",
         "zai-org/GLM-5": "2026-08-11T06:36:36Z",
         "zai-org/GLM-OCR": "2026-04-21T08:52:11Z",
         "zai-org/zai-coding-plugins": "2026-02-22T15:51:20Z",
@@ -439,17 +441,15 @@
         "zai-org/CogVLM": "2024-05-29T10:01:33Z",
         "zai-org/ChatGLM-6B": "2024-06-27T04:05:25Z",
         "zai-org/CodeGeeX": "2024-08-13T05:59:38Z",
-        "zai-org/zcode-plugins": "2026-08-26T10:57:27Z",
         "zai-org/GLM-Image": "2026-03-20T03:10:16Z",
         "zai-org/SCAIL": "2026-05-06T14:59:54Z",
-        "zai-org/GLM-skills": "2026-04-15T12:28:08Z",
         "zai-org/CogVideo": "2025-11-04T11:19:04Z",
         "zai-org/SSVAE": "2025-12-25T09:24:54Z",
         "zai-org/SCAIL-2": "2026-08-24T13:30:59Z",
         "zai-org/Vision2Web": "2026-08-05T09:04:19Z",
         "zai-org/VisualGLM-6B": "2024-08-23T07:45:06Z"
       },
-      "last_changed_at": "2026-08-26T12:00:14.972765Z",
+      "last_changed_at": "2026-08-26T12:57:35.811597Z",
       "source_signature": "0f9d07d7983b4898dc433a8d045a96469f65dff73642f9fe1fbf73cf3299210c",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -593,28 +593,28 @@
       "last_checked_at": "2026-07-02T04:51:55.708102Z",
       "baseline_initialized": true,
       "repos": {
-        "OpenBMB/MiniCPM-V": "2026-08-26T09:50:07Z",
         "OpenBMB/VoxCPM": "2026-08-26T02:42:07Z",
+        "OpenBMB/MiniCPM-V": "2026-08-26T09:50:07Z",
+        "OpenBMB/MA-ProofBench": "2026-08-26T12:22:45Z",
+        "OpenBMB/MathForm": "2026-08-17T05:28:16Z",
+        "OpenBMB/PilotDeck": "2026-08-26T12:22:55Z",
+        "OpenBMB/ForgeTrain": "2026-08-20T12:39:33Z",
+        "OpenBMB/MiniCPM": "2026-07-27T06:50:07Z",
+        "OpenBMB/AgentVerse": "2024-09-09T05:47:44Z",
+        "OpenBMB/StaffDeck": "2026-08-25T17:43:34Z",
         "OpenBMB/ChatDev": "2026-07-24T08:01:27Z",
         "OpenBMB/MiniCPM-o-Demo": "2026-08-14T07:26:44Z",
-        "OpenBMB/MiniCPM": "2026-07-27T06:50:07Z",
-        "OpenBMB/PilotDeck": "2026-08-26T09:00:51Z",
         "OpenBMB/AgentCPM": "2026-02-09T13:39:47Z",
         "OpenBMB/VisRAG": "2026-08-09T09:23:53Z",
         "OpenBMB/ModelCenter": "2026-07-07T14:10:38Z",
         "OpenBMB/MiniCPM-Desk-Pet": "2026-08-18T07:58:20Z",
         "OpenBMB/MiniCPM-Robot": "2026-08-25T10:04:27Z",
-        "OpenBMB/StaffDeck": "2026-08-25T17:43:34Z",
         "OpenBMB/OpenAct": "2025-10-09T05:36:43Z",
         "OpenBMB/ToolBench": "2025-05-21T15:46:59Z",
         "OpenBMB/UltraEval-Audio": "2026-08-25T11:42:02Z",
-        "OpenBMB/MiniCPM-V-Apps": "2026-08-11T05:38:19Z",
-        "OpenBMB/ForgeTrain": "2026-08-20T12:39:33Z",
-        "OpenBMB/MathForm": "2026-08-17T05:28:16Z",
-        "OpenBMB/AgentVerse": "2024-09-09T05:47:44Z",
-        "OpenBMB/UltraRAG": "2026-08-24T05:03:22Z"
+        "OpenBMB/MiniCPM-V-Apps": "2026-08-11T05:38:19Z"
       },
-      "last_changed_at": "2026-08-26T10:02:01.645700Z",
+      "last_changed_at": "2026-08-26T12:57:35.811597Z",
       "source_signature": "3dd1c4ab8bc380dc66624329d310bc65fe6deafde7a370da1191ca03b32c0764",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -623,11 +623,11 @@
       "last_checked_at": "2026-07-02T04:51:56.844085Z",
       "baseline_initialized": true,
       "repos": {
+        "InternLM/lmdeploy": "2026-08-26T12:01:03Z",
         "InternLM/Visual-ERM": "2026-03-23T08:36:21Z",
         "InternLM/InternLM": "2025-10-30T00:35:43Z",
         "InternLM/CapRL": "2026-06-23T02:40:21Z",
         "InternLM/InternLM-Law": "2024-05-14T07:44:09Z",
-        "InternLM/lmdeploy": "2026-08-26T11:57:25Z",
         "InternLM/MindSearch": "2025-07-04T10:06:45Z",
         "InternLM/archspace": "2026-08-13T06:49:54Z",
         "InternLM/OpenAOE": "2025-06-19T13:58:16Z",
@@ -644,7 +644,7 @@
         "InternLM/StarBench": "2026-04-19T12:32:54Z",
         "InternLM/RNGBench": "2026-07-07T05:52:46Z"
       },
-      "last_changed_at": "2026-08-26T12:00:14.972765Z",
+      "last_changed_at": "2026-08-26T12:57:35.811597Z",
       "source_signature": "a7a2f73a91108336ba1fe2d4fb4d5921862eb329f648d490a4d7903663f49f70",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -656,28 +656,28 @@
       "last_checked_at": "2026-07-02T04:51:58.871155Z",
       "baseline_initialized": true,
       "repos": {
-        "QwenLM/qwen-code": "2026-08-26T11:59:47Z",
+        "QwenLM/Qwen3.8-Flash-Next": "2026-08-26T12:30:35Z",
+        "QwenLM/Qwen3-ASR-Toolkit": "2026-02-05T05:35:03Z",
+        "QwenLM/Qwen3-ASR": "2026-06-26T08:20:17Z",
+        "QwenLM/Qwen3.8": "2026-08-17T05:17:40Z",
+        "QwenLM/Qwen-RobotManip": "2026-06-29T22:29:54Z",
+        "QwenLM/FlashQLA": "2026-08-25T03:28:43Z",
+        "QwenLM/Qwen-AgentWorld": "2026-07-20T11:52:07Z",
+        "QwenLM/qwen-code": "2026-08-26T12:57:46Z",
+        "QwenLM/Qwen-Image": "2026-02-10T07:37:37Z",
+        "QwenLM/Qwen": "2026-03-05T13:55:17Z",
         "QwenLM/Qwen-Agent": "2026-03-04T08:15:07Z",
         "QwenLM/qwen-code-docs": "2026-08-26T11:51:01Z",
         "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
         "QwenLM/Qwen3-Omni": "2026-04-23T10:58:01Z",
         "QwenLM/Qwen3-Coder": "2026-03-24T08:22:10Z",
-        "QwenLM/Qwen": "2026-03-05T13:55:17Z",
         "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
         "QwenLM/Qwen-MM-Plugins": "2026-08-25T07:38:04Z",
         "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
         "QwenLM/Qwen-Image-Layered": "2025-12-31T11:40:35Z",
-        "QwenLM/Qwen3-ASR": "2026-06-26T08:20:17Z",
-        "QwenLM/Qwen3-VL-Embedding": "2026-06-23T10:39:17Z",
-        "QwenLM/Qwen3.8": "2026-08-17T05:17:40Z",
-        "QwenLM/FlashQLA": "2026-08-25T03:28:43Z",
-        "QwenLM/Qwen-AgentWorld": "2026-07-20T11:52:07Z",
-        "QwenLM/Qwen-VLA": "2026-05-29T13:49:38Z",
-        "QwenLM/Qwen-Image": "2026-02-10T07:37:37Z",
-        "QwenLM/Qwen-RobotNav": "2026-06-30T03:01:19Z",
-        "QwenLM/Qwen-VL": "2024-08-07T02:37:06Z"
+        "QwenLM/Qwen3-VL-Embedding": "2026-06-23T10:39:17Z"
       },
-      "last_changed_at": "2026-08-26T12:00:14.972765Z",
+      "last_changed_at": "2026-08-26T12:57:35.811597Z",
       "source_signature": "ddc0d8d3788b1fc4ba6779bc400a51934ce7ac0845fbfff67f906a6d77406e21",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -686,28 +686,28 @@
       "last_checked_at": "2026-07-02T04:52:01.889603Z",
       "baseline_initialized": true,
       "repos": {
-        "Tencent-Hunyuan/Hy-MT2": "2026-08-26T01:48:04Z",
+        "Tencent-Hunyuan/Hunyuan3D-WorldClaw": "2026-08-13T05:47:55Z",
+        "Tencent-Hunyuan/HunyuanOCR": "2026-07-29T06:29:52Z",
+        "Tencent-Hunyuan/R-DMesh": "2026-08-11T01:56:44Z",
+        "Tencent-Hunyuan/Hunyuan3D-Buffalo1.0": "2026-08-10T17:04:25Z",
+        "Tencent-Hunyuan/Hunyuan3D-2.1": "2025-10-17T10:10:07Z",
         "Tencent-Hunyuan/Hunyuan3D-2": "2025-10-28T09:58:12Z",
+        "Tencent-Hunyuan/Hy-MT2": "2026-08-26T01:48:04Z",
         "Tencent-Hunyuan/Hunyuan-A13B": "2025-07-08T08:45:27Z",
         "Tencent-Hunyuan/Hunyuan-TurboS": "2025-05-23T03:38:48Z",
         "Tencent-Hunyuan/HunyuanVideo-I2V": "2026-04-07T06:13:09Z",
         "Tencent-Hunyuan/HunyuanVideo": "2026-06-29T09:33:50Z",
         "Tencent-Hunyuan/Tencent-Hunyuan-Large": "2024-12-06T08:15:56Z",
-        "Tencent-Hunyuan/Hunyuan3D-WorldClaw": "2026-08-13T05:47:55Z",
         "Tencent-Hunyuan/HunyuanWorld-1.0": "2026-04-15T17:27:25Z",
-        "Tencent-Hunyuan/Hunyuan3D-2.1": "2025-10-17T10:10:07Z",
         "Tencent-Hunyuan/HunyuanVideo-Avatar": "2025-12-16T12:32:46Z",
         "Tencent-Hunyuan/Hy3-preview": "2026-04-23T15:09:16Z",
         "Tencent-Hunyuan/HY-Motion-1.0": "2026-07-18T15:13:36Z",
         "Tencent-Hunyuan/Hy-Embodied-0.5-VLA": "2026-08-04T07:32:42Z",
         "Tencent-Hunyuan/HY-World-2.0": "2026-08-12T16:15:12Z",
         "Tencent-Hunyuan/SAGE-GRPO": "2026-04-02T06:08:46Z",
-        "Tencent-Hunyuan/Hy3": "2026-07-17T10:11:52Z",
-        "Tencent-Hunyuan/HY-WorldPlay": "2026-06-10T07:10:23Z",
-        "Tencent-Hunyuan/HunyuanVideo-1.5": "2026-04-10T06:14:59Z",
-        "Tencent-Hunyuan/Hunyuan3D-Omni": "2025-10-17T10:13:05Z"
+        "Tencent-Hunyuan/Hy3": "2026-07-17T10:11:52Z"
       },
-      "last_changed_at": "2026-08-26T12:00:14.972765Z",
+      "last_changed_at": "2026-08-26T12:57:35.811597Z",
       "source_signature": "637ce9b3bc2d070666c42f5fd92e749870848ee35ed6d4c156f831c9bc8f2d04",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -2104,12 +2104,14 @@
       "last_changed_at": "2026-07-21T20:06:00.608583Z"
     },
     "aihot-selected": {
-      "last_raw_count": 37,
-      "last_polled_at": "2026-08-26T12:00:14.972765Z",
+      "last_raw_count": 39,
+      "last_polled_at": "2026-08-26T12:57:35.811597Z",
       "source_signature": "54b0a2ce37b31eed7de5728f2ad3467d3fff1ec95a53a03f9ee11a9fa197fda4",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-09T08:44:50.779962Z",
       "seen_keys": [
+        "https://x.com/Alibaba_Qwen/status/2092591393424515114",
+        "https://qwen.ai/blog?id=qwen3.8-flash-next",
         "https://x.com/AndrewYNg/status/2092315079576555806",
         "https://claude.com/blog/claudes-memory-works-everywhere-and-you-decide-whats-in-it",
         "https://x.com/GoogleAI/status/2092275116503707733",
@@ -2407,11 +2409,9 @@
         "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw%3D%3D&mid=2247509055&idx=1&sn=28254c9e78532b336895b8c541905d49",
         "https://x.com/AYi_AInotes/status/2083867265179537565",
         "https://x.com/SemiAnalysis_/status/2084751860297056700",
-        "https://x.com/elonmusk/status/2083800942927839307",
-        "https://the-decoder.com/german-court-rules-ai-music-generator-suno-violated-copyrights-rejects-fair-use-defense",
-        "https://x.com/gdb/status/2083457463337287721"
+        "https://x.com/elonmusk/status/2083800942927839307"
       ],
-      "last_changed_at": "2026-08-26T11:38:23.871988Z"
+      "last_changed_at": "2026-08-26T12:57:41.936579Z"
     }
   }
 }
