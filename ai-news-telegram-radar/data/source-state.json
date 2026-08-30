@@ -660,28 +660,28 @@
       "last_checked_at": "2026-07-02T04:51:58.871155Z",
       "baseline_initialized": true,
       "repos": {
-        "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
-        "QwenLM/Qwen3.8-Flash-Next": "2026-08-27T07:31:36Z",
-        "QwenLM/qwen-code": "2026-08-29T23:19:08Z",
-        "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
+        "QwenLM/qwen-code": "2026-08-30T01:07:19Z",
+        "QwenLM/FlashQLA": "2026-08-26T13:49:58Z",
+        "QwenLM/Qwen3-ASR": "2026-06-26T08:20:17Z",
         "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
+        "QwenLM/Qwen3.8-Flash-Next": "2026-08-27T07:31:36Z",
+        "QwenLM/Qwen3.8": "2026-08-17T05:17:40Z",
+        "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
+        "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
         "QwenLM/qwen-code-action": "2026-08-03T07:53:08Z",
         "QwenLM/Qwen-RobotManip": "2026-06-29T22:29:54Z",
         "QwenLM/Qwen-MM-Plugins": "2026-08-25T07:38:04Z",
         "QwenLM/Qwen3-Coder": "2026-03-24T08:22:10Z",
         "QwenLM/Qwen2.5-Omni": "2025-06-12T11:03:07Z",
         "QwenLM/Qwen-Audio": "2024-07-05T09:17:49Z",
-        "QwenLM/Qwen3.8": "2026-08-17T05:17:40Z",
         "QwenLM/Qwen-Agent": "2026-03-04T08:15:07Z",
         "QwenLM/Qwen": "2026-03-05T13:55:17Z",
-        "QwenLM/Qwen3-ASR": "2026-06-26T08:20:17Z",
         "QwenLM/Qwen3-Embedding": "2025-09-30T06:10:27Z",
         "QwenLM/Qwen3-Omni": "2026-04-23T10:58:01Z",
-        "QwenLM/FlashQLA": "2026-08-26T13:49:58Z",
         "QwenLM/qwenlm.github.io": "2026-01-21T12:15:45Z",
         "QwenLM/Qwen3-VL-Embedding": "2026-06-23T10:39:17Z"
       },
-      "last_changed_at": "2026-08-29T23:23:36.999823Z",
+      "last_changed_at": "2026-08-30T01:20:08.918151Z",
       "source_signature": "ddc0d8d3788b1fc4ba6779bc400a51934ce7ac0845fbfff67f906a6d77406e21",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -690,9 +690,12 @@
       "last_checked_at": "2026-07-02T04:52:01.889603Z",
       "baseline_initialized": true,
       "repos": {
+        "Tencent-Hunyuan/HunyuanVideo": "2026-06-29T09:33:50Z",
+        "Tencent-Hunyuan/HY-Motion-1.0": "2026-07-18T15:13:36Z",
         "Tencent-Hunyuan/HY-WU": "2026-03-18T09:24:59Z",
-        "Tencent-Hunyuan/Hunyuan3D-2": "2025-10-28T09:58:12Z",
+        "Tencent-Hunyuan/Hy-MT": "2026-06-01T11:38:04Z",
         "Tencent-Hunyuan/Hunyuan3D-1": "2025-11-19T07:07:41Z",
+        "Tencent-Hunyuan/Hunyuan3D-2": "2025-10-28T09:58:12Z",
         "Tencent-Hunyuan/Hunyuan-MT": "2025-12-30T09:12:46Z",
         "Tencent-Hunyuan/Hy4-preview": "2026-08-28T12:48:34Z",
         "Tencent-Hunyuan/Hunyuan3D-WorldClaw": "2026-08-13T05:47:55Z",
@@ -700,18 +703,15 @@
         "Tencent-Hunyuan/HunyuanVideo-Avatar": "2025-12-16T12:32:46Z",
         "Tencent-Hunyuan/HunyuanOCR": "2026-07-29T06:29:52Z",
         "Tencent-Hunyuan/Hunyuan3D-2.1": "2025-10-17T10:10:07Z",
-        "Tencent-Hunyuan/HunyuanVideo": "2026-06-29T09:33:50Z",
         "Tencent-Hunyuan/Hy3": "2026-07-17T10:11:52Z",
         "Tencent-Hunyuan/Tencent-Hunyuan-Large": "2024-12-06T08:15:56Z",
-        "Tencent-Hunyuan/HY-Motion-1.0": "2026-07-18T15:13:36Z",
         "Tencent-Hunyuan/Hyra-results": "2026-08-19T06:17:13Z",
         "Tencent-Hunyuan/UniRL": "2026-08-28T17:31:54Z",
         "Tencent-Hunyuan/Hy-Embodied-RxBrain-1.0": "2026-07-28T09:58:49Z",
         "Tencent-Hunyuan/Hy-Embodied-0.5-VLA": "2026-08-04T07:32:42Z",
-        "Tencent-Hunyuan/Hy3-preview": "2026-04-23T15:09:16Z",
-        "Tencent-Hunyuan/Hy-MT2": "2026-08-26T01:48:04Z"
+        "Tencent-Hunyuan/Hy3-preview": "2026-04-23T15:09:16Z"
       },
-      "last_changed_at": "2026-08-29T23:23:36.999823Z",
+      "last_changed_at": "2026-08-30T01:20:08.918151Z",
       "source_signature": "637ce9b3bc2d070666c42f5fd92e749870848ee35ed6d4c156f831c9bc8f2d04",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -2117,11 +2117,12 @@
     },
     "aihot-selected": {
       "last_raw_count": 50,
-      "last_polled_at": "2026-08-29T23:23:36.999823Z",
+      "last_polled_at": "2026-08-30T01:20:08.918151Z",
       "source_signature": "54b0a2ce37b31eed7de5728f2ad3467d3fff1ec95a53a03f9ee11a9fa197fda4",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-09T08:44:50.779962Z",
       "seen_keys": [
+        "https://www.dwarkesh.com/p/openai-huggingface",
         "https://arxiv.org/abs/2608.23691",
         "https://terminalbytes.com/run-qwen-3-8-27b-locally",
         "https://www.ithome.com/0/995/896.htm",
@@ -2420,10 +2421,9 @@
         "https://x.com/AntLingAGI/status/2084656533489754475",
         "https://www.ithome.com/0/986/723.htm",
         "https://blog.cloudflare.com/the-agent-access-model",
-        "https://blog.cloudflare.com/how-we-use-ai-with-cloudflare-os",
-        "https://blog.cloudflare.com/identity-aware-ai-gateway"
+        "https://blog.cloudflare.com/how-we-use-ai-with-cloudflare-os"
       ],
-      "last_changed_at": "2026-08-29T21:18:18.281301Z"
+      "last_changed_at": "2026-08-30T01:20:11.514218Z"
     }
   }
 }
