@@ -203,12 +203,12 @@
       "baseline_reinitialized_at": "2026-07-02T10:22:21.295328Z"
     },
     "volcengine-ark-models": {
-      "fingerprint": "3541f87ffa863ab87faf7c2eaaee93d2b6a126fb6d98cc038378c845350d66fd",
+      "fingerprint": "e0c59a3d1deb675180ed0ffb636cb395c03823358221df921927f44db2418c96",
       "last_checked_at": "2026-07-02T04:51:33.147542Z",
-      "last_excerpt": "文档中心 登录 注册 火山方舟 文档指南 订阅 [Agent/Coding Plan] API参考 资源 火山方舟 火山方舟 文档指南 请输入 入门 产品简介 快速入门 模型列表 模型价格 最新模型：Seed-Evolving Agent 场景模型调用的正确姿势 调用 文本生成 多模态理解 图片理解 视频理解 文档理解 音频理解 视频生成 Doubao Seedance 2.5 教程 Doubao Seedance 2.5 提示词指南 Doubao Seedance 2.0 系列教程 Doubao Seedance 2.0 系列提示词指南 视频生成教程 Doubao Seedance 便利创作含肖像视频 图片生成 Doubao Seedream 5.0 pro 教程 Doubao Seedream 5.0 pro 实现交互编辑指南 图片生成教程 领域模型 3D 生成 向量化 工具调用 工具概述 豆包助手 Web Search（联网内容插件） Image Process（图像处理） 私域知识库搜索 Knowledge Search 云部署 MCP / Remote MCP Function Calling（函数调用） 进阶使用 深度思考 上下文管理 流式输出 续写模式 上下文缓存 文件输入(Files API) GUI Agent 能力 视觉定位 Grounding 提示词工程 结构化输出(beta) 接入三方工具 使用 Responses API 迁移至 Responses API 文本生成 深度思考 多模态理解 工具调用 结构化输出(beta) 上下文编辑 推理 推理方式概述 在线推理（常规） 在线推理（低延迟） 在线推理（TPM 保障包） 在线推理（模型单元） 模型单元概述 创建模型单元 管理模型单元 批量推理 高级能力 智能模型路由 使用 MLP 推理服务 使用自定义模型进行推理 训练 模型精调 模型精调概述 有监督微调最佳实践 直接偏好优化最佳实践 强化学习最佳实践 精调 SDK 使用指南 精调数据集格式 格式总览 语言及多模态理解模型精调数据格式 图片生成模型精调数据格式 视频生成 管理自定义模型 模型评测 创建模型评测任务 查看并管理模型评测任务 评测数据集格式说明 人工评测 人工评测作业 查看评测报告 数据集 数据集介绍 共享数据集 Managed Agents 快速上手 概述 快速入门（代码） 快速入门（控制台） 定义 Agent Agent Skills MCP Tools 工具权限策略 模型支持的参数列表 配置 Agent 环境 配置云环境 云沙箱参考 自托管环境 自托管环境概述 配置并运行自托管环境 自托管环境安全说明 委派任务给 Agent 启动 Session 管理 Session Session 事件流 使用 Vaults 认证 管理 Agent 上下文 上传与挂载文件 持久化记忆 高级能力 Multi Agent 应用 应用实验室 零代码应用简介 零代码应用操作指南 低代码应用简介 高代码应用简介 高代码应用创建部署指南 veFaaS部署指南 服务组件库 网页解析插件功能说明 联网内容插件功能说明 知识库插件功能说明 应用实验室 将零代码应用迁移至 Managed Agents PromptPilot PromptPilot 概述 PromptPilot 订阅管理 Prompt 生成 Prompt 调优 Prompt 批量 PromptPilot 管理 VideoPilot 功能介绍 视觉理解 Solution 评分DSL AgentPilot SDK 参考 AgentPilot OpenAPI 使用指南 VideoPilot API 知识库 文档首页 火山方舟 入门 模型列表 复制全文 下载 pdf 我的收藏 入门 模型列表 复制全文 下载 pdf 我的收藏 模型列表 文档反馈 问问助手 最近更新时间： 2026.09.05 19:12:52 这个页面对您有帮助吗？ 有用 有用 无用 无用",
+      "last_excerpt": "文档中心 登录 注册 火山方舟 文档指南 订阅 [Agent/Coding Plan] API参考 资源 火山方舟 火山方舟 文档指南 请输入 入门 产品简介 快速入门 模型列表 模型价格 最新模型：Seed-Evolving Agent 场景模型调用的正确姿势 迁移到方舟官方 SDK 调用 文本生成 多模态理解 图片理解 视频理解 文档理解 音频理解 视频生成 Doubao Seedance 2.5 教程 Doubao Seedance 2.5 提示词指南 Doubao Seedance 2.0 系列教程 Doubao Seedance 2.0 系列提示词指南 视频生成教程 Doubao Seedance 便利创作含肖像视频 图片生成 Doubao Seedream 5.0 pro 教程 Doubao Seedream 5.0 pro 实现交互编辑指南 图片生成教程 领域模型 3D 生成 向量化 工具调用 工具概述 豆包助手 Web Search（联网内容插件） Image Process（图像处理） 私域知识库搜索 Knowledge Search 云部署 MCP / Remote MCP Function Calling（函数调用） 进阶使用 深度思考 上下文管理 流式输出 续写模式 上下文缓存 文件输入(Files API) GUI Agent 能力 视觉定位 Grounding 提示词工程 结构化输出(beta) 接入三方工具 使用 Responses API 迁移至 Responses API 文本生成 深度思考 多模态理解 工具调用 结构化输出(beta) 上下文编辑 推理 推理方式概述 在线推理（常规） 在线推理（低延迟） 在线推理（TPM 保障包） 在线推理（模型单元） 模型单元概述 创建模型单元 管理模型单元 批量推理 高级能力 智能模型路由 使用 MLP 推理服务 使用自定义模型进行推理 训练 模型精调 模型精调概述 有监督微调最佳实践 直接偏好优化最佳实践 强化学习最佳实践 精调 SDK 使用指南 精调数据集格式 格式总览 语言及多模态理解模型精调数据格式 图片生成模型精调数据格式 视频生成 管理自定义模型 模型评测 创建模型评测任务 查看并管理模型评测任务 评测数据集格式说明 人工评测 人工评测作业 查看评测报告 数据集 数据集介绍 共享数据集 Managed Agents 快速上手 概述 快速入门（代码） 快速入门（控制台） 定义 Agent Agent Skills MCP Tools 工具权限策略 模型支持的参数列表 配置 Agent 环境 配置云环境 云沙箱参考 自托管环境 自托管环境概述 配置并运行自托管环境 自托管环境安全说明 委派任务给 Agent 启动 Session 管理 Session Session 事件流 使用 Vaults 认证 管理 Agent 上下文 上传与挂载文件 持久化记忆 高级能力 Multi Agent 应用 应用实验室 零代码应用简介 零代码应用操作指南 低代码应用简介 高代码应用简介 高代码应用创建部署指南 veFaaS部署指南 服务组件库 网页解析插件功能说明 联网内容插件功能说明 知识库插件功能说明 应用实验室 将零代码应用迁移至 Managed Agents PromptPilot PromptPilot 概述 PromptPilot 订阅管理 Prompt 生成 Prompt 调优 Prompt 批量 PromptPilot 管理 VideoPilot 功能介绍 视觉理解 Solution 评分DSL AgentPilot SDK 参考 AgentPilot OpenAPI 使用指南 VideoPilot API 知识库 文档首页 火山方舟 入门 模型列表 复制全文 下载 pdf 我的收藏 入门 模型列表 复制全文 下载 pdf 我的收藏 模型列表 文档反馈 问问助手 最近更新时间： 2026.09.05 19:12:52 这个页面对您有帮助吗？ 有用 有用 无用 无用",
       "baseline_initialized": true,
       "baseline_invalid": true,
-      "last_changed_at": "2026-09-07T16:01:37.228363Z",
+      "last_changed_at": "2026-09-07T19:48:05.391814Z",
       "source_signature": "ab5ee375ff670169281a4aefbc9772546566386e665c24a65ec209061d7dfada",
       "baseline_reinitialized_at": "2026-07-02T10:22:21.295328Z"
     },
@@ -374,12 +374,14 @@
       "last_checked_at": "2026-07-02T04:51:33.967446Z",
       "baseline_initialized": true,
       "repos": {
-        "deepseek-ai/deepseek-harness": "2026-09-07T13:58:36Z",
+        "deepseek-ai/deepseek-harness": "2026-09-07T17:02:12Z",
+        "deepseek-ai/DeepSeek-V3": "2025-08-28T03:24:37Z",
+        "deepseek-ai/FlashMLA": "2026-07-28T06:18:26Z",
+        "deepseek-ai/TileKernels": "2026-04-23T10:19:21Z",
+        "deepseek-ai/DeepGEMM": "2026-08-27T03:38:06Z",
         "deepseek-ai/DeepSeek-R1": "2025-06-27T08:35:54Z",
         "deepseek-ai/DeepSeek-OCR-2": "2026-02-03T00:34:18Z",
         "deepseek-ai/smallpond": "2025-03-05T18:23:54Z",
-        "deepseek-ai/DeepGEMM": "2026-08-27T03:38:06Z",
-        "deepseek-ai/DeepSeek-V3": "2025-08-28T03:24:37Z",
         "deepseek-ai/awesome-deepseek-agent": "2026-06-17T01:24:37Z",
         "deepseek-ai/DeepSeek-Coder": "2025-11-11T06:44:56Z",
         "deepseek-ai/awesome-deepseek-integration": "2026-02-23T16:27:47Z",
@@ -387,15 +389,13 @@
         "deepseek-ai/awesome-deepseek-coder": "2025-11-11T06:45:15Z",
         "deepseek-ai/DeepEP": "2026-09-07T06:39:53Z",
         "deepseek-ai/DeepSpec": "2026-07-09T04:37:14Z",
-        "deepseek-ai/FlashMLA": "2026-07-28T06:18:26Z",
-        "deepseek-ai/TileKernels": "2026-04-23T10:19:21Z",
         "deepseek-ai/3FS": "2026-05-07T09:31:54Z",
         "deepseek-ai/DeepSeek-MoE": "2024-01-16T12:18:10Z",
         "deepseek-ai/Engram": "2026-01-14T01:13:02Z",
         "deepseek-ai/EPLB": "2025-03-24T09:17:10Z",
         "deepseek-ai/DeepSeek-LLM": "2024-02-04T12:22:16Z"
       },
-      "last_changed_at": "2026-09-07T16:01:37.228363Z",
+      "last_changed_at": "2026-09-07T19:48:05.391814Z",
       "source_signature": "e247a4022cc1b9d1fcca44981d9eb5c7892416a57bcff15ec2fe2fc72cfd972e",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -404,15 +404,15 @@
       "last_checked_at": "2026-07-02T04:51:37.867265Z",
       "baseline_initialized": true,
       "repos": {
-        "MoonshotAI/kimi-code": "2026-09-07T14:18:46Z",
         "MoonshotAI/Kimi-K3": "2026-08-06T10:17:28Z",
+        "MoonshotAI/kimi-code": "2026-09-07T19:39:46Z",
+        "MoonshotAI/Kimi-K2": "2026-01-21T05:33:12Z",
         "MoonshotAI/Kimi-Linear": "2025-11-17T09:36:48Z",
         "MoonshotAI/nano-kpu": "2026-07-23T08:06:38Z",
         "MoonshotAI/Attention-Residuals": "2026-03-17T06:23:11Z",
         "MoonshotAI/kimi-cli": "2026-09-01T16:37:12Z",
         "MoonshotAI/MoonEP": "2026-08-13T09:30:40Z",
         "MoonshotAI/Kimi-Vendor-Verifier": "2026-08-13T15:21:02Z",
-        "MoonshotAI/Kimi-K2": "2026-01-21T05:33:12Z",
         "MoonshotAI/Kimi-Dev": "2025-09-30T02:15:54Z",
         "MoonshotAI/moonpalace": "2024-12-30T21:17:27Z",
         "MoonshotAI/Kimi-Audio": "2025-06-21T15:30:28Z",
@@ -425,7 +425,7 @@
         "MoonshotAI/minitriton": "2026-07-27T13:49:08Z",
         "MoonshotAI/Moonlight": "2025-08-03T06:31:18Z"
       },
-      "last_changed_at": "2026-09-07T16:01:37.228363Z",
+      "last_changed_at": "2026-09-07T19:48:05.391814Z",
       "source_signature": "c925f37596aaabb84376bf83142f08b0ce08447179a5d27a52c7956a40180daa",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -464,16 +464,18 @@
       "last_checked_at": "2026-07-02T04:51:46.918095Z",
       "baseline_initialized": true,
       "repos": {
-        "MiniMax-AI/MiniMax-Music3": "2026-08-14T08:23:47Z",
         "MiniMax-AI/MiniMax-H3": "2026-08-15T08:31:17Z",
-        "MiniMax-AI/skills": "2026-04-18T09:48:47Z",
+        "MiniMax-AI/MiniMax-Music3": "2026-08-14T08:23:47Z",
+        "MiniMax-AI/MiniMax-M2.5": "2026-03-09T02:44:20Z",
         "MiniMax-AI/awesome-minimax-h3-integration": "2026-09-03T22:11:05Z",
-        "MiniMax-AI/MiniMax-MCP": "2026-08-20T12:06:49Z",
+        "MiniMax-AI/Mini-Agent": "2026-02-14T04:00:26Z",
+        "MiniMax-AI/VTP": "2026-04-15T07:09:46Z",
         "MiniMax-AI/cli": "2026-09-07T05:33:35Z",
+        "MiniMax-AI/skills": "2026-04-18T09:48:47Z",
+        "MiniMax-AI/MiniMax-MCP": "2026-08-20T12:06:49Z",
         "MiniMax-AI/MiniMax-Code-Plugins": "2026-09-04T10:06:01Z",
         "MiniMax-AI/minimax-code": "2026-06-14T16:40:13Z",
         "MiniMax-AI/MiniMax-M3": "2026-07-11T09:08:38Z",
-        "MiniMax-AI/Mini-Agent": "2026-02-14T04:00:26Z",
         "MiniMax-AI/MiniMax-M2": "2025-11-13T08:12:36Z",
         "MiniMax-AI/mini-vela": "2026-04-02T13:09:54Z",
         "MiniMax-AI/minimax-desgin-plugin": "2026-08-20T03:58:55Z",
@@ -481,11 +483,9 @@
         "MiniMax-AI/MSA": "2026-07-30T06:11:11Z",
         "MiniMax-AI/MiniMax-M1": "2025-07-07T11:57:22Z",
         "MiniMax-AI/MiniMax-M2.7": "2026-04-14T19:11:22Z",
-        "MiniMax-AI/MiniMax-Provider-Verifier": "2026-08-27T11:21:48Z",
-        "MiniMax-AI/VTP": "2026-04-15T07:09:46Z",
-        "MiniMax-AI/minimax_search": "2025-11-03T09:04:57Z"
+        "MiniMax-AI/MiniMax-Provider-Verifier": "2026-08-27T11:21:48Z"
       },
-      "last_changed_at": "2026-09-07T10:35:34.685782Z",
+      "last_changed_at": "2026-09-07T19:48:05.391814Z",
       "source_signature": "7447070c255f24c8392151456130d2d0f151e24197208adc4a6860c7b238bc6e",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -663,28 +663,28 @@
       "last_checked_at": "2026-07-02T04:51:58.871155Z",
       "baseline_initialized": true,
       "repos": {
-        "QwenLM/Qwen-Drive-1.0": "2026-09-03T01:38:48Z",
-        "QwenLM/qwen-code": "2026-09-07T15:57:40Z",
         "QwenLM/Qwen": "2026-03-05T13:55:17Z",
+        "QwenLM/Qwen3.8": "2026-08-17T05:17:40Z",
+        "QwenLM/qwen-code": "2026-09-07T19:35:40Z",
         "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
+        "QwenLM/Qwen-Agent": "2026-03-04T08:15:07Z",
+        "QwenLM/Qwen-Drive-1.0": "2026-09-03T01:38:48Z",
+        "QwenLM/Qwen3-Coder": "2026-03-24T08:22:10Z",
+        "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
+        "QwenLM/qwen-code-docs": "2026-09-07T16:04:17Z",
         "QwenLM/E-CommerceBench": "2026-09-03T12:10:14Z",
         "QwenLM/Qwen3-ASR": "2026-06-26T08:20:17Z",
         "QwenLM/Qwen-Image-Layered": "2025-12-31T11:40:35Z",
-        "QwenLM/Qwen3-Coder": "2026-03-24T08:22:10Z",
-        "QwenLM/Qwen-Agent": "2026-03-04T08:15:07Z",
         "QwenLM/Qwen3.8-Flash-Next": "2026-08-27T07:31:36Z",
-        "QwenLM/Qwen3.8": "2026-08-17T05:17:40Z",
         "QwenLM/open-computer-use": "2026-06-10T16:38:07Z",
-        "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
         "QwenLM/Qwen-VLA": "2026-05-29T13:49:38Z",
         "QwenLM/Qwen-RobotManip": "2026-06-29T22:29:54Z",
         "QwenLM/Qwen-Image": "2026-02-10T07:37:37Z",
         "QwenLM/Qwen-Audio": "2024-07-05T09:17:49Z",
         "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
-        "QwenLM/Qwen-RobotNav": "2026-06-30T03:01:19Z",
-        "QwenLM/Qwen3-VL-Embedding": "2026-06-23T10:39:17Z"
+        "QwenLM/Qwen-RobotNav": "2026-06-30T03:01:19Z"
       },
-      "last_changed_at": "2026-09-07T16:01:37.228363Z",
+      "last_changed_at": "2026-09-07T19:48:05.391814Z",
       "source_signature": "ddc0d8d3788b1fc4ba6779bc400a51934ce7ac0845fbfff67f906a6d77406e21",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -2123,11 +2123,12 @@
     },
     "aihot-selected": {
       "last_raw_count": 50,
-      "last_polled_at": "2026-09-07T16:01:37.228363Z",
+      "last_polled_at": "2026-09-07T19:48:05.391814Z",
       "source_signature": "54b0a2ce37b31eed7de5728f2ad3467d3fff1ec95a53a03f9ee11a9fa197fda4",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-09T08:44:50.779962Z",
       "seen_keys": [
+        "https://the-decoder.com/anthropic-reportedly-signs-517-billion-in-compute-deals-after-dario-amodei-warned-rivals-about-reckless-risk",
         "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647685960&idx=1&sn=df5885920be226f9514f47a7f2d30621",
         "https://x.com/rohanpaul_ai/status/2096665545190043737",
         "https://openai.com/index/an-alien-mind",
@@ -2426,10 +2427,9 @@
         "https://cloud.google.com/blog/products/databases/accelerate-postgresql-migrations-with-gemini-in-dms",
         "https://www.ithome.com/0/988/524.htm",
         "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw%3D%3D&mid=2247509276&idx=1&sn=675b64d514b1179c8f2362941144bbb4",
-        "https://www.lmsys.org/blog/2026-08-11-unified-radix-cache",
-        "https://www.lmsys.org/blog/2026-08-11-nemotron-3-5-lightning"
+        "https://www.lmsys.org/blog/2026-08-11-unified-radix-cache"
       ],
-      "last_changed_at": "2026-09-07T00:55:56.665348Z"
+      "last_changed_at": "2026-09-07T19:48:08.175114Z"
     }
   }
 }
