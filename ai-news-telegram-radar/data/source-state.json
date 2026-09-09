@@ -375,27 +375,27 @@
       "baseline_initialized": true,
       "repos": {
         "deepseek-ai/deepseek-harness": "2026-09-09T14:23:10Z",
+        "deepseek-ai/DeepEP": "2026-09-07T06:39:53Z",
+        "deepseek-ai/DeepSeek-VL": "2024-04-24T05:01:06Z",
+        "deepseek-ai/DeepSeek-R1": "2025-06-27T08:35:54Z",
+        "deepseek-ai/awesome-deepseek-agent": "2026-06-17T01:24:37Z",
         "deepseek-ai/DeepSeek-Coder": "2025-11-11T06:44:56Z",
+        "deepseek-ai/3FS": "2026-05-07T09:31:54Z",
         "deepseek-ai/awesome-deepseek-integration": "2026-02-23T16:27:47Z",
+        "deepseek-ai/DeepSeek-V3": "2025-08-28T03:24:37Z",
+        "deepseek-ai/DeepSeek-LLM": "2024-02-04T12:22:16Z",
         "deepseek-ai/DeepSeek-OCR-2": "2026-02-03T00:34:18Z",
         "deepseek-ai/DeepSpec": "2026-07-09T04:37:14Z",
-        "deepseek-ai/awesome-deepseek-agent": "2026-06-17T01:24:37Z",
-        "deepseek-ai/DeepSeek-LLM": "2024-02-04T12:22:16Z",
         "deepseek-ai/DeepSeek-OCR": "2026-01-27T03:45:14Z",
-        "deepseek-ai/DeepSeek-V3": "2025-08-28T03:24:37Z",
         "deepseek-ai/DeepSeek-Prover-V2": "2025-07-18T08:11:37Z",
         "deepseek-ai/Engram": "2026-01-14T01:13:02Z",
-        "deepseek-ai/DeepSeek-R1": "2025-06-27T08:35:54Z",
         "deepseek-ai/TileKernels": "2026-04-23T10:19:21Z",
-        "deepseek-ai/DeepEP": "2026-09-07T06:39:53Z",
         "deepseek-ai/DeepGEMM": "2026-09-08T07:04:07Z",
         "deepseek-ai/FlashMLA": "2026-07-28T06:18:26Z",
         "deepseek-ai/DualPipe": "2026-01-14T06:34:59Z",
-        "deepseek-ai/3FS": "2026-05-07T09:31:54Z",
-        "deepseek-ai/Janus": "2025-02-01T07:58:29Z",
-        "deepseek-ai/open-infra-index": "2025-05-15T02:00:43Z"
+        "deepseek-ai/Janus": "2025-02-01T07:58:29Z"
       },
-      "last_changed_at": "2026-09-09T17:20:00.478263Z",
+      "last_changed_at": "2026-09-09T23:52:17.057814Z",
       "source_signature": "e247a4022cc1b9d1fcca44981d9eb5c7892416a57bcff15ec2fe2fc72cfd972e",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -663,28 +663,28 @@
       "last_checked_at": "2026-07-02T04:51:58.871155Z",
       "baseline_initialized": true,
       "repos": {
+        "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
+        "QwenLM/qwen-code": "2026-09-09T23:43:35Z",
+        "QwenLM/Qwen-Drive-1.0": "2026-09-03T01:38:48Z",
+        "QwenLM/FlashQLA": "2026-08-26T13:49:58Z",
+        "QwenLM/Qwen3-ASR": "2026-06-26T08:20:17Z",
+        "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
         "QwenLM/Qwen-Image-Layered": "2025-12-31T11:40:35Z",
         "QwenLM/Qwen-Image": "2026-02-10T07:37:37Z",
-        "QwenLM/qwen-code": "2026-09-09T21:50:54Z",
         "QwenLM/Qwen-MM-Plugins": "2026-09-09T21:08:32Z",
         "QwenLM/qwen-mm-plugins-hub": "2026-09-09T21:03:10Z",
-        "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
-        "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
         "QwenLM/Qwen3.8": "2026-08-17T05:17:40Z",
         "QwenLM/Qwen-Agent": "2026-03-04T08:15:07Z",
         "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
         "QwenLM/Qwen-RobotManip": "2026-06-29T22:29:54Z",
         "QwenLM/Qwen": "2026-03-05T13:55:17Z",
-        "QwenLM/Qwen-Drive-1.0": "2026-09-03T01:38:48Z",
-        "QwenLM/Qwen3-ASR": "2026-06-26T08:20:17Z",
         "QwenLM/Qwen2.5-Omni": "2025-06-12T11:03:07Z",
         "QwenLM/Qwen3-Coder": "2026-03-24T08:22:10Z",
         "QwenLM/E-CommerceBench": "2026-09-03T12:10:14Z",
         "QwenLM/Qwen3.8-Flash-Next": "2026-08-27T07:31:36Z",
-        "QwenLM/qwen-code-docs": "2026-09-09T13:28:37Z",
-        "QwenLM/Qwen-VL": "2024-08-07T02:37:06Z"
+        "QwenLM/qwen-code-docs": "2026-09-09T13:28:37Z"
       },
-      "last_changed_at": "2026-09-09T21:59:40.785371Z",
+      "last_changed_at": "2026-09-09T23:52:17.057814Z",
       "source_signature": "ddc0d8d3788b1fc4ba6779bc400a51934ce7ac0845fbfff67f906a6d77406e21",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -2123,7 +2123,7 @@
     },
     "aihot-selected": {
       "last_raw_count": 50,
-      "last_polled_at": "2026-09-09T21:59:40.785371Z",
+      "last_polled_at": "2026-09-09T23:52:17.057814Z",
       "source_signature": "54b0a2ce37b31eed7de5728f2ad3467d3fff1ec95a53a03f9ee11a9fa197fda4",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-09T08:44:50.779962Z",
@@ -2138,6 +2138,7 @@
         "https://www.apple.com/newsroom/2026/09/apple-debuts-iphone-18-pro-and-iphone-18-pro-max",
         "https://magazine.sebastianraschka.com/p/gpt-6-astra-looped-transformers-and",
         "https://www.anthropic.com/institute/econ-scenarios",
+        "https://openai.com/index/gpt-6-astra-next-generation-work",
         "https://the-decoder.com/openais-millennium-proof-dispute-raises-the-question-of-whether-researchers-can-trust-ai-labs",
         "https://www.ithome.com/1/000/353.htm",
         "https://x.com/thexpin/status/2097615997616406833",
@@ -2426,10 +2427,9 @@
         "https://x.com/SiliconFlowAI/status/2088127458558271885",
         "https://mp.weixin.qq.com/s?__biz=MzkyODk2MDQwNw%3D%3D&mid=2247487525&idx=1&sn=b9def9117e34b45fce50ab76eeed726c",
         "https://huggingface.co/blog/state-of-open-models-summer-2026",
-        "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647685238&idx=1&sn=c3159dba0dd5a141f8dd726fd474e6e2",
-        "https://x.com/bcherny/status/2088014489438621990"
+        "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647685238&idx=1&sn=c3159dba0dd5a141f8dd726fd474e6e2"
       ],
-      "last_changed_at": "2026-09-09T19:50:24.717724Z"
+      "last_changed_at": "2026-09-09T23:52:18.859176Z"
     }
   }
 }
