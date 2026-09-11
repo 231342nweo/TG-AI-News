@@ -1,13 +1,13 @@
 {
   "sources": {
     "deepseek-api-updates": {
-      "fingerprint": "74e58f33dc89998ec7aabaa65f3d4a34c40c984b0be351fb17844ef78670eed7",
+      "fingerprint": "2e8c1183787184297d0a6b303d12619bef0ba1a35d2f273d8042da5a10637fac",
       "last_checked_at": "2026-07-02T04:51:33.147542Z",
-      "last_excerpt": "Change Log | DeepSeek API Docs Skip to main content DeepSeek API Docs English English 中文（中国） DeepSeek Platform Quick Start Your First API Call Models & Pricing Token & Token Usage Rate Limit & Isolation Error Codes Agent Integrations API Guides Vision Thinking Mode Multi-round Conversation Chat Prefix Completion (Beta) FIM Completion (Beta) JSON Output Tool Calls Files API Context Caching Using the Responses API Using the Anthropic API API Reference News Other Resources FAQ Change Log Change Log On this page Change Log Date: 2026-09-10 ​ DeepSeek-V4.1-Flash Release ​ Today, we officially release the DeepSeek-V4.1-Flash model. It is the smallest model in our new architecture family, with native multimodal visual understanding. The new architecture is designed for a higher capability ceiling, faster inference, higher throughput, and scaling to larger models. GPQA Diamond: 90.9 HLE: 36.8 (39.1*) Codeforces (Rating): 3471 MathArena Apex: 65.6 Terminal-Bench 2.1: 90.6 Terminal-Bench 3.0: 30.0 Terminal-Bench 4.0: 31.2 DeepSWE v1.1: 74.2 ProgramBench: 20.3 NL2Repo-Bench: 65.4 CyberGym: 88.1 SEC-Bench Pro: 62.8 ExploitGym: 15.3 HLE (w/tools): 63.9 Automation-Bench: 54.8 Agents' Last Exam: 31.8 Chartography (w/tools): 78.9 BabyVision (w/tools): 89.6 ZeroBench-main (w/tools): 49.0 * Tested only on the pure-text subset of the HLE benchmark set. API changes DeepSeek V4.1 Flash is now available on the DeepSeek API with native multimodal support. Change the model name to deepseek-flash to call the latest V4.1 Flash model. The previous-generation models V4 Flash and V4 Flash Vision Exp have been retired; for compatibility, the model names deepseek-v4-flash and deepseek-v4-flash-vision-exp are temporarily routed to V4.1 Flash. Meanwhile, extensive testing shows that V4.1 Flash now outperforms DeepSeek V4 Pro across performance, cost, speed, and total time, so we plan to retire V4 Pro in an orderly manner. After 12:00 Beijing Time on September 14, 2026, and until the future release of V4.1 Pro, all requests to deepseek-v4-pro will be routed to V4.1 Flash and billed at the V4.1 Flash price. API pricing adjustment With the release of DeepSeek-V4.1-Flash, API prices have been reduced accordingly. For details, please refer to Models & Pricing . For more details, please refer to this documentation . Date: 2026-08-21 ​ DeepSeek-V4-Flash-Vision-Exp Release ​ Today, the new multimodal vision understanding model DeepSeek-V4-Flash-Vision-Exp is now available on the DeepSeek API platform. This is an experimental model that can be accessed by setting model='deepseek-v4-flash-vision-exp' . Terminal Bench 2.1: 83.9 NL2Repo: 57.7 DeepSWE: 59.3 DSBench-Hard: 63.6 AutomationBench (Public): 25.7 ApexBench (Pass@1): 36.5 Agents' Last Exam: 27.3 Chartography: 64.3 ZeroBench (Pass@5): 35.0 * For the Code Agent text tasks in the public benchmark sets, the DeepSeek family models were tested using the DeepSeek Harness minimal mode as the framework, with the max effort level, topp=0.95, and temperature=1.0; in the ApexBench and Agents' Last Exam evaluations, the text model DeepSeek-V4-Flash ignores the multimodal elements within them. In terms of pure-text capabilities (agent, reasoning, world knowledge, etc.), DeepSeek-V4-Flash-Vision-Exp is on par with the official DeepSeek-V4-Flash. On agent benchmarks that require visual understanding, DeepSeek-V4-Flash-Vision-Exp delivers a significant leap over DeepSeek-V4-Flash, bringing its multimodal agent capabilities close to Opus-4.8. For usage details, please refer to the Vision guide . Date: 2026-08-13 ​ DeepSeek-V4-Pro Update ​ The GA release of DeepSeek-V4-Pro has been rolled out on the APP, Web, and API. The API calling method remains unchanged — simply set the model name to deepseek-v4-pro to use the latest version. Significantly enhanced Agent capabilities The GA version of DeepSeek V4 Pro greatly enhances agent capabilities, with particularly significant performance improvements in production environments. HLE (wo ",
+      "last_excerpt": "Change Log | DeepSeek API Docs Skip to main content DeepSeek API Docs English English 中文（中国） DeepSeek Platform Quick Start Your First API Call Models & Pricing Token & Token Usage Rate Limit & Isolation Error Codes Agent Integrations API Guides Vision Thinking Mode Multi-round Conversation Chat Prefix Completion (Beta) FIM Completion (Beta) JSON Output Tool Calls Files API Context Caching Using the Responses API Using the Anthropic API API Reference News Other Resources FAQ Change Log Change Log On this page Change Log Date: 2026-09-10 ​ DeepSeek-V4.1-Flash Release ​ Today, we officially release the DeepSeek-V4.1-Flash model. It is the smallest model in our new architecture family, with native multimodal visual understanding. The new architecture is designed for a higher capability ceiling, faster inference, higher throughput, and scaling to larger models. GPQA Diamond: 90.9 HLE: 36.8 (39.1*) Codeforces (Rating): 3471 MathArena Apex: 65.6 Terminal-Bench 2.1: 90.6 Terminal-Bench 3.0: 30.0 Terminal-Bench 4.0: 31.2 DeepSWE v1.1: 74.2 ProgramBench: 20.3 NL2Repo-Bench: 65.4 CyberGym: 88.1 SEC-Bench Pro: 62.8 ExploitGym: 15.3 HLE (w/tools): 63.9 Automation-Bench: 54.8 Agents' Last Exam: 31.8 Chartography (w/tools): 78.9 BabyVision (w/tools): 89.6 ZeroBench-main (w/tools): 49.0 * Tested only on the pure-text subset of the HLE benchmark set. API changes DeepSeek V4.1 Flash is now available on the DeepSeek API with native multimodal support. Change the model name to deepseek-flash to call the latest V4.1 Flash model. The previous-generation models V4 Flash and V4 Flash Vision Exp have been retired; for compatibility, the model names deepseek-v4-flash and deepseek-v4-flash-vision-exp are temporarily routed to V4.1 Flash. In response to user demand, we have decided to continue providing API services for DeepSeek V4 Pro after September 14, 2026, with the billing method remaining unchanged. We will provide further notice should there be any changes. Thank you for your understanding and support! API pricing adjustment With the release of DeepSeek-V4.1-Flash, API prices have been reduced accordingly. For details, please refer to Models & Pricing . For more details, please refer to this documentation . Date: 2026-08-21 ​ DeepSeek-V4-Flash-Vision-Exp Release ​ Today, the new multimodal vision understanding model DeepSeek-V4-Flash-Vision-Exp is now available on the DeepSeek API platform. This is an experimental model that can be accessed by setting model='deepseek-v4-flash-vision-exp' . Terminal Bench 2.1: 83.9 NL2Repo: 57.7 DeepSWE: 59.3 DSBench-Hard: 63.6 AutomationBench (Public): 25.7 ApexBench (Pass@1): 36.5 Agents' Last Exam: 27.3 Chartography: 64.3 ZeroBench (Pass@5): 35.0 * For the Code Agent text tasks in the public benchmark sets, the DeepSeek family models were tested using the DeepSeek Harness minimal mode as the framework, with the max effort level, topp=0.95, and temperature=1.0; in the ApexBench and Agents' Last Exam evaluations, the text model DeepSeek-V4-Flash ignores the multimodal elements within them. In terms of pure-text capabilities (agent, reasoning, world knowledge, etc.), DeepSeek-V4-Flash-Vision-Exp is on par with the official DeepSeek-V4-Flash. On agent benchmarks that require visual understanding, DeepSeek-V4-Flash-Vision-Exp delivers a significant leap over DeepSeek-V4-Flash, bringing its multimodal agent capabilities close to Opus-4.8. For usage details, please refer to the Vision guide . Date: 2026-08-13 ​ DeepSeek-V4-Pro Update ​ The GA release of DeepSeek-V4-Pro has been rolled out on the APP, Web, and API. The API calling method remains unchanged — simply set the model name to deepseek-v4-pro to use the latest version. Significantly enhanced Agent capabilities The GA version of DeepSeek V4 Pro greatly enhances agent capabilities, with particularly significant performance improvements in production environments. HLE (wo / w tools): 42.7/60.0 Terminal Bench 2.1: 87.9 NL2Repo: 61.5 Cybergym: 83.3 DeepSWE: 62.7 Too",
       "baseline_initialized": true,
       "source_signature": "da94888987a371666a5f08739c9802c186474211b8f74f055d7f6cfad14cf7a4",
       "baseline_reinitialized_at": "2026-07-02T10:22:21.295328Z",
-      "last_changed_at": "2026-09-10T11:44:08.336993Z"
+      "last_changed_at": "2026-09-11T13:51:37.742928Z"
     },
     "deepseek-huggingface": {
       "models": {
@@ -67,6 +67,7 @@
     },
     "zai-huggingface": {
       "models": {
+        "zai-org/GLM-OCR": "2026-09-11T11:59:14.000Z",
         "zai-org/GLM-5.3-Flash": "2026-09-07T12:13:47.000Z",
         "zai-org/GLM-5.3-Flash-BF16": "2026-09-04T06:45:54.000Z",
         "zai-org/GLM-5.3": "2026-09-04T06:41:23.000Z",
@@ -76,7 +77,6 @@
         "zai-org/GLM-5": "2026-08-11T07:36:34.000Z",
         "zai-org/GLM-4.1V-9B-Thinking": "2026-07-22T11:38:50.000Z",
         "zai-org/SCAIL-2": "2026-07-15T12:11:45.000Z",
-        "zai-org/GLM-OCR": "2026-05-19T12:28:43.000Z",
         "zai-org/GLM-5.1": "2026-05-13T08:10:58.000Z",
         "zai-org/GLM-5.1-FP8": "2026-04-16T06:12:42.000Z",
         "zai-org/GLM-ASR-Nano-2512": "2026-04-07T12:55:32.000Z",
@@ -90,7 +90,7 @@
       },
       "last_checked_at": "2026-07-02T04:51:33.147542Z",
       "baseline_initialized": true,
-      "last_changed_at": "2026-09-07T16:01:37.228363Z",
+      "last_changed_at": "2026-09-11T13:51:37.742928Z",
       "source_signature": "5faff0b70c911b04ef63d9690a202b105ecf39b4b153127825318f73f08aab4c",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -175,13 +175,13 @@
       "last_changed_at": "2026-09-03T04:53:12.149542Z"
     },
     "aliyun-bailian-models": {
-      "fingerprint": "535c66696b0f83f1691ba3bf70d11b4fb7d5367e40dea97d209049b3bdf32c79",
+      "fingerprint": "c387b597f7582668fd729c57474597707f34eac6da1f4c4e6186b892ea119362",
       "last_checked_at": "2026-07-02T04:51:33.147542Z",
-      "last_excerpt": "模型大全功能规格与计费-大模型服务平台百炼-阿里云_大模型服务平台百炼(Model Studio)-大模型服务平台百炼(Model Studio)-阿里云帮助中心 大模型 产品 解决方案 权益 定价 云市场 伙伴 服务 了解阿里云 查看 \"\" 全部搜索结果 AI 助理 文档 备案 控制台 官方文档 用户指南（模型） 用户指南（Agent） API参考（模型） API参考（Agent） 首页 大模型服务平台百炼 用户指南（模型） 开始使用 选择模型 选择模型 更新时间： 复制 MD 格式 产品详情 我的收藏 阿里云百炼提供千问及第三方模型服务，覆盖文本、图像、音频、视频等多种模态。 文本生成 qwen3.8-max qwen3.7-plus qwen3.8-flash deepseek-v4-pro-0813 deepseek-v4-flash-0731 kimi/kimi-k3 kimi-k3 glm-5.2 ZHIPU/GLM-5.3 MiniMax-M3 mimo-v2.5-pro 查看更多 图像与视频 理解 分析图片和视频内容，返回文本描述或结构化结果 qwen3.8-max qwen3.7-plus qwen3.5-omni-plus kimi/kimi-k3 查看更多 生成 通过文本或图片生成图像与视频，支持编辑、参考与高分辨率输出 qwen-image-3.0-pro wan2.7-image-pro happyhorse-1.1-t2v happyhorse-1.1-i2v happyhorse-1.1-r2v happyhorse-1.0-video-edit wan3.0-video 查看更多 3D 模型生成 文生 3D 模型或图生 3D 模型，构建三维资产 Tripo/Tripo-H3.1 Tripo/Tripo-P1.0 查看更多 音频与语音 语音合成 适用于有声阅读、语音播报、虚拟人等场景 qwen-audio-3.0-tts-plus MiniMax/speech-2.8-hd 查看更多 音乐生成 根据提示词或歌词生成音乐 fun-music-v1 查看更多 语音识别 专业 ASR 与大模型两种方案，按精度与灵活性选择 qwen-audio-3.0-asr-flash-streaming qwen-audio-3.0-asr-flash-filetrans qwen3.5-omni-plus-realtime qwen3.5-omni-plus 查看更多 语音转语音 端到端语音对话，无需分别调用 ASR 和 TTS qwen-audio-3.0-realtime-plus qwen3.5-omni-plus 查看更多 全模态 融合文本、图像、音频、视频等多种模态的理解与生成能力 qwen3.5-omni-plus-realtime qwen3.5-omni-plus 查看更多 向量与重排序 文本或图文向量化，配合重排序提升检索精度 qwen3.7-text-embedding-flash qwen3.7-text-embedding qwen3-vl-embedding qwen3.7-text-rerank 查看更多 查看所有模型 前往 模型广场 查看所有千问、三方、领域及历史版本模型。 上一篇：首次调用千问API 下一篇：动态限流 该文章对您有帮助吗？ 反馈 为什么选择阿里云 什么是云计算 全球基础设施 技术领先 稳定可靠 安全合规 分析师报告 大模型 大模型服务平台 千问大模型 模型市场 产品和定价 全部产品 免费试用 产品动态 产品定价 配置报价器 云上成本管理 技术内容 技术解决方案 帮助文档 开发者社区 天池大赛 阿里云认证 权益 免费试用 解决方案免费试用 高校计划 推荐返现计划 服务 基础服务 企业增值服务 迁云服务 官网公告 健康看板 信任中心 关注阿里云 关注阿里云公众号或下载阿里云APP，关注云资讯，随时随地运维管控云服务 联系我们：4008013260 法律声明 Cookies 政策 廉正举报 安全举报 联系我们 加入我们 友情链接 阿里巴巴集团 淘宝网 千问AI平台 千问办公 天猫 全球速卖通 阿里巴巴国际交易市场 1688 阿里妈妈 飞猪 阿里云计算 万网 高德 UC 友盟 优酷 钉钉 支付宝 达摩院 淘宝海外 阿里云盘 © 2009-现在 Aliyun.com 版权所有 增值电信业务经营许可证： 浙B2-20080101 域名注册服务机构许可： 浙D3-20210002 浙公网安备 33010602009975号 浙B2-20080101-4",
+      "last_excerpt": "模型大全功能规格与计费-大模型服务平台百炼-阿里云_大模型服务平台百炼(Model Studio)-大模型服务平台百炼(Model Studio)-阿里云帮助中心 大模型 产品 解决方案 权益 定价 云市场 伙伴 服务 了解阿里云 查看 \"\" 全部搜索结果 AI 助理 文档 备案 控制台 官方文档 用户指南（模型） 用户指南（Agent） API参考（模型） API参考（Agent） CLI参考 首页 大模型服务平台百炼 用户指南（模型） 开始使用 选择模型 选择模型 更新时间： 复制 MD 格式 产品详情 我的收藏 阿里云百炼提供千问及第三方模型服务，覆盖文本、图像、音频、视频等多种模态。 文本生成 qwen3.8-max qwen3.7-plus qwen3.8-flash deepseek-v4-pro-0813 deepseek-v4-flash-0731 kimi/kimi-k3 kimi-k3 glm-5.2 ZHIPU/GLM-5.3 MiniMax-M3 mimo-v2.5-pro 查看更多 图像与视频 理解 分析图片和视频内容，返回文本描述或结构化结果 qwen3.8-max qwen3.7-plus qwen3.5-omni-plus kimi/kimi-k3 查看更多 生成 通过文本或图片生成图像与视频，支持编辑、参考与高分辨率输出 qwen-image-3.0-pro wan2.7-image-pro happyhorse-1.1-t2v happyhorse-1.1-i2v happyhorse-1.1-r2v happyhorse-1.0-video-edit wan3.0-video 查看更多 3D 模型生成 文生 3D 模型或图生 3D 模型，构建三维资产 Tripo/Tripo-H3.1 Tripo/Tripo-P1.0 查看更多 音频与语音 语音合成 适用于有声阅读、语音播报、虚拟人等场景 qwen-audio-3.0-tts-plus MiniMax/speech-2.8-hd 查看更多 音乐生成 根据提示词或歌词生成音乐 fun-music-v1 查看更多 语音识别 专业 ASR 与大模型两种方案，按精度与灵活性选择 qwen-audio-3.0-asr-flash-streaming qwen-audio-3.0-asr-flash-filetrans qwen3.5-omni-plus-realtime qwen3.5-omni-plus 查看更多 语音转语音 端到端语音对话，无需分别调用 ASR 和 TTS qwen-audio-3.0-realtime-plus qwen3.5-omni-plus 查看更多 全模态 融合文本、图像、音频、视频等多种模态的理解与生成能力 qwen3.5-omni-plus-realtime qwen3.5-omni-plus 查看更多 向量与重排序 文本或图文向量化，配合重排序提升检索精度 qwen3.7-text-embedding-flash qwen3.7-text-embedding qwen3-vl-embedding qwen3.7-text-rerank 查看更多 查看所有模型 前往 模型广场 查看所有千问、三方、领域及历史版本模型。 上一篇：首次调用千问API 下一篇：动态限流 该文章对您有帮助吗？ 反馈 为什么选择阿里云 什么是云计算 全球基础设施 技术领先 稳定可靠 安全合规 分析师报告 大模型 大模型服务平台 千问大模型 模型市场 产品和定价 全部产品 免费试用 产品动态 产品定价 配置报价器 云上成本管理 技术内容 技术解决方案 帮助文档 开发者社区 天池大赛 阿里云认证 权益 免费试用 解决方案免费试用 高校计划 推荐返现计划 服务 基础服务 企业增值服务 迁云服务 官网公告 健康看板 信任中心 关注阿里云 关注阿里云公众号或下载阿里云APP，关注云资讯，随时随地运维管控云服务 联系我们：4008013260 法律声明 Cookies 政策 廉正举报 安全举报 联系我们 加入我们 友情链接 阿里巴巴集团 淘宝网 千问AI平台 千问办公 天猫 全球速卖通 阿里巴巴国际交易市场 1688 阿里妈妈 飞猪 阿里云计算 万网 高德 UC 友盟 优酷 钉钉 支付宝 达摩院 淘宝海外 阿里云盘 © 2009-现在 Aliyun.com 版权所有 增值电信业务经营许可证： 浙B2-20080101 域名注册服务机构许可： 浙D3-20210002 浙公网安备 33010602009975号 浙B2-20080101-4",
       "baseline_initialized": true,
       "source_signature": "55deffc503423fb3ce68daece33fd797ae9f277c5d24e170f039031f65315073",
       "baseline_reinitialized_at": "2026-07-02T10:22:21.295328Z",
-      "last_changed_at": "2026-09-11T09:49:15.646212Z"
+      "last_changed_at": "2026-09-11T13:51:37.742928Z"
     },
     "baidu-qianfan-docs": {
       "fingerprint": "b22ef572cab5dc210b897300041fbce0d0ab0ed16fd20fb894231242ea6cafbd",
@@ -379,26 +379,26 @@
       "repos": {
         "deepseek-ai/deepseek-harness": "2026-09-11T03:06:25Z",
         "deepseek-ai/DeepSeek-V3": "2025-08-28T03:24:37Z",
-        "deepseek-ai/awesome-deepseek-integration": "2026-02-23T16:27:47Z",
-        "deepseek-ai/DeepSelect": "2026-09-10T15:46:16Z",
-        "deepseek-ai/DeepSeek-Prover-V2": "2025-07-18T08:11:37Z",
-        "deepseek-ai/awesome-deepseek-agent": "2026-06-17T01:24:37Z",
-        "deepseek-ai/TileKernels": "2026-04-23T10:19:21Z",
-        "deepseek-ai/DeepJIT": "2026-09-10T06:19:50Z",
         "deepseek-ai/deepseek-recipe": "2026-09-10T10:44:49Z",
+        "deepseek-ai/DeepSelect": "2026-09-10T15:46:16Z",
+        "deepseek-ai/awesome-deepseek-agent": "2026-06-17T01:24:37Z",
+        "deepseek-ai/DeepJIT": "2026-09-10T06:19:50Z",
+        "deepseek-ai/DeepSeek-Coder": "2025-11-11T06:44:56Z",
+        "deepseek-ai/DeepSeek-Math": "2024-04-15T07:55:37Z",
+        "deepseek-ai/DeepSeek-V2": "2024-09-25T10:23:55Z",
+        "deepseek-ai/DeepSeek-R1": "2025-06-27T08:35:54Z",
+        "deepseek-ai/DeepSeek-Coder-V2": "2025-11-11T06:44:45Z",
+        "deepseek-ai/awesome-deepseek-integration": "2026-02-23T16:27:47Z",
+        "deepseek-ai/DeepSeek-Prover-V2": "2025-07-18T08:11:37Z",
+        "deepseek-ai/TileKernels": "2026-04-23T10:19:21Z",
         "deepseek-ai/Janus": "2025-02-01T07:58:29Z",
         "deepseek-ai/DeepSeek-OCR": "2026-01-27T03:45:14Z",
-        "deepseek-ai/DeepSeek-R1": "2025-06-27T08:35:54Z",
         "deepseek-ai/Engram": "2026-01-14T01:13:02Z",
         "deepseek-ai/DeepGEMM": "2026-09-10T06:31:04Z",
-        "deepseek-ai/DeepSeek-Coder": "2025-11-11T06:44:56Z",
         "deepseek-ai/DeepEP": "2026-09-11T06:58:07Z",
-        "deepseek-ai/FlashMLA": "2026-09-10T05:33:42Z",
-        "deepseek-ai/DeepSeek-V3.2-Exp": "2025-11-18T02:57:11Z",
-        "deepseek-ai/3FS": "2026-05-07T09:31:54Z",
-        "deepseek-ai/LPLB": "2025-11-19T07:20:35Z"
+        "deepseek-ai/FlashMLA": "2026-09-10T05:33:42Z"
       },
-      "last_changed_at": "2026-09-11T09:49:15.646212Z",
+      "last_changed_at": "2026-09-11T13:51:37.742928Z",
       "source_signature": "e247a4022cc1b9d1fcca44981d9eb5c7892416a57bcff15ec2fe2fc72cfd972e",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -407,15 +407,15 @@
       "last_checked_at": "2026-07-02T04:51:37.867265Z",
       "baseline_initialized": true,
       "repos": {
-        "MoonshotAI/Kimi-K2.5": "2026-08-06T10:42:43Z",
-        "MoonshotAI/kimi-code": "2026-09-11T08:27:15Z",
+        "MoonshotAI/Kimi-Vendor-Verifier": "2026-08-13T15:21:02Z",
+        "MoonshotAI/kimi-code": "2026-09-11T10:40:26Z",
         "MoonshotAI/kimi-cli": "2026-09-01T16:37:12Z",
         "MoonshotAI/Kimi-K3": "2026-08-06T10:17:28Z",
-        "MoonshotAI/Kimi-Vendor-Verifier": "2026-08-13T15:21:02Z",
+        "MoonshotAI/Kimi-K2": "2026-01-21T05:33:12Z",
+        "MoonshotAI/Kimi-K2.5": "2026-08-06T10:42:43Z",
         "MoonshotAI/Kimi-k1.5": "2025-03-07T11:16:36Z",
         "MoonshotAI/nano-kpu": "2026-07-23T08:06:38Z",
         "MoonshotAI/FlashKDA": "2026-09-01T08:19:05Z",
-        "MoonshotAI/Kimi-K2": "2026-01-21T05:33:12Z",
         "MoonshotAI/Kimi-Audio": "2025-06-21T15:30:28Z",
         "MoonshotAI/MoBA": "2025-04-03T07:28:06Z",
         "MoonshotAI/checkpoint-engine": "2026-09-04T14:06:24Z",
@@ -428,7 +428,7 @@
         "MoonshotAI/CombiBench": "2026-06-15T07:35:37Z",
         "MoonshotAI/Kimi-Linear": "2025-11-17T09:36:48Z"
       },
-      "last_changed_at": "2026-09-11T09:49:15.646212Z",
+      "last_changed_at": "2026-09-11T13:51:37.742928Z",
       "source_signature": "c925f37596aaabb84376bf83142f08b0ce08447179a5d27a52c7956a40180daa",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -437,17 +437,18 @@
       "last_checked_at": "2026-07-02T04:51:40.485322Z",
       "baseline_initialized": true,
       "repos": {
-        "zai-org/zcode-plugins": "2026-09-11T09:48:17Z",
-        "zai-org/SCAIL-2": "2026-08-24T13:30:59Z",
+        "zai-org/CodeGeeX": "2024-08-13T05:59:38Z",
         "zai-org/Open-AutoGLM": "2026-03-06T08:38:39Z",
-        "zai-org/CogVLM": "2024-05-29T10:01:33Z",
-        "zai-org/ChatGLM-6B": "2024-06-27T04:05:25Z",
-        "zai-org/GLM-4": "2026-08-05T07:08:46Z",
-        "zai-org/CodeGeeX4": "2024-08-25T14:26:16Z",
         "zai-org/CogVideo": "2025-11-04T11:19:04Z",
         "zai-org/GLM-5": "2026-09-01T12:56:01Z",
-        "zai-org/CodeGeeX": "2024-08-13T05:59:38Z",
+        "zai-org/ChatGLM-6B": "2024-06-27T04:05:25Z",
+        "zai-org/GLM-Image": "2026-03-20T03:10:16Z",
+        "zai-org/zcode-plugins": "2026-09-11T09:55:13Z",
         "zai-org/GLM-OCR": "2026-04-21T08:52:11Z",
+        "zai-org/SCAIL-2": "2026-08-24T13:30:59Z",
+        "zai-org/CogVLM": "2024-05-29T10:01:33Z",
+        "zai-org/GLM-4": "2026-08-05T07:08:46Z",
+        "zai-org/CodeGeeX4": "2024-08-25T14:26:16Z",
         "zai-org/SSVAE": "2025-12-25T09:24:54Z",
         "zai-org/Synapse": "2026-07-31T07:25:27Z",
         "zai-org/SCAIL": "2026-05-06T14:59:54Z",
@@ -455,10 +456,9 @@
         "zai-org/CodeGeeX2": "2024-07-10T12:34:55Z",
         "zai-org/CogVLM2": "2025-03-03T03:01:31Z",
         "zai-org/ChatGLM3": "2025-01-13T06:55:26Z",
-        "zai-org/ChatGLM2-6B": "2024-06-27T04:05:08Z",
-        "zai-org/GLM-4-Voice": "2024-12-05T07:10:01Z"
+        "zai-org/ChatGLM2-6B": "2024-06-27T04:05:08Z"
       },
-      "last_changed_at": "2026-09-11T09:49:15.646212Z",
+      "last_changed_at": "2026-09-11T13:51:37.742928Z",
       "source_signature": "0f9d07d7983b4898dc433a8d045a96469f65dff73642f9fe1fbf73cf3299210c",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -603,17 +603,18 @@
       "last_checked_at": "2026-07-02T04:51:55.708102Z",
       "baseline_initialized": true,
       "repos": {
-        "OpenBMB/StaffDeck": "2026-09-10T07:58:00Z",
-        "OpenBMB/VoxCPM": "2026-09-02T12:12:35Z",
-        "OpenBMB/Meshy": "2026-09-11T07:17:53Z",
         "OpenBMB/MiniCPM": "2026-09-10T09:08:35Z",
-        "OpenBMB/UltraRAG": "2026-09-09T11:23:50Z",
-        "OpenBMB/MiniCPM-V-Apps": "2026-09-09T03:48:37Z",
-        "OpenBMB/AgentVerse": "2024-09-09T05:47:44Z",
-        "OpenBMB/MiniCPM-V": "2026-09-08T06:05:56Z",
         "OpenBMB/ChatDev": "2026-07-24T08:01:27Z",
-        "OpenBMB/XAgent": "2026-07-31T03:30:54Z",
+        "OpenBMB/VoxCPM": "2026-09-02T12:12:35Z",
         "OpenBMB/PilotDeck": "2026-09-11T08:27:31Z",
+        "OpenBMB/MiniCPM-V": "2026-09-08T06:05:56Z",
+        "OpenBMB/Meshy": "2026-09-11T12:37:35Z",
+        "OpenBMB/UltraRAG": "2026-09-09T11:23:50Z",
+        "OpenBMB/StaffDeck": "2026-09-11T10:15:02Z",
+        "OpenBMB/VisRAG": "2026-08-09T09:23:53Z",
+        "OpenBMB/XAgent": "2026-07-31T03:30:54Z",
+        "OpenBMB/AgentVerse": "2024-09-09T05:47:44Z",
+        "OpenBMB/MiniCPM-V-Apps": "2026-09-09T03:48:37Z",
         "OpenBMB/MiniCPM-Desk-Pet": "2026-08-18T07:58:20Z",
         "OpenBMB/MiniCPM-o-Demo": "2026-09-11T02:41:26Z",
         "OpenBMB/MathForm": "2026-08-17T05:28:16Z",
@@ -621,10 +622,9 @@
         "OpenBMB/MiniCPM-Robot": "2026-08-25T10:04:27Z",
         "OpenBMB/UltraEval-Audio": "2026-08-25T11:42:02Z",
         "OpenBMB/AgentCPM-GUI": "2026-01-11T08:24:15Z",
-        "OpenBMB/ToolBench": "2025-05-21T15:46:59Z",
-        "OpenBMB/SimpleNav": "2026-08-28T02:46:44Z"
+        "OpenBMB/ToolBench": "2025-05-21T15:46:59Z"
       },
-      "last_changed_at": "2026-09-11T09:49:15.646212Z",
+      "last_changed_at": "2026-09-11T13:51:37.742928Z",
       "source_signature": "3dd1c4ab8bc380dc66624329d310bc65fe6deafde7a370da1191ca03b32c0764",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -633,6 +633,7 @@
       "last_checked_at": "2026-07-02T04:51:56.844085Z",
       "baseline_initialized": true,
       "repos": {
+        "InternLM/Kernel-Smith": "2026-03-31T03:23:03Z",
         "InternLM/lmdeploy": "2026-09-11T09:29:18Z",
         "InternLM/xtuner": "2026-09-11T02:29:24Z",
         "InternLM/InternBootcamp": "2026-08-12T13:13:22Z",
@@ -651,10 +652,9 @@
         "InternLM/Visual-ERM": "2026-03-23T08:36:21Z",
         "InternLM/HuixiangDou": "2025-11-24T11:17:29Z",
         "InternLM/agentlego": "2024-09-13T08:00:19Z",
-        "InternLM/AcmeTrace": "2024-03-12T11:49:56Z",
-        "InternLM/lagent": "2026-08-03T07:18:16Z"
+        "InternLM/AcmeTrace": "2024-03-12T11:49:56Z"
       },
-      "last_changed_at": "2026-09-11T09:49:15.646212Z",
+      "last_changed_at": "2026-09-11T13:51:37.742928Z",
       "source_signature": "a7a2f73a91108336ba1fe2d4fb4d5921862eb329f648d490a4d7903663f49f70",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -666,28 +666,28 @@
       "last_checked_at": "2026-07-02T04:51:58.871155Z",
       "baseline_initialized": true,
       "repos": {
-        "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
-        "QwenLM/qwen-code": "2026-09-11T09:48:36Z",
-        "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
-        "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
-        "QwenLM/Qwen": "2026-03-05T13:55:17Z",
         "QwenLM/Qwen3-ASR": "2026-06-26T08:20:17Z",
-        "QwenLM/Qwen3.8": "2026-08-17T05:17:40Z",
+        "QwenLM/qwen-code": "2026-09-11T13:49:45Z",
+        "QwenLM/Qwen3-Coder": "2026-03-24T08:22:10Z",
+        "QwenLM/qwen-code-docs": "2026-09-11T13:10:42Z",
+        "QwenLM/Qwen": "2026-03-05T13:55:17Z",
         "QwenLM/Qwen-Image": "2026-02-10T07:37:37Z",
+        "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
         "QwenLM/Qwen-Drive-1.0": "2026-09-03T01:38:48Z",
-        "QwenLM/Qwen-Audio": "2024-07-05T09:17:49Z",
-        "QwenLM/Qwen2.5-Math": "2025-01-11T17:30:43Z",
         "QwenLM/Qwen-MM-Plugins": "2026-09-11T02:34:34Z",
         "QwenLM/Qwen-Agent": "2026-03-04T08:15:07Z",
+        "QwenLM/Qwen3.8": "2026-08-17T05:17:40Z",
+        "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
+        "QwenLM/qwen-mm-plugins-hub": "2026-09-11T10:17:54Z",
+        "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
+        "QwenLM/Qwen-Audio": "2024-07-05T09:17:49Z",
+        "QwenLM/Qwen2.5-Math": "2025-01-11T17:30:43Z",
         "QwenLM/Qwen3-Omni": "2026-04-23T10:58:01Z",
         "QwenLM/Qwen3.8-Flash-Next": "2026-08-27T07:31:36Z",
-        "QwenLM/qwen-code-docs": "2026-09-11T09:48:59Z",
         "QwenLM/Qwen-VL": "2024-08-07T02:37:06Z",
-        "QwenLM/FlashQLA": "2026-08-26T13:49:58Z",
-        "QwenLM/Qwen3-Coder": "2026-03-24T08:22:10Z",
-        "QwenLM/qwen-mm-plugins-hub": "2026-09-11T02:53:40Z"
+        "QwenLM/FlashQLA": "2026-08-26T13:49:58Z"
       },
-      "last_changed_at": "2026-09-11T09:49:15.646212Z",
+      "last_changed_at": "2026-09-11T13:51:37.742928Z",
       "source_signature": "ddc0d8d3788b1fc4ba6779bc400a51934ce7ac0845fbfff67f906a6d77406e21",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -1355,9 +1355,9 @@
       ],
       "last_checked_at": "2026-07-02T04:52:00.728806Z",
       "baseline_initialized": true,
-      "fingerprint": "fb6e9468d5771092b7b31128c081c7ea39cc2a4734957dd0775d07d42d584897",
-      "last_changed_at": "2026-09-07T10:35:34.685782Z",
-      "last_excerpt": "百度AI开放平台-全球领先的人工智能服务平台 最近搜索 热门产品 端到端语音语言大模型 声音复刻 大模型语音合成 人脸实名认证 文字识别 看图识万物 资讯 文档 控制台 登录 未实名 立即认证 用户中心 财务及订单 消息中心 我的工单 退出登录 PP-OCRv6 重磅上线！精度全面跃升 覆盖50种语言 支持挑战性工业场景 查看详情 通用卡证票据识别 火热开售 支持全品类卡证、票据 结构化信息抽取 查看详情 大模型文档翻译 重磅发布 支持多格式文档 200+语言 复杂内容翻译更快 更准 查看详情 大模型声音复刻重磅升级 情感精准可控 方言灵活切换 让声音更具表现力 查看详情 端到端语音语言大模型 正式商用 开口即真人 最高享100万免费tokens 查看详情 人工智能 企业权益普惠 OCR新购1元起，更多量包限时75折起 速抢优惠 快速入门 AI体验中心 在线demo演示，免费体验70+AI能力 HOT AI新手入门 入门教程 0元试用 首购1元 AI最佳实践 精选案例 助力企业智能化升级 最新资讯 全新上线 PP-OCRv6 助力多场景、多语言文字识别 NEW 火热开售 通用卡证票据识别，低至0.04元/次 HOT 正式商用 端到端语音语言大模型Pro版火热开售 NEW 全栈的AI能力，提供端到端软硬一体的应用 更多能力 开放能力 开发平台 场景应用 端到端语音语言大模型 新品 业内首创Cross-Attention 体验超拟人对话 重磅发布 免费体验 人脸实名认证解决方案 热门 高安全性、高通过率、高易用性 赠送500次免费调用 文档解析（PaddleOCR-VL） 优惠 全新1.6 版本，文本/表格/公式解析全面增强 新人专享9元/千页 大模型语音合成 热门 全新音色超拟人，多情感，多方言 低至¥ 4 /千次 身份证识别 全字段识别，准确率超99% 低至¥ 7.6 /千次 增值税发票验真 支持14类增值税发票的信息核验 低至 ¥0.15 /次 大模型声音复刻 1句话复刻声音，超高还原度 复刻低至¥ 4 /次 行驶证识别 精准识别纸质及电子行驶证主页及副页 低至¥ 10 /千次 手写文字识别 多场景、高精度，支持 20+ 语言类型 低至¥ 0.0038 /次 产业级知识增强的文心大模型，让AI模型生来更强 文心大模型 AI开发的首选基座大模型，含全球首个知识增强千亿大模型，以AI大模型为底座，加速产业智能升级 查看详情 百度千帆大模型平台 以Agent为核心的一站式企业级大模型服务平台 查看详情 源于实践的解决方案，赋能产业AI升级 智能客服 数字员工 合同智能化 人脸实名认证 智能语音会议 有声阅读 安全生产 数字化访销 智能客服 面向语音、PC、移动端等丰富的终端渠道，提供各类垂直领域的专业化智能客服能力，打造场景丰富、功能完善的智能客服解决方案；帮助企业降本增效，让客服业务进入AI智能时代 查看方案 行业实践 完善的生态伙伴计划，帮助客户与伙伴成功 百度大脑合作伙伴 为伙伴提供技术、客户、营销、企业运作等全方位支持，帮助伙伴成功，共享AI未来 大模型产业人才认证 百度与深度学习技术及应用国家工程研究中心权威认证，证明自身实力，助力职业发展 百度智能云千帆AI加速器 整合政产学研资源，提供涵盖培训赋能、应用推广、市场发声、投资撮合等全方位服务 全线产品持续上新，期待与您合作 立即体验 1397 项 技术能力 24 小时 快速集成 800W + 开发者正在使用 百度大脑同时驱动 云智一体深入产业 全球智能驾驶产业领跑者 快速入口 AI能力体验中心 管理控制台 账户中心 财务中心 服务协议 开发资源 API在线调试 文档中心 SDK下载 教学视频 GitHub QQ支持群 生态与市场 生态合作伙伴 千帆AI加速器 千帆AI原生应用商店 常见问题 账号登录 接口调用 技术问答 错误码 联系我们 售前咨询 售后智能助手 技术工单 意见反馈 客服电话 400-920-8999 人才招聘 立即体验AI能力 打开百度APP“扫一扫” 获取最新AI资讯 关注“百度AI”微信公众号 友情链接： 百度智能云 | 百度营销 | 百度开发者中心 | 百度移动应用平台 | 百度数据众包 | 百度地图开放平台 © 2025 Baidu 使用百度前必读 京ICP证030173号 QQ支持群 百度语音： 588369236 文字识别： 1055623827 自定义模板OCR： 1055402721 人脸识别： 692450852 人体分析： 860337848 内容审核： 375765194 飞桨PaddlePaddle： 778260830 图像识别： 312156782 EasyDL： 614951239 图像搜索： 1067276154 视频分析： 632473158 百度AR： 472081119 自然语言： 1051436514 UNIT： 1074410189 百度翻译： 214857706 图像效果增强： 1092338829 数据智能： 650596829 知识图谱： 655854786 DuerOS： 604592023 百度AI开放平台： 224994340 智能写作： 743926523 EdgeBoard： 1060623352 语音自训练平台： 686267521 远场语音开发套件： 210093204 × 技术能力 语音技术 文字识别 人脸与人体 图像技术 语言与知识 视频技术 查看全部AI能力 大模型语音 端到端语音语言大模型 新品 大模型声音复刻 大模型语音合成 热门 语音识别 > 短语音识别标准版 热门 短语音识别极速版 实时语音识别 音频文件转写 AI翻译配音 > 新品 语音合成 > 短文本在线合成 长文本在线合成 流式文本在线合成 新品 定制音库 语音合成离线SDK > 呼叫中心语音 呼叫中心音频文件转写 呼叫中心实时语音通话 呼叫中心智能语音质检 新品 语音翻译 语音翻译API 实时语音翻译 AI同传 语音私有化部署方案 > 场景方案 有声阅读解决方案 热门 呼叫中心语音解决方案 大模型语音会议解决方案 新品 语音数字大屏 智能语音指令 客户案例 七猫小说-打造极致听书体验 罗湖区政府-语音大屏便捷交互 嘀嗒出行-订单播报安全护航 Kido-智能手表有问必答 得到-IP名师专属声音定制 通用场景文字识别 > 通用文字识别 热门 办公文档识别 表格文字识别 手写文字识别 热门 文档解析 新品 智能结构化 印章识别 二维码识别 网络图片文字识别 数字识别 交通场景文字识别 > 行驶证识别 热门 驾驶证识别 车牌识别 VIN码识别 快递面单识别 道路运输证识别 车辆合格证识别 机动车登记证书识别 机动车销售发票识别 二手车销售发票识别 文字识别私有化部署方案 > 热门 卡证文字识别 > 身份证识别 热门 银行卡识别 营业执照识别 热门 营业执照核验 户口本识别 护照识别 社保卡识别 出生医学证明识别 结婚证识别 港澳台证件识别 房产证识别 开户许可证识别 智能文档分析平台 > 文档解析 热门 文档抽取 合同审查 新品 文档比对 文档格式转换 iOCR自定义文字识别 > 财务票据文字识别 > 智能财务票据识别 增值税发票验真 热门 增值税发票识别 银行单据识别 新品 差旅报销票据识别 通用机打发票识别 定额发票识别 购物小票识别 医疗票据文字识别 > 医疗发票识别 医疗费用明细识别 医疗费用结算单识别 病历单据识别 检查报告单据识别 教育场景文字识别 > 试卷分析与识别 手写作文识别（多模态） 新品 试卷切题识别 新品 智能作业批改 新品 拍照解题 新品 通用卡证票据识别 > 新品 文档图像处理 > 图像篡改检测 新品 PaddleOCR企业版 > 新品 PP-OCRv6 新品 文字识别离线SDK > 其他场景文字识别 > 仪器仪表盘读数识别 场景方案 智能财务报销解决方案 保险智能理赔解决方案 档案数字化管理解决方案 合同智能处理解决方案 热门 客户案例 > 泰康保险—医疗理赔智能化 极兔速递—快递下单智能化 慧谷通用—重庆法院智能办案 人脸识别云服务 > 人脸关键点 人脸检测与属性分析 人脸对比 人脸搜索 活体检测 热门 合成图检测 人脸离线识别SDK > Android版 热门 Windows版 新品 Linux版 海思版 RV1109版 人脸实名认证解决方案 > 热门 人体与行为分析 > 人体关键点识别 人体检测与属性分析 人流量统计 手部分析与跟踪 驾驶行为分析 人脸私有化部署方案 > 人像特效 > 人脸融合 人像分割 人脸属性编辑 客户案例 中国科学技术馆 用友软件 中通快递 杭州市民卡 图像识别 > 通用物体和场景识别 热门 看图识万物 新品 图像内容理解 新品 植物识别 动物识别 车型识别 车辆检测 菜品识别 地标识别 果蔬识别 品牌logo识别 图像主体检测 翻拍识别 图像搜索 > 相同图片搜索 相似图片搜索 热门 商品图片搜索 绘本图片搜索 面料图片搜索 图像增强 > 图像清晰度增强 图像无损放大 图像修复 智能抠图 新品 图像私有化部署方案 > 图像特效 > AI修图 新品 黑白图像上色 图像风格转换 人像动漫化 图片生成 文心AI作画 热门 客户案例 > 甜新科技-理赔凭证查重 薄荷科技-AI助力膳食管理 B612-趣味处理引爆交际圈 开发平台 零门槛图像模型定制 智能文档分析平台 > 文档格式转换 合同审查 热门 文档对比 文档抽取 新品 文档解析 百度翻译企业版 > 机器翻译 > 大模型文本翻译 文本翻译 热门 领",
+      "fingerprint": "cf16502faff88598d1c9cc6f443f1cb1b4002b7e9709a22723b7d583b0ee174d",
+      "last_changed_at": "2026-09-11T13:51:37.742928Z",
+      "last_excerpt": "百度AI开放平台-全球领先的人工智能服务平台 最近搜索 热门产品 端到端语音语言大模型 声音复刻 大模型语音合成 人脸实名认证 文字识别 看图识万物 资讯 文档 控制台 登录 未实名 立即认证 用户中心 财务及订单 消息中心 我的工单 退出登录 PP-OCRv6 重磅上线！精度全面跃升 覆盖50种语言 支持挑战性工业场景 查看详情 通用卡证票据识别 火热开售 支持全品类卡证、票据 结构化信息抽取 查看详情 大模型文档翻译 重磅发布 支持多格式文档 200+语言 复杂内容翻译更快 更准 查看详情 大模型声音复刻重磅升级 情感精准可控 方言灵活切换 让声音更具表现力 查看详情 端到端语音语言大模型 正式商用 开口即真人 最高享100万免费tokens 查看详情 人工智能 企业权益普惠 OCR新购1元起，更多量包限时75折起 速抢优惠 快速入门 AI体验中心 在线demo演示，免费体验70+AI能力 HOT AI新手入门 入门教程 0元试用 首购1元 AI最佳实践 精选案例 助力企业智能化升级 最新资讯 开放公测 文档矫正增强/去手写2.0 全新升级！ NEW 全新上线 PP-OCRv6 助力多场景、多语言文字识别 NEW 火热开售 通用卡证票据识别，低至0.04元/次 HOT 全栈的AI能力，提供端到端软硬一体的应用 更多能力 开放能力 开发平台 场景应用 端到端语音语言大模型 新品 业内首创Cross-Attention 体验超拟人对话 重磅发布 免费体验 人脸实名认证解决方案 热门 高安全性、高通过率、高易用性 赠送500次免费调用 文档解析（PaddleOCR-VL） 优惠 全新1.6 版本，文本/表格/公式解析全面增强 新人专享9元/千页 大模型语音合成 热门 全新音色超拟人，多情感，多方言 低至¥ 4 /千次 身份证识别 全字段识别，准确率超99% 低至¥ 7.6 /千次 增值税发票验真 支持14类增值税发票的信息核验 低至 ¥0.15 /次 大模型声音复刻 1句话复刻声音，超高还原度 复刻低至¥ 4 /次 行驶证识别 精准识别纸质及电子行驶证主页及副页 低至¥ 10 /千次 手写文字识别 多场景、高精度，支持 20+ 语言类型 低至¥ 0.0038 /次 产业级知识增强的文心大模型，让AI模型生来更强 文心大模型 AI开发的首选基座大模型，含全球首个知识增强千亿大模型，以AI大模型为底座，加速产业智能升级 查看详情 百度千帆大模型平台 以Agent为核心的一站式企业级大模型服务平台 查看详情 源于实践的解决方案，赋能产业AI升级 智能客服 数字员工 合同智能化 人脸实名认证 智能语音会议 有声阅读 安全生产 数字化访销 智能客服 面向语音、PC、移动端等丰富的终端渠道，提供各类垂直领域的专业化智能客服能力，打造场景丰富、功能完善的智能客服解决方案；帮助企业降本增效，让客服业务进入AI智能时代 查看方案 行业实践 完善的生态伙伴计划，帮助客户与伙伴成功 百度大脑合作伙伴 为伙伴提供技术、客户、营销、企业运作等全方位支持，帮助伙伴成功，共享AI未来 大模型产业人才认证 百度与深度学习技术及应用国家工程研究中心权威认证，证明自身实力，助力职业发展 百度智能云千帆AI加速器 整合政产学研资源，提供涵盖培训赋能、应用推广、市场发声、投资撮合等全方位服务 全线产品持续上新，期待与您合作 立即体验 1397 项 技术能力 24 小时 快速集成 800W + 开发者正在使用 百度大脑同时驱动 云智一体深入产业 全球智能驾驶产业领跑者 快速入口 AI能力体验中心 管理控制台 账户中心 财务中心 服务协议 开发资源 API在线调试 文档中心 SDK下载 教学视频 GitHub QQ支持群 生态与市场 生态合作伙伴 千帆AI加速器 千帆AI原生应用商店 常见问题 账号登录 接口调用 技术问答 错误码 联系我们 售前咨询 售后智能助手 技术工单 意见反馈 客服电话 400-920-8999 人才招聘 立即体验AI能力 打开百度APP“扫一扫” 获取最新AI资讯 关注“百度AI”微信公众号 友情链接： 百度智能云 | 百度营销 | 百度开发者中心 | 百度移动应用平台 | 百度数据众包 | 百度地图开放平台 © 2025 Baidu 使用百度前必读 京ICP证030173号 QQ支持群 百度语音： 588369236 文字识别： 1055623827 自定义模板OCR： 1055402721 人脸识别： 692450852 人体分析： 860337848 内容审核： 375765194 飞桨PaddlePaddle： 778260830 图像识别： 312156782 EasyDL： 614951239 图像搜索： 1067276154 视频分析： 632473158 百度AR： 472081119 自然语言： 1051436514 UNIT： 1074410189 百度翻译： 214857706 图像效果增强： 1092338829 数据智能： 650596829 知识图谱： 655854786 DuerOS： 604592023 百度AI开放平台： 224994340 智能写作： 743926523 EdgeBoard： 1060623352 语音自训练平台： 686267521 远场语音开发套件： 210093204 × 技术能力 语音技术 文字识别 人脸与人体 图像技术 语言与知识 视频技术 查看全部AI能力 大模型语音 端到端语音语言大模型 新品 大模型声音复刻 大模型语音合成 热门 语音识别 > 短语音识别标准版 热门 短语音识别极速版 实时语音识别 音频文件转写 AI翻译配音 > 新品 语音合成 > 短文本在线合成 长文本在线合成 流式文本在线合成 新品 定制音库 语音合成离线SDK > 呼叫中心语音 呼叫中心音频文件转写 呼叫中心实时语音通话 呼叫中心智能语音质检 新品 语音翻译 语音翻译API 实时语音翻译 AI同传 语音私有化部署方案 > 场景方案 有声阅读解决方案 热门 呼叫中心语音解决方案 大模型语音会议解决方案 新品 语音数字大屏 智能语音指令 客户案例 七猫小说-打造极致听书体验 罗湖区政府-语音大屏便捷交互 嘀嗒出行-订单播报安全护航 Kido-智能手表有问必答 得到-IP名师专属声音定制 通用场景文字识别 > 通用文字识别 热门 办公文档识别 表格文字识别 手写文字识别 热门 文档解析 新品 智能结构化 印章识别 二维码识别 网络图片文字识别 数字识别 交通场景文字识别 > 行驶证识别 热门 驾驶证识别 车牌识别 VIN码识别 快递面单识别 道路运输证识别 车辆合格证识别 机动车登记证书识别 机动车销售发票识别 二手车销售发票识别 文字识别私有化部署方案 > 热门 卡证文字识别 > 身份证识别 热门 银行卡识别 营业执照识别 热门 营业执照核验 户口本识别 护照识别 社保卡识别 出生医学证明识别 结婚证识别 港澳台证件识别 房产证识别 开户许可证识别 智能文档分析平台 > 文档解析 热门 文档抽取 合同审查 新品 文档比对 文档格式转换 iOCR自定义文字识别 > 财务票据文字识别 > 智能财务票据识别 增值税发票验真 热门 增值税发票识别 银行单据识别 新品 差旅报销票据识别 通用机打发票识别 定额发票识别 购物小票识别 医疗票据文字识别 > 医疗发票识别 医疗费用明细识别 医疗费用结算单识别 病历单据识别 检查报告单据识别 教育场景文字识别 > 试卷分析与识别 手写作文识别（多模态） 新品 试卷切题识别 新品 智能作业批改 新品 拍照解题 新品 通用卡证票据识别 > 新品 文档图像处理 > 图像篡改检测 新品 PaddleOCR企业版 > 新品 PP-OCRv6 新品 文字识别离线SDK > 其他场景文字识别 > 仪器仪表盘读数识别 场景方案 智能财务报销解决方案 保险智能理赔解决方案 档案数字化管理解决方案 合同智能处理解决方案 热门 客户案例 > 泰康保险—医疗理赔智能化 极兔速递—快递下单智能化 慧谷通用—重庆法院智能办案 人脸识别云服务 > 人脸关键点 人脸检测与属性分析 人脸对比 人脸搜索 活体检测 热门 合成图检测 人脸离线识别SDK > Android版 热门 Windows版 新品 Linux版 海思版 RV1109版 人脸实名认证解决方案 > 热门 人体与行为分析 > 人体关键点识别 人体检测与属性分析 人流量统计 手部分析与跟踪 驾驶行为分析 人脸私有化部署方案 > 人像特效 > 人脸融合 人像分割 人脸属性编辑 客户案例 中国科学技术馆 用友软件 中通快递 杭州市民卡 图像识别 > 通用物体和场景识别 热门 看图识万物 新品 图像内容理解 新品 植物识别 动物识别 车型识别 车辆检测 菜品识别 地标识别 果蔬识别 品牌logo识别 图像主体检测 翻拍识别 图像搜索 > 相同图片搜索 相似图片搜索 热门 商品图片搜索 绘本图片搜索 面料图片搜索 图像增强 > 图像清晰度增强 图像无损放大 图像修复 智能抠图 新品 图像私有化部署方案 > 图像特效 > AI修图 新品 黑白图像上色 图像风格转换 人像动漫化 图片生成 文心AI作画 热门 客户案例 > 甜新科技-理赔凭证查重 薄荷科技-AI助力膳食管理 B612-趣味处理引爆交际圈 开发平台 零门槛图像模型定制 智能文档分析平台 > 文档格式转换 合同审查 热门 文档对比 文档抽取 新品 文档解析 百度翻译企业版 > 机器翻译 > 大模型文本翻译 文本翻译 热门 ",
       "source_signature": "52114d29a52d66d2043dedc466ae6f835a68eebd89007bc31657335837df152e",
       "baseline_reinitialized_at": "2026-07-02T10:22:21.295328Z"
     },
@@ -2126,11 +2126,12 @@
     },
     "aihot-selected": {
       "last_raw_count": 50,
-      "last_polled_at": "2026-09-11T09:49:15.646212Z",
+      "last_polled_at": "2026-09-11T13:51:37.742928Z",
       "source_signature": "54b0a2ce37b31eed7de5728f2ad3467d3fff1ec95a53a03f9ee11a9fa197fda4",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-09T08:44:50.779962Z",
       "seen_keys": [
+        "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw%3D%3D&mid=2247511119&idx=1&sn=0f53b5017e41b16afc9b201966ce2bda",
         "https://x.com/elonmusk/status/2098217236771295567",
         "https://techcrunch.com/2026/09/10/anthropic-details-distillation-campaigns-from-alibaba-moonshot-ai-and-deepseek",
         "https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities",
@@ -2429,10 +2430,9 @@
         "https://x.com/claudeai/status/2089806039088517356",
         "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
         "https://www.lmsys.org/blog/2026-08-19-deepseek-v4-pro-engine-optimization-h20",
-        "https://openai.com/index/pacing-model-development-cyber-capabilities",
-        "https://openai.com/index/chatgpt-for-teens"
+        "https://openai.com/index/pacing-model-development-cyber-capabilities"
       ],
-      "last_changed_at": "2026-09-11T09:49:16.749610Z"
+      "last_changed_at": "2026-09-11T13:51:38.581866Z"
     }
   }
 }
