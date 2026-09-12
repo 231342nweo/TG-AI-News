@@ -377,28 +377,28 @@
       "last_checked_at": "2026-07-02T04:51:33.967446Z",
       "baseline_initialized": true,
       "repos": {
+        "deepseek-ai/DeepSeek-V3": "2025-08-28T03:24:37Z",
         "deepseek-ai/deepseek-harness": "2026-09-11T03:06:25Z",
+        "deepseek-ai/DeepSeek-R1": "2025-06-27T08:35:54Z",
+        "deepseek-ai/DeepSeek-Prover-V2": "2025-07-18T08:11:37Z",
+        "deepseek-ai/Janus": "2025-02-01T07:58:29Z",
+        "deepseek-ai/DeepSeek-Math": "2024-04-15T07:55:37Z",
+        "deepseek-ai/DeepSelect": "2026-09-10T15:46:16Z",
         "deepseek-ai/DeepSpec": "2026-07-09T04:37:14Z",
         "deepseek-ai/DeepSeek-OCR": "2026-01-27T03:45:14Z",
-        "deepseek-ai/DeepSeek-Math": "2024-04-15T07:55:37Z",
         "deepseek-ai/DeepJIT": "2026-09-10T06:19:50Z",
         "deepseek-ai/awesome-deepseek-integration": "2026-02-23T16:27:47Z",
-        "deepseek-ai/DeepSeek-V3": "2025-08-28T03:24:37Z",
         "deepseek-ai/DeepSeek-Coder": "2025-11-11T06:44:56Z",
-        "deepseek-ai/DeepSeek-R1": "2025-06-27T08:35:54Z",
         "deepseek-ai/DeepGEMM": "2026-09-10T06:31:04Z",
         "deepseek-ai/DualPipe": "2026-01-14T06:34:59Z",
         "deepseek-ai/3FS": "2026-05-07T09:31:54Z",
         "deepseek-ai/smallpond": "2025-03-05T18:23:54Z",
         "deepseek-ai/deepseek-recipe": "2026-09-10T10:44:49Z",
         "deepseek-ai/awesome-deepseek-agent": "2026-06-17T01:24:37Z",
-        "deepseek-ai/DeepSelect": "2026-09-10T15:46:16Z",
         "deepseek-ai/FlashMLA": "2026-09-10T05:33:42Z",
-        "deepseek-ai/DeepSeek-V3.2-Exp": "2025-11-18T02:57:11Z",
-        "deepseek-ai/DeepSeek-LLM": "2024-02-04T12:22:16Z",
-        "deepseek-ai/DeepEP": "2026-09-11T06:58:07Z"
+        "deepseek-ai/DeepSeek-V3.2-Exp": "2025-11-18T02:57:11Z"
       },
-      "last_changed_at": "2026-09-12T19:24:23.165810Z",
+      "last_changed_at": "2026-09-12T21:29:47.533275Z",
       "source_signature": "e247a4022cc1b9d1fcca44981d9eb5c7892416a57bcff15ec2fe2fc72cfd972e",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -604,11 +604,12 @@
       "baseline_initialized": true,
       "repos": {
         "OpenBMB/MiniCPM": "2026-09-12T04:40:37Z",
+        "OpenBMB/VoxCPM": "2026-09-02T12:12:35Z",
+        "OpenBMB/Meshy": "2026-09-11T12:37:35Z",
         "OpenBMB/UltraRAG": "2026-09-12T07:16:09Z",
         "OpenBMB/AppCopilot": "2025-11-18T06:18:21Z",
         "OpenBMB/DeepThinkVLA": "2026-09-08T02:15:39Z",
         "OpenBMB/ChatDev": "2026-07-24T08:01:27Z",
-        "OpenBMB/VoxCPM": "2026-09-02T12:12:35Z",
         "OpenBMB/BMInf-demos": "2021-10-14T06:55:09Z",
         "OpenBMB/General-Model-License": "2023-05-27T02:03:23Z",
         "OpenBMB/DecT": "2023-06-25T08:57:48Z",
@@ -621,10 +622,9 @@
         "OpenBMB/Tell_Me_More": "2024-02-20T03:28:31Z",
         "OpenBMB/VisCPM": "2024-06-13T14:02:54Z",
         "OpenBMB/MobileCPM": "2024-07-04T15:18:35Z",
-        "OpenBMB/HerculesBench": "2024-07-13T11:52:09Z",
-        "OpenBMB/CPO": "2024-07-16T14:21:13Z"
+        "OpenBMB/HerculesBench": "2024-07-13T11:52:09Z"
       },
-      "last_changed_at": "2026-09-12T19:24:23.165810Z",
+      "last_changed_at": "2026-09-12T21:29:47.533275Z",
       "source_signature": "3dd1c4ab8bc380dc66624329d310bc65fe6deafde7a370da1191ca03b32c0764",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -666,16 +666,17 @@
       "last_checked_at": "2026-07-02T04:51:58.871155Z",
       "baseline_initialized": true,
       "repos": {
-        "QwenLM/qwen-code": "2026-09-12T19:21:11Z",
-        "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
+        "QwenLM/qwen-code": "2026-09-12T21:25:10Z",
+        "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
+        "QwenLM/Qwen-RobotNav": "2026-06-30T03:01:19Z",
         "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
+        "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
         "QwenLM/Qwen-VL": "2024-08-07T02:37:06Z",
         "QwenLM/Qwen3-Embedding": "2025-09-30T06:10:27Z",
         "QwenLM/Qwen3-Coder": "2026-03-24T08:22:10Z",
         "QwenLM/Qwen": "2026-03-05T13:55:17Z",
         "QwenLM/Qwen-Drive-1.0": "2026-09-03T01:38:48Z",
         "QwenLM/Qwen-Image": "2026-02-10T07:37:37Z",
-        "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
         "QwenLM/Qwen-Agent": "2026-03-04T08:15:07Z",
         "QwenLM/Qwen-MM-Plugins": "2026-09-11T02:34:34Z",
         "QwenLM/Qwen-AgentWorld": "2026-07-20T11:52:07Z",
@@ -684,10 +685,9 @@
         "QwenLM/Qwen3-ASR": "2026-06-26T08:20:17Z",
         "QwenLM/Qwen3-VL-Embedding": "2026-06-23T10:39:17Z",
         "QwenLM/open-computer-use": "2026-06-10T16:38:07Z",
-        "QwenLM/qwen-code-action": "2026-08-03T07:53:08Z",
-        "QwenLM/FlashQLA": "2026-08-26T13:49:58Z"
+        "QwenLM/qwen-code-action": "2026-08-03T07:53:08Z"
       },
-      "last_changed_at": "2026-09-12T19:24:23.165810Z",
+      "last_changed_at": "2026-09-12T21:29:47.533275Z",
       "source_signature": "ddc0d8d3788b1fc4ba6779bc400a51934ce7ac0845fbfff67f906a6d77406e21",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -2126,11 +2126,13 @@
     },
     "aihot-selected": {
       "last_raw_count": 50,
-      "last_polled_at": "2026-09-12T19:24:23.165810Z",
+      "last_polled_at": "2026-09-12T21:29:47.533275Z",
       "source_signature": "54b0a2ce37b31eed7de5728f2ad3467d3fff1ec95a53a03f9ee11a9fa197fda4",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-09T08:44:50.779962Z",
       "seen_keys": [
+        "https://x.com/PeterMcCrory/status/2098868931071226252",
+        "https://x.com/trq212/status/2098860941391872132",
         "https://x.com/OpenAIDevs/status/2098827327832822014",
         "https://suno.com/blog/introducing-v6",
         "https://x.com/sama/status/2098811563415150910",
@@ -2148,6 +2150,8 @@
         "https://techcrunch.com/2026/09/10/anthropic-details-distillation-campaigns-from-alibaba-moonshot-ai-and-deepseek",
         "https://x.com/ArtificialAnlys/status/2098148674203488422",
         "https://the-decoder.com/swarmchasers-hunt-rogue-agents-anthropic-investigates-itself-and-the-trail-they-both-follow-is-going-dark",
+        "https://www.llamaindex.ai/blog/just-in-time-agentic-ocr",
+        "https://www.augmentcode.com/blog/beyond-ai-coding-agents-how-we-built-augments-software-factory",
         "https://x.com/WorkBuddy_AI/status/2098076348749324362",
         "https://x.com/GoogleAI/status/2098072879480947085",
         "https://shopify.engineering/back-to-native",
@@ -2155,7 +2159,6 @@
         "https://x.com/OpenRouter/status/2098063468759027725",
         "https://the-decoder.com/new-deepseek-model-v4-1-flash-cuts-memory-needs-for-ai-agents",
         "https://cursor.com/blog/projects",
-        "https://cognition.com/blog/factoring-rsa-260",
         "https://x.com/tripoai/status/2097972692200940013",
         "https://x.com/kimmonismus/status/2097970735591366804",
         "https://x.com/kimmonismus/status/2097962333767102665",
@@ -2174,9 +2177,11 @@
         "https://www.apple.com/newsroom/2026/09/apple-advances-health-and-fitness-capabilities-using-apple-intelligence",
         "https://www.apple.com/newsroom/2026/09/introducing-apple-watch-series-12-with-the-all-new-health-sensing-system",
         "https://www.apple.com/newsroom/2026/09/apple-debuts-iphone-18-pro-and-iphone-18-pro-max",
+        "https://cognition.com/blog/swe-2",
         "https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities",
         "https://magazine.sebastianraschka.com/p/gpt-6-astra-looped-transformers-and",
         "https://www.anthropic.com/institute/econ-scenarios",
+        "https://cognition.com/blog/factoring-rsa-260",
         "https://openai.com/index/ai-policy-window",
         "https://openai.com/index/gpt-6-astra-next-generation-work",
         "https://the-decoder.com/openais-millennium-proof-dispute-raises-the-question-of-whether-researchers-can-trust-ai-labs",
@@ -2425,14 +2430,9 @@
         "https://mp.weixin.qq.com/s?__biz=MzkyMzI3NzQ0Mg%3D%3D&mid=2247494157&idx=1&sn=6837b15a07d2518842eb6c6b53a3eb3c",
         "https://huggingface.co/blog/asr-benchmark-optimization",
         "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
-        "https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders",
-        "https://www.lmsys.org/blog/2026-08-21-ling3-flash-spec-decode-blackwell",
-        "https://cloud.google.com/blog/products/databases/alloydb-scann-index-four-level-tree-improves-vector-search",
-        "https://claude.com/blog/claude-code-guide-for-startups",
-        "https://www.ithome.com/0/992/239.htm",
-        "https://mp.weixin.qq.com/s?__biz=MzkyODk2MDQwNw%3D%3D&mid=2247487554&idx=1&sn=269b771030c16cebeba57eac4d2a1184"
+        "https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders"
       ],
-      "last_changed_at": "2026-09-12T19:24:26.133797Z"
+      "last_changed_at": "2026-09-12T21:29:49.946852Z"
     }
   }
 }
