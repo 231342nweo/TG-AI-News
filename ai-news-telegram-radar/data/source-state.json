@@ -437,6 +437,10 @@
       "last_checked_at": "2026-07-02T04:51:40.485322Z",
       "baseline_initialized": true,
       "repos": {
+        "zai-org/CodeGeeX4": "2024-08-25T14:26:16Z",
+        "zai-org/GLM-V": "2026-09-02T06:35:25Z",
+        "zai-org/GLM-5": "2026-09-01T12:56:01Z",
+        "zai-org/GLM-130B": "2023-07-25T09:01:49Z",
         "zai-org/GLM-OCR": "2026-04-21T08:52:11Z",
         "zai-org/GLM-skills": "2026-04-15T12:28:08Z",
         "zai-org/GLM-Image": "2026-03-20T03:10:16Z",
@@ -448,17 +452,13 @@
         "zai-org/ChatGLM-6B": "2024-06-27T04:05:25Z",
         "zai-org/CogVideo": "2025-11-04T11:19:04Z",
         "zai-org/ChatGLM3": "2025-01-13T06:55:26Z",
-        "zai-org/GLM-5": "2026-09-01T12:56:01Z",
         "zai-org/CogView4": "2025-03-29T07:09:58Z",
         "zai-org/GLM-TTS": "2026-04-10T08:50:23Z",
         "zai-org/LVBench": "2025-07-09T07:47:57Z",
         "zai-org/zcode-plugins": "2026-09-12T09:37:21Z",
-        "zai-org/VisionReward": "2025-03-26T10:07:04Z",
-        "zai-org/ChatGLM2-6B": "2024-06-27T04:05:08Z",
-        "zai-org/CogVLM2": "2025-03-03T03:01:31Z",
-        "zai-org/GLM-4.5": "2026-02-01T08:28:10Z"
+        "zai-org/VisionReward": "2025-03-26T10:07:04Z"
       },
-      "last_changed_at": "2026-09-13T19:43:56.782150Z",
+      "last_changed_at": "2026-09-13T21:42:56.193129Z",
       "source_signature": "0f9d07d7983b4898dc433a8d045a96469f65dff73642f9fe1fbf73cf3299210c",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -605,14 +605,14 @@
       "repos": {
         "OpenBMB/VoxCPM": "2026-09-02T12:12:35Z",
         "OpenBMB/MiniCPM": "2026-09-12T04:40:37Z",
-        "OpenBMB/MiniCPM-V": "2026-09-08T06:05:56Z",
-        "OpenBMB/ChatDev": "2026-07-24T08:01:27Z",
-        "OpenBMB/MiniCPM-Desk-Pet": "2026-08-18T07:58:20Z",
         "OpenBMB/StaffDeck": "2026-09-11T10:15:02Z",
-        "OpenBMB/MiniCPM-o-Demo": "2026-09-11T02:41:26Z",
         "OpenBMB/XAgent": "2026-07-31T03:30:54Z",
+        "OpenBMB/ChatDev": "2026-07-24T08:01:27Z",
+        "OpenBMB/PilotDeck": "2026-09-13T20:46:49Z",
+        "OpenBMB/MiniCPM-V": "2026-09-08T06:05:56Z",
+        "OpenBMB/MiniCPM-Desk-Pet": "2026-08-18T07:58:20Z",
+        "OpenBMB/MiniCPM-o-Demo": "2026-09-11T02:41:26Z",
         "OpenBMB/ToolBench": "2025-05-21T15:46:59Z",
-        "OpenBMB/PilotDeck": "2026-09-13T08:49:15Z",
         "OpenBMB/Meshy": "2026-09-11T12:37:35Z",
         "OpenBMB/ClawXRouter": "2026-03-31T08:35:42Z",
         "OpenBMB/UltraX": "2026-07-15T14:05:33Z",
@@ -624,7 +624,7 @@
         "OpenBMB/DeepThinkVLA": "2026-09-08T02:15:39Z",
         "OpenBMB/BMInf-demos": "2021-10-14T06:55:09Z"
       },
-      "last_changed_at": "2026-09-13T14:37:50.559015Z",
+      "last_changed_at": "2026-09-13T21:42:56.193129Z",
       "source_signature": "3dd1c4ab8bc380dc66624329d310bc65fe6deafde7a370da1191ca03b32c0764",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -666,16 +666,17 @@
       "last_checked_at": "2026-07-02T04:51:58.871155Z",
       "baseline_initialized": true,
       "repos": {
-        "QwenLM/qwen-code": "2026-09-13T18:40:32Z",
+        "QwenLM/qwen-code": "2026-09-13T21:33:42Z",
+        "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
+        "QwenLM/Qwen": "2026-03-05T13:55:17Z",
+        "QwenLM/open-computer-use": "2026-06-10T16:38:07Z",
         "QwenLM/Qwen-Image": "2026-02-10T07:37:37Z",
         "QwenLM/Qwen-Drive-1.0": "2026-09-03T01:38:48Z",
         "QwenLM/Qwen-VLA": "2026-05-29T13:49:38Z",
-        "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
         "QwenLM/Qwen-Image-Layered": "2025-12-31T11:40:35Z",
         "QwenLM/Qwen3-Omni": "2026-04-23T10:58:01Z",
         "QwenLM/Qwen2.5-Omni": "2025-06-12T11:03:07Z",
         "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
-        "QwenLM/Qwen": "2026-03-05T13:55:17Z",
         "QwenLM/Qwen3-ASR": "2026-06-26T08:20:17Z",
         "QwenLM/Qwen3-Embedding": "2025-09-30T06:10:27Z",
         "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
@@ -684,10 +685,9 @@
         "QwenLM/Qwen3.8-Flash-Next": "2026-08-27T07:31:36Z",
         "QwenLM/Qwen3.8": "2026-08-17T05:17:40Z",
         "QwenLM/Qwen-VL": "2024-08-07T02:37:06Z",
-        "QwenLM/Qwen-RobotManip": "2026-06-29T22:29:54Z",
-        "QwenLM/Qwen2.5-Math": "2025-01-11T17:30:43Z"
+        "QwenLM/Qwen-RobotManip": "2026-06-29T22:29:54Z"
       },
-      "last_changed_at": "2026-09-13T19:43:56.782150Z",
+      "last_changed_at": "2026-09-13T21:42:56.193129Z",
       "source_signature": "ddc0d8d3788b1fc4ba6779bc400a51934ce7ac0845fbfff67f906a6d77406e21",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -696,12 +696,13 @@
       "last_checked_at": "2026-07-02T04:52:01.889603Z",
       "baseline_initialized": true,
       "repos": {
+        "Tencent-Hunyuan/HunyuanOCR": "2026-09-13T21:38:39Z",
         "Tencent-Hunyuan/AuK": "2026-09-13T14:50:35Z",
         "Tencent-Hunyuan/Hunyuan3D-2": "2025-10-28T09:58:12Z",
+        "Tencent-Hunyuan/Hy-MT2": "2026-08-26T01:48:04Z",
         "Tencent-Hunyuan/Hy3": "2026-07-17T10:11:52Z",
         "Tencent-Hunyuan/Hunyuan3D-2.1": "2025-10-17T10:10:07Z",
         "Tencent-Hunyuan/HunyuanVideo-1.5": "2026-04-10T06:14:59Z",
-        "Tencent-Hunyuan/HunyuanOCR": "2026-09-12T09:04:12Z",
         "Tencent-Hunyuan/HunyuanWorld-1.0": "2026-04-15T17:27:25Z",
         "Tencent-Hunyuan/HunyuanCustom": "2025-10-15T06:54:23Z",
         "Tencent-Hunyuan/HunyuanVideo-I2V": "2026-04-07T06:13:09Z",
@@ -714,10 +715,9 @@
         "Tencent-Hunyuan/HY-Motion-1.0": "2026-07-18T15:13:36Z",
         "Tencent-Hunyuan/HunyuanVideo": "2026-06-29T09:33:50Z",
         "Tencent-Hunyuan/UniRL": "2026-09-13T13:14:55Z",
-        "Tencent-Hunyuan/Hunyuan3D-Buffalo1.0": "2026-08-10T17:04:25Z",
-        "Tencent-Hunyuan/HunyuanPortrait": "2025-12-07T17:27:14Z"
+        "Tencent-Hunyuan/Hunyuan3D-Buffalo1.0": "2026-08-10T17:04:25Z"
       },
-      "last_changed_at": "2026-09-13T19:43:56.782150Z",
+      "last_changed_at": "2026-09-13T21:42:56.193129Z",
       "source_signature": "637ce9b3bc2d070666c42f5fd92e749870848ee35ed6d4c156f831c9bc8f2d04",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -2126,7 +2126,7 @@
     },
     "aihot-selected": {
       "last_raw_count": 50,
-      "last_polled_at": "2026-09-13T19:43:56.782150Z",
+      "last_polled_at": "2026-09-13T21:42:56.193129Z",
       "source_signature": "54b0a2ce37b31eed7de5728f2ad3467d3fff1ec95a53a03f9ee11a9fa197fda4",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-09T08:44:50.779962Z",
@@ -2134,7 +2134,6 @@
         "https://garymarcus.substack.com/p/two-cheers-out-of-three-for-dario",
         "https://clashreport.com/world/articles/houthis-used-claude-code-to-develop-missile-guidance-software-anthropic-s52mnx4pwpo",
         "https://www.marktechpost.com/2026/09/12/context-engineering-inside-the-harness-4-mechanisms-that-beat-context-overflow-and-goal-loss-on-long-horizon-tasks",
-        "https://x.com/PeterMcCrory/status/2098868931071226252",
         "https://x.com/trq212/status/2098860941391872132",
         "https://x.com/OpenAIDevs/status/2098827327832822014",
         "https://suno.com/blog/introducing-v6",
@@ -2182,6 +2181,7 @@
         "https://www.apple.com/newsroom/2026/09/introducing-apple-watch-series-12-with-the-all-new-health-sensing-system",
         "https://www.apple.com/newsroom/2026/09/apple-debuts-iphone-18-pro-and-iphone-18-pro-max",
         "https://cognition.com/blog/swe-2",
+        "https://x.com/PeterMcCrory/status/2098868931071226252",
         "https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities",
         "https://x.com/OpenAIDevs/status/2098913661993603215",
         "https://magazine.sebastianraschka.com/p/gpt-6-astra-looped-transformers-and",
@@ -2432,7 +2432,7 @@
         "https://dreadnode.io/research/every-model-cheats-prompt-level-mitigation-of-cheating-on-offensive-cyber-tasks",
         "https://mp.weixin.qq.com/s?__biz=Mzk0OTYwNzc3NQ%3D%3D&mid=2247485794&idx=1&sn=5332df30422e6637142321315b42ac26"
       ],
-      "last_changed_at": "2026-09-13T19:43:58.598743Z"
+      "last_changed_at": "2026-09-13T21:42:58.162775Z"
     }
   }
 }
