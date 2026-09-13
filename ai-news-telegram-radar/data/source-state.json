@@ -377,28 +377,28 @@
       "last_checked_at": "2026-07-02T04:51:33.967446Z",
       "baseline_initialized": true,
       "repos": {
+        "deepseek-ai/DeepSeek-OCR": "2026-01-27T03:45:14Z",
         "deepseek-ai/deepseek-harness": "2026-09-11T03:06:25Z",
-        "deepseek-ai/Engram": "2026-01-14T01:13:02Z",
         "deepseek-ai/DeepSeek-V3": "2025-08-28T03:24:37Z",
+        "deepseek-ai/awesome-deepseek-integration": "2026-02-23T16:27:47Z",
+        "deepseek-ai/DeepSeek-Math-V2": "2025-12-01T07:01:42Z",
+        "deepseek-ai/Engram": "2026-01-14T01:13:02Z",
         "deepseek-ai/DeepSeek-R1": "2025-06-27T08:35:54Z",
         "deepseek-ai/DeepSeek-Prover-V2": "2025-07-18T08:11:37Z",
         "deepseek-ai/Janus": "2025-02-01T07:58:29Z",
         "deepseek-ai/DeepSeek-Math": "2024-04-15T07:55:37Z",
         "deepseek-ai/DeepSelect": "2026-09-10T15:46:16Z",
         "deepseek-ai/DeepSpec": "2026-07-09T04:37:14Z",
-        "deepseek-ai/DeepSeek-OCR": "2026-01-27T03:45:14Z",
         "deepseek-ai/DeepJIT": "2026-09-10T06:19:50Z",
-        "deepseek-ai/awesome-deepseek-integration": "2026-02-23T16:27:47Z",
         "deepseek-ai/DeepSeek-Coder": "2025-11-11T06:44:56Z",
         "deepseek-ai/DeepGEMM": "2026-09-10T06:31:04Z",
         "deepseek-ai/DualPipe": "2026-01-14T06:34:59Z",
         "deepseek-ai/3FS": "2026-05-07T09:31:54Z",
         "deepseek-ai/smallpond": "2025-03-05T18:23:54Z",
         "deepseek-ai/deepseek-recipe": "2026-09-10T10:44:49Z",
-        "deepseek-ai/awesome-deepseek-agent": "2026-06-17T01:24:37Z",
-        "deepseek-ai/FlashMLA": "2026-09-10T05:33:42Z"
+        "deepseek-ai/awesome-deepseek-agent": "2026-06-17T01:24:37Z"
       },
-      "last_changed_at": "2026-09-12T23:10:36.124545Z",
+      "last_changed_at": "2026-09-13T00:57:40.570629Z",
       "source_signature": "e247a4022cc1b9d1fcca44981d9eb5c7892416a57bcff15ec2fe2fc72cfd972e",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -437,17 +437,18 @@
       "last_checked_at": "2026-07-02T04:51:40.485322Z",
       "baseline_initialized": true,
       "repos": {
-        "zai-org/GLM-5": "2026-09-01T12:56:01Z",
+        "zai-org/Open-AutoGLM": "2026-03-06T08:38:39Z",
+        "zai-org/LVBench": "2025-07-09T07:47:57Z",
+        "zai-org/CogVideo": "2025-11-04T11:19:04Z",
         "zai-org/GLM-OCR": "2026-04-21T08:52:11Z",
+        "zai-org/zcode-plugins": "2026-09-12T09:37:21Z",
+        "zai-org/GLM-5": "2026-09-01T12:56:01Z",
         "zai-org/ChatGLM-6B": "2024-06-27T04:05:25Z",
         "zai-org/VisionReward": "2025-03-26T10:07:04Z",
-        "zai-org/Open-AutoGLM": "2026-03-06T08:38:39Z",
         "zai-org/ChatGLM2-6B": "2024-06-27T04:05:08Z",
         "zai-org/GLM-Image": "2026-03-20T03:10:16Z",
-        "zai-org/zcode-plugins": "2026-09-12T09:37:21Z",
         "zai-org/SCAIL-2": "2026-08-24T13:30:59Z",
         "zai-org/ChatGLM3": "2025-01-13T06:55:26Z",
-        "zai-org/CogVideo": "2025-11-04T11:19:04Z",
         "zai-org/CogVLM2": "2025-03-03T03:01:31Z",
         "zai-org/GLM-4.5": "2026-02-01T08:28:10Z",
         "zai-org/GLM-4-Voice": "2024-12-05T07:10:01Z",
@@ -455,10 +456,9 @@
         "zai-org/CodeGeeX": "2024-08-13T05:59:38Z",
         "zai-org/CogVLM": "2024-05-29T10:01:33Z",
         "zai-org/GLM-4": "2026-08-05T07:08:46Z",
-        "zai-org/CodeGeeX4": "2024-08-25T14:26:16Z",
-        "zai-org/SSVAE": "2025-12-25T09:24:54Z"
+        "zai-org/CodeGeeX4": "2024-08-25T14:26:16Z"
       },
-      "last_changed_at": "2026-09-12T17:16:51.027628Z",
+      "last_changed_at": "2026-09-13T00:57:40.570629Z",
       "source_signature": "0f9d07d7983b4898dc433a8d045a96469f65dff73642f9fe1fbf73cf3299210c",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -666,17 +666,17 @@
       "last_checked_at": "2026-07-02T04:51:58.871155Z",
       "baseline_initialized": true,
       "repos": {
+        "QwenLM/qwen-code": "2026-09-13T00:49:04Z",
+        "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
+        "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
+        "QwenLM/Qwen3-Coder": "2026-03-24T08:22:10Z",
         "QwenLM/Qwen3-ASR": "2026-06-26T08:20:17Z",
         "QwenLM/open-computer-use": "2026-06-10T16:38:07Z",
-        "QwenLM/qwen-code": "2026-09-12T23:10:45Z",
         "QwenLM/Qwen3.8-Flash-Next": "2026-08-27T07:31:36Z",
-        "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
         "QwenLM/Qwen-RobotNav": "2026-06-30T03:01:19Z",
         "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
-        "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
         "QwenLM/Qwen-VL": "2024-08-07T02:37:06Z",
         "QwenLM/Qwen3-Embedding": "2025-09-30T06:10:27Z",
-        "QwenLM/Qwen3-Coder": "2026-03-24T08:22:10Z",
         "QwenLM/Qwen": "2026-03-05T13:55:17Z",
         "QwenLM/Qwen-Drive-1.0": "2026-09-03T01:38:48Z",
         "QwenLM/Qwen-Image": "2026-02-10T07:37:37Z",
@@ -687,7 +687,7 @@
         "QwenLM/Qwen3-VL-Embedding": "2026-06-23T10:39:17Z",
         "QwenLM/qwen-code-action": "2026-08-03T07:53:08Z"
       },
-      "last_changed_at": "2026-09-12T23:10:36.124545Z",
+      "last_changed_at": "2026-09-13T00:57:40.570629Z",
       "source_signature": "ddc0d8d3788b1fc4ba6779bc400a51934ce7ac0845fbfff67f906a6d77406e21",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -696,28 +696,28 @@
       "last_checked_at": "2026-07-02T04:52:01.889603Z",
       "baseline_initialized": true,
       "repos": {
-        "Tencent-Hunyuan/Hunyuan3D-2": "2025-10-28T09:58:12Z",
         "Tencent-Hunyuan/AuK": "2026-09-11T19:18:35Z",
+        "Tencent-Hunyuan/Hunyuan3D-2": "2025-10-28T09:58:12Z",
+        "Tencent-Hunyuan/HY-Embodied": "2026-07-15T11:54:12Z",
+        "Tencent-Hunyuan/Hy3": "2026-07-17T10:11:52Z",
         "Tencent-Hunyuan/HunyuanVideo": "2026-06-29T09:33:50Z",
+        "Tencent-Hunyuan/HunyuanOCR": "2026-09-12T09:04:12Z",
         "Tencent-Hunyuan/Hy-MT2": "2026-08-26T01:48:04Z",
         "Tencent-Hunyuan/Hy-MT": "2026-06-01T11:38:04Z",
         "Tencent-Hunyuan/Hunyuan-GameCraft-1.0": "2025-11-28T07:05:10Z",
-        "Tencent-Hunyuan/Hy3": "2026-07-17T10:11:52Z",
         "Tencent-Hunyuan/Hy4-preview": "2026-08-28T12:48:34Z",
         "Tencent-Hunyuan/Hunyuan3D-WorldClaw": "2026-08-13T05:47:55Z",
         "Tencent-Hunyuan/HunyuanVideo-1.5": "2026-04-10T06:14:59Z",
         "Tencent-Hunyuan/Hunyuan3D-2.1": "2025-10-17T10:10:07Z",
-        "Tencent-Hunyuan/HunyuanOCR": "2026-09-12T09:04:12Z",
         "Tencent-Hunyuan/Hunyuan-A13B": "2025-07-08T08:45:27Z",
         "Tencent-Hunyuan/Hunyuan3D-1": "2025-11-19T07:07:41Z",
         "Tencent-Hunyuan/Hunyuan3D-Part": "2025-12-05T03:43:28Z",
         "Tencent-Hunyuan/HY-WU": "2026-03-18T09:24:59Z",
         "Tencent-Hunyuan/HunyuanWorld-1.0": "2026-04-15T17:27:25Z",
         "Tencent-Hunyuan/UniRL": "2026-09-12T03:30:03Z",
-        "Tencent-Hunyuan/HY-World-2.0": "2026-08-12T16:15:12Z",
-        "Tencent-Hunyuan/AutoCodeBenchmark": "2026-02-17T08:03:11Z"
+        "Tencent-Hunyuan/HY-World-2.0": "2026-08-12T16:15:12Z"
       },
-      "last_changed_at": "2026-09-12T14:22:22.517577Z",
+      "last_changed_at": "2026-09-13T00:57:40.570629Z",
       "source_signature": "637ce9b3bc2d070666c42f5fd92e749870848ee35ed6d4c156f831c9bc8f2d04",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -2126,11 +2126,12 @@
     },
     "aihot-selected": {
       "last_raw_count": 50,
-      "last_polled_at": "2026-09-12T23:10:36.124545Z",
+      "last_polled_at": "2026-09-13T00:57:40.570629Z",
       "source_signature": "54b0a2ce37b31eed7de5728f2ad3467d3fff1ec95a53a03f9ee11a9fa197fda4",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-09T08:44:50.779962Z",
       "seen_keys": [
+        "https://x.com/OpenAIDevs/status/2098913661993603215",
         "https://x.com/PeterMcCrory/status/2098868931071226252",
         "https://x.com/trq212/status/2098860941391872132",
         "https://x.com/OpenAIDevs/status/2098827327832822014",
@@ -2429,10 +2430,9 @@
         "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647685346&idx=1&sn=0fc8dc62bcf67a466552d1204205ef31",
         "https://mp.weixin.qq.com/s?__biz=MzkyMzI3NzQ0Mg%3D%3D&mid=2247494157&idx=1&sn=6837b15a07d2518842eb6c6b53a3eb3c",
         "https://huggingface.co/blog/asr-benchmark-optimization",
-        "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
-        "https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders"
+        "https://huggingface.co/blog/LiquidAI/lfm25-dspark"
       ],
-      "last_changed_at": "2026-09-12T21:29:49.946852Z"
+      "last_changed_at": "2026-09-13T00:57:42.768482Z"
     }
   }
 }
