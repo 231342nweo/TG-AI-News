@@ -382,16 +382,18 @@
       "last_checked_at": "2026-07-02T04:51:33.967446Z",
       "baseline_initialized": true,
       "repos": {
+        "deepseek-ai/Engram": "2026-01-14T01:13:02Z",
         "deepseek-ai/deepseek-harness": "2026-09-17T13:30:15Z",
+        "deepseek-ai/open-infra-index": "2025-05-15T02:00:43Z",
+        "deepseek-ai/DeepSeek-OCR-2": "2026-02-03T00:34:18Z",
+        "deepseek-ai/DeepSeek-V3": "2025-08-28T03:24:37Z",
+        "deepseek-ai/DeepSpec": "2026-07-09T04:37:14Z",
         "deepseek-ai/smallpond": "2025-03-05T18:23:54Z",
         "deepseek-ai/3FS": "2026-05-07T09:31:54Z",
         "deepseek-ai/DeepSeek-R1": "2025-06-27T08:35:54Z",
         "deepseek-ai/awesome-deepseek-integration": "2026-02-23T16:27:47Z",
         "deepseek-ai/DeepGEMM": "2026-09-14T05:46:03Z",
-        "deepseek-ai/DeepSeek-V3": "2025-08-28T03:24:37Z",
-        "deepseek-ai/Engram": "2026-01-14T01:13:02Z",
         "deepseek-ai/awesome-deepseek-agent": "2026-09-17T03:21:52Z",
-        "deepseek-ai/DeepSpec": "2026-07-09T04:37:14Z",
         "deepseek-ai/DeepSeek-Coder": "2025-11-11T06:44:56Z",
         "deepseek-ai/LPLB": "2025-11-19T07:20:35Z",
         "deepseek-ai/DreamCraft3D": "2025-04-22T11:09:39Z",
@@ -399,11 +401,9 @@
         "deepseek-ai/DeepSeek-OCR": "2026-01-27T03:45:14Z",
         "deepseek-ai/Janus": "2025-02-01T07:58:29Z",
         "deepseek-ai/FlashMLA": "2026-09-15T01:50:44Z",
-        "deepseek-ai/DualPipe": "2026-01-14T06:34:59Z",
-        "deepseek-ai/DeepSeek-V2": "2024-09-25T10:23:55Z",
-        "deepseek-ai/DeepSeek-Math": "2024-04-15T07:55:37Z"
+        "deepseek-ai/DualPipe": "2026-01-14T06:34:59Z"
       },
-      "last_changed_at": "2026-09-19T16:33:56.046523Z",
+      "last_changed_at": "2026-09-19T18:48:18.869523Z",
       "source_signature": "e247a4022cc1b9d1fcca44981d9eb5c7892416a57bcff15ec2fe2fc72cfd972e",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -412,13 +412,13 @@
       "last_checked_at": "2026-07-02T04:51:37.867265Z",
       "baseline_initialized": true,
       "repos": {
+        "MoonshotAI/kimi-code": "2026-09-19T18:38:20Z",
+        "MoonshotAI/Kimi-K3": "2026-08-06T10:17:28Z",
         "MoonshotAI/Moonlight": "2025-08-03T06:31:18Z",
         "MoonshotAI/kimi-cli": "2026-09-01T16:37:12Z",
-        "MoonshotAI/kimi-code": "2026-09-19T16:30:12Z",
         "MoonshotAI/MoBA": "2025-04-03T07:28:06Z",
         "MoonshotAI/Kimi-K2": "2026-01-21T05:33:12Z",
         "MoonshotAI/nano-kpu": "2026-07-23T08:06:38Z",
-        "MoonshotAI/Kimi-K3": "2026-08-06T10:17:28Z",
         "MoonshotAI/MoonEP": "2026-08-13T09:30:40Z",
         "MoonshotAI/Kimi-Vendor-Verifier": "2026-09-17T09:09:22Z",
         "MoonshotAI/Kimi-k1.5": "2025-03-07T11:16:36Z",
@@ -433,7 +433,7 @@
         "MoonshotAI/K2-Vendor-Verifier": "2026-02-14T05:28:46Z",
         "MoonshotAI/kosong": "2026-07-16T10:06:23Z"
       },
-      "last_changed_at": "2026-09-19T16:33:56.046523Z",
+      "last_changed_at": "2026-09-19T18:48:18.869523Z",
       "source_signature": "c925f37596aaabb84376bf83142f08b0ce08447179a5d27a52c7956a40180daa",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -671,17 +671,17 @@
       "last_checked_at": "2026-07-02T04:51:58.871155Z",
       "baseline_initialized": true,
       "repos": {
-        "QwenLM/Qwen-Drive-1.0": "2026-09-03T01:38:48Z",
-        "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
-        "QwenLM/Qwen3-ASR": "2026-06-26T08:20:17Z",
-        "QwenLM/qwen-code": "2026-09-19T16:35:56Z",
         "QwenLM/Qwen-MM-Plugins": "2026-09-18T10:14:36Z",
+        "QwenLM/qwen-code": "2026-09-19T18:42:23Z",
+        "QwenLM/Qwen3.8": "2026-08-17T05:17:40Z",
+        "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
+        "QwenLM/Qwen-Drive-1.0": "2026-09-03T01:38:48Z",
+        "QwenLM/Qwen3-ASR": "2026-06-26T08:20:17Z",
         "QwenLM/qwen-code-docs": "2026-09-19T15:45:17Z",
         "QwenLM/Qwen-Image": "2026-02-10T07:37:37Z",
         "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
         "QwenLM/Qwen3Guard": "2025-10-21T02:27:12Z",
         "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
-        "QwenLM/Qwen3.8": "2026-08-17T05:17:40Z",
         "QwenLM/Qwen-Agent": "2026-03-04T08:15:07Z",
         "QwenLM/Qwen": "2026-03-05T13:55:17Z",
         "QwenLM/open-computer-use": "2026-06-10T16:38:07Z",
@@ -692,7 +692,7 @@
         "QwenLM/Qwen-Image-Layered": "2025-12-31T11:40:35Z",
         "QwenLM/Qwen3-Coder": "2026-03-24T08:22:10Z"
       },
-      "last_changed_at": "2026-09-19T16:33:56.046523Z",
+      "last_changed_at": "2026-09-19T18:48:18.869523Z",
       "source_signature": "ddc0d8d3788b1fc4ba6779bc400a51934ce7ac0845fbfff67f906a6d77406e21",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -701,12 +701,14 @@
       "last_checked_at": "2026-07-02T04:52:01.889603Z",
       "baseline_initialized": true,
       "repos": {
-        "Tencent-Hunyuan/UniRL": "2026-09-19T08:27:31Z",
+        "Tencent-Hunyuan/UniRL": "2026-09-19T18:03:00Z",
+        "Tencent-Hunyuan/Hunyuan3D-WorldClaw": "2026-08-13T05:47:55Z",
+        "Tencent-Hunyuan/HunyuanVideo": "2026-06-29T09:33:50Z",
+        "Tencent-Hunyuan/AuK": "2026-09-19T10:50:49Z",
+        "Tencent-Hunyuan/HunyuanWorld-Mirror": "2026-05-27T03:22:57Z",
         "Tencent-Hunyuan/Hunyuan3D-2": "2025-10-28T09:58:12Z",
         "Tencent-Hunyuan/HY-Embodied": "2026-07-15T11:54:12Z",
-        "Tencent-Hunyuan/AuK": "2026-09-19T10:50:49Z",
         "Tencent-Hunyuan/Hy-MT2": "2026-08-26T01:48:04Z",
-        "Tencent-Hunyuan/HunyuanVideo": "2026-06-29T09:33:50Z",
         "Tencent-Hunyuan/HunyuanVideo-1.5": "2026-04-10T06:14:59Z",
         "Tencent-Hunyuan/HunyuanImage-3.0": "2026-06-23T13:12:44Z",
         "Tencent-Hunyuan/Hunyuan3D-2.1": "2025-10-17T10:10:07Z",
@@ -714,15 +716,13 @@
         "Tencent-Hunyuan/OmniWeaving": "2026-04-11T08:19:27Z",
         "Tencent-Hunyuan/Hy-Embodied-0.5-VLA": "2026-08-04T07:32:42Z",
         "Tencent-Hunyuan/HunyuanWorld-1.0": "2026-04-15T17:27:25Z",
-        "Tencent-Hunyuan/HunyuanWorld-Mirror": "2026-05-27T03:22:57Z",
-        "Tencent-Hunyuan/Hunyuan3D-WorldClaw": "2026-08-13T05:47:55Z",
         "Tencent-Hunyuan/HunyuanWorld-Voyager": "2026-04-15T17:30:08Z",
         "Tencent-Hunyuan/Rosetta-inference": "2026-07-02T01:30:30Z",
         "Tencent-Hunyuan/Hunyuan3D-Buffalo1.0": "2026-08-10T17:04:25Z",
         "Tencent-Hunyuan/HY-World-2.0": "2026-08-12T16:15:12Z",
         "Tencent-Hunyuan/Hunyuan-MT": "2025-12-30T09:12:46Z"
       },
-      "last_changed_at": "2026-09-19T16:33:56.046523Z",
+      "last_changed_at": "2026-09-19T18:48:18.869523Z",
       "source_signature": "637ce9b3bc2d070666c42f5fd92e749870848ee35ed6d4c156f831c9bc8f2d04",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -2144,7 +2144,7 @@
     },
     "aihot-selected": {
       "last_raw_count": 50,
-      "last_polled_at": "2026-09-19T13:21:50.522071Z",
+      "last_polled_at": "2026-09-19T18:48:18.869523Z",
       "source_signature": "54b0a2ce37b31eed7de5728f2ad3467d3fff1ec95a53a03f9ee11a9fa197fda4",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-09T08:44:50.779962Z",
@@ -2154,7 +2154,6 @@
         "https://www.ithome.com/1/004/369.htm",
         "https://x.com/rohanpaul_ai/status/2101095915654463533",
         "https://www.ithome.com/1/004/356.htm",
-        "https://www.anthropic.com/news/accenture-embedded-evaluation",
         "https://garymarcus.substack.com/p/the-real-reason-trump-is-standing",
         "https://www.oneusefulthing.org/p/the-overhang",
         "https://www.cnn.com/2026/09/18/politics/us-military-ai-false-intelligence-china-ship",
@@ -2174,6 +2173,7 @@
         "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal",
         "https://www.theverge.com/ai-artificial-intelligence/996923/ai-safety-slow-openai-anthropic",
         "https://qwen.ai/blog?id=qwen3.8-omni-flash",
+        "https://www.anthropic.com/news/accenture-embedded-evaluation",
         "https://www.dwarkesh.com/p/noam-brown",
         "https://x.com/UnslothAI/status/2100601458458804381",
         "https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot",
@@ -2450,7 +2450,7 @@
         "https://x.com/AYi_AInotes/status/2093864816079208512",
         "https://www.dwarkesh.com/p/openai-huggingface"
       ],
-      "last_changed_at": "2026-09-19T09:35:53.655290Z"
+      "last_changed_at": "2026-09-19T18:48:21.245946Z"
     }
   }
 }
