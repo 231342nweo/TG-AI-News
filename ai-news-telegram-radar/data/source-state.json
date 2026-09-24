@@ -385,12 +385,15 @@
       "baseline_initialized": true,
       "repos": {
         "deepseek-ai/deepseek-harness": "2026-09-23T13:30:24Z",
-        "deepseek-ai/DeepGEMM": "2026-09-23T09:24:32Z",
         "deepseek-ai/DeepSeek-V3": "2025-08-28T03:24:37Z",
+        "deepseek-ai/awesome-deepseek-integration": "2026-02-23T16:27:47Z",
+        "deepseek-ai/DeepEP": "2026-09-23T08:05:30Z",
+        "deepseek-ai/DeepJIT": "2026-09-23T06:01:10Z",
+        "deepseek-ai/smallpond": "2025-03-05T18:23:54Z",
+        "deepseek-ai/DeepSeek-R1": "2025-06-27T08:35:54Z",
+        "deepseek-ai/DeepGEMM": "2026-09-23T09:24:32Z",
         "deepseek-ai/TileKernels": "2026-04-23T10:19:21Z",
         "deepseek-ai/DeepSeek-OCR": "2026-01-27T03:45:14Z",
-        "deepseek-ai/awesome-deepseek-integration": "2026-02-23T16:27:47Z",
-        "deepseek-ai/DeepSeek-R1": "2025-06-27T08:35:54Z",
         "deepseek-ai/DeepSpec": "2026-07-09T04:37:14Z",
         "deepseek-ai/awesome-deepseek-agent": "2026-09-17T03:21:52Z",
         "deepseek-ai/Engram": "2026-01-14T01:13:02Z",
@@ -399,13 +402,10 @@
         "deepseek-ai/open-infra-index": "2025-05-15T02:00:43Z",
         "deepseek-ai/DeepSelect": "2026-09-10T15:46:16Z",
         "deepseek-ai/ESFT": "2025-05-22T07:47:15Z",
-        "deepseek-ai/DeepEP": "2026-09-23T08:05:30Z",
         "deepseek-ai/DeepSeek-OCR-2": "2026-02-03T00:34:18Z",
-        "deepseek-ai/FlashMLA": "2026-09-15T01:50:44Z",
-        "deepseek-ai/DeepJIT": "2026-09-23T06:01:10Z",
-        "deepseek-ai/DeepSeek-Coder": "2025-11-11T06:44:56Z"
+        "deepseek-ai/FlashMLA": "2026-09-15T01:50:44Z"
       },
-      "last_changed_at": "2026-09-23T22:33:53.722958Z",
+      "last_changed_at": "2026-09-24T00:50:20.946087Z",
       "source_signature": "e247a4022cc1b9d1fcca44981d9eb5c7892416a57bcff15ec2fe2fc72cfd972e",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -673,28 +673,28 @@
       "last_checked_at": "2026-07-02T04:51:58.871155Z",
       "baseline_initialized": true,
       "repos": {
-        "QwenLM/Qwen": "2026-03-05T13:55:17Z",
-        "QwenLM/Qwen3.8": "2026-08-17T05:17:40Z",
         "QwenLM/Qwen-Live-Harness": "2026-09-21T10:26:39Z",
-        "QwenLM/Qwen-Image": "2026-02-10T07:37:37Z",
-        "QwenLM/qwen-code": "2026-09-23T22:10:38Z",
+        "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
+        "QwenLM/qwen-code": "2026-09-24T00:46:08Z",
+        "QwenLM/Qwen3-Coder": "2026-03-24T08:22:10Z",
+        "QwenLM/Qwen3-Omni": "2026-04-23T10:58:01Z",
+        "QwenLM/Qwen3.8": "2026-08-17T05:17:40Z",
+        "QwenLM/Qwen": "2026-03-05T13:55:17Z",
         "QwenLM/Qwen-Image-2.1": "2026-09-20T12:25:51Z",
+        "QwenLM/Qwen2.5-Omni": "2025-06-12T11:03:07Z",
+        "QwenLM/qwen-mm-plugins-hub": "2026-09-20T08:36:35Z",
+        "QwenLM/Qwen-Image": "2026-02-10T07:37:37Z",
         "QwenLM/Qwen3-ASR": "2026-06-26T08:20:17Z",
         "QwenLM/Qwen2-Audio": "2025-04-21T08:50:49Z",
-        "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
         "QwenLM/Qwen3.8-Flash-Next": "2026-08-27T07:31:36Z",
         "QwenLM/Qwen-MM-Plugins": "2026-09-23T10:44:38Z",
         "QwenLM/Qwen-VL": "2024-08-07T02:37:06Z",
         "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
         "QwenLM/RecreationWorld": "2026-09-21T05:02:19Z",
-        "QwenLM/Qwen3-Coder": "2026-03-24T08:22:10Z",
         "QwenLM/Qwen3-Embedding": "2025-09-30T06:10:27Z",
-        "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
-        "QwenLM/Qwen-Agent": "2026-03-04T08:15:07Z",
-        "QwenLM/Qwen3-Omni": "2026-04-23T10:58:01Z",
-        "QwenLM/Qwen-Image-Layered": "2025-12-31T11:40:35Z"
+        "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z"
       },
-      "last_changed_at": "2026-09-23T22:33:53.722958Z",
+      "last_changed_at": "2026-09-24T00:50:20.946087Z",
       "source_signature": "ddc0d8d3788b1fc4ba6779bc400a51934ce7ac0845fbfff67f906a6d77406e21",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -2147,11 +2147,12 @@
     },
     "aihot-selected": {
       "last_raw_count": 50,
-      "last_polled_at": "2026-09-23T22:33:53.722958Z",
+      "last_polled_at": "2026-09-24T00:50:20.946087Z",
       "source_signature": "54b0a2ce37b31eed7de5728f2ad3467d3fff1ec95a53a03f9ee11a9fa197fda4",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-09T08:44:50.779962Z",
       "seen_keys": [
+        "https://www.smh.com.au/politics/federal/openai-breaches-medicare-albanese-reveals-20260924-p6100u.html",
         "https://garymarcus.substack.com/p/historic-un-security-council-briefing",
         "https://fireworks.ai/blog/ember-1",
         "https://x.com/natolambert/status/2102872133244183038",
@@ -2170,6 +2171,8 @@
         "https://x.com/AravSrinivas/status/2102780186202972254",
         "https://claude.com/blog/how-to-prepare-for-ai-driven-code-modernization-projects",
         "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
+        "https://cursor.com/blog/rollouts-and-security-reviewer",
+        "https://cursor.com/blog/improved-token-efficiency",
         "https://openai.com/index/introducing-mentalhealthbench",
         "https://x.com/Alibaba_Qwen/status/2102687258990026993",
         "https://www.marktechpost.com/2026/09/22/openai-releases-gpt-6-sol-and-luna-50-cheaper-api-pricing-and-benchmarks",
@@ -2448,12 +2451,9 @@
         "https://the-decoder.com/openais-gpt-6-astra-hallucinates-less-but-remains-vulnerable-to-hidden-prompt-injections",
         "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration",
         "https://www.ithome.com/0/998/620.htm",
-        "https://x.com/kimmonismus/status/2095837763517988869",
-        "https://the-decoder.com/benchmarks-disagree-on-gpt-6-astra-but-its-human-beating-efficiency-on-arc-agi-3-pulls-chollets-agi-forecast-forward",
-        "https://x.com/satyanadella/status/2095713765446840591",
-        "https://x.com/AYi_AInotes/status/2095700816980222311"
+        "https://x.com/kimmonismus/status/2095837763517988869"
       ],
-      "last_changed_at": "2026-09-23T22:33:54.574584Z"
+      "last_changed_at": "2026-09-24T00:50:23.727145Z"
     }
   }
 }
