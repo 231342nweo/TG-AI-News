@@ -387,10 +387,12 @@
       "baseline_initialized": true,
       "repos": {
         "deepseek-ai/deepseek-harness": "2026-09-24T14:10:21Z",
+        "deepseek-ai/deepseek-recipe": "2026-09-10T10:44:49Z",
+        "deepseek-ai/DeepSeek-OCR": "2026-01-27T03:45:14Z",
+        "deepseek-ai/awesome-deepseek-integration": "2026-02-23T16:27:47Z",
         "deepseek-ai/DeepSeek-V3": "2025-08-28T03:24:37Z",
         "deepseek-ai/DeepSeek-OCR-2": "2026-02-03T00:34:18Z",
         "deepseek-ai/DeepSeek-VL2": "2025-02-26T05:03:42Z",
-        "deepseek-ai/awesome-deepseek-integration": "2026-02-23T16:27:47Z",
         "deepseek-ai/ESFT": "2025-05-22T07:47:15Z",
         "deepseek-ai/DeepSpec": "2026-07-09T04:37:14Z",
         "deepseek-ai/EPLB": "2025-03-24T09:17:10Z",
@@ -400,14 +402,12 @@
         "deepseek-ai/Janus": "2025-02-01T07:58:29Z",
         "deepseek-ai/awesome-deepseek-agent": "2026-09-17T03:21:52Z",
         "deepseek-ai/3FS": "2026-05-07T09:31:54Z",
-        "deepseek-ai/DeepSeek-OCR": "2026-01-27T03:45:14Z",
         "deepseek-ai/DeepSeek-V2": "2024-09-25T10:23:55Z",
         "deepseek-ai/DeepGEMM": "2026-09-24T05:26:51Z",
         "deepseek-ai/DeepSeek-LLM": "2024-02-04T12:22:16Z",
-        "deepseek-ai/DeepSelect": "2026-09-10T15:46:16Z",
-        "deepseek-ai/smallpond": "2025-03-05T18:23:54Z"
+        "deepseek-ai/DeepSelect": "2026-09-10T15:46:16Z"
       },
-      "last_changed_at": "2026-09-24T22:23:58.869972Z",
+      "last_changed_at": "2026-09-25T00:37:03.186265Z",
       "source_signature": "e247a4022cc1b9d1fcca44981d9eb5c7892416a57bcff15ec2fe2fc72cfd972e",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -416,12 +416,14 @@
       "last_checked_at": "2026-07-02T04:51:37.867265Z",
       "baseline_initialized": true,
       "repos": {
+        "MoonshotAI/Kimi-Linear": "2025-11-17T09:36:48Z",
+        "MoonshotAI/kimi-agent-sdk": "2026-05-29T05:29:38Z",
         "MoonshotAI/kimi-code": "2026-09-24T15:48:20Z",
         "MoonshotAI/Kimi-K3": "2026-08-06T10:17:28Z",
+        "MoonshotAI/kimi-cli": "2026-09-22T09:42:54Z",
         "MoonshotAI/Kimi-Vendor-Verifier": "2026-09-17T09:09:22Z",
         "MoonshotAI/Kimi-Dev": "2025-09-30T02:15:54Z",
         "MoonshotAI/MoBA": "2025-04-03T07:28:06Z",
-        "MoonshotAI/kimi-cli": "2026-09-22T09:42:54Z",
         "MoonshotAI/Kimi-k1.5": "2025-03-07T11:16:36Z",
         "MoonshotAI/FlashKDA": "2026-09-01T08:19:05Z",
         "MoonshotAI/PerceptionBench": "2026-08-03T08:33:26Z",
@@ -432,12 +434,10 @@
         "MoonshotAI/Kimi-K2.5": "2026-08-06T10:42:43Z",
         "MoonshotAI/Kimi-Audio": "2025-06-21T15:30:28Z",
         "MoonshotAI/kimi-help-center": "2026-09-23T13:44:44Z",
-        "MoonshotAI/Kimi-Linear": "2025-11-17T09:36:48Z",
         "MoonshotAI/Attention-Residuals": "2026-03-17T06:23:11Z",
-        "MoonshotAI/Moonlight": "2025-08-03T06:31:18Z",
-        "MoonshotAI/K2-Vendor-Verifier": "2026-02-14T05:28:46Z"
+        "MoonshotAI/Moonlight": "2025-08-03T06:31:18Z"
       },
-      "last_changed_at": "2026-09-24T19:13:57.065427Z",
+      "last_changed_at": "2026-09-25T00:37:03.186265Z",
       "source_signature": "c925f37596aaabb84376bf83142f08b0ce08447179a5d27a52c7956a40180daa",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -642,6 +642,7 @@
       "last_checked_at": "2026-07-02T04:51:56.844085Z",
       "baseline_initialized": true,
       "repos": {
+        "InternLM/Visual-ERM": "2026-03-23T08:36:21Z",
         "InternLM/lmdeploy": "2026-09-23T07:34:01Z",
         "InternLM/WildClawBench": "2026-09-18T07:51:29Z",
         "InternLM/InternBootcamp": "2026-09-12T04:10:45Z",
@@ -660,10 +661,9 @@
         "InternLM/archspace": "2026-08-27T06:54:25Z",
         "InternLM/Intern-S1": "2026-09-13T11:54:22Z",
         "InternLM/ARM-Thinker": "2026-02-13T09:00:05Z",
-        "InternLM/EndoCoT": "2026-08-11T12:58:37Z",
-        "InternLM/InternLM-Law": "2024-05-14T07:44:09Z"
+        "InternLM/EndoCoT": "2026-08-11T12:58:37Z"
       },
-      "last_changed_at": "2026-09-24T22:23:58.869972Z",
+      "last_changed_at": "2026-09-25T00:37:03.186265Z",
       "source_signature": "a7a2f73a91108336ba1fe2d4fb4d5921862eb329f648d490a4d7903663f49f70",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -676,27 +676,27 @@
       "baseline_initialized": true,
       "repos": {
         "QwenLM/Qwen-Image-2.1": "2026-09-20T12:25:51Z",
+        "QwenLM/Qwen-Image": "2026-02-10T07:37:37Z",
+        "QwenLM/Qwen3-Embedding": "2025-09-30T06:10:27Z",
+        "QwenLM/Qwen-Image-Layered": "2025-12-31T11:40:35Z",
         "QwenLM/RecreationWorld": "2026-09-21T05:02:19Z",
         "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
         "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
-        "QwenLM/qwen-code": "2026-09-24T22:11:47Z",
+        "QwenLM/qwen-code": "2026-09-25T00:35:49Z",
         "QwenLM/Qwen3.8": "2026-08-17T05:17:40Z",
         "QwenLM/Qwen3.8-Flash-Next": "2026-08-27T07:31:36Z",
         "QwenLM/E-CommerceBench": "2026-09-13T04:58:29Z",
         "QwenLM/Qwen-AgentWorld": "2026-07-20T11:52:07Z",
         "QwenLM/CodeElo": "2025-02-03T20:27:19Z",
-        "QwenLM/Qwen-Image-Layered": "2025-12-31T11:40:35Z",
         "QwenLM/Qwen-Agent": "2026-03-04T08:15:07Z",
         "QwenLM/Qwen": "2026-03-05T13:55:17Z",
         "QwenLM/Qwen3-ASR": "2026-06-26T08:20:17Z",
-        "QwenLM/Qwen-Image": "2026-02-10T07:37:37Z",
         "QwenLM/Qwen-MM-Plugins": "2026-09-23T10:44:38Z",
         "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
         "QwenLM/Qwen3-VL-Embedding": "2026-06-23T10:39:17Z",
-        "QwenLM/Qwen-Live-Harness": "2026-09-21T10:26:39Z",
-        "QwenLM/qwen-code-docs": "2026-09-23T22:58:46Z"
+        "QwenLM/Qwen-Live-Harness": "2026-09-21T10:26:39Z"
       },
-      "last_changed_at": "2026-09-24T22:23:58.869972Z",
+      "last_changed_at": "2026-09-25T00:37:03.186265Z",
       "source_signature": "ddc0d8d3788b1fc4ba6779bc400a51934ce7ac0845fbfff67f906a6d77406e21",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -705,14 +705,15 @@
       "last_checked_at": "2026-07-02T04:52:01.889603Z",
       "baseline_initialized": true,
       "repos": {
+        "Tencent-Hunyuan/HunyuanVideo": "2026-06-29T09:33:50Z",
+        "Tencent-Hunyuan/HY-WorldPlay": "2026-06-10T07:10:23Z",
+        "Tencent-Hunyuan/Hy-MT2": "2026-08-26T01:48:04Z",
         "Tencent-Hunyuan/Hunyuan3D-2": "2025-10-28T09:58:12Z",
         "Tencent-Hunyuan/HunyuanVideo-Foley": "2025-09-28T17:48:49Z",
         "Tencent-Hunyuan/Hy4-preview": "2026-08-28T12:48:34Z",
         "Tencent-Hunyuan/AuK": "2026-09-22T15:05:26Z",
         "Tencent-Hunyuan/HY-World-2.0": "2026-08-12T16:15:12Z",
-        "Tencent-Hunyuan/HunyuanVideo": "2026-06-29T09:33:50Z",
         "Tencent-Hunyuan/Hunyuan3D-2.1": "2025-10-17T10:10:07Z",
-        "Tencent-Hunyuan/Hy-MT2": "2026-08-26T01:48:04Z",
         "Tencent-Hunyuan/Hy3": "2026-07-17T10:11:52Z",
         "Tencent-Hunyuan/UniRL": "2026-09-24T17:37:36Z",
         "Tencent-Hunyuan/Hunyuan3D-WorldClaw": "2026-08-13T05:47:55Z",
@@ -723,10 +724,9 @@
         "Tencent-Hunyuan/Hunyuan3D-1": "2025-11-19T07:07:41Z",
         "Tencent-Hunyuan/HY-Motion-1.0": "2026-07-18T15:13:36Z",
         "Tencent-Hunyuan/HY-Video-PRFL": "2026-01-13T06:19:01Z",
-        "Tencent-Hunyuan/HunyuanVideo-1.5": "2026-04-10T06:14:59Z",
-        "Tencent-Hunyuan/HunyuanOCR": "2026-09-24T07:48:50Z"
+        "Tencent-Hunyuan/HunyuanVideo-1.5": "2026-04-10T06:14:59Z"
       },
-      "last_changed_at": "2026-09-24T22:23:58.869972Z",
+      "last_changed_at": "2026-09-25T00:37:03.186265Z",
       "source_signature": "637ce9b3bc2d070666c42f5fd92e749870848ee35ed6d4c156f831c9bc8f2d04",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -2149,7 +2149,7 @@
     },
     "aihot-selected": {
       "last_raw_count": 50,
-      "last_polled_at": "2026-09-24T22:23:58.869972Z",
+      "last_polled_at": "2026-09-25T00:37:03.186265Z",
       "source_signature": "54b0a2ce37b31eed7de5728f2ad3467d3fff1ec95a53a03f9ee11a9fa197fda4",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-09T08:44:50.779962Z",
