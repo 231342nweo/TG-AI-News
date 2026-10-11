@@ -453,12 +453,13 @@
       "last_checked_at": "2026-07-02T04:51:40.485322Z",
       "baseline_initialized": true,
       "repos": {
-        "zai-org/ZCode": "2026-10-10T11:02:50Z",
+        "zai-org/ChatGLM-6B": "2024-06-27T04:05:25Z",
+        "zai-org/CodeGeeX": "2024-08-13T05:59:38Z",
         "zai-org/GLM-OCR": "2026-04-21T08:52:11Z",
+        "zai-org/ZCode": "2026-10-10T11:02:50Z",
         "zai-org/CogVLM": "2024-05-29T10:01:33Z",
         "zai-org/zcode-plugins": "2026-10-08T15:21:27Z",
         "zai-org/ChatGLM2-6B": "2024-06-27T04:05:08Z",
-        "zai-org/ChatGLM-6B": "2024-06-27T04:05:25Z",
         "zai-org/Open-AutoGLM": "2026-03-06T08:38:39Z",
         "zai-org/ImageReward": "2025-10-29T13:40:51Z",
         "zai-org/CogVideo": "2025-11-04T11:19:04Z",
@@ -471,10 +472,9 @@
         "zai-org/GLM-V": "2026-10-10T05:20:50Z",
         "zai-org/ChatGLM3": "2025-01-13T06:55:26Z",
         "zai-org/CogAgent": "2025-04-04T13:29:55Z",
-        "zai-org/SCAIL": "2026-05-06T14:59:54Z",
-        "zai-org/RealVideo": "2025-12-15T07:50:46Z"
+        "zai-org/SCAIL": "2026-05-06T14:59:54Z"
       },
-      "last_changed_at": "2026-10-10T22:00:00.832948Z",
+      "last_changed_at": "2026-10-11T00:43:21.603088Z",
       "source_signature": "0f9d07d7983b4898dc433a8d045a96469f65dff73642f9fe1fbf73cf3299210c",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -649,11 +649,11 @@
       "last_checked_at": "2026-07-02T04:51:56.844085Z",
       "baseline_initialized": true,
       "repos": {
+        "InternLM/ResOPD": "2026-10-09T08:03:10Z",
         "InternLM/Intern-Decision": "2026-09-29T08:43:55Z",
         "InternLM/MindSearch": "2025-07-04T10:06:45Z",
-        "InternLM/xtuner": "2026-10-10T19:01:24Z",
+        "InternLM/xtuner": "2026-10-10T22:27:58Z",
         "InternLM/InternEvo": "2025-08-21T02:35:36Z",
-        "InternLM/ResOPD": "2026-10-09T08:03:10Z",
         "InternLM/lmdeploy": "2026-10-09T03:58:16Z",
         "InternLM/InternLM": "2025-10-30T00:35:43Z",
         "InternLM/Tutorial": "2026-04-22T08:39:08Z",
@@ -670,7 +670,7 @@
         "InternLM/OpenAOE": "2025-06-19T13:58:16Z",
         "InternLM/CapRL": "2026-06-23T02:40:21Z"
       },
-      "last_changed_at": "2026-10-10T22:00:00.832948Z",
+      "last_changed_at": "2026-10-11T00:43:21.603088Z",
       "source_signature": "a7a2f73a91108336ba1fe2d4fb4d5921862eb329f648d490a4d7903663f49f70",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -682,10 +682,11 @@
       "last_checked_at": "2026-07-02T04:51:58.871155Z",
       "baseline_initialized": true,
       "repos": {
+        "QwenLM/qwen-code": "2026-10-11T00:36:10Z",
+        "QwenLM/qwen-code-action": "2026-08-03T07:53:08Z",
         "QwenLM/Qwen-Image-2.1": "2026-10-09T14:47:21Z",
-        "QwenLM/Qwen": "2026-03-05T13:55:17Z",
-        "QwenLM/qwen-code": "2026-10-10T21:59:21Z",
         "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
+        "QwenLM/Qwen": "2026-03-05T13:55:17Z",
         "QwenLM/Qwen-MM-Plugins": "2026-10-10T20:07:35Z",
         "QwenLM/Qwen-Image-Layered": "2025-12-31T11:40:35Z",
         "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
@@ -700,10 +701,9 @@
         "QwenLM/Qwen3-Coder": "2026-03-24T08:22:10Z",
         "QwenLM/qwen-code-docs": "2026-10-10T13:24:57Z",
         "QwenLM/Qwen-Live-Harness": "2026-09-28T08:41:18Z",
-        "QwenLM/Qwen3-VL-Embedding": "2026-06-23T10:39:17Z",
-        "QwenLM/Qwen-VL": "2024-08-07T02:37:06Z"
+        "QwenLM/Qwen3-VL-Embedding": "2026-06-23T10:39:17Z"
       },
-      "last_changed_at": "2026-10-10T22:00:00.832948Z",
+      "last_changed_at": "2026-10-11T00:43:21.603088Z",
       "source_signature": "ddc0d8d3788b1fc4ba6779bc400a51934ce7ac0845fbfff67f906a6d77406e21",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -712,28 +712,28 @@
       "last_checked_at": "2026-07-02T04:52:01.889603Z",
       "baseline_initialized": true,
       "repos": {
+        "Tencent-Hunyuan/Prism": "2026-10-06T15:14:31Z",
+        "Tencent-Hunyuan/HY-World-2.0": "2026-08-12T16:15:12Z",
+        "Tencent-Hunyuan/Hunyuan3D-2.1": "2025-10-17T10:10:07Z",
+        "Tencent-Hunyuan/HunyuanOCR": "2026-09-24T07:48:50Z",
+        "Tencent-Hunyuan/Hy3": "2026-07-17T10:11:52Z",
+        "Tencent-Hunyuan/HunyuanVideo-Foley": "2025-09-28T17:48:49Z",
+        "Tencent-Hunyuan/Hy-MT2": "2026-08-26T01:48:04Z",
+        "Tencent-Hunyuan/Hunyuan3D-2": "2025-10-28T09:58:12Z",
         "Tencent-Hunyuan/HunyuanImage-3.0": "2026-06-23T13:12:44Z",
         "Tencent-Hunyuan/Hunyuan-1.8B": "2025-08-05T05:33:50Z",
         "Tencent-Hunyuan/HunyuanVideo-I2V": "2026-04-07T06:13:09Z",
-        "Tencent-Hunyuan/Hy-MT2": "2026-08-26T01:48:04Z",
-        "Tencent-Hunyuan/Hunyuan3D-2": "2025-10-28T09:58:12Z",
         "Tencent-Hunyuan/HunyuanVideo": "2026-10-08T08:57:37Z",
         "Tencent-Hunyuan/Hunyuan3D-Omni": "2025-10-17T10:13:05Z",
         "Tencent-Hunyuan/HunyuanPortrait": "2025-12-07T17:27:14Z",
-        "Tencent-Hunyuan/Hunyuan3D-2.1": "2025-10-17T10:10:07Z",
         "Tencent-Hunyuan/UniRL": "2026-10-10T13:56:02Z",
         "Tencent-Hunyuan/Hunyuan3D-WorldClaw": "2026-08-13T05:47:55Z",
-        "Tencent-Hunyuan/HY-World-2.0": "2026-08-12T16:15:12Z",
-        "Tencent-Hunyuan/HunyuanVideo-Foley": "2025-09-28T17:48:49Z",
-        "Tencent-Hunyuan/Prism": "2026-10-06T15:14:31Z",
         "Tencent-Hunyuan/HunyuanWorld-1.0": "2026-04-15T17:27:25Z",
         "Tencent-Hunyuan/AuK": "2026-10-10T02:46:49Z",
         "Tencent-Hunyuan/OmniWeaving": "2026-04-11T08:19:27Z",
-        "Tencent-Hunyuan/Hy-Embodied-0.5-VLA": "2026-08-04T07:32:42Z",
-        "Tencent-Hunyuan/HY-Embodied": "2026-07-15T11:54:12Z",
-        "Tencent-Hunyuan/HY-Motion-1.0": "2026-07-18T15:13:36Z"
+        "Tencent-Hunyuan/Hy-Embodied-0.5-VLA": "2026-08-04T07:32:42Z"
       },
-      "last_changed_at": "2026-10-10T18:44:49.009020Z",
+      "last_changed_at": "2026-10-11T00:43:21.603088Z",
       "source_signature": "637ce9b3bc2d070666c42f5fd92e749870848ee35ed6d4c156f831c9bc8f2d04",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -2187,11 +2187,12 @@
     },
     "aihot-selected": {
       "last_raw_count": 50,
-      "last_polled_at": "2026-10-10T22:00:00.832948Z",
+      "last_polled_at": "2026-10-11T00:43:21.603088Z",
       "source_signature": "54b0a2ce37b31eed7de5728f2ad3467d3fff1ec95a53a03f9ee11a9fa197fda4",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-09T08:44:50.779962Z",
       "seen_keys": [
+        "https://www.marktechpost.com/2026/10/10/when-the-safety-test-became-the-threat-the-machine-that-found-its-own-way-out",
         "https://x.com/SaitoWu/status/2108919486581796872",
         "https://the-decoder.com/how-much-beauty-have-we-lost-mathematicians-react-with-shock-and-disgust-as-openai-bulldozes-their-field",
         "https://x.com/indigox/status/2108791275914993998",
@@ -2490,10 +2491,9 @@
         "https://www.youtube.com/shorts/u-3cPWPvRUE",
         "https://x.com/AnthropicAI/status/2104633259925630995",
         "https://x.com/claudeai/status/2104633115620823187",
-        "https://x.com/arena/status/2104632801740132772",
-        "https://the-decoder.com/anthropics-claude-sonnet-5-5-nearly-matches-opus-5-5-on-benchmarks-while-costing-up-to-30-percent-less-per-task"
+        "https://x.com/arena/status/2104632801740132772"
       ],
-      "last_changed_at": "2026-10-10T14:27:17.223502Z"
+      "last_changed_at": "2026-10-11T00:43:23.758338Z"
     }
   }
 }
