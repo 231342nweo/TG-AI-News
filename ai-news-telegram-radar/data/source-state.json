@@ -453,17 +453,18 @@
       "last_checked_at": "2026-07-02T04:51:40.485322Z",
       "baseline_initialized": true,
       "repos": {
-        "zai-org/CogVideo": "2025-11-04T11:19:04Z",
+        "zai-org/GLM-5": "2026-09-24T10:28:33Z",
+        "zai-org/Open-AutoGLM": "2026-03-06T08:38:39Z",
+        "zai-org/CodeGeeX2": "2024-07-10T12:34:55Z",
+        "zai-org/ChatGLM2-6B": "2024-06-27T04:05:08Z",
         "zai-org/ZCode": "2026-10-10T11:02:50Z",
+        "zai-org/CogVideo": "2025-11-04T11:19:04Z",
         "zai-org/ChatGLM-6B": "2024-06-27T04:05:25Z",
         "zai-org/Synapse": "2026-07-31T07:25:27Z",
-        "zai-org/Open-AutoGLM": "2026-03-06T08:38:39Z",
         "zai-org/CogView4": "2025-03-29T07:09:58Z",
         "zai-org/CogAgent": "2025-04-04T13:29:55Z",
         "zai-org/CogVLM2": "2025-03-03T03:01:31Z",
         "zai-org/SCAIL": "2026-05-06T14:59:54Z",
-        "zai-org/ChatGLM2-6B": "2024-06-27T04:05:08Z",
-        "zai-org/GLM-5": "2026-09-24T10:28:33Z",
         "zai-org/GLM-4-Voice": "2024-12-05T07:10:01Z",
         "zai-org/zcode-plugins": "2026-10-08T15:21:27Z",
         "zai-org/GLM-OCR": "2026-04-21T08:52:11Z",
@@ -471,10 +472,9 @@
         "zai-org/ChatGLM3": "2025-01-13T06:55:26Z",
         "zai-org/GLM-TTS": "2026-04-10T08:50:23Z",
         "zai-org/GLM-4": "2026-08-05T07:08:46Z",
-        "zai-org/SCAIL-2": "2026-08-24T13:30:59Z",
-        "zai-org/CodeGeeX4": "2024-08-25T14:26:16Z"
+        "zai-org/SCAIL-2": "2026-08-24T13:30:59Z"
       },
-      "last_changed_at": "2026-10-11T21:49:26.197167Z",
+      "last_changed_at": "2026-10-12T00:45:07.207758Z",
       "source_signature": "0f9d07d7983b4898dc433a8d045a96469f65dff73642f9fe1fbf73cf3299210c",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -682,28 +682,28 @@
       "last_checked_at": "2026-07-02T04:51:58.871155Z",
       "baseline_initialized": true,
       "repos": {
-        "QwenLM/qwen-code": "2026-10-11T20:49:42Z",
+        "QwenLM/qwen-code": "2026-10-12T00:41:11Z",
+        "QwenLM/Qwen-Image-2.1": "2026-10-09T14:47:21Z",
+        "QwenLM/Qwen3-ASR": "2026-06-26T08:20:17Z",
+        "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
+        "QwenLM/FlashQLA": "2026-09-30T13:03:29Z",
+        "QwenLM/Qwen": "2026-03-05T13:55:17Z",
         "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
         "QwenLM/Qwen3-VL-Embedding": "2026-06-23T10:39:17Z",
-        "QwenLM/Qwen-Image-2.1": "2026-10-09T14:47:21Z",
         "QwenLM/Qwen3-Coder": "2026-03-24T08:22:10Z",
-        "QwenLM/Qwen": "2026-03-05T13:55:17Z",
         "QwenLM/Qwen-MM-Plugins": "2026-10-11T05:16:53Z",
-        "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
         "QwenLM/Qwen2-Audio": "2025-04-21T08:50:49Z",
         "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
         "QwenLM/Qwen3.8": "2026-08-17T05:17:40Z",
-        "QwenLM/Qwen3-ASR": "2026-06-26T08:20:17Z",
         "QwenLM/Qwen-Audio": "2024-07-05T09:17:49Z",
         "QwenLM/Qwen-Agent": "2026-03-04T08:15:07Z",
         "QwenLM/Qwen-Image": "2026-02-10T07:37:37Z",
         "QwenLM/Qwen-Image-Layered": "2025-12-31T11:40:35Z",
         "QwenLM/Qwen3-Omni": "2026-04-23T10:58:01Z",
         "QwenLM/open-computer-use": "2026-06-10T16:38:07Z",
-        "QwenLM/Qwen-Image-Bench": "2026-06-18T10:00:04Z",
-        "QwenLM/Qwen3.8-Flash-Next": "2026-08-27T07:31:36Z"
+        "QwenLM/Qwen-Image-Bench": "2026-06-18T10:00:04Z"
       },
-      "last_changed_at": "2026-10-11T21:49:26.197167Z",
+      "last_changed_at": "2026-10-12T00:45:07.207758Z",
       "source_signature": "ddc0d8d3788b1fc4ba6779bc400a51934ce7ac0845fbfff67f906a6d77406e21",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -2187,11 +2187,12 @@
     },
     "aihot-selected": {
       "last_raw_count": 50,
-      "last_polled_at": "2026-10-11T21:49:26.197167Z",
+      "last_polled_at": "2026-10-12T00:45:07.207758Z",
       "source_signature": "54b0a2ce37b31eed7de5728f2ad3467d3fff1ec95a53a03f9ee11a9fa197fda4",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-09T08:44:50.779962Z",
       "seen_keys": [
+        "https://x.com/thsottiaux/status/2109430343346581527",
         "https://www.marktechpost.com/2026/10/10/when-the-safety-test-became-the-threat-the-machine-that-found-its-own-way-out",
         "https://x.com/SaitoWu/status/2108919486581796872",
         "https://the-decoder.com/how-much-beauty-have-we-lost-mathematicians-react-with-shock-and-disgust-as-openai-bulldozes-their-field",
@@ -2490,10 +2491,9 @@
         "https://www.youtube.com/watch?v=s5nkj-L2vAw",
         "https://www.youtube.com/shorts/u-3cPWPvRUE",
         "https://x.com/AnthropicAI/status/2104633259925630995",
-        "https://x.com/claudeai/status/2104633115620823187",
-        "https://x.com/arena/status/2104632801740132772"
+        "https://x.com/claudeai/status/2104633115620823187"
       ],
-      "last_changed_at": "2026-10-11T00:43:23.758338Z"
+      "last_changed_at": "2026-10-12T00:45:09.366883Z"
     }
   }
 }
