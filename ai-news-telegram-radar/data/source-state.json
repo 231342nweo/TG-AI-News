@@ -204,12 +204,12 @@
       "baseline_reinitialized_at": "2026-07-02T10:22:21.295328Z"
     },
     "volcengine-ark-models": {
-      "fingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "fingerprint": "e71acb216dfc41d0a607de47b1bad60cb34caae606f377b7932465778bf0011a",
       "last_checked_at": "2026-07-02T04:51:33.147542Z",
-      "last_excerpt": "",
+      "last_excerpt": "文档中心 登录 注册 火山方舟 文档指南 订阅 [Agent/Coding Plan] API参考 资源 AI 套件 火山方舟 火山方舟 文档指南 请输入 入门 产品简介 快速入门 模型价格 Agent 场景模型调用的正确姿势 迁移到方舟官方 SDK 模型 模型列表 Seed-Evolving DeepSeek-V4.1-Flash（升级 1017） 调用 文本生成 多模态理解 图片理解 视频理解 文档理解 音频理解 视频生成 Doubao Seedance 2.5 教程 Doubao Seedance 2.5 提示词指南 Doubao Seedance 2.0 系列教程 Doubao Seedance 2.0 系列提示词指南 视频生成教程 Doubao Seedance 便利创作含肖像视频 图片生成 Doubao Seedream 5.0 pro / flash 教程 Doubao Seedream 5.0 pro / flash 实现交互编辑指南 图片生成教程 决策评估（beta） 领域模型 3D 生成 向量化 工具调用 工具概述 豆包助手 联网搜索工具 Image Process（图像处理） 私域知识库搜索 Knowledge Search 云部署 MCP / Remote MCP Function Calling（函数调用） Apply Patch（代码补丁工具） 进阶使用 深度思考 上下文管理 流式输出 续写模式 上下文缓存 文件输入(Files API) GUI Agent 能力 视觉定位 Grounding 提示词工程 结构化输出(beta) 接入三方工具 使用 Responses API 迁移至 Responses API 文本生成 深度思考 多模态理解 工具调用 结构化输出(beta) 上下文编辑 推理 推理方式概述 在线推理（常规） 在线推理（低延迟） 在线推理（低优） 在线推理（TPM 保障包） 在线推理（模型单元） 模型单元概述 创建模型单元 管理模型单元 批量推理 高级能力 智能模型路由 使用 MLP 推理服务 使用自定义模型进行推理 训练 模型精调 模型精调概述 有监督微调最佳实践 直接偏好优化最佳实践 强化学习最佳实践 Plugin 异常处理 精调 SDK 使用指南 精调数据集格式 格式总览 语言及多模态理解模型精调数据格式 图片生成模型精调数据格式 视频生成模型精调数据格式 管理自定义模型 模型评测 创建模型评测任务 查看并管理模型评测任务 评测数据集格式说明 人工评测 人工评测作业 查看评测报告 数据集 数据集介绍 共享数据集 Managed Agents 快速上手 概述 快速入门（代码） 快速入门（控制台） 定义 Agent Agent Skills MCP Tools 工具权限策略 模型支持的参数列表 配置 Agent 环境 配置云环境 云沙箱参考 自托管环境 自托管环境概述 配置并运行自托管环境 自托管环境安全说明 委派任务给 Agent 启动 Session 管理 Session Session 事件流 使用 Vaults 认证 运行和管理后台工具任务 管理 Agent 上下文 上传与挂载文件 持久化记忆 使用 Dream 整理长期记忆 高级能力 编排 Multi Agent 应用 将零代码应用迁移至 Managed Agents 知识库 文档首页 火山方舟 模型 模型列表 复制全文 下载 pdf 我的收藏 模型 模型列表 复制全文 下载 pdf 我的收藏 模型列表 文档反馈 问问助手 方舟提供多种模型供您使用。您可浏览所有模型，比较它们的能力。 ​ 模型推荐 ​ Doubao Seedance 2.5 ​ 豆包高性能视频生成模型 ​ 4~30 秒视频生成，全模态参考输入 ​ ​ Doubao Seed Evolving ​ Seed 最新 Coding&Agent 模型 ​ 周级迭代，持续进化 Coding 与 Agent 能力 ​ ​ Doubao Seedream 5.0 pro ​ 最新图像创作模型 ​ 编辑更可控、生产更落地、效果更自然 ​ ​ ​ 文本生成能力 ​ 教程: 文本生成 、 深度思考 | API: Responses API 、 Chat API ​ 注意 ​ 本章节列出方舟平台所有支持文本生成能力的大语言模型。其中带\"深度思考\"能力标签的模型，默认调用即启用深度思考；如需仅执行文本生成任务，可通过调用参数关闭深度思考（Chat API 传入 thinking.type=disabled ，Responses API 传入 reasoning.effort=minimal ）后使用，参数详情参见 深度思考 。未带\"深度思考\"能力标签的模型（如 doubao-seed-character-251128）本身不支持深度思考，直接调用即可。 ​ 推荐模型 ​ ​ 模型 ID (Model ID) ​ 能力支持 ​ 长度限制（token） ​ 限流 ​ 非刚性保障，受平台负载/调用方式影响，详见 文档 ​ doubao-seed-evolving ​ 快速迭代模型 ​ 深度思考 ​ 文本生成 ​ 多模态理解 ​ GUI 任务处理 ​ 工具调用 ​ 结构化输出 ​ 上下文窗口: 1024k ​ 最大输入: 1024k ​ 最大回答(默认 4k) : 256k ​ 最大思维链: 256k ​ 最大 RPM: 500 ​ 最大 TPM: 1000000 ​ doubao-seed-2-1-pro-260915 ​ 深度思考 ​ 文本生成 ​ 多模态理解 ​ GUI 任务处理 ​ 工具调用 ​ 结构化输出 ​ 上下文窗口: 1024k ​ 最大输入: 1024k ​ 最大回答(默认 4k) : 256k ​ 最大思维链: 256k ​ 最大 RPM: 500 ​ 最大 TPM: 1000000 ​ doubao-seed-2-1-lite-260915 ​ 深度思考 ​ 文本生成 ​ 多模态理解 ​ GUI 任务处理 ​ 工具调用 ​ 结构化输出 ​ 上下文窗口: 1024k ​ 最大输入: 1024k ​ 最大回答(默认 4k) : 256k ​ 最大思维链: 256k ​ 最大 RPM: 30000 ​ 最大 TPM: 5000000 ​ doubao-seed-2-1-turbo-260628 ​ 深度思考 ​ 文本生成 ​ 多模态理解 ​ GUI 任务处理 ​ 工具调用 ​ 结构化输出 ​ 上下文窗口: 256k ​ 最大输入: 256k ​ 最大回答(默认 4k) : 256k ​ 最大思维链: 256k ​ 最大 RPM: 500 ​ 最大 TPM: 1000000 ​ ​ 其他模型 ​ ​ 模型 ID (Model ID) ​ 能力支持 ​ 长度限制（token） ​ 限流 ​ 非刚性保障，受平台负载/调用方式影响，详见 文档 ​ doubao-seed-2-1-pro-260628 ​ 深度思考 ​ 文本生成 ​ 多模态理解 ​ GUI 任务处理 ​ 工具调用 ​ 结构化输出（推荐使用 json_schema 模式） ​ 上下文窗口: 256k ​ 最大输入: 256k ​ 最大回答(默认 4k) : 256k ​ 最大思维链: 256k ​ 最大 RPM: 500 ​ 最大 TPM: 1000000 ​ doubao-seed-2-0-lite-260428 ​ 深度思考 ​ 文本生成 ​ 多模态理解 ​ GUI 任务处理 ​ 工具调用 ​ 结构化输出（推荐使用 json_schema 模式） ​ 上下文窗口: 256k ​ 最大输入: 224k ​ 最大回答(默认 4k) : 128k ​ 最大思维链: 128k ​ 最大 RPM: 30000 ​ 最大 TPM: 5000000 ​ doubao-seed-2-0-mini-260428 ​ 深度思考 ​ 文本生成 ​ 多模态理解 ​ GUI 任务处理 ​ 工具调用 ​ 结构化输出 ​ 上下文窗口: 256k ​ 最大输入: 224k ​ 最大回答(默认 4k) : 128k ​ 最大思维链: 128k ​ 最大 RPM: 30000 ​ 最大 TPM: 5000000 ​ doubao-seed-2-0-pro-260215 即将下线 ​ 深度思考 ​ 文本生成 ​ 多模态理解 ​ GUI 任务处理 ​ 工具调用 ​ 结构化输出 ​ 上下文窗口: 256k ​ 最大输入: 224k ​ 最大回答(默认 4k) : 128k ​ 最大思维链: 128k ​ 最大 RPM: 30000 ​ 最大 TPM: 5000000 ​ doubao-seed-2-0-lite-260215 即将下线 ​ 深度思考 ​ 文本生成 ​ 多模态理解 ​ GUI 任务处理 ​ 工具调用 ​ 结构化输出 ​ 上下文窗口: 256k ​ 最大输入: 224k ​ 最大回答(默认 4k) : 128k ​ 最大思维链: 128k ​ 最大 RPM: 30000 ​ 最大 TPM: 5000000 ​ doubao-seed-2-0-mini-260215 即将下线 ​ 深度思考 ​ 文本生成 ​ 多模态理解 ​ GUI 任务处理 ​ 工具调用 ​ 结构化输出 ​ 上下文窗口: 256k ​ 最大输入: 224k ​ 最大回答(默认 4k) : 128k ​ 最大思维链: 128k ​ 最大 RPM: 30000 ​ 最大 TPM: 5000000 ​ d",
       "baseline_initialized": true,
       "baseline_invalid": true,
-      "last_changed_at": "2026-10-24T19:34:22.139359Z",
+      "last_changed_at": "2026-10-24T21:49:54.433710Z",
       "source_signature": "ab5ee375ff670169281a4aefbc9772546566386e665c24a65ec209061d7dfada",
       "baseline_reinitialized_at": "2026-07-02T10:22:21.295328Z"
     },
@@ -404,28 +404,28 @@
       "last_checked_at": "2026-07-02T04:51:33.967446Z",
       "baseline_initialized": true,
       "repos": {
+        "deepseek-ai/FlashMLA": "2026-10-15T13:47:29Z",
         "deepseek-ai/deepseek-harness": "2026-10-23T15:25:40Z",
         "deepseek-ai/DeepInfer": "2026-10-21T04:55:44Z",
         "deepseek-ai/deepseek-recipe": "2026-10-19T17:51:18Z",
         "deepseek-ai/awesome-deepseek-integration": "2026-02-23T16:27:47Z",
+        "deepseek-ai/3FS": "2026-05-07T09:31:54Z",
+        "deepseek-ai/DeepEP": "2026-10-21T03:50:43Z",
+        "deepseek-ai/DeepSeek-V3": "2025-08-28T03:24:37Z",
+        "deepseek-ai/DeepSeek-Math": "2024-04-15T07:55:37Z",
         "deepseek-ai/Janus": "2025-02-01T07:58:29Z",
         "deepseek-ai/Engram": "2026-01-14T01:13:02Z",
-        "deepseek-ai/FlashMLA": "2026-10-15T13:47:29Z",
         "deepseek-ai/DeepGEMM": "2026-10-20T05:07:07Z",
-        "deepseek-ai/DeepEP": "2026-10-21T03:50:43Z",
         "deepseek-ai/awesome-deepseek-agent": "2026-09-17T03:21:52Z",
         "deepseek-ai/DeepSeek-R1": "2025-06-27T08:35:54Z",
         "deepseek-ai/DeepSeek-OCR": "2026-01-27T03:45:14Z",
-        "deepseek-ai/3FS": "2026-05-07T09:31:54Z",
-        "deepseek-ai/DeepSeek-V3": "2025-08-28T03:24:37Z",
         "deepseek-ai/DeepSeek-MoE": "2024-01-16T12:18:10Z",
         "deepseek-ai/DeepSeek-LLM": "2024-02-04T12:22:16Z",
         "deepseek-ai/DeepSeek-Coder": "2025-11-11T06:44:56Z",
         "deepseek-ai/open-infra-index": "2025-05-15T02:00:43Z",
-        "deepseek-ai/DeepSpec": "2026-07-09T04:37:14Z",
-        "deepseek-ai/TileKernels": "2026-10-14T05:49:06Z"
+        "deepseek-ai/DeepSpec": "2026-07-09T04:37:14Z"
       },
-      "last_changed_at": "2026-10-24T19:34:22.139359Z",
+      "last_changed_at": "2026-10-24T21:49:54.433710Z",
       "source_signature": "e247a4022cc1b9d1fcca44981d9eb5c7892416a57bcff15ec2fe2fc72cfd972e",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -434,7 +434,7 @@
       "last_checked_at": "2026-07-02T04:51:37.867265Z",
       "baseline_initialized": true,
       "repos": {
-        "MoonshotAI/kimi-code": "2026-10-24T19:23:27Z",
+        "MoonshotAI/kimi-code": "2026-10-24T19:44:02Z",
         "MoonshotAI/kimi-cli": "2026-09-22T09:42:54Z",
         "MoonshotAI/Kimi-K3": "2026-08-06T10:17:28Z",
         "MoonshotAI/Kimi-Audio": "2025-06-21T15:30:28Z",
@@ -455,7 +455,7 @@
         "MoonshotAI/Kimi-Dev": "2025-09-30T02:15:54Z",
         "MoonshotAI/Kimi-Audio-Evalkit": "2025-11-20T14:44:00Z"
       },
-      "last_changed_at": "2026-10-24T19:34:22.139359Z",
+      "last_changed_at": "2026-10-24T21:49:54.433710Z",
       "source_signature": "c925f37596aaabb84376bf83142f08b0ce08447179a5d27a52c7956a40180daa",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -694,13 +694,15 @@
       "last_checked_at": "2026-07-02T04:51:58.871155Z",
       "baseline_initialized": true,
       "repos": {
-        "QwenLM/Qwen-Image-2.1": "2026-10-14T10:08:25Z",
+        "QwenLM/qwen-code": "2026-10-24T21:49:28Z",
         "QwenLM/Qwen3-TTS": "2026-03-17T06:38:41Z",
-        "QwenLM/Qwen-Agent": "2026-03-04T08:15:07Z",
-        "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
-        "QwenLM/qwen-code": "2026-10-24T19:17:49Z",
-        "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
         "QwenLM/Qwen3-Coder": "2026-03-24T08:22:10Z",
+        "QwenLM/Qwen-Image-2.1": "2026-10-14T10:08:25Z",
+        "QwenLM/Qwen3": "2026-01-09T03:05:47Z",
+        "QwenLM/Qwen-MM-Plugins": "2026-10-23T08:05:51Z",
+        "QwenLM/Qwen3-Omni": "2026-04-23T10:58:01Z",
+        "QwenLM/Qwen-Agent": "2026-03-04T08:15:07Z",
+        "QwenLM/Qwen3-VL": "2026-01-30T04:47:30Z",
         "QwenLM/Qwen-Audio": "2024-07-05T09:17:49Z",
         "QwenLM/Qwen": "2026-03-05T13:55:17Z",
         "QwenLM/Qwen3.8-Flash-Next": "2026-08-27T07:31:36Z",
@@ -711,11 +713,9 @@
         "QwenLM/Qwen-Drive-1.0": "2026-09-03T01:38:48Z",
         "QwenLM/Qwen-Live-Harness": "2026-10-21T09:06:26Z",
         "QwenLM/Qwen-VL": "2024-08-07T02:37:06Z",
-        "QwenLM/Qwen-Image": "2026-02-10T07:37:37Z",
-        "QwenLM/Qwen-AgentWorld": "2026-07-20T11:52:07Z",
-        "QwenLM/open-computer-use": "2026-06-10T16:38:07Z"
+        "QwenLM/Qwen-Image": "2026-02-10T07:37:37Z"
       },
-      "last_changed_at": "2026-10-24T19:34:22.139359Z",
+      "last_changed_at": "2026-10-24T21:49:54.433710Z",
       "source_signature": "ddc0d8d3788b1fc4ba6779bc400a51934ce7ac0845fbfff67f906a6d77406e21",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -724,10 +724,12 @@
       "last_checked_at": "2026-07-02T04:52:01.889603Z",
       "baseline_initialized": true,
       "repos": {
+        "Tencent-Hunyuan/Hy-Nomas": "2026-10-24T08:09:41Z",
+        "Tencent-Hunyuan/Hunyuan3D-2.1": "2025-10-17T10:10:07Z",
+        "Tencent-Hunyuan/HunyuanWorld-Mirror": "2026-05-27T03:22:57Z",
+        "Tencent-Hunyuan/HY-WU": "2026-03-18T09:24:59Z",
         "Tencent-Hunyuan/HunyuanOCR": "2026-09-24T07:48:50Z",
         "Tencent-Hunyuan/HunyuanVideo": "2026-10-08T08:57:37Z",
-        "Tencent-Hunyuan/Hy-Nomas": "2026-10-24T08:09:41Z",
-        "Tencent-Hunyuan/HY-WU": "2026-03-18T09:24:59Z",
         "Tencent-Hunyuan/Hunyuan3D-2": "2025-10-28T09:58:12Z",
         "Tencent-Hunyuan/Hy-MT2": "2026-08-26T01:48:04Z",
         "Tencent-Hunyuan/HunyuanVideo-Foley": "2025-09-28T17:48:49Z",
@@ -737,15 +739,13 @@
         "Tencent-Hunyuan/Prism": "2026-10-15T07:45:34Z",
         "Tencent-Hunyuan/HiLS-Attention": "2026-08-13T12:46:21Z",
         "Tencent-Hunyuan/Tencent-Hunyuan-Large": "2024-12-06T08:15:56Z",
-        "Tencent-Hunyuan/Hunyuan3D-2.1": "2025-10-17T10:10:07Z",
         "Tencent-Hunyuan/Hy-MT": "2026-06-01T11:38:04Z",
         "Tencent-Hunyuan/HunyuanImage-3.0": "2026-06-23T13:12:44Z",
         "Tencent-Hunyuan/InstantCharacter": "2025-05-14T03:33:35Z",
         "Tencent-Hunyuan/HunyuanDiT": "2026-10-08T09:21:47Z",
-        "Tencent-Hunyuan/Hy3": "2026-07-17T10:11:52Z",
-        "Tencent-Hunyuan/Hunyuan-GameCraft-1.0": "2025-11-28T07:05:10Z"
+        "Tencent-Hunyuan/Hy3": "2026-07-17T10:11:52Z"
       },
-      "last_changed_at": "2026-10-24T19:34:22.139359Z",
+      "last_changed_at": "2026-10-24T21:49:54.433710Z",
       "source_signature": "637ce9b3bc2d070666c42f5fd92e749870848ee35ed6d4c156f831c9bc8f2d04",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -1426,8 +1426,8 @@
     },
     "tencent-huggingface": {
       "models": {
+        "tencent/Hy-Nomas": "2026-10-24T21:44:03.000Z",
         "tencent/Hy-Nomas-Diffusers": "2026-10-24T05:46:48.000Z",
-        "tencent/Hy-Nomas": "2026-10-23T21:50:10.000Z",
         "tencent/WeVisOne-VL-2B": "2026-10-23T06:43:35.000Z",
         "tencent/WeVisOne-VL-4B": "2026-10-23T06:40:09.000Z",
         "tencent/Hy-Memory-30B-A3B-GGUF": "2026-10-22T06:50:50.000Z",
@@ -1449,7 +1449,7 @@
       },
       "last_checked_at": "2026-07-02T04:51:33.147542Z",
       "baseline_initialized": true,
-      "last_changed_at": "2026-10-24T06:03:04.328157Z",
+      "last_changed_at": "2026-10-24T21:49:54.433710Z",
       "source_signature": "02d7601c1d854eab72d26dff11922e611205f62b41994239baa86dea0e53b5a4",
       "baseline_reinitialized_at": "2026-07-06T03:50:27.306264Z"
     },
@@ -2204,7 +2204,7 @@
     },
     "aihot-selected": {
       "last_raw_count": 50,
-      "last_polled_at": "2026-10-24T19:34:22.139359Z",
+      "last_polled_at": "2026-10-24T21:49:54.433710Z",
       "source_signature": "54b0a2ce37b31eed7de5728f2ad3467d3fff1ec95a53a03f9ee11a9fa197fda4",
       "baseline_initialized": true,
       "baseline_reinitialized_at": "2026-07-09T08:44:50.779962Z",
